@@ -1,0 +1,1442 @@
+[
+  {
+    "Id": 1,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "模拟平台类型(1是IOS，2是Androis，3是Windows，4是Mac，5是Linux，6是XboxOne，7是PS4)",
+    "Code": "SimulationPlatform#PlatformType",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 2,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "设置鼠标永久显示(0.还原,1.永久显示,2.永久隐藏)",
+    "Code": "SetCursorVisible#",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 3,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "一键毕业",
+    "Code": "RunOrderList#1",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 65,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "设置主界面可见性(0.隐藏主界面，1.显示主界面，也可以按\"[\"隐藏，按“]”恢复)",
+    "Code": "SetBattleViewVisible#0",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 79,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "角色升级道具共鸣链武器等一键获得全部",
+    "Code": "RunOrderList#2",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 4,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "随机添加道具",
+    "Code": "AddRandomItem",
+    "AutoClose": 0,
+    "View": "1"
+  },
+  {
+    "Id": 5,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "随机添加角色",
+    "Code": "AddRandomRole",
+    "AutoClose": 0,
+    "View": "1"
+  },
+  {
+    "Id": 6,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "添加物品",
+    "Code": "add_item id num",
+    "AutoClose": 0,
+    "View": "1"
+  },
+  {
+    "Id": 7,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "添加角色系统所有升级道具",
+    "Code": "add_role_sys_items",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 8,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "添加邮件",
+    "Code": "MailGm 邮件配置Id 道具Id@数量|道具Id@数量",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 9,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "接受任务",
+    "Code": "accept_quest 任务id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 10,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "完成任务",
+    "Code": "finish_quest 任务id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 11,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "清除所有任务数据",
+    "Code": "clear_all_quest",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 12,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "一键推进到任务节点",
+    "Code": "SkipToQuestNode#任务Id,节点Id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 13,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "完成当前追踪任务节点",
+    "Code": "FinishCurrentTrackQuestNode#当前追踪的第X个任务",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 14,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "传送到当前任务追踪位置",
+    "Code": "TeleportToCurQuestTrackPosition#当前追踪的第X个任务",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 15,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "传送到实体位置(可视化编辑实体ID)",
+    "Code": "TeleportToEntity#关卡实体Id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 100,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "查询关卡实体信息",
+    "Code": "ShowEntityInfo 关卡实体id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 101,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "玩法强制刷新",
+    "Code": "GmSetLevelPlayUpdateForce 玩法id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 102,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "传送到玩法坐标",
+    "Code": "GmTransferLevelPlay 玩法id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 103,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "切换玩法开启关闭",
+    "Code": "GmSetLevelPlaySwitch 玩法id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 104,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "切换玩法开启关闭(强制)",
+    "Code": "GmSetLevelPlaySwitchForce 玩法id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 105,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "设置玩法完成",
+    "Code": "GmSetLevelPlayComplete 玩法id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 106,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "玩法正常刷新(一次性玩法不生效)",
+    "Code": "GmSetLevelPlayUpdate 玩法id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 16,
+    "Type": 5,
+    "Sort": 1,
+    "Name": "掉落",
+    "Code": "Drop dropId level",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 17,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "添加一个新角色",
+    "Code": "add_new_role",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 18,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "升级一个角色",
+    "Code": "add_role_level",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 19,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "添加所有道具",
+    "Code": "add_item_all",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 20,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "清空背包",
+    "Code": "clear_pkg_all",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 22,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "添加所有角色",
+    "Code": "add_all_role",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 23,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开战斗编队界面",
+    "Code": "OpenEditBattleTeamView#副本ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 59,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开过场cg",
+    "Code": "ShowVideo#过场cg名",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 58,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "测试客户端条件",
+    "Code": "TestCondition#条件类型,[参数名1|参数1],[参数名2|参数2]",
+    "AutoClose": 0,
+    "View": "1"
+  },
+  {
+    "Id": 57,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "调节游戏时间流速",
+    "Code": "SetTimeScale#0.5",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 28,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "添加武器道具",
+    "Code": "AddWeapon ItemId Level Num",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 30,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "开启界面缓存功能(1开启, 0关闭)",
+    "Code": "OpenViewCache#1",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 35,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开音量调节测试界面",
+    "Code": "OpenVolumeView",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 36,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "传送到指定坐标点",
+    "Code": "TeleportToPosition#X,Y,Z",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 37,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "激活传送点",
+    "Code": "ActivateTeleport 传送点Id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 40,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "触发引导",
+    "Code": "GuideTrigger#引导组id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 41,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开商店",
+    "Code": "OpenShopView#id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 42,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "初始化鸣素体状态（重登生效）",
+    "Code": "ClearMingSu",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 43,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "播放剧情",
+    "Code": "PlaySequence#剧情资源路径.剧情ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 45,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "强制提升玩家世界等级",
+    "Code": "PassWorldLevelUp",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 46,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "设置常规状态旋转屏幕灵敏度",
+    "Code": "SetCommonRotationScreenRate#",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 47,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "设置瞄准状态旋转屏幕灵敏度",
+    "Code": "SetArmRotationScreenRate#",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 50,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "造物点重置",
+    "Code": "GmResetGen 造物点ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 51,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "加葫芦的经验",
+    "Code": "add_hulu_exp 加多少经验",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 52,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "武器一件毕业",
+    "Code": "WeaponAllBoost",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 53,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "设置复活ID",
+    "Code": "SetReviveId 复活ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 54,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "增加复活区域",
+    "Code": "AddReviveRegion 复活ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 55,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "删除复活区域",
+    "Code": "RemoveReviveRegion 复活ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 56,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "取当前的复活ID",
+    "Code": "getreviveid",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 60,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "在输出日志中显示所填条件组的完成情况（不能用于需要开监听的条件）",
+    "Code": "ShowCondition 条件组ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 61,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "启动条件组监听，条件进度每有发生变化，就会在输出日志中刷新完成情况",
+    "Code": "MonitorCondition 条件组ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 63,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开某类通用提示",
+    "Code": "GMOpenPrompt#通用提示类型ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 64,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "读取玩法步骤组存档",
+    "Code": "LoadSceneStep 玩法步骤组ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 73,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "立即执行服务端下线",
+    "Code": "KickSelf",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 74,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "执行指定行为组",
+    "Code": "HandleRunAction#行为组ID,造物点ID,额外筛选Tag",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 75,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "清空引导",
+    "Code": "CleanGuideData",
+    "AutoClose": 0,
+    "View": "1"
+  },
+  {
+    "Id": 76,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "发送指定内容邮件",
+    "Code": "SendMail 标题 正文",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 77,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "通知服务器删除指定邮件",
+    "Code": "CallDeleteMail 邮件唯一Id 删除原因",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 78,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开龙池",
+    "Code": "OpenMingsuView#龙池Id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 80,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "触发trigger造物（GameSever后台可看输出）",
+    "Code": "TriggerGen 造物点",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 81,
+    "Type": 7,
+    "Sort": 1,
+    "Name": "解锁所有探索工具",
+    "Code": "GmUnlockExploreSKillAll",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 83,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "区域任务每天刷新",
+    "Code": "aq_daily_reset",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 84,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "区域任务每周刷新",
+    "Code": "aq_week_reset",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 85,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "加贡献值",
+    "Code": "add_devote",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 86,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "领取区域任务奖励",
+    "Code": "get_area_task_reward",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 87,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "刷新全部区域任务",
+    "Code": "aq_reset_all",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 88,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "传送到造物点",
+    "Code": "TeleportToGen 造物点Id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 90,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "播放剧情（新版）",
+    "Code": "PlayPlot#剧情",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 92,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "查询造物点所属实体位置信息",
+    "Code": "ShowGenEntityPos 造物点Id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 93,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "查询玩法/步骤组所属实体位置信息",
+    "Code": "ShowGamePlayEntityPos 玩法Id/步骤组Id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 94,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "添加一个GM角色配置表中的角色",
+    "Code": "add_new_role_config 配置表ID",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 95,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "添加指定角色好感度",
+    "Code": "add_role_favor 角色ID 经验值",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 96,
+    "Type": 5,
+    "Sort": 1,
+    "Name": "测试掉落",
+    "Code": "TestDrop 掉落Id 掉落次数 掉落等级",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 107,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "模拟版署包",
+    "Code": "SimulatePublication#1",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 108,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "幻象道具毕业",
+    "Code": "PhantomGraduate",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 109,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "联机测试一键生成账号",
+    "Code": "RunOrderList#4",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 110,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "进入深测副本",
+    "Code": "RunAction#12000113",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 111,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "幻象一键毕业",
+    "Code": "RunOrderList#5",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 112,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "角色试用区域激活",
+    "Code": "TrialRoleRegionActivate roleId regionId",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 113,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "注销角色试用区域",
+    "Code": "TrialRoleRegionInactivate roleId",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 114,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "副本角色试用激活",
+    "Code": "InstTrialRoleActivate roleId",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 115,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "副本角色试用关闭",
+    "Code": "InstTrialRoleInactivate roleId",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 116,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打印prefab对应的资源id",
+    "Code": "PrintResourceId#prefab名字",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 117,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打印prefab对应的ts文件名",
+    "Code": "PrintTsScriptName#prefab名字",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 118,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "创建多人副本",
+    "Code": "CreateInstance 170012000(副本id)",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 119,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "进入别人副本",
+    "Code": "EnterPlayerInstance 玩家id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 120,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "发放直购商品奖励",
+    "Code": "DirectGiveGoods 商品Id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 121,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "剧情开启跳过按钮（Debug功能）",
+    "Code": "TogglePlotSkipDebug",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 122,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "显示生态动物名字",
+    "Code": "ShowAnimalsHeadInfo#",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 123,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "关闭生态动物名字",
+    "Code": "CloseAnimalsHeadInfo#",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 124,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "测试抽卡",
+    "Code": "TestGacha 抽卡Id 次数",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 125,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "一键添加声骸相关道具",
+    "Code": "AddAllPhantom",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 126,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "切换天气",
+    "Code": "ChangeWeather#1",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 127,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "暂停天气",
+    "Code": "StopWeather",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 128,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "Ban天气",
+    "Code": "BanWeather",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 129,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开信息交互界面",
+    "Code": "OpenInfoDisplay#1",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 130,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打印Entity数量",
+    "Code": "PrintEntityCount",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 131,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "Disable Entity类型",
+    "Code": "SetEntityTypeDisable#NpcEntity",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 132,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "Enable Entity类型",
+    "Code": "SetEntityTypeEnable#NpcEntity",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 133,
+    "Type": 7,
+    "Sort": 1,
+    "Name": "解锁探索工具",
+    "Code": "GmUnlockExploreSKill 技能id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 134,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "查询对应id的Entity位置",
+    "Code": "GetLocationById#PbDataId",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 135,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "解锁全部传送点",
+    "Code": "ActivateTeleport 0",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 136,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "按类型一键接取任务",
+    "Code": "accept_all 0",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 137,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "设置角色等级",
+    "Code": "gmsetrolelevel 角色id 等级",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 138,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第2章账号快速生成-队伍1",
+    "Code": "RunOrderList#21",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 139,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第2章账号快速生成-队伍2",
+    "Code": "RunOrderList#22",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 140,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第2章账号快速生成-队伍3",
+    "Code": "RunOrderList#23",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 141,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第2章账号快速生成-队伍4",
+    "Code": "RunOrderList#24",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 142,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第3章账号快速生成-队伍1",
+    "Code": "RunOrderList#31",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 143,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第3章账号快速生成-队伍2",
+    "Code": "RunOrderList#32",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 144,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第3章账号快速生成-队伍3",
+    "Code": "RunOrderList#33",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 145,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第3章账号快速生成-队伍4",
+    "Code": "RunOrderList#34",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 146,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第4章账号快速生成-队伍1",
+    "Code": "RunOrderList#41",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 147,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第4章账号快速生成-队伍2",
+    "Code": "RunOrderList#42",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 148,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第4章账号快速生成-队伍3",
+    "Code": "RunOrderList#43",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 149,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第4章账号快速生成-队伍4",
+    "Code": "RunOrderList#44",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 150,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第5章账号快速生成-队伍1",
+    "Code": "RunOrderList#51",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 151,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第5章账号快速生成-队伍2",
+    "Code": "RunOrderList#52",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 152,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第5章账号快速生成-队伍3",
+    "Code": "RunOrderList#53",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 153,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第5章账号快速生成-队伍4",
+    "Code": "RunOrderList#54",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 154,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第6章账号快速生成-队伍1",
+    "Code": "RunOrderList#61",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 155,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第6章账号快速生成-队伍2",
+    "Code": "RunOrderList#62",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 156,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第6章账号快速生成-队伍3",
+    "Code": "RunOrderList#63",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 157,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第6章账号快速生成-队伍4",
+    "Code": "RunOrderList#64",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 158,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第7章账号快速生成-队伍1",
+    "Code": "RunOrderList#71",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 159,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第7章账号快速生成-队伍2",
+    "Code": "RunOrderList#72",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 160,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第7章账号快速生成-队伍3",
+    "Code": "RunOrderList#73",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 161,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "第7章账号快速生成-队伍4",
+    "Code": "RunOrderList#74",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 162,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开/关闭角色控物射线显示",
+    "Code": "SetManipulateTraceDebug#",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 163,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "烹饪解锁指定加工品",
+    "Code": "GmUnlockProcessed 加工品id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 164,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "烹饪解锁加工品指定线索",
+    "Code": "GmUnlockInteractive 线索id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 165,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "烹饪解锁指定料理",
+    "Code": "GmUnlockFormulate 料理id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 166,
+    "Type": 6,
+    "Sort": 1,
+    "Name": "烹饪增加厨师熟练度至",
+    "Code": "GmAddCookProficiency 熟练度值",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 167,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开对应副本入口",
+    "Code": "OpenFbEntrance#",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 168,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "一次性爬塔清空当前挑战",
+    "Code": "GmTowerChallengeReset 是否清空所有（1 是 0 否）",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 169,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "一次性爬塔开始挑战",
+    "Code": "GmTowerStartChallenge 挑战id",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 170,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "一次性爬塔当前挑战成功",
+    "Code": "GmTowerChallengeSuccess",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 171,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "一次性爬塔当前挑战失败并退出",
+    "Code": "GmTowerChallengeFail",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 172,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "一次性爬塔切换队伍",
+    "Code": "GmTowerChangeFightTeam",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 173,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "显示多语言文本的表格key",
+    "Code": "ShowLanguageKey#1",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 174,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "功能开启",
+    "Code": "FuncOpenGm 功能开启表ID(0 全部开启)",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 175,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "0.60战斗专项一键生成账号",
+    "Code": "RunOrderList#6",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 176,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开/关闭角色钩锁射线显示",
+    "Code": "SetGrapplingTraceDebug#",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 177,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "打开/关闭角色钩锁判断Log",
+    "Code": "SetGrapplingDebugLog#",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 178,
+    "Type": 4,
+    "Sort": 1,
+    "Name": "PV快速准备",
+    "Code": "RunOrderList#102",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 179,
+    "Type": 2,
+    "Sort": 1,
+    "Name": "一键获得常见道具",
+    "Code": "RunOrderList#104",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 180,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色10级",
+    "Code": "RunOrderList#75",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 181,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色15级",
+    "Code": "RunOrderList#76",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 182,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色20级",
+    "Code": "RunOrderList#77",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 183,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色30级",
+    "Code": "RunOrderList#78",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 184,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色40级",
+    "Code": "RunOrderList#79",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 185,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色50级",
+    "Code": "RunOrderList#80",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 186,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色60级",
+    "Code": "RunOrderList#81",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 187,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色70级",
+    "Code": "RunOrderList#82",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 188,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色80级",
+    "Code": "RunOrderList#83",
+    "AutoClose": 1,
+    "View": "1"
+  },
+  {
+    "Id": 189,
+    "Type": 1,
+    "Sort": 1,
+    "Name": "全角色90级",
+    "Code": "RunOrderList#84",
+    "AutoClose": 1,
+    "View": "1"
+  }
+]
