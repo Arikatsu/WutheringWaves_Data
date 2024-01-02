@@ -1,9 +1,9 @@
 # WW_Data
 
-Client region: CN
-Status: Beta
-Game Version: 0.8.0
-Resource Version: 0.8.9
+> Client region: CN</br>
+> Status: Beta</br>
+> Game Version: 0.8.0</br>
+> Resource Version: 0.8.9</br>
 
 pls star I'm starving
 
