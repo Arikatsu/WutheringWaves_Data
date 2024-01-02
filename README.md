@@ -1,5 +1,10 @@
 # WW_Data
 
+Client region: CN
+Status: Beta
+Game Version: 0.8.0
+Resource Version: 0.8.9
+
 pls star I'm starving
 
 #### BinData not parsed
