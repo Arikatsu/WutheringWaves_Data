@@ -8,20 +8,17 @@
     "IsShareAllCdSkill": true,
     "IsDefaultActivated": true,
     "TriggerType": "AttributeChangedTrigger",
-    "TriggerPreset": [
-      "0",
-      "3"
-    ],
-    "TriggerParams": "{\n    \"CheckAttackerTags\": [\n        \"角色.R2T1JueyuanMd10011.BUFFID.回血buff\",\n        \"角色.R2T1JueyuanMd10011.BUFFID.地面蓄力标记\"\n    ]\n}",
+    "TriggerPreset": ["0", "3"],
+    "TriggerParams": {
+      "CheckAttackerTags": [
+        "角色.R2T1JueyuanMd10011.BUFFID.回血buff",
+        "角色.R2T1JueyuanMd10011.BUFFID.地面蓄力标记"
+      ]
+    },
     "TriggerFormula": "MatchAnyTag(Owner, CheckAttackerTags) \nAND \nNewValue / GetAttributeByID(Owner,2) < 0.5 \nAND \nNewValue>OldValue",
-    "SubSkillAction": [
-      14010022,
-      14010023
-    ],
+    "SubSkillAction": [14010022, 14010023],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "720"
-    ]
+    "SkillActionParams": ["720"]
   },
   {
     "Id": 14010022,
@@ -33,13 +30,11 @@
     "IsDefaultActivated": true,
     "TriggerType": "",
     "TriggerPreset": [],
-    "TriggerParams": "{}",
+    "TriggerParams": {},
     "TriggerFormula": "FALSE",
     "SubSkillAction": [],
     "SkillAction": "RemoveBuff",
-    "SkillActionParams": [
-      "715#1"
-    ]
+    "SkillActionParams": ["715#1"]
   },
   {
     "Id": 14010031,
@@ -50,17 +45,17 @@
     "IsShareAllCdSkill": true,
     "IsDefaultActivated": true,
     "TriggerType": "AttributeChangedTrigger",
-    "TriggerPreset": [
-      "0",
-      "3"
-    ],
-    "TriggerParams": "{\n    \"CheckAttackerTags\": [\n        \"角色.R2T1JueyuanMd10011.BUFFID.回血buff\",\n        \"角色.R2T1JueyuanMd10011.BUFFID.地面蓄力标记\"\n    ]\n}",
+    "TriggerPreset": ["0", "3"],
+    "TriggerParams": {
+      "CheckAttackerTags": [
+        "角色.R2T1JueyuanMd10011.BUFFID.回血buff",
+        "角色.R2T1JueyuanMd10011.BUFFID.地面蓄力标记"
+      ]
+    },
     "TriggerFormula": "MatchAnyTag(Owner, CheckAttackerTags) \nAND \n( NewValue / GetAttributeByID(Owner,2) <= 0.5 \nOR \nNewValue / GetAttributeByID(Owner,2) > 0.8 )",
     "SubSkillAction": [],
     "SkillAction": "RemoveBuff",
-    "SkillActionParams": [
-      "720#-1"
-    ]
+    "SkillActionParams": ["720#-1"]
   },
   {
     "Id": 14010041,
@@ -72,13 +67,16 @@
     "IsDefaultActivated": true,
     "TriggerType": "",
     "TriggerPreset": [],
-    "TriggerParams": "{\n    \"CheckAttackerTags\": [\n        \"角色.R2T1JueyuanMd10011.BUFFID.回血buff\",\n        \"角色.R2T1JueyuanMd10011.BUFFID.地面蓄力标记\"\n    ]\n}",
+    "TriggerParams": {
+      "CheckAttackerTags": [
+        "角色.R2T1JueyuanMd10011.BUFFID.回血buff",
+        "角色.R2T1JueyuanMd10011.BUFFID.地面蓄力标记"
+      ]
+    },
     "TriggerFormula": "Accumulate(NewValue-OldValue, 1000)",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "720"
-    ]
+    "SkillActionParams": ["720"]
   },
   {
     "Id": 14010023,
@@ -90,13 +88,11 @@
     "IsDefaultActivated": true,
     "TriggerType": "",
     "TriggerPreset": [],
-    "TriggerParams": "{}",
+    "TriggerParams": {},
     "TriggerFormula": "FALSE",
     "SubSkillAction": [],
     "SkillAction": "RemoveBuff",
-    "SkillActionParams": [
-      "715#1"
-    ]
+    "SkillActionParams": ["715#1"]
   },
   {
     "Id": 14010051,
@@ -107,17 +103,14 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "AttributeChangedTrigger",
-    "TriggerPreset": [
-      "0",
-      "62"
-    ],
-    "TriggerParams": "{\n    \"CheckAttackerTags\": [\n        \"行为状态.逻辑状态.进入战斗\"\n    ]\n}",
+    "TriggerPreset": ["0", "62"],
+    "TriggerParams": {
+      "CheckAttackerTags": ["行为状态.逻辑状态.进入战斗"]
+    },
     "TriggerFormula": "MatchAnyTag(Owner, CheckAttackerTags) \nAND\nNewValue<OldValue\nAND\n(OldValue-NewValue)/GetAttributeByID(Owner,61)>=0.5",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "821"
-    ]
+    "SkillActionParams": ["821"]
   },
   {
     "Id": 14010061,
@@ -128,16 +121,12 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "HitTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": "{}",
+    "TriggerPreset": ["0"],
+    "TriggerParams": {},
     "TriggerFormula": "SkillID==1502101",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "821"
-    ]
+    "SkillActionParams": ["821"]
   },
   {
     "Id": 14010071,
@@ -148,16 +137,12 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "BeHitTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": "{}",
+    "TriggerPreset": ["0"],
+    "TriggerParams": {},
     "TriggerFormula": "GetAttributeByID(Owner,3) / GetAttributeByID(Owner,2)>0.5",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "821"
-    ]
+    "SkillActionParams": ["821"]
   },
   {
     "Id": 95010011,
@@ -168,16 +153,14 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "BeHitTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"行为状态.逻辑状态.进入战斗\"\n    ]\n}",
+    "TriggerPreset": ["0"],
+    "TriggerParams": {
+      "CheckOwnerTags": ["行为状态.逻辑状态.进入战斗"]
+    },
     "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags) \nAND GetAttributeByID(Owner,3)/GetAttributeByID(Owner,2)>0.5",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "821"
-    ]
+    "SkillActionParams": ["821"]
   },
   {
     "Id": 95010021,
@@ -188,16 +171,14 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "HitTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"行为状态.逻辑状态.进入战斗\"\n    ]\n}",
+    "TriggerPreset": ["0"],
+    "TriggerParams": {
+      "CheckOwnerTags": ["行为状态.逻辑状态.进入战斗"]
+    },
     "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags) \nAND GetAttributeByID(Owner,3)/GetAttributeByID(Owner,2)>0.5",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "5"
-    ]
+    "SkillActionParams": ["5"]
   },
   {
     "Id": 95010031,
@@ -208,16 +189,14 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "BeHitTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"怪物.common.状态标识.瘫痪中\"\n    ]\n}",
+    "TriggerPreset": ["0"],
+    "TriggerParams": {
+      "CheckOwnerTags": ["怪物.common.状态标识.瘫痪中"]
+    },
     "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags) \nAND GetAttributeByID(Owner,3)/GetAttributeByID(Owner,2)>0.5",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "5"
-    ]
+    "SkillActionParams": ["5"]
   },
   {
     "Id": 14010081,
@@ -228,16 +207,12 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "BeHitTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": "{}",
+    "TriggerPreset": ["0"],
+    "TriggerParams": {},
     "TriggerFormula": "DamageValue>(GetAttributeByID(Owner,2)*0.1)",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "5"
-    ]
+    "SkillActionParams": ["5"]
   },
   {
     "Id": 14010091,
@@ -248,16 +223,12 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "BeHitTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": "{}",
+    "TriggerPreset": ["0"],
+    "TriggerParams": {},
     "TriggerFormula": "Accumulate(1,3,DamageValue>0)",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "5"
-    ]
+    "SkillActionParams": ["5"]
   },
   {
     "Id": 14010101,
@@ -268,17 +239,12 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "AttributeChangedTrigger",
-    "TriggerPreset": [
-      "0",
-      "70"
-    ],
-    "TriggerParams": "{}",
+    "TriggerPreset": ["0", "70"],
+    "TriggerParams": {},
     "TriggerFormula": "Accumulate(NewValue-OldValue,\nGetAttributeByID(Owner,69)*0.5, NewValue<OldValue)",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "5"
-    ]
+    "SkillActionParams": ["5"]
   },
   {
     "Id": 14010052,
@@ -289,17 +255,12 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "AttributeChangedTrigger",
-    "TriggerPreset": [
-      "0",
-      "62"
-    ],
-    "TriggerParams": "{}",
+    "TriggerPreset": ["0", "62"],
+    "TriggerParams": {},
     "TriggerFormula": "NewValue<OldValue\nAND\n(OldValue-NewValue)/GetAttributeByID(Owner,61)>=0.5",
     "SubSkillAction": [],
     "SkillAction": "AddBullet",
-    "SkillActionParams": [
-      "800100003015"
-    ]
+    "SkillActionParams": ["800100003015"]
   },
   {
     "Id": 14010053,
@@ -310,17 +271,12 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "AttributeChangedTrigger",
-    "TriggerPreset": [
-      "0",
-      "62"
-    ],
-    "TriggerParams": "{}",
+    "TriggerPreset": ["0", "62"],
+    "TriggerParams": {},
     "TriggerFormula": "NewValue<OldValue\nAND\n(OldValue-NewValue)/GetAttributeByID(Owner,61)>=0.5",
     "SubSkillAction": [],
     "SkillAction": "RemoveBuff",
-    "SkillActionParams": [
-      "1502700077#-1"
-    ]
+    "SkillActionParams": ["1502700077#-1"]
   },
   {
     "Id": 14010054,
@@ -331,19 +287,12 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "AttributeChangedTrigger",
-    "TriggerPreset": [
-      "0",
-      "62"
-    ],
-    "TriggerParams": "{}",
+    "TriggerPreset": ["0", "62"],
+    "TriggerParams": {},
     "TriggerFormula": "NewValue<OldValue\nAND\n(OldValue-NewValue)/GetAttributeByID(Owner,61)>=0.5",
-    "SubSkillAction": [
-      14010055
-    ],
+    "SubSkillAction": [14010055],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "821"
-    ]
+    "SkillActionParams": ["821"]
   },
   {
     "Id": 14010055,
@@ -355,13 +304,11 @@
     "IsDefaultActivated": true,
     "TriggerType": "",
     "TriggerPreset": [],
-    "TriggerParams": "{}",
+    "TriggerParams": {},
     "TriggerFormula": "FALSE",
     "SubSkillAction": [],
     "SkillAction": "AddBullet",
-    "SkillActionParams": [
-      "800100003015"
-    ]
+    "SkillActionParams": ["800100003015"]
   },
   {
     "Id": 1302101064,
@@ -372,17 +319,14 @@
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
     "TriggerType": "HitTrigger",
-    "TriggerPreset": [
-      "2"
-    ],
-    "TriggerParams": "{\n    \"CheckMonsterTags\": [\n        \"角色.R2T1YinlinMd10011.状态.电荷附着\"\n    ],\n\"CheckOwnerTags\": [\n        \"角色.R2T1YinlinMd10011.状态.核心被动冷却\"\n    ]\n}",
+    "TriggerPreset": ["2"],
+    "TriggerParams": {
+      "CheckMonsterTags": ["角色.R2T1YinlinMd10011.状态.电荷附着"],
+      "CheckOwnerTags": ["角色.R2T1YinlinMd10011.状态.核心被动冷却"]
+    },
     "TriggerFormula": "MatchAnyTag(Victim, CheckMonsterTags) \nAND\n!MatchAnyTag(Owner, CheckOwnerTags)",
     "SubSkillAction": [],
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1302101065",
-      "1302101066",
-      "1302101067"
-    ]
+    "SkillActionParams": ["1302101065", "1302101066", "1302101067"]
   }
 ]

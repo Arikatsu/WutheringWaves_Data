@@ -3,7 +3,7 @@
 > Client region: CN</br>
 > Status: Beta</br>
 > Game Version: 0.8.0</br>
-> Resource Version: 0.8.10</br>
+> Resource Version: 0.8.4</br>
 
 pls star I'm starving
 
@@ -47,7 +47,6 @@ pls star I'm starving
 - heal/heal
 - hot_patch/hotpatchtext
 - instance_dungeon_step/dungeonstep
-- level_entity/levelentityconfig
 - loadingtips/loadingtips
 - mail/mail
 - mail/mailcommontext
