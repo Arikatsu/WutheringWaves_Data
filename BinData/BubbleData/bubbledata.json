@@ -1,769 +1,961 @@
 [
-  {
-    "ActionGuid": "2179e5da2de84ec1bb21b06b96770be7",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [134000726],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000113
+{
+  "ActionGuid": "2179e5da2de84ec1bb21b06b96770be7",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      134000726
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "eefec19f5e4a4324a38afff671173058",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [134000726, 134000725],
-      "EnterRadius": 2000,
-      "LeaveRadius": 3000,
-      "Flow": {
-        "FlowListName": "剧情_支线_SideTask_HKSM_001",
-        "FlowId": 13,
-        "StateId": 9
-      },
-      "_EntityIdsFolded": false,
-      "WaitTime": 200,
-      "_folded": false
+  "ActionId": 3000113
+}
+,
+{
+  "ActionGuid": "eefec19f5e4a4324a38afff671173058",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      134000726,
+      134000725
+    ],
+    "EnterRadius": 2000,
+    "LeaveRadius": 3000,
+    "Flow": {
+      "FlowListName": "剧情_支线_SideTask_HKSM_001",
+      "FlowId": 13,
+      "StateId": 9
     },
-    "ActionId": 3000151
+    "_EntityIdsFolded": false,
+    "WaitTime": 200,
+    "_folded": false
   },
-  {
-    "ActionGuid": "ad51bab527754bbcb61d2f706e7bf537",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [139000327, 139000399],
-      "EnterRadius": 1500,
-      "LeaveRadius": 2000,
-      "Flow": {
-        "FlowListName": "剧情_新主线_CE版_第一章_第一幕_嘤鸣初相召",
-        "FlowId": 2,
-        "StateId": 3
-      }
-    },
-    "ActionId": 3000199
+  "ActionId": 3000151
+}
+,
+{
+  "ActionGuid": "ad51bab527754bbcb61d2f706e7bf537",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      139000327,
+      139000399
+    ],
+    "EnterRadius": 1500,
+    "LeaveRadius": 2000,
+    "Flow": {
+      "FlowListName": "剧情_新主线_CE版_第一章_第一幕_嘤鸣初相召",
+      "FlowId": 2,
+      "StateId": 3
+    }
   },
-  {
-    "ActionGuid": "6f8e68882d33446dbd50cdc0090129b7",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [139000000, 139000032, 310000000],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_新主线_CE版_第一章_第二幕_安此亿兆生",
-        "FlowId": 2,
-        "StateId": 7
-      },
-      "WaitTime": 99999,
-      "_folded": false
+  "ActionId": 3000199
+}
+,
+{
+  "ActionGuid": "6f8e68882d33446dbd50cdc0090129b7",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      139000000,
+      139000032,
+      310000000
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_新主线_CE版_第一章_第二幕_安此亿兆生",
+      "FlowId": 2,
+      "StateId": 7
     },
-    "ActionId": 3000241
+    "WaitTime": 99999,
+    "_folded": false
   },
-  {
-    "ActionGuid": "15f32f6c8cd84e20bd3639b1c690345a",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [114000660, 114000659, 114000658, 114001029],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_刘梦蝶",
-        "FlowId": 4,
-        "StateId": 1
-      }
-    },
-    "ActionId": 3000003
+  "ActionId": 3000241
+}
+,
+{
+  "ActionGuid": "15f32f6c8cd84e20bd3639b1c690345a",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      114000660,
+      114000659,
+      114000658,
+      114001029
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_刘梦蝶",
+      "FlowId": 4,
+      "StateId": 1
+    }
   },
-  {
-    "ActionGuid": "6a2c845ec58645f98bdbed3e9eba42aa",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [311000073, 311000071, 311000072],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_刘梦蝶",
-        "FlowId": 4,
-        "StateId": 3
-      },
-      "_EntityIdsFolded": false
+  "ActionId": 3000003
+}
+,
+{
+  "ActionGuid": "6a2c845ec58645f98bdbed3e9eba42aa",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      311000073,
+      311000071,
+      311000072
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_刘梦蝶",
+      "FlowId": 4,
+      "StateId": 3
     },
-    "ActionId": 3000005
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "3d29a3bd43b1423bbe7564d43e86dfe6",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [114000867, 114000868, 114000869],
-      "EnterRadius": 1500,
-      "LeaveRadius": 3000,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_刘梦蝶",
-        "FlowId": 4,
-        "StateId": 2
-      }
-    },
-    "ActionId": 3000017
+  "ActionId": 3000005
+}
+,
+{
+  "ActionGuid": "3d29a3bd43b1423bbe7564d43e86dfe6",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      114000867,
+      114000868,
+      114000869
+    ],
+    "EnterRadius": 1500,
+    "LeaveRadius": 3000,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_刘梦蝶",
+      "FlowId": 4,
+      "StateId": 2
+    }
   },
-  {
-    "ActionGuid": "daa387504b964fd98f2601012b1b0b7a",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [310000514],
-      "EnterRadius": 2500,
-      "LeaveRadius": 3000,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_余果",
-        "FlowId": 1,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false,
-      "RedDot": true,
-      "_folded": false
+  "ActionId": 3000017
+}
+,
+{
+  "ActionGuid": "daa387504b964fd98f2601012b1b0b7a",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      310000514
+    ],
+    "EnterRadius": 2500,
+    "LeaveRadius": 3000,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_余果",
+      "FlowId": 1,
+      "StateId": 1
     },
-    "ActionId": 3000002
+    "_EntityIdsFolded": false,
+    "RedDot": true,
+    "_folded": false
   },
-  {
-    "ActionGuid": "bbe89b766e224308bbead49444536349",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [310000518],
-      "EnterRadius": 2500,
-      "LeaveRadius": 3500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_余果",
-        "FlowId": 4
-      }
-    },
-    "ActionId": 3000017
+  "ActionId": 3000002
+}
+,
+{
+  "ActionGuid": "bbe89b766e224308bbead49444536349",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      310000518
+    ],
+    "EnterRadius": 2500,
+    "LeaveRadius": 3500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_余果",
+      "FlowId": 4
+    }
   },
-  {
-    "ActionGuid": "e87451f207e8423e8be5b4d88256bf59",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [310000521],
-      "EnterRadius": 3500,
-      "LeaveRadius": 4500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_余果",
-        "FlowId": 7
-      }
-    },
-    "ActionId": 3000028
+  "ActionId": 3000017
+}
+,
+{
+  "ActionGuid": "e87451f207e8423e8be5b4d88256bf59",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      310000521
+    ],
+    "EnterRadius": 3500,
+    "LeaveRadius": 4500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_余果",
+      "FlowId": 7
+    }
   },
-  {
-    "ActionGuid": "5e4efceafe8e437cb6141df4cdfa670c",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [140000144, 140000580],
-      "EnterRadius": 1000,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_剧情_剧情_支线_烹饪支线",
-        "FlowId": 1,
-        "StateId": 4
-      },
-      "_EntityIdsFolded": false
+  "ActionId": 3000028
+}
+,
+{
+  "ActionGuid": "5e4efceafe8e437cb6141df4cdfa670c",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      140000144,
+      140000580
+    ],
+    "EnterRadius": 1000,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_剧情_剧情_支线_烹饪支线",
+      "FlowId": 1,
+      "StateId": 4
     },
-    "ActionId": 3000006
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "0b8b2590223b46e0afe9730b5b641f4f",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [140000144, 140000580],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000007
+  "ActionId": 3000006
+}
+,
+{
+  "ActionGuid": "0b8b2590223b46e0afe9730b5b641f4f",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      140000144,
+      140000580
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "2f4bd5ac2dbc407a8858ca0a7a426bbe",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000916, 109002834],
-      "EnterRadius": 1000,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
-        "FlowId": 2,
-        "StateId": 2
-      },
-      "WaitTime": 10,
-      "_folded": false,
-      "_EntityIdsFolded": false
+  "ActionId": 3000007
+}
+,
+{
+  "ActionGuid": "2f4bd5ac2dbc407a8858ca0a7a426bbe",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000916,
+      109002834
+    ],
+    "EnterRadius": 1000,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+      "FlowId": 2,
+      "StateId": 2
     },
-    "ActionId": 3000042
+    "WaitTime": 10,
+    "_folded": false,
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "f638cb6847c94277a21319ebc82cb9a3",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000916, 109002834],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000002
+  "ActionId": 3000042
+}
+,
+{
+  "ActionGuid": "f638cb6847c94277a21319ebc82cb9a3",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000916,
+      109002834
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "d070375ddbeb4ddfa1d264c5b6e27d06",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [11000447, 121000917, 121000919],
-      "EnterRadius": 800,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
-        "FlowId": 2,
-        "StateId": 1
-      },
-      "WaitTime": 8,
-      "_EntityIdsFolded": false,
-      "_folded": false,
-      "RedDot": false
+  "ActionId": 3000002
+}
+,
+{
+  "ActionGuid": "d070375ddbeb4ddfa1d264c5b6e27d06",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      11000447,
+      121000917,
+      121000919
+    ],
+    "EnterRadius": 800,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+      "FlowId": 2,
+      "StateId": 1
     },
-    "ActionId": 3000048
+    "WaitTime": 8,
+    "_EntityIdsFolded": false,
+    "_folded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "73013bae063d403db516978d6fa8ea98",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000921, 121000922, 121000920],
-      "EnterRadius": 800,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
-        "FlowId": 2,
-        "StateId": 3
-      },
-      "WaitTime": 8,
-      "_folded": false,
-      "_EntityIdsFolded": false,
-      "RedDot": false
+  "ActionId": 3000048
+}
+,
+{
+  "ActionGuid": "73013bae063d403db516978d6fa8ea98",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000921,
+      121000922,
+      121000920
+    ],
+    "EnterRadius": 800,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+      "FlowId": 2,
+      "StateId": 3
     },
-    "ActionId": 3000049
+    "WaitTime": 8,
+    "_folded": false,
+    "_EntityIdsFolded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "24105df2bdba4bf9a121681d0a20bd1d",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000923, 121000924, 121000925],
-      "EnterRadius": 800,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
-        "FlowId": 2,
-        "StateId": 4
-      },
-      "WaitTime": 8,
-      "_EntityIdsFolded": false,
-      "_folded": false,
-      "RedDot": false
+  "ActionId": 3000049
+}
+,
+{
+  "ActionGuid": "24105df2bdba4bf9a121681d0a20bd1d",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000923,
+      121000924,
+      121000925
+    ],
+    "EnterRadius": 800,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+      "FlowId": 2,
+      "StateId": 4
     },
-    "ActionId": 3000050
+    "WaitTime": 8,
+    "_EntityIdsFolded": false,
+    "_folded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "e2bcdf01ebea48b18c6d4a668f5155fd",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000923, 121000924, 121000925],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000056
+  "ActionId": 3000050
+}
+,
+{
+  "ActionGuid": "e2bcdf01ebea48b18c6d4a668f5155fd",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000923,
+      121000924,
+      121000925
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "87f3863c14dc4910a670a564d37bb17d",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000921, 121000922, 121000920],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000057
+  "ActionId": 3000056
+}
+,
+{
+  "ActionGuid": "87f3863c14dc4910a670a564d37bb17d",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000921,
+      121000922,
+      121000920
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "7cd1e93d176340348429cadd83b92c8f",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000931, 121000932],
-      "EnterRadius": 1500,
-      "LeaveRadius": 2500,
-      "Flow": {
-        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
-        "FlowId": 2,
-        "StateId": 5
-      },
-      "_EntityIdsFolded": false
+  "ActionId": 3000057
+}
+,
+{
+  "ActionGuid": "7cd1e93d176340348429cadd83b92c8f",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000931,
+      121000932
+    ],
+    "EnterRadius": 1500,
+    "LeaveRadius": 2500,
+    "Flow": {
+      "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+      "FlowId": 2,
+      "StateId": 5
     },
-    "ActionId": 3000062
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "45e1a9f07afd4551981ec4d254d73ac7",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [125001079, 125001087, 125001085, 125001086],
-      "EnterRadius": 1000,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_三流画家",
-        "FlowId": 2,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false,
-      "_folded": false,
-      "RedDot": false
+  "ActionId": 3000062
+}
+,
+{
+  "ActionGuid": "45e1a9f07afd4551981ec4d254d73ac7",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      125001079,
+      125001087,
+      125001085,
+      125001086
+    ],
+    "EnterRadius": 1000,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_三流画家",
+      "FlowId": 2,
+      "StateId": 1
     },
-    "ActionId": 3000013
+    "_EntityIdsFolded": false,
+    "_folded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "52710117519f47bb99cd7c6c1579283e",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121001030, 121000862],
-      "EnterRadius": 1500,
-      "LeaveRadius": 3000,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 2,
-        "StateId": 1
-      },
-      "WaitTime": 6,
-      "_folded": false,
-      "_EntityIdsFolded": false,
-      "RedDot": false
+  "ActionId": 3000013
+}
+,
+{
+  "ActionGuid": "52710117519f47bb99cd7c6c1579283e",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121001030,
+      121000862
+    ],
+    "EnterRadius": 1500,
+    "LeaveRadius": 3000,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 2,
+      "StateId": 1
     },
-    "ActionId": 3000004
+    "WaitTime": 6,
+    "_folded": false,
+    "_EntityIdsFolded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "7a7bae9513194af3abefae9c63ebd24b",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000963],
-      "EnterRadius": 1000,
-      "LeaveRadius": 3000,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 10,
-        "StateId": 1
-      },
-      "WaitTime": 8,
-      "_folded": false,
-      "_EntityIdsFolded": false,
-      "RedDot": false
+  "ActionId": 3000004
+}
+,
+{
+  "ActionGuid": "7a7bae9513194af3abefae9c63ebd24b",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000963
+    ],
+    "EnterRadius": 1000,
+    "LeaveRadius": 3000,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 10,
+      "StateId": 1
     },
-    "ActionId": 3000006
+    "WaitTime": 8,
+    "_folded": false,
+    "_EntityIdsFolded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "99381a45f9394abb900df21389a60d5a",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000962],
-      "EnterRadius": 1000,
-      "LeaveRadius": 3000,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 11,
-        "StateId": 1
-      },
-      "WaitTime": 8,
-      "_folded": false,
-      "_EntityIdsFolded": false,
-      "RedDot": false
+  "ActionId": 3000006
+}
+,
+{
+  "ActionGuid": "99381a45f9394abb900df21389a60d5a",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000962
+    ],
+    "EnterRadius": 1000,
+    "LeaveRadius": 3000,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 11,
+      "StateId": 1
     },
-    "ActionId": 3000007
+    "WaitTime": 8,
+    "_folded": false,
+    "_EntityIdsFolded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "77a9b57ad39946b892056af32089c762",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000886, 121000941],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000016
+  "ActionId": 3000007
+}
+,
+{
+  "ActionGuid": "77a9b57ad39946b892056af32089c762",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000886,
+      121000941
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "6bf9fbd376e143939bb4c1e5a33b68b1",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000886, 121000941],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 6,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false,
-      "_folded": false
+  "ActionId": 3000016
+}
+,
+{
+  "ActionGuid": "6bf9fbd376e143939bb4c1e5a33b68b1",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000886,
+      121000941
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 6,
+      "StateId": 1
     },
-    "ActionId": 3000018
+    "_EntityIdsFolded": false,
+    "_folded": false
   },
-  {
-    "ActionGuid": "cfc99d4e998141e99a512db263f9aa9f",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000962, 121000963],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000021
+  "ActionId": 3000018
+}
+,
+{
+  "ActionGuid": "cfc99d4e998141e99a512db263f9aa9f",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000962,
+      121000963
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "9b7783d8ecc2448984fdd0835c6c85cc",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000965, 121000964],
-      "EnterRadius": 1000,
-      "LeaveRadius": 3000,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 5,
-        "StateId": 1
-      },
-      "WaitTime": 8,
-      "_folded": false,
-      "_EntityIdsFolded": false,
-      "RedDot": false
+  "ActionId": 3000021
+}
+,
+{
+  "ActionGuid": "9b7783d8ecc2448984fdd0835c6c85cc",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000965,
+      121000964
+    ],
+    "EnterRadius": 1000,
+    "LeaveRadius": 3000,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 5,
+      "StateId": 1
     },
-    "ActionId": 3000023
+    "WaitTime": 8,
+    "_folded": false,
+    "_EntityIdsFolded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "3e886b8c650c416d9276e4f92e6f5109",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000965, 121000964],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000026
+  "ActionId": 3000023
+}
+,
+{
+  "ActionGuid": "3e886b8c650c416d9276e4f92e6f5109",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000965,
+      121000964
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "707e2a2395d942b884db1d12eb9231c7",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000816],
-      "EnterRadius": 1500,
-      "LeaveRadius": 2500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 1,
-        "StateId": 1
-      },
-      "WaitTime": 8,
-      "_EntityIdsFolded": false,
-      "_folded": false,
-      "RedDot": false
+  "ActionId": 3000026
+}
+,
+{
+  "ActionGuid": "707e2a2395d942b884db1d12eb9231c7",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000816
+    ],
+    "EnterRadius": 1500,
+    "LeaveRadius": 2500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 1,
+      "StateId": 1
     },
-    "ActionId": 3000039
+    "WaitTime": 8,
+    "_EntityIdsFolded": false,
+    "_folded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "43b6722b05494df6927ef783b897ed5b",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000816],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000040
+  "ActionId": 3000040
+}
+,
+{
+  "ActionGuid": "43b6722b05494df6927ef783b897ed5b",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000816
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "fa6783dae8364051be532fd384ea20af",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000857],
-      "EnterRadius": 800,
-      "LeaveRadius": 2000,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 3,
-        "StateId": 1
-      },
-      "WaitTime": 8,
-      "RedDot": false,
-      "_folded": false
+  "ActionId": 3000041
+}
+,
+{
+  "ActionGuid": "fa6783dae8364051be532fd384ea20af",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000857
+    ],
+    "EnterRadius": 800,
+    "LeaveRadius": 2000,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 3,
+      "StateId": 1
     },
-    "ActionId": 3000118
+    "WaitTime": 8,
+    "RedDot": false,
+    "_folded": false
   },
-  {
-    "ActionGuid": "6a7a047976c248ffa6c8d62e0d5a1568",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000857]
-    },
-    "ActionId": 3000127
+  "ActionId": 3000134
+}
+,
+{
+  "ActionGuid": "6a7a047976c248ffa6c8d62e0d5a1568",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000857
+    ]
   },
-  {
-    "ActionGuid": "089de0667c78443c80c91bbe627d4617",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000991],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 9,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false,
-      "RedDot": false,
-      "_folded": false
+  "ActionId": 3000143
+}
+,
+{
+  "ActionGuid": "089de0667c78443c80c91bbe627d4617",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000991
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 9,
+      "StateId": 1
     },
-    "ActionId": 3000131
+    "_EntityIdsFolded": false,
+    "RedDot": false,
+    "_folded": false
   },
-  {
-    "ActionGuid": "f9f6c9f42a4f4b118b9cb1b200da90e6",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000968, 121000969],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 7,
-        "StateId": 1
-      },
-      "_folded": false,
-      "RedDot": false
+  "ActionId": 3000147
+}
+,
+{
+  "ActionGuid": "f9f6c9f42a4f4b118b9cb1b200da90e6",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000968,
+      121000969
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 7,
+      "StateId": 1
     },
-    "ActionId": 3000141
+    "_folded": false,
+    "RedDot": false
   },
-  {
-    "ActionGuid": "c00a5764fa26478ca29f7f06b8346f50",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000969, 121000968]
-    },
-    "ActionId": 3000160
+  "ActionId": 3000157
+}
+,
+{
+  "ActionGuid": "c00a5764fa26478ca29f7f06b8346f50",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000969,
+      121000968
+    ]
   },
-  {
-    "ActionGuid": "38845d55686c4a8399d968808e1e747a",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000994, 121001100, 121000993, 121000996, 121000997],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 12,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false,
-      "RedDot": true,
-      "_folded": false,
-      "WaitTime": 10
+  "ActionId": 3000176
+}
+,
+{
+  "ActionGuid": "38845d55686c4a8399d968808e1e747a",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000994,
+      121001100,
+      121000993,
+      121000996,
+      121000997
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 12,
+      "StateId": 1
     },
-    "ActionId": 3000170
+    "_EntityIdsFolded": false,
+    "RedDot": true,
+    "_folded": false,
+    "WaitTime": 10
   },
-  {
-    "ActionGuid": "7a10709842bd43f0806f883a19928358",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000988],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 8,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false,
-      "RedDot": false,
-      "_folded": false,
-      "WaitTime": 10
+  "ActionId": 3000186
+}
+,
+{
+  "ActionGuid": "7a10709842bd43f0806f883a19928358",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000988
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 8,
+      "StateId": 1
     },
-    "ActionId": 3000171
+    "_EntityIdsFolded": false,
+    "RedDot": false,
+    "_folded": false,
+    "WaitTime": 10
   },
-  {
-    "ActionGuid": "351ff884703044fdab061626f890aef3",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [27000022, 27000023, 27000024],
-      "EnterRadius": 100,
-      "LeaveRadius": 500,
-      "Flow": {
-        "FlowListName": "剧情_QuestText",
-        "FlowId": 12
-      },
-      "WaitTime": 5
+  "ActionId": 3000187
+}
+,
+{
+  "ActionGuid": "351ff884703044fdab061626f890aef3",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      27000022,
+      27000023,
+      27000024
+    ],
+    "EnterRadius": 100,
+    "LeaveRadius": 500,
+    "Flow": {
+      "FlowListName": "剧情_QuestText",
+      "FlowId": 12
     },
-    "ActionId": 3000043
+    "WaitTime": 5
   },
-  {
-    "ActionGuid": "7f017d3b976841b8ab1cbb36b0af0f87",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [27000022, 27000023, 27000024]
-    },
-    "ActionId": 3000044
+  "ActionId": 3000043
+}
+,
+{
+  "ActionGuid": "7f017d3b976841b8ab1cbb36b0af0f87",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      27000022,
+      27000023,
+      27000024
+    ]
   },
-  {
-    "ActionGuid": "bf2b2c47b0124df783379bebad86089c",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_余果",
-        "FlowId": 1,
-        "StateId": 1
-      },
-      "_folded": false
+  "ActionId": 3000044
+}
+,
+{
+  "ActionGuid": "bf2b2c47b0124df783379bebad86089c",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_余果",
+      "FlowId": 1,
+      "StateId": 1
     },
-    "ActionId": 3000044
+    "_folded": false
   },
-  {
-    "ActionGuid": "bf39de0b528944ab941174e24e9a0f19",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [29000239],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_便宜珍贵惹人爱",
-        "FlowId": 3,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false,
-      "_folded": true
+  "ActionId": 3000044
+}
+,
+{
+  "ActionGuid": "bf39de0b528944ab941174e24e9a0f19",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      29000239
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_便宜珍贵惹人爱",
+      "FlowId": 3,
+      "StateId": 1
     },
-    "ActionId": 3000046
+    "_EntityIdsFolded": false,
+    "_folded": true
   },
-  {
-    "ActionGuid": "b7b10eef8d204640ae026fe0f31268cd",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [29000239],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000047
+  "ActionId": 3000046
+}
+,
+{
+  "ActionGuid": "b7b10eef8d204640ae026fe0f31268cd",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      29000239
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "fd7192cc57bb48c78fe524b6560212b8",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [29000240],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_便宜珍贵惹人爱",
-        "FlowId": 3
-      },
-      "_EntityIdsFolded": false
+  "ActionId": 3000047
+}
+,
+{
+  "ActionGuid": "fd7192cc57bb48c78fe524b6560212b8",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      29000240
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_便宜珍贵惹人爱",
+      "FlowId": 3
     },
-    "ActionId": 3000048
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "54fab11193f44b78a9c4499762101a17",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [29000241],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_余果",
-        "FlowId": 1,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false,
-      "RedDot": true,
-      "_folded": false
+  "ActionId": 3000048
+}
+,
+{
+  "ActionGuid": "54fab11193f44b78a9c4499762101a17",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      29000241
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_余果",
+      "FlowId": 1,
+      "StateId": 1
     },
-    "ActionId": 3000049
+    "_EntityIdsFolded": false,
+    "RedDot": true,
+    "_folded": false
   },
-  {
-    "ActionGuid": "67c508d0635946b3b0bd98e8c0a25c64",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [29000241],
-      "OnlyClearRedDot": true,
-      "_folded": false,
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000050
+  "ActionId": 3000049
+}
+,
+{
+  "ActionGuid": "67c508d0635946b3b0bd98e8c0a25c64",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      29000241
+    ],
+    "OnlyClearRedDot": true,
+    "_folded": false,
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "779371b53fca4f178abe1c1afb2179bc",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [29000252, 29000253],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_寸草心",
-        "FlowId": 3,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false
+  "ActionId": 3000050
+}
+,
+{
+  "ActionGuid": "779371b53fca4f178abe1c1afb2179bc",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      29000252,
+      29000253
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_寸草心",
+      "FlowId": 3,
+      "StateId": 1
     },
-    "ActionId": 3000057
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "e8b79d968d3f49c280807ffcc5539b0e",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [29000252, 29000253],
-      "_EntityIdsFolded": false
-    },
-    "ActionId": 3000058
+  "ActionId": 3000057
+}
+,
+{
+  "ActionGuid": "e8b79d968d3f49c280807ffcc5539b0e",
+  "Name": "ClearPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      29000252,
+      29000253
+    ],
+    "_EntityIdsFolded": false
   },
-  {
-    "ActionGuid": "12f4072fe8494e9092c6980a9f96f6cb",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [121000886, 121000941],
-      "EnterRadius": 500,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
-        "FlowId": 4,
-        "StateId": 1
-      },
-      "_EntityIdsFolded": false,
-      "_folded": false
+  "ActionId": 3000058
+}
+,
+{
+  "ActionGuid": "12f4072fe8494e9092c6980a9f96f6cb",
+  "Name": "AddPlayBubble",
+  "Async": false,
+  "Params": {
+    "EntityIds": [
+      121000886,
+      121000941
+    ],
+    "EnterRadius": 500,
+    "LeaveRadius": 1500,
+    "Flow": {
+      "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+      "FlowId": 4,
+      "StateId": 1
     },
-    "ActionId": 3000011
-  }
+    "_EntityIdsFolded": false,
+    "_folded": false
+  },
+  "ActionId": 3000011
+}
 ]

@@ -1,682 +1,172 @@
 [
-  {
-    "TypeId": 2,
-    "Type": "GetPhantomQualityLevelUp",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
+    {
+        "TypeId": 2,
+        "Type": "GetPhantomQualityLevelUp",
+        "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEAAAADQAAABgAAAAAgAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAGludAAFAAAAbGV2ZWwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAHAAAAcXVhbGl0eQAYAAAAR2V0UGhhbnRvbVF1YWxpdHlMZXZlbFVwAAAAAA=="
     },
-    "Param2": {
-      "size": 1
+    {
+        "TypeId": 3,
+        "Type": "RoleWereAndActivateFetters",
+        "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAADgAAABcAAAAhAAAAAMAAAABAAAABAAAALD///8IAAAADAAAAAMAAABpbnQABAAAAHN1aXQAAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAAaW50AAcAAABxdWFsaXR5AAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAAaW50AAMAAABudW0AGgAAAFJvbGVXZXJlQW5kQWN0aXZhdGVGZXR0ZXJzAAA="
     },
-    "Param3": {
-      "size": 0
+    {
+        "TypeId": 4,
+        "Type": "TerminalLevelUp",
+        "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAAEAAAADwAAAFRlcm1pbmFsTGV2ZWxVcAA="
     },
-    "Param4": {
-      "size": 0
+    {
+        "TypeId": 5,
+        "Type": "GetWeaponQualityLevelUp",
+        "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAADgAAABkAAAAbAAAAAUAAAABAAAABAAAANj///8IAAAADAAAAAMAAABpbnQABQAAAGxldmVsAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABpbnQABwAAAHF1YWxpdHkAAgAAAAEAAAACAAAAFwAAAEdldFdlYXBvblF1YWxpdHlMZXZlbFVwAA=="
     },
-    "Param5": {
-      "size": 0
+    {
+        "TypeId": 6,
+        "Type": "PropertiesRoleLevelUp",
+        "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAADgAAABkAAAAbAAAAAYAAAABAAAABAAAANj///8IAAAADAAAAAMAAABpbnQABQAAAGxldmVsAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABpbnQABAAAAHR5cGUAAAAAAgAAAAEAAAACAAAAFQAAAFByb3BlcnRpZXNSb2xlTGV2ZWxVcAAAAA=="
+    },
+    {
+        "TypeId": 7,
+        "Type": "RoleSkillLevelUp",
+        "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAADgAAABgAAAAZAAAAAcAAAABAAAABAAAANj///8IAAAADAAAAAMAAABpbnQABQAAAGxldmVsAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABpbnQAAwAAAG51bQABAAAAAQAAABAAAABSb2xlU2tpbGxMZXZlbFVwAAAAAA=="
+    },
+    {
+        "TypeId": 8,
+        "Type": "ActiveDeliveryPoint",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAAgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAABMAAABBY3RpdmVEZWxpdmVyeVBvaW50AA=="
+    },
+    {
+        "TypeId": 9,
+        "Type": "ActiveDeliveryPointInRegion",
+        "BinData": "EAAAAAwAFAAQAAwACAAEAAwAAAAQAAAAOAAAADwAAAAJAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABpbnQAAgAAAElkAAABAAAAAQAAABsAAABBY3RpdmVEZWxpdmVyeVBvaW50SW5SZWdpb24A"
+    },
+    {
+        "TypeId": 10,
+        "Type": "GetWorldCollection",
+        "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAAKAAAAEgAAAEdldFdvcmxkQ29sbGVjdGlvbgAA"
+    },
+    {
+        "TypeId": 11,
+        "Type": "GetLightCatReward",
+        "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAALAAAAEQAAAEdldExpZ2h0Q2F0UmV3YXJkAAAA"
+    },
+    {
+        "TypeId": 12,
+        "Type": "GetBoxReward",
+        "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAAMAAAADAAAAEdldEJveFJld2FyZAAAAAA="
+    },
+    {
+        "TypeId": 13,
+        "Type": "QuestFinish",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAA0AAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAAsAAABRdWVzdEZpbmlzaAA="
+    },
+    {
+        "TypeId": 14,
+        "Type": "ConsumeItem",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAA4AAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAAsAAABDb25zdW1lSXRlbQA="
+    },
+    {
+        "TypeId": 15,
+        "Type": "GetDungeonReward",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAA8AAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAABAAAABHZXREdW5nZW9uUmV3YXJkAAAAAA=="
+    },
+    {
+        "TypeId": 16,
+        "Type": "GetLevePlayReward",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAABEAAABHZXRMZXZlUGxheVJld2FyZAAAAA=="
+    },
+    {
+        "TypeId": 17,
+        "Type": "测试",
+        "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAARAAAABgAAAOa1i+ivlQAA"
+    },
+    {
+        "TypeId": 18,
+        "Type": "CapturePhantom",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAOAAAABIAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAAUXVhbGl0eQAOAAAAQ2FwdHVyZVBoYW50b20AAA=="
+    },
+    {
+        "TypeId": 19,
+        "Type": "FinishDungeon",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABMAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAA0AAABGaW5pc2hEdW5nZW9uAAAA"
+    },
+    {
+        "TypeId": 20,
+        "Type": "FinishCook",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAAoAAABGaW5pc2hDb29rAAA="
+    },
+    {
+        "TypeId": 21,
+        "Type": "FinishSynthesis",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABUAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAA8AAABGaW5pc2hTeW50aGVzaXMA"
+    },
+    {
+        "TypeId": 22,
+        "Type": "FinishForge",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABYAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAAsAAABGaW5pc2hGb3JnZQA="
+    },
+    {
+        "TypeId": 23,
+        "Type": "XRoleEquipXQualityWeapon",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAOAAAABcAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAHAAAAcXVhbGl0eQAYAAAAWFJvbGVFcXVpcFhRdWFsaXR5V2VhcG9uAAAAAA=="
+    },
+    {
+        "TypeId": 24,
+        "Type": "ActiveXTeleport",
+        "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAAYAAAADwAAAEFjdGl2ZVhUZWxlcG9ydAA="
+    },
+    {
+        "TypeId": 25,
+        "Type": "InstanceTypeFinishCount",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAPAAAABkAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAALAAAAQ3VzdG9tVHlwZXMAFwAAAEluc3RhbmNlVHlwZUZpbmlzaENvdW50AA=="
+    },
+    {
+        "TypeId": 26,
+        "Type": "LevelPlayCompleteCount",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAPAAAABoAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAJAAAATGV2ZWxUeXBlAAAAFgAAAExldmVsUGxheUNvbXBsZXRlQ291bnQAAA=="
+    },
+    {
+        "TypeId": 27,
+        "Type": "SoundBoxReachXLevel",
+        "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEAAAADQAAABoAAAAGwAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAGludAAFAAAAbGV2ZWwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAMAAAARHJhZ29uUG9vbElkAAAAABMAAABTb3VuZEJveFJlYWNoWExldmVsAA=="
+    },
+    {
+        "TypeId": 28,
+        "Type": "PhantomProgress",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAADAAAAbnVtAA8AAABQaGFudG9tUHJvZ3Jlc3MA"
+    },
+    {
+        "TypeId": 29,
+        "Type": "PassTowerFloor",
+        "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAADgAAABcAAAAjAAAAB0AAAABAAAABAAAALD///8IAAAADAAAAAMAAABpbnQABQAAAEZsb29yAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAAaW50AAcAAABBcmVhTnVtAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAAaW50AAoAAABEaWZmaWN1bHR5AAAOAAAAUGFzc1Rvd2VyRmxvb3IAAA=="
+    },
+    {
+        "TypeId": 30,
+        "Type": "PassTowerStarCount",
+        "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAADgAAABcAAAAjAAAAB4AAAABAAAABAAAALD///8IAAAADAAAAAMAAABpbnQABAAAAFN0YXIAAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAAaW50AAcAAABBcmVhTnVtAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAAaW50AAoAAABEaWZmaWN1bHR5AAASAAAAUGFzc1Rvd2VyU3RhckNvdW50AAA="
+    },
+    {
+        "TypeId": 31,
+        "Type": "PassLordLayer",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAB8AAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAA0AAABQYXNzTG9yZExheWVyAAAA"
+    },
+    {
+        "TypeId": 33,
+        "Type": "CommemorativeCoinsStoreConsumeXTimes",
+        "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAAhAAAAJAAAAENvbW1lbW9yYXRpdmVDb2luc1N0b3JlQ29uc3VtZVhUaW1lcwAAAAA="
+    },
+    {
+        "TypeId": 34,
+        "Type": "PhantomIdentifyYQualityXNum",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAOAAAACIAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAAUXVhbGl0eQAbAAAAUGhhbnRvbUlkZW50aWZ5WVF1YWxpdHlYTnVtAA=="
+    },
+    {
+        "TypeId": 35,
+        "Type": "GetXPlayLevelTypeFirstPassReward",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAPAAAACMAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAJAAAATGV2ZWxUeXBlAAAAIAAAAEdldFhQbGF5TGV2ZWxUeXBlRmlyc3RQYXNzUmV3YXJkAAAAAA=="
+    },
+    {
+        "TypeId": 36,
+        "Type": "PassXDifficultyRogue",
+        "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAOAAAACQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAGAAAASW5zdElkAAAUAAAAUGFzc1hEaWZmaWN1bHR5Um9ndWUAAAAA"
     }
-  },
-  {
-    "TypeId": 3,
-    "Type": "RoleWereAndActivateFetters",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 1
-    },
-    "Param3": {
-      "size": 1
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 4,
-    "Type": "TerminalLevelUp",
-    "Nullenable": [],
-    "Param1": {
-      "size": 0
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 5,
-    "Type": "GetWeaponQualityLevelUp",
-    "Nullenable": [1, 2],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 1
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 6,
-    "Type": "PropertiesRoleLevelUp",
-    "Nullenable": [1, 2],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 1
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 7,
-    "Type": "RoleSkillLevelUp",
-    "Nullenable": [1],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 1
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 8,
-    "Type": "ActiveDeliveryPoint",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 9,
-    "Type": "ActiveDeliveryPointInRegion",
-    "Nullenable": [1],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 10,
-    "Type": "GetWorldCollection",
-    "Nullenable": [],
-    "Param1": {
-      "size": 0
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 11,
-    "Type": "GetLightCatReward",
-    "Nullenable": [],
-    "Param1": {
-      "size": 0
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 12,
-    "Type": "GetBoxReward",
-    "Nullenable": [],
-    "Param1": {
-      "size": 0
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 13,
-    "Type": "QuestFinish",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 14,
-    "Type": "ConsumeItem",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 15,
-    "Type": "GetDungeonReward",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 16,
-    "Type": "GetLevePlayReward",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 17,
-    "Type": "测试",
-    "Nullenable": [],
-    "Param1": {
-      "size": 0
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 18,
-    "Type": "CapturePhantom",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 19,
-    "Type": "FinishDungeon",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 20,
-    "Type": "FinishCook",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 21,
-    "Type": "FinishSynthesis",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 22,
-    "Type": "FinishForge",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 23,
-    "Type": "XRoleEquipXQualityWeapon",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 24,
-    "Type": "ActiveXTeleport",
-    "Nullenable": [],
-    "Param1": {
-      "size": 0
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 25,
-    "Type": "InstanceTypeFinishCount",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 26,
-    "Type": "LevelPlayCompleteCount",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 27,
-    "Type": "SoundBoxReachXLevel",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 1
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 28,
-    "Type": "PhantomProgress",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 29,
-    "Type": "PassTowerFloor",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 1
-    },
-    "Param3": {
-      "size": 1
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 30,
-    "Type": "PassTowerStarCount",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 1
-    },
-    "Param3": {
-      "size": 1
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 31,
-    "Type": "PassLordLayer",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 33,
-    "Type": "CommemorativeCoinsStoreConsumeXTimes",
-    "Nullenable": [],
-    "Param1": {
-      "size": 0
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 34,
-    "Type": "PhantomIdentifyYQualityXNum",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 35,
-    "Type": "GetXPlayLevelTypeFirstPassReward",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  },
-  {
-    "TypeId": 36,
-    "Type": "PassXDifficultyRogue",
-    "Nullenable": [],
-    "Param1": {
-      "size": 1
-    },
-    "Param2": {
-      "size": 0
-    },
-    "Param3": {
-      "size": 0
-    },
-    "Param4": {
-      "size": 0
-    },
-    "Param5": {
-      "size": 0
-    }
-  }
 ]

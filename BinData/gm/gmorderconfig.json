@@ -1,452 +1,501 @@
 [
-  {
-    "Id": 1001,
-    "Name": "解锁所有探索工具",
-    "NameOverride": "解锁所有探索工具",
-    "Code": "gmunlockexploreskillall",
-    "CodeOverride": "gmunlockexploreskillall",
-    "Sort": 1001,
-    "Visible": true
-  },
-  {
-    "Id": 1002,
-    "Name": "添加所有角色",
-    "NameOverride": "添加所有角色",
-    "Code": "add_all_role",
-    "CodeOverride": "add_all_role",
-    "Sort": 1002,
-    "Visible": true
-  },
-  {
-    "Id": 1003,
-    "Name": "添加物品",
-    "NameOverride": "添加物品",
-    "Code": "AddItem#id,count",
-    "CodeOverride": "AddItem#id,count",
-    "Sort": 1003,
-    "Visible": true
-  },
-  {
-    "Id": 1004,
-    "Name": "一键毕业",
-    "NameOverride": "一键毕业",
-    "Code": "RunOrderList#1",
-    "CodeOverride": "RunOrderList#1",
-    "Sort": 1004,
-    "Visible": true
-  },
-  {
-    "Id": 1005,
-    "Name": "功能开启",
-    "NameOverride": "功能开启",
-    "Code": "funcopengm 功能Id",
-    "CodeOverride": "funcopengm 功能Id",
-    "Sort": 1005,
-    "Visible": true
-  },
-  {
-    "Id": 1006,
-    "Name": "传送坐标点",
-    "NameOverride": "传送到指定坐标点",
-    "Code": "gmteleporttoposition X Y Z",
-    "CodeOverride": "gmteleporttoposition X Y Z",
-    "Sort": 1006,
-    "Visible": true
-  },
-  {
-    "Id": 2001,
-    "Name": "一键推进到副本节点",
-    "NameOverride": "一键推进到副本节点（推荐）",
-    "Code": "SkipToInstanceDungeonNode#节点Id,传送开关(默认0),快速模式开关(默认1)",
-    "CodeOverride": "SkipToInstanceDungeonNode#节点Id,是否传送",
-    "Sort": 2001,
-    "Visible": true
-  },
-  {
-    "Id": 2002,
-    "Name": "完成当前追踪副本节点",
-    "NameOverride": "完成当前追踪副本节点（推荐）",
-    "Code": "FinishCurTrackDungeonNode#当前追踪的第1个任务",
-    "CodeOverride": "FinishCurTrackDungeonNode#1",
-    "Sort": 2002,
-    "Visible": true
-  },
-  {
-    "Id": 2003,
-    "Name": "传送到当前副本追踪位置",
-    "NameOverride": "传送到当前副本追踪位置",
-    "Code": "TeleportToCurDungeonTrackPosition#当前追踪的第X个",
-    "CodeOverride": "TeleportToCurDungeonTrackPosition#1",
-    "Sort": 2003,
-    "Visible": true
-  },
-  {
-    "Id": 2004,
-    "Name": "重置当前副本",
-    "NameOverride": "重置当前副本",
-    "Code": "resetcurrentinst",
-    "CodeOverride": "resetcurrentinst",
-    "Sort": 2004,
-    "Visible": true
-  },
-  {
-    "Id": 2005,
-    "Name": "打开对应副本入口",
-    "NameOverride": "打开副本入口（推荐）",
-    "Code": "OpenFbEntrance#",
-    "CodeOverride": "OpenFbEntrance#",
-    "Sort": 2005,
-    "Visible": true
-  },
-  {
-    "Id": 2006,
-    "Name": "创建副本",
-    "NameOverride": "创建指定id的副本",
-    "Code": "gmcreateinst 副本入口id 副本id",
-    "CodeOverride": "gmcreateinst 0 副本id",
-    "Sort": 2006,
-    "Visible": true
-  },
-  {
-    "Id": 2801,
-    "Name": "打开战斗编队界面",
-    "NameOverride": "打开战斗编队界面（废弃）",
-    "Code": "OpenEditBattleTeamView#副本Id",
-    "CodeOverride": "OpenEditBattleTeamView#副本Id",
-    "Sort": 2801,
-    "Visible": false
-  },
-  {
-    "Id": 3001,
-    "Name": "一键推进到任务节点",
-    "NameOverride": "一键推进到任务节点（推荐）",
-    "Code": "SkipToQuestNode#任务Id,节点Id,传送开关(默认0),快速模式开关(默认0)",
-    "CodeOverride": "SkipToQuestNode#任务Id,节点Id,是否传送,快速模式(默认0)",
-    "Sort": 3001,
-    "Visible": true
-  },
-  {
-    "Id": 3002,
-    "Name": "完成当前追踪任务节点",
-    "NameOverride": "完成当前追踪任务节点（推荐）",
-    "Code": "FinishCurrentTrackQuestNode#当前追踪的第X个任务",
-    "CodeOverride": "FinishCurrentTrackQuestNode#1",
-    "Sort": 3002,
-    "Visible": true
-  },
-  {
-    "Id": 3003,
-    "Name": "传送到当前任务追踪位置",
-    "NameOverride": "传送到当前任务追踪位置",
-    "Code": "TeleportToCurQuestTrackPosition#当前追踪的第X个任务",
-    "CodeOverride": "TeleportToCurQuestTrackPosition#1",
-    "Sort": 3003,
-    "Visible": true
-  },
-  {
-    "Id": 3004,
-    "Name": "接受任务,",
-    "NameOverride": "接受任务",
-    "Code": "accept_quest 任务id",
-    "CodeOverride": "accept_quest 任务id",
-    "Sort": 3004,
-    "Visible": true
-  },
-  {
-    "Id": 3005,
-    "Name": "自动完成章节",
-    "NameOverride": "完成任务章节",
-    "Code": "finish_chapter_auto 章节ID",
-    "CodeOverride": "finish_chapter_auto 章节ID(输入1-8)",
-    "Sort": 3005,
-    "Visible": true
-  },
-  {
-    "Id": 3006,
-    "Name": "完成指定任务链",
-    "NameOverride": "完成指定任务链（含前置）",
-    "Code": "finish_all_quest 任务ID",
-    "CodeOverride": "finish_all_quest 任务ID",
-    "Sort": 3006,
-    "Visible": true
-  },
-  {
-    "Id": 3101,
-    "Name": "刷新每日任务",
-    "NameOverride": "刷新每日任务",
-    "Code": "gmrefreshdailyquest",
-    "CodeOverride": "gmrefreshdailyquest",
-    "Sort": 3101,
-    "Visible": true
-  },
-  {
-    "Id": 3102,
-    "Name": "每日任务--设置全局变量",
-    "NameOverride": "每日任务--设置全局变量",
-    "Code": "gmdailyquest_setvar 名字 值",
-    "CodeOverride": "gmdailyquest_setvar 名字 值",
-    "Sort": 3102,
-    "Visible": true
-  },
-  {
-    "Id": 3103,
-    "Name": "每日任务--接取指定任务",
-    "NameOverride": "每日任务--接取指定任务",
-    "Code": "gmacceptdailyquest 任务组id 任务id",
-    "CodeOverride": "gmacceptdailyquest 任务组id 任务id",
-    "Sort": 3103,
-    "Visible": true
-  },
-  {
-    "Id": 3104,
-    "Name": "每日任务--接取指定任务(带条件检测)",
-    "NameOverride": "每日任务--接取指定任务(带条件检测)",
-    "Code": "gmacceptdailyquestwithcondcheck 任务组id 任务id",
-    "CodeOverride": "gmacceptdailyquestwithcondcheck 任务组id 任务id",
-    "Sort": 3104,
-    "Visible": true
-  },
-  {
-    "Id": 3801,
-    "Name": "显示任务树信息",
-    "NameOverride": "显示任务树信息",
-    "Code": "show_tree 任务id",
-    "CodeOverride": "show_tree 任务id",
-    "Sort": 3801,
-    "Visible": false
-  },
-  {
-    "Id": 3802,
-    "Name": "接受所有类型任务,",
-    "NameOverride": "接受指定类型所有任务",
-    "Code": "accept_all 任务类型",
-    "CodeOverride": "accept_all 任务类型",
-    "Sort": 3802,
-    "Visible": true
-  },
-  {
-    "Id": 3803,
-    "Name": "完成某个任务节点",
-    "NameOverride": "完成某个任务节点（隐藏中间指令）",
-    "Code": "submit_node 任务id 节点id",
-    "CodeOverride": "submit_node 任务id 节点id",
-    "Sort": 3803,
-    "Visible": false
-  },
-  {
-    "Id": 3804,
-    "Name": "完成到某个节点",
-    "NameOverride": "完成到某个节点（隐藏中间指令）",
-    "Code": "skip_to_node 任务id 节点id",
-    "CodeOverride": "skip_to_node 任务id 节点id",
-    "Sort": 3804,
-    "Visible": false
-  },
-  {
-    "Id": 3805,
-    "Name": "跳到任务",
-    "NameOverride": "跳到任务（CBT1，废弃）",
-    "Code": "FinishAllQuestTo#任务Id}，并完成全部前置任",
-    "CodeOverride": "FinishAllQuestTo#任务Id}，并完成全部前置任",
-    "Sort": 3805,
-    "Visible": false
-  },
-  {
-    "Id": 3806,
-    "Name": "完成开拓任务",
-    "NameOverride": "完成开拓任务（集音回传）",
-    "Code": "setadventuretaskfinish 任务id",
-    "CodeOverride": "setadventuretaskfinish 任务id",
-    "Sort": 13806,
-    "Visible": true
-  },
-  {
-    "Id": 3807,
-    "Name": "完成整个章节开拓任务",
-    "NameOverride": "完成整个章节开拓任务（集音回传）",
-    "Code": "setchapteradventuretaskfinish 章节Id",
-    "CodeOverride": "setchapteradventuretaskfinish 章节Id",
-    "Sort": 13807,
-    "Visible": true
-  },
-  {
-    "Id": 3808,
-    "Name": "完成开拓任务",
-    "NameOverride": "完成开拓任务（集音回传）",
-    "Code": "gmcapturedroptobag 任务id",
-    "CodeOverride": "gmcapturedroptobag 任务id",
-    "Sort": 13808,
-    "Visible": true
-  },
-  {
-    "Id": 4001,
-    "Name": "玩法强制刷新",
-    "NameOverride": "玩法强制刷新（推荐）",
-    "Code": "gmsetlevelplayupdateforce 玩法id 是否传送",
-    "CodeOverride": "gmsetlevelplayupdateforce 玩法id 是否传送",
-    "Sort": 4001,
-    "Visible": true
-  },
-  {
-    "Id": 4002,
-    "Name": "一键推进到玩法节点",
-    "NameOverride": "一键推进到玩法节点",
-    "Code": "SkipToLevelPlayNode#玩法Id,节点Id,是否传送(缺省为0)",
-    "CodeOverride": "SkipToLevelPlayNode#玩法Id,节点Id,是否传送",
-    "Sort": 4002,
-    "Visible": true
-  },
-  {
-    "Id": 4003,
-    "Name": "完成当前玩法节点",
-    "NameOverride": "完成当前玩法节点（推荐）",
-    "Code": "FinishCurrentLevelPlayNode#当前玩法追踪的第X个节点",
-    "CodeOverride": "FinishCurrentLevelPlayNode#1",
-    "Sort": 4003,
-    "Visible": true
-  },
-  {
-    "Id": 4004,
-    "Name": "传送到玩法",
-    "NameOverride": "传送到玩法中心",
-    "Code": "gmtransferlevelplay 玩法id",
-    "CodeOverride": "gmtransferlevelplay 玩法id",
-    "Sort": 4004,
-    "Visible": true
-  },
-  {
-    "Id": 4005,
-    "Name": "玩法强制开启/关闭",
-    "NameOverride": "玩法强制开启/关闭",
-    "Code": "gmsetlevelplayswitchforce 玩法id 状态",
-    "CodeOverride": "gmsetlevelplayswitchforce 玩法id 状态",
-    "Sort": 4005,
-    "Visible": true
-  },
-  {
-    "Id": 4006,
-    "Name": "玩法开启/关闭",
-    "NameOverride": "玩法开启/关闭",
-    "Code": "gmsetlevelplayswitch 玩法id 状态",
-    "CodeOverride": "gmsetlevelplayswitch 玩法id 状态",
-    "Sort": 4006,
-    "Visible": true
-  },
-  {
-    "Id": 4007,
-    "Name": "玩法刷新",
-    "NameOverride": "玩法刷新",
-    "Code": "gmsetlevelplayupdate 玩法id",
-    "CodeOverride": "gmsetlevelplayupdate 玩法id",
-    "Sort": 4007,
-    "Visible": true
-  },
-  {
-    "Id": 4008,
-    "Name": "玩法完成",
-    "NameOverride": "玩法标为完成",
-    "Code": "gmsetlevelplaycomplete 玩法id",
-    "CodeOverride": "gmsetlevelplaycomplete 玩法id",
-    "Sort": 4008,
-    "Visible": true
-  },
-  {
-    "Id": 4801,
-    "Name": "完成某个玩法节点",
-    "NameOverride": "完成某个玩法节点（隐藏中间指令）",
-    "Code": "submitlevelplaynode 玩法id 节点id",
-    "CodeOverride": "submitlevelplaynode 玩法id 节点id",
-    "Sort": 4801,
-    "Visible": false
-  },
-  {
-    "Id": 1007,
-    "Name": "传送到实体位置(可视化编辑实体ID)",
-    "NameOverride": "传送到关卡实体",
-    "Code": "TeleportToEntity#关卡实体Id,偏航角(默认为实体朝向)",
-    "CodeOverride": "TeleportToEntity#关卡实体Id,角度(默认实体朝向)",
-    "Sort": 1007,
-    "Visible": true
-  },
-  {
-    "Id": 2802,
-    "Name": "解锁副本入口",
-    "NameOverride": "解锁副本入口（解锁概念取消）",
-    "Code": "gmunlockentrance 副本入口id",
-    "CodeOverride": "gmunlockentrance 副本入口id",
-    "Sort": 2802,
-    "Visible": false
-  },
-  {
-    "Id": 2803,
-    "Name": "重置当前副本",
-    "NameOverride": "重置当前副本",
-    "Code": "ResetCurrentDungeon#",
-    "CodeOverride": "ResetCurrentDungeon#",
-    "Sort": 2803,
-    "Visible": false
-  },
-  {
-    "Id": 3007,
-    "Name": "清除所有任务",
-    "NameOverride": "清除所有任务",
-    "Code": "clear_all_quest",
-    "CodeOverride": "clear_all_quest",
-    "Sort": 3007,
-    "Visible": true
-  },
-  {
-    "Id": 3008,
-    "Name": "完成某个任务",
-    "NameOverride": "完成指定任务",
-    "Code": "finish_quest 任务id",
-    "CodeOverride": "finish_quest 任务id",
-    "Sort": 3008,
-    "Visible": true
-  },
-  {
-    "Id": 2007,
-    "Name": "解除副本打开界面限制",
-    "NameOverride": "解除副本内编队限制",
-    "Code": "UnfreezeInstanceLimit#",
-    "CodeOverride": "UnfreezeInstanceLimit#",
-    "Sort": 2007,
-    "Visible": true
-  },
-  {
-    "Id": 2804,
-    "Name": "打开爬塔入口",
-    "NameOverride": "打开爬塔入口",
-    "Code": "OpenTowerEntrance#",
-    "CodeOverride": "OpenTowerEntrance#",
-    "Sort": 2805,
-    "Visible": true
-  },
-  {
-    "Id": 3809,
-    "Name": "完成主线前两章（解锁被任务锁住的功能）",
-    "NameOverride": "完成主线前两章（解锁被任务锁住的功能）",
-    "Code": "finish_all_quest 139000022",
-    "CodeOverride": "finish_all_quest 139000022",
-    "Sort": 13809,
-    "Visible": true
-  },
-  {
-    "Id": 2806,
-    "Name": "打开领主道馆入口",
-    "NameOverride": "打开领主道馆入口",
-    "Code": "OpenLordGymEntrance#",
-    "CodeOverride": "OpenLordGymEntrance#",
-    "Sort": 2806,
-    "Visible": true
-  },
-  {
-    "Id": 1008,
-    "Name": "设置玩家在未开放区域是否开启拉回功能",
-    "NameOverride": "地图边界开关（边界外拉回）",
-    "Code": "SetUnopenedAreaPullback#0关闭,1开启",
-    "CodeOverride": "SetUnopenedAreaPullback#0关闭,1开启",
-    "Sort": 1008,
-    "Visible": true
-  }
+{
+  "Id": 1001,
+  "Name": "解锁所有探索工具",
+  "NameOverride": "解锁所有探索工具",
+  "Code": "gmunlockexploreskillall",
+  "CodeOverride": "gmunlockexploreskillall",
+  "Sort": 1001,
+  "Visible": true
+}
+,
+{
+  "Id": 1002,
+  "Name": "添加所有角色",
+  "NameOverride": "添加所有角色",
+  "Code": "add_all_role",
+  "CodeOverride": "add_all_role",
+  "Sort": 1002,
+  "Visible": true
+}
+,
+{
+  "Id": 1003,
+  "Name": "添加物品",
+  "NameOverride": "添加物品",
+  "Code": "AddItem#id,count",
+  "CodeOverride": "AddItem#id,count",
+  "Sort": 1003,
+  "Visible": true
+}
+,
+{
+  "Id": 1004,
+  "Name": "一键毕业",
+  "NameOverride": "一键毕业",
+  "Code": "RunOrderList#1",
+  "CodeOverride": "RunOrderList#1",
+  "Sort": 1004,
+  "Visible": true
+}
+,
+{
+  "Id": 1005,
+  "Name": "功能开启",
+  "NameOverride": "功能开启",
+  "Code": "funcopengm 功能Id",
+  "CodeOverride": "funcopengm 功能Id",
+  "Sort": 1005,
+  "Visible": true
+}
+,
+{
+  "Id": 1006,
+  "Name": "传送坐标点",
+  "NameOverride": "传送到指定坐标点",
+  "Code": "gmteleporttoposition X Y Z",
+  "CodeOverride": "gmteleporttoposition X Y Z",
+  "Sort": 1006,
+  "Visible": true
+}
+,
+{
+  "Id": 2001,
+  "Name": "一键推进到副本节点",
+  "NameOverride": "一键推进到副本节点（推荐）",
+  "Code": "SkipToInstanceDungeonNode#节点Id,传送开关(默认0),快速模式开关(默认1)",
+  "CodeOverride": "SkipToInstanceDungeonNode#节点Id,是否传送",
+  "Sort": 2001,
+  "Visible": true
+}
+,
+{
+  "Id": 2002,
+  "Name": "完成当前追踪副本节点",
+  "NameOverride": "完成当前追踪副本节点（推荐）",
+  "Code": "FinishCurTrackDungeonNode#当前追踪的第1个任务",
+  "CodeOverride": "FinishCurTrackDungeonNode#1",
+  "Sort": 2002,
+  "Visible": true
+}
+,
+{
+  "Id": 2003,
+  "Name": "传送到当前副本追踪位置",
+  "NameOverride": "传送到当前副本追踪位置",
+  "Code": "TeleportToCurDungeonTrackPosition#当前追踪的第X个",
+  "CodeOverride": "TeleportToCurDungeonTrackPosition#1",
+  "Sort": 2003,
+  "Visible": true
+}
+,
+{
+  "Id": 2004,
+  "Name": "重置当前副本",
+  "NameOverride": "重置当前副本",
+  "Code": "resetcurrentinst",
+  "CodeOverride": "resetcurrentinst",
+  "Sort": 2004,
+  "Visible": true
+}
+,
+{
+  "Id": 2005,
+  "Name": "打开对应副本入口",
+  "NameOverride": "打开副本入口（推荐）",
+  "Code": "OpenFbEntrance#",
+  "CodeOverride": "OpenFbEntrance#",
+  "Sort": 2005,
+  "Visible": true
+}
+,
+{
+  "Id": 2006,
+  "Name": "创建副本",
+  "NameOverride": "创建指定id的副本",
+  "Code": "gmcreateinst 副本入口id 副本id",
+  "CodeOverride": "gmcreateinst 0 副本id",
+  "Sort": 2006,
+  "Visible": true
+}
+,
+{
+  "Id": 2801,
+  "Name": "打开战斗编队界面",
+  "NameOverride": "打开战斗编队界面（废弃）",
+  "Code": "OpenEditBattleTeamView#副本Id",
+  "CodeOverride": "OpenEditBattleTeamView#副本Id",
+  "Sort": 2801,
+  "Visible": false
+}
+,
+{
+  "Id": 3001,
+  "Name": "一键推进到任务节点",
+  "NameOverride": "一键推进到任务节点（推荐）",
+  "Code": "SkipToQuestNode#任务Id,节点Id,传送开关(默认0),快速模式开关(默认0)",
+  "CodeOverride": "SkipToQuestNode#任务Id,节点Id,是否传送,快速模式(默认0)",
+  "Sort": 3001,
+  "Visible": true
+}
+,
+{
+  "Id": 3002,
+  "Name": "完成当前追踪任务节点",
+  "NameOverride": "完成当前追踪任务节点（推荐）",
+  "Code": "FinishCurrentTrackQuestNode#当前追踪的第X个任务",
+  "CodeOverride": "FinishCurrentTrackQuestNode#1",
+  "Sort": 3002,
+  "Visible": true
+}
+,
+{
+  "Id": 3003,
+  "Name": "传送到当前任务追踪位置",
+  "NameOverride": "传送到当前任务追踪位置",
+  "Code": "TeleportToCurQuestTrackPosition#当前追踪的第X个任务",
+  "CodeOverride": "TeleportToCurQuestTrackPosition#1",
+  "Sort": 3003,
+  "Visible": true
+}
+,
+{
+  "Id": 3004,
+  "Name": "接受任务,",
+  "NameOverride": "接受任务",
+  "Code": "accept_quest 任务id",
+  "CodeOverride": "accept_quest 任务id",
+  "Sort": 3004,
+  "Visible": true
+}
+,
+{
+  "Id": 3005,
+  "Name": "自动完成章节",
+  "NameOverride": "完成任务章节",
+  "Code": "finish_chapter_auto 章节ID",
+  "CodeOverride": "finish_chapter_auto 章节ID(输入1-8)",
+  "Sort": 3005,
+  "Visible": true
+}
+,
+{
+  "Id": 3006,
+  "Name": "完成指定任务链",
+  "NameOverride": "完成指定任务链（含前置）",
+  "Code": "finish_all_quest 任务ID",
+  "CodeOverride": "finish_all_quest 任务ID",
+  "Sort": 3006,
+  "Visible": true
+}
+,
+{
+  "Id": 3101,
+  "Name": "刷新每日任务",
+  "NameOverride": "刷新每日任务",
+  "Code": "gmrefreshdailyquest",
+  "CodeOverride": "gmrefreshdailyquest",
+  "Sort": 3101,
+  "Visible": true
+}
+,
+{
+  "Id": 3102,
+  "Name": "每日任务--设置全局变量",
+  "NameOverride": "每日任务--设置全局变量",
+  "Code": "gmdailyquest_setvar 名字 值",
+  "CodeOverride": "gmdailyquest_setvar 名字 值",
+  "Sort": 3102,
+  "Visible": true
+}
+,
+{
+  "Id": 3103,
+  "Name": "每日任务--接取指定任务",
+  "NameOverride": "每日任务--接取指定任务",
+  "Code": "gmacceptdailyquest 任务组id 任务id",
+  "CodeOverride": "gmacceptdailyquest 任务组id 任务id",
+  "Sort": 3103,
+  "Visible": true
+}
+,
+{
+  "Id": 3104,
+  "Name": "每日任务--接取指定任务(带条件检测)",
+  "NameOverride": "每日任务--接取指定任务(带条件检测)",
+  "Code": "gmacceptdailyquestwithcondcheck 任务组id 任务id",
+  "CodeOverride": "gmacceptdailyquestwithcondcheck 任务组id 任务id",
+  "Sort": 3104,
+  "Visible": true
+}
+,
+{
+  "Id": 3801,
+  "Name": "显示任务树信息",
+  "NameOverride": "显示任务树信息",
+  "Code": "show_tree 任务id",
+  "CodeOverride": "show_tree 任务id",
+  "Sort": 3801,
+  "Visible": false
+}
+,
+{
+  "Id": 3802,
+  "Name": "接受所有类型任务,",
+  "NameOverride": "接受指定类型所有任务",
+  "Code": "accept_all 任务类型",
+  "CodeOverride": "accept_all 任务类型",
+  "Sort": 3802,
+  "Visible": true
+}
+,
+{
+  "Id": 3803,
+  "Name": "完成某个任务节点",
+  "NameOverride": "完成某个任务节点（隐藏中间指令）",
+  "Code": "submit_node 任务id 节点id",
+  "CodeOverride": "submit_node 任务id 节点id",
+  "Sort": 3803,
+  "Visible": false
+}
+,
+{
+  "Id": 3804,
+  "Name": "完成到某个节点",
+  "NameOverride": "完成到某个节点（隐藏中间指令）",
+  "Code": "skip_to_node 任务id 节点id",
+  "CodeOverride": "skip_to_node 任务id 节点id",
+  "Sort": 3804,
+  "Visible": false
+}
+,
+{
+  "Id": 3805,
+  "Name": "跳到任务",
+  "NameOverride": "跳到任务（CBT1，废弃）",
+  "Code": "FinishAllQuestTo#任务Id}，并完成全部前置任",
+  "CodeOverride": "FinishAllQuestTo#任务Id}，并完成全部前置任",
+  "Sort": 3805,
+  "Visible": false
+}
+,
+{
+  "Id": 3806,
+  "Name": "完成开拓任务",
+  "NameOverride": "完成开拓任务（集音回传）",
+  "Code": "setadventuretaskfinish 任务id",
+  "CodeOverride": "setadventuretaskfinish 任务id",
+  "Sort": 13806,
+  "Visible": true
+}
+,
+{
+  "Id": 3807,
+  "Name": "完成整个章节开拓任务",
+  "NameOverride": "完成整个章节开拓任务（集音回传）",
+  "Code": "setchapteradventuretaskfinish 章节Id",
+  "CodeOverride": "setchapteradventuretaskfinish 章节Id",
+  "Sort": 13807,
+  "Visible": true
+}
+,
+{
+  "Id": 3808,
+  "Name": "完成开拓任务",
+  "NameOverride": "完成开拓任务（集音回传）",
+  "Code": "gmcapturedroptobag 任务id",
+  "CodeOverride": "gmcapturedroptobag 任务id",
+  "Sort": 13808,
+  "Visible": true
+}
+,
+{
+  "Id": 4001,
+  "Name": "玩法强制刷新",
+  "NameOverride": "玩法强制刷新（推荐）",
+  "Code": "gmsetlevelplayupdateforce 玩法id 是否传送",
+  "CodeOverride": "gmsetlevelplayupdateforce 玩法id 是否传送",
+  "Sort": 4001,
+  "Visible": true
+}
+,
+{
+  "Id": 4002,
+  "Name": "一键推进到玩法节点",
+  "NameOverride": "一键推进到玩法节点",
+  "Code": "SkipToLevelPlayNode#玩法Id,节点Id,是否传送(缺省为0)",
+  "CodeOverride": "SkipToLevelPlayNode#玩法Id,节点Id,是否传送",
+  "Sort": 4002,
+  "Visible": true
+}
+,
+{
+  "Id": 4003,
+  "Name": "完成当前玩法节点",
+  "NameOverride": "完成当前玩法节点（推荐）",
+  "Code": "FinishCurrentLevelPlayNode#当前玩法追踪的第X个节点",
+  "CodeOverride": "FinishCurrentLevelPlayNode#1",
+  "Sort": 4003,
+  "Visible": true
+}
+,
+{
+  "Id": 4004,
+  "Name": "传送到玩法",
+  "NameOverride": "传送到玩法中心",
+  "Code": "gmtransferlevelplay 玩法id",
+  "CodeOverride": "gmtransferlevelplay 玩法id",
+  "Sort": 4004,
+  "Visible": true
+}
+,
+{
+  "Id": 4005,
+  "Name": "玩法强制开启/关闭",
+  "NameOverride": "玩法强制开启/关闭",
+  "Code": "gmsetlevelplayswitchforce 玩法id 状态",
+  "CodeOverride": "gmsetlevelplayswitchforce 玩法id 状态",
+  "Sort": 4005,
+  "Visible": true
+}
+,
+{
+  "Id": 4006,
+  "Name": "玩法开启/关闭",
+  "NameOverride": "玩法开启/关闭",
+  "Code": "gmsetlevelplayswitch 玩法id 状态",
+  "CodeOverride": "gmsetlevelplayswitch 玩法id 状态",
+  "Sort": 4006,
+  "Visible": true
+}
+,
+{
+  "Id": 4007,
+  "Name": "玩法刷新",
+  "NameOverride": "玩法刷新",
+  "Code": "gmsetlevelplayupdate 玩法id",
+  "CodeOverride": "gmsetlevelplayupdate 玩法id",
+  "Sort": 4007,
+  "Visible": true
+}
+,
+{
+  "Id": 4008,
+  "Name": "玩法完成",
+  "NameOverride": "玩法标为完成",
+  "Code": "gmsetlevelplaycomplete 玩法id",
+  "CodeOverride": "gmsetlevelplaycomplete 玩法id",
+  "Sort": 4008,
+  "Visible": true
+}
+,
+{
+  "Id": 4801,
+  "Name": "完成某个玩法节点",
+  "NameOverride": "完成某个玩法节点（隐藏中间指令）",
+  "Code": "submitlevelplaynode 玩法id 节点id",
+  "CodeOverride": "submitlevelplaynode 玩法id 节点id",
+  "Sort": 4801,
+  "Visible": false
+}
+,
+{
+  "Id": 1007,
+  "Name": "传送到实体位置(可视化编辑实体ID)",
+  "NameOverride": "传送到关卡实体",
+  "Code": "TeleportToEntity#关卡实体Id,偏航角(默认为实体朝向)",
+  "CodeOverride": "TeleportToEntity#关卡实体Id,角度(默认实体朝向)",
+  "Sort": 1007,
+  "Visible": true
+}
+,
+{
+  "Id": 2802,
+  "Name": "解锁副本入口",
+  "NameOverride": "解锁副本入口（解锁概念取消）",
+  "Code": "gmunlockentrance 副本入口id",
+  "CodeOverride": "gmunlockentrance 副本入口id",
+  "Sort": 2802,
+  "Visible": false
+}
+,
+{
+  "Id": 2803,
+  "Name": "重置当前副本",
+  "NameOverride": "重置当前副本",
+  "Code": "ResetCurrentDungeon#",
+  "CodeOverride": "ResetCurrentDungeon#",
+  "Sort": 2803,
+  "Visible": false
+}
+,
+{
+  "Id": 3007,
+  "Name": "清除所有任务",
+  "NameOverride": "清除所有任务",
+  "Code": "clear_all_quest",
+  "CodeOverride": "clear_all_quest",
+  "Sort": 3007,
+  "Visible": true
+}
+,
+{
+  "Id": 3008,
+  "Name": "完成某个任务",
+  "NameOverride": "完成指定任务",
+  "Code": "finish_quest 任务id",
+  "CodeOverride": "finish_quest 任务id",
+  "Sort": 3008,
+  "Visible": true
+}
+,
+{
+  "Id": 2007,
+  "Name": "解除副本打开界面限制",
+  "NameOverride": "解除副本内编队限制",
+  "Code": "UnfreezeInstanceLimit#",
+  "CodeOverride": "UnfreezeInstanceLimit#",
+  "Sort": 2007,
+  "Visible": true
+}
+,
+{
+  "Id": 2804,
+  "Name": "打开爬塔入口",
+  "NameOverride": "打开爬塔入口",
+  "Code": "OpenTowerEntrance#",
+  "CodeOverride": "OpenTowerEntrance#",
+  "Sort": 2805,
+  "Visible": true
+}
+,
+{
+  "Id": 3809,
+  "Name": "完成主线前两章（解锁被任务锁住的功能）",
+  "NameOverride": "完成主线前两章（解锁被任务锁住的功能）",
+  "Code": "finish_all_quest 139000022",
+  "CodeOverride": "finish_all_quest 139000022",
+  "Sort": 13809,
+  "Visible": true
+}
+,
+{
+  "Id": 2806,
+  "Name": "打开领主道馆入口",
+  "NameOverride": "打开领主道馆入口",
+  "Code": "OpenLordGymEntrance#",
+  "CodeOverride": "OpenLordGymEntrance#",
+  "Sort": 2806,
+  "Visible": true
+}
+,
+{
+  "Id": 1008,
+  "Name": "设置玩家在未开放区域是否开启拉回功能",
+  "NameOverride": "地图边界开关（边界外拉回）",
+  "Code": "SetUnopenedAreaPullback#0关闭,1开启",
+  "CodeOverride": "SetUnopenedAreaPullback#0关闭,1开启",
+  "Sort": 1008,
+  "Visible": true
+}
 ]
