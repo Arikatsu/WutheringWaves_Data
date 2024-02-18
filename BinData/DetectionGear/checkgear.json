@@ -1,62 +1,146 @@
 [
-    {
-        "Id": 1,
-        "GenId": 10010010002,
-        "BinData": "IAAAAAAAAAAYACQAIAAYABQAAAAAABAADAAAAAgABwAYAAAAAAAAATMzMz+amRk/FAAAADAAAACSoaRUAgAAAAEAAAAbAAAA54mp5L2TLuacuuWFsy7nirbmgIEu5r+A5rS7AAIAAAAAAAAAAQAAAA=="
-    },
-    {
-        "Id": 2,
-        "GenId": 101,
-        "BinData": "HAAAAAAAFgAkACAAFAAQAAAAAAAMAAgAAAAEABYAAAAzMzM/mpkZPxgAAAA0AAAAZQAAAAAAAAAAAAAAAgAAABsAAADniankvZMu5py65YWzLueKtuaAgS7mv4DmtLsAAQAAAAEAAAA="
-    },
-    {
-        "Id": 3,
-        "GenId": 102,
-        "BinData": "HAAAAAAAFgAsACgAHAAYABQAAAAQAAwACAAEABYAAAAzMzM/AACAP5qZGT8cAAAAAQAAADQAAABmAAAAAAAAAAAAAAADAAAAGwAAAOeJqeS9ky7mnLrlhbMu54q25oCBLua/gOa0uwABAAAAAQAAAA=="
-    },
-    {
-        "Id": 4,
-        "GenId": 10080030030040,
-        "BinData": "IAAAAAAAAAAYADAALAAgABwAGAAAABQAEAAMAAgABwAYAAAAAAAAATMzMz+amZk/mpkZPxwAAAABAAAANAAAANj4m/AqCQAAAAAAAAQAAAAbAAAA54mp5L2TLuacuuWFsy7nirbmgIEu5r+A5rS7AAEAAAAAAAAA"
-    },
-    {
-        "Id": 5,
-        "GenId": 10080030030041,
-        "BinData": "HAAAABgALAAoABwAGAAUAAAAEAAMAAAACAAHABgAAAAAAAABMzMzP5qZGT8cAAAAAQAAADQAAADZ+JvwKgkAAAAAAAAFAAAAGwAAAOeJqeS9ky7mnLrlhbMu54q25oCBLua/gOa0uwABAAAAAAAAAA=="
-    },
-    {
-        "Id": 6,
-        "GenId": 139070016100037,
-        "BinData": "IAAAAAAAAAAYACwAKAAgABwAGAAAABQAEAAMAAgABwAYAAAAAAAAATMzMz8AAIA/mpkZPxgAAAABAAAAMAAAAMWW6MJ7fgAABgAAABsAAADniankvZMu5py65YWzLueKtuaAgS7mv4DmtLsAAgAAAAAAAAABAAAA"
-    },
-    {
-        "Id": 7,
-        "GenId": 139070016100038,
-        "BinData": "IAAAAAAAAAAYACwAKAAgABwAGAAAABQAEAAMAAgABwAYAAAAAAAAATMzMz8AAIA/mpkZPxgAAAABAAAAMAAAAMaW6MJ7fgAABwAAABsAAADniankvZMu5py65YWzLueKtuaAgS7mv4DmtLsAAgAAAAAAAAABAAAA"
-    },
-    {
-        "Id": 8,
-        "GenId": 139070016100078,
-        "BinData": "IAAAAAAAAAAYACwAKAAgABwAGAAAABQAEAAMAAgABwAYAAAAAAAAATMzMz8AAABAmpkZPxgAAAABAAAAMAAAAO6W6MJ7fgAACAAAABsAAADniankvZMu5py65YWzLueKtuaAgS7mv4DmtLsAAgAAAAAAAAABAAAA"
-    },
-    {
-        "Id": 9,
-        "GenId": 139070016100079,
-        "BinData": "IAAAAAAAAAAYACwAKAAgABwAGAAAABQAEAAMAAgABwAYAAAAAAAAATMzMz8AAABAmpkZPxgAAAABAAAAMAAAAO+W6MJ7fgAACQAAABsAAADniankvZMu5py65YWzLueKtuaAgS7mv4DmtLsAAgAAAAAAAAABAAAA"
-    },
-    {
-        "Id": 10,
-        "GenId": 139070016100080,
-        "BinData": "IAAAAAAAAAAYACwAKAAgABwAGAAAABQAEAAMAAgABwAYAAAAAAAAATMzMz8AAABAmpkZPxgAAAABAAAAMAAAAPCW6MJ7fgAACgAAABsAAADniankvZMu5py65YWzLueKtuaAgS7mv4DmtLsAAgAAAAAAAAABAAAA"
-    },
-    {
-        "Id": 11,
-        "GenId": 100080016100037,
-        "BinData": "IAAAAAAAAAAYACwAKAAgABwAGAAAABQAEAAMAAgABwAYAAAAAAAAAQAAQEAAAIA/ZmZGQBgAAAABAAAAMAAAAMUKz7EFWwAACwAAABsAAADniankvZMu5py65YWzLueKtuaAgS7mv4DmtLsAAgAAAAAAAAABAAAA"
-    },
-    {
-        "Id": 12,
-        "GenId": 100080016100038,
-        "BinData": "IAAAAAAAAAAYACwAKAAgABwAGAAAABQAEAAMAAgABwAYAAAAAAAAAQAAQEAAAIA/ZmZGQBgAAAABAAAAMAAAAMYKz7EFWwAADAAAABsAAADniankvZMu5py65YWzLueKtuaAgS7mv4DmtLsAAgAAAAAAAAABAAAA"
-    }
+  {
+    "Id": 1,
+    "GenId": "10010010002",
+    "CondType": [0, 1],
+    "EventCountType": 0,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 0,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": true
+  },
+  {
+    "Id": 2,
+    "GenId": "101",
+    "CondType": [1],
+    "EventCountType": 0,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 0,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": false
+  },
+  {
+    "Id": 3,
+    "GenId": "102",
+    "CondType": [1],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 1,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": false
+  },
+  {
+    "Id": 4,
+    "GenId": "10080030030040",
+    "CondType": [0],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 1.2000000476837158,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": true
+  },
+  {
+    "Id": 5,
+    "GenId": "10080030030041",
+    "CondType": [0],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 0,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": true
+  },
+  {
+    "Id": 6,
+    "GenId": "139070016100037",
+    "CondType": [0, 1],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 1,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": true
+  },
+  {
+    "Id": 7,
+    "GenId": "139070016100038",
+    "CondType": [0, 1],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 1,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": true
+  },
+  {
+    "Id": 8,
+    "GenId": "139070016100078",
+    "CondType": [0, 1],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 2,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": true
+  },
+  {
+    "Id": 9,
+    "GenId": "139070016100079",
+    "CondType": [0, 1],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 2,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": true
+  },
+  {
+    "Id": 10,
+    "GenId": "139070016100080",
+    "CondType": [0, 1],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 0.6000000238418579,
+    "StayTime": 2,
+    "TurnTime": 0.699999988079071,
+    "ResetGear": true
+  },
+  {
+    "Id": 11,
+    "GenId": "100080016100037",
+    "CondType": [0, 1],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 3.0999999046325684,
+    "StayTime": 1,
+    "TurnTime": 3,
+    "ResetGear": true
+  },
+  {
+    "Id": 12,
+    "GenId": "100080016100038",
+    "CondType": [0, 1],
+    "EventCountType": 1,
+    "EntityNum": 1,
+    "CheckTagName": "物体.机关.状态.激活",
+    "DownTime": 3.0999999046325684,
+    "StayTime": 1,
+    "TurnTime": 3,
+    "ResetGear": true
+  }
 ]

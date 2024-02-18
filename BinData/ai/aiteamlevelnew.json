@@ -1,38 +1,209 @@
 [
-    {
-        "Id": 1,
-        "BinData": "HAAAAAAAFgAgAAAAHAAYAAAAFAAQAAwACAAEABYAAAAcAAAAKAAAADAAAAA4AAAAQAAAAFAAAABYAAAAAwAAAAAAAEAAAEBAAACAPwIAAAAAAEBAAACAP9z///8AAMhCAADIQuj///8AgLtFAECcRfT///8AwNpFAECcRQgADAAIAAQACAAAAABAHEYAAPpFAwAAAAEAAAACAAAAAwAAAA=="
+  {
+    "Id": 1,
+    "PositionId": [1, 2, 3],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
     },
-    {
-        "Id": 2,
-        "BinData": "HAAAAAAAFgAkACAAHAAYAAAAFAAQAAwACAAEABYAAAAgAAAALAAAADQAAAA8AAAARAAAAFQAAABcAAAAAgAAAAMAAAAAAEBBAAAgQQAAgEACAAAAAAAAQAAAgD/c////AADIQgAAyELo////AMDaRQBAnEX0////AIA7RQAA+kQIAAwACAAEAAgAAAAAQBxGAAD6RQMAAAABAAAAAgAAAAMAAAA="
+    "AttackerNum": 2,
+    "AttackCountDown": {
+      "Min": 5000,
+      "Max": 7000
     },
-    {
-        "Id": 3,
-        "BinData": "HAAAAAAAFgAoACQAIAAcABgAFAAQAAwACAAEABYAAAAkAAAAMAAAADgAAABAAAAASAAAABQAAABUAAAAXAAAAAMAAAADAAAAAABAQQAAIEEAAIBAAgAAAAAAAEAAAIA/3P///wAAyEIAAMhC6P///wDA2kUAQJxF9P///wCAO0UAAPpECAAMAAgABAAIAAAAAEAcRgAA+kUDAAAAAQAAAAIAAAADAAAA"
+    "NoAttackCountDown": {
+      "Min": 5000,
+      "Max": 6000
     },
-    {
-        "Id": 4,
-        "BinData": "HAAAAAAAFgAkACAAHAAYAAAAFAAQAAwACAAEABYAAAAgAAAALAAAADQAAAA8AAAARAAAAFQAAABcAAAABAAAAAMAAAAAAAAAAAAAQAAAgD8CAAAAAAAAQAAAgD/c////AADIQgAAyELo////AAD6RAAAekT0////AOArRgBAHEYIAAwACAAEAAgAAAAAQBxGAAD6RQEAAAADAAAA"
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
     },
-    {
-        "Id": 100,
-        "BinData": "HAAAAAAAFgAoACQAIAAcABgAFAAQAAwACAAEABYAAAAkAAAAMAAAADgAAABAAAAATAAAAAoAAABQAAAAWAAAAGQAAAADAAAAAAAAQAAAQEAAAIA/AgAAAAAAQEAAAIA/4P///wAAyEIAAMhC7P///wCAu0UAQJxFBAAEAAQAAAAIAAwACAAEAAgAAAAAQBxGAAD6RQMAAAABAAAAAgAAAAMAAAA="
+    "EliteRatio": [3, 1],
+    "RangeRatio": [2, 3, 1]
+  },
+  {
+    "Id": 2,
+    "PositionId": [1, 2, 3],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
     },
-    {
-        "Id": 801,
-        "BinData": "HAAAAAAAFgAkACAAHAAYAAAAFAAQAAwACAAEABYAAAAgAAAALAAAADQAAAA8AAAARAAAAFQAAABcAAAAIQMAAAMAAAAAAABAAABAQAAAgD8CAAAAAAAAQAAAgD/c////AADIQgAAyELo////AAB6RAAA+kP0////AAB6RAAA+kMIAAwACAAEAAgAAAAAQBxGAAD6RQMAAAABAAAAAgAAAAMAAAA="
+    "AttackerNum": 2,
+    "AttackCountDown": {
+      "Min": 2000,
+      "Max": 3000
     },
-    {
-        "Id": 802,
-        "BinData": "HAAAAAAAFgAoACQAIAAcABgAFAAQAAwACAAEABYAAAAkAAAAMAAAADgAAABAAAAAUAAAAAQAAABYAAAAYAAAACIDAAADAAAAAABAQQAAIEEAAIBAAgAAAAAAAEAAAIA/2P///wAAyEIAAMhC5P///wDA2kUAQJxFCAAIAAAABAAIAAAAAABIQwgADAAIAAQACAAAAABAHEYAAPpFAwAAAAEAAAACAAAAAwAAAA=="
+    "NoAttackCountDown": {
+      "Min": 5000,
+      "Max": 7000
     },
-    {
-        "Id": 94,
-        "BinData": "HAAAAAAAFgAoACQAIAAcABgAFAAQAAwACAAEABYAAAAkAAAAMAAAADgAAABAAAAASAAAAAEAAABUAAAAXAAAAF4AAAADAAAAAACAPwAAgD8AAIA/AgAAAAAAgEAAAIA/3P///wAAyEIAAMhC6P///wDA2kUAQJxF9P///wAggEUAAHpFCAAMAAgABAAIAAAAAEAcRgAA+kUDAAAAAQAAAAIAAAADAAAA"
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
     },
-    {
-        "Id": 901,
-        "BinData": "HAAAAAAAFgAoACQAIAAcABgAFAAQAAwACAAEABYAAAAkAAAAMAAAADgAAABAAAAAUAAAAB4AAABYAAAAYAAAAIUDAAADAAAAAABAQQAAIEEAAIBAAgAAAAAAAEAAAIA/2P///wAAyEIAAMhC5P///wDA2kUAQJxFCAAIAAAABAAIAAAAAABIQwgADAAIAAQACAAAAABAHEYAAPpFAwAAAAEAAAACAAAAAwAAAA=="
-    }
+    "EliteRatio": [2, 1],
+    "RangeRatio": [12, 10, 4]
+  },
+  {
+    "Id": 3,
+    "PositionId": [1, 2, 3],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 20,
+    "AttackCountDown": {
+      "Min": 2000,
+      "Max": 3000
+    },
+    "NoAttackCountDown": {
+      "Min": 5000,
+      "Max": 7000
+    },
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
+    },
+    "EliteRatio": [2, 1],
+    "RangeRatio": [12, 10, 4]
+  },
+  {
+    "Id": 4,
+    "PositionId": [3],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 2,
+    "AttackCountDown": {
+      "Min": 10000,
+      "Max": 11000
+    },
+    "NoAttackCountDown": {
+      "Min": 1000,
+      "Max": 2000
+    },
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
+    },
+    "EliteRatio": [2, 1],
+    "RangeRatio": [0, 2, 1]
+  },
+  {
+    "Id": 100,
+    "PositionId": [1, 2, 3],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 10,
+    "AttackCountDown": {
+      "Min": 0,
+      "Max": 0
+    },
+    "NoAttackCountDown": {
+      "Min": 5000,
+      "Max": 6000
+    },
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
+    },
+    "EliteRatio": [3, 1],
+    "RangeRatio": [2, 3, 1]
+  },
+  {
+    "Id": 801,
+    "PositionId": [1, 2, 3],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 2,
+    "AttackCountDown": {
+      "Min": 500,
+      "Max": 1000
+    },
+    "NoAttackCountDown": {
+      "Min": 500,
+      "Max": 1000
+    },
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
+    },
+    "EliteRatio": [2, 1],
+    "RangeRatio": [2, 3, 1]
+  },
+  {
+    "Id": 802,
+    "PositionId": [1, 2, 3],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 4,
+    "AttackCountDown": {
+      "Min": 0,
+      "Max": 200
+    },
+    "NoAttackCountDown": {
+      "Min": 5000,
+      "Max": 7000
+    },
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
+    },
+    "EliteRatio": [2, 1],
+    "RangeRatio": [12, 10, 4]
+  },
+  {
+    "Id": 94,
+    "PositionId": [1, 2, 3],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 1,
+    "AttackCountDown": {
+      "Min": 4000,
+      "Max": 4100
+    },
+    "NoAttackCountDown": {
+      "Min": 5000,
+      "Max": 7000
+    },
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
+    },
+    "EliteRatio": [4, 1],
+    "RangeRatio": [1, 1, 1]
+  },
+  {
+    "Id": 901,
+    "PositionId": [1, 2, 3],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 30,
+    "AttackCountDown": {
+      "Min": 0,
+      "Max": 200
+    },
+    "NoAttackCountDown": {
+      "Min": 5000,
+      "Max": 7000
+    },
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
+    },
+    "EliteRatio": [2, 1],
+    "RangeRatio": [12, 10, 4]
+  }
 ]

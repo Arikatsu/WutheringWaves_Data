@@ -1,14 +1,59 @@
 [
-    {
-        "Id": 1,
-        "BinData": "GAAAABQAIAAcABgAFAAAABAADAAIAAQAFAAAABwAAAAoAAAAMAAAADgAAABIAAAAUAAAAAEAAAADAAAAAAAAQAAAgEAAAIA/AgAAAAAAAEAAAIA/6P///wBAnEUAgDtF9P///wBAHEYAYOpFCAAMAAgABAAIAAAAAEAcRgAA+kUIAAAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAA="
+  {
+    "Id": 1,
+    "PositionId": [1, 2, 3, 4, 5, 6, 7, 8],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
     },
-    {
-        "Id": 2,
-        "BinData": "GAAAABQAIAAcABgAFAAAABAADAAIAAQAFAAAABwAAAAoAAAAMAAAADgAAABIAAAAUAAAAAIAAAADAAAAAABAQQAAIEEAAIBAAgAAAAAAAEAAAIA/6P///wDA2kUAQJxF9P///wCAO0UAAPpECAAMAAgABAAIAAAAAEAcRgAA+kUIAAAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAA="
+    "AttackerNum": 2,
+    "AttackCountDown": {
+      "Min": 7500,
+      "Max": 10000
     },
-    {
-        "Id": 3,
-        "BinData": "GAAAABQAJAAgABwAGAAUABAADAAIAAQAFAAAACAAAAAsAAAANAAAAEAAAAAUAAAARAAAAEwAAAADAAAAAwAAAAAAQEEAACBBAACAQAIAAAAAAABAAACAP+z///8AwNpFAECcRQQABAAEAAAACAAMAAgABAAIAAAAAEAcRgAA+kUIAAAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAA="
-    }
+    "NoAttackCountDown": {
+      "Min": 3000,
+      "Max": 5000
+    },
+    "EliteRatio": [2, 1],
+    "RangeRatio": [2, 4, 1]
+  },
+  {
+    "Id": 2,
+    "PositionId": [1, 2, 3, 4, 5, 6, 7, 8],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 2,
+    "AttackCountDown": {
+      "Min": 2000,
+      "Max": 3000
+    },
+    "NoAttackCountDown": {
+      "Min": 5000,
+      "Max": 7000
+    },
+    "EliteRatio": [2, 1],
+    "RangeRatio": [12, 10, 4]
+  },
+  {
+    "Id": 3,
+    "PositionId": [1, 2, 3, 4, 5, 6, 7, 8],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 20,
+    "AttackCountDown": {
+      "Min": 0,
+      "Max": 0
+    },
+    "NoAttackCountDown": {
+      "Min": 5000,
+      "Max": 7000
+    },
+    "EliteRatio": [2, 1],
+    "RangeRatio": [12, 10, 4]
+  }
 ]

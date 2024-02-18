@@ -1,14 +1,29 @@
 [
-    {
-        "Id": 1,
-        "BinData": "GAAAAAAAEgAgABwAGAAUABAADAAIAAQAEgAAAAAAgD8EAAAAFAAAABgAAAABAAAAGAAAAAEAAAABAAAAAgAAAAEAAAACAAAADAAAAOmAmueUqOWuneeusQAAAAA="
-    },
-    {
-        "Id": 2,
-        "BinData": "GAAAAAAAEgAgABwAGAAUABAADAAIAAQAEgAAAAAAgD8EAAAAFAAAABgAAAABAAAAHAAAAAIAAAABAAAABQAAAAIAAAAFAAAABgAAABIAAADpu5Hnn7Plop7nlJ/lrp3nrrEAAA=="
-    },
-    {
-        "Id": 3,
-        "BinData": "GAAAAAAAEgAgABwAGAAUABAADAAIAAQAEgAAAAAAgD8EAAAAFAAAABgAAAAHAAAAGAAAAAMAAAABAAAAAgAAAAEAAAACAAAAEgAAAOeOqeazleeUn+aIkOWuneeusQAA"
-    }
+  {
+    "Id": 1,
+    "Mark": "通用宝箱",
+    "StartState": 1,
+    "IdleState": [2],
+    "IdleStartState": [2],
+    "DeathState": 4,
+    "OpenTime": 1
+  },
+  {
+    "Id": 2,
+    "Mark": "黑石增生宝箱",
+    "StartState": 1,
+    "IdleState": [5, 6],
+    "IdleStartState": [5],
+    "DeathState": 4,
+    "OpenTime": 1
+  },
+  {
+    "Id": 3,
+    "Mark": "玩法生成宝箱",
+    "StartState": 7,
+    "IdleState": [2],
+    "IdleStartState": [2],
+    "DeathState": 4,
+    "OpenTime": 1
+  }
 ]

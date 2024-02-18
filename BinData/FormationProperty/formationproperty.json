@@ -1,26 +1,183 @@
 [
-    {
-        "Id": 1,
-        "BinData": "KAAAAAAAIgAkACAAHAAYABQAEAAAAAwAAAAAAAAACAAAAAAAAAAEACIAAAAgAAAAMAAAADwAAAA8AAAAsDYAAGAJAACwNgAAAQAAAPT///8AQBxGADwcRggADAAIAAQACAAAAABAHEYAPBxGBAAEAAQAAAABAAAABAAAACYAAADlip/og70u5Yqf6IO95Yi25L2cLuemgeatouS9k+WKm+aBouWkjQAA"
+  {
+    "Id": 1,
+    "InitValue": 14000,
+    "InitRecoveryRate": 2400,
+    "InitMax": 14000,
+    "MarkTag": ["功能.功能制作.禁止体力恢复"],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 0,
+      "Max": 0
     },
-    {
-        "Id": 2,
-        "BinData": "LAAAAAAAAAAAACIAIAAcAAAAGAAAABQAAAAQAAAAAAAMAAgAAAAAAAAABAAiAAAAHAAAACQAAAAsAAAAQAAAAEgAAAB47P//AgAAANj///8AQBxGADwcRuT///8AQBxGADwcRgEAAAB7tyUmAAAAAAAAAAAIAAwACAAEAAgAAAAAQBxGADwcRgEAAAAEAAAAIwAAAOWKn+iDvS7pgLvovpHnirbmgIHmoIfor4Yu5Ymn5oOF5LitAA=="
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
     },
-    {
-        "Id": 3,
-        "BinData": "KAAAAAAAIgAkACAAAAAcAAAAGAAAABQAEAAAAAwACAAAAAAAAAAEACIAAAAgAAAAKAAAADAAAAABAAAASAAAAFAAAAAY/P//AwAAAND///8AQBxGADwcRtz///8AQBxGADwcRgIAAAAE38QEAAAAAAXfxAQAAAAAAAAAAAgADAAIAAQACAAAAABAHEYAPBxGBgAAABgAAAA8AAAAbAAAAJQAAAC4AAAA7AAAACAAAADlip/og70u6YC76L6R54q25oCB5qCH6K+GLuaXoOaVjAAAAAAtAAAA6KeS6ImyLkNvbW1vbi7mioDog73pgJrnlKjmoIfor4Yu5p6B6ZmQ6Zeq6YG/AAAAJwAAAOinkuiJsi5Db21tb24u5oqA6IO96YCa55So5qCH6K+GLuWkp+aLmwAgAAAA6KGM5Li654q25oCBLuS9jee9rueKtuaAgS7msLTkuK0AAAAAMgAAAOinkuiJsi5CYXNlUm9sZS7mioDog73pgJrnlKjmoIfor4Yu5bm76LGh5Y+Y6Lqr5LitAAANAAAARGFtYWdlLkZyb3plbgAAAA=="
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
     },
-    {
-        "Id": 4,
-        "BinData": "LAAAAAAAAAAAACIAIAAcAAAAGAAAAAAAAAAUABAAAAAMAAgAAAAAAAAABAAiAAAAHAAAACQAAAAsAAAAAQAAADwAAAAAAAAABAAAANj///8AQBxGADwcRuT///8AQBxGADwcRgEAAAASLa1JugAAAAAAAAAIAAwACAAEAAgAAAAAQBxGADwcRg=="
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": []
+  },
+  {
+    "Id": 2,
+    "InitValue": 0,
+    "InitRecoveryRate": -5000,
+    "InitMax": 10000,
+    "MarkTag": ["功能.逻辑状态标识.剧情中"],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 9999,
+      "Max": 10000
     },
-    {
-        "Id": 5,
-        "BinData": "KAAAAAAAIgAcABgAAAAUABAAAAAAAAwAAAAAAAAACAAAAAAAAAAEACIAAAAYAAAAKAAAADQAAADQBwAAnP///wUAAAD0////AEAcRgA8HEYIAAwACAAEAAgAAAAAQBxGADwcRgQABAAEAAAA"
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": ["640006011"],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
     },
-    {
-        "Id": 6,
-        "BinData": "KAAAAAAAIgAkACAAAAAcAAAAGAAAABQAEAAAAAwACAAAAAAAAAAEACIAAAAgAAAAKAAAADAAAAABAAAAPAAAAEQAAAB47P//BgAAANz///8AQBxGADwcRuj///8AQBxGADwcRgEAAAAiNp0lAAAAAAgADAAIAAQACAAAAABAHEYAPBxGAgAAAAgAAAAsAAAAIwAAAOWKn+iDvS7pgLvovpHnirbmgIHmoIfor4Yu5Ymn5oOF5LitACAAAADlhbPljaEu5a2i5a2QLuWtouWtkOiuoemHj+WBnOatogAAAAA="
-    }
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": []
+  },
+  {
+    "Id": 3,
+    "InitValue": 0,
+    "InitRecoveryRate": -1000,
+    "InitMax": 10000,
+    "MarkTag": [
+      "功能.逻辑状态标识.无敌",
+      "角色.Common.技能通用标识.极限闪避",
+      "角色.Common.技能通用标识.大招",
+      "行为状态.位置状态.水中",
+      "角色.BaseRole.技能通用标识.幻象变身中",
+      "Damage.Frozen"
+    ],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType1": 1,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": ["80011012", "80011013"],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": []
+  },
+  {
+    "Id": 4,
+    "InitValue": 0,
+    "InitRecoveryRate": 0,
+    "InitMax": 10000,
+    "MarkTag": [],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType1": 1,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": ["800100003090"],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": []
+  },
+  {
+    "Id": 5,
+    "InitValue": 0,
+    "InitRecoveryRate": -100,
+    "InitMax": 2000,
+    "MarkTag": [],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 0,
+      "Max": 0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": []
+  },
+  {
+    "Id": 6,
+    "InitValue": 0,
+    "InitRecoveryRate": -5000,
+    "InitMax": 10000,
+    "MarkTag": ["功能.逻辑状态标识.剧情中", "关卡.孢子.孢子计量停止"],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType1": 1,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": ["631060002"],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": []
+  }
 ]

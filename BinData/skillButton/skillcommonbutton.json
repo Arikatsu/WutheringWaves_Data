@@ -1,30 +1,234 @@
 [
-    {
-        "Id": 1000,
-        "BinData": "HAAAAAAAFgAcABgAFAAQAAwACAAAAAAAAAAEABYAAAAYAAAAqoYBAAEAAAABAAAAPAAAAOgDAAABAAAABAAAACYAAADmiJjmlpfnirbmgIEu6KGM5Li66ZmQ5Yi2Luemgeatoui3s+i3gwAABgAAAOi3s+i3gwAA"
+  {
+    "Id": 1000,
+    "Name": "跳跃",
+    "ButtonType": 1,
+    "ActionType": 1,
+    "SkillId": 100010,
+    "SkillIdTagMap": {
+      "size": 0
     },
-    {
-        "Id": 1001,
-        "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAq4YBAAIAAAACAAAACAAAAOkDAAAGAAAA5pSA54isAAA="
+    "SkillIconTags": [],
+    "EnableTags": [],
+    "DisableTags": ["战斗状态.行为限制.禁止跳跃"],
+    "DisableSkillIdTags": {
+      "size": 0
     },
-    {
-        "Id": 1002,
-        "BinData": "MAAAAAAAKgAsACgAJAAgABwAGAAAABQAAAAQAAAADAAAAAAAAAAAAAAAAAALAAQAKgAAACwBAAAAAAABIAAAAGQAAACcAAAAoYYBAAUAAAAFAAAAvAAAAOoDAAABAAAABAAAADkAAADlip/og70u5Yqf6IO95Yi25L2cLumakOiXj+aMiemSruWKn+iDvS7pmpDol4/lhrLliLrmjInplK4AAAABAAAABAAAACwAAADmiJjmlpfnirbmgIEu5oqA6IO96ZmQ5Yi2LuemgeatouWcsOmdoumXqumBvwAAAAABAAAABAAAACAAAADooYzkuLrnirbmgIEu5L2N572u54q25oCBLuawtOS4rQAAAAAGAAAA6Zeq6YG/AAA="
+    "HiddenTags": [],
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": {
+      "size": 0
     },
-    {
-        "Id": 1003,
-        "BinData": "MAAAACwAMAAsACgAJAAgAAAAHAAYAAAAFAAQAAwAAAAAAAAAAAAAAAAAAAAIAAQALAAAACwAAAD0AQAA/AAAAEQBAACMAgAAoAMAAIgEAAAHAAAABwAAABQFAADrAwAAAwAAAAwAAABMAAAAiAAAAEz7///qAwAABAAAADMAAADop5LoibIuQ29tbW9uLuaKgOiDvemAmueUqOagh+ivhi7lrprngrnpkqnntKLlj6/nlKgAkPv//+sDAAAEAAAALQAAAOinkuiJsi5Db21tb24u5oqA6IO96YCa55So5qCH6K+GLuaOp+eJqeWPr+eUqAAAAND7///pAwAABAAAADMAAADop5LoibIuQ29tbW9uLuaKgOiDvemAmueUqOagh+ivhi7mjqLntKLmioDog73pq5jkuq4AAQAAAAQAAAA/AAAA5Yqf6IO9LuWKn+iDveWItuS9nC7pmpDol4/mjInpkq7lip/og70u6ZqQ6JeP5o6i57Si5bm76LGh5oyJ6ZSuAAQAAAAQAAAAXAAAAKQAAADwAAAAdPz//wgAAAAUAAAAEv///wQAAAABAAAAUTQDAC0AAADop5LoibIuQ29tbW9uLuaOoue0ouaKgOiDvS7npoHnlKjoh6rnlLHpkqnplIEAAADE/P//CAAAABwAAABi////BAAAAAMAAABTNAMAWDQDAFs0AwAgAAAA6KGM5Li654q25oCBLuS9jee9rueKtuaAgS7mlIDniKwAAAAAEP3//wgAAAAYAAAArv///wQAAAACAAAAWDQDAFs0AwAgAAAA6KGM5Li654q25oCBLuS9jee9rueKtuaAgS7nqbrkuK0AAAAACAAOAAgABAAIAAAAEAAAABwAAAAAAAYACAAEAAYAAAAEAAAAAQAAAFg0AwAgAAAA6KGM5Li654q25oCBLuS9jee9rueKtuaAgS7msLTkuK0AAAAABQAAABQAAAA8AAAAcAAAAKQAAADUAAAAJgAAAOWKn+iDvS7lip/og73liLbkvZwu6KKr5Ye756Gs55u05pe26Ze0AAAyAAAA5oiY5paX54q25oCBLuaKgOiDvemZkOWIti7npoHmraLmjqLntKLlubvosaHmioDog70AADMAAADooYzkuLrnirbmgIEu6YC76L6R54q25oCBLuaOp+eJqS7nqbrkuK3mjqfnianpgJrnlKgALQAAAOinkuiJsi5Db21tb24u5o6i57Si5oqA6IO9LuemgeeUqOiHqueUsemSqemUgQAAACoAAADooYzkuLrnirbmgIEu5Yqo5L2c54q25oCBLuWPl+WHuy7ooqvmipPlj5YAAAQAAAAQAAAAQAAAAHQAAACkAAAALAAAAEdhbWVwbGF5Q3VlLuW5u+ixoS7mjqfniaku5o6n54mp6KeS6Imy6KGo546wAAAAADMAAADop5LoibIuQ29tbW9uLuaKgOiDvemAmueUqOagh+ivhi7lrprngrnpkqnntKLlj6/nlKgALQAAAOinkuiJsi5Db21tb24u5oqA6IO96YCa55So5qCH6K+GLuWumueCuemSqee0ogAAADMAAADop5LoibIuQ29tbW9uLuaKgOiDvemAmueUqOagh+ivhi7mi4nlj5blt6jnianlj6/nlKgAAgAAAAgAAABQAAAAvP///7SGAQAEAAAAMwAAAOinkuiJsi5Db21tb24u5oqA6IO96YCa55So5qCH6K+GLuWumueCuemSqee0ouWPr+eUqAAIAAwACAAEAAgAAAC0hgEABAAAAC0AAADop5LoibIuQ29tbW9uLuaKgOiDvemAmueUqOagh+ivhi7lrprngrnpkqnntKIAAAAMAAAA5o6i57Si5bm76LGhAAAAAA=="
-    },
-    {
-        "Id": 1004,
-        "BinData": "KAAAAAAAIgAkACAAHAAYABQAAAAAAAAAEAAMAAAACAAAAAAAAAAEACIAAAAgAAAA5AAAACwBAAA8AgAACQAAAAkAAACUAgAA7AMAAAIAAAAQAAAAZAAAAAgADAAIAAQACAAAAAgAAAAYAAAApv///wQAAAACAAAARAAAAEMAAAApAAAA5bm76LGhLuaAqueJqS5Mb3JkLuiBmuaisOacuuWBti7lhYXog73kuK0AAAAIAA4ACAAEAAgAAAAQAAAAIAAAAAAABgAIAAQABgAAAAQAAAACAAAARAAAAEMAAAAsAAAAUm9ndWUuVmlzaW9uLld1Z3VhbnpoZS7mv4DmtLvlj5jouqvml6DlhqDogIUAAAAAAQAAAAQAAAA/AAAA5Yqf6IO9LuWKn+iDveWItuS9nC7pmpDol4/mjInpkq7lip/og70u6ZqQ6JeP5pS75Ye75bm76LGh5oyJ6ZSuAAUAAAAUAAAAPAAAAHAAAACgAAAAzAAAACYAAADlip/og70u5Yqf6IO95Yi25L2cLuiiq+WHu+ehrOebtOaXtumXtAAAMgAAAOaImOaWl+eKtuaAgS7mioDog73pmZDliLYu56aB5q2i5oiY5paX5bm76LGh5oqA6IO9AAAtAAAA6KGM5Li654q25oCBLumAu+i+keeKtuaAgS7mjqfniaku5o6n54mp6YCJ5Y+WAAAAKgAAAOihjOS4uueKtuaAgS7pgLvovpHnirbmgIEu5o6n54mpLuaOp+eJqeS4rQAALQAAAOihjOS4uueKtuaAgS7pgLvovpHnirbmgIEu5o6n54mpLui/m+WFpeaKleaOtwAAAAIAAAAIAAAAJAAAABkAAADlubvosaEu5oqA6IO9LuS4jeaYvuekukNEAAAAMQAAAOW5u+ixoS7mioDog70u6bOe5Lq65LqM6Zi25q615oqA6IO95pyf6Ze05LiN6L+bQ0QAAAAMAAAA5oiY5paX5bm76LGhAAAAAA=="
-    },
-    {
-        "Id": 1005,
-        "BinData": "LAAAACgAJAAgABwAGAAUABAAAAAAAAAADAAAAAgAAAAAAAAAAAAAAAAABwAoAAAAAAAAARwAAAD8AAAAoYYBAAUAAAAKAAAAKAEAAO0DAAAEAAAAEAAAAEwAAAB0AAAAqAAAADkAAADlip/og70u5Yqf6IO95Yi25L2cLumakOiXj+aMiemSruWKn+iDvS7pmpDol4/lhrLliLrmjInplK4AAAAmAAAA6KGM5Li654q25oCBLuaWueWQkeeKtuaAgS7pnaLmnJ3mlrnlkJEAADAAAADlip/og70u5Yqf6IO95Yi25L2cLueehOWHhuaooeW8jy7nnoTlh4bplK7ov5vlhaUAAAAAJgAAAOihjOS4uueKtuaAgS7mlrnlkJHnirbmgIEu5rOo6KeG5pa55ZCRAAABAAAABAAAACwAAADmiJjmlpfnirbmgIEu5oqA6IO96ZmQ5Yi2LuemgeatouWcsOmdoumXqumBvwAAAAAJAAAA5Ymv6Zeq6YG/AAAA"
-    },
-    {
-        "Id": 1006,
-        "BinData": "IAAAAAAAGgAgABwAGAAUABAADAAAAAgAAAAAAAAABAAaAAAAHAAAAGwAAACBqQMADgAAAAwAAACgAAAA7gMAAAEAAAAEAAAARgAAAOWKn+iDvS7lip/og73liLbkvZwu6ZqQ6JeP5oyJ6ZKu5Yqf6IO9LumakOiXj+eehOWHhuaKgOiDveaMiemUri7mjqfniakAAAEAAAAEAAAANwAAAOinkuiJsi5Db21tb24u5o6i57Si5oqA6IO9LuaWsOeJiOaOp+eJqS7mipvniannur/mqKHlvI8ABgAAAOeehOWHhgAA"
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": {
+      "size": 0
     }
+  },
+  {
+    "Id": 1001,
+    "Name": "攀爬",
+    "ButtonType": 2,
+    "ActionType": 2,
+    "SkillId": 100011,
+    "SkillIdTagMap": {
+      "size": 0
+    },
+    "SkillIconTags": [],
+    "EnableTags": [],
+    "DisableTags": [],
+    "DisableSkillIdTags": {
+      "size": 0
+    },
+    "HiddenTags": [],
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": {
+      "size": 0
+    },
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": {
+      "size": 0
+    }
+  },
+  {
+    "Id": 1002,
+    "Name": "闪避",
+    "ButtonType": 5,
+    "ActionType": 5,
+    "SkillId": 100001,
+    "SkillIdTagMap": {
+      "size": 0
+    },
+    "SkillIconTags": ["行为状态.位置状态.水中"],
+    "EnableTags": [],
+    "DisableTags": ["战斗状态.技能限制.禁止地面闪避"],
+    "DisableSkillIdTags": {
+      "size": 0
+    },
+    "HiddenTags": ["功能.功能制作.隐藏按钮功能.隐藏冲刺按键"],
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": {
+      "size": 0
+    },
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": true,
+    "LongPressTime": 300,
+    "DynamicEffectTagMap": {
+      "size": 0
+    }
+  },
+  {
+    "Id": 1003,
+    "Name": "探索幻象",
+    "ButtonType": 7,
+    "ActionType": 7,
+    "SkillId": 0,
+    "SkillIdTagMap": {
+      "size": 2
+    },
+    "SkillIconTags": [
+      "GameplayCue.幻象.控物.控物角色表现",
+      "角色.Common.技能通用标识.定点钩索可用",
+      "角色.Common.技能通用标识.定点钩索",
+      "角色.Common.技能通用标识.拉取巨物可用"
+    ],
+    "EnableTags": [],
+    "DisableTags": [
+      "功能.功能制作.被击硬直时间",
+      "战斗状态.技能限制.禁止探索幻象技能",
+      "行为状态.逻辑状态.控物.空中控物通用",
+      "角色.Common.探索技能.禁用自由钩锁",
+      "行为状态.动作状态.受击.被抓取"
+    ],
+    "DisableSkillIdTags": {
+      "size": 4
+    },
+    "HiddenTags": ["功能.功能制作.隐藏按钮功能.隐藏探索幻象按键"],
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": {
+      "size": 0
+    },
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 500,
+    "DynamicEffectTagMap": {
+      "size": 3
+    }
+  },
+  {
+    "Id": 1004,
+    "Name": "战斗幻象",
+    "ButtonType": 9,
+    "ActionType": 9,
+    "SkillId": 0,
+    "SkillIdTagMap": {
+      "size": 0
+    },
+    "SkillIconTags": [],
+    "EnableTags": ["幻象.技能.不显示CD", "幻象.技能.鳞人二阶段技能期间不进CD"],
+    "DisableTags": [
+      "功能.功能制作.被击硬直时间",
+      "战斗状态.技能限制.禁止战斗幻象技能",
+      "行为状态.逻辑状态.控物.控物选取",
+      "行为状态.逻辑状态.控物.控物中",
+      "行为状态.逻辑状态.控物.进入投掷"
+    ],
+    "DisableSkillIdTags": {
+      "size": 0
+    },
+    "HiddenTags": ["功能.功能制作.隐藏按钮功能.隐藏攻击幻象按键"],
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": {
+      "size": 2
+    },
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": {
+      "size": 0
+    }
+  },
+  {
+    "Id": 1005,
+    "Name": "副闪避",
+    "ButtonType": 10,
+    "ActionType": 5,
+    "SkillId": 100001,
+    "SkillIdTagMap": {
+      "size": 0
+    },
+    "SkillIconTags": [],
+    "EnableTags": [],
+    "DisableTags": ["战斗状态.技能限制.禁止地面闪避"],
+    "DisableSkillIdTags": {
+      "size": 0
+    },
+    "HiddenTags": [
+      "功能.功能制作.隐藏按钮功能.隐藏冲刺按键",
+      "行为状态.方向状态.面朝方向",
+      "功能.功能制作.瞄准模式.瞄准键进入",
+      "行为状态.方向状态.注视方向"
+    ],
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": {
+      "size": 0
+    },
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": true,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": {
+      "size": 0
+    }
+  },
+  {
+    "Id": 1006,
+    "Name": "瞄准",
+    "ButtonType": 12,
+    "ActionType": 14,
+    "SkillId": 240001,
+    "SkillIdTagMap": {
+      "size": 0
+    },
+    "SkillIconTags": ["角色.Common.探索技能.新版控物.抛物线模式"],
+    "EnableTags": [],
+    "DisableTags": [],
+    "DisableSkillIdTags": {
+      "size": 0
+    },
+    "HiddenTags": ["功能.功能制作.隐藏按钮功能.隐藏瞄准技能按键.控物"],
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": {
+      "size": 0
+    },
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": {
+      "size": 0
+    }
+  }
 ]
