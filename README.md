@@ -3,7 +3,7 @@
 > Client region: Global</br>
 > Status: Beta</br>
 > Game Version: 0.9.0</br>
-> Resource Version: 0.9.3</br>
+> Resource Version: 0.9.4</br>
 
 pls star I'm starving
 
@@ -41,9 +41,6 @@ pls star I'm starving
 - generic_tips/generaltipstypes
 - gm/gm
 - gm/gmorder
-- guide/guide
-- guide/guidepic
-- handbook_chip/chipresource
 - heal/heal
 - hot_patch/hotpatchtext
 - instance_dungeon_step/dungeonstep
@@ -68,16 +65,8 @@ pls star I'm starving
 - RewardUi/compositerewardtype
 - Rogue/rougetoken
 - role/specialenergybar
-- role_reson/resonanceeffect
-- role_reson/resonanceroleconfig
-- role_reson/roleresonance
-- role_reson/roleresonancegrouth
 - sceneobjects/hitgear
 - sceneobjects/lanterncat
 - skillTree/roleskilltreedesc
 - skillTree/roleskilltreeinfo
 - text/servertips
-- uitext_collect/uitextcollectblacklist
-- uitext_collect/uitextcollectitem
-- uitext_collect/uitextcollectprefab
-- uitext_collect/uitextcollecttext
