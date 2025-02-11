@@ -66287,6 +66287,25 @@
     "AccessId": 0
   },
   {
+    "Id": 13020021,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "8407"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "Condition_DamaoFushua_Description",
+    "AccessId": 0
+  },
+  {
     "Id": 12031063,
     "Type": "MowTowerLevelScore",
     "NeedNum": 4000,
@@ -66322,25 +66341,6 @@
     "LimitParamsOpe": [],
     "IsClient": false,
     "Description": "",
-    "AccessId": 0
-  },
-  {
-    "Id": 13020021,
-    "Type": "PassInst",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "InstanceId",
-        "Value": "8407"
-      },
-      {
-        "Key": "RoleId",
-        "Value": "0"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": true,
-    "Description": "Condition_DamaoFushua_Description",
     "AccessId": 0
   },
   {
@@ -70243,21 +70243,6 @@
     "AccessId": 0
   },
   {
-    "Id": 13000193,
-    "Type": "FarmGoldLevelScore",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "Id",
-        "Value": "6"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": false,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
     "Id": 131200370,
     "Type": "CheckEnemyBuff",
     "NeedNum": 1,
@@ -70719,6 +70704,21 @@
     ],
     "LimitParamsOpe": [],
     "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13000193,
+    "Type": "FarmGoldLevelScore",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
     "Description": "",
     "AccessId": 0
   },
@@ -74410,7 +74410,7 @@
     "LimitParams": [
       {
         "Key": "BpType",
-        "Value": "Monster_Branch2.0_010"
+        "Value": "Monster_Branch2.0_001"
       }
     ],
     "LimitParamsOpe": [],
@@ -74993,7 +74993,7 @@
     "LimitParamsOpe": [],
     "IsClient": false,
     "Description": "Condition_13000200_Description",
-    "AccessId": 0
+    "AccessId": 850011
   },
   {
     "Id": 131200427,
@@ -75018,25 +75018,6 @@
       {
         "Key": "QuestId",
         "Value": "114000026"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": true,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
-    "Id": 12400008,
-    "Type": "ExploreLevelPlayComplete",
-    "NeedNum": 4,
-    "LimitParams": [
-      {
-        "Key": "AreaIds",
-        "Value": "18"
-      },
-      {
-        "Key": "Type",
-        "Value": "27"
       }
     ],
     "LimitParamsOpe": [],
@@ -75150,6 +75131,25 @@
     "AccessId": 0
   },
   {
+    "Id": 12400008,
+    "Type": "ExploreLevelPlayComplete",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "AreaIds",
+        "Value": "18"
+      },
+      {
+        "Key": "Type",
+        "Value": "27"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 12300103,
     "Type": "NewQuestState",
     "NeedNum": 1,
@@ -75175,6 +75175,21 @@
     "LimitParams": [],
     "LimitParamsOpe": [],
     "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020023,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
     "Description": "",
     "AccessId": 0
   },
@@ -75209,6 +75224,391 @@
     "AccessId": 0
   },
   {
+    "Id": 13020024,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "17"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020025,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "54"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600101,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600102,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600103,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600104,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "9"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600105,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600106,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "11"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600107,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "15"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600108,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "16"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600109,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "17"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131300001,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "162700000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_131300001_Description",
+    "AccessId": 857003
+  },
+  {
+    "Id": 12600110,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600111,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12600112,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "14"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200432,
+    "Type": "CheckIsMulti",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200433,
+    "Type": "ClientCalabashLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200434,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "VisionEquipmentView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 12005130,
     "Type": "NewQuestStepState",
     "NeedNum": 1,
@@ -75232,6 +75632,1944 @@
     "AccessId": 0
   },
   {
+    "Id": 12601001,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000010"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601002,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "114000026"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12601002_Description",
+    "AccessId": 850021
+  },
+  {
+    "Id": 13020026,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10811"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020027,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10812"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020028,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10813"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020029,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10814"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020030,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "3"
+      },
+      {
+        "Key": "Id",
+        "Value": "6"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601102,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601103,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601104,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1004"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601201,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601202,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601203,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601204,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2004"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601205,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2005"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601301,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601302,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601303,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601304,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3004"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601305,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3005"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601306,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3006"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601401,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "4001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601402,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "4002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601403,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "4003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601404,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "4004"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601405,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "4005"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601406,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "4006"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601501,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601502,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601503,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601504,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5004"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601505,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5005"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601506,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5006"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200435,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "ShipTowerView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200436,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "ShipTowerDescView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200437,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "ShipTowerView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200438,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "ShipTowerBuffView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601003,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000034"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "8"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601101,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020031,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "120"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020032,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "3"
+      },
+      {
+        "Key": "Id",
+        "Value": "19"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020033,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "98"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020034,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "3"
+      },
+      {
+        "Key": "Id",
+        "Value": "18"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601011,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000034"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601012,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601013,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601014,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601015,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000039"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "2"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601016,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000039"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601020,
+    "Type": "GetItem",
+    "NeedNum": 1000,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "27"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601021,
+    "Type": "GetItem",
+    "NeedNum": 10000,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "27"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601022,
+    "Type": "GetItem",
+    "NeedNum": 100000,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "27"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601023,
+    "Type": "GetItem",
+    "NeedNum": 200000,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "27"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601030,
+    "Type": "FishingReputationLevel",
+    "NeedNum": 3,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601031,
+    "Type": "FishingReputationLevel",
+    "NeedNum": 6,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601032,
+    "Type": "FishingReputationLevel",
+    "NeedNum": 9,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601033,
+    "Type": "FishingReputationLevel",
+    "NeedNum": 12,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601040,
+    "Type": "FishingIllustrated",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "3"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601041,
+    "Type": "FishingIllustrated",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "3"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601042,
+    "Type": "FishingIllustrated",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "3"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601043,
+    "Type": "FishingIllustrated",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "2"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601044,
+    "Type": "FishingIllustrated",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "2"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601045,
+    "Type": "FishingIllustrated",
+    "NeedNum": 10,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "2"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601050,
+    "Type": "FishingEntrust",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601051,
+    "Type": "FishingEntrust",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601052,
+    "Type": "FishingEntrust",
+    "NeedNum": 12,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601053,
+    "Type": "FishingEntrust",
+    "NeedNum": 17,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601054,
+    "Type": "FishingEntrust",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601055,
+    "Type": "FishingEntrust",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601056,
+    "Type": "FishingEntrust",
+    "NeedNum": 10,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601057,
+    "Type": "FishingEntrust",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601058,
+    "Type": "FishingEntrust",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601060,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601061,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601062,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "14"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601063,
+    "Type": "FishingTechLevel",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "3"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601064,
+    "Type": "FishingTechLevel",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "3"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601065,
+    "Type": "FishingTechLevel",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "3"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601066,
+    "Type": "FishingTechLevel",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601067,
+    "Type": "FishingTechLevel",
+    "NeedNum": 9,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "2"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601068,
+    "Type": "FishingTechLevel",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "3"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601069,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "4"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601070,
+    "Type": "FishingTechLevel",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "4"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601071,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "5"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601072,
+    "Type": "FishingTechLevel",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "5"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601080,
+    "Type": "FishingIllustrated",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 900005
+  },
+  {
+    "Id": 12601081,
+    "Type": "FishingIllustrated",
+    "NeedNum": 15,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 900005
+  },
+  {
+    "Id": 12601082,
+    "Type": "FishingIllustrated",
+    "NeedNum": 30,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 900005
+  },
+  {
+    "Id": 12601083,
+    "Type": "FishingIllustrated",
+    "NeedNum": 50,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 900005
+  },
+  {
+    "Id": 12601084,
+    "Type": "FishingIllustrated",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 900005
+  },
+  {
+    "Id": 12601085,
+    "Type": "FishingIllustrated",
+    "NeedNum": 10,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 900005
+  },
+  {
+    "Id": 12601087,
+    "Type": "FishingIllustrated",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 900005
+  },
+  {
+    "Id": 12601088,
+    "Type": "FishingIllustrated",
+    "NeedNum": 10,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 900005
+  },
+  {
+    "Id": 12601091,
+    "Type": "FishingSkillUse",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1020"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601092,
+    "Type": "FishingFish",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "ItemType",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      },
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Reason",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601093,
+    "Type": "FishingFish",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "ItemType",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      },
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Reason",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601094,
+    "Type": "FishingSkillUse",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1021"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020035,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000034"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020036,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "43"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020037,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "57"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020038,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "59"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200439,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "FishingDockView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200440,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "FishingQteView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200441,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "FishingQuestView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200442,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DockyardWareHouseView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200443,
+    "Type": "CheckClientQuestNode",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "880000034"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "17"
+      },
+      {
+        "Key": "状态",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200444,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DockyardSellTabView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200445,
+    "Type": "FunctionUnlock",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "FunctionId",
+        "Value": "10078"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200446,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "FishingTechRootView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200447,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "FishingRoleTechView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 131200448,
     "Type": "CheckClientQuestNode",
     "NeedNum": 1,
@@ -75249,6 +77587,638 @@
         "Value": "2"
       }
     ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700101,
+    "Type": "BossRushScore",
+    "NeedNum": 1000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8314"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700102,
+    "Type": "BossRushScore",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8314"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700103,
+    "Type": "BossRushScore",
+    "NeedNum": 3000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8314"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700104,
+    "Type": "BossRushScore",
+    "NeedNum": 3500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8314"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700105,
+    "Type": "BossRushScore",
+    "NeedNum": 1000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8315"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700106,
+    "Type": "BossRushScore",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8315"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700107,
+    "Type": "BossRushScore",
+    "NeedNum": 3000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8315"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700108,
+    "Type": "BossRushScore",
+    "NeedNum": 3500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8315"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700109,
+    "Type": "BossRushScore",
+    "NeedNum": 1000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8316"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700110,
+    "Type": "BossRushScore",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8316"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700111,
+    "Type": "BossRushScore",
+    "NeedNum": 3500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8316"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700112,
+    "Type": "BossRushScore",
+    "NeedNum": 5500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8316"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700113,
+    "Type": "BossRushScore",
+    "NeedNum": 1000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8317"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700114,
+    "Type": "BossRushScore",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8317"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700115,
+    "Type": "BossRushScore",
+    "NeedNum": 3500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8317"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700116,
+    "Type": "BossRushScore",
+    "NeedNum": 5500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8317"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700117,
+    "Type": "BossRushScore",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8318"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700118,
+    "Type": "BossRushScore",
+    "NeedNum": 3500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8318"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700119,
+    "Type": "BossRushScore",
+    "NeedNum": 5500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8318"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700120,
+    "Type": "BossRushScore",
+    "NeedNum": 8000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8318"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700121,
+    "Type": "BossRushScore",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8319"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700122,
+    "Type": "BossRushScore",
+    "NeedNum": 3500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8319"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700123,
+    "Type": "BossRushScore",
+    "NeedNum": 5500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8319"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700124,
+    "Type": "BossRushScore",
+    "NeedNum": 8000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8319"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700125,
+    "Type": "KillWithBossRushBuff",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "70"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700126,
+    "Type": "KillWithBossRushBuff",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "65"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700127,
+    "Type": "KillWithBossRushBuff",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "66"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700128,
+    "Type": "KillWithBossRushBuff",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "67"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700129,
+    "Type": "KillWithBossRushBuff",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "69"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200449,
+    "Type": "CheckFishingDockyardItemTipsShown",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200450,
+    "Type": "CheckFishingRoleTechViewOpen",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200451,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20069"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200452,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "36"
+      },
+      {
+        "Key": "Count",
+        "Value": "100"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200453,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20071"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200454,
+    "Type": "CheckShipTowerTeamOpen",
+    "NeedNum": 1,
+    "LimitParams": [],
     "LimitParamsOpe": [],
     "IsClient": true,
     "Description": "",
@@ -75300,6 +78270,238 @@
     "AccessId": 0
   },
   {
+    "Id": 2025,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "22"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2026,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "144"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2027,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "176"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2028,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "46"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2029,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "139"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200455,
+    "Type": "CheckDockyardWareHouseHasItem",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200456,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "FishingQuestView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200457,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20071"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200458,
+    "Type": "FightWithMonster",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "MonsterId",
+        "Value": "Monster_branch2.1_03"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200459,
+    "Type": "FightWithMonster",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "MonsterId",
+        "Value": "Monster_branch2.1_07"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200460,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch2.1_Gameplay_LNXT_ChangeRailMachine"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200461,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch2.1_Gameplay_EFLDJK_UpdatePermission"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 131200462,
     "Type": "FightWithMonster",
     "NeedNum": 1,
@@ -75307,6 +78509,4279 @@
       {
         "Key": "MonsterId",
         "Value": "Monster153"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200463,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131101"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200464,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131201"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200465,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131202"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200466,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131203"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200467,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131204"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200468,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131205"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200469,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131206"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200470,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131207"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200471,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131301"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200472,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131302"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200473,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131303"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200474,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131304"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200475,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131305"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200476,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131306"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200477,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131307"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200478,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131401"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200479,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131402"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200480,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131403"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200481,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131404"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200482,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131405"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200483,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131406"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200484,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131408"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200485,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131501"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200486,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131502"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200487,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131503"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200488,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131504"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200489,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131505"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200490,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131506"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200491,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131507"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200492,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131508"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12006049,
+    "Type": "EntityDieByType",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "Monster_branch2.1_05"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12006050,
+    "Type": "EntityDieByType",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "Monster_branch2.1_06"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12006051,
+    "Type": "EntityDieByType",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "Monster_branch2.1_07"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12006534,
+    "Type": "EntityDieByType",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "Monster_branch2.1_03"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12006535,
+    "Type": "EntityDieByType",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "Monster_branch2.1_04"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100312,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000011"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "3"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100313,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "122700204"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100314,
+    "Type": "EntityStateById",
+    "NeedNum": 29,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "122700157-122700371-122700232-122700154-122700155-122700158-122700175-122000445-122700156-122700162-122700184-122700166-172700221-172700220-166700567-166700568-166700569-166700570-166700060-166700128-166700498-166700065-166700127-166700059-166700064-166700126-166700129-166700220-172700205"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "3102-3104"
+      },
+      {
+        "Key": "Tag",
+        "Value": "-3775711"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100315,
+    "Type": "EntityDie",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700245-166700248-166700241-166700242-166700243-166700244-166700246-166700247"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100316,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700363"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "3104"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100317,
+    "Type": "EntityStateById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700128"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "3104"
+      },
+      {
+        "Key": "Tag",
+        "Value": "-3775711"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100318,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "166700010"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100319,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700042"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100320,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "122700838"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200493,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DockyardWareHouseView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12401007,
+    "Type": "CheckTeleportStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "TeleportId",
+        "Value": "5025"
+      },
+      {
+        "Key": "State",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031100,
+    "Type": "RougeWeeklyScore",
+    "NeedNum": 4000,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031101,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000010"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031102,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "155000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031103,
+    "Type": "Record",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecordId",
+        "Value": "20016"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031104,
+    "Type": "Record",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecordId",
+        "Value": "20017"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031105,
+    "Type": "Record",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecordId",
+        "Value": "20018"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031106,
+    "Type": "Record",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecordId",
+        "Value": "20019"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031107,
+    "Type": "FishingReputationLevel",
+    "NeedNum": 9,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031108,
+    "Type": "RiskHarvestLevelScore",
+    "NeedNum": 4000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031109,
+    "Type": "TeamParkOurScore",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Count",
+        "Value": "3000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031110,
+    "Type": "SlashTowerEndlessScore",
+    "NeedNum": 1000,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031111,
+    "Type": "ScratchCardAllReward",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "102700002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045087,
+    "Type": "OnSkillEnable",
+    "NeedNum": 100,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "AttackerID",
+        "Value": "0-1506"
+      },
+      {
+        "Key": "SkillType",
+        "Value": "12"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045088,
+    "Type": "OnSkillEnable",
+    "NeedNum": 100,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "AttackerID",
+        "Value": "0-1206"
+      },
+      {
+        "Key": "SkillType",
+        "Value": "12"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045089,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-3900191"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045090,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-3010031"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045091,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-3000121"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045092,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-3000131"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045093,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-3900031"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200494,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "WeeklyRogueActivityView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200495,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "WeeklyRogueActivityView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200496,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20078"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200497,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20078"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200498,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "227700001"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200499,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "227700002"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200500,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "227700003"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200501,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "227700004"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200502,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "227700005"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200503,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "227700006"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206001,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402001_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206002,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402002_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206003,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402003_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206004,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402004_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206005,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402005_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206006,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402006_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206007,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "7"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402007_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206008,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402008_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206009,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "9"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402009_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206010,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Level",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402010_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206011,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Breach",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402011_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206012,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Breach",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402012_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206013,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Breach",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402013_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206014,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Breach",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402014_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101206015,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1206"
+      },
+      {
+        "Key": "Breach",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402015_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506001,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402001_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506002,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402002_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506003,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402003_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506004,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402004_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506005,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402005_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506006,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402006_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506007,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "7"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402007_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506008,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402008_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506009,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "9"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402009_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506010,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Level",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402010_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506011,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Breach",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402011_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506012,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Breach",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402012_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506013,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Breach",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402013_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506014,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Breach",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402014_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101506015,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1506"
+      },
+      {
+        "Key": "Breach",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402015_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200504,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "1"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200505,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 3000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "1"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200506,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 5000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "1"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200507,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 90,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "1"
+      },
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200508,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200509,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 3000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200510,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 5000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200511,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 90,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200512,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "3"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200513,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 3000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "3"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200514,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 5000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "3"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200515,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 90,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "3"
+      },
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200516,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "4"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200517,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 3000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "4"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200518,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 5000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "4"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200519,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 90,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "4"
+      },
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200520,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200521,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 3000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200522,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 5000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200523,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 90,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200524,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 2000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "6"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200525,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 3000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "6"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200526,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 5000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "6"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200527,
+    "Type": "TeamParkOurLevelCheck",
+    "NeedNum": 120,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "Id",
+        "Value": "6"
+      },
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200528,
+    "Type": "TeamParkOurJoin",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200529,
+    "Type": "TeamParkOurJoin",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200530,
+    "Type": "TeamParkOurJoin",
+    "NeedNum": 9,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200531,
+    "Type": "TeamParkOurRankCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "TargetId",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200532,
+    "Type": "TeamParkOurRankCheck",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "TargetId",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200533,
+    "Type": "TeamParkOurRankCheck",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "103800001"
+      },
+      {
+        "Key": "TargetId",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200534,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "FishingHandBookView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020039,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "41"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200535,
+    "Type": "CheckFishingQteBtnHitValidArea",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131300002,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "30"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Level",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "Condition_131300002_Description",
+    "AccessId": 850011
+  },
+  {
+    "Id": 400001,
+    "Type": "HideSettingInCloudGame",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13000201,
+    "Type": "CalabashLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020040,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10815"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020041,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10816"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020042,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10817"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020043,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10818"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2030,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000034"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2031,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "155000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "71"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020044,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000034"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "31"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020045,
+    "Type": "CheckClientQuestNode",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "880000034"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "8"
+      },
+      {
+        "Key": "状态",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601095,
+    "Type": "GetItem",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10815"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601096,
+    "Type": "GetItem",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10816"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601097,
+    "Type": "GetItem",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10817"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601098,
+    "Type": "GetItem",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "10818"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020046,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "30"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "Condition_13020046_Description",
+    "AccessId": 850011
+  },
+  {
+    "Id": 12601017,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "43"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200513,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200514,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000039"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200321,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "155000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200408,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "165000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200409,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "165000001"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200515,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880700011"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200517,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "57"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200518,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000034"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "40"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200519,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "46"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200410,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880700013"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13030004,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "22"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_13030004_Description",
+    "AccessId": 850011
+  },
+  {
+    "Id": 13030005,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "114000028"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "9"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_13030005_Description",
+    "AccessId": 855054
+  },
+  {
+    "Id": 131200536,
+    "Type": "OnFishingQteScoreReachedMaximum",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200537,
+    "Type": "OnFishingBackpackBtnStateChange",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200538,
+    "Type": "CheckFishingEntrustState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntrustId",
+        "Value": "1001"
+      },
+      {
+        "Key": "EntrustState",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200539,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "CommonRewardView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200540,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "FishingQuestView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200541,
+    "Type": "CheckFishingTechUnlock",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "FishingTechId",
+        "Value": "102"
+      },
+      {
+        "Key": "ReverseUnlockCheck",
+        "Value": "TRUE"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200542,
+    "Type": "CheckFishingTechUnlock",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "FishingTechId",
+        "Value": "102"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200543,
+    "Type": "CheckFishingEntrustState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntrustId",
+        "Value": "1002"
+      },
+      {
+        "Key": "EntrustState",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2032,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "35"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601018,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880700011"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "30"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601059,
+    "Type": "FishingEntrust",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601073,
+    "Type": "FishingTechLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "20"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601099,
+    "Type": "FishingQuickSell",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601100,
+    "Type": "FishingQuickSell",
+    "NeedNum": 10,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12008031,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "1506"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12008032,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "1206"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700130,
+    "Type": "KillWithBossRushBuff",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "68"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602004,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "54"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602005,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "19"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602006,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "69"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602007,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "14"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602008,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "12"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602009,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "75"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602010,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "43"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602011,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "44"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602012,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "98"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602013,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "73"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602014,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "21"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602015,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "57"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602016,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "54"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602017,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "58"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602018,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "31"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602019,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "100"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602020,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880700011"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "30"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602021,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "33"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602022,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "35"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602023,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "184"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602024,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "85"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602025,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "46"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602026,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "56"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602027,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "180"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602028,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "158"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602029,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000039"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "69"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602030,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000039"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "2"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602031,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000039"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "80"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12602032,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000039"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "6"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
       }
     ],
     "LimitParamsOpe": [],
@@ -75334,6 +82809,530 @@
     "AccessId": 0
   },
   {
+    "Id": 12031112,
+    "Type": "BossRushScore",
+    "NeedNum": 3500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8319"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12601034,
+    "Type": "FishingReputationLevel",
+    "NeedNum": 10,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200544,
+    "Type": "CheckFishingEntrustState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntrustId",
+        "Value": "1001"
+      },
+      {
+        "Key": "EntrustState",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200545,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "FishingTechRootView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200546,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DockyardShopMainView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200547,
+    "Type": "CheckFishingEntrustState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntrustId",
+        "Value": "1002"
+      },
+      {
+        "Key": "EntrustState",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200548,
+    "Type": "CheckFishingEntrustState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntrustId",
+        "Value": "1002"
+      },
+      {
+        "Key": "EntrustState",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200549,
+    "Type": "CheckFishingEntrustState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntrustId",
+        "Value": "1002"
+      },
+      {
+        "Key": "EntrustState",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200550,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20089"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200551,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20090"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200552,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "27"
+      },
+      {
+        "Key": "Count",
+        "Value": "200"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2033,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000010"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200553,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "ShipTowerGetBuffView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011004381,
+    "Type": "GetItem",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "70010076"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011004391,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "13004"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011004401,
+    "Type": "FishingIllustrated",
+    "NeedNum": 67,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011004411,
+    "Type": "FishingIllustrated",
+    "NeedNum": 67,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011004421,
+    "Type": "FishingIllustrated",
+    "NeedNum": 72,
+    "LimitParams": [
+      {
+        "Key": "Category",
+        "Value": "-1"
+      },
+      {
+        "Key": "Cup",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011004431,
+    "Type": "GetItem",
+    "NeedNum": 10000,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "27"
+      },
+      {
+        "Key": "Reason",
+        "Value": "27003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011004441,
+    "Type": "FishingTechLevel",
+    "NeedNum": 26,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "-1"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200554,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "WeeklyRogueSelectToken"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020047,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "999"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200555,
+    "Type": "CheckFishingWareHouseItemListLength",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020048,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000036"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "98"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200556,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch2.1_SceneObj1"
+      },
+      {
+        "Key": "Distance",
+        "Value": "2800"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200557,
+    "Type": "CheckCurFishingEntrustAvailablePeriod",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ExceptedPeriod",
+        "Value": "NIGHT"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200558,
+    "Type": "OnFishingBackpackQuickSellToggleShow",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200559,
+    "Type": "OnTreasureCompassUnitShow",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011004451,
+    "Type": "FishingTargetEntrustCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "11021"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1013008051,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40011"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 131200560,
     "Type": "CheckUIOpenDone",
     "NeedNum": 1,
@@ -75341,6 +83340,1156 @@
       {
         "Key": "UIName",
         "Value": "ShipTogetherView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020049,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "31"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020050,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000037"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "100"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020051,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "184"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020052,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "85"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020053,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880700014"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917012,
+    "Type": "CheckCharacterTagByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.3f9237d8.逻辑.2eb8d958"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917013,
+    "Type": "CheckCharacterTagNotByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.3f9237d8.逻辑.2eb8d958"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917014,
+    "Type": "CheckCharacterTagByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.R2T1BulanteMd10011.状态标识.特殊能量1满"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917015,
+    "Type": "CheckCharacterTagNotByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.R2T1BulanteMd10011.状态标识.特殊能量1满"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917016,
+    "Type": "CheckCharacterTagByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.R2T1BulanteMd10011.状态标识.状态3层"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917017,
+    "Type": "CheckCharacterTagNotByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.R2T1BulanteMd10011.状态标识.状态3层"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917018,
+    "Type": "CheckCharacterTagByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.R2T1BulanteMd10011.状态标识.状态4层"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917019,
+    "Type": "CheckCharacterTagNotByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.R2T1BulanteMd10011.状态标识.状态4层"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020054,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000038"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "35"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031120,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "122000010"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031121,
+    "Type": "RougeWeeklyScore",
+    "NeedNum": 2000,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031122,
+    "Type": "RougeWeeklyScore",
+    "NeedNum": 4000,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031123,
+    "Type": "RougeWeeklyScore",
+    "NeedNum": 6000,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031124,
+    "Type": "BossRushScore",
+    "NeedNum": 3500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8317"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031125,
+    "Type": "BossRushScore",
+    "NeedNum": 5500,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "100805003"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "8319"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031126,
+    "Type": "RiskHarvestLevelScore",
+    "NeedNum": 8000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031127,
+    "Type": "RiskHarvestLevelScore",
+    "NeedNum": 12000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031128,
+    "Type": "PassLordGymDifficulty",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1804"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031129,
+    "Type": "PassLordGymDifficulty",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1806"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031130,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40011"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031131,
+    "Type": "SlashTowerEndlessScore",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031132,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20016"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1107"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031133,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20024"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1107"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031134,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1107"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031135,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1107"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031136,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20016"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1606"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031137,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20024"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1606"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031138,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1606"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031139,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1606"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700131,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "114000026"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12700131_Description",
+    "AccessId": 850021
+  },
+  {
+    "Id": 12700132,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "14"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12700132_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 12005206,
+    "Type": "CostItem",
+    "NeedNum": 1000,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "28"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917020,
+    "Type": "LevelConditionCheckBuff",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "IsPlayer",
+        "Value": "1"
+      },
+      {
+        "Key": "BuffId",
+        "Value": "1206111003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020055,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "114000027"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "24"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "Condition_13020055_Description",
+    "AccessId": 855017
+  },
+  {
+    "Id": 131200561,
+    "Type": "FinishGuideStepByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "ComposeCarryOnView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 900001,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "81011304"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Count",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 900002,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "81011102"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Count",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13020056,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "880000039"
+      },
+      {
+        "Key": "State",
+        "Value": "2"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "84"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "Condition_13020056_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200562,
+    "Type": "FinishGuideStepByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "FishingHandBookItem"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12700133,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "114000026"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12700133_Description",
+    "AccessId": 850021
+  },
+  {
+    "Id": 12700134,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "14"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12700134_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200516,
+    "Type": "CheckLevelPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "170700000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100321,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700356"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "3102"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100322,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700357"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "3102"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100323,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700358"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "3102"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100324,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700656"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "3102"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100325,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700361"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "3104"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100326,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700362"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "3104"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100327,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700068"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100328,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700071"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100329,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700074"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100330,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700174"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100331,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700277"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101100332,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "166700280"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "902"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200563,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "MowingBuffView"
       }
     ],
     "LimitParamsOpe": [],

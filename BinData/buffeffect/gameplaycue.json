@@ -1571,6 +1571,121 @@
     "Priority": 0
   },
   {
+    "Id": 1506100001,
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Image/buff/T_IconFeibiBuff01.T_IconFeibiBuff01",
+    "CueType": 14,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [
+      "1",
+      "F8E56C7F"
+    ],
+    "Group": 0,
+    "Priority": 90
+  },
+  {
+    "Id": 1506100002,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1s_Buff_Loop.DA_Fx_Group_R1s_Buff_Loop",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": true,
+    "bLockRevolution": true,
+    "LockRotation": {
+      "X": 1,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 0,
+    "FarthestDistance": 0,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 3,
+    "Priority": 0
+  },
+  {
     "Id": 600000001,
     "Path": "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_HidePlayer02_1.DA_Fx_HidePlayer02_1",
     "CueType": 1,
@@ -4540,19 +4655,19 @@
   },
   {
     "Id": 640007011,
-    "Path": "/Game/Aki/Effect/EffectGroup/BigWorld/Chengxiaoshan/DA_Fx_Group_Sl3_CXS_Ts_Move.DA_Fx_Group_Sl3_CXS_Ts_Move",
+    "Path": "/Game/Aki/Effect/EffectGroup/Common/Snow/DA_Fx_Group_Sl3_Move.DA_Fx_Group_Sl3_Move",
     "CueType": 0,
     "Comp": 1,
     "CompName": "Mesh",
-    "Socket": "Bip001",
+    "Socket": "Root",
     "Location": {
       "X": 0,
       "Y": 0,
-      "Z": 0
+      "Z": 80
     },
     "Rotation": {
       "X": 0,
-      "Y": 0,
+      "Y": -90,
       "Z": 0
     },
     "Scale": {
@@ -46131,7 +46246,7 @@
   },
   {
     "Id": 19000000301,
-    "Path": "/Game/Aki/Effect/EffectGroup/Common/Snow/DA_Fx_Group_SmokeLoop.DA_Fx_Group_SmokeLoop",
+    "Path": "/Game/Aki/Effect/EffectGroup/Common/Snow/DA_Fx_Group_SmokeLoop1.DA_Fx_Group_SmokeLoop1",
     "CueType": 0,
     "Comp": 1,
     "CompName": "Mesh",
@@ -51026,6 +51141,62 @@
     "Priority": 0
   },
   {
+    "Id": 1206909001,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_Link_Beam01.DA_Fx_Group_Link_Beam01",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 1000,
+      "Y": 0,
+      "Z": 1000
+    },
+    "Rotation": {
+      "X": 1000,
+      "Y": 0,
+      "Z": 1000
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
     "Id": 770430106,
     "Path": "/Game/Aki/Effect/MaterialController/DA_Lord/MP1HeibaiqishiMd00301/DA_Fx__PaerMiluoMuDao_QS_DarknessControl.DA_Fx__PaerMiluoMuDao_QS_DarknessControl",
     "CueType": 1,
@@ -51698,6 +51869,118 @@
     "Priority": 0
   },
   {
+    "Id": 1206808001,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 280,
+      "Y": 0,
+      "Z": 80
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808002,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 850,
+      "Y": 0,
+      "Z": 25
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
     "Id": 1603000004,
     "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChunMd10011/DA_Fx_Group_R1a04_Ci.DA_Fx_Group_R1a04_Ci",
     "CueType": 0,
@@ -51833,6 +52116,342 @@
     },
     "LocRule": 0,
     "RotaRule": 1,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206909002,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1b01_Maskd_Appear.DA_Fx_Group_R1b01_Maskd_Appear",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001Head",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808003,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 850,
+      "Y": 0,
+      "Z": 25
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808004,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808011,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808021,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808031,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 800,
+      "Y": 0,
+      "Z": 100
+    },
+    "Rotation": {
+      "X": 50,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
     "SclRule": 0,
     "EndRule": 0,
     "Magni": 0,
@@ -52105,6 +52724,62 @@
       "X": 0,
       "Y": 0,
       "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080009,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_End.NS_Fx_Bulante_R1a_Link_End",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 200,
+      "Y": 0,
+      "Z": 200
+    },
+    "Rotation": {
+      "X": 200,
+      "Y": 0,
+      "Z": 300
     },
     "Scale": {
       "X": 1,
@@ -53158,62 +53833,6 @@
     "Priority": 0
   },
   {
-    "Id": 701480072,
-    "Path": "/Game/Aki/Effect/MaterialController/Common/MO1YunhaiyaojingMd00501/DA_Fx_MO1YunhaiyaojingMd00501_Ordinary_Death.DA_Fx_MO1YunhaiyaojingMd00501_Ordinary_Death",
-    "CueType": 1,
-    "Comp": 1,
-    "CompName": "Mesh",
-    "Socket": "None",
-    "Location": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
-    "Rotation": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
-    "Scale": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1
-    },
-    "LocRule": 0,
-    "RotaRule": 1,
-    "SclRule": 0,
-    "EndRule": 0,
-    "Magni": 0,
-    "AttrId": 0,
-    "Tag": "",
-    "Max": 10000,
-    "Min": 0,
-    "bListenAttr": false,
-    "bSoftFollow": false,
-    "bLockRevolution": false,
-    "LockRotation": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
-    "LockCamera": false,
-    "InterpSpeed": 5,
-    "FarthestDistance": 100,
-    "FaultTolerance": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
-    "TargetScaleUp": [
-      1,
-      1
-    ],
-    "Resources": [],
-    "Parameters": [],
-    "Group": 0,
-    "Priority": 0
-  },
-  {
     "Id": 1101013013,
     "Path": "/Game/Aki/Effect/EffectGroup/R2T1PlayerMaleMd10011/Mask/DA_Fx_Group_Male_Mask_Loop.DA_Fx_Group_Male_Mask_Loop",
     "CueType": 0,
@@ -53438,12 +54057,236 @@
     "Priority": 0
   },
   {
+    "Id": 701480072,
+    "Path": "/Game/Aki/Effect/MaterialController/Common/MO1YunhaiyaojingMd00501/DA_Fx_MO1YunhaiyaojingMd00501_Ordinary_Death.DA_Fx_MO1YunhaiyaojingMd00501_Ordinary_Death",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 1,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
     "Id": 1101013017,
     "Path": "/Game/Aki/Effect/EffectGroup/R2T1KamolaMd10011/Mask/DA_Fx_Group_Kamola_Mask_Loop.DA_Fx_Group_Kamola_Mask_Loop",
     "CueType": 0,
     "Comp": 1,
     "CompName": "Mesh",
     "Socket": "Bip001Head",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808005,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_014.NS_Fx_Bulante_R1a_Link_Beam_014",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 500,
+      "Y": 0,
+      "Z": -400
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808006,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 800,
+      "Y": 0,
+      "Z": 100
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808041,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
     "Location": {
       "X": 0,
       "Y": 0,
@@ -57327,6 +58170,518 @@
     "Priority": 0
   },
   {
+    "Id": 1506100011,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst_Jiguang_01.DA_Fx_Group_R1b_Burst_Jiguang_01",
+    "CueType": 18,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp09",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": -90,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 1,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst01.DA_Fx_Group_R1b_Burst01"
+    ],
+    "Parameters": [
+      "1",
+      "100",
+      "1500",
+      "2",
+      "10"
+    ],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1506100012,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst_Jiguang_01.DA_Fx_Group_R1b_Burst_Jiguang_01",
+    "CueType": 18,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp10",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": -90,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 1,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst01.DA_Fx_Group_R1b_Burst01"
+    ],
+    "Parameters": [
+      "1",
+      "100",
+      "1500",
+      "2",
+      "10"
+    ],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1506100013,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst_Jiguang_01.DA_Fx_Group_R1b_Burst_Jiguang_01",
+    "CueType": 18,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp11",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": -90,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 1,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst01.DA_Fx_Group_R1b_Burst01"
+    ],
+    "Parameters": [
+      "1",
+      "100",
+      "1500",
+      "2",
+      "10"
+    ],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1506100014,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst_Jiguang_01.DA_Fx_Group_R1b_Burst_Jiguang_01",
+    "CueType": 18,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp12",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": -90,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 1,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst01.DA_Fx_Group_R1b_Burst01"
+    ],
+    "Parameters": [
+      "1",
+      "100",
+      "1500",
+      "2",
+      "10"
+    ],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1506100015,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst_Jiguang_01.DA_Fx_Group_R1b_Burst_Jiguang_01",
+    "CueType": 18,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp13",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": -90,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 1,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst01.DA_Fx_Group_R1b_Burst01"
+    ],
+    "Parameters": [
+      "1",
+      "100",
+      "1500",
+      "2",
+      "10"
+    ],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1506100016,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst_Jiguang_01.DA_Fx_Group_R1b_Burst_Jiguang_01",
+    "CueType": 18,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp14",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": -90,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 1,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst01.DA_Fx_Group_R1b_Burst01"
+    ],
+    "Parameters": [
+      "1",
+      "100",
+      "1500",
+      "2",
+      "10"
+    ],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1506100017,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst_Jiguang_01.DA_Fx_Group_R1b_Burst_Jiguang_01",
+    "CueType": 18,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp15",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": -90,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 1,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst01.DA_Fx_Group_R1b_Burst01"
+    ],
+    "Parameters": [
+      "1",
+      "100",
+      "1500",
+      "2",
+      "10"
+    ],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1506100018,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst_Jiguang_01.DA_Fx_Group_R1b_Burst_Jiguang_01",
+    "CueType": 18,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp16",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": -90,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 1,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1b_Burst01.DA_Fx_Group_R1b_Burst01"
+    ],
+    "Parameters": [
+      "1",
+      "100",
+      "1500",
+      "2",
+      "10"
+    ],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
     "Id": 7000000004,
     "Path": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Aoxiang_Loop_2.DA_Fx_Group_Aoxiang_Loop_2",
     "CueType": 0,
@@ -57985,6 +59340,230 @@
     "Priority": 0
   },
   {
+    "Id": 1206000200,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1a_Shield.DA_Fx_Group_R1a_Shield",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001",
+    "Location": {
+      "X": -30,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12060002009,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1a_Shield_Break.DA_Fx_Group_R1a_Shield_Break",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001",
+    "Location": {
+      "X": -30,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808051,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1a_Cure.DA_Fx_Group_R1a_Cure",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808061,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1a_Buff.DA_Fx_Group_R1a_Buff",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": true,
+    "bLockRevolution": true,
+    "LockRotation": {
+      "X": 0,
+      "Y": 1,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 0,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
     "Id": 1606000106,
     "Path": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_IconpropertyLuokekeBuff1_UI.T_IconpropertyLuokekeBuff1_UI",
     "CueType": 14,
@@ -58226,10 +59805,10 @@
   {
     "Id": 640012044,
     "Path": "/Game/Aki/Effect/DataAsset/Niagara/Common/DA_Fx_Breacher_Moster_Buff_Jinku.DA_Fx_Breacher_Moster_Buff_Jinku",
-    "CueType": 0,
-    "Comp": 1,
+    "CueType": 1,
+    "Comp": 0,
     "CompName": "Mesh",
-    "Socket": "Root",
+    "Socket": "None",
     "Location": {
       "X": 0,
       "Y": 0,
@@ -58275,6 +59854,626 @@
       1
     ],
     "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080019,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 280,
+      "Y": 0,
+      "Z": 80
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080029,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 850,
+      "Y": 0,
+      "Z": 25
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080039,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 850,
+      "Y": 0,
+      "Z": 25
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080049,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080059,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 500,
+      "Y": 0,
+      "Z": -400
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080069,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 800,
+      "Y": 0,
+      "Z": 100
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080119,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080219,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080319,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 16,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06",
+    "Location": {
+      "X": 800,
+      "Y": 0,
+      "Z": 100
+    },
+    "Rotation": {
+      "X": 50,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080419,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808071,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_007.NS_Fx_Bulante_R1a_Link_Beam_007",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link.NS_Fx_Bulante_R1a_Link",
+      "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Head.NS_Fx_Bulante_R1a_Head",
+      "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_End.NS_Fx_Bulante_R1a_Link_End"
+    ],
     "Parameters": [],
     "Group": 0,
     "Priority": 0
@@ -58360,6 +60559,118 @@
     "LocRule": 0,
     "RotaRule": 1,
     "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12069090029,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1b01_Maskd_End.DA_Fx_Group_R1b01_Maskd_End",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001Head",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 110006001,
+    "Path": "/Game/Aki/Effect/EffectGroup/Weapon/Sword/R5Sword503Md20001/DA_Fx_Group_R5word503Md20001_Fire.DA_Fx_Group_R5word503Md20001_Fire",
+    "CueType": 0,
+    "Comp": 2,
+    "CompName": "WeaponCase0",
+    "Socket": "Sword_Bone01",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 2,
+    "SclRule": 2,
     "EndRule": 0,
     "Magni": 0,
     "AttrId": 0,
@@ -58591,6 +60902,1360 @@
     "RotaRule": 0,
     "SclRule": 0,
     "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 110006002,
+    "Path": "/Game/Aki/Effect/EffectGroup/Weapon/Sword/R5Sword503Md20001/DA_Fx_Group_R5word503Md20001_Fire_Rib.DA_Fx_Group_R5word503Md20001_Fire_Rib",
+    "CueType": 0,
+    "Comp": 2,
+    "CompName": "WeaponCase0",
+    "Socket": "Sword_Bone01",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 2,
+    "SclRule": 2,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 110006003,
+    "Path": "/Game/Aki/Effect/MaterialController/Weapon/Knife/R5Knife503/DA_Fx_R5Knife503_Close.DA_Fx_R5Knife503_Close",
+    "CueType": 1,
+    "Comp": 2,
+    "CompName": "WeaponCase0",
+    "Socket": "Sword_Bone01",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 2,
+    "SclRule": 2,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 110007001,
+    "Path": "/Game/Aki/Effect/EffectGroup/Weapon/Device/R5Device504/DA_Fx_Group_R5Device504_Yumao_Close_2.DA_Fx_Group_R5Device504_Yumao_Close_2",
+    "CueType": 0,
+    "Comp": 2,
+    "CompName": "WeaponCase0",
+    "Socket": "Sword_Bone01",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 2,
+    "SclRule": 2,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 640015002,
+    "Path": "/Game/Aki/Effect/MaterialController/ItemMaterial/DA_Fx_ActorItem_Guaiwu_Luowen.DA_Fx_ActorItem_Guaiwu_Luowen",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206909003,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Bulante/DA_Fx_Bulante_T_Mask_Loop.DA_Fx_Bulante_T_Mask_Loop",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206909004,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Bulante/DA_Fx_Bulante_T_Mask_Start.DA_Fx_Bulante_T_Mask_Start",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 640015003,
+    "Path": "/Game/Aki/Effect/DataAsset/Light/Scenes/DA_Fx_Light_LLDL_01.DA_Fx_Light_LLDL_01",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 5019001000,
+    "Path": "/Game/Aki/Effect/EffectGroup/BigWorld/Jinku/DA_Fx_Group_Sl2_Jinku_Hairu_Touping.DA_Fx_Group_Sl2_Jinku_Hairu_Touping",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 640015004,
+    "Path": "/Game/Aki/Effect/DataAsset/Niagara/Scene/2_1JinKu/DA_Fx_SC3_Jinku_SenghaiChe_Cloud_Loop.DA_Fx_SC3_Jinku_SenghaiChe_Cloud_Loop",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 701560051,
+    "Path": "/Game/Aki/Effect/EffectGroup/MO1SiXiaoMd00401/DA_Fx_Group_Changzhu.DA_Fx_Group_Changzhu",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bone02",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 701560052,
+    "Path": "/Game/Aki/Effect/Niagara/NI_MO1SiXiaoMd00401/NS_Fx_MO1SiXiaoMd00401_Spline_01.NS_Fx_MO1SiXiaoMd00401_Spline_01",
+    "CueType": 6,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "HitCase#HitCase",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 5019001001,
+    "Path": "",
+    "CueType": 11,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [
+      "Mesh",
+      "1"
+    ],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 110006004,
+    "Path": "/Game/Aki/Effect/DataAsset/Niagara/Weapon/Sword/R5Sword503Md20001/DA_Fx_R5Sword503Md20001_Loop.DA_Fx_R5Sword503Md20001_Loop",
+    "CueType": 0,
+    "Comp": 2,
+    "CompName": "WeaponCase0",
+    "Socket": "Sword_Bone01",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 2,
+    "SclRule": 2,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1506100031,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1s_Card_Modality_01.DA_Fx_Group_R1s_Card_Modality_01",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 60,
+      "Z": 90
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 1,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": true,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 1,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": true,
+    "InterpSpeed": 10,
+    "FarthestDistance": 5,
+    "FaultTolerance": {
+      "X": 10,
+      "Y": 10,
+      "Z": 20
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1506100032,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1FeibiMd10011/DA_Fx_Group_R1s_Card_Modality_02.DA_Fx_Group_R1s_Card_Modality_02",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 60,
+      "Z": 90
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 1,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": true,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 1,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": true,
+    "InterpSpeed": 10,
+    "FarthestDistance": 5,
+    "FaultTolerance": {
+      "X": 10,
+      "Y": 10,
+      "Z": 20
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206808062,
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Image/Buff/T_IconBulanteBuff01.T_IconBulanteBuff01",
+    "CueType": 14,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [
+      "1",
+      "F0744E7F"
+    ],
+    "Group": 0,
+    "Priority": 90
+  },
+  {
+    "Id": 110006005,
+    "Path": "/Game/Aki/Effect/EffectGroup/Weapon/Sword/R5Sword503Md20001/DA_Fx_Group_R5word503Md20001_Fire_2.DA_Fx_Group_R5word503Md20001_Fire_2",
+    "CueType": 0,
+    "Comp": 2,
+    "CompName": "WeaponCase0",
+    "Socket": "Sword_Bone01",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 2,
+    "SclRule": 2,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 631000201,
+    "Path": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_Buyu.DA_Fx_Screen_Buyu",
+    "CueType": 9,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 640015011,
+    "Path": "/Game/Aki/Effect/DataAsset/PostProcess/Scene/2_1JinKu/DA_Fx_Group_Post_2_1Jinku_HoGuang.DA_Fx_Group_Post_2_1Jinku_HoGuang",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 12068080719,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+    "CueType": 17,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp06#WeaponProp05",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [
+      "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_Beam_End.NS_Fx_Bulante_R1a_Link_Beam_End",
+      "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Head.NS_Fx_Bulante_R1a_Head",
+      "/Game/Aki/Effect/Niagara/NI_R2T1BulanteMd10011/NS_Fx_Bulante_R1a_Link_End.NS_Fx_Bulante_R1a_Link_End"
+    ],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 640015012,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Lord/ME1LiulidaolingMd00301/DA_Fx_Liulidaoling_Death.DA_Fx_Liulidaoling_Death",
+    "CueType": 1,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 640015014,
+    "Path": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_JinKuAnJiao.DA_Fx_Screen_JinKuAnJiao",
+    "CueType": 9,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206999015,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1s_Shiting.DA_Fx_Group_R1s_Shiting",
+    "CueType": 0,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1206999016,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Bulante/DA_Fx_Bulante_Shiting.DA_Fx_Bulante_Shiting",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
     "Magni": 0,
     "AttrId": 0,
     "Tag": "",

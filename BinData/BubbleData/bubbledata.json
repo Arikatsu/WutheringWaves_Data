@@ -1560,6 +1560,24 @@
     "ActionId": 3000226
   },
   {
+    "ActionGuid": "cc8c11ff8c0c4193a8570b56969be05e",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        314900014
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_1_角色_布兰特线",
+        "FlowId": 4,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000093
+  },
+  {
     "ActionGuid": "6658ed3a6a6941bca328e89c4f1f4681",
     "Name": "AddPlayBubble",
     "Async": false,
@@ -1615,5 +1633,27 @@
       }
     },
     "ActionId": 3000329
+  },
+  {
+    "ActionGuid": "3d74f6c00de14163a20196c02b78cb9f",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        314900014
+      ]
+    },
+    "ActionId": 3000073
+  },
+  {
+    "ActionGuid": "7ac15c8465ed485aab07290136d742bc",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        314900014
+      ]
+    },
+    "ActionId": 3000068
   }
 ]
