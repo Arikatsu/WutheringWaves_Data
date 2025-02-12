@@ -259281,7 +259281,7 @@
             "LoopDuration": 100
           },
           "ActionGuid": "7a50e0bbb1a448c3bd31c23cb5360268",
-          "Async": true,
+          "Async": false,
           "ActionId": 3000043
         }
       ],
@@ -259361,8 +259361,7 @@
             "LoopDuration": 100
           },
           "ActionGuid": "8ebaa40ab6a7467cac08ed06e1fbcea9",
-          "ActionId": 3000045,
-          "Async": true
+          "ActionId": 3000045
         }
       ],
       "ParentNodeId": 46
@@ -310337,7 +310336,8 @@
           "Params": {
             "EntityId": 159900018,
             "MontageId": 141,
-            "IsAbpMontage": true
+            "IsAbpMontage": true,
+            "LoopDuration": 99999
           },
           "ActionGuid": "eb7e1019df3e427bac86f9b12bb477a1",
           "Async": true,
@@ -341308,46 +341308,6 @@
       "FinishActions": [],
       "HideUi": false,
       "HideTip": true,
-      "FixProcessor": {
-        "FixActions": [
-          {
-            "Timing": "OnProgress",
-            "Condition": {
-              "Type": 0,
-              "Conditions": [
-                {
-                  "Type": "CheckPlayerPosition",
-                  "Range": {
-                    "Type": "CircleRange",
-                    "Pos": {
-                      "X": 615344.4,
-                      "Y": 541409.3,
-                      "Z": 1050
-                    },
-                    "Radius": 1800
-                  },
-                  "IsOnRange": false
-                }
-              ]
-            },
-            "ThenActions": [
-              {
-                "Name": "ServerSetPlayerPos",
-                "Params": {
-                  "Pos": {
-                    "X": 615222.3,
-                    "Y": 541284.7,
-                    "Z": 1007.7
-                  }
-                },
-                "ActionGuid": "feebe67e43df4f12a4df17450870894b",
-                "ActionId": 3000160
-              }
-            ],
-            "Period": true
-          }
-        ]
-      },
       "ParentNodeId": 24
     }
   },
@@ -372422,18 +372382,7 @@
         }
       },
       "EnterActions": [],
-      "FinishActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34124
-          },
-          "ActionGuid": "9d6896e6d69a4a30883cda0a314c0c96",
-          "ActionId": 3000184
-        }
-      ],
+      "FinishActions": [],
       "HideUi": true,
       "HideTip": true,
       "ParentNodeId": 43
