@@ -391988,6 +391988,87 @@
         }
       ],
       "HideUi": true,
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareVar",
+                  "Var1": {
+                    "Type": "Boolean",
+                    "Source": "Self",
+                    "Name": "第一段演出"
+                  },
+                  "Compare": "Eq",
+                  "Var2": {
+                    "Type": "Boolean",
+                    "Source": "Constant",
+                    "Value": false
+                  }
+                },
+                {
+                  "Type": "CompareEntityState",
+                  "EntityId": 880700347,
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.完成"
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 123700266,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "f99c316fe6f64521a881a4896b8d9ce7",
+                "ActionId": 3000337
+              },
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 880700388,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "ef47dfddb6354901b3039f83618e0ff7",
+                "ActionId": 3000338
+              },
+              {
+                "Name": "SetVar",
+                "Params": {
+                  "VarLeft": {
+                    "Type": "Boolean",
+                    "Source": "Self",
+                    "Name": "第一个谜面为完成"
+                  },
+                  "VarRight": {
+                    "Type": "Boolean",
+                    "Source": "Constant",
+                    "Value": true
+                  }
+                },
+                "ActionGuid": "98cf742f15ac45bf8cb0ab5cf5308d55",
+                "ActionId": 3000339
+              },
+              {
+                "Name": "DestroyEntity",
+                "Params": {
+                  "EntityIds": [
+                    880700362
+                  ]
+                },
+                "ActionGuid": "575a9f591e7d419f8c598dff2f8c222a",
+                "ActionId": 3000340
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 196
     }
   },
@@ -392186,6 +392267,87 @@
         }
       ],
       "HideUi": true,
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareVar",
+                  "Var1": {
+                    "Type": "Boolean",
+                    "Source": "Self",
+                    "Name": "第二段演出"
+                  },
+                  "Compare": "Eq",
+                  "Var2": {
+                    "Type": "Boolean",
+                    "Source": "Constant",
+                    "Value": false
+                  }
+                },
+                {
+                  "Type": "CompareEntityState",
+                  "EntityId": 880700348,
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.完成"
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 123700267,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "489752b43684440793bb7aa09de48635",
+                "ActionId": 3000311
+              },
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 880700406,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "dc79303802954e96968ee4fc09454196",
+                "ActionId": 3000334
+              },
+              {
+                "Name": "SetVar",
+                "Params": {
+                  "VarLeft": {
+                    "Type": "Boolean",
+                    "Source": "Self",
+                    "Name": "第二个谜面为完成"
+                  },
+                  "VarRight": {
+                    "Type": "Boolean",
+                    "Source": "Constant",
+                    "Value": true
+                  }
+                },
+                "ActionGuid": "519091fd89884eedba895eb841304e25",
+                "ActionId": 3000335
+              },
+              {
+                "Name": "DestroyEntity",
+                "Params": {
+                  "EntityIds": [
+                    880700363
+                  ]
+                },
+                "ActionGuid": "ad8fb4121c8d4dfea424ab9dd2cda4f0",
+                "ActionId": 3000336
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 196
     }
   },
