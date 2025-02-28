@@ -1,3 +1,596 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aa3ee51dba78c3855bcff572f521e761e7fdb32d6f1cc9a515b1a9a9dd40b0a7
-size 12948
+[
+  {
+    "ViewName": "DefaultView",
+    "Area": "",
+    "Priority": 0,
+    "OnlyShowInMain": false,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "AreaView",
+    "Area": "Center",
+    "Priority": 4,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "NewItemTipsView",
+    "Area": "NewItemTips",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ItemHintView",
+    "Area": "ItemHint",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "GenericPromptView",
+    "Area": "GenericPrompt",
+    "Priority": 0,
+    "OnlyShowInMain": false,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "EventConditionFloatTips",
+    "Area": "Center",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ChallengeAchieveFloatTips",
+    "Area": "Center",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ChallengeSuccessFloatTips",
+    "Area": "Center",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ChallengeFailedFloatTips",
+    "Area": "Center",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "AdditionalTasksFloatTips",
+    "Area": "Center",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "DelegateCompletionFloatTips",
+    "Area": "Center",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "LevelUpView",
+    "Area": "Top",
+    "Priority": 2,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "WorldLevelUpView",
+    "Area": "Top",
+    "Priority": 3,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ItemRewardView",
+    "Area": "Center",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "DungeonClearanceFloatTips",
+    "Area": "Bottom",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "DungeonAutoExitFloatTips",
+    "Area": "BottomSecond",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "CountDownFloatTips",
+    "Area": "CountDown",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": true
+  },
+  {
+    "ViewName": "GameplayEnterView",
+    "Area": "Center",
+    "Priority": 10,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "GameplayFirstPassView",
+    "Area": "Center",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "GuideTutorialTipsView",
+    "Area": "Bottom",
+    "Priority": 99,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "CalabashUnlockItemView",
+    "Area": "Bottom",
+    "Priority": 98,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "OnlineApplyView",
+    "Area": "OnlineApplyView",
+    "Priority": 0,
+    "OnlyShowInMain": false,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "AdviceInfoView",
+    "Area": "AdviceInfoView",
+    "Priority": 0,
+    "OnlyShowInMain": false,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "AchievementFinishView",
+    "Area": "Center",
+    "Priority": 0,
+    "OnlyShowInMain": false,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ComboTeachingView",
+    "Area": "Center",
+    "Priority": 1,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "OnlineChallengeApplyView",
+    "Area": "OnlineApplyView",
+    "Priority": 0,
+    "OnlyShowInMain": false,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "DailyTaskEndTips",
+    "Area": "Center",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "PrepareCountdownFloatTips",
+    "Area": "Top",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "CommunicateView",
+    "Area": "Bottom",
+    "Priority": 99,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "QuestFailRangeTipsView",
+    "Area": "CountDown",
+    "Priority": 99,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "CalabashUpgradeSuccessView",
+    "Area": "Top",
+    "Priority": 1,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "PingView",
+    "Area": "Ping",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": true
+  },
+  {
+    "ViewName": "FrozenQteView",
+    "Area": "Qte",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "BattleFloatTipsView",
+    "Area": "Center",
+    "Priority": 30,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "NewMissionTips",
+    "Area": "Top",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "AchievementCompleteTipsView",
+    "Area": "Bottom",
+    "Priority": 98,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "InteractQteView",
+    "Area": "Qte",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "VisionNewQualityView",
+    "Area": "Bottom",
+    "Priority": 98,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "LongShanUnlockView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ActivityUnlockTipView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "SoundAreaPlayTips",
+    "Area": "NewItemTips",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "MultiReviveView",
+    "Area": "Revive",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ActivityUnlockTipMoonChasingView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "TowerDefenceReviveView",
+    "Area": "Revive",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "CountDownChallenge",
+    "Area": "CountDown",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "BattleLinkView",
+    "Area": "",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ActivityUnlockTipBlackCoastView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "YouHuQteView",
+    "Area": "Qte",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "FreeRunningQteView",
+    "Area": "Qte",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "PunishReportView",
+    "Area": "Center",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "MowingRiskBuffTipView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "MowingBuffNewBuffTipsView",
+    "Area": "NewItemTips",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "PhantomTipsView",
+    "Area": "PhantomTips",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ActivityUnlockTipDreamLinkView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "SdkTipsPopUpView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": false,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "SdkTipsMiddlePopUpView",
+    "Area": "Center",
+    "Priority": 20,
+    "OnlyShowInMain": false,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "PunishReportSettlementView",
+    "Area": "Top",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ActivityUnlockTipMapTravelView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "TravelLevelTipsView",
+    "Area": "Top",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "LevelGamePlayPrepareCountDown",
+    "Area": "Top",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "FishingLevelUpTips",
+    "Area": "Top",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ShipTowerShowBuffView",
+    "Area": "Bottom",
+    "Priority": 98,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ShipTowerCountDownView",
+    "Area": "CountDown",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "FishingWarningTips",
+    "Area": "FishingWarningTips",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "LiuLiDaoLingView",
+    "Area": "Control",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "FishingActivityUnlockView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  }
+]
