@@ -1,298 +1,398 @@
 [
-  {
-    "Id": "NetworkConnect",
-    "Content": "Connexion en cours"
-  },
-  {
-    "Id": "PatchDown",
-    "Content": "Téléchargement : {0} Vitesse : {1} Taille : {2}/{3}"
-  },
-  {
-    "Id": "PatchDownTips",
-    "Content": "Le jeu peut être minimisé pendant le téléchargement."
-  },
-  {
-    "Id": "Install",
-    "Content": "Installation de la mise à jour"
-  },
-  {
-    "Id": "InstallTips",
-    "Content": "Veuillez ne pas fermer le jeu pendant l'installation"
-  },
-  {
-    "Id": "CheckIntegrity",
-    "Content": "Vérification de l'intégrité du jeu {0}%"
-  },
-  {
-    "Id": "NoNetwork",
-    "Content": "Pas de connexion internet, veuillez vérifier et réessayer"
-  },
-  {
-    "Id": "GetUpdateInfoFail",
-    "Content": "Impossible de récupérer les informations de mise à jour"
-  },
-  {
-    "Id": "HotFixTipsTitle",
-    "Content": "Notice."
-  },
-  {
-    "Id": "HotFixQuit",
-    "Content": "Quitter"
-  },
-  {
-    "Id": "HotFixRetry",
-    "Content": "Réessayer"
-  },
-  {
-    "Id": "HotFixNewPatch",
-    "Content": "On a détecté un nouveau paquet de mise à jour {0}, l'environnement réseau actuel est le réseau mobile, veuillez confirmer si vous voulez utiliser les données mobiles."
-  },
-  {
-    "Id": "HotFixUseNetworkDownload",
-    "Content": "Télécharger avec les données mobiles."
-  },
-  {
-    "Id": "HotFixRestartToCompleteHotFix",
-    "Content": "Mise à jour terminée, veuillez redémarrer le jeu."
-  },
-  {
-    "Id": "HotFixRestartToRepairFiles",
-    "Content": "Réparation du fichier terminée, veuillez redémarrer le jeu."
-  },
-  {
-    "Id": "HotFixWriteStorageTips",
-    "Content": "L'autorisation \"Stockage\" est nécessaire pour sauvegarder les fichiers de mise à jour. Veuillez l'activer dans Paramètres > Applications > Wuthering Waves > Autorisations > Stockage, puis redémarrez le jeu."
-  },
-  {
-    "Id": "HotFixNotEnoughSpace",
-    "Content": "La ressource {0} doit être téléchargée, l'espace actuel de l'appareil est insuffisant, veuillez procéder au nettoyage, après le nettoyage, cliquez sur \"Continuer\"."
-  },
-  {
-    "Id": "HotFixContinue",
-    "Content": "Continuer"
-  },
-  {
-    "Id": "HotFixCancel",
-    "Content": "Annuler"
-  },
-  {
-    "Id": "HotFixNetworkChange",
-    "Content": "Changement de réseau détecté. Voulez-vous utiliser les données mobiles pour télécharger ?"
-  },
-  {
-    "Id": "SplashCautionTitle",
-    "Content": "Avertissement : À lire avant de jouer."
-  },
-  {
-    "Id": "SplashCautionContent",
-    "Content": "Certaines personnes sont susceptibles de faire des crises d'épilepsie ou d'avoir des pertes de conscience à la vue de certains types de lumières clignotantes ou d'éléments fréquents dans notre environnement quotidien. Ces personnes s'exposent à des crises lorsqu'elles regardent certaines images télévisées ou lorsqu'elles jouent à certains jeux vidéo. Ces phénomènes peuvent apparaître alors même que le sujet n'a pas d'antécédent médical ou n'a jamais été confronté à une crise d'épilepsie.\nSi vous-même ou un membre de votre famille avez déjà présenté des symptômes liés à l'épilepsie (crise ou perte de conscience) en présence de stimulations lumineuses, veuillez consulter votre médecin avant toute utilisation.\nNous conseillons aux parents d'être attentifs à leurs enfants lorsqu'ils jouent avec des jeux vidéo. Si vous-même ou votre enfant présentez un des symptômes suivants : vertige, trouble de la vision, contraction des yeux ou des muscles, perte de conscience, troubles de l'orientation, mouvement involontaire ou convulsion, veuillez immédiatement cesser de jouer et consulter un médecin."
-  },
-  {
-    "Id": "SplashLoading",
-    "Content": "Chargement en cours..."
-  },
-  {
-    "Id": "SplashHealthyGamingAdvisory",
-    "Content": "Dites non aux contenus de jeux inappropriés ou piratés.\nGardez vos informations personnelles privées pour éviter les escroqueries.\nJouez de manière responsable pour une expérience de jeu sûre et amusante.\nOrganisez votre temps de façon raisonnable pour un mode de vie sain."
-  },
-  {
-    "Id": "SplashCopyrightInformation",
-    "Content": "No. de Certificat: 国新出审〔2023〕1802号 ISBN 978-7-498-12761-7.\nPublié par 成都盈众九州网络科技有限公司\nCopyright : 广州库洛科技有限公司"
-  },
-  {
-    "Id": "GetRemoteConfigFailed",
-    "Content": "Échec de l'obtention de la configuration à distance. Veuillez vérifier la connexion réseau et redémarrer le client pour réessayer."
-  },
-  {
-    "Id": "StartHotFix",
-    "Content": "Début de la vérification de la mise à jour."
-  },
-  {
-    "Id": "GetRemoteVersion",
-    "Content": "Obtention de la configuration de la nouvelle version.."
-  },
-  {
-    "Id": "GetRemoteVersionFailed",
-    "Content": "Échec de l'obtention de la configuration de la nouvelle version"
-  },
-  {
-    "Id": "CheckAppUpdate",
-    "Content": "Vérification de la mise à jour de l'application..."
-  },
-  {
-    "Id": "CheckResourceVersion",
-    "Content": "Vérification de la version des ressources {0}..."
-  },
-  {
-    "Id": "ResolveIndexFile",
-    "Content": "Analyse du correctif en cours..."
-  },
-  {
-    "Id": "MountPak",
-    "Content": "Application du correctif en cours..."
-  },
-  {
-    "Id": "CompleteHotFix",
-    "Content": "Mise à jour terminée."
-  },
-  {
-    "Id": "DownloadIndexFileFailed",
-    "Content": "Échec de l'obtention des informations de la liste des correctifs. Raison : {0}"
-  },
-  {
-    "Id": "DownloadResourcePatchFailed",
-    "Content": "Échec du téléchargement des correctifs. Raison : {0}"
-  },
-  {
-    "Id": "EvaluateDownloadResourcePatchFailed",
-    "Content": "(Évaluation) Échec du téléchargement des correctifs. Raison : {0}"
-  },
-  {
-    "Id": "GetResourceInfoFailed",
-    "Content": "Échec de l'analyse du type de correctifs."
-  },
-  {
-    "Id": "ResolveIndexFileFailed",
-    "Content": "Échec de l'analyse de la liste des correctifs. Redémarrez pour réessayer ou contactez le service client s'il vous plaît."
-  },
-  {
-    "Id": "ValidateResourceFailed",
-    "Content": "Échec de la vérification des fichiers de ressources. Veuillez redémarrer et réessayer ou contacter le service client."
-  },
-  {
-    "Id": "DownloadStateNone",
-    "Content": "Erreur inconnue."
-  },
-  {
-    "Id": "DownloadStateHttpError",
-    "Content": "Erreur de réseau."
-  },
-  {
-    "Id": "DownloadStateFileRenameError",
-    "Content": "Erreur : Impossible de renommer le fichier"
-  },
-  {
-    "Id": "DownloadStateValidateError",
-    "Content": "Échec de la vérification du fichier."
-  },
-  {
-    "Id": "DownloadStateOpenToWriteError",
-    "Content": "Échec de l'écriture du fichier."
-  },
-  {
-    "Id": "DownloadStateNotEnoughSpace",
-    "Content": "Espace disque insuffisant."
-  },
-  {
-    "Id": "DownloadStateDownloadCanceled",
-    "Content": "Téléchargement annulé."
-  },
-  {
-    "Id": "DownloadStateSuccess",
-    "Content": "Téléchargement réussi."
-  },
-  {
-    "Id": "CompilingShader",
-    "Content": "Compilation des shaders {0} en cours."
-  },
-  {
-    "Id": "GetRemotePackageConfigFail",
-    "Content": "Échec de l'obtention des données de l'ensemble complet à distance. Veuillez vérifier la connexion réseau et redémarrer le client pour réessayer."
-  },
-  {
-    "Id": "NewVersionDetailDesc",
-    "Content": "Détails de la nouvelle version."
-  },
-  {
-    "Id": "NewVersionDetailDownloadGetReward",
-    "Content": "On a une nouvelle version. Téléchargez la dernière version du jeu s'il vous plaît. Connectez-vous après la mise à jour pour obtenir les récompenses : <color=c49e55ff>300 Astrites + 2 Solvants cristallines</color>."
-  },
-  {
-    "Id": "ConfirmText",
-    "Content": "Confirmer"
-  },
-  {
-    "Id": "FirstDownloadTip",
-    "Content": "Ressources à télécharger : {0}. Voulez-vous continuer ?"
-  },
-  {
-    "Id": "DownloadTitle",
-    "Content": "Télécharger les ressources"
-  },
-  {
-    "Id": "PatchDownload",
-    "Content": "Téléchargement en cours : {0}/{1}"
-  },
-  {
-    "Id": "PatchDownID",
-    "Content": "{0}"
-  },
-  {
-    "Id": "PatchDownSpeed",
-    "Content": "Vitesse : {0}"
-  },
-  {
-    "Id": "MobileDriverOutOfVersion",
-    "Content": "La version du pilote de votre téléphone est obsolète (version du pilote GL < 378). Cela peut provoquer des plantages de jeu pendant votre partie. Pour garantir une expérience de jeu fluide, il est recommandé de mettre à jour la version du système ou du pilote GL."
-  },
-  {
-    "Id": "DownloadContinue",
-    "Content": "Tapez pour continuer"
-  },
-  {
-    "Id": "PatchClear",
-    "Content": "Les ressources du patch local seront effacées et téléchargées à nouveau. Souhaitez-vous continuer ?"
-  },
-  {
-    "Id": "PatchClearTitle",
-    "Content": "Effacer le Patch"
-  },
-  {
-    "Id": "PatchClearbutton",
-    "Content": "Réparer"
-  },
-  {
-    "Id": "MobileChipOutOfVersion",
-    "Content": "Il est détecté que la version de la puce de l'appareil est trop ancienne et il est très possible que le jeu plante. Pour une expérience de jeu normale, nous vous recommandons à utiliser un autre appareil."
-  },
-  {
-    "Id": "UserProtocol",
-    "Content": "Les conditions d'utilisation"
-  },
-  {
-    "Id": "PrivacyPolicy",
-    "Content": "Politique de confidentialité"
-  },
-  {
-    "Id": "ChildProtocol",
-    "Content": "Politique de confidentialité des enfants"
-  },
-  {
-    "Id": "SdkProtocolDesc",
-    "Content": "Pour une meilleure expérience de jeu, nous allons lier votre compte pour PlayStation™Network à votre compte Kuro.\nVous pouvez dissocier les comptes et supprimer vos informations à tout moment via notre site officiel ou en contactant le support client."
-  },
-  {
-    "Id": "SdkProtocolTitle",
-    "Content": "Notice sur les Conditions d'utilisation et la Politique de confidentialité"
-  },
-  {
-    "Id": "SdkProtocolConfirm",
-    "Content": "Accepter"
-  },
-  {
-    "Id": "SdkProtocolRefuse",
-    "Content": "Refuser"
-  },
-  {
-    "Id": "EquipmentDriveOutOfVersion",
-    "Content": "Il est détecté que votre version du pilote de l'appareil n'est pas à jour. Le jeu risque de planter. Pour garantir une expérience de jeu normale, il est conseillé de changer d'appareil."
-  },
-  {
-    "Id": "SdkInitializeFail",
-    "Content": "Échec du démarrage du jeu. Veuillez vérifier l'état de votre compte pour PlayStation™Network."
-  },
-  {
-    "Id": "NewVersionDownloadTips",
-    "Content": "Une nouvelle version est disponible, veuillez redémarrer le jeu pour mettre à jour."
-  }
+    {
+        "Id": "NetworkConnect",
+        "Content": "Connexion en cours"
+    },
+    {
+        "Id": "PatchDown",
+        "Content": "Téléchargement : {0} Vitesse : {1} Taille : {2}/{3}"
+    },
+    {
+        "Id": "PatchDownTips",
+        "Content": "Le jeu peut être minimisé pendant le téléchargement."
+    },
+    {
+        "Id": "Install",
+        "Content": "Installation de la mise à jour"
+    },
+    {
+        "Id": "InstallTips",
+        "Content": "Veuillez ne pas fermer le jeu pendant l'installation"
+    },
+    {
+        "Id": "CheckIntegrity",
+        "Content": "Vérification de l'intégrité du jeu {0}%"
+    },
+    {
+        "Id": "NoNetwork",
+        "Content": "Pas de connexion internet, veuillez vérifier et réessayer"
+    },
+    {
+        "Id": "GetUpdateInfoFail",
+        "Content": "Impossible de récupérer les informations de mise à jour"
+    },
+    {
+        "Id": "HotFixTipsTitle",
+        "Content": "Notice."
+    },
+    {
+        "Id": "HotFixQuit",
+        "Content": "Quitter"
+    },
+    {
+        "Id": "HotFixRetry",
+        "Content": "Réessayer"
+    },
+    {
+        "Id": "HotFixNewPatch",
+        "Content": "On a détecté un nouveau paquet de mise à jour {0}, l'environnement réseau actuel est le réseau mobile, veuillez confirmer si vous voulez utiliser les données mobiles."
+    },
+    {
+        "Id": "HotFixUseNetworkDownload",
+        "Content": "Télécharger avec les données mobiles."
+    },
+    {
+        "Id": "HotFixRestartToCompleteHotFix",
+        "Content": "Mise à jour terminée, veuillez redémarrer le jeu."
+    },
+    {
+        "Id": "HotFixRestartToRepairFiles",
+        "Content": "Réparation du fichier terminée, veuillez redémarrer le jeu."
+    },
+    {
+        "Id": "HotFixWriteStorageTips",
+        "Content": "L'autorisation \"Stockage\" est nécessaire pour sauvegarder les fichiers de mise à jour. Veuillez l'activer dans Paramètres > Applications > Wuthering Waves > Autorisations > Stockage, puis redémarrez le jeu."
+    },
+    {
+        "Id": "HotFixNotEnoughSpace",
+        "Content": "La ressource {0} doit être téléchargée, l'espace actuel de l'appareil est insuffisant, veuillez procéder au nettoyage, après le nettoyage, cliquez sur \"Continuer\"."
+    },
+    {
+        "Id": "HotFixContinue",
+        "Content": "Continuer"
+    },
+    {
+        "Id": "HotFixCancel",
+        "Content": "Annuler"
+    },
+    {
+        "Id": "HotFixNetworkChange",
+        "Content": "Changement de réseau détecté. Voulez-vous utiliser les données mobiles pour télécharger ?"
+    },
+    {
+        "Id": "SplashCautionTitle",
+        "Content": "Avertissement : À lire avant de jouer."
+    },
+    {
+        "Id": "SplashCautionContent",
+        "Content": "Certaines personnes sont susceptibles de faire des crises d'épilepsie ou d'avoir des pertes de conscience à la vue de certains types de lumières clignotantes ou d'éléments fréquents dans notre environnement quotidien. Ces personnes s'exposent à des crises lorsqu'elles regardent certaines images télévisées ou lorsqu'elles jouent à certains jeux vidéo. Ces phénomènes peuvent apparaître alors même que le sujet n'a pas d'antécédent médical ou n'a jamais été confronté à une crise d'épilepsie.\nSi vous-même ou un membre de votre famille avez déjà présenté des symptômes liés à l'épilepsie (crise ou perte de conscience) en présence de stimulations lumineuses, veuillez consulter votre médecin avant toute utilisation.\nNous conseillons aux parents d'être attentifs à leurs enfants lorsqu'ils jouent avec des jeux vidéo. Si vous-même ou votre enfant présentez un des symptômes suivants : vertige, trouble de la vision, contraction des yeux ou des muscles, perte de conscience, troubles de l'orientation, mouvement involontaire ou convulsion, veuillez immédiatement cesser de jouer et consulter un médecin."
+    },
+    {
+        "Id": "SplashLoading",
+        "Content": "Chargement en cours..."
+    },
+    {
+        "Id": "SplashHealthyGamingAdvisory",
+        "Content": "Dites non aux contenus de jeux inappropriés ou piratés.\nGardez vos informations personnelles privées pour éviter les escroqueries.\nJouez de manière responsable pour une expérience de jeu sûre et amusante.\nOrganisez votre temps de façon raisonnable pour un mode de vie sain."
+    },
+    {
+        "Id": "SplashCopyrightInformation",
+        "Content": "No. de Certificat: 国新出审〔2023〕1802号 ISBN 978-7-498-12761-7.\nPublié par 成都盈众九州网络科技有限公司\nCopyright : 广州库洛科技有限公司"
+    },
+    {
+        "Id": "GetRemoteConfigFailed",
+        "Content": "Échec de l'obtention de la configuration à distance. Veuillez vérifier la connexion réseau et redémarrer le client pour réessayer."
+    },
+    {
+        "Id": "StartHotFix",
+        "Content": "Début de la vérification de la mise à jour."
+    },
+    {
+        "Id": "GetRemoteVersion",
+        "Content": "Obtention de la configuration de la nouvelle version.."
+    },
+    {
+        "Id": "GetRemoteVersionFailed",
+        "Content": "Échec de l'obtention de la configuration de la nouvelle version"
+    },
+    {
+        "Id": "CheckAppUpdate",
+        "Content": "Vérification de la mise à jour de l'application..."
+    },
+    {
+        "Id": "CheckResourceVersion",
+        "Content": "Vérification de la version des ressources {0}..."
+    },
+    {
+        "Id": "ResolveIndexFile",
+        "Content": "Analyse du correctif en cours..."
+    },
+    {
+        "Id": "MountPak",
+        "Content": "Application du correctif en cours..."
+    },
+    {
+        "Id": "CompleteHotFix",
+        "Content": "Mise à jour terminée."
+    },
+    {
+        "Id": "DownloadIndexFileFailed",
+        "Content": "Échec de l'obtention des informations de la liste des correctifs. Raison : {0}"
+    },
+    {
+        "Id": "DownloadResourcePatchFailed",
+        "Content": "Échec du téléchargement des correctifs. Raison : {0}"
+    },
+    {
+        "Id": "EvaluateDownloadResourcePatchFailed",
+        "Content": "(Évaluation) Échec du téléchargement des correctifs. Raison : {0}"
+    },
+    {
+        "Id": "GetResourceInfoFailed",
+        "Content": "Échec de l'analyse du type de correctifs."
+    },
+    {
+        "Id": "ResolveIndexFileFailed",
+        "Content": "Échec de l'analyse de la liste des correctifs. Redémarrez pour réessayer ou contactez le service client s'il vous plaît."
+    },
+    {
+        "Id": "ValidateResourceFailed",
+        "Content": "Échec de la vérification des fichiers de ressources. Veuillez redémarrer et réessayer ou contacter le service client."
+    },
+    {
+        "Id": "DownloadStateNone",
+        "Content": "Erreur inconnue."
+    },
+    {
+        "Id": "DownloadStateHttpError",
+        "Content": "Erreur de réseau."
+    },
+    {
+        "Id": "DownloadStateFileRenameError",
+        "Content": "Erreur : Impossible de renommer le fichier"
+    },
+    {
+        "Id": "DownloadStateValidateError",
+        "Content": "Échec de la vérification du fichier."
+    },
+    {
+        "Id": "DownloadStateOpenToWriteError",
+        "Content": "Échec de l'écriture du fichier."
+    },
+    {
+        "Id": "DownloadStateNotEnoughSpace",
+        "Content": "Espace disque insuffisant."
+    },
+    {
+        "Id": "DownloadStateDownloadCanceled",
+        "Content": "Téléchargement annulé."
+    },
+    {
+        "Id": "DownloadStateSuccess",
+        "Content": "Téléchargement réussi."
+    },
+    {
+        "Id": "CompilingShader",
+        "Content": "Compilation des shaders {0} en cours."
+    },
+    {
+        "Id": "GetRemotePackageConfigFail",
+        "Content": "Échec de l'obtention des données de l'ensemble complet à distance. Veuillez vérifier la connexion réseau et redémarrer le client pour réessayer."
+    },
+    {
+        "Id": "NewVersionDetailDesc",
+        "Content": "Détails de la nouvelle version."
+    },
+    {
+        "Id": "NewVersionDetailDownloadGetReward",
+        "Content": "On a une nouvelle version. Téléchargez la dernière version du jeu s'il vous plaît. Connectez-vous après la mise à jour pour obtenir les récompenses : <color=c49e55ff>300 Astrites + 2 Solvants Cristallins</color>."
+    },
+    {
+        "Id": "ConfirmText",
+        "Content": "Confirmer"
+    },
+    {
+        "Id": "FirstDownloadTip",
+        "Content": "Ressources à télécharger : {0}. Voulez-vous continuer ?"
+    },
+    {
+        "Id": "DownloadTitle",
+        "Content": "Télécharger les ressources"
+    },
+    {
+        "Id": "PatchDownload",
+        "Content": "Téléchargement en cours : {0}/{1}"
+    },
+    {
+        "Id": "PatchDownID",
+        "Content": "{0}"
+    },
+    {
+        "Id": "PatchDownSpeed",
+        "Content": "Vitesse : {0}"
+    },
+    {
+        "Id": "MobileDriverOutOfVersion",
+        "Content": "La version du pilote de votre téléphone est obsolète (version du pilote GL < 378). Cela peut provoquer des plantages de jeu pendant votre partie. Pour garantir une expérience de jeu fluide, il est recommandé de mettre à jour la version du système ou du pilote GL."
+    },
+    {
+        "Id": "DownloadContinue",
+        "Content": "Tapez pour continuer"
+    },
+    {
+        "Id": "PatchClear",
+        "Content": "Les ressources du patch local seront effacées et téléchargées à nouveau. Souhaitez-vous continuer ?"
+    },
+    {
+        "Id": "PatchClearTitle",
+        "Content": "Effacer le Patch"
+    },
+    {
+        "Id": "PatchClearbutton",
+        "Content": "Réparer"
+    },
+    {
+        "Id": "MobileChipOutOfVersion",
+        "Content": "Il est détecté que la version de la puce de l'appareil est trop ancienne et il est très possible que le jeu plante. Pour une expérience de jeu normale, nous vous recommandons à utiliser un autre appareil."
+    },
+    {
+        "Id": "UserProtocol",
+        "Content": "Les conditions d'utilisation"
+    },
+    {
+        "Id": "PrivacyPolicy",
+        "Content": "Politique de confidentialité"
+    },
+    {
+        "Id": "ChildProtocol",
+        "Content": "Politique de confidentialité des enfants"
+    },
+    {
+        "Id": "SdkProtocolDesc",
+        "Content": "Pour une meilleure expérience de jeu, nous allons lier votre compte pour PlayStation™Network à votre compte Kuro.\nVous pouvez dissocier les comptes et supprimer vos informations à tout moment via notre site officiel ou en contactant le support client."
+    },
+    {
+        "Id": "SdkProtocolTitle",
+        "Content": "Notice sur les Conditions d'utilisation et la Politique de confidentialité"
+    },
+    {
+        "Id": "SdkProtocolConfirm",
+        "Content": "Accepter"
+    },
+    {
+        "Id": "SdkProtocolRefuse",
+        "Content": "Refuser"
+    },
+    {
+        "Id": "EquipmentDriveOutOfVersion",
+        "Content": "Il est détecté que votre version du pilote de l'appareil n'est pas à jour. Le jeu risque de planter. Pour garantir une expérience de jeu normale, il est conseillé de changer d'appareil."
+    },
+    {
+        "Id": "SdkInitializeFail",
+        "Content": "Échec du démarrage du jeu. Veuillez vérifier l'état de votre compte pour PlayStation™Network."
+    },
+    {
+        "Id": "NewVersionDownloadTips",
+        "Content": "Une nouvelle version est disponible, veuillez redémarrer le jeu pour mettre à jour."
+    },
+    {
+        "Id": "NetworkDetection_Title",
+        "Content": "Diagnostic réseau"
+    },
+    {
+        "Id": "NetworkDetection_Proxy",
+        "Content": "Vérification des serveurs proxy"
+    },
+    {
+        "Id": "NetworkDetection_Domain",
+        "Content": "Résolution DNS"
+    },
+    {
+        "Id": "NetworkDetection_Ping",
+        "Content": "Test de ping"
+    },
+    {
+        "Id": "NetworkDetection_Http",
+        "Content": "Test d'accès aux pages web"
+    },
+    {
+        "Id": "NetworkDetection_Udp",
+        "Content": "Test du trafic UDP"
+    },
+    {
+        "Id": "NetworkDetection_Start",
+        "Content": "Commencer le test"
+    },
+    {
+        "Id": "NetworkDetection_Ing",
+        "Content": "Test en cours..."
+    },
+    {
+        "Id": "NetworkDetection_Submit",
+        "Content": "Soumettre un rapport au service client"
+    },
+    {
+        "Id": "NetworkDetection_tips",
+        "Content": "Un diagnostic réseau est en cours. Cliquer à nouveau interrompra le test et fermera cette page."
+    },
+    {
+        "Id": "NetworkDetection_Proxy_Wrong",
+        "Content": "Erreur de connexion au proxy. Veuillez vérifier l'adresse du serveur proxy."
+    },
+    {
+        "Id": "NetworkDetection_Domain_Wrong",
+        "Content": "Échec de la résolution DNS. Code d'erreur :"
+    },
+    {
+        "Id": "NetworkDetection_Ping_Wrong",
+        "Content": "Résultat du test de ping :"
+    },
+    {
+        "Id": "NetworkDetection_Http_Wrong",
+        "Content": "Erreur lors du test des pages web. Code d'erreur :"
+    },
+    {
+        "Id": "NetworkDetection_Udp_Wrong",
+        "Content": "Erreur lors du test du port UDP. Code d'erreur :"
+    },
+    {
+        "Id": "NetworkDetection_Start_Tips",
+        "Content": "Cliquez sur le bouton pour lancer le diagnostic réseau"
+    },
+    {
+        "Id": "NetworkDetection_Trace_Id",
+        "Content": "Identifiant de diagnostic (ID de trace) :"
+    },
+    {
+        "Id": "NetworkDetection_Submiting",
+        "Content": "Résultats du diagnostic copiés, transmission du rapport d'erreur en cours"
+    },
+    {
+        "Id": "NetworkDetection_Select",
+        "Content": "Sélectionner le serveur"
+    },
+    {
+        "Id": "NetworkDetection_Cancel",
+        "Content": "Annuler"
+    },
+    {
+        "Id": "BinPatchFailed",
+        "Content": "Impossible de créer le Patch binaire. Cause d'erreur : {0}."
+    },
+    {
+        "Id": "BinPatchProgress",
+        "Content": "Création de Patch en cours : {0} %"
+    },
+    {
+        "Id": "MoveFilesFailed",
+        "Content": "Impossible de déplacer le fichier."
+    },
+    {
+        "Id": "NetworkDetection_Error",
+        "Content": "Échec de l'initialisation du diagnostic réseau. Veuillez réessayer plus tard."
+    },
+    {
+        "Id": "NetworkDetection_Hotfix_Submit",
+        "Content": "Envoyer"
+    }
 ]
