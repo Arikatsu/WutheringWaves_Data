@@ -11,6 +11,7 @@ ActionType,db_general_action.db,
 Activity,db_activity.db,lang_activity.db
 ActivityQuestConfig,db_ActivityQuestConfig.db,
 ActivitySign,db_activity.db,
+ActivityViewName,db_activity.db,lang_activity.db
 AdventureTask,db_adventuretask.db,lang_adventuretask.db
 AdventureTaskChapter,db_adventuretask.db,lang_adventuretask.db
 AdviceConjunction,db_advice.db,lang_advice.db
@@ -48,8 +49,19 @@ AreaReport,db_area.db,lang_area.db
 AreaTaskExplore,db_explore_progress.db,lang_explore_progress.db
 Audio,db_audio.db,
 AutoRole,db_role.db,lang_role.db
+AvignonStage,db_Avignon.db,
+AvignonTask,db_Avignon.db,
 AxisMapping,db_input_settings.db,
 AxisRevert,db_menu.db,lang_menu.db
+BabelTowerActivity,db_activity.db,
+BabelTowerBuff,db_activity.db,
+BabelTowerDailyTask,db_activity.db,
+BabelTowerDeEffect,db_activity.db,
+BabelTowerDeTerm,db_activity.db,
+BabelTowerDeTermMutex,db_activity.db,
+BabelTowerDifficulty,db_activity.db,
+BabelTowerLevel,db_activity.db,
+BabelTowerTask,db_activity.db,
 BackgroundCard,db_personal_card.db,lang_personal_card.db
 BanInfo,db_report.db,lang_report.db
 BaseProperty,db_property.db,lang_property.db
@@ -183,6 +195,7 @@ ElementReactionMatrix,db_element_info.db,lang_element_info.db
 ElementalReaction,db_element_info.db,lang_element_info.db
 EnrichmentAreaConfig,db_enrichment.db,lang_enrichment.db
 EntityAudioConfig,db_entity_audio.db,
+EntityGravityConfig,db_EntityGravity.db,lang_EntityGravity.db
 EntityOwnerData,db_EntityOwnerData.db,lang_EntityOwnerData.db
 EntitySelfEventConfig,db_EntitySelfEventConfig.db,lang_EntitySelfEventConfig.db
 EntitySkillPreload,db_entity_skill_preload.db,lang_entity_skill_preload.db
@@ -199,6 +212,8 @@ ExchangeReward,db_exchangereward.db,
 ExchangeShared,db_exchangereward.db,
 ExecutionConf,db_monster_Info.db,
 ExploratoryTypeConfig,db_ExploratoryTypeConfig.db,lang_ExploratoryTypeConfig.db
+ExploreActivity,db_ExploreActivity.db,
+ExploreActivityTask,db_ExploreActivity.db,
 ExploreProgress,db_explore_progress.db,lang_explore_progress.db
 ExploreProgressReward,db_explore_progress.db,lang_explore_progress.db
 ExploreReward,db_explore_progress.db,lang_explore_progress.db
@@ -223,6 +238,7 @@ FavorTabCamera,db_favor.db,lang_favor.db
 FavorWord,db_favor.db,lang_favor.db
 FeedingAnimal,db_FeedingAnimal.db,
 FightFormation,db_formation.db,lang_formation.db
+FightInfoDtType,db_instance_dungeon.db,lang_instance_dungeon.db
 Filter,db_filter_sort.db,
 FilterRule,db_filter_sort.db,
 FilterSortConfig,db_filter_sort.db,
@@ -328,6 +344,7 @@ InteractAudioMaterial,db_InteractAudioMaterial.db,lang_InteractAudioMaterial.db
 InteractBackGround,db_CommonBackground.db,
 InteractData,db_InteractData.db,lang_InteractData.db
 Interjection,db_audio_interjection.db,lang_audio_interjection.db
+ItemAccessedPath,db_giftpackage.db,
 ItemExchangeContent,db_item_exchange.db,lang_item_exchange.db
 ItemExchangeLimit,db_item_exchange.db,lang_item_exchange.db
 ItemHandBook,db_handbook.db,lang_handbook.db
@@ -467,12 +484,15 @@ PlayerExp,db_player_exp.db,lang_player_exp.db
 PlayerHeadRe,db_PlayerHead.db,
 PlayerInterFace,db_item.db,lang_item.db
 PlayerStateRestriction,db_playerStateRestriction.db,lang_playerStateRestriction.db
+PlayerTitle,db_PersonalTitle.db,
 PlotAudio,db_plot_audio.db,
+PlotGuest,db_PlotGuest.db,
 PlotHandBookConfig,db_PlotHandBook.db,lang_PlotHandBook.db
 PlotType,db_handbook.db,lang_handbook.db
 Popularity,db_MoonChasing.db,
 PreOpenDetection,db_adventure_detect.db,lang_detection.db
 PrefabConfig,db_prefab.db,lang_prefab.db
+PrefabRichTextData,db_ui_prefabRichTextData.db,lang_ui_prefabRichTextData.db
 PrefabTextItem,db_ui_prefabTextItem.db,lang_ui_prefabTextItem.db
 PreheatBonus,db_Preheat.db,
 PreheatQuestText,db_Preheat.db,
@@ -678,6 +698,8 @@ TowerDefenceMark,db_activity.db,
 TowerDefencePhantom,db_activity.db,
 TowerDefencePhantomLevel,db_activity.db,
 TowerDefenceReward,db_activity.db,
+TowerDefenseConfig,db_activity.db,
+TowerDefenseSettle,db_activity.db,
 TowerDifficulty,db_tower.db,
 TowerGuide,db_activity.db,
 TowerTarget,db_tower.db,
@@ -716,6 +738,7 @@ UiWeaponVisibleConfig,db_weapon_visible.db,
 UniversalActivity,db_activity.db,
 VideoCaption,db_cgVedio.db,lang_cgVideo.db
 VideoData,db_cgVedio.db,lang_cgVideo.db
+VideoQte,db_cgVedio.db,lang_cgVideo.db
 VideoSound,db_cgVedio.db,lang_cgVideo.db
 WeaponBreach,db_weapon.db,lang_weapon.db
 WeaponConf,db_weapon.db,lang_weapon.db
