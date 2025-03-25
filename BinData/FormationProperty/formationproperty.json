@@ -1,401 +1,391 @@
 [
-{
-  "Id": 1,
-  "InitValue": 14000,
-  "InitRecoveryRate": 2400,
-  "InitMax": 14000,
-  "MarkTag": [
-    "功能.功能制作.禁止体力恢复"
-  ],
-  "ResistTag": [],
-  "TriggerRange1": {
-    "Min": 0,
-    "Max": 0
+  {
+    "Id": 1,
+    "InitValue": 14000,
+    "InitRecoveryRate": 2400,
+    "InitMax": 14000,
+    "MarkTag": [
+      "功能.功能制作.禁止体力恢复"
+    ],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 0,
+      "Max": 0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 0,
+    "PropertyIndex": 0
   },
-  "TriggerType1": 0,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
+  {
+    "Id": 2,
+    "InitValue": 0,
+    "InitRecoveryRate": -5000,
+    "InitMax": 10000,
+    "MarkTag": [
+      "功能.逻辑状态标识.剧情中"
+    ],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      640006011
+    ],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 0,
+    "PropertyIndex": 0
   },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
+  {
+    "Id": 3,
+    "InitValue": 0,
+    "InitRecoveryRate": -1000,
+    "InitMax": 10000,
+    "MarkTag": [
+      "功能.逻辑状态标识.无敌",
+      "角色.Common.技能通用标识.极限闪避",
+      "角色.Common.技能通用标识.大招",
+      "行为状态.位置状态.水中",
+      "角色.BaseRole.技能通用标识.幻象变身中",
+      "Damage.Frozen"
+    ],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType1": 1,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      80011012,
+      80011013
+    ],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 0,
+    "PropertyIndex": 0
   },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
-,
-{
-  "Id": 2,
-  "InitValue": 0,
-  "InitRecoveryRate": -5000,
-  "InitMax": 10000,
-  "MarkTag": [
-    "功能.逻辑状态标识.剧情中"
-  ],
-  "ResistTag": [],
-  "TriggerRange1": {
-    "Min": 9999,
-    "Max": 10000
+  {
+    "Id": 4,
+    "InitValue": 0,
+    "InitRecoveryRate": 0,
+    "InitMax": 10000,
+    "MarkTag": [],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType1": 1,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      800100003090
+    ],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 0,
+    "PropertyIndex": 0
   },
-  "TriggerType1": 0,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [
-    640006011
-  ],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
+  {
+    "Id": 5,
+    "InitValue": 0,
+    "InitRecoveryRate": -100,
+    "InitMax": 2000,
+    "MarkTag": [],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 0,
+      "Max": 0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 0,
+    "PropertyIndex": 0
   },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
+  {
+    "Id": 6,
+    "InitValue": 0,
+    "InitRecoveryRate": -5000,
+    "InitMax": 10000,
+    "MarkTag": [
+      "功能.逻辑状态标识.剧情中",
+      "关卡.孢子.孢子计量停止"
+    ],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType1": 1,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      631060002
+    ],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 0,
+    "PropertyIndex": 0
   },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
-,
-{
-  "Id": 3,
-  "InitValue": 0,
-  "InitRecoveryRate": -1000,
-  "InitMax": 10000,
-  "MarkTag": [
-    "功能.逻辑状态标识.无敌",
-    "角色.Common.技能通用标识.极限闪避",
-    "角色.Common.技能通用标识.大招",
-    "行为状态.位置状态.水中",
-    "角色.BaseRole.技能通用标识.幻象变身中",
-    "Damage.Frozen"
-  ],
-  "ResistTag": [],
-  "TriggerRange1": {
-    "Min": 9999,
-    "Max": 10000
+  {
+    "Id": 7,
+    "InitValue": 0,
+    "InitRecoveryRate": -5000,
+    "InitMax": 10000,
+    "MarkTag": [
+      "功能.逻辑状态标识.剧情中"
+    ],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      640007002,
+      640007020
+    ],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 0,
+    "PropertyIndex": 0
   },
-  "TriggerType1": 1,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [
-    80011012,
-    80011013
-  ],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
+  {
+    "Id": 8,
+    "InitValue": 18000,
+    "InitRecoveryRate": 0,
+    "InitMax": 18000,
+    "MarkTag": [],
+    "ResistTag": [
+      "关卡.滑水.能量值不衰减"
+    ],
+    "TriggerRange1": {
+      "Min": 0,
+      "Max": 200
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      640010018
+    ],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 0,
+    "PropertyIndex": 0
   },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
+  {
+    "Id": 9,
+    "InitValue": 0,
+    "InitRecoveryRate": 0,
+    "InitMax": 30000,
+    "MarkTag": [],
+    "ResistTag": [],
+    "TriggerRange1": {
+      "Min": 0,
+      "Max": 3334
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      672020131
+    ],
+    "TriggerRange2": {
+      "Min": 3334,
+      "Max": 6666
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [
+      672020132
+    ],
+    "TriggerRange3": {
+      "Min": 6666,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [
+      672020133
+    ],
+    "Condition": 0,
+    "PropertyIndex": 0
   },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
-,
-{
-  "Id": 4,
-  "InitValue": 0,
-  "InitRecoveryRate": 0,
-  "InitMax": 10000,
-  "MarkTag": [],
-  "ResistTag": [],
-  "TriggerRange1": {
-    "Min": 9999,
-    "Max": 10000
+  {
+    "Id": 10,
+    "InitValue": 7000,
+    "InitRecoveryRate": 2400,
+    "InitMax": 7000,
+    "MarkTag": [
+      "行为状态.位置状态.空中"
+    ],
+    "ResistTag": [
+      "功能.功能制作.翱翔体力锁定"
+    ],
+    "TriggerRange1": {
+      "Min": 0,
+      "Max": 11
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      3154
+    ],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 13000189,
+    "PropertyIndex": 138
   },
-  "TriggerType1": 1,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [
-    800100003090
-  ],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
-,
-{
-  "Id": 5,
-  "InitValue": 0,
-  "InitRecoveryRate": -100,
-  "InitMax": 2000,
-  "MarkTag": [],
-  "ResistTag": [],
-  "TriggerRange1": {
-    "Min": 0,
-    "Max": 0
-  },
-  "TriggerType1": 0,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
-,
-{
-  "Id": 6,
-  "InitValue": 0,
-  "InitRecoveryRate": -5000,
-  "InitMax": 10000,
-  "MarkTag": [
-    "功能.逻辑状态标识.剧情中",
-    "关卡.孢子.孢子计量停止"
-  ],
-  "ResistTag": [],
-  "TriggerRange1": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType1": 1,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [
-    631060002
-  ],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
-,
-{
-  "Id": 7,
-  "InitValue": 0,
-  "InitRecoveryRate": -5000,
-  "InitMax": 10000,
-  "MarkTag": [
-    "功能.逻辑状态标识.剧情中"
-  ],
-  "ResistTag": [],
-  "TriggerRange1": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType1": 0,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [
-    640007002,
-    640007020
-  ],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
-,
-{
-  "Id": 8,
-  "InitValue": 18000,
-  "InitRecoveryRate": 0,
-  "InitMax": 18000,
-  "MarkTag": [],
-  "ResistTag": [
-    "关卡.滑水.能量值不衰减"
-  ],
-  "TriggerRange1": {
-    "Min": 0,
-    "Max": 200
-  },
-  "TriggerType1": 0,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [
-    640010018
-  ],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
-,
-{
-  "Id": 9,
-  "InitValue": 0,
-  "InitRecoveryRate": 0,
-  "InitMax": 30000,
-  "MarkTag": [],
-  "ResistTag": [],
-  "TriggerRange1": {
-    "Min": 0,
-    "Max": 3334
-  },
-  "TriggerType1": 0,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [
-    672020131
-  ],
-  "TriggerRange2": {
-    "Min": 3334,
-    "Max": 6666
-  },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [
-    672020132
-  ],
-  "TriggerRange3": {
-    "Min": 6666,
-    "Max": 10000
-  },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [
-    672020133
-  ],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
-,
-{
-  "Id": 10,
-  "InitValue": 7000,
-  "InitRecoveryRate": 2400,
-  "InitMax": 7000,
-  "MarkTag": [
-    "行为状态.位置状态.空中"
-  ],
-  "ResistTag": [
-    "功能.功能制作.翱翔体力锁定"
-  ],
-  "TriggerRange1": {
-    "Min": 0,
-    "Max": 11
-  },
-  "TriggerType1": 0,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [
-    3154
-  ],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 13000189,
-  "PropertyIndex": 138
-}
-,
-{
-  "Id": 11,
-  "InitValue": 18000,
-  "InitRecoveryRate": 0,
-  "InitMax": 18000,
-  "MarkTag": [],
-  "ResistTag": [
-    "关卡.28b35ef7.d02b8931"
-  ],
-  "TriggerRange1": {
-    "Min": 0,
-    "Max": 200
-  },
-  "TriggerType1": 0,
-  "TriggerEffect1": 0,
-  "TriggerEffectParams1": [
-    640017001
-  ],
-  "TriggerRange2": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType2": 0,
-  "TriggerEffect2": 0,
-  "TriggerEffectParams2": [],
-  "TriggerRange3": {
-    "Min": 9999,
-    "Max": 10000
-  },
-  "TriggerType3": 0,
-  "TriggerEffect3": 0,
-  "TriggerEffectParams3": [],
-  "Condition": 0,
-  "PropertyIndex": 0
-}
+  {
+    "Id": 11,
+    "InitValue": 18000,
+    "InitRecoveryRate": 0,
+    "InitMax": 18000,
+    "MarkTag": [],
+    "ResistTag": [
+      "关卡.28b35ef7.d02b8931"
+    ],
+    "TriggerRange1": {
+      "Min": 0,
+      "Max": 200
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      640017001
+    ],
+    "TriggerRange2": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [],
+    "TriggerRange3": {
+      "Min": 9999,
+      "Max": 10000
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [],
+    "Condition": 0,
+    "PropertyIndex": 0
+  }
 ]
