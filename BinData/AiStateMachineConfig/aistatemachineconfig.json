@@ -58102,26 +58102,13 @@
   {
     "Id": "SM_MO1Bingjian2Md00201",
     "StateMachineJson": {
-      "Version": 1678676177,
+      "Version": 2073024938,
       "StateMachines": [
-        2,
-        3
+        2
       ],
       "Nodes": [
         {
           "Uuid": 2,
-          "ReferenceUuid": 10264,
-          "IsAnimStateMachine": true,
-          "IsConduitNode": false,
-          "IsAnyState": false,
-          "Name": "C受击状态机",
-          "TakeControlType": 0,
-          "TransitionRule": 0,
-          "Children": [],
-          "Transitions": []
-        },
-        {
-          "Uuid": 3,
           "ReferenceUuid": 10007,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
@@ -58147,27 +58134,14 @@
   {
     "Id": "SM_MO1Bingjian3Md00201",
     "StateMachineJson": {
-      "Version": 166206166,
+      "Version": 9391270,
       "StateMachines": [
         3,
-        4,
-        13
+        12
       ],
       "Nodes": [
         {
           "Uuid": 3,
-          "ReferenceUuid": 10264,
-          "IsAnimStateMachine": true,
-          "IsConduitNode": false,
-          "IsAnyState": false,
-          "Name": "C受击状态机",
-          "TakeControlType": 0,
-          "TransitionRule": 0,
-          "Children": [],
-          "Transitions": []
-        },
-        {
-          "Uuid": 4,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -58175,14 +58149,14 @@
           "TakeControlType": 0,
           "TransitionRule": 0,
           "Children": [
+            4,
             5,
-            6,
-            12
+            11
           ],
           "Transitions": [
             {
-              "From": 5,
-              "To": 6,
+              "From": 4,
+              "To": 5,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -58195,8 +58169,8 @@
               ]
             },
             {
-              "From": 6,
-              "To": 12,
+              "From": 5,
+              "To": 11,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -58206,14 +58180,14 @@
                   "Type": 19,
                   "Reverse": false,
                   "CondCheckState": {
-                    "TargetState": 11
+                    "TargetState": 10
                   }
                 }
               ]
             },
             {
-              "From": 12,
-              "To": 5,
+              "From": 11,
+              "To": 4,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -58231,7 +58205,7 @@
           ]
         },
         {
-          "Uuid": 5,
+          "Uuid": 4,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -58240,7 +58214,7 @@
           "TransitionRule": 0
         },
         {
-          "Uuid": 6,
+          "Uuid": 5,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -58248,16 +58222,16 @@
           "TakeControlType": 0,
           "TransitionRule": 0,
           "Children": [
+            6,
             7,
             8,
             9,
-            10,
-            11
+            10
           ],
           "Transitions": [
             {
-              "From": 7,
-              "To": 8,
+              "From": 6,
+              "To": 7,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -58275,8 +58249,8 @@
               ]
             },
             {
-              "From": 7,
-              "To": 9,
+              "From": 6,
+              "To": 8,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -58294,8 +58268,8 @@
               ]
             },
             {
-              "From": 7,
-              "To": 10,
+              "From": 6,
+              "To": 9,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -58313,8 +58287,24 @@
               ]
             },
             {
+              "From": 7,
+              "To": 10,
+              "TransitionPredictionType": 0,
+              "Weight": 0,
+              "Conditions": [
+                {
+                  "Index": 0,
+                  "Name": "CondTaskFinish",
+                  "Type": 101,
+                  "Reverse": false,
+                  "IsClient": true,
+                  "CondTaskFinish": {}
+                }
+              ]
+            },
+            {
               "From": 8,
-              "To": 11,
+              "To": 10,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -58330,23 +58320,7 @@
             },
             {
               "From": 9,
-              "To": 11,
-              "TransitionPredictionType": 0,
-              "Weight": 0,
-              "Conditions": [
-                {
-                  "Index": 0,
-                  "Name": "CondTaskFinish",
-                  "Type": 101,
-                  "Reverse": false,
-                  "IsClient": true,
-                  "CondTaskFinish": {}
-                }
-              ]
-            },
-            {
-              "From": 10,
-              "To": 11,
+              "To": 10,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -58363,7 +58337,7 @@
           ]
         },
         {
-          "Uuid": 7,
+          "Uuid": 6,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -58372,7 +58346,7 @@
           "TransitionRule": 0
         },
         {
-          "Uuid": 8,
+          "Uuid": 7,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -58389,7 +58363,7 @@
           }
         },
         {
-          "Uuid": 9,
+          "Uuid": 8,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -58406,7 +58380,7 @@
           }
         },
         {
-          "Uuid": 10,
+          "Uuid": 9,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -58423,7 +58397,7 @@
           }
         },
         {
-          "Uuid": 11,
+          "Uuid": 10,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -58432,7 +58406,7 @@
           "TransitionRule": 0
         },
         {
-          "Uuid": 12,
+          "Uuid": 11,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -58441,7 +58415,7 @@
           "TransitionRule": 0
         },
         {
-          "Uuid": 13,
+          "Uuid": 12,
           "ReferenceUuid": 10007,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
@@ -136160,7 +136134,7 @@
   {
     "Id": "SM_MB1FuludelisiMd00401",
     "StateMachineJson": {
-      "Version": 1464885147,
+      "Version": 803262442,
       "StateMachines": [
         3,
         4,
@@ -136612,8 +136586,8 @@
                   "CondOr": {
                     "Conditions": [
                       1,
-                      4,
-                      8,
+                      5,
+                      10,
                       13
                     ]
                   }
@@ -136626,7 +136600,8 @@
                   "CondAnd": {
                     "Conditions": [
                       2,
-                      3
+                      3,
+                      4
                     ]
                   }
                 },
@@ -136653,19 +136628,29 @@
                 },
                 {
                   "Index": 4,
+                  "Name": "CondInstStateChange",
+                  "Type": 25,
+                  "Reverse": true,
+                  "CondInstStateChange": {
+                    "TagId": 1218506141
+                  }
+                },
+                {
+                  "Index": 5,
                   "Name": "CondAnd",
                   "Type": 1,
                   "Reverse": false,
                   "CondAnd": {
                     "Conditions": [
-                      5,
                       6,
-                      7
+                      7,
+                      8,
+                      9
                     ]
                   }
                 },
                 {
-                  "Index": 5,
+                  "Index": 6,
                   "Name": "CondTimer",
                   "Type": 22,
                   "Reverse": false,
@@ -136675,7 +136660,7 @@
                   }
                 },
                 {
-                  "Index": 6,
+                  "Index": 7,
                   "Name": "CondTag",
                   "Type": 14,
                   "Reverse": false,
@@ -136686,7 +136671,7 @@
                   }
                 },
                 {
-                  "Index": 7,
+                  "Index": 8,
                   "Name": "CondCheckState",
                   "Type": 19,
                   "Reverse": false,
@@ -136695,35 +136680,20 @@
                   }
                 },
                 {
-                  "Index": 8,
-                  "Name": "CondAnd",
-                  "Type": 1,
-                  "Reverse": false,
-                  "CondAnd": {
-                    "Conditions": [
-                      9,
-                      10
-                    ]
-                  }
-                },
-                {
                   "Index": 9,
-                  "Name": "CondAttributeRate",
-                  "Type": 18,
-                  "Reverse": false,
-                  "CondAttributeRate": {
-                    "AttributeId": 3,
-                    "Denominator": 2,
-                    "Min": 0,
-                    "Max": 7000
+                  "Name": "CondInstStateChange",
+                  "Type": 25,
+                  "Reverse": true,
+                  "CondInstStateChange": {
+                    "TagId": 1218506141
                   }
                 },
                 {
                   "Index": 10,
-                  "Name": "CondOr",
-                  "Type": 2,
+                  "Name": "CondAnd",
+                  "Type": 1,
                   "Reverse": false,
-                  "CondOr": {
+                  "CondAnd": {
                     "Conditions": [
                       11,
                       12
@@ -136732,13 +136702,14 @@
                 },
                 {
                   "Index": 11,
-                  "Name": "CondTag",
-                  "Type": 14,
+                  "Name": "CondAttributeRate",
+                  "Type": 18,
                   "Reverse": false,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 1639442014,
-                    "TagName": "怪物.common.关卡.难度AI分类.领主复刷"
+                  "CondAttributeRate": {
+                    "AttributeId": 3,
+                    "Denominator": 2,
+                    "Min": 0,
+                    "Max": 7000
                   }
                 },
                 {
@@ -136754,11 +136725,32 @@
                 },
                 {
                   "Index": 13,
+                  "Name": "CondAnd",
+                  "Type": 1,
+                  "Reverse": false,
+                  "CondAnd": {
+                    "Conditions": [
+                      14,
+                      15
+                    ]
+                  }
+                },
+                {
+                  "Index": 14,
                   "Name": "CondCheckState",
                   "Type": 19,
                   "Reverse": false,
                   "CondCheckState": {
                     "TargetState": 18
+                  }
+                },
+                {
+                  "Index": 15,
+                  "Name": "CondInstStateChange",
+                  "Type": 25,
+                  "Reverse": true,
+                  "CondInstStateChange": {
+                    "TagId": 1218506141
                   }
                 }
               ]
@@ -136794,7 +136786,8 @@
                   "CondOr": {
                     "Conditions": [
                       1,
-                      2
+                      2,
+                      3
                     ]
                   }
                 },
@@ -136816,6 +136809,15 @@
                   "CondTag": {
                     "TagId": 1639442014,
                     "TagName": "怪物.common.关卡.难度AI分类.领主复刷"
+                  }
+                },
+                {
+                  "Index": 3,
+                  "Name": "CondCheckState",
+                  "Type": 19,
+                  "Reverse": false,
+                  "CondCheckState": {
+                    "TargetState": 12
                   }
                 }
               ]
@@ -136976,6 +136978,13 @@
               "Type": 1,
               "BindBuff": {
                 "BuffId": 70000003
+              }
+            },
+            {
+              "Name": "BindTag",
+              "Type": 3,
+              "BindTag": {
+                "TagId": -2036325523
               }
             }
           ],
