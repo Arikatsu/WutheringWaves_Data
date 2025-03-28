@@ -166671,14 +166671,6 @@
           },
           "ActionGuid": "032dc2f348a94906adfe05acb6ece7a2",
           "ActionId": 3000403
-        },
-        {
-          "Name": "SetTimeLockState",
-          "Params": {
-            "LockState": "Unlock"
-          },
-          "ActionGuid": "e43d22e2bf544ff19ebe7bba7d5b5267",
-          "ActionId": 3000412
         }
       ],
       "HideUi": true,
@@ -269415,6 +269407,40 @@
         }
       },
       "TidTip": "Quest_880000033_ChildQuestTip_880_22",
+      "FinishActions": [
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              880000105
+            ]
+          },
+          "ActionGuid": "fd680699895d44fcb15a604d028e65ea",
+          "ActionId": 3000003
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 168750023,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "da9fd23ca8e14b74bced97cee07cba73",
+          "ActionId": 3000042
+        },
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "0c58c689e37b4aeebe84789e31d0b91b",
+          "ActionId": 3000004
+        }
+      ],
       "HideUi": true,
       "EnterActions": [
         {
@@ -274096,26 +274122,6 @@
           },
           "ActionGuid": "5f4d579736c043eba4322bd539dd7c1d",
           "ActionId": 3000008
-        },
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
-              880000105
-            ]
-          },
-          "ActionGuid": "8079156911c44eec97f3649f57bd60f0",
-          "ActionId": 3000003
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 168750023,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "5835f7ac24954603bae3733255e11191",
-          "ActionId": 3000004
         },
         {
           "Name": "ChangeEntityState",
@@ -280972,18 +280978,7 @@
               ],
               "ExcludeEntities": [
                 109750172,
-                109750173,
-                166750784,
-                169750367,
-                161750603,
-                161000123,
-                109750127,
-                146750007,
-                171750019
-              ],
-              "ExcludeLevelPlays": [
-                169000002,
-                109750001
+                109750173
               ]
             },
             "IsHidePasserByNpc": true
@@ -287054,7 +287049,7 @@
               },
               "Fov": 75,
               "AxisRotate": {
-                "Y": -89,
+                "Y": -90,
                 "Z": 10
               },
               "ScreenConfig": {
@@ -290332,13 +290327,9 @@
       "TidTip": "Quest_880000035_ChildQuestTip_880_4",
       "TrackTarget": {
         "TrackType": {
-          "Type": "Locations",
-          "Locations": [
-            {
-              "X": 787530,
-              "Y": 623720,
-              "Z": 6994.04
-            }
+          "Type": "Entities",
+          "EntityIds": [
+            880000164
           ]
         }
       },
@@ -290406,13 +290397,9 @@
       "TidTip": "Quest_880000035_ChildQuestTip_880_5",
       "TrackTarget": {
         "TrackType": {
-          "Type": "Locations",
-          "Locations": [
-            {
-              "X": 788050,
-              "Y": 628760,
-              "Z": 8420
-            }
+          "Type": "Entities",
+          "EntityIds": [
+            880000165
           ]
         }
       },
@@ -303432,24 +303419,13 @@
       "Id": 62,
       "Desc": "",
       "Condition": {
-        "Type": "CheckConditionGroup",
-        "Condition": {
-          "Type": 0,
-          "Conditions": [
-            {
-              "Type": "CheckInRange",
-              "RangeEntities": [
-                145750273
-              ],
-              "InRange": true
-            },
-            {
-              "Type": "ComparePlayerMotionState2",
-              "Compare": "Ne",
-              "MotionState": "Air"
-            }
-          ]
-        }
+        "Type": "ReachArea",
+        "Pos": {
+          "X": -4214.25,
+          "Y": 44378.51,
+          "Z": 75408.28
+        },
+        "Range": 1800
       },
       "TidTip": "Quest_145000005_ChildQuestTip_145_51",
       "TrackTarget": {
@@ -308040,6 +308016,17 @@
           "ActionId": 3000132
         },
         {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
+          },
+          "ActionGuid": "30d26746542245cb82047d8fa5c9dcd0",
+          "ActionId": 3000133
+        },
+        {
           "Name": "PlayFlow",
           "Params": {
             "FlowListName": "剧情_2_2_阿维纽林主线",
@@ -308047,7 +308034,7 @@
             "StateId": 11
           },
           "ActionGuid": "d9eda77e43084d158fbeb8d8b4016cc6",
-          "Async": false,
+          "Async": true,
           "ActionId": 3000179
         },
         {
@@ -309250,23 +309237,7 @@
                 153900072,
                 153900073,
                 153900077,
-                147000324,
-                147902407
-              ],
-              "ExcludeEntities": [
-                157901422,
-                148900375,
-                148900374,
-                148900597,
-                157900751,
-                157900753,
-                157900752,
-                157900754
-              ],
-              "ExcludeLevelPlays": [
-                157900021,
-                147000004,
-                157900055
+                147000324
               ]
             }
           },
@@ -347845,12 +347816,12 @@
       "TidTip": "Quest_880000033_ChildQuestTip_880_62",
       "FinishActions": [
         {
-          "Name": "OpenSystemBoard",
+          "Name": "TeleportDungeon",
           "Params": {
-            "SystemType": "InstanceEntrance",
-            "BoardId": 1010
+            "DungeonId": 1010,
+            "IsRegroup": false
           },
-          "ActionGuid": "72ee1bde97444fc792991c014314b430",
+          "ActionGuid": "8e21303e70554200808179724bb02183",
           "ActionId": 3000034
         }
       ],
@@ -348855,15 +348826,6 @@
           "ActionId": 3000073
         },
         {
-          "Name": "ShowHidedGroup",
-          "Params": {
-            "GroupKey": "q_880000033_宅邸",
-            "DelayShow": true
-          },
-          "ActionGuid": "8222691b130946189ba364751dfe7288",
-          "ActionId": 3000042
-        },
-        {
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
@@ -349003,16 +348965,6 @@
           "ActionId": 3000078
         },
         {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Show",
-            "MarkId": 380069,
-            "IsFocusOnFirstShow": false
-          },
-          "ActionGuid": "831305de1c80401f9088ab74c8489609",
-          "ActionId": 3000090
-        },
-        {
           "Name": "UnlockSystemItem",
           "Params": {
             "SystemOption": {
@@ -349144,15 +349096,6 @@
           },
           "ActionGuid": "a1398d81485449e2b0322f1d5d4d39f6",
           "ActionId": 3000047
-        },
-        {
-          "Name": "PromptQuestChapterUI",
-          "Params": {
-            "ChapterState": 1
-          },
-          "ActionGuid": "02aa336ff0184152aac5d9dea46da2b4",
-          "Timeout": 10,
-          "ActionId": 3000092
         },
         {
           "Name": "ChangeEntityState",
@@ -363806,26 +363749,15 @@
           "ActionId": 3000021
         },
         {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              109750601,
-              109750602,
-              109750603,
-              109750604
-            ]
-          },
-          "ActionGuid": "4a7a880801f54ceeaf549b8d06c97ba0",
-          "ActionId": 3000023
-        },
-        {
           "Name": "HideGroup",
           "Params": {
             "GroupKey": "q_161000001_布偶贡多拉",
             "HideConfig": {
               "Type": "WorldEntityAndLevelPlay",
-              "HideRangeEntities": [],
+              "HideRangeEntities": [
+                166750786,
+                166750787
+              ],
               "AppendEntities": [
                 166750547
               ]
@@ -371673,15 +371605,6 @@
           },
           "ActionGuid": "f4913cd4f10c4ba990e2fffd1c396b0a",
           "ActionId": 3000026
-        },
-        {
-          "Name": "ShowHidedGroup",
-          "Params": {
-            "GroupKey": "q_161000001_布偶贡多拉",
-            "DelayShow": true
-          },
-          "ActionGuid": "0226a469dd044f0880fbb371ca7ffc00",
-          "ActionId": 3000059
         }
       ],
       "ParentNodeId": 19
@@ -384262,6 +384185,46 @@
           "Name": "ToggleMapMarkState",
           "Params": {
             "Type": "Hide",
+            "MarkId": 9101
+          },
+          "ActionGuid": "077bbfde18754d7792e8921b256b1ad8",
+          "Async": true,
+          "ActionId": 3000033
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9102
+          },
+          "ActionGuid": "6e776f25ae1c4990a01b9725d733fa9a",
+          "Async": true,
+          "ActionId": 3000087
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9103
+          },
+          "ActionGuid": "fd5b7a18c7d8453a94dfba6288e321cf",
+          "Async": true,
+          "ActionId": 3000088
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9104
+          },
+          "ActionGuid": "a17f5ef9777047359fd71f458e41d242",
+          "Async": true,
+          "ActionId": 3000089
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
             "MarkId": 9105
           },
           "ActionGuid": "bbec73b90f4f4363befe27f61db9dadc",
@@ -384375,11 +384338,11 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 221700039,
+            "EntityId": 221700037,
             "State": "关卡.Common.状态.常态"
           },
-          "ActionGuid": "aa852d84f2f94321813fc67350804029",
-          "ActionId": 3000053
+          "ActionGuid": "3f75619c16db42d59d23dd4a2617cb5e",
+          "ActionId": 3000035
         },
         {
           "Name": "ChangeEntityState",
@@ -384390,6 +384353,16 @@
           },
           "ActionGuid": "10e9a2d1c50f4f7c9d0827f03b535eb6",
           "ActionId": 3000036
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700039,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "aa852d84f2f94321813fc67350804029",
+          "ActionId": 3000053
         },
         {
           "Name": "ChangeEntityState",
@@ -384415,6 +384388,26 @@
           "Name": "ToggleMapMarkState",
           "Params": {
             "Type": "Hide",
+            "MarkId": 9102
+          },
+          "ActionGuid": "ee916577688e4306908064d2fcf4c79e",
+          "Async": true,
+          "ActionId": 3000056
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9103
+          },
+          "ActionGuid": "24adbf1d24b942c8bb754e57a855969a",
+          "Async": true,
+          "ActionId": 3000082
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
             "MarkId": 9104
           },
           "ActionGuid": "ff41eeee3e2848ef85dfda994269a05f",
@@ -384422,14 +384415,35 @@
           "ActionId": 3000083
         },
         {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9101
+          },
+          "ActionGuid": "b022488e9d9f4af7acb9f2cf657da3ac",
+          "Async": true,
+          "ActionId": 3000084
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9106
+          },
+          "ActionGuid": "ab91601d741b469a8ed660669cf2245c",
+          "Async": true,
+          "ActionId": 3000085
+        },
+        {
           "Name": "SetEntityVisible",
           "Params": {
             "Visible": false,
             "EntityIds": [
-              227700005,
+              227700001,
               227700002,
-              227700006,
-              227700003
+              227700005,
+              227700003,
+              227700006
             ]
           },
           "ActionGuid": "2884dd41ea0041818b6bfbeddddcea0a",
@@ -384527,6 +384541,26 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
+            "EntityId": 221700037,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "e95155f35b564c10806d95e23ed32c84",
+          "ActionId": 3000031
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700038,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "71ec897b417f4274a14e63a10fca031b",
+          "ActionId": 3000032
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
             "EntityId": 221700040,
             "State": "关卡.Common.状态.常态"
           },
@@ -384557,6 +384591,16 @@
           "Name": "ToggleMapMarkState",
           "Params": {
             "Type": "Hide",
+            "MarkId": 9102
+          },
+          "ActionGuid": "3c2c5dcb376246bda1833a320495e6a5",
+          "Async": true,
+          "ActionId": 3000076
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
             "MarkId": 9103
           },
           "ActionGuid": "59b950408f7e41ce8b47a4e457116e34",
@@ -384564,12 +384608,44 @@
           "ActionId": 3000077
         },
         {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9101
+          },
+          "ActionGuid": "df617ca0b637438d9396f2be1df660d1",
+          "Async": true,
+          "ActionId": 3000078
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9105
+          },
+          "ActionGuid": "cc6bb0b5176c4b3bb56cce5a1926d635",
+          "Async": true,
+          "ActionId": 3000079
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9106
+          },
+          "ActionGuid": "b2a6a4601aed40339891aef67c407d74",
+          "Async": true,
+          "ActionId": 3000080
+        },
+        {
           "Name": "SetEntityVisible",
           "Params": {
             "Visible": false,
             "EntityIds": [
-              227700003,
+              227700001,
+              227700004,
               227700002,
+              227700003,
               227700006
             ]
           },
@@ -384665,6 +384741,121 @@
       "TidTip": "Quest_227700003_ChildQuestTip_227_1",
       "EnterActions": [
         {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700037,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "17a5591b741541dfbbd7f7c4da27800c",
+          "ActionId": 3000001
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700038,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "40f8b72fe3a84ecbbde7fb5337dd8142",
+          "ActionId": 3000002
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700039,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "ec78a8e0df284272aaa93b8d85794087",
+          "ActionId": 3000008
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700041,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "e83798244d594f69a4e0576ce8aa3c02",
+          "ActionId": 3000009
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700042,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "791c22a9d52c4ac7813d0a584dcfe67b",
+          "ActionId": 3000010
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9102
+          },
+          "ActionGuid": "3eb969c4e574415c885545e36339efa6",
+          "Async": true,
+          "ActionId": 3000027
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9103
+          },
+          "ActionGuid": "eecb98b3ffc544de824e48fd34a51d6c",
+          "Async": true,
+          "ActionId": 3000028
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9104
+          },
+          "ActionGuid": "0568945a2cf942f695e39bdc4343420b",
+          "Async": true,
+          "ActionId": 3000038
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9105
+          },
+          "ActionGuid": "40863a894e0f46bc96acdaf20519c3ac",
+          "Async": true,
+          "ActionId": 3000039
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9106
+          },
+          "ActionGuid": "7825edf44cbc404aaa26aee400e61013",
+          "Async": true,
+          "ActionId": 3000049
+        },
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": false,
+            "EntityIds": [
+              227700001,
+              227700004,
+              227700005,
+              227700003,
+              227700006
+            ]
+          },
+          "ActionGuid": "2b6f4069ca9247be82410b3e976d68c4",
+          "ActionId": 3000051
+        },
+        {
           "Name": "UnlockTeleportTrigger",
           "Params": {
             "TeleportId": 9101
@@ -384756,6 +384947,36 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
+            "EntityId": 221700037,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "88f49d9c4a7148d5bd47813ee2680362",
+          "ActionId": 3000029
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700038,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "75286a38c9e04718bc0a5d837eb473c1",
+          "ActionId": 3000030
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700039,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "0f18f2c2405e47bc9248ec1d7d7b0905",
+          "ActionId": 3000065
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
             "EntityId": 221700040,
             "State": "关卡.Common.状态.常态"
           },
@@ -384783,12 +385004,55 @@
           "ActionId": 3000070
         },
         {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9101
+          },
+          "ActionGuid": "a686d430cdfc48689afb370cb6851998",
+          "Async": true,
+          "ActionId": 3000071
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9104
+          },
+          "ActionGuid": "7a47371628084eaab0c987ee6f201ac3",
+          "Async": true,
+          "ActionId": 3000072
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9105
+          },
+          "ActionGuid": "af209dd7d5cf44589de36abd0e096d9e",
+          "Async": true,
+          "ActionId": 3000073
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9106
+          },
+          "ActionGuid": "e752b3ca84c9435e9b10fcd0a82ab080",
+          "Async": true,
+          "ActionId": 3000074
+        },
+        {
           "Name": "SetEntityVisible",
           "Params": {
             "Visible": false,
             "EntityIds": [
-              227700006,
-              227700002
+              227700001,
+              227700004,
+              227700005,
+              227700002,
+              227700006
             ]
           },
           "ActionGuid": "e5b60b13d22b4173a4550d2efbe86687",
@@ -384886,6 +385150,46 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
+            "EntityId": 221700037,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "9377721c02e8466b811ba58910d83920",
+          "ActionId": 3000011
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700038,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "40d1ff41d9b14776adb127c0770f7ac4",
+          "ActionId": 3000012
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700039,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "048d94f57cb6446b822ea82c38e94fbb",
+          "ActionId": 3000050
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 221700041,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "ce511f809edf4f33a38ed53214a1efa8",
+          "ActionId": 3000052
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
             "EntityId": 221700040,
             "State": "关卡.Common.状态.常态"
           },
@@ -384903,10 +385207,54 @@
           "ActionId": 3000058
         },
         {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9103
+          },
+          "ActionGuid": "177e8513bb0b43cd8217755aba41a67e",
+          "Async": true,
+          "ActionId": 3000062
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9104
+          },
+          "ActionGuid": "b87dd30894ab4f9e913492a6cf46cc6e",
+          "Async": true,
+          "ActionId": 3000063
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9105
+          },
+          "ActionGuid": "a505c76c230848b4aba7eed62102746f",
+          "Async": true,
+          "ActionId": 3000064
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 9106
+          },
+          "ActionGuid": "bce9429908c443e9bf0c380d47246e7e",
+          "Async": true,
+          "ActionId": 3000067
+        },
+        {
           "Name": "SetEntityVisible",
           "Params": {
             "Visible": false,
             "EntityIds": [
+              227700001,
+              227700004,
+              227700005,
+              227700003,
               227700002
             ]
           },
@@ -388893,7 +389241,6 @@
       "Type": "Sequence",
       "Id": 22,
       "Desc": "前往战斗场地",
-      "DisableOnline": true,
       "ParentNodeId": 1
     }
   },
@@ -390094,6 +390441,7 @@
           "ActionId": 3000057
         }
       ],
+      "RewardId": 42197,
       "ParentNodeId": 1
     }
   },
@@ -398955,17 +399303,6 @@
             },
             "ActionGuid": "d9b0dc0235ca4b9c944335f48fb3353e",
             "ActionId": 3000172
-          },
-          {
-            "Name": "PlayFlow",
-            "Params": {
-              "FlowListName": "剧情_2_2_阿维纽林主线",
-              "FlowId": 4,
-              "StateId": 19
-            },
-            "ActionGuid": "29d9599050a84b89bc067261215a4853",
-            "Async": true,
-            "ActionId": 3000026
           }
         ]
       },
@@ -404271,12 +404608,12 @@
                 "TidTip": "Quest_880000033_ChildQuestTip_880_62",
                 "FinishActions": [
                   {
-                    "Name": "OpenSystemBoard",
+                    "Name": "TeleportDungeon",
                     "Params": {
-                      "SystemType": "InstanceEntrance",
-                      "BoardId": 1010
+                      "DungeonId": 1010,
+                      "IsRegroup": false
                     },
-                    "ActionGuid": "72ee1bde97444fc792991c014314b430",
+                    "ActionGuid": "8e21303e70554200808179724bb02183",
                     "ActionId": 3000034
                   }
                 ],
@@ -406837,15 +407174,6 @@
           },
           "ActionGuid": "043d0a72e86a4a219b1a438e556ca5a1",
           "ActionId": 3000038
-        },
-        {
-          "Name": "PromptQuestChapterUI",
-          "Params": {
-            "ChapterState": 0
-          },
-          "ActionGuid": "a182702815084afcade994148d48a528",
-          "Timeout": 10,
-          "ActionId": 3000091
         }
       ],
       "ParentNodeId": 2
@@ -406899,6 +407227,16 @@
           },
           "ActionGuid": "8291618a585d49b7920ee71d9df71c1c",
           "ActionId": 3000045
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 880750030,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "2ef4a74314f0474a9a139d08d208181c",
+          "ActionId": 3000341
         },
         {
           "Name": "SetEntityVisible",
@@ -408938,6 +409276,14 @@
           "ActionId": 3000304
         },
         {
+          "Name": "Wait",
+          "Params": {
+            "Time": 2
+          },
+          "ActionGuid": "9762c0a641364f2bb0a35cba92e04194",
+          "ActionId": 3000166
+        },
+        {
           "Name": "FadeOutScreen",
           "Params": {
             "Ease": {
@@ -409914,8 +410260,7 @@
                 135751194,
                 135751195,
                 135751196,
-                133750223,
-                135750877
+                133750223
               ]
             }
           },
@@ -410045,7 +410390,7 @@
           "ActionId": 3000069
         }
       ],
-      "ParentNodeId": 52
+      "ParentNodeId": 49
     }
   },
   {
@@ -410133,7 +410478,7 @@
           "ActionId": 3000013
         }
       ],
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410178,7 +410523,7 @@
           "ActionId": 3000015
         }
       ],
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410283,7 +410628,7 @@
           "ActionId": 3000020
         }
       ],
-      "ParentNodeId": 53
+      "ParentNodeId": 49
     }
   },
   {
@@ -410371,7 +410716,7 @@
           "ActionId": 3000025
         }
       ],
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410413,7 +410758,7 @@
       },
       "EnterActions": [],
       "FinishActions": [],
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410518,7 +410863,7 @@
           "ActionId": 3000031
         }
       ],
-      "ParentNodeId": 54
+      "ParentNodeId": 49
     }
   },
   {
@@ -410585,7 +410930,7 @@
           "ActionId": 3000037
         }
       ],
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410644,7 +410989,7 @@
         "Range": 2500,
         "ViewRange": 3250
       },
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410693,7 +411038,7 @@
           "ActionId": 3000041
         }
       ],
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410738,7 +411083,7 @@
           "ActionId": 3000042
         }
       ],
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410811,7 +411156,7 @@
           "ActionId": 3000050
         }
       ],
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410849,7 +411194,7 @@
           }
         ]
       },
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -410967,7 +411312,7 @@
           }
         ]
       },
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -411280,16 +411625,7 @@
             "LoopDuration": 2
           },
           "ActionGuid": "2559b6eb67104c428f0cfdd1ba4817af",
-          "ActionId": 3000046,
-          "Async": true
-        },
-        {
-          "Name": "Wait",
-          "Params": {
-            "Time": 2
-          },
-          "ActionGuid": "b09fb4f68d72408da096882b8a09bc90",
-          "ActionId": 3000057
+          "ActionId": 3000046
         },
         {
           "Name": "RestorePlayerCameraAdjustment",
@@ -411385,7 +411721,7 @@
       "Id": 44,
       "Desc": "",
       "DungeonId": 8,
-      "ParentNodeId": 1
+      "ParentNodeId": 49
     }
   },
   {
@@ -414073,6 +414409,16 @@
     }
   },
   {
+    "Key": "171750009_49",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 49,
+      "Desc": "",
+      "DisableOnline": true,
+      "ParentNodeId": 1
+    }
+  },
+  {
     "Key": "145000005_420",
     "Data": {
       "Type": "Action",
@@ -415411,7 +415757,7 @@
               "CheckEnterRange": 20000,
               "CheckLeaveRange": 21000
             },
-            "CreateTempTeam": true,
+            "CreateTempTeam": false,
             "EnableMapAndTeleport": true
           },
           "ActionGuid": "6566d239e1b344c4b7c9179dfdbf0384",
@@ -417990,17 +418336,7 @@
         "PosRollbackCfg": {
           "RangeEntityId": 145750161,
           "PositionEntityId": 145750146
-        },
-        "EnterActions": [
-          {
-            "Name": "SetPlayerOperationRestriction",
-            "Params": {
-              "Type": "EnableAll"
-            },
-            "ActionGuid": "76931837bd03453b85eca390ea771d55",
-            "ActionId": 3000395
-          }
-        ]
+        }
       },
       "ParentNodeId": 61
     }
@@ -420630,6 +420966,39 @@
           },
           "ActionGuid": "cd188fff21a74d5f933ce97fa69a96c9",
           "ActionId": 3000114
+        },
+        {
+          "Name": "AddBuffToEntity",
+          "Params": {
+            "EntityIds": [
+              166750195
+            ],
+            "BuffIds": [
+              637271400,
+              637271500,
+              637271600
+            ],
+            "PersistOnOfflineBuffIds": []
+          },
+          "ActionGuid": "eb9d7463c87f408a8d9f82e108ee3695",
+          "ActionId": 3000131
+        },
+        {
+          "Name": "AddBuffToEntity",
+          "Params": {
+            "EntityIds": [
+              166750196
+            ],
+            "BuffIds": [
+              637271400,
+              637271500,
+              637271700,
+              637271702
+            ],
+            "PersistOnOfflineBuffIds": []
+          },
+          "ActionGuid": "a78b1b6440df4a8c8e8074842388e276",
+          "ActionId": 3000132
         }
       ],
       "FinishActions": [],
@@ -420920,27 +421289,6 @@
           "ActionId": 3000010
         },
         {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "DisableModule",
-            "SkillOption": {
-              "Type": "Disable",
-              "DisplayMode": "Ashen"
-            },
-            "CameraOption": {
-              "Type": "Disable"
-            },
-            "UiOption": {
-              "Type": "Disable"
-            },
-            "SceneInteractionOption": {
-              "Type": "Disable"
-            }
-          },
-          "ActionGuid": "8d299773391346c48fb5f1d2153b59bb",
-          "ActionId": 3000039
-        },
-        {
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
@@ -420959,6 +421307,17 @@
           "ActionId": 3000033
         },
         {
+          "Name": "RemoveTrialCharacter",
+          "Params": {
+            "CharacterId": 5001001,
+            "CharacterGroup": [
+              16070001
+            ]
+          },
+          "ActionGuid": "82a5d33d994c4931bd2bf7de0be3edfb",
+          "ActionId": 3000039
+        },
+        {
           "Name": "MoveWithSpline",
           "Params": {
             "MoveTarget": {
@@ -420966,9 +421325,9 @@
             },
             "SplineEntityId": 145750145
           },
-          "ActionGuid": "890e689f792049dda11bf0493476e8c3",
+          "ActionGuid": "d013f149bb554703bcb54db889628046",
           "Async": true,
-          "ActionId": 3000133
+          "ActionId": 3000042
         },
         {
           "Name": "PlayFlow",
@@ -421001,25 +421360,6 @@
           },
           "ActionGuid": "8182fc9c09d7481aa078a5cbd3822d46",
           "ActionId": 3000058
-        },
-        {
-          "Name": "RemoveTrialCharacter",
-          "Params": {
-            "CharacterId": 5001001,
-            "CharacterGroup": [
-              16070001
-            ]
-          },
-          "ActionGuid": "9089c6e2dce84f18bd37bdac81064390",
-          "ActionId": 3000042
-        },
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "EnableAll"
-          },
-          "ActionGuid": "1f6b3412b17c4a28bc6ba8e2c89847dd",
-          "ActionId": 3000166
         }
       ],
       "TrackTarget": {
@@ -422549,6 +422889,17 @@
       },
       "TidTip": "Quest_880000033_ChildQuestTip_168_78",
       "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_880000033_宅邸",
+            "DelayShow": true
+          },
+          "ActionGuid": "46494632a02c48aebe796f44f2f61d6a",
+          "ActionId": 3000052
+        }
+      ],
       "HideUi": true,
       "ParentNodeId": 46
     }
@@ -423660,7 +424011,7 @@
       },
       "EnterActions": [],
       "FinishActions": [],
-      "ParentNodeId": 673
+      "ParentNodeId": 114
     }
   },
   {
@@ -424354,18 +424705,13 @@
           "ActionId": 3000064
         },
         {
-          "Name": "SetEntityVisible",
+          "Name": "ShowHidedGroup",
           "Params": {
-            "Visible": true,
-            "EntityIds": [
-              109750601,
-              109750602,
-              109750603,
-              109750604
-            ]
+            "GroupKey": "q_161000001_布偶贡多拉",
+            "DelayShow": true
           },
-          "ActionGuid": "4a96b6d26f134ee997a06c7e593184c3",
-          "ActionId": 3000058
+          "ActionGuid": "9685fec08b664d419140e9a377ca400f",
+          "ActionId": 3000066
         }
       ],
       "ParentNodeId": 7
@@ -424450,7 +424796,6 @@
       },
       "EnterActions": [],
       "FinishActions": [],
-      "RewardId": 42197,
       "ParentNodeId": 1
     }
   },
@@ -424544,6 +424889,7 @@
           }
         ]
       },
+      "DisableOnline": true,
       "ParentNodeId": 22
     }
   },
@@ -426876,6 +427222,21 @@
           "Params": {},
           "ActionGuid": "3e9a4319e4714f7798714043045a1dbe",
           "ActionId": 3000088
+        },
+        {
+          "Name": "AddBuffToEntity",
+          "Params": {
+            "EntityIds": [
+              166750129
+            ],
+            "BuffIds": [
+              637271400,
+              637271500
+            ],
+            "PersistOnOfflineBuffIds": []
+          },
+          "ActionGuid": "92da6e21a945421e80148fe46e1efc55",
+          "ActionId": 3000117
         }
       ],
       "ParentNodeId": 66
@@ -426890,17 +427251,11 @@
       "Condition": {
         "Type": "CheckConditionGroup",
         "Condition": {
-          "Type": 1,
+          "Type": 0,
           "Conditions": [
             {
               "Type": "CheckInCombat",
               "InCombat": true
-            },
-            {
-              "Type": "CheckChildQuestFinished",
-              "QuestId": 161750000,
-              "ChildQuestId": 44,
-              "Compare": "Eq"
             }
           ]
         }
@@ -427560,2023 +427915,6 @@
         }
       ],
       "ParentNodeId": 120
-    }
-  },
-  {
-    "Key": "171750009_52",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 52,
-      "Desc": "",
-      "DisableOnline": true,
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "171750009_53",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 53,
-      "Desc": "",
-      "DisableOnline": true,
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "171750009_54",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 54,
-      "Desc": "",
-      "DisableOnline": true,
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750000_1",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 1,
-      "Desc": "",
-      "ParentNodeId": 0
-    }
-  },
-  {
-    "Key": "227750000_2",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 2,
-      "Desc": "",
-      "Condition": {
-        "Type": "CompareVar",
-        "Count": 0,
-        "Conditions": [
-          {
-            "Var1": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 0
-            },
-            "Compare": "Eq",
-            "Var2": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 1
-            }
-          }
-        ]
-      },
-      "TidTip": "Quest_227750000_ChildQuestTip_227_2",
-      "EnterActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700037,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "84a6d1b0d58744948b94cbe6ad5081cb",
-          "ActionId": 3000091
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700038,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "3b525c4101e54a15a2fa1dcaee741123",
-          "ActionId": 3000092
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700039,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "64e7682dabc64f08ad335114e8827c36",
-          "ActionId": 3000093
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700041,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "0310fb5057924fd8983d98bc6dbc7cf4",
-          "ActionId": 3000094
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700042,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "f505d170ade345de9d409259d109b56b",
-          "ActionId": 3000095
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9102
-          },
-          "ActionGuid": "bac517fc4cca447e9b0b54f6e3a927c4",
-          "Async": true,
-          "ActionId": 3000096
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9103
-          },
-          "ActionGuid": "c1c782575816424195903388ed6f33da",
-          "Async": true,
-          "ActionId": 3000097
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9104
-          },
-          "ActionGuid": "deefe9b8f4094f2bbbe8c0d6856c6053",
-          "Async": true,
-          "ActionId": 3000098
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9105
-          },
-          "ActionGuid": "9b8dc86c8cc14f2c89e9fd3d237fbdca",
-          "Async": true,
-          "ActionId": 3000099
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9106
-          },
-          "ActionGuid": "bb87f2843dbf4069b16bc322f2da12e5",
-          "Async": true,
-          "ActionId": 3000100
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9107
-          },
-          "ActionGuid": "cf7c1fc6e751406b89148394f35c95a9",
-          "Async": true,
-          "ActionId": 3000219
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9108
-          },
-          "ActionGuid": "3977333a66054e3ea042bc8c419cf959",
-          "Async": true,
-          "ActionId": 3000220
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227700001,
-              227700004,
-              227700005,
-              227700002,
-              227700003,
-              227700006
-            ]
-          },
-          "ActionGuid": "f774a52003ec4210bdad20523378a530",
-          "ActionId": 3000211
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227750008,
-              227750009,
-              227750010,
-              227750012,
-              227750013,
-              227750014,
-              227750015
-            ]
-          },
-          "ActionGuid": "e20b1fab68bd47529919d18cb8d242bb",
-          "ActionId": 3000101
-        },
-        {
-          "Name": "UnlockTeleportTrigger",
-          "Params": {
-            "TeleportId": 9101
-          },
-          "ActionGuid": "99327f421fc04151ba34503a6edcc5e6",
-          "ActionId": 3000102
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Show",
-            "MarkId": 9101
-          },
-          "ActionGuid": "c650b90b8c384be79c165642d90b5715",
-          "Async": true,
-          "ActionId": 3000103
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              227750011
-            ]
-          },
-          "ActionGuid": "245bc6e520264538832e8f0bd3e92679",
-          "ActionId": 3000104
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700040,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "4340938a082a42cda763fde2de089e99",
-          "ActionId": 3000105
-        }
-      ],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750000_3",
-    "Data": {
-      "Type": "QuestSucceed",
-      "Id": 3,
-      "Desc": "",
-      "FinishActions": [],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750001_1",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 1,
-      "Desc": "",
-      "ParentNodeId": 0
-    }
-  },
-  {
-    "Key": "227750001_2",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 2,
-      "Desc": "",
-      "Condition": {
-        "Type": "CompareVar",
-        "Count": 0,
-        "Conditions": [
-          {
-            "Var1": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 0
-            },
-            "Compare": "Eq",
-            "Var2": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 1
-            }
-          }
-        ]
-      },
-      "TidTip": "Quest_227750001_ChildQuestTip_227_2",
-      "EnterActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700037,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "b03afcb0458d4390b839468ef44ec48e",
-          "ActionId": 3000106
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700038,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "5673fd922a964e0db7f9a2fa5677c1fe",
-          "ActionId": 3000107
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700039,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "4ffdf1db58bf4afda34962efc4b7b19a",
-          "ActionId": 3000108
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700041,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "591c192a6e3740c6a172ef3a119d6976",
-          "ActionId": 3000109
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700040,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "4f49cbef577042b3974848ab7d57b991",
-          "ActionId": 3000110
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9101
-          },
-          "ActionGuid": "e634578a81f34eca9fc35587e10b113a",
-          "Async": true,
-          "ActionId": 3000111
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9103
-          },
-          "ActionGuid": "89208de8420b4bb392ccd1fcafa91f37",
-          "Async": true,
-          "ActionId": 3000112
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9104
-          },
-          "ActionGuid": "51d9f59c744c43d5b5f26d4a06d09bd3",
-          "Async": true,
-          "ActionId": 3000113
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9105
-          },
-          "ActionGuid": "e1cad22eb6ec42c5a7fe8d0015f8bd65",
-          "Async": true,
-          "ActionId": 3000114
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9106
-          },
-          "ActionGuid": "6d1c32fb0a434ba9b8470b50300cd06b",
-          "Async": true,
-          "ActionId": 3000115
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9107
-          },
-          "ActionGuid": "9356c00d1d9c422a96bcdd1d030206ca",
-          "Async": true,
-          "ActionId": 3000221
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9108
-          },
-          "ActionGuid": "f3c90cbfa4c14c35b5e386456c1fd5c2",
-          "Async": true,
-          "ActionId": 3000222
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227700001,
-              227700004,
-              227700005,
-              227700002,
-              227700003,
-              227700006
-            ]
-          },
-          "ActionGuid": "052ee4fb629e4c6bbcf754b9978e588b",
-          "ActionId": 3000212
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227750008,
-              227750009,
-              227750010,
-              227750011,
-              227750012,
-              227750014,
-              227750015
-            ]
-          },
-          "ActionGuid": "025ab7c6a59549579260390e0158326c",
-          "ActionId": 3000116
-        },
-        {
-          "Name": "UnlockTeleportTrigger",
-          "Params": {
-            "TeleportId": 9102
-          },
-          "ActionGuid": "3f8d39ab7dbf44bab27aa3dbd38e6a41",
-          "ActionId": 3000117
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Show",
-            "MarkId": 9102
-          },
-          "ActionGuid": "04910df0574e49578580ea420819c01d",
-          "Async": true,
-          "ActionId": 3000118
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              227750013
-            ]
-          },
-          "ActionGuid": "6e3403c50b8b417abad6558feb12f434",
-          "ActionId": 3000119
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700042,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "0d15b7be14dd4087973ec6d007b97eaf",
-          "ActionId": 3000120
-        }
-      ],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750001_3",
-    "Data": {
-      "Type": "QuestSucceed",
-      "Id": 3,
-      "Desc": "",
-      "FinishActions": [],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750002_1",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 1,
-      "Desc": "",
-      "ParentNodeId": 0
-    }
-  },
-  {
-    "Key": "227750002_2",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 2,
-      "Desc": "",
-      "Condition": {
-        "Type": "CompareVar",
-        "Count": 0,
-        "Conditions": [
-          {
-            "Var1": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 0
-            },
-            "Compare": "Eq",
-            "Var2": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 1
-            }
-          }
-        ]
-      },
-      "TidTip": "Quest_227750002_ChildQuestTip_227_2",
-      "EnterActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700037,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "dd59aafb7f934a72bd424066e0a152af",
-          "ActionId": 3000121
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700038,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "389be07b959a4968a11d3ed805b5f7c5",
-          "ActionId": 3000122
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700039,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "d69f27844cfe48529dc1b86b5956d247",
-          "ActionId": 3000123
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700040,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "dcabed620e1448a9bb3c7d3ba806e310",
-          "ActionId": 3000124
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700042,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "f2d24dbf063e4ae682ca95aaba80dd09",
-          "ActionId": 3000125
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9102
-          },
-          "ActionGuid": "cc19cf0e2ce04663b03aa70b4d742739",
-          "Async": true,
-          "ActionId": 3000126
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9101
-          },
-          "ActionGuid": "4e5c52793d57461aadad8019801970f1",
-          "Async": true,
-          "ActionId": 3000127
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9104
-          },
-          "ActionGuid": "46dbd334381449f4a2a593e1a812123b",
-          "Async": true,
-          "ActionId": 3000128
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9105
-          },
-          "ActionGuid": "9e80abf2d91d49d39b2f2cd175b991ab",
-          "Async": true,
-          "ActionId": 3000129
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9106
-          },
-          "ActionGuid": "1f8a61c2f9d848fea3e33c42b23b83bd",
-          "Async": true,
-          "ActionId": 3000130
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9107
-          },
-          "ActionGuid": "2562b423dfd141c59a223a3ec4ade3da",
-          "Async": true,
-          "ActionId": 3000223
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9108
-          },
-          "ActionGuid": "53047deb62014b29952ab92fd9e039b3",
-          "Async": true,
-          "ActionId": 3000224
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227700001,
-              227700004,
-              227700005,
-              227700002,
-              227700003,
-              227700006
-            ]
-          },
-          "ActionGuid": "4e9ffcedf3534cc8b458ae120f1d7e7a",
-          "ActionId": 3000213
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227750008,
-              227750009,
-              227750010,
-              227750011,
-              227750013,
-              227750014,
-              227750015
-            ]
-          },
-          "ActionGuid": "005d69b9222040cab00e59b1180f142c",
-          "ActionId": 3000131
-        },
-        {
-          "Name": "UnlockTeleportTrigger",
-          "Params": {
-            "TeleportId": 9103
-          },
-          "ActionGuid": "cac937defbf74446a79d808c8466fe96",
-          "ActionId": 3000132
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Show",
-            "MarkId": 9103
-          },
-          "ActionGuid": "8f7c32bfb971436eb1099f7e8d2b9f85",
-          "Async": true,
-          "ActionId": 3000133
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              227750012
-            ]
-          },
-          "ActionGuid": "909df95aa16b49559dce363d1c3cbcd6",
-          "ActionId": 3000134
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700041,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "9efc8383dbdd4a7a939132e73c77742d",
-          "ActionId": 3000135
-        }
-      ],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750002_3",
-    "Data": {
-      "Type": "QuestSucceed",
-      "Id": 3,
-      "Desc": "",
-      "FinishActions": [],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750003_1",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 1,
-      "Desc": "",
-      "ParentNodeId": 0
-    }
-  },
-  {
-    "Key": "227750003_2",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 2,
-      "Desc": "",
-      "Condition": {
-        "Type": "CompareVar",
-        "Count": 0,
-        "Conditions": [
-          {
-            "Var1": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 0
-            },
-            "Compare": "Eq",
-            "Var2": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 1
-            }
-          }
-        ]
-      },
-      "TidTip": "Quest_227750003_ChildQuestTip_227_2",
-      "EnterActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700037,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "43b8f1b85d784d99aa58c9f9025ce335",
-          "ActionId": 3000136
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700038,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "e51aa762154c4670854dd7593af54970",
-          "ActionId": 3000137
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700040,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "2c42d3a6bfcc4f0db3524e3aeedc4208",
-          "ActionId": 3000138
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700041,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "ac4ea98984434ca7b5e5db732ce28f94",
-          "ActionId": 3000139
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700042,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "eac069a1ffe5421ab7134a925a48a4aa",
-          "ActionId": 3000140
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9102
-          },
-          "ActionGuid": "ed06750df43e458cb7f96b311e8704e5",
-          "Async": true,
-          "ActionId": 3000141
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9103
-          },
-          "ActionGuid": "23b7b4c50618443ba6425b9d7818eeaa",
-          "Async": true,
-          "ActionId": 3000142
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9101
-          },
-          "ActionGuid": "28404b67190641a3b905e37cd21356b1",
-          "Async": true,
-          "ActionId": 3000143
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9105
-          },
-          "ActionGuid": "d5bb291434e14654b73d070035a8e0e1",
-          "Async": true,
-          "ActionId": 3000144
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9106
-          },
-          "ActionGuid": "d323fd3b4de946079ea7cd2010cb5d8d",
-          "Async": true,
-          "ActionId": 3000145
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9107
-          },
-          "ActionGuid": "4faf9cd3309240c88c37bb4a6dd86c27",
-          "Async": true,
-          "ActionId": 3000225
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9108
-          },
-          "ActionGuid": "cb1ab8463b444bda81a960fd46d8fb86",
-          "Async": true,
-          "ActionId": 3000226
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227700001,
-              227700004,
-              227700005,
-              227700002,
-              227700003,
-              227700006
-            ]
-          },
-          "ActionGuid": "38b1b7f9f80e4b9191c6be3ec11fab42",
-          "ActionId": 3000214
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227750008,
-              227750009,
-              227750011,
-              227750012,
-              227750013,
-              227750014,
-              227750015
-            ]
-          },
-          "ActionGuid": "3cc7bfc7105b453fb50859308602108c",
-          "ActionId": 3000146
-        },
-        {
-          "Name": "UnlockTeleportTrigger",
-          "Params": {
-            "TeleportId": 9104
-          },
-          "ActionGuid": "cb63f48e8736411eb6abcd0bc8921fd0",
-          "ActionId": 3000147
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Show",
-            "MarkId": 9104
-          },
-          "ActionGuid": "a9f34ee6f35c42b0934bf2834deb1722",
-          "Async": true,
-          "ActionId": 3000148
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              227750010
-            ]
-          },
-          "ActionGuid": "d815fbb236a3496d9f7b52dc279d7cfe",
-          "ActionId": 3000149
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700039,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "f51aa3bd770f43c585152d801a633824",
-          "ActionId": 3000150
-        }
-      ],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750003_3",
-    "Data": {
-      "Type": "QuestSucceed",
-      "Id": 3,
-      "Desc": "",
-      "FinishActions": [],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750004_1",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 1,
-      "Desc": "",
-      "ParentNodeId": 0
-    }
-  },
-  {
-    "Key": "227750004_2",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 2,
-      "Desc": "",
-      "Condition": {
-        "Type": "CompareVar",
-        "Count": 0,
-        "Conditions": [
-          {
-            "Var1": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 0
-            },
-            "Compare": "Eq",
-            "Var2": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 1
-            }
-          }
-        ]
-      },
-      "TidTip": "Quest_227750004_ChildQuestTip_227_2",
-      "EnterActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700037,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "b4e02313a96341e4a9060266ae4c9e68",
-          "ActionId": 3000151
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700040,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "be5709f6eaba4360950d54c3ae975a60",
-          "ActionId": 3000152
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700039,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "eb14883df2b142a9a5172c1e7dab6b6c",
-          "ActionId": 3000153
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700041,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "11a9145c782744f3af3d652a7f7ac5ba",
-          "ActionId": 3000154
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700042,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "b4e6425dcd28465e82a9d43281e0c3d7",
-          "ActionId": 3000155
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9102
-          },
-          "ActionGuid": "449ce9d2d88749a68e64ce6d42538fd7",
-          "Async": true,
-          "ActionId": 3000156
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9103
-          },
-          "ActionGuid": "6dd09ebc20a34fc3be7248c3c130edb0",
-          "Async": true,
-          "ActionId": 3000157
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9104
-          },
-          "ActionGuid": "be6d90c0ea21452ba5e9c2de0cba43f3",
-          "Async": true,
-          "ActionId": 3000158
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9101
-          },
-          "ActionGuid": "aeabc78fdafa419d893f266101ce6881",
-          "Async": true,
-          "ActionId": 3000159
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9106
-          },
-          "ActionGuid": "a6c2cdbffb2d4b0db85ac3b611c82c9b",
-          "Async": true,
-          "ActionId": 3000160
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9107
-          },
-          "ActionGuid": "b19d3603cd1b4d59a30dc2a4003715cf",
-          "Async": true,
-          "ActionId": 3000227
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9108
-          },
-          "ActionGuid": "80e578a6652845c1aee0483a5f075f15",
-          "Async": true,
-          "ActionId": 3000228
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227700001,
-              227700004,
-              227700005,
-              227700002,
-              227700003,
-              227700006
-            ]
-          },
-          "ActionGuid": "73a3dac57222431fa56018d0446bc6fb",
-          "ActionId": 3000215
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227750008,
-              227750011,
-              227750010,
-              227750012,
-              227750013,
-              227750014,
-              227750015
-            ]
-          },
-          "ActionGuid": "61a7854bf1ea4a9c83e10d66b1ea3011",
-          "ActionId": 3000161
-        },
-        {
-          "Name": "UnlockTeleportTrigger",
-          "Params": {
-            "TeleportId": 9105
-          },
-          "ActionGuid": "e5488aab16184ebd9b3488536883ba45",
-          "ActionId": 3000162
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Show",
-            "MarkId": 9105
-          },
-          "ActionGuid": "e761823a2a1246c684a9d0b60929876e",
-          "Async": true,
-          "ActionId": 3000163
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              227750009
-            ]
-          },
-          "ActionGuid": "2963199079574c96bb5dd4784d3f5367",
-          "ActionId": 3000164
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700038,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "49d36740dae74863a62fe43c08f1d1e5",
-          "ActionId": 3000165
-        }
-      ],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750004_3",
-    "Data": {
-      "Type": "QuestSucceed",
-      "Id": 3,
-      "Desc": "",
-      "FinishActions": [],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750005_1",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 1,
-      "Desc": "",
-      "ParentNodeId": 0
-    }
-  },
-  {
-    "Key": "227750005_2",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 2,
-      "Desc": "",
-      "Condition": {
-        "Type": "CompareVar",
-        "Count": 0,
-        "Conditions": [
-          {
-            "Var1": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 0
-            },
-            "Compare": "Eq",
-            "Var2": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 1
-            }
-          }
-        ]
-      },
-      "TidTip": "Quest_227750005_ChildQuestTip_227_2",
-      "EnterActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700038,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "54d44140a5244e22b6c5a4227beac22d",
-          "ActionId": 3000166
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700039,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "08a320e52a114e7d9a1b11593a960ae1",
-          "ActionId": 3000167
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700040,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "68bdb5a4cbb841f5897bcc42cf04a575",
-          "ActionId": 3000168
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700041,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "c2a3a09165d74918bb214913a31e8f53",
-          "ActionId": 3000169
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700042,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "d97eda5196664a68b98c7f528c805b4e",
-          "ActionId": 3000170
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9101
-          },
-          "ActionGuid": "665d34fa587d47e4a891dfe1af871674",
-          "Async": true,
-          "ActionId": 3000171
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9102
-          },
-          "ActionGuid": "56740fe0287b4ff283f456ab04ca059a",
-          "Async": true,
-          "ActionId": 3000172
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9103
-          },
-          "ActionGuid": "c12c601cdfe049209c121fc288f59321",
-          "Async": true,
-          "ActionId": 3000173
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9104
-          },
-          "ActionGuid": "94abea033ce84606968342663b0248be",
-          "Async": true,
-          "ActionId": 3000174
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9105
-          },
-          "ActionGuid": "860dc0c09a6d4a2dba1f7197b8fa55b2",
-          "Async": true,
-          "ActionId": 3000175
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9107
-          },
-          "ActionGuid": "d04ae491c96d4306ac18f5eb99101ff2",
-          "Async": true,
-          "ActionId": 3000229
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9108
-          },
-          "ActionGuid": "a4885b0e995a4edfa934768981f8ac54",
-          "Async": true,
-          "ActionId": 3000230
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227700001,
-              227700004,
-              227700005,
-              227700002,
-              227700003,
-              227700006
-            ]
-          },
-          "ActionGuid": "71648d2609b44699aee2d6d6c19d6db3",
-          "ActionId": 3000216
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227750009,
-              227750010,
-              227750011,
-              227750012,
-              227750013,
-              227750014,
-              227750015
-            ]
-          },
-          "ActionGuid": "bba75fe385c2477fa82c23629ecffdf0",
-          "ActionId": 3000176
-        },
-        {
-          "Name": "UnlockTeleportTrigger",
-          "Params": {
-            "TeleportId": 9106
-          },
-          "ActionGuid": "37fcf10f51964e5e8f869544deefb2d4",
-          "ActionId": 3000177
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Show",
-            "MarkId": 9106
-          },
-          "ActionGuid": "eaf78ca528014fb59099b78ba6a041c2",
-          "Async": true,
-          "ActionId": 3000178
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              227750008
-            ]
-          },
-          "ActionGuid": "db054579d36b4bd08fc202c768d0f412",
-          "ActionId": 3000179
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700037,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "388200d2f1cf4e0e8cc76a839f0ea58b",
-          "ActionId": 3000180
-        }
-      ],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750005_3",
-    "Data": {
-      "Type": "QuestSucceed",
-      "Id": 3,
-      "Desc": "",
-      "FinishActions": [],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750006_1",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 1,
-      "Desc": "",
-      "ParentNodeId": 0
-    }
-  },
-  {
-    "Key": "227750006_2",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 2,
-      "Desc": "",
-      "Condition": {
-        "Type": "CompareVar",
-        "Count": 0,
-        "Conditions": [
-          {
-            "Var1": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 0
-            },
-            "Compare": "Eq",
-            "Var2": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 1
-            }
-          }
-        ]
-      },
-      "TidTip": "Quest_227750006_ChildQuestTip_227_2",
-      "EnterActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700037,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "ddd4fd2d6a424fd2ab0b1ee13b854dcc",
-          "ActionId": 3000181
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700038,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "d333827cd0984c0c95dd045e6adf95ed",
-          "ActionId": 3000182
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700039,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "dca2ce46ebf246d9918cd88d5543fb7e",
-          "ActionId": 3000183
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700041,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "6396ed5f03a64dc2b62c51b717857435",
-          "ActionId": 3000184
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700042,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "548d7a7cf30642dcb68e0d82a5ba7805",
-          "ActionId": 3000185
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9102
-          },
-          "ActionGuid": "74a6a1ae5f86491c9b668b80ae8d762a",
-          "Async": true,
-          "ActionId": 3000186
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9103
-          },
-          "ActionGuid": "4054d493deb546d19ad1fa00b2d58448",
-          "Async": true,
-          "ActionId": 3000187
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9104
-          },
-          "ActionGuid": "b5ed420bd9fb4c4387411002a204c343",
-          "Async": true,
-          "ActionId": 3000188
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9105
-          },
-          "ActionGuid": "a1e655db60da41c48fc9f29b2e379d17",
-          "Async": true,
-          "ActionId": 3000189
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9106
-          },
-          "ActionGuid": "32584bb766b94569a9596b4de17b5375",
-          "Async": true,
-          "ActionId": 3000190
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9101
-          },
-          "ActionGuid": "315ffd9de08b4696a1123d87190d13ae",
-          "Async": true,
-          "ActionId": 3000231
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9108
-          },
-          "ActionGuid": "083dd848a34a4059bc45c8cc6727447c",
-          "Async": true,
-          "ActionId": 3000232
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227700001,
-              227700004,
-              227700005,
-              227700002,
-              227700003,
-              227700006
-            ]
-          },
-          "ActionGuid": "671ecbe03dbc46adb8c477eb04048a1e",
-          "ActionId": 3000217
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227750008,
-              227750009,
-              227750010,
-              227750012,
-              227750013,
-              227750011,
-              227750015
-            ]
-          },
-          "ActionGuid": "bea4369eeb4940d1bddadb58ae01ef23",
-          "ActionId": 3000191
-        },
-        {
-          "Name": "UnlockTeleportTrigger",
-          "Params": {
-            "TeleportId": 9107
-          },
-          "ActionGuid": "8f18dafc568f4123a462075fbeff5216",
-          "ActionId": 3000192
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Show",
-            "MarkId": 9107
-          },
-          "ActionGuid": "a1472ef5492c4991a24d4f8413c6f7ce",
-          "Async": true,
-          "ActionId": 3000193
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              227750014
-            ]
-          },
-          "ActionGuid": "51177f5b06e4440caeb70b9cb669c55f",
-          "ActionId": 3000194
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700040,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "cde32f2f14e24c08b75ad0b0160ee2ac",
-          "ActionId": 3000195
-        }
-      ],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750006_3",
-    "Data": {
-      "Type": "QuestSucceed",
-      "Id": 3,
-      "Desc": "",
-      "FinishActions": [],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750007_1",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 1,
-      "Desc": "",
-      "ParentNodeId": 0
-    }
-  },
-  {
-    "Key": "227750007_2",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 2,
-      "Desc": "",
-      "Condition": {
-        "Type": "CompareVar",
-        "Count": 0,
-        "Conditions": [
-          {
-            "Var1": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 0
-            },
-            "Compare": "Eq",
-            "Var2": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 1
-            }
-          }
-        ]
-      },
-      "TidTip": "Quest_227750007_ChildQuestTip_227_2",
-      "EnterActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700037,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "10b6ab8348d54a1eb6cca4b2f319997c",
-          "ActionId": 3000196
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700038,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "9bdfbb76838e4b638b21ade6126356b4",
-          "ActionId": 3000197
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700039,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "aac2c4c46cf3429e93bcb6a00cf16e9c",
-          "ActionId": 3000198
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700041,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "b3b3fb42a29044a88c2053f1a4d8edd2",
-          "ActionId": 3000199
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700040,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "324400d21d7a41c4908a3219eb232aa3",
-          "ActionId": 3000200
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9101
-          },
-          "ActionGuid": "6854031ecf13439da171340db88289e9",
-          "Async": true,
-          "ActionId": 3000201
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9103
-          },
-          "ActionGuid": "79d1484e9b8c477b957ea9180473d302",
-          "Async": true,
-          "ActionId": 3000202
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9104
-          },
-          "ActionGuid": "45743c4d1c194d429dae30fcc8bd3b65",
-          "Async": true,
-          "ActionId": 3000203
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9105
-          },
-          "ActionGuid": "c604e8eb03ff4b52ac02dd25e85fbf22",
-          "Async": true,
-          "ActionId": 3000204
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9106
-          },
-          "ActionGuid": "4d4ebb28f576492fba67393bf2332a1e",
-          "Async": true,
-          "ActionId": 3000205
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9102
-          },
-          "ActionGuid": "4c74f11d44b94cd2a7bda7dd6d16d87d",
-          "Async": true,
-          "ActionId": 3000233
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Hide",
-            "MarkId": 9107
-          },
-          "ActionGuid": "67076cf5c6ed43ffbf871e5f56c5cf99",
-          "Async": true,
-          "ActionId": 3000234
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227700001,
-              227700004,
-              227700005,
-              227700002,
-              227700003,
-              227700006
-            ]
-          },
-          "ActionGuid": "23865eabe68f4a728bcbca27f1ea6aa9",
-          "ActionId": 3000218
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              227750008,
-              227750009,
-              227750010,
-              227750011,
-              227750012,
-              227750013,
-              227750014
-            ]
-          },
-          "ActionGuid": "371994b38f6341679c2da8b1210b1917",
-          "ActionId": 3000206
-        },
-        {
-          "Name": "UnlockTeleportTrigger",
-          "Params": {
-            "TeleportId": 9108
-          },
-          "ActionGuid": "4b15e2f231f947d9ba4bc1fbb90058f7",
-          "ActionId": 3000207
-        },
-        {
-          "Name": "ToggleMapMarkState",
-          "Params": {
-            "Type": "Show",
-            "MarkId": 9108
-          },
-          "ActionGuid": "dedbab0a4e384bdf84911fe639556fba",
-          "Async": true,
-          "ActionId": 3000208
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              227750015
-            ]
-          },
-          "ActionGuid": "96bdd155e9d846c7aa7406f897a2da3c",
-          "ActionId": 3000209
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 221700042,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "27b7e202b72c4c1b82a67e7ec02996da",
-          "ActionId": 3000210
-        }
-      ],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "227750007_3",
-    "Data": {
-      "Type": "QuestSucceed",
-      "Id": 3,
-      "Desc": "",
-      "FinishActions": [],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "145000005_673",
-    "Data": {
-      "Type": "ParallelSelect",
-      "Id": 673,
-      "Desc": "",
-      "Count": 1,
-      "ParentNodeId": 114
-    }
-  },
-  {
-    "Key": "145000005_675",
-    "Data": {
-      "Type": "Sequence",
-      "Id": 675,
-      "Desc": "",
-      "ParentNodeId": 673
-    }
-  },
-  {
-    "Key": "145000005_674",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 674,
-      "Desc": "到达4米",
-      "Condition": {
-        "Type": "ReachArea",
-        "Pos": {
-          "X": 19.7,
-          "Y": 69734.2,
-          "Z": 53651.7
-        },
-        "Range": 400
-      },
-      "TidTip": "Quest_145000005_ChildQuestTip_145_403",
-      "EnterActions": [],
-      "FinishActions": [],
-      "HideUi": true,
-      "ParentNodeId": 675
-    }
-  },
-  {
-    "Key": "145000005_676",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 676,
-      "Desc": "计时3秒",
-      "Condition": {
-        "Type": "Timer",
-        "Time": 3,
-        "TimerType": "WaitTime"
-      },
-      "TidTip": "Quest_145000005_ChildQuestTip_145_404",
-      "EnterActions": [],
-      "FinishActions": [],
-      "HideUi": true,
-      "ParentNodeId": 675
     }
   }
 ]

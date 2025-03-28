@@ -7219,7 +7219,7 @@
         "角色.d5372d25.f5583ded.105e0d5c"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker==Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\n!HasInt(0,DamageSubType)\nAND\nDamageID!=1607210021\nAND\nDamageID!=1607014002\nAND\nDamageID!=1607014022\nAND\nDamageID!=1607210221\nAND\n!MatchAnyTag(Owner,CheckOwnerTags)",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker==Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\nDamageID!=1607210021\nAND\nDamageID!=1607014002\nAND\nDamageID!=1607014022\nAND\nDamageID!=1607210221\nAND\n!MatchAnyTag(Owner,CheckOwnerTags)",
     "SubSkillAction": [
       1607301114,
       1607301200
@@ -7272,7 +7272,7 @@
         "角色.d5372d25.0a772ca2.d97e3595.23843086"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker!=Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\n!HasInt(0,DamageSubType)",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker!=Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\n!HasInt(0,DamageSubType)\nAND\nDamageType!=5\nAND\nDamageType!=6",
     "SubSkillAction": [
       1607301200
     ],
@@ -8995,7 +8995,7 @@
         "行为状态.逻辑状态.后台"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags) \nAND\nDamageID!=1607301005\nAND\nDamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\n!MatchAnyTag(Attacker,CheckAttackerTags)",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags) \nAND\nDamageID!=1607301005\nAND\nDamageID!=1607301001\nAND\nDamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\n!MatchAnyTag(Attacker,CheckAttackerTags)",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -20401,11 +20401,10 @@
     ],
     "TriggerParams": {
       "CheckOwnerTags": [
-        "角色.d5372d25.d20fd78b.5e729260",
-        "行为状态.位置状态.空中"
+        "角色.d5372d25.d20fd78b.5e729260"
       ]
     },
-    "TriggerFormula": "MatchAllTags(Owner, CheckOwnerTags)",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags)",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "StartSkill",
@@ -20931,7 +20930,7 @@
         "角色.d5372d25.f5583ded.105e0d5c"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)\nAND\nAttacker==Owner\nAND\nBulletID==1607301061",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)\nAND\nBulletID==1607301061",
     "SubSkillAction": [
       1607301116,
       1607301201
@@ -20944,7 +20943,7 @@
   },
   {
     "Id": 1607210205,
-    "SkillDesc": "共鸣6-监听已被催眠的敌人受到常规伤害",
+    "SkillDesc": "共鸣6-监听已被催眠的敌人受到伤害",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
@@ -20963,7 +20962,7 @@
         "角色.d5372d25.f5583ded.105e0d5c"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker==Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\nDamageID!=1607210221\nAND\nDamageID!=1607014022\nAND\n!HasInt(0,DamageSubType)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker==Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
     "SubSkillAction": [
       1607301116,
       1607301200
@@ -21107,7 +21106,7 @@
         "角色.d5372d25.f5583ded.105e0d5c"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)\nAND\nDamageValue>=1\nAND\nAttacker==Owner\nAND\n(DamageID==1607210221\nOR\nDamageID==1607014022)",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)\nAND\nDamageValue>=1\nAND\n(DamageID==1607210221\nOR\nDamageID==1607014022)",
     "SubSkillAction": [
       1607301116,
       1607301201
@@ -21736,7 +21735,7 @@
       "1"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TriggerCount<=6",
+    "TriggerFormula": "TRUE",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -21872,12 +21871,13 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "SkillTrigger",
+    "TriggerType": "DamageTrigger",
     "TriggerPreset": [
+      "2",
       "0"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "SkillType==3",
+    "TriggerFormula": "DamageValue>=1\nAND\nDamageType==2",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -21901,7 +21901,7 @@
       "1"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TriggerCount<=2",
+    "TriggerFormula": "TRUE",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -21926,7 +21926,7 @@
       "1"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TriggerCount<=2",
+    "TriggerFormula": "TRUE",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -21951,7 +21951,7 @@
       "1"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TriggerCount<=2",
+    "TriggerFormula": "TRUE",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -21976,7 +21976,7 @@
       "1"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TriggerCount<=2",
+    "TriggerFormula": "TRUE",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -22001,7 +22001,7 @@
       "1"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TriggerCount<=2",
+    "TriggerFormula": "TRUE",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -22196,7 +22196,7 @@
         "角色.d5372d25.f5583ded.105e0d5c"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)\nAND\nAttacker==Owner\nAND\nBulletID==1607301061",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)\nAND\nBulletID==1607301061",
     "SubSkillAction": [],
     "InstigatorType": "Attacker",
     "SkillAction": "AddBuff",
@@ -22225,7 +22225,7 @@
         "角色.d5372d25.f5583ded.105e0d5c"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)\nAND\nDamageValue>=1\nAND\nAttacker==Owner\nAND\n(DamageID==1607014022\nOR\nDamageID==1607210221)",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)\nAND\nDamageValue>=1\nAND\n(DamageID==1607014022\nOR\nDamageID==1607210221)",
     "SubSkillAction": [],
     "InstigatorType": "Attacker",
     "SkillAction": "AddBuff",
@@ -22251,7 +22251,7 @@
         "角色.d5372d25.0a772ca2.d97e3595.23843086"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker==Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\n!HasInt(0,DamageSubType)",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker==Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6",
     "SubSkillAction": [],
     "InstigatorType": "Attacker",
     "SkillAction": "AddBuff",
@@ -22399,60 +22399,6 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900200000221"
-    ]
-  },
-  {
-    "Id": 9637271501,
-    "SkillDesc": "监听怪物是否对玩家造成伤害",
-    "CDTime": 0,
-    "CdThreshold": -1,
-    "ShareGroupId": 0,
-    "MaxCount": 1,
-    "IsShareAllCdSkill": false,
-    "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": {},
-    "TriggerFormula": "TRUE",
-    "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "637271501"
-    ]
-  },
-  {
-    "Id": 1607210208,
-    "SkillDesc": "共鸣6-监听已被催眠的敌人受到新的催眠伤害",
-    "CDTime": 0,
-    "CdThreshold": -1,
-    "ShareGroupId": 0,
-    "MaxCount": 1,
-    "IsShareAllCdSkill": false,
-    "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": {
-      "CheckVictimTags": [
-        "角色.d5372d25.0a772ca2.d97e3595.23843086"
-      ],
-      "CheckOwnerTags": [
-        "角色.d5372d25.f5583ded.105e0d5c"
-      ]
-    },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker==Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\n(DamageID==1607210221\nOR\nDamageID==1607014022)\nAND\n!HasInt(0,DamageSubType)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
-    "SubSkillAction": [
-      1607301116,
-      1607301201
-    ],
-    "InstigatorType": "Victim",
-    "SkillAction": "AddBullet",
-    "SkillActionParams": [
-      "1607210022"
     ]
   }
 ]
