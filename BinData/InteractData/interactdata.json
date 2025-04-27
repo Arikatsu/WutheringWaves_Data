@@ -60779,20 +60779,6 @@
     "Duration": ""
   },
   {
-    "Guid": "94fe8507bc8a4e1387a467dba1cc2ed3",
-    "Type": {
-      "Type": "Actions",
-      "Actions": []
-    },
-    "Icon": "",
-    "TidContent": "LevelPlay_36700000_InteractContent_36_1",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": ""
-  },
-  {
     "Guid": "0b4baec18b584b329d2386505712cea6",
     "Type": {
       "Type": "Flow",
@@ -60805,6 +60791,20 @@
     },
     "Icon": "",
     "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "94fe8507bc8a4e1387a467dba1cc2ed3",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_36700000_InteractContent_36_1",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
@@ -61037,6 +61037,52 @@
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "2574245bc99140d29562e23684896202",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "PermanentRogueShop",
+            "BoardId": 0
+          },
+          "ActionId": 4000008
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "936ea3b71a404b9c9ce0d89e548b2d7c",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "PermanentRogueShop",
+            "BoardId": 0
+          },
+          "ActionId": 4000016
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "",
     "Range": 0,
     "Duration": ""
   },
@@ -63192,6 +63238,60 @@
     "Duration": ""
   },
   {
+    "Guid": "bc24ff5b32a94df2be2a9d82c0590926",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线副本内",
+        "FlowId": 1,
+        "StateId": 5
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "be4dc59a1e504708998101b8de5b21a1",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线副本内",
+        "FlowId": 1,
+        "StateId": 6
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e3bf37eb647c4cebbce75fdf29bab2da",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线副本内",
+        "FlowId": 1,
+        "StateId": 4
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "fdf309eb70ca43019a9f5140b01a45c8",
     "Type": {
       "Type": "Actions",
@@ -63497,6 +63597,85 @@
     "Duration": ""
   },
   {
+    "Guid": "e27c3b4ae66e4edf9ecc6f57d9c941f4",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_176800006_InteractContent_176_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "f3be1e70b2fa4d4a821f848fd8a46b20",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "NewMoveWithSpline",
+          "Params": {
+            "MoveTarget": {
+              "Type": "Vehicle",
+              "TargetVehicle": {
+                "Type": "Appointed",
+                "VehicleId": 36800006
+              }
+            },
+            "SplineEntityId": 36800007
+          },
+          "ActionGuid": "5c9e814ad41041faaebb7995c945e0fd",
+          "ActionId": 4000003
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_36800005_InteractContent_36_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c0b65974f8a941a9a55a96222389f95e",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              36800060
+            ]
+          },
+          "ActionGuid": "90c89411066e4c92b56bd0186ed54243",
+          "ActionId": 4000005
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              36800060
+            ]
+          },
+          "ActionGuid": "802fbc62800a42e8b724a81d6e6c9aac",
+          "ActionId": 4000006
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_36800006_InteractContent_36_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "0384b66d0f184690b5b19c44dbfde88c",
     "Type": {
       "Type": "Actions",
@@ -63724,6 +63903,75 @@
     "Duration": ""
   },
   {
+    "Guid": "2d2f38b66f4146438f1cff4559af0fe0",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_165000003_InteractContent_165_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "b383cbd070a14997bf897c764f55c935",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线",
+        "FlowId": 6,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c72862617e9e459480f2ce98927480c5",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_刮刮乐",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_176800003_InteractContent_176_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c371884b8e4a4bc096ab3dbfec3eac41",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3肉鸽引导任务",
+        "FlowId": 1,
+        "StateId": 1,
+        "FlowGuid": "d615d27d7cb244c19c1fa84df2c9345d"
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "cd90623bf7314cc0815e39fd53ae0ebf",
     "Type": {
       "Type": "Actions",
@@ -63731,6 +63979,72 @@
     },
     "Icon": "",
     "TidContent": "LevelPlay_109000063_InteractContent_109_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "36a40c5f7d81468493928ae9a38d0702",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 318800370,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "05de5e71319a4b2ca53a9f7df6d49e3b",
+          "ActionId": 4000038
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 0.5
+          },
+          "ActionGuid": "5b2521f1e08949b9a5a15e9d79f4184e",
+          "ActionId": 4000043
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "ca6413fb88b341a7af81973626a05c03",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 318800373,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "b5cae2103a60493882c5c805106b25b4",
+          "ActionId": 4000039
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 0.5
+          },
+          "ActionGuid": "bd8efd24105244628688a0d52c5ce18d",
+          "ActionId": 4000040
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
@@ -64133,6 +64447,43 @@
     "Duration": ""
   },
   {
+    "Guid": "78019f8b5ebc4206bcab6d628ddb1a34",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线",
+        "FlowId": 10,
+        "StateId": 1,
+        "FlowGuid": "afcf8a8ecf8348bb904031455d8f384b"
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_165000003_InteractContent_165_8",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "7c45cc4f5d824e17bdd015cbdad0dc0e",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线",
+        "FlowId": 10,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_165000003_InteractContent_165_7",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "83c8b62b60114d4eb07159b955800db7",
     "Type": {
       "Type": "Actions",
@@ -64317,6 +64668,30 @@
     "Duration": ""
   },
   {
+    "Guid": "db6ba43a6915451397f94143f54e9343",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "CiacconaAvgChapterBoard",
+            "BoardId": 4
+          },
+          "ActionGuid": "4a32a3b8ea2f47988616494a1d9f5403",
+          "ActionId": 4000028
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_165800002_InteractContent_165_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "df865a6831f94bc8adc3452189769362",
     "Type": {
       "Type": "Flow",
@@ -64364,6 +64739,24 @@
     },
     "Icon": "",
     "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e79017ecac4f48b19a2d9cc0682bc860",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线",
+        "FlowId": 10,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_165000003_InteractContent_165_9",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
@@ -64480,6 +64873,106 @@
     "Duration": ""
   },
   {
+    "Guid": "4fabb5e76f8c4cb6ad8fcfded856ca4e",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "57b6b1109b794570b4af520b8892ef8b",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "078d3e8861b64a1f8145f4fd4e7293c5",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮副本",
+        "FlowId": 7,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "3aac1d7e78174da78c80e2e180992807",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮副本",
+        "FlowId": 13,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "8c0617b07fc84522878f7813d213651b",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮副本",
+        "FlowId": 13,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "af3c211d8c524edeba5556b5dbe0de68",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮副本",
+        "FlowId": 14,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "311e00ba2def4f998bc109a4cb4b3f0b",
     "Type": {
       "Type": "Actions",
@@ -64525,6 +65018,539 @@
     },
     "Icon": "",
     "TidContent": "LevelPlay_109750001_InteractContent_146_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "0e4c1b0222654cb596ee05200ab6a6c2",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮副本",
+        "FlowId": 13,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "5f2e7caceba147f98bec5da9a1708b41",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableAll",
+            "DisplayMode": "HideUi"
+          },
+          "ActionGuid": "cefa0d0cdf634bfdb78f1271bffa70b2",
+          "ActionId": 4000395
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 160800914,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "d13a35bd71ba40b99fea3dc7136a4f46",
+          "ActionId": 4000045
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 7
+          },
+          "ActionGuid": "946b63d06d8445f3a1cc5b4b7881da8d",
+          "ActionId": 4000397
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              160800302
+            ]
+          },
+          "ActionGuid": "5413cf96f154413d8b680fea936821ae",
+          "ActionId": 4000817
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 3.5
+          },
+          "ActionGuid": "826a27acdebc47d8b1efc24b97539d88",
+          "ActionId": 4000825
+        },
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "EnableAll"
+          },
+          "ActionGuid": "829ccfd8bfa24c678ed5013114ec18fc",
+          "ActionId": 4000826
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "5e88e78451d74300b3a81960561c58ec",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转_zmj",
+        "FlowId": 2,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e1277e5ad7ac4f6b80d116616ba85fd2",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "fc80d0129b0645419b071afb800125a5",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "b76c3611c059449094140424eb7bf948",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "InformationView",
+            "BoardId": 160000001
+          },
+          "ActionId": 4000008
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "0827e50e58ee44b587b863a7d3ff6ca9",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 15,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "0ff717aeda9545608ab52d249ed35c3d",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_176800001_InteractContent_314_6",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "0cfb9887e9cf448e84582a0d8df01294",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 6,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "1306e8a0b18442a58a591903622994e5",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 13,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "168d5acabd6940f1ab6552bde192b2c2",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 9,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "1d2b0dfb15834ae583783654f08c1ccb",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 12,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "282769ac7eea4573bb5156b0b7d88f2d",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 15,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "30f2066b674244cf992683969fb47a53",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 7,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "391e8fddd6f349eb9d9b861b81330aa9",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 10,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "4d689013478749bf86a861741a9cf63c",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 5,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "4f5638fd8bb8424a990f441edc92e7fb",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 14,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "75b0e2095e1b4515b09718de69e46111",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 5,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "794ea19d9cce41dda844b420f0a352f9",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 7,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "7cb5300bf3a54d1aa0e41d733c153da3",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 14,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "8412dbd287b544d4909908860e86cac9",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 13,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "856c85a8b29142a79f5f9e28044c5d75",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 2,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "99452f33ac844f638a312aecf9d5b6a5",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 9,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "a046076a5fe146409f41c40e26224026",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 2,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "a50de33b055945e6bcf3a10efd539160",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 12,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "be35f61e92f94734a7a4839a69620284",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 10,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e34052c371f54de696b6559535c31b11",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 6,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
@@ -64585,10 +65611,890 @@
     "Duration": ""
   },
   {
+    "Guid": "816ce93552a047f784be04a0befb352a",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "InformationView",
+            "BoardId": 120101046
+          },
+          "ActionGuid": "8b6eafdea8204cceb01c990e7ecf5994",
+          "ActionId": 4000029
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_165800001_InteractContent_165_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "9cbb917316f34cec817648c8c297e467",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "InformationView",
+            "BoardId": 120101044
+          },
+          "ActionGuid": "3f05fdf1679149f9ba443ebc1a1f3a3e",
+          "ActionId": 4000017
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_165800001_InteractContent_165_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "fc23b36e4cb54e2f8dc9a4d5ff156a2d",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "InformationView",
+            "BoardId": 120101045
+          },
+          "ActionGuid": "e239437b98864029a0db4c8da34d4975",
+          "ActionId": 4000019
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_165800001_InteractContent_165_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "3c8e92af97044d0ab64fa1d517c74fe7",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线",
+        "FlowId": 21,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "0cdac5f93b9547e08d5df395b53982a5",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 4,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "5f9450b8098344a481497a9ec7b6db10",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团子记忆手册1",
+        "FlowId": 4,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "9c84dc3acfbe4063b6715f05f06ea1ee",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_176800003_InteractContent_176_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "b160200a720a4a9b96169548d6acc33e",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_176800004_InteractContent_176_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "8a737a00e2de4843a401694b90b57fa6",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "871265f84fab4027aff488b0f3cb77d2",
     "Type": {
       "Type": "Actions",
       "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "592b92d602cc406ca8dcae5ec85e2fb1",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_176800010_InteractContent_176_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "1d81751d43604e2681fd0fd2b3131a97",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线",
+        "FlowId": 21,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "15aaf1668d274b05a949972bbd194926",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 0.5
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "b19a532f32e54a2eb8eecf5898b191e7",
+          "ActionId": 3000047
+        },
+        {
+          "Name": "SetTime",
+          "Params": {
+            "Hour": 14,
+            "Min": 0,
+            "ShowUi": false
+          },
+          "ActionGuid": "fc274f97233547f8a44de7f5a345bb46",
+          "ActionId": 3000048
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "Quest_158800014_InteractContent_158_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "4822185e14944d248ab474202c4fe59a",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮线",
+        "FlowId": 23,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "5ade663f31204620985c5852a3ec79e0",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮线",
+        "FlowId": 26,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "972f790ae076406f962a07508c817e0d",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮线",
+        "FlowId": 18,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "a170927fa5454da6beb9eb873a021461",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "LeisureInteract",
+          "Params": {
+            "Option": {
+              "Type": "SitDown"
+            },
+            "SceneEntity": 158800227
+          },
+          "ActionGuid": "81c40f4cc7c0484693891911cf43e7d2",
+          "ActionId": 3000031
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_2_3_角色_赞妮线",
+            "FlowId": 45,
+            "StateId": 1
+          },
+          "ActionGuid": "23c5a28840e34b98a5afa66f70c83bea",
+          "ActionId": 3000032
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "Quest_158800014_InteractContent_158_6",
+    "Condition": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "CompareEntityState",
+          "EntityId": 158800227,
+          "Compare": "Eq",
+          "State": "关卡.Common.状态.常态"
+        },
+        {
+          "Type": "CheckPlayerStateRestriction",
+          "RestrictionId": 2
+        }
+      ]
+    },
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "aad615b45f09446e8dc2f0db34a2cb69",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮线",
+        "FlowId": 17,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_158800014_InteractContent_158_7",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "ab752912ff2a4fc58ca4b4fd10924bc0",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮线",
+        "FlowId": 24,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "b716023111524e9eaa29821ad5a5e7d7",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_158800014_InteractContent_158_9",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "de624bfe0e634f9a991a984baa96f7d2",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮线",
+        "FlowId": 49,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "f7cfeb3c3f6040b884d2dd9875f4efe0",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮线",
+        "FlowId": 25,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_158800014_InteractContent_158_10",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "540d4de7840840dbba48dda618717e40",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_3_角色_赞妮线",
+        "FlowId": 25,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_158800014_InteractContent_158_11",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "83491b1256a64fac9e278a41129b0b6d",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "5942ef70c4e94f20892d4a17c15a0a92",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转",
+        "FlowId": 3,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_221800001_InteractContent_221_4",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "6589b809b88e48ee8d0e0f054475167f",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转",
+        "FlowId": 3,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_221800001_InteractContent_221_5",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "9494543ed8a94d039f1eb50841a1deca",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转",
+        "FlowId": 3,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_221800001_InteractContent_221_6",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "ac4fc9bb4b8349359f9c3cbab859a072",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转",
+        "FlowId": 2,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_221800001_InteractContent_221_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "d3f90333b98e41328904be2699451353",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转",
+        "FlowId": 2,
+        "StateId": 6
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_221800001_InteractContent_221_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "fae5df693fe14fd3bb63e94673dfdca9",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转",
+        "FlowId": 3,
+        "StateId": 5
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_221800001_InteractContent_221_10",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e4c4de9a5f004ed797524c85e1ef0ee7",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "SetVar",
+          "Params": {
+            "VarLeft": {
+              "Type": "Boolean",
+              "Source": "Other",
+              "RefType": "Entity",
+              "RefId": 158800245,
+              "Name": "乘坐贡多拉调整时间"
+            },
+            "VarRight": {
+              "Type": "Boolean",
+              "Source": "Constant",
+              "Value": true
+            }
+          },
+          "ActionGuid": "cd30d8585e084edd8fc2dbbd2e24441a",
+          "ActionId": 3000007
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "Quest_158800014_InteractContent_158_8",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "45ea234c38f74dd4b91b29a588929b1c",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转_zmj",
+        "FlowId": 1,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_229800024_InteractContent_229_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "8f75d5a711584c2abbc821c723b2a5c2",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转_zmj",
+        "FlowId": 1,
+        "StateId": 4
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_229800026_InteractContent_229_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e379934365f54d80bbbaaa0d5f7f02e4",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转_zmj",
+        "FlowId": 1,
+        "StateId": 5
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_229800027_InteractContent_229_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "f7c01be1df924dd4afd6d370daf40930",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转_zmj",
+        "FlowId": 1,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_229800025_InteractContent_229_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "58a76bc63d4f47ef99e45ac1cb8f410e",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "a2eba8d31eef4bea88584440a161b03a",
+          "ActionId": 4000379
+        },
+        {
+          "Name": "RemoveBuffFromPlayer",
+          "Params": {
+            "BuffIds": [
+              621600003,
+              621600004,
+              621600005
+            ]
+          },
+          "ActionGuid": "5be072df04fd4844ad30a986ae2b3c64",
+          "ActionId": 4000837
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_160000000_InteractContent_160_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "347e2ec455874c4296e8815a57695e61",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_165000003_InteractContent_165_10",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "7430eb5875c5473ab24d9c9f05ae2c46",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线",
+        "FlowId": 4,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_165000003_InteractContent_165_15",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "bae50e79f47d499ca3c831e38f404a51",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线",
+        "FlowId": 2,
+        "StateId": 5
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_165000003_InteractContent_165_17",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "be9fee2787b04dc4b80f54429b5082bf",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_V2.3_夏空线",
+        "FlowId": 6,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_165000003_InteractContent_165_16",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "4f007d674db048dab0ec3e8a00185c55",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转_hpw",
+        "FlowId": 1,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_221800026_InteractContent_221_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "21e98f72283648d0b299a8bee1ccc633",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_229800036_InteractContent_229_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "bd2716fbc5f54cf38b279ab4f27d2f6e",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_229800023_InteractContent_229_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "1532cdc0ef9c4bfb85547ddb4c111137",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转_lanqi",
+        "FlowId": 2,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_318800001_InteractContent_318_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "d825f441deb3427c9121f077f789f454",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_团团团团转_lanqi",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_318800000_InteractContent_318_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "7b74beac2f344010b2776e5ac82c47d9",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_角色生态_赞妮_新",
+        "FlowId": 1,
+        "StateId": 1
+      }
     },
     "Icon": "",
     "TidContent": "",

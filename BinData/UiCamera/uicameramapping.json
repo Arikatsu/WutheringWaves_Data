@@ -1556,7 +1556,7 @@
     "UiCameraBlendNameMap": [
       {
         "Key": "RoleRootView",
-        "Value": "1001"
+        "Value": "10010"
       },
       {
         "Key": "RoleSkinTabView",
@@ -1565,6 +1565,10 @@
       {
         "Key": "WeaponSkinTabView",
         "Value": "1001"
+      },
+      {
+        "Key": "RoleAttributeTabView",
+        "Value": "10010"
       }
     ],
     "UiCameraDelayTime": 0
@@ -1859,6 +1863,431 @@
     "Id": 1084,
     "ViewName": "BabelTowerSettlementView",
     "DefaultUiCameraSettingsName": "1041_New",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1085,
+    "ViewName": "DangoAbyssRootView",
+    "DefaultUiCameraSettingsName": "DangoAbyssRoot",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1086,
+    "ViewName": "Camera_DangoPreview_6Player",
+    "DefaultUiCameraSettingsName": "Camera_DangoPreview_6Player",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1087,
+    "ViewName": "Camera_DangoFocus_1",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocus_1",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1088,
+    "ViewName": "Camera_DangoFocus_2",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocus_2",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1089,
+    "ViewName": "Camera_DangoFocus_3",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocus_3",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1090,
+    "ViewName": "Camera_DangoFocus_4",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocus_4",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1091,
+    "ViewName": "Camera_DangoFocus_5",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocus_5",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1092,
+    "ViewName": "Camera_DangoFocus_6",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocus_6",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1093,
+    "ViewName": "Camera_DangoPreview_4Player",
+    "DefaultUiCameraSettingsName": "Camera_DangoPreview_4Player",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1094,
+    "ViewName": "Camera_DangoFocus_RaceEnd",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocus_RaceEnd",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1095,
+    "ViewName": "Camera_DangoFocus_RaceEnd_FinalChampion",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocus_RaceEnd_FinalChampion",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1096,
+    "ViewName": "Camera_DangoPreview_Start",
+    "DefaultUiCameraSettingsName": "Camera_DangoPreview_Start",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1097,
+    "ViewName": "DangoAbyssLoop",
+    "DefaultUiCameraSettingsName": "DangoAbyssLoop",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1098,
+    "ViewName": "DangoAbyssLoop2",
+    "DefaultUiCameraSettingsName": "DangoAbyssLoop2",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1099,
+    "ViewName": "DangoAbyssStart",
+    "DefaultUiCameraSettingsName": "DangoAbyssStart",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1100,
+    "ViewName": "DangoAbyssShop",
+    "DefaultUiCameraSettingsName": "DangoAbyssShop",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1101,
+    "ViewName": "DangoMonopolyBuffActiveView",
+    "DefaultUiCameraSettingsName": "Camera_DangoMonopolyMeet",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1102,
+    "ViewName": "DangoMonopolyResultView",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocus_RaceEnd2",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1103,
+    "ViewName": "DangoGet",
+    "DefaultUiCameraSettingsName": "DangoAbyssGet",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1104,
+    "ViewName": "RacingBetsGamePlayView",
+    "DefaultUiCameraSettingsName": "Camera_Dango_GameBegin",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1105,
+    "ViewName": "RacingBetsGamePlayPreviewView",
+    "DefaultUiCameraSettingsName": "Camera_Dango_RacingBetsGamePlayPreviewView",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1106,
+    "ViewName": "RogueBattleMapSummaryView",
+    "DefaultUiCameraSettingsName": "10900",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 3,
+    "BodyCameraSettingsNameMap": [
+      {
+        "Key": "FemaleM",
+        "Value": "1090_M"
+      },
+      {
+        "Key": "MaleM",
+        "Value": "1090_M"
+      },
+      {
+        "Key": "FemaleMS",
+        "Value": "1090_MSS"
+      },
+      {
+        "Key": "FemaleS",
+        "Value": "1090_S"
+      },
+      {
+        "Key": "MaleS",
+        "Value": "1090_MS"
+      },
+      {
+        "Key": "FemaleXL",
+        "Value": "1090_M"
+      },
+      {
+        "Key": "MaleXL",
+        "Value": "1090_XL"
+      }
+    ],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1107,
+    "ViewName": "RogueBattleSummary",
+    "DefaultUiCameraSettingsName": "10900",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 3,
+    "BodyCameraSettingsNameMap": [
+      {
+        "Key": "FemaleM",
+        "Value": "1090_M"
+      },
+      {
+        "Key": "MaleM",
+        "Value": "1090_M"
+      },
+      {
+        "Key": "FemaleMS",
+        "Value": "1090_MSS"
+      },
+      {
+        "Key": "FemaleS",
+        "Value": "1090_S"
+      },
+      {
+        "Key": "MaleS",
+        "Value": "1090_MS"
+      },
+      {
+        "Key": "FemaleXL",
+        "Value": "1090_M"
+      },
+      {
+        "Key": "MaleXL",
+        "Value": "1090_XL"
+      }
+    ],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1108,
+    "ViewName": "DangoMonopolyRollDiceView",
+    "DefaultUiCameraSettingsName": "Camera_DangoFocusTouzi",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": [],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1109,
+    "ViewName": "BirthdayLetterView",
+    "DefaultUiCameraSettingsName": "1098",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "bPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 4,
+    "BodyCameraSettingsNameMap": [
+      {
+        "Key": "FemaleM",
+        "Value": "1098"
+      },
+      {
+        "Key": "MaleM",
+        "Value": "1106"
+      },
+      {
+        "Key": "FemaleMS",
+        "Value": "1100"
+      },
+      {
+        "Key": "FemaleS",
+        "Value": "1102"
+      },
+      {
+        "Key": "MaleS",
+        "Value": "1108"
+      },
+      {
+        "Key": "FemaleXL",
+        "Value": "1104"
+      },
+      {
+        "Key": "MaleXL",
+        "Value": "1110"
+      }
+    ],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1111,
+    "ViewName": "DangoAbyssAttributeDetailView",
+    "DefaultUiCameraSettingsName": "DangoAbyssRoot",
     "IsCheckSpecialState": false,
     "SpecialStateCameraSettingName": "1002",
     "bPlayLoadingCameraAnimation": true,

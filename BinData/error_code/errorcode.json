@@ -3500,8 +3500,8 @@
   {
     "Id": 700002,
     "DebugText": "掉落物不存在",
-    "Text": "ErrorCode_700002_Text",
-    "IsTip": false
+    "Text": "ErrorCode_ErrDropEntityNotExist",
+    "IsTip": true
   },
   {
     "Id": 700003,
@@ -16242,6 +16242,30 @@
     "IsTip": false
   },
   {
+    "Id": 2500119,
+    "DebugText": "功能未开启",
+    "Text": "ErrorCode_2500071_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500120,
+    "DebugText": "声骸已升级",
+    "Text": "ErrorCode_2500072_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500121,
+    "DebugText": "品质未达到要求",
+    "Text": "ErrorCode_2500073_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500122,
+    "DebugText": "目标属性与当前属性一致",
+    "Text": "ErrorCode_2500074_Text",
+    "IsTip": true
+  },
+  {
     "Id": 1900164,
     "DebugText": "无法通过周期找到爬塔配置",
     "Text": "ErrorCode_1900161_Text",
@@ -16530,16 +16554,16 @@
     "IsTip": false
   },
   {
-    "Id": 200553,
-    "DebugText": "前置关卡未通关",
-    "Text": "ErrorCode_ErrTowerDefencePreInstNotPass",
-    "IsTip": true
-  },
-  {
     "Id": 1900175,
     "DebugText": "找不到活动数据",
     "Text": "ErrorCode_1900169_Text",
     "IsTip": false
+  },
+  {
+    "Id": 200553,
+    "DebugText": "前置关卡未通关",
+    "Text": "ErrorCode_ErrTowerDefencePreInstNotPass",
+    "IsTip": true
   },
   {
     "Id": 200554,
@@ -16578,6 +16602,48 @@
     "IsTip": false
   },
   {
+    "Id": 2700002,
+    "DebugText": "活动id错误",
+    "Text": "ErrorCode_2600001_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700003,
+    "DebugText": "活动数据错误",
+    "Text": "ErrorCode_2600002_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700004,
+    "DebugText": "活动任务数据配置错误",
+    "Text": "ErrorCode_2600003_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700005,
+    "DebugText": "请求任务id错误",
+    "Text": "ErrorCode_2600004_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700006,
+    "DebugText": "请求任务奖励已领取",
+    "Text": "ErrorCode_2600005_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700007,
+    "DebugText": "请求任务未完成",
+    "Text": "ErrorCode_2600006_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700008,
+    "DebugText": "请求任务奖励领取失败",
+    "Text": "ErrorCode_2600007_Text",
+    "IsTip": false
+  },
+  {
     "Id": 500064,
     "DebugText": "当前正处于禁止切换主角性别的任务中",
     "Text": "ErrorCode_500064_Text",
@@ -16594,6 +16660,114 @@
     "DebugText": "关卡组数据配置找不到",
     "Text": "ErrorCode_ErrTowerDefenceGroupActivity",
     "IsTip": true
+  },
+  {
+    "Id": 200557,
+    "DebugText": "找不到深渊场景数据",
+    "Text": "ErrorCode_ErrAbyssComNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 200558,
+    "DebugText": "找不到场景配置数据",
+    "Text": "ErrorCode_ErrAbyssInstConfig",
+    "IsTip": false
+  },
+  {
+    "Id": 200559,
+    "DebugText": "找不到房间配置数据",
+    "Text": "ErrorCode_ErrAbyssRoomConfig",
+    "IsTip": false
+  },
+  {
+    "Id": 200560,
+    "DebugText": "进入场景失败，缺少上下文",
+    "Text": "ErrorCode_ErrAbyssEnterCtx",
+    "IsTip": false
+  },
+  {
+    "Id": 200561,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_ErrAbyssActivityNotOpen",
+    "IsTip": false
+  },
+  {
+    "Id": 200562,
+    "DebugText": "奖励配置找不到",
+    "Text": "ErrorCode_ErrAbyssRewardConfig",
+    "IsTip": false
+  },
+  {
+    "Id": 200563,
+    "DebugText": "未到领奖时间",
+    "Text": "ErrorCode_ErrAbyssRewardNotOpen",
+    "IsTip": false
+  },
+  {
+    "Id": 200564,
+    "DebugText": "未到领奖时间",
+    "Text": "ErrorCode_ErrAbyssRewardClosed",
+    "IsTip": false
+  },
+  {
+    "Id": 200565,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_ErrAbyssRewarded",
+    "IsTip": true
+  },
+  {
+    "Id": 200566,
+    "DebugText": "未达到领奖条件",
+    "Text": "ErrorCode_ErrAbyssRewardCondition",
+    "IsTip": false
+  },
+  {
+    "Id": 2700009,
+    "DebugText": "小团快跑配置不存在",
+    "Text": "ErrorCode_2600008_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700010,
+    "DebugText": "请求参数错误，半场赛id不存在",
+    "Text": "ErrorCode_2600009_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700011,
+    "DebugText": "应援时间错误",
+    "Text": "ErrorCode_2600010_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700012,
+    "DebugText": "黑马值版本获取失败",
+    "Text": "ErrorCode_2600011_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700013,
+    "DebugText": "黑马值版本号获取失败",
+    "Text": "ErrorCode_2600012_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700014,
+    "DebugText": "黑马值配置错误",
+    "Text": "ErrorCode_2600013_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700015,
+    "DebugText": "没有当前团子黑马值",
+    "Text": "ErrorCode_2600014_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700016,
+    "DebugText": "没有当前团子黑马值配置",
+    "Text": "ErrorCode_2600015_Text",
+    "IsTip": false
   },
   {
     "Id": 1800060,
@@ -16644,10 +16818,34 @@
     "IsTip": false
   },
   {
+    "Id": 2700017,
+    "DebugText": "应援时间错误",
+    "Text": "ErrorCode_2600016_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2500128,
     "DebugText": "当前关卡不是高难关卡",
     "Text": "ErrorCode_2500102_Text",
     "IsTip": true
+  },
+  {
+    "Id": 2000045,
+    "DebugText": "载具实体类型出错",
+    "Text": "ErrorCode_2000045_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200567,
+    "DebugText": "上个行为未完成",
+    "Text": "ErrorCode_ErrAbyssLastActionNotFinish",
+    "IsTip": false
+  },
+  {
+    "Id": 200568,
+    "DebugText": "没有找到下一个房间",
+    "Text": "ErrorCode_ErrAbyssNextRoomNotFound",
+    "IsTip": false
   },
   {
     "Id": 2000046,
@@ -16674,9 +16872,81 @@
     "IsTip": false
   },
   {
+    "Id": 1800061,
+    "DebugText": "玩家所在节点已不提供联机服务",
+    "Text": "ErrorCode_1800061_Text",
+    "IsTip": true
+  },
+  {
     "Id": 1100299,
     "DebugText": "资源版本号过低，请重启更新游戏(飘字提示不弹窗)",
     "Text": "ConfirmBox_161_ButtonText_0",
+    "IsTip": true
+  },
+  {
+    "Id": 2700018,
+    "DebugText": "应援重试",
+    "Text": "ErrorCode_2600017_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700019,
+    "DebugText": "扣除人气值失败",
+    "Text": "ErrorCode_2600018_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700020,
+    "DebugText": "应援次数超限",
+    "Text": "ErrorCode_2600019_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700021,
+    "DebugText": "应援记录不存在",
+    "Text": "ErrorCode_2600020_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700022,
+    "DebugText": "取消应援参数错误",
+    "Text": "ErrorCode_2600021_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700023,
+    "DebugText": "取消应援失败",
+    "Text": "ErrorCode_2600022_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700024,
+    "DebugText": "应援前需要先取消当前半场赛的应援记录",
+    "Text": "ErrorCode_2600023_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700025,
+    "DebugText": "活动配置不存在",
+    "Text": "ErrorCode_2600024_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700026,
+    "DebugText": "人气值不足",
+    "Text": "ErrorCode_2600025_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700027,
+    "DebugText": "应援黑马值错误",
+    "Text": "ErrorCode_2600026_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1800062,
+    "DebugText": "对方所在节点已不提供联机服务",
+    "Text": "ErrorCode_1800062_Text",
     "IsTip": true
   },
   {
@@ -16692,10 +16962,118 @@
     "IsTip": true
   },
   {
+    "Id": 2700028,
+    "DebugText": "小组赛不存在",
+    "Text": "ErrorCode_2600027_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700029,
+    "DebugText": "小组赛配置不存在",
+    "Text": "ErrorCode_2600028_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700030,
+    "DebugText": "小组赛配置错误",
+    "Text": "ErrorCode_2600029_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700031,
+    "DebugText": "不在小团快跑副本中",
+    "Text": "ErrorCode_2600030_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2000050,
+    "DebugText": "样条配置错误",
+    "Text": "ErrorCode_2000050_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000051,
+    "DebugText": "样条错误",
+    "Text": "ErrorCode_2000051_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000052,
+    "DebugText": "当前没有正在移动的样条",
+    "Text": "ErrorCode_2000052_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900180,
+    "DebugText": "还未获得此皮肤",
+    "Text": "ErrorCode_1900177_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900181,
+    "DebugText": "皮肤已装配",
+    "Text": "ErrorCode_1900178_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900182,
+    "DebugText": "找不到旧皮肤数据",
+    "Text": "ErrorCode_1900179_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900183,
+    "DebugText": "旧皮肤未处于装备中",
+    "Text": "ErrorCode_1900180_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900184,
+    "DebugText": "卸载的皮肤未处于装备中",
+    "Text": "ErrorCode_1900181_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900185,
+    "DebugText": "滑翔伞功能未开启",
+    "Text": "ErrorCode_1900182_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900186,
+    "DebugText": "翱翔功能未开启",
+    "Text": "ErrorCode_1900183_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900187,
+    "DebugText": "所有角色皮肤装备失败",
+    "Text": "FlySkinReplaceTip",
+    "IsTip": true
+  },
+  {
+    "Id": 1900188,
+    "DebugText": "找不到道具配置",
+    "Text": "ErrorCode_1900185_Text",
+    "IsTip": false
+  },
+  {
     "Id": 1500154,
     "DebugText": "出战角色重复",
     "Text": "ErrorCode_2200016_Text",
     "IsTip": false
+  },
+  {
+    "Id": 2000053,
+    "DebugText": "实体不能移动样条",
+    "Text": "ErrorCode_2000053_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000054,
+    "DebugText": "移动样条的实体主控错误",
+    "Text": "ErrorCode_2000054_Text",
+    "IsTip": true
   },
   {
     "Id": 1600030,
@@ -16710,9 +17088,213 @@
     "IsTip": false
   },
   {
+    "Id": 1100300,
+    "DebugText": "常驻肉鸽副本id不匹配",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100301,
+    "DebugText": "常驻肉鸽副本地块矩阵配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100302,
+    "DebugText": "常驻肉鸽boss副本流程中",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100303,
+    "DebugText": "常驻肉鸽当前地块为空",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100304,
+    "DebugText": "常驻肉鸽移动路径错误",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100305,
+    "DebugText": "常驻肉鸽移动路径重复",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100306,
+    "DebugText": "常驻肉鸽移动路径不相邻",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100307,
+    "DebugText": "常驻肉鸽移动路径格子无效",
+    "Text": "ErrorCode_1100307_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100308,
+    "DebugText": "常驻肉鸽移动路径格子无视野",
+    "Text": "ErrorCode_1100308_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100309,
+    "DebugText": "常驻肉鸽移动路径格子阻挡",
+    "Text": "ErrorCode_1100309_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100310,
+    "DebugText": "常驻肉鸽玩家当前不可移动",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100311,
+    "DebugText": "常驻肉鸽已有指令, 无法移动",
+    "Text": "ErrorCode_1100311_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100312,
+    "DebugText": "常驻肉鸽轮替试用角色找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100313,
+    "DebugText": "常驻肉鸽试用角色无效",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100314,
+    "DebugText": "常驻肉鸽赛季配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100315,
+    "DebugText": "常驻肉鸽boss副本数据为空",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100316,
+    "DebugText": "常驻肉鸽指令为空",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100317,
+    "DebugText": "常驻肉鸽指令id不匹配",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100318,
+    "DebugText": "常驻肉鸽图鉴配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100319,
+    "DebugText": "常驻肉鸽图鉴领取状态错误",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100320,
+    "DebugText": "常驻肉鸽结局奖励配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100321,
+    "DebugText": "常驻肉鸽结局奖励已领取",
+    "Text": "ErrorCode_1100321_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100322,
+    "DebugText": "常驻肉鸽结局奖励未完成",
+    "Text": "ErrorCode_1100322_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100323,
+    "DebugText": "常驻肉鸽天赋配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100324,
+    "DebugText": "常驻肉鸽任务配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100325,
+    "DebugText": "常驻肉鸽任务数据找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100326,
+    "DebugText": "常驻肉鸽任务奖励已领取",
+    "Text": "ErrorCode_1100326_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100327,
+    "DebugText": "常驻肉鸽任务奖励未完成",
+    "Text": "ErrorCode_1100327_Text",
+    "IsTip": false
+  },
+  {
     "Id": 1600032,
     "DebugText": "编队buff",
     "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700032,
+    "DebugText": "应援人气值不足",
+    "Text": "ErrorCode_2600031_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700033,
+    "DebugText": "应援人气值计算失败",
+    "Text": "ErrorCode_2600032_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700034,
+    "DebugText": "半场赛未开启",
+    "Text": "ErrorCode_2600033_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700035,
+    "DebugText": "团子行为类型异常",
+    "Text": "ErrorCode_2600034_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700036,
+    "DebugText": "比赛信息请求参数错误",
+    "Text": "ErrorCode_2600035_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700037,
+    "DebugText": "副本类型错误错误",
+    "Text": "ErrorCode_2600036_Text",
     "IsTip": false
   },
   {
@@ -16752,6 +17334,18 @@
     "IsTip": true
   },
   {
+    "Id": 1900190,
+    "DebugText": "皮肤类型不支持",
+    "Text": "ErrorCode_1900187_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900191,
+    "DebugText": "试用角色不支持皮肤",
+    "Text": "ErrorCode_1900188_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2200094,
     "DebugText": "设置安全点行为，位置实体不存在",
     "Text": "ErrorCode_2200055_Text",
@@ -16776,10 +17370,556 @@
     "IsTip": false
   },
   {
+    "Id": 2700038,
+    "DebugText": "实体获取失败",
+    "Text": "ErrorCode_2600037_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700039,
+    "DebugText": "半场赛id错误",
+    "Text": "ErrorCode_2600038_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700040,
+    "DebugText": "弹幕配置不存在",
+    "Text": "ErrorCode_2600039_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700041,
+    "DebugText": "弹幕配置不属于当期活动",
+    "Text": "ErrorCode_2600040_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700042,
+    "DebugText": "弹幕ActionIndex找不到",
+    "Text": "ErrorCode_2600041_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700043,
+    "DebugText": "弹幕所属半场赛不存在",
+    "Text": "ErrorCode_2600042_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2600025,
+    "DebugText": "副本不支持重进",
+    "Text": "副本不支持重进",
+    "IsTip": false
+  },
+  {
+    "Id": 2600026,
+    "DebugText": "章节不存在",
+    "Text": "章节不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2600027,
+    "DebugText": "章节结果已完成",
+    "Text": "章节结果已完成",
+    "IsTip": false
+  },
+  {
+    "Id": 2600028,
+    "DebugText": "章节结果未完成",
+    "Text": "章节结果未完成",
+    "IsTip": false
+  },
+  {
+    "Id": 2600029,
+    "DebugText": "章节结果奖励条件未满足",
+    "Text": "章节结果奖励条件未满足",
+    "IsTip": false
+  },
+  {
+    "Id": 2600030,
+    "DebugText": "选项已解锁",
+    "Text": "选项已解锁",
+    "IsTip": false
+  },
+  {
+    "Id": 2600031,
+    "DebugText": "选项未解锁",
+    "Text": "选项未解锁",
+    "IsTip": false
+  },
+  {
+    "Id": 2600032,
+    "DebugText": "章节结果不存在",
+    "Text": "章节结果不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2600033,
+    "DebugText": "章节结果奖励已领取",
+    "Text": "章节结果奖励已领取",
+    "IsTip": false
+  },
+  {
+    "Id": 2600034,
+    "DebugText": "选项不存在",
+    "Text": "选项不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2600035,
+    "DebugText": "灵感值不足",
+    "Text": "灵感值不足",
+    "IsTip": false
+  },
+  {
+    "Id": 2600036,
+    "DebugText": "活动结局奖励未解锁",
+    "Text": "结局奖励未解锁",
+    "IsTip": false
+  },
+  {
+    "Id": 2600037,
+    "DebugText": "活动结局不存在",
+    "Text": "活动结局不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2600038,
+    "DebugText": "进度奖励不存在",
+    "Text": "进度奖励不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2600039,
+    "DebugText": "进度奖励已领取",
+    "Text": "进度奖励已领取",
+    "IsTip": false
+  },
+  {
+    "Id": 2600040,
+    "DebugText": "进度奖励未达到领取条件",
+    "Text": "进度奖励未达到领取条件",
+    "IsTip": false
+  },
+  {
+    "Id": 2600041,
+    "DebugText": "活动结局奖励已领取",
+    "Text": "活动结局奖励已领取",
+    "IsTip": false
+  },
+  {
+    "Id": 200569,
+    "DebugText": "没有装备团子",
+    "Text": "ErrorCode_ErrAbyssRoleNotEquip",
+    "IsTip": true
+  },
+  {
+    "Id": 200570,
+    "DebugText": "装备团子的角色不存在",
+    "Text": "ErrorCode_ErrAbyssEquipRoleNotExist",
+    "IsTip": true
+  },
+  {
+    "Id": 200571,
+    "DebugText": "装备团子重复",
+    "Text": "ErrorCode_ErrAbyssEquipRoleDuplicate",
+    "IsTip": true
+  },
+  {
+    "Id": 200572,
+    "DebugText": "房间宝箱没有配置",
+    "Text": "ErrorCode_ErrAbyssRoomNoBox",
+    "IsTip": false
+  },
+  {
+    "Id": 200573,
+    "DebugText": "执行行为角色数量异常",
+    "Text": "ErrorCode_ErrAbyssRewardPlayerCount",
+    "IsTip": false
+  },
+  {
+    "Id": 200574,
+    "DebugText": "宝箱实体不存在",
+    "Text": "ErrorCode_ErrAbyssRewardBoxEntityIncId",
+    "IsTip": false
+  },
+  {
+    "Id": 200575,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_ErrAbyssBoxRewarded",
+    "IsTip": false
+  },
+  {
+    "Id": 200576,
+    "DebugText": "宝箱实体不存在",
+    "Text": "ErrorCode_ErrAbyssBoxNotBelong",
+    "IsTip": false
+  },
+  {
+    "Id": 200577,
+    "DebugText": "宝箱实体奖励配置不存在",
+    "Text": "ErrorCode_ErrAbyssBoxConfigNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 200578,
+    "DebugText": "宝箱奖励掉落失败",
+    "Text": "ErrorCode_ErrAbyssBoxDropFailed",
+    "IsTip": false
+  },
+  {
+    "Id": 200579,
+    "DebugText": "挑战未解锁",
+    "Text": "ErrorCode_ErrAbyssChallengeLocked",
+    "IsTip": false
+  },
+  {
+    "Id": 200580,
+    "DebugText": "挑战不需要消耗解锁",
+    "Text": "ErrorCode_ErrAbyssChallengeNoConsume",
+    "IsTip": false
+  },
+  {
+    "Id": 200581,
+    "DebugText": "道具数量不足",
+    "Text": "ErrorCode_ErrAbyssChallengeUnlockItem",
+    "IsTip": false
+  },
+  {
+    "Id": 200582,
+    "DebugText": "玩家已离开",
+    "Text": "ErrorCode_ErrAbyssLikePlayerNotInScene",
+    "IsTip": false
+  },
+  {
+    "Id": 200583,
+    "DebugText": "重复点击",
+    "Text": "ErrorCode_ErrAbyssLikeDuplicate",
+    "IsTip": true
+  },
+  {
+    "Id": 200584,
+    "DebugText": "团子道具未解锁",
+    "Text": "ErrorCode_ErrAbyssRoleItemNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 200585,
+    "DebugText": "团子道具配置找不到",
+    "Text": "ErrorCode_ErrAbyssRoleConfig",
+    "IsTip": false
+  },
+  {
+    "Id": 200586,
+    "DebugText": "团子等级配置找不到",
+    "Text": "ErrorCode_ErrAbyssRoleLevelConfig",
+    "IsTip": false
+  },
+  {
+    "Id": 200587,
+    "DebugText": "超过可佩戴数量限制",
+    "Text": "ErrorCode_ErrAbyssRoleMaxPluginCount",
+    "IsTip": true
+  },
+  {
+    "Id": 200588,
+    "DebugText": "超过可佩戴数量限制",
+    "Text": "ErrorCode_ErrAbyssRoleLevelMaxPlugin",
+    "IsTip": true
+  },
+  {
+    "Id": 200589,
+    "DebugText": "穿戴道具重复",
+    "Text": "ErrorCode_ErrAbyssPutOnDuplicate",
+    "IsTip": false
+  },
+  {
+    "Id": 200590,
+    "DebugText": "卸载道具失败",
+    "Text": "ErrorCode_ErrAbyssEquipOldRoleFailed",
+    "IsTip": false
+  },
+  {
+    "Id": 200591,
+    "DebugText": "超过分解数量限制",
+    "Text": "ErrorCode_ErrAbyssSysthesisMaxCount",
+    "IsTip": true
+  },
+  {
+    "Id": 200592,
+    "DebugText": "道具重复",
+    "Text": "ErrorCode_ErrAbyssSysthesisItemDuplicate",
+    "IsTip": false
+  },
+  {
+    "Id": 200593,
+    "DebugText": "找不到插件道具",
+    "Text": "ErrorCode_ErrAbyssPluginItemNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 200594,
+    "DebugText": "道具已锁定",
+    "Text": "ErrorCode_ErrAbyssPluginItemLocked",
+    "IsTip": true
+  },
+  {
+    "Id": 200595,
+    "DebugText": "道具配置找不到",
+    "Text": "ErrorCode_ErrAbyssPluginConfigNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 200596,
+    "DebugText": "道具已被装备",
+    "Text": "ErrorCode_ErrAbyssPluginEquipped",
+    "IsTip": true
+  },
+  {
+    "Id": 200597,
+    "DebugText": "品质配置找不到",
+    "Text": "ErrorCode_ErrAbyssQuialityConfig",
+    "IsTip": false
+  },
+  {
+    "Id": 200598,
+    "DebugText": "消耗道具重复",
+    "Text": "ErrorCode_ErrAbyssSysthesisConsumeItemDuplicate",
+    "IsTip": false
+  },
+  {
+    "Id": 200599,
+    "DebugText": "请求cd中",
+    "Text": "ErrorCode_ErrAbyssRankListCd",
+    "IsTip": false
+  },
+  {
+    "Id": 200600,
+    "DebugText": "请求等级参数异常",
+    "Text": "ErrorCode_ErrAbyssRoleUpLevel",
+    "IsTip": false
+  },
+  {
+    "Id": 200601,
+    "DebugText": "道具数量不足",
+    "Text": "ErrorCode_ErrAbyssRoleUpItem",
+    "IsTip": false
+  },
+  {
+    "Id": 200602,
+    "DebugText": "升级配置异常",
+    "Text": "ErrorCode_ErrAbyssRoleUpNoComsume",
+    "IsTip": false
+  },
+  {
+    "Id": 200603,
+    "DebugText": "前置关卡没有通关",
+    "Text": "ErrorCode_ErrAbyssPreChallengeNotPass",
+    "IsTip": true
+  },
+  {
+    "Id": 200604,
+    "DebugText": "插件位置找不到配置",
+    "Text": "ErrorCode_ErrAbyssSlotConfig",
+    "IsTip": false
+  },
+  {
+    "Id": 200605,
+    "DebugText": "插件类型不匹配",
+    "Text": "ErrorCode_ErrAbyssSlotNotMatch",
+    "IsTip": true
+  },
+  {
     "Id": 2500133,
     "DebugText": "没有选择角色",
     "Text": "ErrorCode_2500066_Text",
     "IsTip": true
+  },
+  {
+    "Id": 2700044,
+    "DebugText": "当前时间没有可展示的排行榜",
+    "Text": "ErrorCode_2600043_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700045,
+    "DebugText": "排行榜获取失败",
+    "Text": "ErrorCode_2600044_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700046,
+    "DebugText": "弹幕CD中",
+    "Text": "ErrorCode_2600045_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 600117,
+    "DebugText": "找不到活动数据",
+    "Text": "ErrorCode_600117_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600118,
+    "DebugText": "请求任务奖励数量超过上限",
+    "Text": "ErrorCode_600118_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600119,
+    "DebugText": "找不到任务配置",
+    "Text": "ErrorCode_600119_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600120,
+    "DebugText": "任务未完成",
+    "Text": "ErrorCode_600120_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600121,
+    "DebugText": "任务奖励已领取",
+    "Text": "ErrorCode_600121_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600122,
+    "DebugText": "找不到棋盘配置",
+    "Text": "ErrorCode_600122_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600123,
+    "DebugText": "格子奖励未领取",
+    "Text": "ErrorCode_600123_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600124,
+    "DebugText": "没有骰子道具",
+    "Text": "ErrorCode_600124_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600125,
+    "DebugText": "没有格子奖励可领取",
+    "Text": "ErrorCode_600125_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600126,
+    "DebugText": "找不到格子配置",
+    "Text": "ErrorCode_600126_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600127,
+    "DebugText": "请求棋盘奖励数量超过上限",
+    "Text": "ErrorCode_600127_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600128,
+    "DebugText": "棋盘未完成",
+    "Text": "ErrorCode_600128_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600129,
+    "DebugText": "棋盘奖励已领取",
+    "Text": "ErrorCode_600129_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600130,
+    "DebugText": "找不到活动数据",
+    "Text": "ErrorCode_600130_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900192,
+    "DebugText": "回流未开启",
+    "Text": "ErrorCode_1900189_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900193,
+    "DebugText": "找不到回流配置",
+    "Text": "ErrorCode_1900190_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900194,
+    "DebugText": "问卷配置Id不合法",
+    "Text": "ErrorCode_1900191_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900195,
+    "DebugText": "找不到回合数据",
+    "Text": "ErrorCode_1900192_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900196,
+    "DebugText": "不在回流状态中",
+    "Text": "ErrorCode_1900193_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200606,
+    "DebugText": "副本未开启",
+    "Text": "ErrorCode_ErrAbyssInstUnlockTime",
+    "IsTip": true
+  },
+  {
+    "Id": 2600042,
+    "DebugText": "任务资源未就绪",
+    "Text": "任务资源未就绪",
+    "IsTip": false
+  },
+  {
+    "Id": 2700047,
+    "DebugText": "活动配置不存在",
+    "Text": "ErrorCode_2600064_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700048,
+    "DebugText": "联动页配置不存在",
+    "Text": "ErrorCode_2600065_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700049,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_2600066_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700050,
+    "DebugText": "玩家数据错误",
+    "Text": "ErrorCode_2600067_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700051,
+    "DebugText": "配置索引错误",
+    "Text": "ErrorCode_2600068_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700052,
+    "DebugText": "奖励状态转换错误",
+    "Text": "ErrorCode_2600069_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700053,
+    "DebugText": "页签时间错误",
+    "Text": "ErrorCode_2600070_Text",
+    "IsTip": false
   },
   {
     "Id": 2200098,
@@ -16800,10 +17940,502 @@
     "IsTip": true
   },
   {
+    "Id": 1900197,
+    "DebugText": "问卷任务未完成",
+    "Text": "ErrorCode_1900194_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900198,
+    "DebugText": "还未到生日时间",
+    "Text": "ErrorCode_1900195_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900199,
+    "DebugText": "生日选择角色不存在",
+    "Text": "ErrorCode_1900196_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900200,
+    "DebugText": "找不到生日配置",
+    "Text": "ErrorCode_1900197_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900201,
+    "DebugText": "今年生日奖励已领取",
+    "Text": "ErrorCode_1900198_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600131,
+    "DebugText": "棋盘未解锁",
+    "Text": "ErrorCode_600131_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700054,
+    "DebugText": "动态黑马值配置错误",
+    "Text": "ErrorCode_2600046_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700055,
+    "DebugText": "动态黑马值区间配置错误",
+    "Text": "ErrorCode_2600047_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700056,
+    "DebugText": "团子不存在",
+    "Text": "ErrorCode_2600048_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700057,
+    "DebugText": "比赛数据错误",
+    "Text": "ErrorCode_2600049_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700058,
+    "DebugText": "回合未开始",
+    "Text": "ErrorCode_2600050_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700059,
+    "DebugText": "暂未应援",
+    "Text": "ErrorCode_2600051_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700060,
+    "DebugText": "比赛已结算",
+    "Text": "ErrorCode_2600052_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700061,
+    "DebugText": "排行榜未开启",
+    "Text": "ErrorCode_2600053_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1100328,
+    "DebugText": "常驻肉鸽效果配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100329,
+    "DebugText": "常驻肉鸽选项剩余选择次数不足",
+    "Text": "ErrorCode_1100329_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100330,
+    "DebugText": "常驻肉鸽选项不支持多选",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100331,
+    "DebugText": "常驻肉鸽选项索引重复",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100332,
+    "DebugText": "常驻肉鸽选项不支持放弃",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100333,
+    "DebugText": "常驻肉鸽选项不支持刷新",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100334,
+    "DebugText": "常驻肉鸽选项索引无效",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100335,
+    "DebugText": "常驻肉鸽选项类型错误",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100336,
+    "DebugText": "常驻肉鸽选项已经选过/购买",
+    "Text": "ErrorCode_1100336_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100337,
+    "DebugText": "常驻肉鸽图鉴领取索引超出最大数量",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100338,
+    "DebugText": "常驻肉鸽图鉴掉落配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100339,
+    "DebugText": "常驻肉鸽增益类型逻辑找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100340,
+    "DebugText": "常驻肉鸽地块奖励配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100341,
+    "DebugText": "常驻肉鸽没有出生坐标配置",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100342,
+    "DebugText": "常驻肉鸽执行效果失败",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100343,
+    "DebugText": "常驻肉鸽界面选择已完成",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100344,
+    "DebugText": "常驻肉鸽指令类型错误",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100345,
+    "DebugText": "常驻肉鸽地块事件配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100346,
+    "DebugText": "常驻肉鸽地块事件步骤配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100347,
+    "DebugText": "常驻肉鸽地块事件步骤选项索引错误",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100348,
+    "DebugText": "常驻肉鸽地块事件数据找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100349,
+    "DebugText": "常驻肉鸽选择界面指令索引错误",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100350,
+    "DebugText": "常驻肉鸽去往房间数据找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100351,
+    "DebugText": "常驻肉鸽选择界面没有数据",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100352,
+    "DebugText": "常驻肉鸽版本任务配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100353,
+    "DebugText": "常驻肉鸽版本任务数据找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100354,
+    "DebugText": "常驻肉鸽版本任务已领取奖励",
+    "Text": "ErrorCode_1100354_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100355,
+    "DebugText": "常驻肉鸽版本任务未完成",
+    "Text": "ErrorCode_1100355_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100356,
+    "DebugText": "常驻肉鸽商店价格异常",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100357,
+    "DebugText": "常驻肉鸽任务类型错误",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100358,
+    "DebugText": "常驻肉鸽随机池名字找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100359,
+    "DebugText": "常驻肉鸽随机结果未命中",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100360,
+    "DebugText": "常驻肉鸽随机没有有效结果",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100361,
+    "DebugText": "常驻肉鸽编队索引无效",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100362,
+    "DebugText": "常驻肉鸽编队角色数量错误",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100363,
+    "DebugText": "常驻肉鸽商店随机没有商品",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100364,
+    "DebugText": "常驻肉鸽商店商品不足",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100365,
+    "DebugText": "常驻肉鸽编队角色无效",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100366,
+    "DebugText": "常驻肉鸽没有编队数据",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100367,
+    "DebugText": "常驻肉鸽角色数据找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100368,
+    "DebugText": "常驻肉鸽副本角色升星配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100369,
+    "DebugText": "常驻肉鸽副本角色升星配置找不到对应等级",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100370,
+    "DebugText": "常驻肉鸽角色强化buff随机池找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100371,
+    "DebugText": "常驻肉鸽副本角色升星配置找不到最大等级",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100372,
+    "DebugText": "常驻肉鸽角色招募随机效果错误",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100373,
+    "DebugText": "常驻肉鸽角色招募随机结果不匹配",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100374,
+    "DebugText": "常驻肉鸽角色招募商店配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100375,
+    "DebugText": "常驻肉鸽角色招募结果为空",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100376,
+    "DebugText": "常驻肉鸽角色招募羁绊池不可用",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 2700062,
+    "DebugText": "行为索引错误",
+    "Text": "ErrorCode_2600054_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200607,
+    "DebugText": "已结算",
+    "Text": "ErrorCode_ErrAbyssSettled",
+    "IsTip": false
+  },
+  {
+    "Id": 2700063,
+    "DebugText": "半场赛回合不存在",
+    "Text": "ErrorCode_2600055_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700064,
+    "DebugText": "团子配置不存在",
+    "Text": "ErrorCode_2600056_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700065,
+    "DebugText": "团子模板配置不存在",
+    "Text": "ErrorCode_2600057_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700066,
+    "DebugText": "团子实体创建失败",
+    "Text": "ErrorCode_2600058_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700067,
+    "DebugText": "半场赛配置不存在",
+    "Text": "ErrorCode_2600059_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2000055,
     "DebugText": "玩家已经离开场景",
     "Text": "ErrorCode_2000055_Text",
     "IsTip": true
+  },
+  {
+    "Id": 1900202,
+    "DebugText": "生日未重置",
+    "Text": "ErrorCode_1900199_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900203,
+    "DebugText": "生日奖励过期",
+    "Text": "ErrorCode_1900200_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100377,
+    "DebugText": "常驻肉鸽角色buff兜底失败",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100378,
+    "DebugText": "常驻肉鸽角色buff没有可用词条",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100379,
+    "DebugText": "常驻肉鸽角色buff随机失败",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100380,
+    "DebugText": "常驻肉鸽角色随机失败",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1400056,
+    "DebugText": "商城不在开放时间",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1400057,
+    "DebugText": "累消活动未开放",
+    "Text": "ErrorCode_1051001_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1400058,
+    "DebugText": "累消任务不存在",
+    "Text": "ErrorCode_1051002_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1400059,
+    "DebugText": "累消任务未完成",
+    "Text": "ErrorCode_1051003_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1400060,
+    "DebugText": "累消任务奖励已领取",
+    "Text": "ErrorCode_1051004_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1400061,
+    "DebugText": "累消活动不存在",
+    "Text": "ErrorCode_1051005_Text",
+    "IsTip": false
   },
   {
     "Id": 600132,
@@ -16812,9 +18444,243 @@
     "IsTip": false
   },
   {
+    "Id": 1100381,
+    "DebugText": "常驻肉鸽范围触发事件",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100382,
+    "DebugText": "常驻肉鸽当前格子触发事件",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100383,
+    "DebugText": "常驻肉鸽格子触发事件类型异常",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100384,
+    "DebugText": "常驻肉鸽格子事件没数据",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100385,
+    "DebugText": "常驻肉鸽格子配置找不到",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1900204,
+    "DebugText": "重置生日必须是当前年",
+    "Text": "ErrorCode_1900201_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900205,
+    "DebugText": "生日系统未开启",
+    "Text": "ErrorCode_1900202_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900206,
+    "DebugText": "必须先领取生日奖励",
+    "Text": "ErrorCode_1900203_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900207,
+    "DebugText": "重复绑定生日角色",
+    "Text": "ErrorCode_1900204_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2600043,
     "DebugText": "拥有Guest",
     "Text": "拥有Guest",
     "IsTip": false
+  },
+  {
+    "Id": 1400062,
+    "DebugText": "个人礼包没有购买权限",
+    "Text": "ErrorCode_2500076_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1400063,
+    "DebugText": "个人礼包购买权限已过期",
+    "Text": "ErrorCode_2500077_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1400064,
+    "DebugText": "非个人礼包",
+    "Text": "ErrorCode_2500078_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1400065,
+    "DebugText": "个人礼包购买权限已拥有",
+    "Text": "ErrorCode_2500079_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100386,
+    "DebugText": "肉鸽效果执行失败{0}",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100387,
+    "DebugText": "不在战斗中无法回退",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100388,
+    "DebugText": "步骤选项条件未满足",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100389,
+    "DebugText": "肉鸽找不到格子事件指令",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100390,
+    "DebugText": "肉鸽没有副本存档数据",
+    "Text": "ErrorCode_1100390_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100391,
+    "DebugText": "肉鸽三合一界面不存在",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 200610,
+    "DebugText": "请求重复",
+    "Text": "ErrorCode_ErrAbyssRewardIdRepeated",
+    "IsTip": false
+  },
+  {
+    "Id": 200611,
+    "DebugText": "请求数量超过限制",
+    "Text": "ErrorCode_ErrAbyssRewardCount",
+    "IsTip": false
+  },
+  {
+    "Id": 2700070,
+    "DebugText": "下一次黑马值获取失败",
+    "Text": "ErrorCode_2600060_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700071,
+    "DebugText": "排行榜不存在",
+    "Text": "ErrorCode_2600061_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700072,
+    "DebugText": "排行榜中不存在目标玩家",
+    "Text": "ErrorCode_2600062_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200612,
+    "DebugText": "有玩家不满足挑战条件",
+    "Text": "ErrorCode_ErrOtherPlayerCondition",
+    "IsTip": true
+  },
+  {
+    "Id": 1100392,
+    "DebugText": "隐喻不可重复获得",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100393,
+    "DebugText": "失败次数已达最大",
+    "Text": "ErrorCode_1100393_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100394,
+    "DebugText": "选择角色已达最大等级",
+    "Text": "ErrorCode_1100394_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600133,
+    "DebugText": "骰子点数异常",
+    "Text": "ErrorCode_600133_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700083,
+    "DebugText": "弹幕id对应的团子不存在于本场比赛",
+    "Text": "ErrorCode_2600063_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100395,
+    "DebugText": "常驻肉鸽前置副本未通关",
+    "Text": "ErrorCode_1100395_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100396,
+    "DebugText": "常驻肉鸽创建副本缓存失败",
+    "Text": "ErrorCode_ResRogueCommon",
+    "IsTip": false
+  },
+  {
+    "Id": 1100397,
+    "DebugText": "领主道馆正在挑战中, 请勿重复挑战",
+    "Text": "ErrorCode_1100330_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700084,
+    "DebugText": "玩家数据不存在",
+    "Text": "ErrorCode_2600071_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700085,
+    "DebugText": "任务数据不存在",
+    "Text": "ErrorCode_2600072_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2000056,
+    "DebugText": "禁止流程副本跳副本",
+    "Text": "ErrorCode_ErrInstTeleportInstLimit",
+    "IsTip": true
+  },
+  {
+    "Id": 600134,
+    "DebugText": "棋盘已完成",
+    "Text": "ErrorCode_600134_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200613,
+    "DebugText": "不可装备团子专属技能",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 200620,
+    "DebugText": "多个技能相同的被动插件",
+    "Text": "",
+    "IsTip": true
   }
 ]
