@@ -153745,7 +153745,7 @@
             "AutoChange": false,
             "ActiveRange": {
               "CheckPoint": {
-                "X": -117799.05,
+                "X": -107099,
                 "Y": 218738.86,
                 "Z": 1920.21
               },
@@ -153769,7 +153769,7 @@
       "Condition": {
         "Type": "ReachArea",
         "Pos": {
-          "X": -123596.03,
+          "X": -122146.85,
           "Y": 211727.58,
           "Z": 1881.62
         },
@@ -306903,7 +306903,18 @@
           ]
         }
       },
-      "FinishActions": [],
+      "FinishActions": [
+        {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_165000001_水手的遗藏隐藏行人",
+            "DelayShow": true
+          },
+          "ActionGuid": "bfafe3b1e1204aca8d5fdbb6d6f0ebda",
+          "ActionId": 3000025,
+          "Disabled": true
+        }
+      ],
       "EnterActions": [
         {
           "Name": "AwakeEntity",
@@ -372119,7 +372130,7 @@
             "CharacterGroup": [],
             "CharacterGroupNew": [
               {
-                "CharacterId": 100638,
+                "CharacterId": 14070005,
                 "IsAiCharacter": false
               }
             ],
@@ -372214,7 +372225,7 @@
           "Params": {
             "CharacterId": 5001001,
             "CharacterGroup": [
-              100638
+              14070005
             ]
           },
           "ActionGuid": "d02b8c851d3642b8ae047715871a964c",
@@ -373332,7 +373343,7 @@
             "CharacterGroup": [],
             "CharacterGroupNew": [
               {
-                "CharacterId": 100638,
+                "CharacterId": 14070005,
                 "IsAiCharacter": false
               }
             ],
@@ -373377,7 +373388,7 @@
           "Params": {
             "CharacterId": 5001001,
             "CharacterGroup": [
-              100638
+              14070005
             ]
           },
           "ActionGuid": "f179319710164a7cb8e1aa5ac0d4dde4",
@@ -414682,6 +414693,43 @@
         }
       ],
       "RewardId": 5110102,
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckItems",
+                  "Compare": "Lt",
+                  "Items": [
+                    {
+                      "ItemId": 70050103,
+                      "Count": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "GetItem",
+                "Params": {
+                  "Items": [
+                    {
+                      "ItemId": 70050103,
+                      "Count": 1
+                    }
+                  ]
+                },
+                "ActionGuid": "fe3046cc7f114f2f86b26066f0883b44",
+                "ActionId": 3000036
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 4
     }
   },
@@ -419397,7 +419445,7 @@
       "FinishActions": [],
       "HideUi": true,
       "HideTip": true,
-      "ParentNodeId": 30
+      "ParentNodeId": 496
     }
   },
   {
@@ -423987,6 +424035,16 @@
           },
           "ActionGuid": "17be23492f88409097199bfcf4f886cf",
           "ActionId": 3000024
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              158800268
+            ]
+          },
+          "ActionGuid": "eeb1e29e713d4a1ca0172718a39b1ddc",
+          "ActionId": 3000127
         }
       ],
       "HideTip": true,
@@ -424478,7 +424536,7 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 158800171,
+            "EntityId": 158800260,
             "State": "关卡.Common.状态.常态"
           },
           "ActionGuid": "3c02f342ffe44239bded856674a25dfd",
@@ -424904,7 +424962,17 @@
           "Locations": []
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "EnableSystem",
+          "Params": {
+            "SystemType": 10015,
+            "IsEnable": true
+          },
+          "ActionGuid": "859a192f443844b19f61f1d9a0bb88ba",
+          "ActionId": 3000092
+        }
+      ],
       "FinishActions": [
         {
           "Name": "DestroyEntity",
@@ -425063,6 +425131,16 @@
           },
           "ActionGuid": "7085d08d2bb54afeb6aa9e6c5ca55191",
           "ActionId": 3000053
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              158800271
+            ]
+          },
+          "ActionGuid": "9981ed2178ff4450a60b85ec0ad0d942",
+          "ActionId": 3000108
         },
         {
           "Name": "FadeInScreen",
@@ -426391,6 +426469,17 @@
           },
           "ActionGuid": "ed33bea8bf414b0a97a2f65c5f399091",
           "ActionId": 3000002
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              161750006
+            ]
+          },
+          "ActionGuid": "5feb429f0e3e4db394bbeba7a37ecf4a",
+          "ActionId": 3000003,
+          "Disabled": true
         }
       ],
       "FinishActions": [
@@ -428265,16 +428354,6 @@
       },
       "EnterActions": [
         {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              161750006
-            ]
-          },
-          "ActionGuid": "a67903a0d21340918d74d3dff26b0a5e",
-          "ActionId": 3000003
-        },
-        {
           "Name": "ChangeLiftTarget",
           "Params": {
             "IsSelf": false,
@@ -428283,6 +428362,16 @@
           },
           "ActionGuid": "7f0fa5a975d04e75acdfb56213d4cfa5",
           "ActionId": 3000055
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              161750006
+            ]
+          },
+          "ActionGuid": "1d58dabb66cb468ea172946170148ab5",
+          "ActionId": 3000117
         }
       ],
       "FinishActions": [
@@ -429017,6 +429106,16 @@
                     },
                     "ActionGuid": "5e6a9bac7e424c87b6cfa6cf3395f531",
                     "ActionId": 3000120
+                  },
+                  {
+                    "Name": "DestroyEntity",
+                    "Params": {
+                      "EntityIds": [
+                        158800153
+                      ]
+                    },
+                    "ActionGuid": "713435ebd638466f8a6ebb7373e2ce62",
+                    "ActionId": 3000128
                   }
                 ]
               }
@@ -429231,6 +429330,16 @@
           },
           "ActionGuid": "5e6a9bac7e424c87b6cfa6cf3395f531",
           "ActionId": 3000120
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              158800153
+            ]
+          },
+          "ActionGuid": "713435ebd638466f8a6ebb7373e2ce62",
+          "ActionId": 3000128
         }
       ],
       "ParentNodeId": 53
@@ -430067,6 +430176,16 @@
           },
           "ActionGuid": "c5bcede2f9f94eefa503970ea06dd35e",
           "ActionId": 3000035
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              158800271
+            ]
+          },
+          "ActionGuid": "f4177196d46e48bfa8f2d97a3820aea6",
+          "ActionId": 3000125
         },
         {
           "Name": "ChangeEntityState",
@@ -439341,7 +439460,18 @@
           ]
         }
       },
-      "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              158800268
+            ]
+          },
+          "ActionGuid": "1a2f1fbade044303b9c2c42354215018",
+          "ActionId": 3000126
+        }
+      ],
       "ParentNodeId": 145
     }
   },
@@ -439566,16 +439696,6 @@
       "HideUi": true,
       "HideTip": true,
       "ParentNodeId": 26
-    }
-  },
-  {
-    "Key": "158800014_96",
-    "Data": {
-      "Type": "ParallelSelect",
-      "Id": 96,
-      "Desc": "",
-      "Count": 1,
-      "ParentNodeId": 145
     }
   },
   {
@@ -440345,18 +440465,7 @@
           "ActionId": 3000037
         }
       ],
-      "FinishActions": [
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
-              314800003
-            ]
-          },
-          "ActionGuid": "5b72b82087f34bef804392013ae83f42",
-          "ActionId": 3000002
-        }
-      ],
+      "FinishActions": [],
       "ParentNodeId": 1
     }
   },
@@ -440376,11 +440485,16 @@
       "TidTip": "Quest_176800001_ChildQuestTip_314_2",
       "TrackTarget": {
         "TrackType": {
-          "Type": "Entities",
-          "EntityIds": [
-            314800008
+          "Type": "Locations",
+          "Locations": [
+            {
+              "X": -32496.91,
+              "Y": 120070.33,
+              "Z": 11728.72
+            }
           ]
-        }
+        },
+        "Range": 3000
       },
       "EnterActions": [],
       "FinishActions": [
@@ -440405,6 +440519,16 @@
           },
           "ActionGuid": "66397da6b2584698b17677a754a5fed8",
           "ActionId": 3000004
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              314800003
+            ]
+          },
+          "ActionGuid": "ba0fdcc2de854d9ba8a9cf0c7569dae9",
+          "ActionId": 3000001
         },
         {
           "Name": "SetVar",
@@ -441935,14 +442059,6 @@
       "Desc": "完成寂寞小姐玩法",
       "Actions": [
         {
-          "Name": "Wait",
-          "Params": {
-            "Time": 1
-          },
-          "ActionGuid": "45e7a2de15384a8da1535d12fcaed0f3",
-          "ActionId": 3000125
-        },
-        {
           "Name": "SetVar",
           "Params": {
             "VarLeft": {
@@ -442055,7 +442171,7 @@
             "FlowId": 16,
             "StateId": 1
           },
-          "ActionGuid": "e7dfdf1598da4d2595f6c936c13cc77f",
+          "ActionGuid": "669ab17327e84c4bace93251b73382c1",
           "Async": true,
           "ActionId": 3000013
         },
@@ -442067,7 +442183,7 @@
               158800219
             ]
           },
-          "ActionGuid": "e446aa33406f444f9ab3d7d958399070",
+          "ActionGuid": "7398a294ffde4eb3ab70de41f6d29694",
           "ActionId": 3000014
         }
       ],
@@ -442079,11 +442195,11 @@
               158800198
             ]
           },
-          "ActionGuid": "c450b3b52023480eb5a302ecfe68d598",
+          "ActionGuid": "083e33707ee74843be64de9ef9ae703d",
           "ActionId": 3000015
         }
       ],
-      "ParentNodeId": 96
+      "ParentNodeId": 145
     }
   },
   {
@@ -442098,7 +442214,7 @@
           {
             "EntityId": 158800083,
             "Option": {
-              "Guid": "972f790ae076406f962a07508c817e0d",
+              "Guid": "94cfda3dc8ed4386966a06e653891fe1",
               "Type": {
                 "Type": "Flow",
                 "Flow": {
@@ -442912,18 +443028,7 @@
         }
       },
       "TidTip": "Quest_221800001_ChildQuestTip_221_74",
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "GuideId": 36006
-          },
-          "ActionGuid": "bc5c6f53411f4536b0b1b22705ae8737",
-          "ActionId": 3000060,
-          "Async": true
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "TrackTarget": {
         "TrackType": {
@@ -443288,6 +443393,24 @@
           },
           "ActionGuid": "12e72232098e45cf87eddb2710befa66",
           "ActionId": 3000042
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "b8bcf33cb249481bae4f18e7a1bd12c5",
+          "ActionId": 3000055
+        },
+        {
+          "Name": "GuideTrigger",
+          "Params": {
+            "Type": "BeginnerGuide",
+            "GuideId": 36006
+          },
+          "ActionGuid": "2057b82afbf44c01835bf17ca242ac0f",
+          "Async": true,
+          "ActionId": 3000060
         }
       ],
       "ParentNodeId": 121
@@ -443349,7 +443472,6 @@
       "TidTip": "Quest_221800001_ChildQuestTip_221_59",
       "EnterActions": [],
       "FinishActions": [],
-      "RewardId": 20210002,
       "TrackTarget": {
         "TrackType": {
           "Type": "Entities",
@@ -443432,6 +443554,16 @@
           "ActionId": 3000043
         },
         {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              221800026
+            ]
+          },
+          "ActionGuid": "ed8a4812c68147b28441c01c356bb000",
+          "ActionId": 3000046
+        },
+        {
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
@@ -443442,6 +443574,28 @@
           },
           "ActionGuid": "d0ded0e15ae84032bc8c56c47949a696",
           "ActionId": 3000053
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              221800016,
+              221800036
+            ]
+          },
+          "ActionGuid": "ff064f8cf3cf4f999612d10eb569eaef",
+          "ActionId": 3000050
+        },
+        {
+          "Name": "UnlockSystemItem",
+          "Params": {
+            "SystemOption": {
+              "Type": "DangoCollect",
+              "Id": 85000003
+            }
+          },
+          "ActionGuid": "f1f1ed21ce6846f8936c80fd7d6198e9",
+          "ActionId": 3000073
         }
       ],
       "TrackTarget": {
@@ -443507,40 +443661,7 @@
       },
       "TidTip": "Quest_221800001_ChildQuestTip_221_63",
       "EnterActions": [],
-      "FinishActions": [
-        {
-          "Name": "UnlockSystemItem",
-          "Params": {
-            "SystemOption": {
-              "Type": "DangoCollect",
-              "Id": 85000003
-            }
-          },
-          "ActionGuid": "d5779ecd183947689e08426cfda31a78",
-          "ActionId": 3000073
-        },
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
-              221800026
-            ]
-          },
-          "ActionGuid": "b3f4a1a73aa542c2bcf2fcfc091d0afa",
-          "ActionId": 3000046
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              221800016,
-              221800036
-            ]
-          },
-          "ActionGuid": "55806b8afeed432bb4ced78d0b08c9d9",
-          "ActionId": 3000050
-        }
-      ],
+      "FinishActions": [],
       "TrackTarget": {
         "TrackType": {
           "Type": "Entities",
@@ -446159,7 +446280,7 @@
               158800202
             ]
           },
-          "ActionGuid": "a7818fe9ecd1455dab0ada7fae22356c",
+          "ActionGuid": "bdce25231fdf4832bb1711b7f3dabdda",
           "ActionId": 3000080
         },
         {
@@ -446167,7 +446288,7 @@
           "Params": {
             "Time": 1
           },
-          "ActionGuid": "20b0c20d72a14cce86bb5258621bfd2d",
+          "ActionGuid": "7ca8c0b8f8cf470e9198cd9e2ddaae3e",
           "ActionId": 3000081
         },
         {
@@ -446177,7 +446298,7 @@
               158800086
             ]
           },
-          "ActionGuid": "a3bf8009395f4c18b4a26e7d6fad554a",
+          "ActionGuid": "66d839db662f4d4082e9400bc09dc68a",
           "ActionId": 3000082
         },
         {
@@ -446188,12 +446309,12 @@
               "Duration": 0.5
             }
           },
-          "ActionGuid": "a44e728acebf4390b7e58b258c7c4d0b",
+          "ActionGuid": "b8171ee90dda49019dcac7a467ec221c",
           "ActionId": 3000083
         }
       ],
       "FinishActions": [],
-      "ParentNodeId": 103
+      "ParentNodeId": 160
     }
   },
   {
@@ -448337,7 +448458,7 @@
     "Data": {
       "Type": "ParallelSelect",
       "Id": 115,
-      "Desc": "",
+      "Desc": "封闭流程",
       "Count": 1,
       "SaveConfig": {
         "EnterActions": [
@@ -448352,6 +448473,15 @@
             },
             "ActionGuid": "9428f38d69144ae89e604598999a403e",
             "ActionId": 3000076
+          },
+          {
+            "Name": "EnableSystem",
+            "Params": {
+              "SystemType": 10015,
+              "IsEnable": false
+            },
+            "ActionGuid": "67f3596bfa2f48909d38704f478f06f7",
+            "ActionId": 3000084
           },
           {
             "Name": "SetPlayerPos",
@@ -448395,6 +448525,7 @@
         ]
       },
       "DisableOnline": true,
+      "DisableSwitchOccupation": true,
       "ParentNodeId": 145
     }
   },
@@ -448645,8 +448776,7 @@
                 "ItemId": 71600003,
                 "Count": 1
               }
-            ],
-            "UiType": 1
+            ]
           },
           "ActionGuid": "7b13f36f807040acad4f2c4adfbcd018",
           "ActionId": 3000132
@@ -449508,7 +449638,7 @@
       "Type": "Sequence",
       "Id": 155,
       "Desc": "18：30~5：00到民宅附近保底",
-      "ParentNodeId": 145
+      "ParentNodeId": 119
     }
   },
   {
@@ -449588,15 +449718,6 @@
       "TidTip": "Quest_221800001_ChildQuestTip_221_100",
       "EnterActions": [],
       "FinishActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "GuideId": 36004
-          },
-          "ActionGuid": "6896d65cbbf34e69b45610aaec8ac641",
-          "ActionId": 3000058
-        },
         {
           "Name": "GuideTrigger",
           "Params": {
@@ -449700,6 +449821,7 @@
           ]
         }
       },
+      "RewardId": 20210002,
       "ParentNodeId": 121
     }
   },
@@ -450880,6 +451002,16 @@
             },
             "ActionGuid": "cd9026e3d21e4c069c1467b04e4a676b",
             "ActionId": 3000133
+          },
+          {
+            "Name": "AwakeEntity",
+            "Params": {
+              "EntityIds": [
+                165800263
+              ]
+            },
+            "ActionGuid": "5b11a6604c58417f95615a4474f4a865",
+            "ActionId": 3000096
           }
         ]
       },
@@ -452004,45 +452136,12 @@
       "Id": 159,
       "Desc": "7s后保底进站桩，避免玩家看到站住的NPC",
       "Condition": {
-        "Type": "CheckConditionGroup",
-        "Condition": {
-          "Type": 0,
-          "Conditions": [
-            {
-              "Type": "CompareVar",
-              "Var1": {
-                "Type": "Int",
-                "Source": "Constant",
-                "Value": 0
-              },
-              "Compare": "Eq",
-              "Var2": {
-                "Type": "Int",
-                "Source": "Constant",
-                "Value": 0
-              }
-            }
-          ]
-        }
+        "Type": "Timer",
+        "Time": 7,
+        "TimerType": "WaitTime"
       },
       "TidTip": "Quest_158800014_ChildQuestTip_158_152",
-      "TrackTarget": {
-        "TrackType": {
-          "Type": "Locations",
-          "Locations": []
-        }
-      },
       "EnterActions": [],
-      "FinishActions": [
-        {
-          "Name": "Wait",
-          "Params": {
-            "Time": 7
-          },
-          "ActionGuid": "ee27494b114e40e1abf4b7fe5617ebed",
-          "ActionId": 3000084
-        }
-      ],
       "ParentNodeId": 158
     }
   },
@@ -452440,16 +452539,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "Wait",
-          "Params": {
-            "Time": 3
-          },
-          "ActionGuid": "372a934e7f444bb6a0ad0335e1626fd3",
-          "ActionId": 3000145
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "HideUi": true,
       "RewardId": 71701,
@@ -452995,6 +453085,48 @@
       "Desc": "",
       "FinishActions": [],
       "ParentNodeId": 1
+    }
+  },
+  {
+    "Key": "158800014_160",
+    "Data": {
+      "Type": "ParallelSelect",
+      "Id": 160,
+      "Desc": "",
+      "Count": 1,
+      "ParentNodeId": 103
+    }
+  },
+  {
+    "Key": "158800014_161",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 161,
+      "Desc": "不显示，靠近小偷保底完成",
+      "Condition": {
+        "Type": "ReachArea",
+        "Pos": {
+          "X": 698841.13,
+          "Y": 585567.19,
+          "Z": 144.56
+        },
+        "Range": 2000,
+        "RangeEntities": [
+          158800267
+        ]
+      },
+      "TidTip": "Quest_158800014_ChildQuestTip_158_155",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": []
+        }
+      },
+      "EnterActions": [],
+      "FinishActions": [],
+      "HideUi": true,
+      "HideTip": true,
+      "ParentNodeId": 160
     }
   }
 ]

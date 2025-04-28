@@ -120299,6 +120299,9 @@
           "Type": "SwitchByTag",
           "Element": [
             {
+              "FightMusic": "boss_wuguidemiuwu_p1"
+            },
+            {
               "FightMusic": "boss_wuguidemiuwu_p1",
               "ActivateTag": "怪物.ML1MiuwuMd00501.一阶段"
             },
@@ -284136,7 +284139,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -284205,7 +284207,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -284524,7 +284525,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -284593,7 +284593,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -284662,7 +284661,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -284739,7 +284737,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -284879,7 +284876,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -298431,7 +298427,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -302394,7 +302389,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -307206,7 +307200,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -307751,7 +307744,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -309417,7 +309409,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -312213,7 +312204,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -312281,7 +312271,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -312349,7 +312338,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -312417,7 +312405,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -312553,7 +312540,6 @@
         "DelayChange": false,
         "UseFadeEffect": true,
         "UseCutEffect": true,
-        "UseHolographicEffect": true,
         "VisibleConditions": [],
         "Disabled": false
       },
@@ -312903,7 +312889,7 @@
         },
         "Camp": 0,
         "OnlineInteractType": 1,
-        "EntityPropertyId": 100,
+        "EntityPropertyId": 700,
         "AoiLayer": 0,
         "AoiZRadius": 0
       },
@@ -331423,6 +331409,9 @@
           "Type": "SwitchByTag",
           "Element": [
             {
+              "FightMusic": "boss_fuludelisi_p1"
+            },
+            {
               "FightMusic": "boss_fuludelisi_p1",
               "ActivateTag": "怪物.MB1KatixiyaMd00201.一阶段"
             },
@@ -338724,6 +338713,82 @@
       "VarComponent": {
         "Vars": [],
         "Disabled": true
+      }
+    }
+  },
+  {
+    "Id": 166800000,
+    "BlueprintType": "branch2.3_166_NPC_DA_MaleM_JGZ2_5",
+    "Name": "TsEntity_166_教廷骑士长NPC",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "TidName": "Entity_06cb8492bd07298044adab85928baca489e91ea2fc7bfe051e8a1538d60f5d76",
+        "Category": {
+          "MainType": "Npc"
+        },
+        "Camp": 2,
+        "IsShowNameOnHead": false,
+        "OnlineInteractType": 1,
+        "EntityPropertyId": 2,
+        "AoiLayer": 0,
+        "AoiZRadius": 0
+      },
+      "InteractComponent": {
+        "Range": 200,
+        "DoIntactType": "Direct",
+        "Options": [],
+        "TurnAroundType": "FaceEachOther",
+        "Disabled": true
+      },
+      "AiComponent": {
+        "AiId": 0
+      },
+      "NpcPerformComponent": {
+        "IsStare": true,
+        "NpcHitShow": {
+          "HitMontage": "/Game/Aki/Character/NPC/MaleM/Montage/Montage_Talk_Scare_01_MaleM.Montage_Talk_Scare_01_MaleM",
+          "HitBubble": {
+            "FlowListName": "剧情_NPC受击冒泡",
+            "FlowId": 1
+          },
+          "BubbleRate": 0
+        },
+        "IsShowStrike": true,
+        "Disabled": true
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "VisibleConditions": [],
+        "Disabled": true,
+        "UseFadeEffect": true
+      },
+      "BubbleComponent": {
+        "NpcIds": [],
+        "Flows": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500,
+        "Disabled": true
+      },
+      "VarComponent": {
+        "Vars": [],
+        "Disabled": true
+      },
+      "LevelAiComponent": {
+        "Disabled": true,
+        "States": []
+      },
+      "ModelComponent": {
+        "HalfHeight": 140,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "Npc",
+          "BlueprintPath": "/Game/Aki/Character/NPC/Monster/ME1JTJunTuanZhangMd00501/BP_JTJunTuanZhangNPC.BP_JTJunTuanZhangNPC_C",
+          "NpcModel": {
+            "Type": "Mesh",
+            "Mesh": "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Model/ME1JTJunTuanZhangMd00501.ME1JTJunTuanZhangMd00501"
+          },
+          "Abp": "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/ABP_ME1JTJunTuanZhangMd00501.ABP_ME1JTJunTuanZhangMd00501_C"
+        }
       }
     }
   }

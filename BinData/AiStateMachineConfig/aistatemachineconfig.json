@@ -136307,7 +136307,7 @@
   {
     "Id": "SM_MB1FuludelisiMd00401",
     "StateMachineJson": {
-      "Version": 1656083290,
+      "Version": 694663753,
       "StateMachines": [
         4,
         8,
@@ -138431,6 +138431,15 @@
               "SkillId": 80025074
             }
           },
+          "BindStates": [
+            {
+              "Name": "BindTag",
+              "Type": 3,
+              "BindTag": {
+                "TagId": 1183237986
+              }
+            }
+          ],
           "Children": [],
           "Transitions": []
         },
@@ -138448,6 +138457,13 @@
               "Type": 3,
               "BindTag": {
                 "TagId": 1512369952
+              }
+            },
+            {
+              "Name": "BindTag",
+              "Type": 3,
+              "BindTag": {
+                "TagId": 1183237986
               }
             }
           ],
@@ -138549,6 +138565,15 @@
           "Name": "从容",
           "TakeControlType": 0,
           "TransitionRule": 0,
+          "BindStates": [
+            {
+              "Name": "BindTag",
+              "Type": 3,
+              "BindTag": {
+                "TagId": 1183237986
+              }
+            }
+          ],
           "Children": [],
           "Transitions": []
         },
@@ -151864,7 +151889,7 @@
   {
     "Id": "SM_TuanziCommon",
     "StateMachineJson": {
-      "Version": 1121248629,
+      "Version": 1763496111,
       "StateMachines": [
         4,
         7,
@@ -152133,15 +152158,15 @@
           "TransitionRule": 0,
           "Children": [
             12,
-            16,
-            17,
-            18,
-            19
+            13,
+            14,
+            15,
+            16
           ],
           "Transitions": [
             {
               "From": 12,
-              "To": 16,
+              "To": 13,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -152154,8 +152179,8 @@
               ]
             },
             {
-              "From": 16,
-              "To": 17,
+              "From": 13,
+              "To": 14,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -152168,7 +152193,7 @@
               ]
             },
             {
-              "From": 17,
+              "From": 14,
               "To": 12,
               "TransitionPredictionType": 0,
               "Weight": 0,
@@ -152186,8 +152211,8 @@
               ]
             },
             {
-              "From": 16,
-              "To": 18,
+              "From": 13,
+              "To": 15,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -152206,7 +152231,7 @@
             },
             {
               "From": 12,
-              "To": 18,
+              "To": 15,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -152224,8 +152249,8 @@
               ]
             },
             {
-              "From": 17,
-              "To": 18,
+              "From": 14,
+              "To": 15,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -152243,8 +152268,8 @@
               ]
             },
             {
-              "From": 18,
-              "To": 19,
+              "From": 15,
+              "To": 16,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -152262,7 +152287,7 @@
               ]
             },
             {
-              "From": 19,
+              "From": 16,
               "To": 12,
               "TransitionPredictionType": 0,
               "Weight": 0,
@@ -152287,210 +152312,11 @@
           "Name": "待机",
           "TakeControlType": 0,
           "TransitionRule": 0,
-          "Children": [
-            13,
-            14,
-            15
-          ],
-          "Transitions": [
-            {
-              "From": 14,
-              "To": 13,
-              "TransitionPredictionType": 0,
-              "Weight": 0,
-              "Conditions": [
-                {
-                  "Index": 0,
-                  "Name": "CondTaskFinish",
-                  "Type": 101,
-                  "Reverse": false,
-                  "IsClient": true,
-                  "CondTaskFinish": {}
-                }
-              ]
-            },
-            {
-              "From": 13,
-              "To": 15,
-              "TransitionPredictionType": 2,
-              "Weight": 0,
-              "Conditions": [
-                {
-                  "Index": 0,
-                  "Name": "CondAnd",
-                  "Type": 1,
-                  "Reverse": false,
-                  "CondAnd": {
-                    "Conditions": [
-                      1,
-                      2,
-                      3,
-                      4
-                    ]
-                  }
-                },
-                {
-                  "Index": 1,
-                  "Name": "CondTimer",
-                  "Type": 22,
-                  "Reverse": false,
-                  "CondTimer": {
-                    "MinTime": 5000,
-                    "MaxTime": 8000
-                  }
-                },
-                {
-                  "Index": 2,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 866007727,
-                    "TagName": "战斗状态.技能限制.禁止普攻"
-                  }
-                },
-                {
-                  "Index": 3,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": -1371021686,
-                    "TagName": "行为状态.逻辑状态.技能中"
-                  }
-                },
-                {
-                  "Index": 4,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 577946300,
-                    "TagName": "幻象.变身.18646dae"
-                  }
-                }
-              ]
-            },
-            {
-              "From": 15,
-              "To": 14,
-              "TransitionPredictionType": 2,
-              "Weight": 0,
-              "Conditions": [
-                {
-                  "Index": 0,
-                  "Name": "CondAnd",
-                  "Type": 1,
-                  "Reverse": false,
-                  "CondAnd": {
-                    "Conditions": [
-                      1,
-                      2,
-                      3,
-                      4
-                    ]
-                  }
-                },
-                {
-                  "Index": 1,
-                  "Name": "CondTimer",
-                  "Type": 22,
-                  "Reverse": false,
-                  "CondTimer": {
-                    "MinTime": 2000,
-                    "MaxTime": 2000
-                  }
-                },
-                {
-                  "Index": 2,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 866007727,
-                    "TagName": "战斗状态.技能限制.禁止普攻"
-                  }
-                },
-                {
-                  "Index": 3,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": -1371021686,
-                    "TagName": "行为状态.逻辑状态.技能中"
-                  }
-                },
-                {
-                  "Index": 4,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 577946300,
-                    "TagName": "幻象.变身.18646dae"
-                  }
-                }
-              ]
-            }
-          ]
+          "Children": [],
+          "Transitions": []
         },
         {
           "Uuid": 13,
-          "IsAnimStateMachine": false,
-          "IsConduitNode": false,
-          "IsAnyState": false,
-          "Name": "表演等待",
-          "TakeControlType": 0,
-          "TransitionRule": 0,
-          "Children": [],
-          "Transitions": []
-        },
-        {
-          "Uuid": 14,
-          "IsAnimStateMachine": false,
-          "IsConduitNode": false,
-          "IsAnyState": false,
-          "Name": "待机动作",
-          "TakeControlType": 0,
-          "TransitionRule": 0,
-          "Task": {
-            "Name": "TaskRandomMontage",
-            "Type": 3,
-            "CanBeInterrupt": false,
-            "TaskRandomMontage": {
-              "MontageNames": [
-                "AM_Show1",
-                "AM_Show2",
-                "AM_Show3",
-                "AM_Show4"
-              ],
-              "HideOnLoading": false,
-              "BlendInTime": -1
-            }
-          },
-          "Children": [],
-          "Transitions": []
-        },
-        {
-          "Uuid": 15,
-          "IsAnimStateMachine": false,
-          "IsConduitNode": false,
-          "IsAnyState": false,
-          "Name": "技能检测缓冲",
-          "TakeControlType": 0,
-          "TransitionRule": 0,
-          "Children": [],
-          "Transitions": []
-        },
-        {
-          "Uuid": 16,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -152501,7 +152327,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 17,
+          "Uuid": 14,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -152512,7 +152338,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 18,
+          "Uuid": 15,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -152533,7 +152359,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 19,
+          "Uuid": 16,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,

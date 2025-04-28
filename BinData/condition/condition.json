@@ -91650,7 +91650,7 @@
   {
     "Id": 13030212,
     "Type": "GetItem",
-    "NeedNum": 500,
+    "NeedNum": 1200,
     "LimitParams": [
       {
         "Key": "ItemID",
@@ -91665,7 +91665,7 @@
   {
     "Id": 13030213,
     "Type": "GetItem",
-    "NeedNum": 1800,
+    "NeedNum": 2200,
     "LimitParams": [
       {
         "Key": "ItemID",
@@ -91879,7 +91879,7 @@
   {
     "Id": 13030224,
     "Type": "DangoMonopolyBoardCompleted",
-    "NeedNum": 1,
+    "NeedNum": 3,
     "LimitParams": [
       {
         "Key": "ActivityId",
@@ -92681,36 +92681,21 @@
     "AccessId": 0
   },
   {
-    "Id": 12900500,
-    "Type": "AbyssLittleRoleLevel",
+    "Id": 12900501,
+    "Type": "NewQuestStepState",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "Level",
-        "Value": "2"
+        "Key": "NewQuestId",
+        "Value": "221800001"
       },
       {
-        "Key": "ActivityId",
-        "Value": "104400001"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": true,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
-    "Id": 12900501,
-    "Type": "AbyssLittleRoleLevel",
-    "NeedNum": 3,
-    "LimitParams": [
-      {
-        "Key": "Level",
-        "Value": "4"
+        "Key": "QuestNodeId",
+        "Value": "135"
       },
       {
-        "Key": "ActivityId",
-        "Value": "104400001"
+        "Key": "State",
+        "Value": "3"
       }
     ],
     "LimitParamsOpe": [],
@@ -92720,16 +92705,20 @@
   },
   {
     "Id": 12900502,
-    "Type": "AbyssLittleRoleLevel",
-    "NeedNum": 5,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "Level",
-        "Value": "10"
+        "Key": "NewQuestId",
+        "Value": "221800001"
       },
       {
-        "Key": "ActivityId",
-        "Value": "104400001"
+        "Key": "QuestNodeId",
+        "Value": "20"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
       }
     ],
     "LimitParamsOpe": [],
@@ -95518,7 +95507,7 @@
     "LimitParamsOpe": [
       {
         "Key": "Status",
-        "Value": ">="
+        "Value": "<"
       }
     ],
     "IsClient": true,
@@ -97726,6 +97715,329 @@
       {
         "Key": "FocusView",
         "Value": "CiacconaGalChapterEntryView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200740,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20114"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": "<"
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900503,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "39"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900504,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "43"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900505,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "48"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900506,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "94"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900507,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "56"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900508,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "60"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900509,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "64"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900510,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "117"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900511,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "98"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900512,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "72"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900513,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "76"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900514,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "80"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12900515,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "221800001"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "141"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
       }
     ],
     "LimitParamsOpe": [],
