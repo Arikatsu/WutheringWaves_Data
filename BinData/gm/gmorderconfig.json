@@ -553,7 +553,7 @@
     "Name": "激活传送点",
     "NameOverride": "激活传送点（0激活所有）",
     "Code": "activateteleport 传送点id",
-    "CodeOverride": "activateteleport 传送点id",
+    "CodeOverride": "activateteleport 0",
     "Sort": 11081,
     "Visible": true
   },
@@ -1104,6 +1104,15 @@
     "Code": "gmswitchbigworld 副本id x y z",
     "CodeOverride": "gmswitchbigworld 副本id x y z (副本必须为世界类型)",
     "Sort": 11096,
+    "Visible": true
+  },
+  {
+    "Id": 11083,
+    "Name": "GM解锁迷雾",
+    "NameOverride": "解锁迷雾（0解锁所有）",
+    "Code": "gmunlockfog 迷雾id",
+    "CodeOverride": "gmunlockfog 0",
+    "Sort": 11083,
     "Visible": true
   }
 ]

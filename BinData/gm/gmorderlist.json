@@ -1685,6 +1685,7 @@
     "Id": 133,
     "Name": "小毕业90级角色",
     "OrderList": [
+      "add_new_role_config 14041",
       "add_new_role_config 14039",
       "add_new_role_config 14038",
       "add_new_role_config 14037",
@@ -1813,9 +1814,22 @@
     "Id": 138,
     "Name": "一键毕业-关卡测试1.2",
     "OrderList": [
-      "SkipCurrentFlow",
       "ShowTipsView#1",
       "LockGuide#1",
+      "SkipCurrentFlow",
+      "funcopengm 0",
+      "add_item 1 50000",
+      "activateteleport 0",
+      "passworldlevelup",
+      "finish_quest 139000025",
+      "finish_quest 139000026",
+      "finish_quest 139000027",
+      "add_item 2 99999999",
+      "add_item 3 99999",
+      "add_item 4 99999",
+      "add_item 10802 1",
+      "add_item 10808 999",
+      "RunActionList#[{\"Name\": \"SetEntityVisible\",\"Params\": {\"Visible\": false,\"EntityIds\": [141900335,141900336]},\"ActionGuid\": \"9b78e89ef270405d8c7100ae5da03451\"}]",
       "add_new_role_config 13001",
       "add_new_role_config 13002",
       "add_new_role_config 13003",
@@ -1864,19 +1878,10 @@
       "add_new_role_config 14035",
       "add_new_role_config 14036",
       "add_new_role_config 14037",
-      "funcopengm 0",
-      "add_item 1 50000",
-      "activateteleport 0",
-      "passworldlevelup",
-      "finish_quest 139000025",
-      "finish_quest 139000026",
-      "finish_quest 139000027",
-      "add_item 2 99999999",
-      "add_item 3 99999",
-      "add_item 4 99999",
-      "add_item 10802 1",
-      "add_item 10808 999",
-      "RunActionList#[{\"Name\": \"SetEntityVisible\",\"Params\": {\"Visible\": false,\"EntityIds\": [141900335,141900336]},\"ActionGuid\": \"9b78e89ef270405d8c7100ae5da03451\"}]"
+      "add_new_role_config 14038",
+      "add_new_role_config 14039",
+      "add_new_role_config 14040",
+      "add_new_role_config 14041"
     ]
   },
   {
@@ -1932,6 +1937,20 @@
       "finish_quest 145000004",
       "accept_quest 122000010",
       "finish_quest 122000010"
+    ]
+  },
+  {
+    "Id": 146,
+    "Name": "露帕90",
+    "OrderList": [
+      "add_new_role_config 14040"
+    ]
+  },
+  {
+    "Id": 150,
+    "Name": "风神90",
+    "OrderList": [
+      "add_new_role_config 14041"
     ]
   }
 ]

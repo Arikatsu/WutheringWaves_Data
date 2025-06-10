@@ -479,17 +479,51 @@
       7
     ],
     "AllocationPeriodic": {
-      "Min": 5000,
-      "Max": 7000
+      "Min": 2000,
+      "Max": 3000
     },
-    "AttackerNum": 1,
+    "AttackerNum": 2,
     "AttackCountDown": {
-      "Min": 5000,
-      "Max": 7000
+      "Min": 3000,
+      "Max": 4000
     },
     "NoAttackCountDown": {
       "Min": 5000,
       "Max": 6000
+    },
+    "BeAttackCountDown": {
+      "Min": 100,
+      "Max": 100
+    },
+    "EliteRatio": [
+      2,
+      1
+    ],
+    "RangeRatio": [
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "Id": 1003,
+    "PositionId": [
+      1,
+      2,
+      3
+    ],
+    "AllocationPeriodic": {
+      "Min": 8000,
+      "Max": 10000
+    },
+    "AttackerNum": 1,
+    "AttackCountDown": {
+      "Min": 4000,
+      "Max": 5000
+    },
+    "NoAttackCountDown": {
+      "Min": 4000,
+      "Max": 5000
     },
     "BeAttackCountDown": {
       "Min": 100,
