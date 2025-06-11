@@ -3,5 +3,5 @@
 > Client region: Global</br>
 > Status: Release</br>
 > Game Version: 2.4.0</br>
-> Resource Version: 2.4.7</br>
-> Changelist: 4254886
+> Resource Version: 2.4.8</br>
+> Changelist: 4261319
