@@ -207033,12 +207033,17 @@
       "TrackTarget": {
         "TrackType": {
           "Type": "Locations",
-          "Locations": []
+          "Locations": [
+            {
+              "X": 919920,
+              "Y": 655730,
+              "Z": 38451.5
+            }
+          ]
         }
       },
       "EnterActions": [],
       "FinishActions": [],
-      "HideUi": true,
       "ParentNodeId": 1
     }
   },
@@ -262859,6 +262864,17 @@
           },
           "ActionGuid": "c34b5cf57ed94d6b9bdf378c4151cc33",
           "ActionId": 3000004
+        },
+        {
+          "Name": "PostAkEvent",
+          "Params": {
+            "EventConfig": {
+              "Type": "Global",
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/stop_task_com_aoxiang_loop_screen.stop_task_com_aoxiang_loop_screen"
+            }
+          },
+          "ActionGuid": "acf3f2a2d75e4927a70e87daca6fbd8d",
+          "ActionId": 3000249
         },
         {
           "Name": "EnableSystem",
@@ -382250,6 +382266,17 @@
           "ActionId": 3000221
         },
         {
+          "Name": "PostAkEvent",
+          "Params": {
+            "EventConfig": {
+              "Type": "Global",
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_task_com_aoxiang_loop_screen.play_task_com_aoxiang_loop_screen"
+            }
+          },
+          "ActionGuid": "b14ee1c3ea1d4845b0f062c8264bf2f9",
+          "ActionId": 3000248
+        },
+        {
           "Name": "SetTime",
           "Params": {
             "Hour": 10,
@@ -383187,7 +383214,7 @@
           ]
         }
       },
-      "ParentNodeId": 126
+      "ParentNodeId": 207
     }
   },
   {
@@ -383211,7 +383238,10 @@
         "MainTitle": {
           "TidTitle": "Quest_125000125_QuestScheduleMainTitle_159_1",
           "QuestScheduleType": {
-            "Type": "None"
+            "Type": "ChildQuestCompleted",
+            "ChildQuestId": 57,
+            "ShowComplete": true,
+            "ShowTracking": true
           }
         },
         "SubTitles": [
@@ -383220,7 +383250,8 @@
             "QuestScheduleType": {
               "Type": "ChildQuestCompleted",
               "ChildQuestId": 53,
-              "ShowComplete": true
+              "ShowComplete": true,
+              "ShowTracking": true
             }
           },
           {
@@ -383228,7 +383259,8 @@
             "QuestScheduleType": {
               "Type": "ChildQuestCompleted",
               "ChildQuestId": 55,
-              "ShowComplete": true
+              "ShowComplete": true,
+              "ShowTracking": true
             }
           }
         ]
@@ -387365,6 +387397,23 @@
       },
       "EnterActions": [
         {
+          "Name": "SetAreaTimeState",
+          "Params": {
+            "SetAreaTimeConfig": {
+              "Type": 0,
+              "AreaIds": [
+                33
+              ],
+              "LockTime": {
+                "Hour": 13,
+                "Minutes": 0
+              }
+            }
+          },
+          "ActionGuid": "280501cc458e4ed9b9019af39edfb419",
+          "ActionId": 3000250
+        },
+        {
           "Name": "PlayFlow",
           "Params": {
             "FlowListName": "剧情_2_4_七丘主线_上2",
@@ -389673,6 +389722,19 @@
           },
           "ActionGuid": "565a7514341f4ae7b584994234842ce4",
           "ActionId": 3000020
+        },
+        {
+          "Name": "EnableLevelPlay",
+          "Params": {
+            "Configs": [
+              {
+                "LevelPlayId": 146850007,
+                "Enable": true
+              }
+            ]
+          },
+          "ActionGuid": "7c383e16ec9948a9adb1e804ac22b242",
+          "ActionId": 3000022
         }
       ],
       "FinishActions": [
@@ -389701,32 +389763,6 @@
           },
           "ActionGuid": "58d4c52d0ecd48bfa0acfd593cd63048",
           "ActionId": 3000140
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              146850483,
-              146850326,
-              146850329,
-              146850330,
-              146850484,
-              146850485,
-              146850486,
-              146850487,
-              146850488,
-              146850489,
-              146850490,
-              146850491,
-              146850338,
-              146850339,
-              146850340,
-              146850341,
-              146850342
-            ]
-          },
-          "ActionGuid": "cdf4ec4eecfa44babb806211073042c4",
-          "ActionId": 3000177
         },
         {
           "Name": "FadeOutScreen",
@@ -389808,21 +389844,7 @@
         }
       },
       "EnterActions": [],
-      "FinishActions": [
-        {
-          "Name": "EnableLevelPlay",
-          "Params": {
-            "Configs": [
-              {
-                "LevelPlayId": 146850007,
-                "Enable": true
-              }
-            ]
-          },
-          "ActionGuid": "06deb432e00c494eb011a05936ecc268",
-          "ActionId": 3000022
-        }
-      ],
+      "FinishActions": [],
       "HideUi": true,
       "HideTip": true,
       "ParentNodeId": 31
@@ -391174,7 +391196,9 @@
             "Params": {
               "BuffIds": [
                 611250014,
-                600020014
+                600020014,
+                611250035,
+                611250013
               ]
             },
             "ActionGuid": "51b4d6b46a394617b3e9c691dafc472a",
@@ -391218,33 +391242,6 @@
       "Type": "Sequence",
       "Id": 78,
       "Desc": "",
-      "EnableSystem": {
-        "Type": "GradingSystem",
-        "GradingSystemId": 40001,
-        "Vars": [
-          {
-            "VarType": "Score",
-            "Var": {
-              "Type": "Int",
-              "Source": "Self",
-              "Name": "道馆1"
-            }
-          }
-        ]
-      },
-      "Statistics": {
-        "StatisticsConfig": [
-          {
-            "Type": "PlayerTriggerMotion",
-            "Var": {
-              "Type": "Int",
-              "Source": "Self",
-              "Name": "行为统计1"
-            },
-            "MotionType": "CounterAttack"
-          }
-        ]
-      },
       "ParentNodeId": 75
     }
   },
@@ -391276,18 +391273,7 @@
         },
         "Range": 3000
       },
-      "EnterActions": [
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              125850153
-            ]
-          },
-          "ActionGuid": "99e86c1ddf3e421db1b51b238cbf9f7e",
-          "ActionId": 3000249
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [
         {
           "Name": "PlayDynamicSettlement",
@@ -391323,16 +391309,6 @@
           },
           "ActionGuid": "3e20da1af79146b0a33ce7201dd827ce",
           "ActionId": 3000046
-        },
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
-              125850153
-            ]
-          },
-          "ActionGuid": "263d7d1022e24665a5af383a9fae9f6d",
-          "ActionId": 3000250
         },
         {
           "Name": "FadeInScreen",
@@ -391392,14 +391368,17 @@
           "Name": "RemoveBuffFromPlayer",
           "Params": {
             "BuffIds": [
-              611250013,
-              600020014
+              611250014,
+              600020014,
+              611250035,
+              611250013
             ]
           },
           "ActionGuid": "1643fab10dbb409c87755daa75190b4d",
           "ActionId": 3000184
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 127
     }
   },
@@ -391598,7 +391577,9 @@
             "Params": {
               "BuffIds": [
                 611250014,
-                600020014
+                600020014,
+                611250035,
+                611250013
               ]
             },
             "ActionGuid": "3eaa3035326c4e25b92cb89d28c16238",
@@ -391765,33 +391746,6 @@
       "Type": "Sequence",
       "Id": 83,
       "Desc": "",
-      "EnableSystem": {
-        "Type": "GradingSystem",
-        "GradingSystemId": 40001,
-        "Vars": [
-          {
-            "VarType": "Score",
-            "Var": {
-              "Type": "Int",
-              "Source": "Self",
-              "Name": "道馆2"
-            }
-          }
-        ]
-      },
-      "Statistics": {
-        "StatisticsConfig": [
-          {
-            "Type": "PlayerTriggerMotion",
-            "Var": {
-              "Type": "Int",
-              "Source": "Self",
-              "Name": "行为统计2"
-            },
-            "MotionType": "CounterAttack"
-          }
-        ]
-      },
       "ParentNodeId": 82
     }
   },
@@ -391823,18 +391777,7 @@
         },
         "Range": 3500
       },
-      "EnterActions": [
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              125850154
-            ]
-          },
-          "ActionGuid": "2fd43653df444d05b6ea3b93c1ce660d",
-          "ActionId": 3000251
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [
         {
           "Name": "PlayDynamicSettlement",
@@ -391871,16 +391814,6 @@
           },
           "ActionGuid": "e157d7922b5443f7a08b54f98bfd90e1",
           "ActionId": 3000059
-        },
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
-              125850154
-            ]
-          },
-          "ActionGuid": "2c10653d1b904ef78237631da731e4b7",
-          "ActionId": 3000252
         },
         {
           "Name": "FadeInScreen",
@@ -391979,14 +391912,17 @@
           "Name": "RemoveBuffFromPlayer",
           "Params": {
             "BuffIds": [
-              611250013,
-              600020014
+              611250014,
+              600020014,
+              611250035,
+              611250013
             ]
           },
           "ActionGuid": "1cbd9edbfb75437096d4978204b5fdfa",
           "ActionId": 3000186
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 176
     }
   },
@@ -392735,7 +392671,43 @@
           "Locations": []
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "76471ac177a448a08b8d7f3346a9f73b",
+          "ActionId": 3000251
+        },
+        {
+          "Name": "SetAreaTimeState",
+          "Params": {
+            "SetAreaTimeConfig": {
+              "Type": 1,
+              "AreaIds": [
+                33
+              ]
+            }
+          },
+          "ActionGuid": "6bfe48d0978d476e8891d881f32499d1",
+          "ActionId": 3000290
+        },
+        {
+          "Name": "SetTime",
+          "Params": {
+            "Hour": 17,
+            "Min": 30,
+            "ShowUi": false
+          },
+          "ActionGuid": "4fd009fb56244af3a5934829ca0303a7",
+          "ActionId": 3000291
+        }
+      ],
       "FinishActions": [],
       "HideTip": true,
       "HideUiExceptTaskList": true,
@@ -393245,8 +393217,8 @@
             }
           ]
         },
-        "Range": 35000,
-        "ViewRange": 36000
+        "Range": 32000,
+        "ViewRange": 32500
       },
       "EnterActions": [
         {
@@ -393936,6 +393908,19 @@
           "ActionId": 3000061
         },
         {
+          "Name": "EnableLevelPlay",
+          "Params": {
+            "Configs": [
+              {
+                "LevelPlayId": 146850008,
+                "Enable": true
+              }
+            ]
+          },
+          "ActionGuid": "b3f5c8a5e0784a968af1cd8098695fec",
+          "ActionId": 3000115
+        },
+        {
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
@@ -393946,27 +393931,6 @@
           },
           "ActionGuid": "cfdaf7e826de46fdbd040584f97d2325",
           "ActionId": 3000062
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              146850347,
-              146850344,
-              146850345,
-              146850346,
-              143850514,
-              143850507,
-              143850508,
-              143850509,
-              143850510,
-              143850511,
-              143850512,
-              143850513
-            ]
-          },
-          "ActionGuid": "f2fe5ad14e2444988c7c66c0cfaab62c",
-          "ActionId": 3000178
         }
       ],
       "FinishActions": [],
@@ -396052,6 +396016,21 @@
           "ActionId": 3000282
         },
         {
+          "Name": "SetPlayerPos",
+          "Params": {
+            "TelePortConfig": {
+              "Type": 0,
+              "TargetPos": {
+                "X": 1255449.38,
+                "Y": 1175320.63,
+                "Z": 45200.59
+              }
+            }
+          },
+          "ActionGuid": "9da03af544854bca87ccf20636dbcf43",
+          "ActionId": 3000292
+        },
+        {
           "Name": "FadeOutScreen",
           "Params": {
             "Ease": {
@@ -396284,16 +396263,6 @@
           "Name": "DestroyEntity",
           "Params": {
             "EntityIds": [
-              125850038
-            ]
-          },
-          "ActionGuid": "5c2f3a772ab1413f84116b77f9eb46f4",
-          "ActionId": 3000084
-        },
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
               945850001
             ]
           },
@@ -396309,6 +396278,18 @@
           },
           "ActionGuid": "a2ffe841bf9e41fa97477a3b74a6e169",
           "ActionId": 3000071
+        }
+      ],
+      "FinishActions": [
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              125850038
+            ]
+          },
+          "ActionGuid": "da967d31f060415eb90221272361e5d4",
+          "ActionId": 3000052
         },
         {
           "Name": "SwitchDataLayers",
@@ -396320,12 +396301,10 @@
               850003
             ]
           },
-          "ActionGuid": "5f5188bcb349423fb3655fd17cacdada",
+          "ActionGuid": "720fea5973034f5698f17ce1b4c336f9",
           "Async": true,
-          "ActionId": 3000052
-        }
-      ],
-      "FinishActions": [
+          "ActionId": 3000084
+        },
         {
           "Name": "SetPlayerOperationRestriction",
           "Params": {
@@ -397837,7 +397816,7 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 125850039,
+            "EntityId": 159850154,
             "State": "关卡.Common.状态.激活"
           },
           "ActionGuid": "b94297991b73476293530ff092d12c9e",
@@ -397905,7 +397884,7 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 125850039,
+            "EntityId": 159850154,
             "State": "关卡.Common.状态.常态"
           },
           "ActionGuid": "d557e55e279c44b7a8cbac2402134287",
@@ -397938,6 +397917,9 @@
           "Name": "RemoveBuffFromPlayer",
           "Params": {
             "BuffIds": [
+              611250014,
+              611250035,
+              600020014,
               611250013
             ]
           },
@@ -397945,6 +397927,7 @@
           "ActionId": 3000257
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 182
     }
   },
@@ -441107,7 +441090,7 @@
             "UiOption": {
               "Type": "EnableSectionalUi",
               "ShowMiniMap": false,
-              "ShowQuestTrack": false,
+              "ShowQuestTrack": true,
               "ShowEsc": false,
               "ShowSystem": false,
               "ShowScreenEffect": true,
@@ -441155,7 +441138,8 @@
           "Params": {
             "BuffIds": [
               611250013,
-              600020014
+              600020014,
+              611250035
             ]
           },
           "ActionGuid": "45ef5f10d0b64cba9aa4b4a235929a51",
@@ -441268,7 +441252,7 @@
             "UiOption": {
               "Type": "EnableSectionalUi",
               "ShowMiniMap": false,
-              "ShowQuestTrack": false,
+              "ShowQuestTrack": true,
               "ShowEsc": false,
               "ShowSystem": false,
               "ShowScreenEffect": true,
@@ -441316,7 +441300,8 @@
           "Params": {
             "BuffIds": [
               611250013,
-              600020014
+              600020014,
+              611250035
             ]
           },
           "ActionGuid": "85bda7a4bc2f45d9b118f3a73783b4a8",
@@ -451583,7 +451568,7 @@
           "Name": "OpenSystemBoard",
           "Params": {
             "SystemType": "PhantomBattleChallenge",
-            "BoardId": 1019
+            "BoardId": 1020
           },
           "ActionGuid": "d7520c0aee254a13be2ab36b71b1ab9b",
           "Async": true,
@@ -451610,7 +451595,7 @@
       "Desc": "监听流程副本完成",
       "Condition": {
         "Type": "FinishBvbChallenge",
-        "BvbChallengeId": 1019
+        "BvbChallengeId": 1020
       },
       "TidTip": "Quest_915000000_ChildQuestTip_915_136",
       "TrackTarget": {
@@ -451723,7 +451708,7 @@
           "Name": "OpenSystemBoard",
           "Params": {
             "SystemType": "PhantomBattleChallenge",
-            "BoardId": 1020
+            "BoardId": 1019
           },
           "ActionGuid": "247273003d1b42cb958bcfaafaac8897",
           "Async": true,
@@ -451750,7 +451735,7 @@
       "Desc": "监听流程副本完成",
       "Condition": {
         "Type": "FinishBvbChallenge",
-        "BvbChallengeId": 1020
+        "BvbChallengeId": 1019
       },
       "TidTip": "Quest_915000000_ChildQuestTip_915_137",
       "TrackTarget": {
@@ -458388,12 +458373,34 @@
                 162850920,
                 162850921,
                 162850918,
-                162850919
+                162850919,
+                162850112,
+                162850118,
+                162850121,
+                162850275,
+                162850278,
+                162850281,
+                162850282,
+                162850286,
+                162850288,
+                162850292,
+                162850296,
+                162850726,
+                162850729,
+                162850732,
+                162850735,
+                162850111,
+                162850117,
+                162850120,
+                162850724,
+                162850727,
+                162850730,
+                162850734
               ]
             }
           },
-          "ActionGuid": "792dc4ece2c44a36b9a2aea2dcf21ffe",
-          "ActionId": 3000069
+          "ActionGuid": "b642ac4bb34d458c9f9ecc2a1341be88",
+          "ActionId": 3000003
         }
       ],
       "FinishActions": [
@@ -458501,16 +458508,6 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 133850470,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "df3bf744790049c488315ab10b300f04",
-          "ActionId": 3000059
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
             "EntityId": 133850443,
             "State": "关卡.Common.状态.完成"
           },
@@ -458531,26 +458528,6 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 133850471,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "58d9fa8fd3b04f9c97628c3f85902677",
-          "ActionId": 3000062
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 133850472,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "fa75561170014b56aa2cfe2a9fa934c2",
-          "ActionId": 3000063
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
             "EntityId": 133850455,
             "State": "关卡.Common.状态.完成"
           },
@@ -458561,31 +458538,11 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 133850473,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "19c9732c772c43ebb1376091ef00a4b9",
-          "ActionId": 3000065
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
             "EntityId": 133850461,
             "State": "关卡.Common.状态.完成"
           },
           "ActionGuid": "66460d77f3534539b26b79c804b5c9bf",
           "ActionId": 3000066
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 133850474,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "8b17a5efb16848ffa8f23829aca8e2aa",
-          "ActionId": 3000067
         },
         {
           "Name": "ChangeEntityState",
@@ -459251,6 +459208,12 @@
             "QuestScheduleType": {
               "Type": "None"
             }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_8",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
           }
         ]
       },
@@ -459333,6 +459296,12 @@
           },
           {
             "TidTitle": "Quest_221800001_QuestScheduleSubTitle_221_54",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_10",
             "QuestScheduleType": {
               "Type": "None"
             }
@@ -459439,6 +459408,12 @@
             "QuestScheduleType": {
               "Type": "None"
             }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_12",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
           }
         ]
       },
@@ -459542,6 +459517,12 @@
             "QuestScheduleType": {
               "Type": "None"
             }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_4",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
           }
         ]
       },
@@ -459611,6 +459592,12 @@
         "SubTitles": [
           {
             "TidTitle": "Quest_221800001_QuestScheduleSubTitle_221_13",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_14",
             "QuestScheduleType": {
               "Type": "None"
             }
@@ -459686,6 +459673,12 @@
           },
           {
             "TidTitle": "Quest_221800001_QuestScheduleSubTitle_221_27",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_16",
             "QuestScheduleType": {
               "Type": "None"
             }
@@ -459797,6 +459790,12 @@
             "QuestScheduleType": {
               "Type": "None"
             }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_18",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
           }
         ]
       },
@@ -459893,6 +459892,12 @@
           },
           {
             "TidTitle": "Quest_221800001_QuestScheduleSubTitle_221_48",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_20",
             "QuestScheduleType": {
               "Type": "None"
             }
@@ -460172,6 +460177,12 @@
             "QuestScheduleType": {
               "Type": "None"
             }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_2",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
           }
         ]
       },
@@ -460230,6 +460241,12 @@
         "SubTitles": [
           {
             "TidTitle": "Quest_221800001_QuestScheduleSubTitle_221_17",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_22",
             "QuestScheduleType": {
               "Type": "None"
             }
@@ -460365,6 +460382,12 @@
             "QuestScheduleType": {
               "Type": "None"
             }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_24",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
           }
         ]
       },
@@ -460423,6 +460446,12 @@
             "QuestScheduleType": {
               "Type": "None"
             }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_26",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
           }
         ]
       },
@@ -460478,6 +460507,12 @@
         "SubTitles": [
           {
             "TidTitle": "Quest_221800001_QuestScheduleSubTitle_221_20",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_28",
             "QuestScheduleType": {
               "Type": "None"
             }
@@ -463612,7 +463647,7 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 125850039,
+            "EntityId": 159850154,
             "State": "关卡.Common.状态.激活"
           },
           "ActionGuid": "158a3bcb361c42cb8ed1f4eb3369348f",
@@ -463692,7 +463727,7 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 125850039,
+            "EntityId": 159850154,
             "State": "关卡.Common.状态.常态"
           },
           "ActionGuid": "bc5a1fdc997a4c61baac2eff15e3b14b",
@@ -463710,6 +463745,9 @@
           "Name": "RemoveBuffFromPlayer",
           "Params": {
             "BuffIds": [
+              611250014,
+              611250035,
+              600020014,
               611250013
             ]
           },
@@ -463717,6 +463755,7 @@
           "ActionId": 3000255
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 175
     }
   },
@@ -464661,7 +464700,29 @@
                 162850920,
                 162850921,
                 162850918,
-                162850919
+                162850919,
+                162850112,
+                162850118,
+                162850121,
+                162850275,
+                162850278,
+                162850281,
+                162850282,
+                162850286,
+                162850288,
+                162850292,
+                162850296,
+                162850726,
+                162850729,
+                162850732,
+                162850735,
+                162850111,
+                162850117,
+                162850120,
+                162850724,
+                162850727,
+                162850730,
+                162850734
               ]
             }
           },
@@ -467012,7 +467073,8 @@
           "TidTitle": "Quest_125000126_QuestScheduleMainTitle_125_1",
           "QuestScheduleType": {
             "Type": "ChildQuestCompleted",
-            "ChildQuestId": 37
+            "ChildQuestId": 37,
+            "ShowTracking": true
           }
         },
         "SubTitles": [
@@ -467021,7 +467083,8 @@
             "QuestScheduleType": {
               "Type": "ChildQuestCompleted",
               "ChildQuestId": 128,
-              "OnlyShowWhileRunning": true
+              "OnlyShowWhileRunning": true,
+              "ShowTracking": true
             }
           }
         ]
@@ -468800,6 +468863,12 @@
         "SubTitles": [
           {
             "TidTitle": "Quest_221800001_QuestScheduleSubTitle_221_38",
+            "QuestScheduleType": {
+              "Type": "None"
+            }
+          },
+          {
+            "TidTitle": "Quest_221800001_QuestScheduleSubTitle_318_6",
             "QuestScheduleType": {
               "Type": "None"
             }
@@ -475539,7 +475608,8 @@
                 176850090,
                 176850140,
                 125850086,
-                125850088
+                125850088,
+                125850156
               ],
               "AppendEntities": [
                 162850688,
@@ -476184,7 +476254,8 @@
                 176850110,
                 176850068,
                 176850109,
-                176850070
+                176850070,
+                125850157
               ],
               "AppendEntities": [
                 176850658,
@@ -478116,17 +478187,6 @@
           },
           "ActionGuid": "b384b1faf837451091567a81d80dd67c",
           "ActionId": 3000224
-        },
-        {
-          "Name": "FadeOutScreen",
-          "Params": {
-            "Ease": {
-              "Type": 2,
-              "Duration": 1
-            }
-          },
-          "ActionGuid": "4fbc28aafdbe41e1a85418b1e1c38884",
-          "ActionId": 3000233
         }
       ],
       "HideTip": true,
@@ -478147,7 +478207,8 @@
           "TidTitle": "Quest_125000126_QuestScheduleMainTitle_125_2",
           "QuestScheduleType": {
             "Type": "ChildQuestCompleted",
-            "ChildQuestId": 20
+            "ChildQuestId": 20,
+            "ShowTracking": true
           }
         },
         "SubTitles": [
@@ -478156,7 +478217,8 @@
             "QuestScheduleType": {
               "Type": "ChildQuestCompleted",
               "ChildQuestId": 132,
-              "OnlyShowWhileRunning": true
+              "OnlyShowWhileRunning": true,
+              "ShowTracking": true
             }
           }
         ]
@@ -478225,7 +478287,8 @@
           "TidTitle": "Quest_125000126_QuestScheduleMainTitle_125_3",
           "QuestScheduleType": {
             "Type": "ChildQuestCompleted",
-            "ChildQuestId": 135
+            "ChildQuestId": 135,
+            "ShowTracking": true
           }
         },
         "SubTitles": [
@@ -478234,7 +478297,8 @@
             "QuestScheduleType": {
               "Type": "ChildQuestCompleted",
               "ChildQuestId": 137,
-              "OnlyShowWhileRunning": true
+              "OnlyShowWhileRunning": true,
+              "ShowTracking": true
             }
           }
         ]
@@ -479680,8 +479744,8 @@
           "Type": "Locations",
           "Locations": [
             {
-              "X": 1185835.25,
-              "Y": 1124052.25,
+              "X": 1186137.38,
+              "Y": 1123932.75,
               "Z": 2901.5
             }
           ]
@@ -483157,7 +483221,10 @@
         "MainTitle": {
           "TidTitle": "Quest_125000126_QuestScheduleMainTitle_125_4",
           "QuestScheduleType": {
-            "Type": "None"
+            "Type": "ChildQuestCompleted",
+            "ChildQuestId": 156,
+            "ShowComplete": true,
+            "ShowTracking": true
           }
         },
         "SubTitles": []
@@ -485418,7 +485485,16 @@
           "Y": 1063527.9,
           "Z": 9109.7
         },
-        "Range": 500
+        "Range": 500,
+        "MatchRoleOption": [
+          {
+            "Type": "Phantom",
+            "Id": 5017001
+          },
+          {
+            "Type": "Player"
+          }
+        ]
       },
       "TidTip": "Quest_161850000_ChildQuestTip_161_70",
       "TrackTarget": {
@@ -488317,7 +488393,7 @@
             "UiOption": {
               "Type": "EnableSectionalUi",
               "ShowMiniMap": false,
-              "ShowQuestTrack": false,
+              "ShowQuestTrack": true,
               "ShowEsc": false,
               "ShowSystem": false,
               "ShowScreenEffect": true,
@@ -488418,7 +488494,8 @@
           "Params": {
             "BuffIds": [
               611250013,
-              600020014
+              600020014,
+              611250035
             ]
           },
           "ActionGuid": "2c4f997de04f48d09e7ba416e2d45079",
@@ -488537,7 +488614,7 @@
             "UiOption": {
               "Type": "EnableSectionalUi",
               "ShowMiniMap": false,
-              "ShowQuestTrack": false,
+              "ShowQuestTrack": true,
               "ShowEsc": false,
               "ShowSystem": false,
               "ShowScreenEffect": true,
@@ -488648,7 +488725,8 @@
           "Params": {
             "BuffIds": [
               611250013,
-              600020014
+              600020014,
+              611250035
             ]
           },
           "ActionGuid": "4bae5c2dd7074c9e939bb5ed6a55af82",
@@ -491690,6 +491768,15 @@
         "RangeEntities": [
           161850284,
           161850374
+        ],
+        "MatchRoleOption": [
+          {
+            "Type": "Phantom",
+            "Id": 5017001
+          },
+          {
+            "Type": "Player"
+          }
         ]
       },
       "TidTip": "Quest_161850000_ChildQuestTip_161_79",
@@ -491909,7 +491996,7 @@
               }
             ]
           },
-          "ActionGuid": "2ae4453893574572ac905a32ca7ae4e6",
+          "ActionGuid": "70947241e2124814b31d9ad639179245",
           "ActionId": 3000234
         }
       ],
@@ -491924,7 +492011,7 @@
               }
             ]
           },
-          "ActionGuid": "fcffbd7bb33c4759b71d3459999450fc",
+          "ActionGuid": "9df78e9280724907bc1ecfee37f6eb9f",
           "ActionId": 3000235
         },
         {
@@ -491936,7 +492023,7 @@
             ],
             "IsRemoveTips": true
           },
-          "ActionGuid": "98d7d627b47649b2a92818083e89785d",
+          "ActionGuid": "7e3feef143914054bd29c879c5e6ff5d",
           "ActionId": 3000243
         },
         {
@@ -491946,11 +492033,11 @@
             "EntityId": 159850095,
             "State": "关卡.Common.状态.常态"
           },
-          "ActionGuid": "560ff242adf349e08ee0f81487a95586",
+          "ActionGuid": "d4bfb4319c6a42988c2b46723d2b755e",
           "ActionId": 3000245
         }
       ],
-      "ParentNodeId": 126
+      "ParentNodeId": 207
     }
   },
   {
@@ -495767,7 +495854,6 @@
             "EntityIds": [
               183850008,
               183850100,
-              183850184,
               183850074
             ]
           },
@@ -495999,16 +496085,6 @@
           "ActionId": 3000019
         },
         {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "EnableAll"
-          },
-          "ActionGuid": "c1658c4a6abb45dcb42880d3479eadf8",
-          "ActionId": 3000021
-        }
-      ],
-      "FinishActions": [
-        {
           "Name": "AddBuffToPlayer",
           "Params": {
             "BuffIds": [
@@ -496019,9 +496095,19 @@
               640018036
             ]
           },
-          "ActionGuid": "5d07d282e2444d3885d0e61685aac792",
+          "ActionGuid": "ac9252d524f74b328a4b69693209a169",
           "ActionId": 3000148
         },
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "EnableAll"
+          },
+          "ActionGuid": "c1658c4a6abb45dcb42880d3479eadf8",
+          "ActionId": 3000021
+        }
+      ],
+      "FinishActions": [
         {
           "Name": "SetPlayerOperationRestriction",
           "Params": {
@@ -496105,7 +496191,6 @@
               183850049,
               183850095,
               183850096,
-              183850184,
               183850091,
               183850246,
               183850249,
@@ -496282,6 +496367,16 @@
           "ActionId": 3000035
         },
         {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 183850247,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "9f65e45e0b9646ff8a865a17dbfdfd19",
+          "ActionId": 3000152
+        },
+        {
           "Name": "DestroyEntity",
           "Params": {
             "EntityIds": [
@@ -496399,16 +496494,6 @@
           },
           "ActionGuid": "72c7f50aea4541f3bd7ffceadeaa9dcf",
           "ActionId": 3000103
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 183850247,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "dced30b1284844a8a70becbe95a61dfe",
-          "ActionId": 3000152
         },
         {
           "Name": "ChangeEntityState",
@@ -496870,6 +496955,33 @@
       "Id": 154,
       "Desc": "",
       "DisableOnline": true,
+      "Statistics": {
+        "StatisticsConfig": [
+          {
+            "Type": "PlayerTriggerMotion",
+            "Var": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "行为统计3"
+            },
+            "MotionType": "CounterAttack"
+          }
+        ]
+      },
+      "EnableSystem": {
+        "Type": "GradingSystem",
+        "GradingSystemId": 40002,
+        "Vars": [
+          {
+            "VarType": "Score",
+            "Var": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "大竞技场1"
+            }
+          }
+        ]
+      },
       "ParentNodeId": 163
     }
   },
@@ -496880,6 +496992,33 @@
       "Id": 155,
       "Desc": "",
       "DisableOnline": true,
+      "Statistics": {
+        "StatisticsConfig": [
+          {
+            "Type": "PlayerTriggerMotion",
+            "Var": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "行为统计4"
+            },
+            "MotionType": "CounterAttack"
+          }
+        ]
+      },
+      "EnableSystem": {
+        "Type": "GradingSystem",
+        "GradingSystemId": 40002,
+        "Vars": [
+          {
+            "VarType": "Score",
+            "Var": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "大竞技场2"
+            }
+          }
+        ]
+      },
       "ParentNodeId": 173
     }
   },
@@ -497388,7 +497527,6 @@
       "Type": "Sequence",
       "Id": 1,
       "Desc": "",
-      "SaveConfig": {},
       "ParentNodeId": 0
     }
   },
@@ -501064,7 +501202,7 @@
       "Id": 127,
       "Desc": "",
       "Count": 1,
-      "ParentNodeId": 78
+      "ParentNodeId": 204
     }
   },
   {
@@ -501934,7 +502072,7 @@
             "Name": "ChangeEntityState",
             "Params": {
               "Type": "Directly",
-              "EntityId": 125850039,
+              "EntityId": 159850154,
               "State": "关卡.Common.状态.常态"
             },
             "ActionGuid": "e7da00df7cbe46d8a2adb90a8a5c797b",
@@ -501945,7 +502083,9 @@
             "Params": {
               "BuffIds": [
                 611250014,
-                600020014
+                600020014,
+                611250035,
+                611250013
               ]
             },
             "ActionGuid": "c445d3be73b84da3bf9ade4491f8510e",
@@ -501975,33 +502115,6 @@
       "Type": "Sequence",
       "Id": 163,
       "Desc": "",
-      "Statistics": {
-        "StatisticsConfig": [
-          {
-            "Type": "PlayerTriggerMotion",
-            "Var": {
-              "Type": "Int",
-              "Source": "Self",
-              "Name": "行为统计3"
-            },
-            "MotionType": "CounterAttack"
-          }
-        ]
-      },
-      "EnableSystem": {
-        "Type": "GradingSystem",
-        "GradingSystemId": 40002,
-        "Vars": [
-          {
-            "VarType": "Score",
-            "Var": {
-              "Type": "Int",
-              "Source": "Self",
-              "Name": "大竞技场1"
-            }
-          }
-        ]
-      },
       "DisableOnline": true,
       "ParentNodeId": 162
     }
@@ -502082,7 +502195,7 @@
             "Name": "ChangeEntityState",
             "Params": {
               "Type": "Directly",
-              "EntityId": 125850039,
+              "EntityId": 159850154,
               "State": "关卡.Common.状态.常态"
             },
             "ActionGuid": "b15035d7bdf14e998788cf20054de8a1",
@@ -502093,7 +502206,9 @@
             "Params": {
               "BuffIds": [
                 611250014,
-                600020014
+                600020014,
+                611250035,
+                611250013
               ]
             },
             "ActionGuid": "8bac7c90937a4ef78aade9c0a32948c3",
@@ -502156,33 +502271,6 @@
       "Type": "Sequence",
       "Id": 173,
       "Desc": "",
-      "Statistics": {
-        "StatisticsConfig": [
-          {
-            "Type": "PlayerTriggerMotion",
-            "Var": {
-              "Type": "Int",
-              "Source": "Self",
-              "Name": "行为统计4"
-            },
-            "MotionType": "CounterAttack"
-          }
-        ]
-      },
-      "EnableSystem": {
-        "Type": "GradingSystem",
-        "GradingSystemId": 40002,
-        "Vars": [
-          {
-            "VarType": "Score",
-            "Var": {
-              "Type": "Int",
-              "Source": "Self",
-              "Name": "大竞技场2"
-            }
-          }
-        ]
-      },
       "DisableOnline": true,
       "ParentNodeId": 168
     }
@@ -502505,19 +502593,6 @@
           },
           "ActionGuid": "d0a7389376794ce78fd31aaac63f8ed0",
           "ActionId": 3000031
-        },
-        {
-          "Name": "EnableLevelPlay",
-          "Params": {
-            "Configs": [
-              {
-                "LevelPlayId": 146850008,
-                "Enable": true
-              }
-            ]
-          },
-          "ActionGuid": "9424e673d73344d8b6f5fc2c48d34f76",
-          "ActionId": 3000115
         }
       ],
       "ParentNodeId": 69
@@ -503352,8 +503427,8 @@
         {
           "Name": "SetTime",
           "Params": {
-            "Hour": 17,
-            "Min": 30,
+            "Hour": 13,
+            "Min": 0,
             "ShowUi": false
           },
           "ActionGuid": "154e827013044e12998534d9521bba50",
@@ -503915,7 +503990,7 @@
       "Id": 176,
       "Desc": "",
       "Count": 1,
-      "ParentNodeId": 83
+      "ParentNodeId": 203
     }
   },
   {
@@ -504506,7 +504581,7 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 125850039,
+            "EntityId": 159850154,
             "State": "关卡.Common.状态.常态"
           },
           "ActionGuid": "d00cfd0e414c459e9b54740c5cceb609",
@@ -504524,6 +504599,9 @@
           "Name": "RemoveBuffFromPlayer",
           "Params": {
             "BuffIds": [
+              611250014,
+              611250035,
+              600020014,
               611250013
             ]
           },
@@ -504531,7 +504609,7 @@
           "ActionId": 3000266
         }
       ],
-      "HideUi": true,
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 180
     }
   },
@@ -504646,7 +504724,7 @@
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
-            "EntityId": 125850039,
+            "EntityId": 159850154,
             "State": "关卡.Common.状态.常态"
           },
           "ActionGuid": "fc1e9270b9e14a4aa18d2b6b2a202d1e",
@@ -504679,6 +504757,9 @@
           "Name": "RemoveBuffFromPlayer",
           "Params": {
             "BuffIds": [
+              611250014,
+              611250035,
+              600020014,
               611250013
             ]
           },
@@ -504686,7 +504767,7 @@
           "ActionId": 3000274
         }
       ],
-      "HideUi": true,
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 184
     }
   },
@@ -506306,6 +506387,7 @@
           "ActionId": 3000217
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 185
     }
   },
@@ -506398,6 +506480,7 @@
           "ActionId": 3000220
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 187
     }
   },
@@ -506469,6 +506552,7 @@
           "ActionId": 3000221
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 189
     }
   },
@@ -506538,6 +506622,7 @@
           "ActionId": 3000223
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 191
     }
   },
@@ -506584,6 +506669,7 @@
           "ActionId": 3000224
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 211
     }
   },
@@ -506665,6 +506751,7 @@
           "ActionId": 3000226
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 212
     }
   },
@@ -506757,6 +506844,7 @@
           "ActionId": 3000234
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 197
     }
   },
@@ -506849,6 +506937,7 @@
           "ActionId": 3000238
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 203
     }
   },
@@ -506920,6 +507009,7 @@
           "ActionId": 3000235
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 199
     }
   },
@@ -506989,6 +507079,7 @@
           "ActionId": 3000240
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 201
     }
   },
@@ -507035,6 +507126,7 @@
           "ActionId": 3000241
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 213
     }
   },
@@ -507116,6 +507208,7 @@
           "ActionId": 3000243
         }
       ],
+      "HideUiExceptTaskList": true,
       "ParentNodeId": 214
     }
   },
@@ -507446,7 +507539,16 @@
           "Y": 1064075.25,
           "Z": 9546.04
         },
-        "Range": 500
+        "Range": 500,
+        "MatchRoleOption": [
+          {
+            "Type": "Phantom",
+            "Id": 5017001
+          },
+          {
+            "Type": "Player"
+          }
+        ]
       },
       "TidTip": "Quest_161850000_ChildQuestTip_161_107",
       "TrackTarget": {
@@ -508843,19 +508945,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "7951d27f735a467b9b177e68df2f8bde",
-          "Async": true,
-          "ActionId": 3000079
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 327
     }
@@ -509018,19 +509108,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "b9f87d4a803f410c9cbff1eee3adc313",
-          "Async": true,
-          "ActionId": 3000080
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 328
     }
@@ -509060,19 +509138,7 @@
         },
         "Range": 3000
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "b0d4546e887c434eab3c7c14eac69993",
-          "Async": true,
-          "ActionId": 3000081
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 328
     }
@@ -509216,19 +509282,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "9101cbfa377e4253a07bff759833750c",
-          "Async": true,
-          "ActionId": 3000082
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 329
     }
@@ -509391,19 +509445,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "9bf7b464898d47818166c42e49ef3134",
-          "Async": true,
-          "ActionId": 3000083
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 330
     }
@@ -509428,7 +509470,7 @@
         "TrackType": {
           "Type": "Entities",
           "EntityIds": [
-            133850323
+            133850081
           ]
         },
         "Range": 2000
@@ -509566,19 +509608,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "04c43f4da96d473fbdbdcecca4e91682",
-          "Async": true,
-          "ActionId": 3000084
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 331
     }
@@ -509741,19 +509771,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "d93eadcd5446448082de1ff29e5f5d08",
-          "Async": true,
-          "ActionId": 3000085
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 332
     }
@@ -509916,19 +509934,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "09edd5dc03214935aff28549e649479d",
-          "Async": true,
-          "ActionId": 3000086
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 333
     }
@@ -510102,19 +510108,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "fd7fc5ab9a4646b3813058fc0da4f94c",
-          "Async": true,
-          "ActionId": 3000087
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 334
     }
@@ -510277,19 +510271,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "500401dbacb94dca9a9c7a8a6b7bb022",
-          "Async": true,
-          "ActionId": 3000088
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 335
     }
@@ -510452,19 +510434,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "611143e266874d12b6a8d228f875228d",
-          "Async": true,
-          "ActionId": 3000089
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 336
     }
@@ -510627,19 +510597,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "54964237f46048f0bb9873456810ec06",
-          "Async": true,
-          "ActionId": 3000090
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 337
     }
@@ -510802,19 +510760,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "eda59c4dd7d64d14a90915c6d922f7d6",
-          "Async": true,
-          "ActionId": 3000091
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 338
     }
@@ -510988,19 +510934,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "9d9be98d7b144375b6c26c0787e9396b",
-          "Async": true,
-          "ActionId": 3000092
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 339
     }
@@ -511163,19 +511097,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "6ff18c90791c4a7b960ce7ca2ce5702f",
-          "Async": true,
-          "ActionId": 3000093
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 340
     }
@@ -511338,19 +511260,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "1162fbeaf627411a825e4ea34ae0841d",
-          "Async": true,
-          "ActionId": 3000094
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 341
     }
@@ -511513,19 +511423,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "e1118ec2e450416ea3ec05e5322e8039",
-          "Async": true,
-          "ActionId": 3000095
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 342
     }
@@ -514241,6 +514139,17 @@
                     },
                     "ActionGuid": "0cb7ce3acb5a4431bad7a34c189db561",
                     "ActionId": 3000004
+                  },
+                  {
+                    "Name": "FadeOutScreen",
+                    "Params": {
+                      "Ease": {
+                        "Type": 2,
+                        "Duration": 1
+                      }
+                    },
+                    "ActionGuid": "dc5df7639f994af084b2657e0435239e",
+                    "ActionId": 3000294
                   }
                 ]
               }
@@ -514287,6 +514196,17 @@
           },
           "ActionGuid": "0cb7ce3acb5a4431bad7a34c189db561",
           "ActionId": 3000004
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
+          },
+          "ActionGuid": "dc5df7639f994af084b2657e0435239e",
+          "ActionId": 3000294
         }
       ],
       "ParentNodeId": 216
@@ -514349,6 +514269,17 @@
                     },
                     "ActionGuid": "fdadfb932bf6499498ec6c0dd6921b1a",
                     "ActionId": 3000008
+                  },
+                  {
+                    "Name": "FadeOutScreen",
+                    "Params": {
+                      "Ease": {
+                        "Type": 2,
+                        "Duration": 1
+                      }
+                    },
+                    "ActionGuid": "fc0d206463804251a53ae1fc99ec3d1d",
+                    "ActionId": 3000293
                   }
                 ]
               }
@@ -514395,6 +514326,17 @@
           },
           "ActionGuid": "fdadfb932bf6499498ec6c0dd6921b1a",
           "ActionId": 3000008
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
+          },
+          "ActionGuid": "fc0d206463804251a53ae1fc99ec3d1d",
+          "ActionId": 3000293
         }
       ],
       "ParentNodeId": 219
@@ -515023,7 +514965,6 @@
       "Id": 54,
       "Desc": "",
       "Count": 1,
-      "DisableOnline": true,
       "ParentNodeId": 16
     }
   },
@@ -515158,6 +515099,7 @@
       "SaveConfig": {
         "DisableRollbackWhileReconnect": false
       },
+      "DisableOnline": true,
       "ParentNodeId": 1
     }
   },
@@ -518394,7 +518336,17 @@
           "Locations": []
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableAll",
+            "DisplayMode": "ShowUi"
+          },
+          "ActionGuid": "6372997696e942f59209c1e00b506919",
+          "ActionId": 3000014
+        }
+      ],
       "FinishActions": [
         {
           "Name": "ChangeEntityState",
@@ -518417,6 +518369,7 @@
           "ActionId": 3000061
         }
       ],
+      "HideTip": true,
       "ParentNodeId": 50
     }
   },
@@ -518442,7 +518395,17 @@
           "Locations": []
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableAll",
+            "DisplayMode": "ShowUi"
+          },
+          "ActionGuid": "8c4cbaf354bf4a1a8a00a804dc5ee71e",
+          "ActionId": 3000073
+        }
+      ],
       "FinishActions": [
         {
           "Name": "ChangeEntityState",
@@ -518465,6 +518428,7 @@
           "ActionId": 3000066
         }
       ],
+      "HideTip": true,
       "ParentNodeId": 52
     }
   },
@@ -518583,7 +518547,17 @@
           "Locations": []
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableAll",
+            "DisplayMode": "ShowUi"
+          },
+          "ActionGuid": "13adc3e6a54942a2882cf95f7a3a207f",
+          "ActionId": 3000072
+        }
+      ],
       "FinishActions": [
         {
           "Name": "ChangeEntityState",
@@ -518606,6 +518580,7 @@
           "ActionId": 3000063
         }
       ],
+      "HideTip": true,
       "ParentNodeId": 51
     }
   },
@@ -519413,19 +519388,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "8a545b7823bb4342ac309c1d06c824d5",
-          "Async": true,
-          "ActionId": 3000003
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 327
     }
@@ -519588,19 +519551,7 @@
           "Locations": []
         }
       },
-      "EnterActions": [
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34173
-          },
-          "ActionGuid": "0dc9401a4c6f42ba8053172d511473e8",
-          "Async": true,
-          "ActionId": 3000077
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 328
     }
@@ -520898,7 +520849,7 @@
       "Id": 365,
       "Desc": "",
       "Count": 1,
-      "ParentNodeId": 359
+      "ParentNodeId": 372
     }
   },
   {
@@ -521033,6 +520984,20 @@
                   "Source": "Constant",
                   "Value": 1
                 }
+              },
+              {
+                "Type": "CompareVar",
+                "Var1": {
+                  "Type": "Boolean",
+                  "Source": "Global",
+                  "Keyword": "cqydcsjl"
+                },
+                "Compare": "Eq",
+                "Var2": {
+                  "Type": "Boolean",
+                  "Source": "Constant",
+                  "Value": true
+                }
               }
             ]
           },
@@ -521069,14 +521034,14 @@
         },
         {
           "Condition": {
-            "Type": 0,
+            "Type": 1,
             "Conditions": [
               {
                 "Type": "CompareVar",
                 "Var1": {
                   "Type": "Int",
-                  "Source": "Constant",
-                  "Value": 0
+                  "Source": "Global",
+                  "Keyword": "cqydcs"
                 },
                 "Compare": "Eq",
                 "Var2": {
@@ -521084,6 +521049,11 @@
                   "Source": "Constant",
                   "Value": 0
                 }
+              },
+              {
+                "Type": "CheckPlayerMoraleLevelRange",
+                "MinMoraleLevel": 71,
+                "MaxMoraleLevel": 500
               }
             ]
           },
@@ -521325,6 +521295,682 @@
       "Id": 371,
       "Desc": "取消传送",
       "ParentNodeId": 368
+    }
+  },
+  {
+    "Key": "133850003_372",
+    "Data": {
+      "Type": "ConditionSelector",
+      "Id": 372,
+      "Desc": "",
+      "Slots": [
+        {
+          "Condition": {
+            "Type": 0,
+            "Conditions": [
+              {
+                "Type": "CheckPlayerMoraleLevelRange",
+                "MinMoraleLevel": 1,
+                "MaxMoraleLevel": 70
+              }
+            ]
+          },
+          "Node": {
+            "Type": "ParallelSelect",
+            "Id": 365,
+            "Desc": "",
+            "Count": 1,
+            "Children": [
+              {
+                "Type": "ChildQuest",
+                "Id": 366,
+                "Desc": "",
+                "Condition": {
+                  "Type": "CompareVar",
+                  "Count": 0,
+                  "Conditions": [
+                    {
+                      "Var1": {
+                        "Type": "Boolean",
+                        "Source": "Global",
+                        "Keyword": "cqydcsjl"
+                      },
+                      "Compare": "Eq",
+                      "Var2": {
+                        "Type": "Boolean",
+                        "Source": "Constant",
+                        "Value": false
+                      }
+                    }
+                  ]
+                },
+                "TidTip": "Quest_133850003_ChildQuestTip_123_2",
+                "TrackTarget": {
+                  "TrackType": {
+                    "Type": "Locations",
+                    "Locations": []
+                  }
+                },
+                "EnterActions": [],
+                "FinishActions": [
+                  {
+                    "Name": "OpenSystemBoardWithReturn",
+                    "Params": {
+                      "SystemType": {
+                        "Type": "ConfirmBox2",
+                        "Id": 344,
+                        "ReturnVar": {
+                          "Type": "Int",
+                          "Source": "Global",
+                          "Keyword": "cqydcs"
+                        }
+                      }
+                    },
+                    "ActionGuid": "15404e207a7849549f1a38ade17f9c92",
+                    "ActionId": 3000078
+                  },
+                  {
+                    "Name": "SetVar",
+                    "Params": {
+                      "VarLeft": {
+                        "Type": "Boolean",
+                        "Source": "Global",
+                        "Keyword": "cqydcsjl"
+                      },
+                      "VarRight": {
+                        "Type": "Boolean",
+                        "Source": "Constant",
+                        "Value": true
+                      }
+                    },
+                    "ActionGuid": "867903d846024210b9de1e77ba1a090c",
+                    "ActionId": 3000096
+                  }
+                ]
+              },
+              {
+                "Type": "ChildQuest",
+                "Id": 367,
+                "Desc": "",
+                "Condition": {
+                  "Type": "CompareVar",
+                  "Count": 0,
+                  "Conditions": [
+                    {
+                      "Var1": {
+                        "Type": "Boolean",
+                        "Source": "Global",
+                        "Keyword": "cqydcsjl"
+                      },
+                      "Compare": "Eq",
+                      "Var2": {
+                        "Type": "Boolean",
+                        "Source": "Constant",
+                        "Value": true
+                      }
+                    }
+                  ]
+                },
+                "TidTip": "Quest_133850003_ChildQuestTip_123_3",
+                "TrackTarget": {
+                  "TrackType": {
+                    "Type": "Locations",
+                    "Locations": []
+                  }
+                },
+                "EnterActions": [],
+                "FinishActions": []
+              }
+            ]
+          }
+        },
+        {
+          "Condition": {
+            "Type": 0,
+            "Conditions": [
+              {
+                "Type": "CheckPlayerMoraleLevelRange",
+                "MinMoraleLevel": 71,
+                "MaxMoraleLevel": 500
+              }
+            ]
+          },
+          "Node": {
+            "Type": "Sequence",
+            "Id": 373,
+            "Desc": "",
+            "Children": [
+              {
+                "Type": "Action",
+                "Id": 374,
+                "Desc": "",
+                "Actions": []
+              }
+            ]
+          }
+        }
+      ],
+      "ParentNodeId": 359
+    }
+  },
+  {
+    "Key": "133850003_373",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 373,
+      "Desc": "",
+      "ParentNodeId": 372
+    }
+  },
+  {
+    "Key": "133850003_374",
+    "Data": {
+      "Type": "Action",
+      "Id": 374,
+      "Desc": "",
+      "Actions": [],
+      "ParentNodeId": 373
+    }
+  },
+  {
+    "Key": "125000125_204",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 204,
+      "Desc": "",
+      "Statistics": {
+        "StatisticsConfig": [
+          {
+            "Type": "PlayerTriggerMotion",
+            "Var": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "行为统计1"
+            },
+            "MotionType": "CounterAttack"
+          }
+        ]
+      },
+      "EnableSystem": {
+        "Type": "GradingSystem",
+        "GradingSystemId": 40001,
+        "Vars": [
+          {
+            "VarType": "Score",
+            "Var": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "道馆1"
+            }
+          }
+        ]
+      },
+      "ParentNodeId": 78
+    }
+  },
+  {
+    "Key": "125000125_203",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 203,
+      "Desc": "",
+      "Statistics": {
+        "StatisticsConfig": [
+          {
+            "Type": "PlayerTriggerMotion",
+            "Var": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "行为统计2"
+            },
+            "MotionType": "CounterAttack"
+          }
+        ]
+      },
+      "EnableSystem": {
+        "Type": "GradingSystem",
+        "GradingSystemId": 40001,
+        "Vars": [
+          {
+            "VarType": "Score",
+            "Var": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "道馆2"
+            }
+          }
+        ]
+      },
+      "ParentNodeId": 83
+    }
+  },
+  {
+    "Key": "133850005_1",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 1,
+      "Desc": "",
+      "ParentNodeId": 0
+    }
+  },
+  {
+    "Key": "133850005_2",
+    "Data": {
+      "Type": "ParallelSelect",
+      "Id": 2,
+      "Desc": "",
+      "Count": 1,
+      "ParentNodeId": 1
+    }
+  },
+  {
+    "Key": "133850005_4",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 4,
+      "Desc": "",
+      "Condition": {
+        "Type": "CheckConditionGroup",
+        "Condition": {
+          "Type": 0,
+          "Conditions": [
+            {
+              "Type": "CompareQuestState",
+              "QuestId": 133850000,
+              "Compare": "Eq",
+              "State": 3
+            }
+          ]
+        }
+      },
+      "TidTip": "Quest_133850005_ChildQuestTip_133_3",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": []
+        }
+      },
+      "EnterActions": [],
+      "FinishActions": [],
+      "HideUi": true,
+      "ParentNodeId": 2
+    }
+  },
+  {
+    "Key": "133850005_5",
+    "Data": {
+      "Type": "AlwaysFalse",
+      "Id": 5,
+      "Desc": "",
+      "ParentNodeId": 2
+    }
+  },
+  {
+    "Key": "133850005_10",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 10,
+      "Desc": "",
+      "Condition": {
+        "Type": "CheckEntityState",
+        "Conditions": [
+          {
+            "EntityId": 133850470,
+            "State": "关卡.Common.状态.激活"
+          }
+        ]
+      },
+      "TidTip": "Quest_133850005_ChildQuestTip_133_9",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": []
+        }
+      },
+      "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "AddBuffToPlayer",
+          "Params": {
+            "BuffIds": [
+              632400022
+            ]
+          },
+          "ActionGuid": "7d2cf9f4c1e14bfc8cf5f379d83ba3a7",
+          "ActionId": 3000059
+        }
+      ],
+      "ParentNodeId": 5
+    }
+  },
+  {
+    "Key": "133850005_6",
+    "Data": {
+      "Type": "AlwaysFalse",
+      "Id": 6,
+      "Desc": "",
+      "ParentNodeId": 2
+    }
+  },
+  {
+    "Key": "133850005_11",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 11,
+      "Desc": "",
+      "Condition": {
+        "Type": "CheckEntityState",
+        "Conditions": [
+          {
+            "EntityId": 133850471,
+            "State": "关卡.Common.状态.激活"
+          }
+        ]
+      },
+      "TidTip": "Quest_133850005_ChildQuestTip_133_10",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": []
+        }
+      },
+      "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "AddBuffToPlayer",
+          "Params": {
+            "BuffIds": [
+              632400023
+            ]
+          },
+          "ActionGuid": "6606113eb73c4915933087e2486d4469",
+          "ActionId": 3000062
+        }
+      ],
+      "ParentNodeId": 6
+    }
+  },
+  {
+    "Key": "133850005_7",
+    "Data": {
+      "Type": "AlwaysFalse",
+      "Id": 7,
+      "Desc": "",
+      "ParentNodeId": 2
+    }
+  },
+  {
+    "Key": "133850005_12",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 12,
+      "Desc": "",
+      "Condition": {
+        "Type": "CheckEntityState",
+        "Conditions": [
+          {
+            "EntityId": 133850472,
+            "State": "关卡.Common.状态.激活"
+          }
+        ]
+      },
+      "TidTip": "Quest_133850005_ChildQuestTip_133_11",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": []
+        }
+      },
+      "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "AddBuffToPlayer",
+          "Params": {
+            "BuffIds": [
+              632400024
+            ]
+          },
+          "ActionGuid": "63d7711fc1ec4f01b44b9bc4a2a318d8",
+          "ActionId": 3000063
+        }
+      ],
+      "ParentNodeId": 7
+    }
+  },
+  {
+    "Key": "133850005_8",
+    "Data": {
+      "Type": "AlwaysFalse",
+      "Id": 8,
+      "Desc": "",
+      "ParentNodeId": 2
+    }
+  },
+  {
+    "Key": "133850005_13",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 13,
+      "Desc": "",
+      "Condition": {
+        "Type": "CheckEntityState",
+        "Conditions": [
+          {
+            "EntityId": 133850473,
+            "State": "关卡.Common.状态.激活"
+          }
+        ]
+      },
+      "TidTip": "Quest_133850005_ChildQuestTip_133_13",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": []
+        }
+      },
+      "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "AddBuffToPlayer",
+          "Params": {
+            "BuffIds": [
+              632400025
+            ]
+          },
+          "ActionGuid": "296bf699a48945748f5e9d8c5c464411",
+          "ActionId": 3000065
+        }
+      ],
+      "ParentNodeId": 8
+    }
+  },
+  {
+    "Key": "133850005_9",
+    "Data": {
+      "Type": "AlwaysFalse",
+      "Id": 9,
+      "Desc": "",
+      "ParentNodeId": 2
+    }
+  },
+  {
+    "Key": "133850005_14",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 14,
+      "Desc": "",
+      "Condition": {
+        "Type": "CheckEntityState",
+        "Conditions": [
+          {
+            "EntityId": 133850474,
+            "State": "关卡.Common.状态.激活"
+          }
+        ]
+      },
+      "TidTip": "Quest_133850005_ChildQuestTip_133_14",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": []
+        }
+      },
+      "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "AddBuffToPlayer",
+          "Params": {
+            "BuffIds": [
+              632400026
+            ]
+          },
+          "ActionGuid": "f1748419d9c94e90883d1f9112b923d9",
+          "ActionId": 3000067
+        }
+      ],
+      "ParentNodeId": 9
+    }
+  },
+  {
+    "Key": "133850005_3",
+    "Data": {
+      "Type": "QuestSucceed",
+      "Id": 3,
+      "Desc": "",
+      "FinishActions": [
+        {
+          "Name": "RemoveBuffFromPlayer",
+          "Params": {
+            "BuffIds": [
+              632400022,
+              632400023,
+              632400024,
+              632400025,
+              632400026
+            ]
+          },
+          "ActionGuid": "af9b9f7fe45d4d16a598d9059f1c6ff2",
+          "ActionId": 3000069
+        }
+      ],
+      "ParentNodeId": 1
+    }
+  },
+  {
+    "Key": "125000125_205",
+    "Data": {
+      "Type": "ParallelSelect",
+      "Id": 205,
+      "Desc": "",
+      "Count": 1,
+      "SaveConfig": {
+        "DisableRollbackWhileReconnect": true,
+        "EnterActions": [
+          {
+            "Name": "EnableLevelPlay",
+            "Params": {
+              "Configs": [
+                {
+                  "LevelPlayId": 146850003,
+                  "Enable": false
+                }
+              ]
+            },
+            "ActionGuid": "221e4133557a4159abcef32cb662b681",
+            "ActionId": 3000250
+          },
+          {
+            "Name": "SetPlayerPos",
+            "Params": {
+              "TelePortConfig": {
+                "Type": 0,
+                "TargetPos": {
+                  "X": 1212767.3,
+                  "Y": 1163894.3,
+                  "Z": 5661.2,
+                  "A": -165.3
+                }
+              },
+              "DisableAutoFadeInScreen": true
+            },
+            "ActionGuid": "8c9df9926c014920a6f8e2056f9f5f93",
+            "ActionId": 3000252
+          },
+          {
+            "Name": "FadeOutScreen",
+            "Params": {
+              "Ease": {
+                "Type": 2,
+                "Duration": 1
+              }
+            },
+            "ActionGuid": "48438bdcb7c9449ba65fa6752d9088d2",
+            "ActionId": 3000233
+          }
+        ]
+      },
+      "DisableOnline": true,
+      "DisableFocusMode": true,
+      "ParentNodeId": 126
+    }
+  },
+  {
+    "Key": "125000125_207",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 207,
+      "Desc": "",
+      "ParentNodeId": 205
+    }
+  },
+  {
+    "Key": "125000125_208",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 208,
+      "Desc": "",
+      "ParentNodeId": 205
+    }
+  },
+  {
+    "Key": "125000125_206",
+    "Data": {
+      "Type": "QuestFailed",
+      "Id": 206,
+      "Desc": "",
+      "FailedCondition": {
+        "IsTransferFailure": true,
+        "IsTeamDeathFailure": true,
+        "RangeLimiting": {
+          "Point": {
+            "X": 1204821,
+            "Y": 1161553.13,
+            "Z": 11822.1
+          },
+          "Range": 13000,
+          "RequiresSecondConfirmation": true
+        },
+        "CanGiveUp": false
+      },
+      "FinishActions": [
+        {
+          "Name": "SetPlayerPos",
+          "Params": {
+            "TelePortConfig": {
+              "Type": 0,
+              "TargetPos": {
+                "X": 1212767.3,
+                "Y": 1163894.3,
+                "Z": 5661.2,
+                "A": -165.3
+              }
+            }
+          },
+          "ActionGuid": "242bca8205c941d7aa0f1fec0fdf7058",
+          "ActionId": 3000251
+        }
+      ],
+      "ParentNodeId": 208
     }
   }
 ]
