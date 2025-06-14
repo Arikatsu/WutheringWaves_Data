@@ -302834,6 +302834,32 @@
           "ActionId": 3000028
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckLevelPlayState",
+                  "LevelId": 122700036,
+                  "Compare": "Eq",
+                  "State": 2
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "96b2dbfe9c03455d974d4dbede9be568",
+                "ActionId": 3000197
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 129
     }
   },
@@ -473807,6 +473833,39 @@
           "ActionId": 3000172
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 161850223,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "09bedcf0fc6f49829171861943f919ed",
+                "ActionId": 3000211
+              },
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 161850226,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "8c704e01b880462684d6e62daf649b46",
+                "ActionId": 3000212
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 63
     }
   },
@@ -474402,10 +474461,9 @@
           "Type": "Locations",
           "Locations": [
             {
-              "X": 1194965.3,
-              "Y": 1067524.4,
-              "Z": 10629.4,
-              "A": 0
+              "X": 1195178.38,
+              "Y": 1067388.13,
+              "Z": 10483.83
             }
           ]
         }
@@ -483245,7 +483303,8 @@
               }
             },
             "ActionGuid": "98fc345aaeca452b94e9abd55c5ac31b",
-            "ActionId": 3000132
+            "ActionId": 3000132,
+            "Disabled": true
           }
         ]
       },
@@ -489532,6 +489591,33 @@
           "ActionId": 3000083
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "Wait",
+                "Params": {
+                  "Time": 10
+                },
+                "ActionGuid": "53d530284f63418cabc358e0a644926b",
+                "ActionId": 3000074
+              },
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "3f1e2320c83841eaa068f4adfe1209ef",
+                "ActionId": 3000075
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 52
     }
   },
@@ -490068,10 +490154,9 @@
           "Type": "Locations",
           "Locations": [
             {
-              "X": 1199222.4,
-              "Y": 1067566.3,
-              "Z": 8173.1,
-              "A": 0
+              "X": 1199061.88,
+              "Y": 1067726,
+              "Z": 8173.1
             }
           ]
         }
@@ -513212,8 +513297,8 @@
           "Type": "Locations",
           "Locations": [
             {
-              "X": 1194965.25,
-              "Y": 1067524.38,
+              "X": 1195611.25,
+              "Y": 1067103,
               "Z": 10483.83
             }
           ]
