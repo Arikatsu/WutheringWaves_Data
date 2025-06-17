@@ -291864,7 +291864,8 @@
             }
           },
           "ActionGuid": "e282eae8f6d74f2691044de1f09c056f",
-          "ActionId": 3000086
+          "ActionId": 3000086,
+          "Disabled": true
         },
         {
           "Name": "FadeOutScreen",
@@ -351191,7 +351192,8 @@
             }
           },
           "ActionGuid": "558b43091b454d46b7207bf5a79aab96",
-          "ActionId": 3000099
+          "ActionId": 3000099,
+          "Disabled": true
         },
         {
           "Name": "FadeOutScreen",
@@ -351375,7 +351377,8 @@
             }
           },
           "ActionGuid": "7dff642f70e84c9aaf8e294c5432b119",
-          "ActionId": 3000102
+          "ActionId": 3000102,
+          "Disabled": true
         },
         {
           "Name": "FadeOutScreen",
@@ -396790,6 +396793,46 @@
           "ActionId": 3000091
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "CircleRange",
+                    "Pos": {
+                      "X": 1255535,
+                      "Y": 1175359.8,
+                      "Z": 45200.6
+                    },
+                    "Radius": 5000
+                  },
+                  "IsOnRange": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": 1255449.4,
+                    "Y": 1175359.8,
+                    "Z": 45200.6,
+                    "A": 0
+                  }
+                },
+                "ActionGuid": "73494ba8e8a3459893b17f3aa343ded9",
+                "ActionId": 3000295
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 228
     }
   },
