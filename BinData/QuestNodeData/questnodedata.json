@@ -471167,6 +471167,36 @@
           "Async": true
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckEntitesExist",
+                  "EntityIds": [
+                    161850003,
+                    161850004,
+                    161850005,
+                    161850102
+                  ],
+                  "IsExist": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "e8bf25740a014750bcc5c063fc992693",
+                "ActionId": 3000214
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 8
     }
   },
@@ -472954,6 +472984,35 @@
       },
       "EnterActions": [],
       "FinishActions": [],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckEntitesExist",
+                  "EntityIds": [
+                    161850019,
+                    161850018,
+                    161850301
+                  ],
+                  "IsExist": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "86554a330c7c4c33b8d211e017b469f9",
+                "ActionId": 3000215
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 12
     }
   },
@@ -473634,6 +473693,36 @@
       },
       "EnterActions": [],
       "FinishActions": [],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckEntitesExist",
+                  "EntityIds": [
+                    161850310,
+                    161850042,
+                    161850044,
+                    161850311
+                  ],
+                  "IsExist": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "8cefdfb5cfde456f8c37e47ef7cdb1b9",
+                "ActionId": 3000216
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 34
     }
   },
@@ -514165,6 +514254,17 @@
           },
           "ActionGuid": "20a944f709c54d03a798839fd19a5a84",
           "ActionId": 3000210
+        },
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": false,
+            "EntityIds": [
+              161850475
+            ]
+          },
+          "ActionGuid": "dea877be9ede4e799421041da7f9ee18",
+          "ActionId": 3000213
         }
       ],
       "ParentNodeId": 76

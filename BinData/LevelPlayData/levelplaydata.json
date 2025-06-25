@@ -225376,12 +225376,12 @@
       },
       "Reference": [
         "e_8_166850800",
+        "e_8_166851615",
         "e_8_166850804",
         "e_8_166850894",
         "e_8_166850801",
         "e_8_166850892",
         "e_8_166850893",
-        "e_8_166851615",
         "e_8_166850803",
         "e_8_166850802",
         "e_8_166851564",
@@ -225400,6 +225400,29 @@
       "ExploratoryConfig": {
         "AddType": 24,
         "When": 0
+      },
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "LevelPlayCompleted",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "DestroyEntity",
+                "Params": {
+                  "EntityIds": [
+                    166851615
+                  ]
+                },
+                "ActionGuid": "7e2a2440f27d48528ecdc76601b165bc",
+                "ActionId": 4000069
+              }
+            ]
+          }
+        ]
       }
     }
   },
@@ -225981,6 +226004,7 @@
       },
       "Reference": [
         "e_8_166850895",
+        "e_8_166851617",
         "e_8_166850899",
         "e_8_166850897",
         "e_8_166851006",
@@ -225988,7 +226012,6 @@
         "e_8_166851008",
         "e_8_166851239",
         "e_8_166850898",
-        "e_8_166851617",
         "e_8_166851336",
         "e_8_166850802",
         "e_8_166851012",
@@ -226009,6 +226032,29 @@
       "ExploratoryConfig": {
         "AddType": 24,
         "When": 0
+      },
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "LevelPlayCompleted",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "DestroyEntity",
+                "Params": {
+                  "EntityIds": [
+                    166851617
+                  ]
+                },
+                "ActionGuid": "8ddbce7f02a94ac09204ee8266926905",
+                "ActionId": 4000070
+              }
+            ]
+          }
+        ]
       }
     }
   },
