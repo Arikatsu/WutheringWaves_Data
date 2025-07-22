@@ -68563,6 +68563,148 @@
     "Duration": ""
   },
   {
+    "Guid": "84bf76108b7942e89705855ea83e6cf4",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "307dbf40d9f0402db3658ebd79e639d9",
+          "ActionId": 4000087
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 42000252,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "97b68d933f3d48a9a0270f1c9cf99c62",
+          "ActionId": 4000090
+        },
+        {
+          "Name": "VehicleEnter",
+          "Params": {
+            "EnteringTarget": {
+              "Type": "Player",
+              "TargetVehicle": 42000252
+            },
+            "Seat": 0
+          },
+          "ActionGuid": "be201e6d7e684144b7506d2569c594d4",
+          "ActionId": 4000086
+        },
+        {
+          "Name": "AddTrialFollowShooter",
+          "Params": {
+            "Id": 24000030,
+            "ActiveRange": {
+              "CheckPoint": {
+                "X": 42990,
+                "Y": 73100,
+                "Z": 1310
+              },
+              "CheckEnterRange": 10000,
+              "CheckLeaveRange": 12000
+            }
+          },
+          "ActionGuid": "460138daff8f4e87b9e1aa8873d51fc5",
+          "ActionId": 4000091
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
+          },
+          "ActionGuid": "b3637f8723954786b405196f3b16f0ce",
+          "ActionId": 4000092
+        },
+        {
+          "Name": "MoveWithSpline",
+          "Params": {
+            "MoveTarget": {
+              "Type": "Entity",
+              "EntityId": 42000252
+            },
+            "SplineEntityId": 42000253
+          },
+          "ActionGuid": "a6c021cb9e074de7883568c37c8a5b62",
+          "ActionId": 4000088,
+          "Async": true
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              42000260,
+              42000261,
+              42000287,
+              42000288,
+              42000289,
+              42000290,
+              42000291,
+              42000292,
+              42000293,
+              42000294,
+              42000295,
+              42000296,
+              42000297,
+              42000298,
+              42000299,
+              42000300,
+              42000305,
+              42000306,
+              42000308,
+              42000317,
+              42000328,
+              42000329,
+              42000330,
+              42000331,
+              42000332
+            ]
+          },
+          "ActionGuid": "dc03a0a112024e4982b1f2728717e0e4",
+          "ActionId": 4000111
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_42000009_InteractContent_42_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "9c512e08366e4383895594dad84ac9e8",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_测试_RDW",
+        "FlowId": 2,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_42000000_InteractContent_42_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "1532cdc0ef9c4bfb85547ddb4c111137",
     "Type": {
       "Type": "Flow",
@@ -68624,6 +68766,20 @@
     "Duration": ""
   },
   {
+    "Guid": "904c5e4f82d042c787de80b96124fbcc",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_172000000_InteractContent_150_4",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "577f1e58152d42029a6a3a7735a834b1",
     "Type": {
       "Type": "Actions",
@@ -68642,6 +68798,24 @@
     },
     "Icon": "",
     "TidContent": "LevelPlay_13850004_InteractContent_13_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "0929ffcae302487fbc72de5dfeb0dd04",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_七丘序章",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
@@ -71427,6 +71601,78 @@
     "Duration": ""
   },
   {
+    "Guid": "1615e3f1b2b84daeaab02bc0e9652937",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_12",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "3e9b9f9ccab94a20b259043ed69a23b1",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "81c98c890942472e8ce7e27ecc5638be",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_8",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "d9f693d6cbeb407a9d9b8660085bc2b8",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_10",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "2ebcb742226f492fb5b41f0104274e4d",
     "Type": {
       "Type": "Actions",
@@ -71995,6 +72241,81 @@
     "Duration": ""
   },
   {
+    "Guid": "6d126e0019aa4acda25088d584bd2601",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "81c63d058e2d4240b0172a05a09a69ab",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_历程记忆手册",
+        "FlowId": 3,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c1d40042131f4c1d9efc43fd842709d9",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_历程记忆手册",
+        "FlowId": 10,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "ea302e73cef4497a8b8e5f94447a653b",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_2_5_支线_历程记忆手册",
+            "FlowId": 8,
+            "StateId": 2
+          },
+          "ActionGuid": "2c72d445fdb845cbbbe82d3d360bc46c",
+          "ActionId": 3000031
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "Quest_186700000_InteractContent_186_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "7528cd9f2b8d4c77a4b1dec0acfdb8fa",
     "Type": {
       "Type": "Actions",
@@ -72087,6 +72408,108 @@
         }
       ]
     },
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "9e2980e787b94b038425354846571ecd",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c983a1389e3f416784a9c53910911263",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "f602fd05b1ea49b1a501a40ec74c8ccd",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "1658fc1b742b488babad34d48d96143e",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_历程记忆手册",
+        "FlowId": 5,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "018e78b5df4f4600bba352068c4a75b7",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_41700001_InteractContent_41_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "5a460048af0e4e548a0a40c4a4944da7",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_41700001_InteractContent_41_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "72f4ad76eabe465984455371624e6e2a",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_41700001_InteractContent_41_1",
+    "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
     "Range": 0,
@@ -72417,6 +72840,93 @@
     "Duration": ""
   },
   {
+    "Guid": "f099ffb233a54e8d876420c3922ff47f",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_教会商店",
+        "FlowId": 1,
+        "StateId": 1,
+        "FlowGuid": "32c633f18b0345469f573f6b5efcb358"
+      }
+    },
+    "Icon": "Dialog",
+    "TidContent": "Quest_147700001_InteractContent_147_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "788919bead034c67b3f1305b84ad01c0",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_610700000_InteractContent_610_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "558fe4335c4543b1a59d6950950b1711",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700006_InteractContent_30_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "ca21dd0d607e472281046218db0e1fab",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700006_InteractContent_30_7",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "fe0d988f48374771bb069bc1bce274bc",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700006_InteractContent_30_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "0a15aa3406754506a59af0a8eaf5062b",
     "Type": {
       "Type": "Actions",
@@ -72580,6 +73090,236 @@
     "Duration": ""
   },
   {
+    "Guid": "26f7a141d7fa42e5b35070d70eb4eeef",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e9c47beb9f74413785e138f55fd53fcf",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "SetVar",
+          "Params": {
+            "VarLeft": {
+              "Type": "Boolean",
+              "Source": "Self",
+              "Name": "main"
+            },
+            "VarRight": {
+              "Type": "Boolean",
+              "Source": "Constant",
+              "Value": true
+            }
+          },
+          "ActionGuid": "c35fd55f9dd2481eb240ab07ad8bc22f",
+          "ActionId": 4000006
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_180700013_InteractContent_180_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "731ea1e7fd494e7486d3bc55fe1f184a",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_历程记忆手册",
+        "FlowId": 11,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "0bce4e34a3bd434a8b1fdcb3e4fc21a7",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_21",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "3017b8426e8d485982cb1fa5fefec282",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_20",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "369b862e94f34c69aeb22c1bc861a9c9",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_18",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "3bb1c629495a495aa0c27bdb9ecdb552",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_17",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "4075698828044b8b823369b8a22fd870",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_14",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "50527370eb974538a0a4206d2a0354ab",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_22",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "7f5d793600a541f89bbb8a8c66e879d4",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_23",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "a317028e40854d76939477c233257cc2",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_6",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "fd30c2600c284d6e96fd2c78fa678d56",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_7",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "51e87fa4d3c54a1e8a25ad889909c71c",
     "Type": {
       "Type": "Flow",
@@ -72591,6 +73331,462 @@
     },
     "Icon": "",
     "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "8cdbca00dc6c4e3a8a999cca52528458",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "010956078df844e49de68de7863a2f68",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_24",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "01e8e9f078c54f56a853ade8315aee84",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_26",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "125ca93b49954187b10c0c1f79ac85d7",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_13",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "2a86d4452c5045d9b74fdb18c6f7b070",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_27",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "2f1b7654282942a38d84f9a1291d2ef1",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_19",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "330289ae0c154a4a84312a2c31379c1e",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_25",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "5d755814d1674c308d2355f6a6c56bf2",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700007_InteractContent_30_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "82cae38d59674951a6feec372f741642",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "991db55491c64c1fae5ed5e90de8d309",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700007_InteractContent_30_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "a96a97f65a8c48728dfab4b4e871b6ec",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700007_InteractContent_30_7",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "bb0ccf84c2ab4b77b59e396dcdf1dd8e",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700007_InteractContent_30_8",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c41321d8b5c84ec4a3dd8e0b76c4917f",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700007_InteractContent_30_5",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c90ffd058504460596f7847ea1df6637",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700007_InteractContent_30_6",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c962d46eae8b46619f0e5ab1b20344ec",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700006_InteractContent_30_9",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "cce67db8a74047849fa108744876d1ab",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_4",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e733a563cb6a4899a2c743880bf5397e",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700007_InteractContent_30_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Option",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "ebb0016abbfa464ea0e4fa4d12c5a874",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_5",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "51ded99e117347b7b71754d0088c296b",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1,
+        "FlowGuid": "2971e9b32c13445bb391d284ce5b7586"
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_30700006_InteractContent_30_4",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "82b65ed6dd2d4393af6cc147e0ae5fd2",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1,
+        "FlowGuid": "2971e9b32c13445bb391d284ce5b7586"
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_30700006_InteractContent_30_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "d30209191384453396af3d5fe4afec76",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_30700003_InteractContent_30_28",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "db5aaa62c1ab4052bb16886ddcd205b0",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1,
+        "FlowGuid": "2971e9b32c13445bb391d284ce5b7586"
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_30700006_InteractContent_30_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "dfbba9866ca3403db06023ac66289f57",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 1,
+        "StateId": 1,
+        "FlowGuid": "2971e9b32c13445bb391d284ce5b7586"
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_30700006_InteractContent_30_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "72ade61a9e3745abad891e0c79cfb901",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_610700000_InteractContent_610_4",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "9e079e31bdfe4d229efe1cc26b0f75de",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_610700000_InteractContent_610_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e16f97dd5e5847808fdf26c67d0f68fd",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_610700000_InteractContent_610_3",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
@@ -72661,6 +73857,152 @@
     "Duration": ""
   },
   {
+    "Guid": "0a71175e366f4d1fb489c704c4e6cb32",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_隐海试验场_朝拜圣所",
+        "FlowId": 2,
+        "StateId": 8
+      }
+    },
+    "Icon": "Other",
+    "TidContent": "LevelPlay_610700002_InteractContent_147_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "1b2901e9fb5b4672817434589e96820f",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_610700004_InteractContent_610_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "3db976de126e4184b73f1be2cc1dcdfd",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_610700004_InteractContent_610_4",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "756de6fce6b344e0b38109b4f309be88",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_隐海试验场_朝拜圣所",
+        "FlowId": 3,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "a9ed2a4c3dcf482aaa6c3b829e710f11",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_隐海试验场_朝拜圣所",
+        "FlowId": 2,
+        "StateId": 11
+      }
+    },
+    "Icon": "Other",
+    "TidContent": "LevelPlay_610700002_InteractContent_147_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "b33a1f461a2c4772aa02983f65de14d0",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_610700004_InteractContent_610_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c8ad21d6e9d74d3da70adcc1a81254b5",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_610700004_InteractContent_610_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "cfe3e77bbc204b1591ecc67cb43717b7",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_隐海试验场_三段回忆",
+        "FlowId": 1,
+        "StateId": 7
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_610700004_InteractContent_610_7",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e93b51913b9c49c7a6974f4eba808233",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_隐海试验场_三段回忆",
+        "FlowId": 1,
+        "StateId": 7
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_610700004_InteractContent_610_5",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
     "Guid": "e17af6e9ee8d490787cae2d03a21086b",
     "Type": {
       "Type": "Actions",
@@ -72679,6 +74021,478 @@
     },
     "Icon": "",
     "TidContent": "LevelPlay_131850000_InteractContent_131_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "4e50cbe3908545a8964f8ff3e7c7931f",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_147700006_InteractContent_147_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "58ca2844f1ab44ffa28f42c51a78c1bc",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_生态冒泡和碎片化",
+        "FlowId": 6,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "bcb4c3b3fb9f4acb9f18ddda3202dc99",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_生态冒泡和碎片化",
+        "FlowId": 7,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "b1fec252580a41e1a0c2880fcdfb2f7e",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_172000000_InteractContent_150_6",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "ef0e80befa384b498b32d063ff8ee418",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "Gramophone",
+            "BoardId": 1,
+            "GramophoneId": 171700082
+          },
+          "ActionId": 3000001
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "2a8c41b68f8342b3aa2bb0e350100879",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_历程记忆手册",
+        "FlowId": 6,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "5818db7cede74dc9a7f22c98ccdb4168",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_历程记忆手册",
+        "FlowId": 8,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e6cd7d0200d9454aa3e6f171b22be16b",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_历程记忆手册",
+        "FlowId": 10,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "94f704f310854464bc12d47952ff018b",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_180700013_InteractContent_41_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "08ad7d85fd7f47458807c3f9c7bfc6a0",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_七丘主线_下半间章",
+        "FlowId": 1,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "0e08cab8acc644478541fda1cbeb863b",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_七丘主线_下半间章",
+        "FlowId": 1,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "2ec7e3a6754d456e8ce605ba6471ede8",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_七丘主线_下半间章",
+        "FlowId": 1,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "6cc1eeec9d62441b9ce55948e816613f",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_七丘主线_下半间章",
+        "FlowId": 1,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "1a126f6c1f604954a5c81f41312bf8ed",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_隐海试验场_朝拜圣所",
+        "FlowId": 1,
+        "StateId": 2
+      }
+    },
+    "Icon": "",
+    "TidContent": "Quest_147000005_InteractContent_147_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c1dc91abe04d4744bbd3bc5f7578f581",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_隐海试验场_朝拜圣所",
+        "FlowId": 8,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_147700000_InteractContent_147_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "60c26c86cd53441a83825bb03767eb09",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_隐海试验场_三段回忆",
+        "FlowId": 1,
+        "StateId": 6
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_610700004_InteractContent_150_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "e7f1cf8217f742bfb3aa009a66b484df",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_2_5_隐海试验场_三段回忆",
+        "FlowId": 1,
+        "StateId": 6
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_610700004_InteractContent_150_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "60c24db4b47848a4a119a12d8e496992",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "SetPlayerPos",
+          "Params": {
+            "TelePortConfig": {
+              "Type": 0,
+              "TargetPos": {
+                "X": -12754.01,
+                "Y": -65390.46,
+                "Z": 29268.27,
+                "A": -150
+              }
+            }
+          },
+          "ActionGuid": "20e2d88c3dc24a1a937f2cf4706efc8f",
+          "ActionId": 4000054
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_191700001_InteractContent_191_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "53c36ec1ec2648e2b5fccd3d47b04b89",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "LeisureInteract",
+          "Params": {
+            "Option": {
+              "Type": "StandControl2"
+            }
+          },
+          "ActionId": 3000109
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_2_5_隐底试验场_能源场下层",
+            "FlowId": 1,
+            "StateId": 14
+          },
+          "ActionId": 3000110
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "Quest_172000003_InteractContent_180_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "62571fb854f541a3ac7d5b87b552ce3f",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "LeisureInteract",
+          "Params": {
+            "Option": {
+              "Type": "StandControl2"
+            }
+          },
+          "ActionId": 3000101
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_2_5_隐底试验场_能源场下层",
+            "FlowId": 1,
+            "StateId": 13
+          },
+          "ActionId": 3000102
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "Quest_172000003_InteractContent_180_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "8262b007f4ab4758988fa09a16bb6a2b",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "LeisureInteract",
+          "Params": {
+            "Option": {
+              "Type": "StandControl2"
+            }
+          },
+          "ActionId": 3000104
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_2_5_隐底试验场_能源场下层",
+            "FlowId": 1,
+            "StateId": 12
+          },
+          "ActionId": 3000105
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "Quest_172000003_InteractContent_180_3",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "36c60f58445b4296a962d7967054015b",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_172000003_InteractContent_191_1",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "c45c355d035045348ffd2d32a5572ae0",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": ""
+  },
+  {
+    "Guid": "3a38d5675a8a40e4832983047db5c91f",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "Quest_150000000_InteractContent_172_1",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",

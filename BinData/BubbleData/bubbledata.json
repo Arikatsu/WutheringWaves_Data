@@ -2793,5 +2793,34 @@
       ]
     },
     "ActionId": 3000088
+  },
+  {
+    "ActionGuid": "1cfab80ab198471883d78736716df7f4",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        186700032
+      ],
+      "EnterRadius": 2000,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_历程记忆手册",
+        "FlowId": 11,
+        "StateId": 4
+      }
+    },
+    "ActionId": 3000050
+  },
+  {
+    "ActionGuid": "36464c76bf3f43f188046c1e574d79c5",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        186700032
+      ]
+    },
+    "ActionId": 3000055
   }
 ]

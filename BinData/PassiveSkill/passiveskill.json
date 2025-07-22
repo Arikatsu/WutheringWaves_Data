@@ -7882,7 +7882,7 @@
         "角色.d5372d25.0a772ca2.d97e3595.23843086"
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker!=Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\n!HasInt(0,DamageSubType)",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)\nAND\nAttacker!=Owner\nAND\nDamageValue>=1\nAND\nDamageType!=6\nAND\n!HasInt(0,DamageSubType)\nAND\n!HasInt(3001,DamageSubType)",
     "SubSkillAction": [
       1607301200
     ],
@@ -24478,34 +24478,6 @@
     "SkillActionScript": "FALSE"
   },
   {
-    "Id": 1506666900,
-    "SkillDesc": "魔法阵-受击次数施放爆炸",
-    "CDTime": 2,
-    "CdThreshold": -1,
-    "ShareGroupId": 0,
-    "MaxCount": 1,
-    "IsShareAllCdSkill": false,
-    "IsDefaultActivated": true,
-    "TriggerType": "TagTrigger",
-    "TriggerPreset": [
-      "角色.3f9237d8.2c7a5bea.5610585b"
-    ],
-    "TriggerParams": {
-      "CheckAttackerTags": [
-        "角色.3f9237d8.2c7a5bea.f65a8165"
-      ]
-    },
-    "TriggerFormula": "MatchAnyTag(Owner, CheckAttackerTags)",
-    "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "AddBullet",
-    "SkillActionParams": [
-      "1506888200"
-    ],
-    "ActionScriptParams": {},
-    "SkillActionScript": "FALSE"
-  },
-  {
     "Id": 12076120001,
     "SkillDesc": "终结E驻场被动监听",
     "CDTime": 0,
@@ -24531,6 +24503,34 @@
     "SkillAction": "StartSkill",
     "SkillActionParams": [
       "1207902"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1506666900,
+    "SkillDesc": "魔法阵-受击次数施放爆炸",
+    "CDTime": 2,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.3f9237d8.2c7a5bea.5610585b"
+    ],
+    "TriggerParams": {
+      "CheckAttackerTags": [
+        "角色.3f9237d8.2c7a5bea.f65a8165"
+      ]
+    },
+    "TriggerFormula": "MatchAnyTag(Owner, CheckAttackerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1506888200"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE"
@@ -24892,7 +24892,8 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "12078020102"
+      "12078020102",
+      "1207666201"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE"
@@ -25292,6 +25293,32 @@
     "SkillActionScript": "FALSE"
   },
   {
+    "Id": 1608999001,
+    "SkillDesc": "弗洛洛大招监听队伍声骸次数",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "VisionTrigger",
+    "TriggerPreset": [
+      "2",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TriggerCount<=10",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608301001"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 70141017,
     "SkillDesc": "小翼龙合击确认触发buff添加",
     "CDTime": 0,
@@ -25683,30 +25710,6 @@
     "SkillActionScript": "FALSE"
   },
   {
-    "Id": 900200030507,
-    "SkillDesc": "怪物白条恢复挂判定buff",
-    "CDTime": 0,
-    "CdThreshold": -1,
-    "ShareGroupId": 0,
-    "MaxCount": 1,
-    "IsShareAllCdSkill": false,
-    "IsDefaultActivated": true,
-    "TriggerType": "TagTrigger",
-    "TriggerPreset": [
-      "功能.功能制作.狂暴生效"
-    ],
-    "TriggerParams": {},
-    "TriggerFormula": "TRUE",
-    "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "900200030506"
-    ],
-    "ActionScriptParams": {},
-    "SkillActionScript": "FALSE"
-  },
-  {
     "Id": 1607999101,
     "SkillDesc": "触发惊醒时减强化E冷却",
     "CDTime": 0,
@@ -25726,6 +25729,30 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "1607999102"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900200030507,
+    "SkillDesc": "怪物白条恢复挂判定buff",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "功能.功能制作.狂暴生效"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900200030506"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE"
@@ -30068,7 +30095,7 @@
   },
   {
     "Id": 12079000011,
-    "SkillDesc": "施放大招火抗下降Lv1",
+    "SkillDesc": "施放大招火抗下降Lv1（包括肉鸽大招）",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
@@ -30078,7 +30105,7 @@
     "TriggerType": "SkillTrigger",
     "TriggerPreset": [
       "0",
-      "1207901",
+      "1207901#1207999291",
       "0"
     ],
     "TriggerParams": {
@@ -30098,7 +30125,7 @@
   },
   {
     "Id": 12079000012,
-    "SkillDesc": "施放大招火抗下降Lv2",
+    "SkillDesc": "施放大招火抗下降Lv2（包括肉鸽大招）",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
@@ -30108,7 +30135,7 @@
     "TriggerType": "SkillTrigger",
     "TriggerPreset": [
       "0",
-      "1207901",
+      "1207901#1207999291",
       "0"
     ],
     "TriggerParams": {
@@ -30128,7 +30155,7 @@
   },
   {
     "Id": 12079000013,
-    "SkillDesc": "施放大招火抗下降Lv3",
+    "SkillDesc": "施放大招火抗下降Lv3（包括肉鸽大招）",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
@@ -30138,7 +30165,7 @@
     "TriggerType": "SkillTrigger",
     "TriggerPreset": [
       "0",
-      "1207901",
+      "1207901#1207999291",
       "0"
     ],
     "TriggerParams": {
@@ -31238,6 +31265,31 @@
     "SkillActionScript": "FALSE"
   },
   {
+    "Id": 1608999002,
+    "SkillDesc": "弗洛洛满音符监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "62"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "NewValue==600",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608771004"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 12079000102,
     "SkillDesc": "施放QTE全队增伤二变三",
     "CDTime": 0.20000000298023224,
@@ -31286,6 +31338,159 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "632400215"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 70138008,
+    "SkillDesc": "教团大剑扈从教皇专用防御反击触发buff添加",
+    "CDTime": 1,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "怪物.MO1JTQiShiMd00001.格挡"
+      ]
+    },
+    "TriggerFormula": "DamageValue>=5",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "70138003",
+      "70020"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 80031026,
+    "SkillDesc": "教皇召唤物血量5%触发击杀标签",
+    "CDTime": 0.5,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "GetAttributeByID(Owner,3) / GetAttributeByID(Owner,2)<=0.05",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "80031025"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 96030150500,
+    "SkillDesc": "玩家每次触发【神权剑】，给自己加加伤buff",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "BulletID==96030150211",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "96030150510"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 96030150200,
+    "SkillDesc": "【神权剑】检测角色发出光/风异常",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "10051000#10041000"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "96030150210"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 96030150300,
+    "SkillDesc": "【剑雨】检测角色发出光/风异常",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "10051000#10041000"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "96030150310"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 96030160210,
+    "SkillDesc": "Link期间，每次释放必杀，召唤一道落雷",
+    "CDTime": 0.30000001192092896,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "SkillType==3",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "96030160211"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE"
@@ -31368,8 +31573,272 @@
     "SkillActionScript": "EndAbilityVision(Owner,1)"
   },
   {
+    "Id": 14092910002,
+    "SkillDesc": "小卡额外触发E子弹",
+    "CDTime": 1,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "SkillType == 2",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1409291001"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092910003,
+    "SkillDesc": "大卡额外触发E子弹",
+    "CDTime": 1,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "SkillType == 2",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1409292001"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608360002,
+    "SkillDesc": "弗洛洛指挥状态监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.89729703.0d87ab9e",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608360003",
+      "1608360004"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 80031035,
+    "SkillDesc": "教皇触发普通充能被动",
+    "CDTime": 1.5,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "怪物.931435c4.87651362"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "功能.功能制作.狂暴生效"
+      ]
+    },
+    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "80031037"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 80031036,
+    "SkillDesc": "教皇触发召唤充能被动",
+    "CDTime": 1.5,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "怪物.931435c4.87651362"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "功能.功能制作.狂暴生效"
+      ]
+    },
+    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "80031038"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 80031040,
+    "SkillDesc": "教皇触发充能被动",
+    "CDTime": 3,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "怪物.931435c4.c281418b"
+      ],
+      "CheckExTags": [
+        "怪物.931435c4.6f7cd4d4"
+      ]
+    },
+    "TriggerFormula": "(!MatchAnyTag(Owner, CheckOwnerTags) \nOR\n!MatchAnyTag(Owner, CheckExTags) )\nAND\nDamageValue>=0\nAND\nGetAttributeByID(Owner,128) / GetAttributeByID(Owner,127)>=0.1",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "80031039"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092911002,
+    "SkillDesc": "【肉鸽】下落攻击额外剑-神权剑-水",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "SkillID == 1409021\nAND\nSkillHitCount == 1",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1409291205"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092911003,
+    "SkillDesc": "【肉鸽】下落攻击额外剑-神权剑-重力",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "SkillID == 1409021\nAND\nSkillHitCount == 1",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1409291202"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092911004,
+    "SkillDesc": "【肉鸽】下落攻击额外剑-神权剑-风",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "SkillID == 1409021\nAND\nSkillHitCount == 1",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1409291206"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092913007,
+    "SkillDesc": "【肉鸽】【触发器】每次进入显化时，添加坚毅触发器",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.f9591474.状态.8b1339b3",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "14092913008",
+      "14092913009",
+      "14092913010"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 12079000014,
-    "SkillDesc": "【共鸣3】施放大招火抗下降Lv3",
+    "SkillDesc": "【共鸣3】施放大招火抗下降Lv3（包括肉鸽大招）",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
@@ -31379,7 +31848,7 @@
     "TriggerType": "SkillTrigger",
     "TriggerPreset": [
       "0",
-      "1207901",
+      "1207901#1207999291",
       "0"
     ],
     "TriggerParams": {
@@ -31398,8 +31867,841 @@
     "SkillActionScript": "FALSE"
   },
   {
+    "Id": 14092911007,
+    "SkillDesc": "【肉鸽】【触发器】获得所有剑时，下落攻击结束时，会添加【神罚】Buff，并回满体力",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1409021",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "14092911008",
+      "14092911012"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092911008,
+    "SkillDesc": "【肉鸽】【触发器】\n下落攻击结束时，移除自身和所有神权剑强化效果",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1409021",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "14092911009"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 96030170100,
+    "SkillDesc": "【触发器】无妄者-满协奏-自动释放QTE",
+    "CDTime": 0.10000000149011612,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "功能.功能制作.QTE.激活QTE",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "96030170101",
+      "96030170102"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 96030170201,
+    "SkillDesc": "【触发器】无妄者-满协奏-自动释放QTE",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageIdTrigger",
+    "TriggerPreset": [
+      "3",
+      "10000",
+      "1005#1001"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "96030170202"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 96030170230,
+    "SkillDesc": "【融觉爆发】时，立刻回复最大生命40%的生命值。【融觉爆发】持续时间内自身治疗效果加成提升50%，且每0.5秒回复自身最大生命1%的生命值。",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "系统.Link.Link爆发",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "96030170231"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 80031045,
+    "SkillDesc": "教皇触发剧情杀被动",
+    "CDTime": 3,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "怪物.931435c4.c281418b"
+      ],
+      "CheckExTags": [
+        "功能.功能制作.狂暴生效"
+      ]
+    },
+    "TriggerFormula": "(!MatchAnyTag(Owner, CheckOwnerTags) \nOR\nMatchAnyTag(Owner, CheckExTags) )\nAND\nDamageValue>=0\nAND\n GetAttributeByID(Owner,3) / GetAttributeByID(Owner,2)<=0.1",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "80031044"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608999003,
+    "SkillDesc": "弗洛洛A3监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.89729703.a62ed8b9.4fa9695e"
+      ]
+    },
+    "TriggerFormula": "SkillID==1608003\nAND\nSkillHitCount==1\nAND\n!MatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608101001"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608999004,
+    "SkillDesc": "弗洛洛强化A监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.89729703.a62ed8b9.4fa9695e"
+      ]
+    },
+    "TriggerFormula": "(SkillID==1608004\nOR\nSkillID==1608103\nOR\nSkillID==1608104\nOR\nSkillID==1608999101\nOR\nSkillID==1608999102\nOR\nSkillID==1608999103\n)\nAND\nSkillHitCount==1\nAND\n!MatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608101001"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608999005,
+    "SkillDesc": "弗洛洛E技能监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.89729703.a62ed8b9.4fa9695e"
+      ]
+    },
+    "TriggerFormula": "SkillID==1608101\nAND\nSkillHitCount==1\nAND\n!MatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608101002"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608999006,
+    "SkillDesc": "弗洛洛强化E监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.89729703.a62ed8b9.4fa9695e"
+      ]
+    },
+    "TriggerFormula": "(SkillID==1608102\nOR\nSkillID==1608999201\n)\nAND\nSkillHitCount==1\nAND\n!MatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608101002"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092910006,
+    "SkillDesc": "【肉鸽】大卡E1、E2增加3层风异常",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "SkillID == 1409253\nOR\nSkillID == 1409252",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "14092910009"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092912010,
+    "SkillDesc": "【肉鸽】添加可切回小卡Tag",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.f9591474.状态.8b1339b3",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "14092912011"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092912018,
+    "SkillDesc": "【肉鸽】【触发器】获得所有剑时，下落攻击时，获得1层不负所托，并延长3s小卡显化",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1409021",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "14092912009",
+      "14092912019",
+      "14092912022"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092912020,
+    "SkillDesc": "【肉鸽】【触发器】释放R2后，移除所有不负所托",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1409281#1409282",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "14092912009#0",
+      "14092912023#0",
+      "14092912022#0"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092912021,
+    "SkillDesc": "【肉鸽】【触发器】释放R2后，移除所有不负所托",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1409021",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "14092912009#0",
+      "14092912023#0",
+      "14092912022#0"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092912025,
+    "SkillDesc": "【肉鸽】【触发器】使用神权E时，移除1层启示",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "14092121",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "14092912023#1"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092912026,
+    "SkillDesc": "【肉鸽】【触发器】QTE切回小卡时，切除启示",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "14092921",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "14092912023#1"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 80031051,
+    "SkillDesc": "教皇瘫痪受击被动",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "功能.功能制作.狂暴生效"
+      ]
+    },
+    "TriggerFormula": "!MatchAnyTag(Owner, CheckOwnerTags) \nAND\nDamageValue>=1",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "80031050"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 611501001,
+    "SkillDesc": "命中添加时缓buff监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "611501009",
+      "611501012",
+      "611501016",
+      "611501014"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608210001,
+    "SkillDesc": "弗洛洛进入战斗状态监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "GetBuffStack(Owner,1608210005) == 0",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608210002"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 611501002,
+    "SkillDesc": "命中锁链特效buff添加监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "GetBuffStack(Owner,611501009) > 3",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "611501010"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608400000,
+    "SkillDesc": "【触发器】弗洛洛-休闲待机1（大手）-中途打断的淡出特效",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.89729703.70f6d6eb.a806cb68",
+      "1",
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608400001"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 611501003,
+    "SkillDesc": "命中添加时缓buff监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "611501018",
+      "611501021",
+      "611501020",
+      "611501014"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 611501004,
+    "SkillDesc": "命中锁链特效buff添加监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "GetBuffStack(Owner,611501018) > 3",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "611501010"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608999007,
+    "SkillDesc": "弗洛洛A3监听-混沌",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.89729703.a62ed8b9.4fa9695e"
+      ]
+    },
+    "TriggerFormula": "SkillID==1608003\nAND\nSkillHitCount==1\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608101003"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608999008,
+    "SkillDesc": "弗洛洛强化A监听-混沌",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.89729703.a62ed8b9.4fa9695e"
+      ]
+    },
+    "TriggerFormula": "(SkillID==1608004\nOR\nSkillID==1608103\nOR\nSkillID==1608104\nOR\nSkillID==1608999101\nOR\nSkillID==1608999102\nOR\nSkillID==1608999103\n)\nAND\nSkillHitCount==1\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608101003"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608999009,
+    "SkillDesc": "弗洛洛E技能监听-混沌",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.89729703.a62ed8b9.4fa9695e"
+      ]
+    },
+    "TriggerFormula": "SkillID==1608101\nAND\nSkillHitCount==1\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608101003"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608999010,
+    "SkillDesc": "弗洛洛强化E监听-混沌",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.89729703.a62ed8b9.4fa9695e"
+      ]
+    },
+    "TriggerFormula": "(SkillID==1608102\nOR\nSkillID==1608999201\n)\nAND\nSkillHitCount==1\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608101003"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 611501005,
+    "SkillDesc": "时缓能量监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TeamAttributeChangeTrigger",
+    "TriggerPreset": [
+      "12"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "NewValue<=1",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "611501008",
+      "611501019",
+      "611501022"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092910007,
+    "SkillDesc": "【肉鸽】小卡E增加2层风异常",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "SkillID == 1409012",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "14092910010"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 96030150430,
+    "SkillDesc": "【神权剑】检测角色发出光/风异常",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "10051000#10041000"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "96030150431"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 12079000141,
-    "SkillDesc": "露帕对精英boss伤害增加3人",
+    "SkillDesc": "露帕对精英boss伤害增加3人（包括肉鸽大招）",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
@@ -31409,7 +32711,7 @@
     "TriggerType": "SkillTrigger",
     "TriggerPreset": [
       "0",
-      "1207901",
+      "1207901#1207999291",
       "0"
     ],
     "TriggerParams": {
@@ -31429,7 +32731,7 @@
   },
   {
     "Id": 12079000142,
-    "SkillDesc": "露帕对精英boss伤害增加3人--共鸣3",
+    "SkillDesc": "露帕对精英boss伤害增加3人--共鸣3（包括肉鸽大招）",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
@@ -31439,7 +32741,7 @@
     "TriggerType": "SkillTrigger",
     "TriggerPreset": [
       "0",
-      "1207901",
+      "1207901#1207999291",
       "0"
     ],
     "TriggerParams": {
@@ -31453,6 +32755,85 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "12079000143"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 31000019001,
+    "SkillDesc": "声骸套装-检测队伍声骸技能种类施放",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "VisionTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000019003"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 31000019002,
+    "SkillDesc": "声骸套装-检测队伍声骸技能种类施放",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffVictimTrigger",
+    "TriggerPreset": [
+      "0",
+      "0#31000019003#4"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000019004",
+      "31000019005"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608210004,
+    "SkillDesc": "弗洛洛进入战斗状态监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "1",
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608210005"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE"
@@ -31478,6 +32859,282 @@
     "SkillAction": "RemoveBullet",
     "SkillActionParams": [
       "140990006"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608666001,
+    "SkillDesc": "命中召唤锁链额外攻击",
+    "CDTime": 1.5,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.89729703.a62ed8b9.bc43e7eb"
+      ]
+    },
+    "TriggerFormula": "!MatchAnyTag(Owner, CheckOwnerTags)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608666302",
+      "1608666304"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 680050101,
+    "SkillDesc": "释放声骸技能时，加暗伤buff",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "VisionTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "680050102"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 14092913012,
+    "SkillDesc": "【肉鸽】每次【剑雨】减少2s E的CD",
+    "CDTime": 0.20000000298023224,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "BulletID == 1409292004\nAND\nSkillHitCount == 1\nAND\n(\nSkillID == 1409204\nOR\nSkillID == 1409252\nOR\nSkillID == 1409279\n)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "14092913011"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 640008094,
+    "SkillDesc": "赫卡忒道馆-声骸技能判定",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "VisionTrigger",
+    "TriggerPreset": [
+      "0",
+      "280029",
+      "-1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "640008091",
+      "640008092",
+      "640008095"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608210006,
+    "SkillDesc": "弗洛洛余音加暴击",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagStackTrigger",
+    "TriggerPreset": [
+      "角色.89729703.a62ed8b9.618f413d",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "OldStack<24",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "Customize",
+    "SkillActionParams": [],
+    "ActionScriptParams": {},
+    "SkillActionScript": "AddBuff2(Owner, 1608250008, NewStack-OldStack, Owner)"
+  },
+  {
+    "Id": 1608210008,
+    "SkillDesc": "弗洛洛溢出余音处理1",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagStackTrigger",
+    "TriggerPreset": [
+      "角色.89729703.a62ed8b9.618f413d",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "OldStack>24\nAND\nNewStack>OldStack",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "Customize",
+    "SkillActionParams": [],
+    "ActionScriptParams": {},
+    "SkillActionScript": "AddBuff2(Owner, 1608250011, NewStack-OldStack, Owner)"
+  },
+  {
+    "Id": 1608210009,
+    "SkillDesc": "弗洛洛溢出余音处理2",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagStackTrigger",
+    "TriggerPreset": [
+      "角色.89729703.a62ed8b9.618f413d",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "NewStack>24\nAND\nOldStack<=24",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "Customize",
+    "SkillActionParams": [],
+    "ActionScriptParams": {},
+    "SkillActionScript": "AddBuff2(Owner, 1608250011, NewStack-24, Owner)"
+  },
+  {
+    "Id": 31000019021,
+    "SkillDesc": "声骸套装-检测共鸣能量为0",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "60"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "NewValue==0",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000019022",
+      "31000019023"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 31000019024,
+    "SkillDesc": "声骸套装-检测共鸣能量不为0",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "60"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "NewValue!=0",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "31000019022",
+      "31000019023"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608330002,
+    "SkillDesc": "弗洛洛共鸣4-彩乐命中监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "BulletID==1608301131\nOR\nBulletID==1608301132\nOR\nBulletID==1608301134\nOR\nBulletID==1608301135\nOR\nBulletID==1608361131\nOR\nBulletID==1608361132\nOR\nBulletID==1608361134\nOR\nBulletID==1608361135",
+    "SubSkillAction": [],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608330003"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1608360001,
+    "SkillDesc": "弗洛洛共鸣6-幻影命中监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "(BulletID==1608004020\nOR\nBulletID==1608112008\n)\nAND\nBulletHitCount==1",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1608360004"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE"

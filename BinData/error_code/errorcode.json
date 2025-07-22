@@ -19356,6 +19356,24 @@
     "IsTip": true
   },
   {
+    "Id": 1600033,
+    "DebugText": "寻路请求没有设置终点",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1600034,
+    "DebugText": "没获取到前台角色",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1600035,
+    "DebugText": "寻路失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2000056,
     "DebugText": "禁止流程副本跳副本",
     "Text": "ErrorCode_ErrInstTeleportInstLimit",
@@ -19554,6 +19572,84 @@
     "IsTip": false
   },
   {
+    "Id": 1900209,
+    "DebugText": "找不到活动数据",
+    "Text": "ErrorCode_1900206_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900210,
+    "DebugText": "找不到科技配置",
+    "Text": "ErrorCode_1900207_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900211,
+    "DebugText": "科技已解锁",
+    "Text": "ErrorCode_1900208_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900212,
+    "DebugText": "前置节点未解锁",
+    "Text": "ErrorCode_1900209_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900213,
+    "DebugText": "科技点不足解锁",
+    "Text": "ErrorCode_1900210_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900214,
+    "DebugText": "活动没配置任务",
+    "Text": "ErrorCode_1900211_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900215,
+    "DebugText": "找不到对应任务配置",
+    "Text": "ErrorCode_1900212_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900216,
+    "DebugText": "任务进行中",
+    "Text": "ErrorCode_1900213_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900217,
+    "DebugText": "任务时间非法",
+    "Text": "ErrorCode_1900214_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900218,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_1900215_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900219,
+    "DebugText": "找不到里程碑配置",
+    "Text": "ErrorCode_1900216_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900220,
+    "DebugText": "找不到奖励掉落配置",
+    "Text": "ErrorCode_1900217_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900221,
+    "DebugText": "没有奖励需要领取",
+    "Text": "ErrorCode_1900218_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2600054,
     "DebugText": "行为树被挂起",
     "Text": "ErrorCode_ErrInteracTreeSuspend_Text",
@@ -19608,9 +19704,471 @@
     "IsTip": false
   },
   {
+    "Id": 2900000,
+    "DebugText": "黑幕行为找不到行为执行者",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900001,
+    "DebugText": "黑幕行为找不到行为信息",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900002,
+    "DebugText": "黑幕行为行为类型不匹配",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900003,
+    "DebugText": "黑幕行为不是开启",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900004,
+    "DebugText": "黑幕行为不是关闭",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 200621,
+    "DebugText": "挑战配置不存在",
+    "Text": "ErrorCode_ErrActivityLifePointChallengeNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 200622,
+    "DebugText": "挑战未开放",
+    "Text": "ErrorCode_ErrActivityLifePointNotOpen",
+    "IsTip": false
+  },
+  {
+    "Id": 200623,
+    "DebugText": "前置关卡未通关",
+    "Text": "ErrorCode_ErrActivityLifePointPreLocked",
+    "IsTip": false
+  },
+  {
     "Id": 2700124,
     "DebugText": "卡牌不允许购买解锁",
     "Text": "ErrorCode_2624032_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700125,
+    "DebugText": "有未结算的关卡",
+    "Text": "ErrorCode_FloroRanchHasUnSettleIns_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700126,
+    "DebugText": "关卡配置不存在",
+    "Text": "ErrorCode_FloroRanchSubInsConfNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700127,
+    "DebugText": "种族参数错误",
+    "Text": "ErrorCode_FloroRanchRacesLimit_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700128,
+    "DebugText": "关卡起始地形长度限制",
+    "Text": "ErrorCode_FloroRanchBaseTerrainLimit_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700129,
+    "DebugText": "关卡起始声骸长度限制",
+    "Text": "ErrorCode_FloroRanchBaseCardLimit_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700130,
+    "DebugText": "关种族重复",
+    "Text": "ErrorCode_FloroRanchRaceRepeat_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700131,
+    "DebugText": "局内玩法不存在",
+    "Text": "ErrorCode_FloroRanchGamePlayNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700132,
+    "DebugText": "局内玩法抽卡不存在",
+    "Text": "ErrorCode_FloroRanchGamePlayGachaNotExist_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700133,
+    "DebugText": "卡牌不在当前抽卡中",
+    "Text": "ErrorCode_FloroRanchCardNotExistInGacha_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700134,
+    "DebugText": "声骸创建失败",
+    "Text": "ErrorCode_FloroRanchPhantomCreateFail_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700135,
+    "DebugText": "上供金额不足",
+    "Text": "ErrorCode_FloroRanchTributeCoinLimit_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700136,
+    "DebugText": "种族数量不足",
+    "Text": "ErrorCode_FloroRanchRaceNotEnough_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700137,
+    "DebugText": "阶段未结算",
+    "Text": "ErrorCode_FloroRanchStageNotSettle_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100405,
+    "DebugText": "商城物品不存在",
+    "Text": "ErrorCode_400020_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100406,
+    "DebugText": "商城物品不存在",
+    "Text": "ErrorCode_400020_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100407,
+    "DebugText": "商品栏不存在",
+    "Text": "ErrorCode_400025_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100408,
+    "DebugText": "购买数量不合法",
+    "Text": "ErrorCode_400066_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100409,
+    "DebugText": "购买数量不合法",
+    "Text": "ErrorCode_400066_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100410,
+    "DebugText": "购买数量不合法",
+    "Text": "ErrorCode_400066_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100411,
+    "DebugText": "购买数量不合法",
+    "Text": "ErrorCode_400066_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100412,
+    "DebugText": "购买数量不合法",
+    "Text": "ErrorCode_400066_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100413,
+    "DebugText": "购买条件未达成",
+    "Text": "ErrorCode_1900025_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100414,
+    "DebugText": "回音角色道具数量超限",
+    "Text": "ErrorCode_1900048_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100415,
+    "DebugText": "回音角色道具数量超限",
+    "Text": "ErrorCode_1900048_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100416,
+    "DebugText": "回音角色道具数量超限",
+    "Text": "ErrorCode_1900048_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100417,
+    "DebugText": "请求参数错误",
+    "Text": "ErrorCode_1_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100418,
+    "DebugText": "请求参数错误",
+    "Text": "ErrorCode_1_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100419,
+    "DebugText": "请求参数错误",
+    "Text": "ErrorCode_1_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100420,
+    "DebugText": "创建充值订单失败",
+    "Text": "ErrorCode_1400001_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100421,
+    "DebugText": "更新充值订单状态失败",
+    "Text": "ErrorCode_1400008_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100422,
+    "DebugText": "更新充值订单状态失败",
+    "Text": "ErrorCode_1400008_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100423,
+    "DebugText": "更新充值订单状态失败",
+    "Text": "ErrorCode_1400008_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100424,
+    "DebugText": "客户端不可购买",
+    "Text": "ErrorCode_1400000_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100425,
+    "DebugText": "找不到个人礼包数据",
+    "Text": "ErrorCode_1400000_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100426,
+    "DebugText": "礼包购买次数已用完",
+    "Text": "ErrorCode_1400040_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100427,
+    "DebugText": "找不到充值配置",
+    "Text": "ErrorCode_1400000_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100428,
+    "DebugText": "创建充值订单失败",
+    "Text": "ErrorCode_1400001_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100429,
+    "DebugText": "查询不到充值订单",
+    "Text": "ErrorCode_1400002_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100430,
+    "DebugText": "充值订单玩家不匹配",
+    "Text": "ErrorCode_1400003_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100431,
+    "DebugText": "充值订单无法更新为已处理状态",
+    "Text": "ErrorCode_1400004_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100432,
+    "DebugText": "更新充值订单为已处理状态失败",
+    "Text": "ErrorCode_1400005_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100433,
+    "DebugText": "查询不到充值订单",
+    "Text": "ErrorCode_1400002_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100434,
+    "DebugText": "充值订单玩家不匹配",
+    "Text": "ErrorCode_1400003_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100435,
+    "DebugText": "充值退款订单无法更新为已处理状态",
+    "Text": "ErrorCode_1100143_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100436,
+    "DebugText": "更新充值退款订单为已处理状态失败",
+    "Text": "ErrorCode_1100144_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100437,
+    "DebugText": "查询不到充值订单",
+    "Text": "ErrorCode_1400002_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100438,
+    "DebugText": "请求参数错误",
+    "Text": "ErrorCode_1_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100439,
+    "DebugText": "创建充值订单失败",
+    "Text": "ErrorCode_1400001_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100440,
+    "DebugText": "请求参数错误",
+    "Text": "ErrorCode_1_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100441,
+    "DebugText": "更新充值订单状态失败",
+    "Text": "ErrorCode_1400008_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100442,
+    "DebugText": "请求参数错误",
+    "Text": "ErrorCode_1_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100443,
+    "DebugText": "更新充值订单状态失败",
+    "Text": "ErrorCode_1400008_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100444,
+    "DebugText": "请求参数错误",
+    "Text": "ErrorCode_1_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700138,
+    "DebugText": "活动表不存在",
+    "Text": "ErrorCode_FloroRanchActivitysNotFind_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700139,
+    "DebugText": "局内玩法商店不存在",
+    "Text": "ErrorCode_FloroRanchGamePlayShopNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700140,
+    "DebugText": "局内玩法商店道具不存在",
+    "Text": "ErrorCode_FloroRanchGamePlayShopItemNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700141,
+    "DebugText": "钻石不足",
+    "Text": "ErrorCode_FloroRanchDiamondNotEnough_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700142,
+    "DebugText": "卡牌配置不存在",
+    "Text": "ErrorCode_FloroRanchCardTableNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700143,
+    "DebugText": "玩具配置不存在",
+    "Text": "ErrorCode_FloroRanchToyTableNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700144,
+    "DebugText": "地形配置不存在",
+    "Text": "ErrorCode_FloroRanchTerrainTableNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700145,
+    "DebugText": "玩具数量限制",
+    "Text": "ErrorCode_FloroRanchToyNumLimit_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700146,
+    "DebugText": "玩具槽位不足",
+    "Text": "ErrorCode_FloroRanchNotEnoughToyIndex_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700147,
+    "DebugText": "玩具单位创建失败",
+    "Text": "ErrorCode_FloroRanchToyCreateFail_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700148,
+    "DebugText": "卡组配置不存在",
+    "Text": "ErrorCode_FloroRanchCardGroupTableNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700149,
+    "DebugText": "卡组不存在",
+    "Text": "ErrorCode_FloroRanchCardGroupNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900222,
+    "DebugText": "找不到活动参数配置",
+    "Text": "ErrorCode_1900219_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500155,
+    "DebugText": "试用角色实体不能超过限制",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700150,
+    "DebugText": "卡组不存在",
+    "Text": "ErrorCode_FloroRanchBuffTableNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700151,
+    "DebugText": "移除单位不存在",
+    "Text": "ErrorCode_FloroRanchRemoveUnitNotExist_Text",
     "IsTip": false
   },
   {
@@ -19620,9 +20178,93 @@
     "IsTip": false
   },
   {
+    "Id": 1500156,
+    "DebugText": "没有要切的角色",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2600062,
     "DebugText": "挂起时限制交互的实体列表",
     "Text": "挂起时限制交互的实体列表",
+    "IsTip": false
+  },
+  {
+    "Id": 200624,
+    "DebugText": "请求规则参数重复",
+    "Text": "ErrorCode_ErrPhantomSettingRuleDuplicate",
+    "IsTip": false
+  },
+  {
+    "Id": 200625,
+    "DebugText": "请求规则配置找不到",
+    "Text": "ErrorCode_ErrPhantomSettingRuleNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 200626,
+    "DebugText": "请求没有规则信息",
+    "Text": "ErrorCode_ErrPhantomSettingEmpty",
+    "IsTip": false
+  },
+  {
+    "Id": 200627,
+    "DebugText": "请求规则类型错误",
+    "Text": "ErrorCode_ErrPhantomSettingType",
+    "IsTip": false
+  },
+  {
+    "Id": 200628,
+    "DebugText": "名称长度超过限制",
+    "Text": "ErrorCode_ErrPhantomSettingNameLength",
+    "IsTip": false
+  },
+  {
+    "Id": 200629,
+    "DebugText": "请求没有规则信息",
+    "Text": "ErrorCode_ErrPhantomSettingNull",
+    "IsTip": false
+  },
+  {
+    "Id": 200630,
+    "DebugText": "配置索引超过范围",
+    "Text": "ErrorCode_ErrPhantomSettingIndexRange",
+    "IsTip": false
+  },
+  {
+    "Id": 200631,
+    "DebugText": "配置索引超过范围",
+    "Text": "ErrorCode_ErrPhantomRuleIndexRange",
+    "IsTip": false
+  },
+  {
+    "Id": 200632,
+    "DebugText": "配置数量超过范围",
+    "Text": "ErrorCode_ErrPhantomRuleCount",
+    "IsTip": false
+  },
+  {
+    "Id": 200633,
+    "DebugText": "操作数量超过限制",
+    "Text": "ErrorCode_ErrPhantomBathchOperCount",
+    "IsTip": false
+  },
+  {
+    "Id": 200634,
+    "DebugText": "操作类型错误",
+    "Text": "ErrorCode_ErrPhantomBathchType",
+    "IsTip": false
+  },
+  {
+    "Id": 2700153,
+    "DebugText": "刷新表不存在",
+    "Text": "ErrorCode_FloroRanchRefreshTableNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700154,
+    "DebugText": "玩法Task不存在",
+    "Text": "ErrorCode_FloroRanchPlayTaskNotExist_Text",
     "IsTip": false
   },
   {
@@ -19636,6 +20278,42 @@
     "DebugText": "进入封闭区域禁止设置任务专注模式",
     "Text": "ErrorCode_DisabledFocusMode",
     "IsTip": true
+  },
+  {
+    "Id": 1500157,
+    "DebugText": "没有角色入队过",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700155,
+    "DebugText": "技能表不存在",
+    "Text": "ErrorCode_FloroRanchSkillTableNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700156,
+    "DebugText": "技能使用次数限制",
+    "Text": "ErrorCode_FloroRanchSkillUseTimesLimit_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700157,
+    "DebugText": "技能执行逻辑不存在",
+    "Text": "ErrorCode_FloroRanchSkillLogicNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700158,
+    "DebugText": "技能执行逻辑类型错误",
+    "Text": "ErrorCode_FloroRanchSkillLogicErr_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700159,
+    "DebugText": "技能执行逻辑执行失败",
+    "Text": "ErrorCode_FloroRanchSkillLogicFail_Text",
+    "IsTip": false
   },
   {
     "Id": 2700160,
@@ -19662,6 +20340,12 @@
     "IsTip": false
   },
   {
+    "Id": 2700161,
+    "DebugText": "不允许无限模式",
+    "Text": "ErrorCode_FloroRanchNotEnableUnlimitedMode_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2500193,
     "DebugText": "已通关关卡无法继续挑战",
     "Text": "ErrorCode_2624117_Text",
@@ -19684,5 +20368,161 @@
     "DebugText": "已经处于低内存切换场景状态中",
     "Text": "ErrorCode_2200076_Text",
     "IsTip": false
+  },
+  {
+    "Id": 2700163,
+    "DebugText": "玩具权重配置错误",
+    "Text": "ErrorCode_FloroRanchToyWeightConfErr_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700164,
+    "DebugText": "动物最大数量限制",
+    "Text": "ErrorCode_FloroRanchAnimalNumLimit_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900223,
+    "DebugText": "条件过期",
+    "Text": "ErrorCode_1900220_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900224,
+    "DebugText": "条件模块id非法",
+    "Text": "ErrorCode_1900221_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900225,
+    "DebugText": "条件组id非法",
+    "Text": "ErrorCode_1900222_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900226,
+    "DebugText": "条件注册失败",
+    "Text": "ErrorCode_1900223_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700165,
+    "DebugText": "种族不存在",
+    "Text": "ErrorCode_FloroRanchRaceTableNotFind_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700166,
+    "DebugText": "种族未解锁",
+    "Text": "ErrorCode_FloroRanchRaceLock_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700167,
+    "DebugText": "技能未解锁",
+    "Text": "ErrorCode_FloroRanchSkillLock_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700168,
+    "DebugText": "关卡未解锁",
+    "Text": "ErrorCode_FloroRanchSubInsLock_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100448,
+    "DebugText": "常驻肉鸽扫荡等级不足",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100449,
+    "DebugText": "常驻肉鸽不可扫荡",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100450,
+    "DebugText": "常驻肉鸽随机格子配置找不到",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900227,
+    "DebugText": "重复设置",
+    "Text": "ErrorCode_1900224_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700171,
+    "DebugText": "当前角色不允许操作",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500197,
+    "DebugText": "变化次数超过上限",
+    "Text": "ErrorCode_2624118_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200640,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_ErrActivityNotOpenTip",
+    "IsTip": true
+  },
+  {
+    "Id": 2700172,
+    "DebugText": "副本未解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700173,
+    "DebugText": "副本配置找不到",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700174,
+    "DebugText": "副本Id找不到",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700175,
+    "DebugText": "请求中不包含副本指定种族",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700176,
+    "DebugText": "不允许上供",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2800001,
+    "DebugText": "Tcp获取KCP会话ID失败",
+    "Text": "Tcp获取KCP会话ID失败",
+    "IsTip": false
+  },
+  {
+    "Id": 2100004,
+    "DebugText": "资源版本过低, 请退出游戏更新后重新进入",
+    "Text": "ErrorCode_100020_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200644,
+    "DebugText": "功能未开启",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2200196,
+    "DebugText": "行为执行时，实体执行对象不存在",
+    "Text": "ErrorCode_2200157_Text",
+    "IsTip": true
   }
 ]
