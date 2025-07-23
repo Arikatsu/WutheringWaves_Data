@@ -112841,7 +112841,7 @@
   },
   {
     "Id": 101100393,
-    "Type": "EntityDieByType",
+    "Type": "EntityInteractByType",
     "NeedNum": 1,
     "LimitParams": [
       {
@@ -112921,12 +112921,20 @@
   },
   {
     "Id": 101100397,
-    "Type": "LevelPlayComplete",
+    "Type": "CheckLevelPlayNodeState",
     "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "LevelPlayId",
         "Value": "316700003"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "17"
       }
     ],
     "LimitParamsOpe": [],
