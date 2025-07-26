@@ -438456,6 +438456,37 @@
           "ActionId": 3000004
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareEntityState",
+                  "EntityId": 172700222,
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.常态"
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 172700222,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "5cb72c6be48b42f4bfa38152c51471db",
+                "ActionId": 3000033
+              }
+            ],
+            "Period": true
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -491467,6 +491498,72 @@
         }
       },
       "FinishActions": [],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -12261.2,
+                      "Y": -46476,
+                      "Z": 23712.5
+                    },
+                    "Size": {
+                      "X": 3019,
+                      "Y": 3623.5,
+                      "Z": 2453
+                    },
+                    "Rotator": {}
+                  },
+                  "IsOnRange": false
+                },
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -9753.8,
+                      "Y": -39985,
+                      "Z": 23296.5
+                    },
+                    "Size": {
+                      "X": 4984.5,
+                      "Y": 4233,
+                      "Z": 2453
+                    },
+                    "Rotator": {
+                      "Z": -30
+                    }
+                  },
+                  "IsOnRange": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -10249.2,
+                    "Y": -40833.4,
+                    "Z": 22753.5,
+                    "A": 0
+                  }
+                },
+                "ActionGuid": "2269767d693c449098bbf95b139a2832",
+                "ActionId": 3000213
+              }
+            ],
+            "Period": true
+          }
+        ]
+      },
       "ParentNodeId": 92
     }
   },
@@ -491546,6 +491643,72 @@
           "ActionId": 3000203
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -12261.2,
+                      "Y": -46476,
+                      "Z": 23712.5
+                    },
+                    "Size": {
+                      "X": 3019,
+                      "Y": 3623.5,
+                      "Z": 2453
+                    },
+                    "Rotator": {}
+                  },
+                  "IsOnRange": false
+                },
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -9753.8,
+                      "Y": -39985,
+                      "Z": 23296.5
+                    },
+                    "Size": {
+                      "X": 4984.5,
+                      "Y": 4233,
+                      "Z": 2453
+                    },
+                    "Rotator": {
+                      "Z": -30
+                    }
+                  },
+                  "IsOnRange": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -10249.2,
+                    "Y": -40833.4,
+                    "Z": 22753.5,
+                    "A": 0
+                  }
+                },
+                "ActionGuid": "5915640ec2104a5386cc4ab8bdd83284",
+                "ActionId": 3000215
+              }
+            ],
+            "Period": true
+          }
+        ]
+      },
       "ParentNodeId": 92
     }
   },
@@ -509098,6 +509261,72 @@
           "ActionId": 3000143
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -12261.2,
+                      "Y": -46476,
+                      "Z": 23712.5
+                    },
+                    "Size": {
+                      "X": 3019,
+                      "Y": 3623.5,
+                      "Z": 2453
+                    },
+                    "Rotator": {}
+                  },
+                  "IsOnRange": false
+                },
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -9753.8,
+                      "Y": -39985,
+                      "Z": 23296.5
+                    },
+                    "Size": {
+                      "X": 4984.5,
+                      "Y": 4233,
+                      "Z": 2453
+                    },
+                    "Rotator": {
+                      "Z": -30
+                    }
+                  },
+                  "IsOnRange": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -10249.2,
+                    "Y": -40833.4,
+                    "Z": 22753.5,
+                    "A": 0
+                  }
+                },
+                "ActionGuid": "fb30dc53c326411db691c9321ea3d9ab",
+                "ActionId": 3000214
+              }
+            ],
+            "Period": true
+          }
+        ]
+      },
       "ParentNodeId": 92
     }
   },
@@ -511147,6 +511376,47 @@
           "ActionId": 3000125
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "CircleRange",
+                    "Pos": {
+                      "X": -235253.8,
+                      "Y": -18202.7,
+                      "Z": -41780.1
+                    },
+                    "Radius": 2000
+                  },
+                  "IsOnRange": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -235253.8,
+                    "Y": -18202.7,
+                    "Z": -41780.1,
+                    "A": 0
+                  }
+                },
+                "ActionGuid": "85f23ba744af4f17986da55f779828e4",
+                "ActionId": 3000216
+              }
+            ],
+            "Period": true
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -543056,7 +543326,7 @@
           "Y": -50932.6,
           "Z": 23142.03
         },
-        "Range": 1500
+        "Range": 2500
       },
       "TidTip": "Quest_172000003_ChildQuestTip_180_33",
       "EnterActions": [],
@@ -543086,6 +543356,52 @@
         }
       },
       "HideTip": true,
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -8798,
+                      "Y": -44506,
+                      "Z": 23212
+                    },
+                    "Size": {
+                      "X": 11000,
+                      "Y": 6500,
+                      "Z": 800
+                    },
+                    "Rotator": {}
+                  },
+                  "IsOnRange": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -20099.9,
+                    "Y": -50932.6,
+                    "Z": 23142,
+                    "A": 0
+                  }
+                },
+                "ActionGuid": "a6ebad9f537049cea225355d07748145",
+                "ActionId": 3000217
+              }
+            ],
+            "Period": true
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
