@@ -1114,5 +1114,41 @@
     "CodeOverride": "gmunlockfog 0",
     "Sort": 11083,
     "Visible": true
+  },
+  {
+    "Id": 19091,
+    "Name": "GM显示标记",
+    "NameOverride": "显示/隐藏地图标记（0全部）",
+    "Code": "gmshowmark 标记id 是否显示",
+    "CodeOverride": "gmshowmark 0 true",
+    "Sort": 19091,
+    "Visible": true
+  },
+  {
+    "Id": 19201,
+    "Name": "关掉怪物服务器逻辑（本地验收用）",
+    "NameOverride": "关掉怪物服务器逻辑（本地验收用）",
+    "Code": "CloseMonsterServerLogic#",
+    "CodeOverride": "CloseMonsterServerLogic#",
+    "Sort": 19201,
+    "Visible": true
+  },
+  {
+    "Id": 19211,
+    "Name": "打开或关闭玩家校验拦截",
+    "NameOverride": "打开或关闭玩家校验拦截",
+    "Code": "GmCloseCheckFailInterception 开关",
+    "CodeOverride": "GmCloseCheckFailInterception 0",
+    "Sort": 19211,
+    "Visible": true
+  },
+  {
+    "Id": 19511,
+    "Name": "设置是否展示预制体文本ID,1展示，0不要展示",
+    "NameOverride": "设置是否展示预制体文本ID,1展示,0不要展示",
+    "Code": "SetPrefabTextTranslateId#",
+    "CodeOverride": "SetPrefabTextTranslateId#1",
+    "Sort": 19511,
+    "Visible": true
   }
 ]

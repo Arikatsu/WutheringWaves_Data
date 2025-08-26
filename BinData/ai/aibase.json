@@ -11003,25 +11003,29 @@
   },
   {
     "Id": 8002701,
-    "StateMachine": "SM_ML1RongYaoHuiJinMd00201",
-    "AiController": "/Game/Aki/AI/AIMonster/Lord/AIML1RongYaoHuiJinMd00201/AIC_ML1RongYaoHuiJinMd00201.AIC_ML1RongYaoHuiJinMd00201",
-    "BehaviorTree": "/Game/Aki/AI/AIMonster/Lord/AIML1RongYaoHuiJinMd00201/BT_ML1RongYaoHuiJinMd00201.BT_ML1RongYaoHuiJinMd00201",
+    "StateMachine": "SM_ML1WeiWangHeiSheMd00601",
+    "AiController": "/Game/Aki/AI/AIMonster/Lord/AIML1WeiWangHeiSheMd00601/AIC_ML1WeiWangHeiSheMd00601.AIC_ML1WeiWangHeiSheMd00601",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Lord/AIML1WeiWangHeiSheMd00601/BT_ML1WeiWangHeiSheMd00601.BT_ML1WeiWangHeiSheMd00601",
     "SubBehaviorConfigs": [
       {
         "Key": "AiSense",
-        "Value": "80029"
+        "Value": "80027"
       },
       {
         "Key": "AiHate",
-        "Value": "80029"
+        "Value": "80027"
       },
       {
         "Key": "AiWander",
         "Value": "3"
       },
       {
+        "Key": "AiBattleWander",
+        "Value": "80027"
+      },
+      {
         "Key": "AiBaseSkill",
-        "Value": "80029"
+        "Value": "8002701"
       }
     ],
     "Team": false,
@@ -11873,7 +11877,7 @@
       },
       {
         "Key": "AiWander",
-        "Value": "3"
+        "Value": "2"
       },
       {
         "Key": "AiBattleWander",
@@ -12096,6 +12100,36 @@
     "MonsterType": 6
   },
   {
+    "Id": 80027,
+    "StateMachine": "SM_ML1WeiZuoShenWangMd00601",
+    "AiController": "/Game/Aki/AI/AIMonster/Lord/AIML1WeiZuoShenWangMd00601/AIC_ML1WeiZuoShenWangMd00601.AIC_ML1WeiZuoShenWangMd00601",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Lord/AIML1WeiZuoShenWangMd00601/BT_ML1WeiZuoShenWangMd00601.BT_ML1WeiZuoShenWangMd00601",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "80027"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "80027"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "80027"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "80027"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
     "Id": 77060,
     "StateMachine": "SM_ME1FengJueDouShiMd00401",
     "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1FengJueDouShiMd00401/AIC_ME1FengJueDouShiMd00401_NEW.AIC_ME1FengJueDouShiMd00401_New",
@@ -12111,7 +12145,7 @@
       },
       {
         "Key": "AiWander",
-        "Value": "3"
+        "Value": "2"
       },
       {
         "Key": "AiBattleWander",
@@ -12281,7 +12315,7 @@
       },
       {
         "Key": "AiWander",
-        "Value": "3"
+        "Value": "2"
       },
       {
         "Key": "AiBattleWander",
@@ -12315,7 +12349,7 @@
       },
       {
         "Key": "AiWander",
-        "Value": "3"
+        "Value": "2"
       },
       {
         "Key": "AiBattleWander",
@@ -12779,6 +12813,40 @@
     "MonsterType": 4
   },
   {
+    "Id": 77070,
+    "StateMachine": "SM_MP1ShijilongMd00101",
+    "AiController": "/Game/Aki/AI/AIMonster/ElitePro/AIMP1ShijilongMd00101/AIC_MP1ShijilongMd00101.AIC_MP1ShijilongMd00101",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/ElitePro/AIMP1ShijilongMd00101/BT_MP1ShijilongMd00101.BT_MP1ShijilongMd00101",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77070"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
     "Id": 77059,
     "StateMachine": "SM_ME1HuoJueDouShiMd00101",
     "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1HuoJueDouShiMd00101/AIC_ME1HuoJueDouShiMd00101_New.AIC_ME1HuoJueDouShiMd00101_New",
@@ -12794,7 +12862,7 @@
       },
       {
         "Key": "AiWander",
-        "Value": "3"
+        "Value": "2"
       },
       {
         "Key": "AiBattleWander",
@@ -12828,7 +12896,7 @@
       },
       {
         "Key": "AiWander",
-        "Value": "3"
+        "Value": "2"
       },
       {
         "Key": "AiBattleWander",
@@ -14072,6 +14140,36 @@
       }
     ],
     "Team": true,
+    "MonsterType": 4
+  },
+  {
+    "Id": 8002702,
+    "StateMachine": "SM_ML1WeiWangHeiSheMd00611",
+    "AiController": "/Game/Aki/AI/AIMonster/Lord/AIML1WeiWangHeiSheMd00611/AIC_ML1WeiWangHeiSheMd00611.AIC_ML1WeiWangHeiSheMd00611",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Lord/AIML1WeiWangHeiSheMd00611/BT_ML1WeiWangHeiSheMd00611.BT_ML1WeiWangHeiSheMd00611",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "80027"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "80027"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "80027"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "8002701"
+      }
+    ],
+    "Team": false,
     "MonsterType": 4
   },
   {
@@ -16369,6 +16467,218 @@
     "MonsterType": 4
   },
   {
+    "Id": 7706101,
+    "StateMachine": "SM_ME1GuangJueDouShiMd00501",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1GuangJueDouShiMd00501/AIC_ME1GuangJueDouShiMd00501_New.AIC_ME1GuangJueDouShiMd00501_New",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1GuangJueDouShiMd00501/BT_ME1GuangJueDouShiMd00501.BT_ME1GuangJueDouShiMd00501",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "2"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "7706101"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 2100602,
+    "StateMachine": "",
+    "AiController": "/Game/Aki/AI/AINPC/Animal/NA006/AIC_NA006.AIC_NA006",
+    "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA006/BT_NA006V2_6.BT_NA006V2_6",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiFlee",
+        "Value": "21006"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
+    "Id": 2101802,
+    "StateMachine": "",
+    "AiController": "/Game/Aki/AI/AINPC/Animal/NA018/AIC_NA018.AIC_NA018",
+    "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA018/BT_NA018V2_6.BT_NA018V2_6",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiFlee",
+        "Value": "21018"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "21018"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
+    "Id": 2102902,
+    "StateMachine": "",
+    "AiController": "/Game/Aki/AI/AINPC/Animal/NA034/AIC_NA034.AIC_NA034",
+    "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA034/BT_NA034V2_6.BT_NA034V2_6",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiFlee",
+        "Value": "21017"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
+    "Id": 8002902,
+    "StateMachine": "SM_ML1RongYaoHuiJinMd00201_Daoguan",
+    "AiController": "/Game/Aki/AI/AIMonster/Lord/AIML1RongYaoHuiJinMd00201/AIC_ML1RongYaoHuiJinMd00201.AIC_ML1RongYaoHuiJinMd00201",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Lord/AIML1RongYaoHuiJinMd00201/BT_ML1RongYaoHuiJinMd00201.BT_ML1RongYaoHuiJinMd00201",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "80029"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "80029"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "80029"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "80029"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
+    "Id": 7705901,
+    "StateMachine": "SM_ME1HuoJueDouShiMd00101_2",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1HuoJueDouShiMd00101/AIC_ME1HuoJueDouShiMd00101_New.AIC_ME1HuoJueDouShiMd00101_New",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1HuoJueDouShiMd00101/BT_ME1HuoJueDouShiMd00101.BT_ME1HuoJueDouShiMd00101",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77059"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77059"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "2"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77059"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77059"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7706001,
+    "StateMachine": "SM_ME1FengJueDouShiMd00401_2",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1FengJueDouShiMd00401/AIC_ME1FengJueDouShiMd00401_NEW.AIC_ME1FengJueDouShiMd00401_New",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1FengJueDouShiMd00401/BT_ME1FengJueDouShiMd00401.BT_ME1FengJueDouShiMd00401",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77060"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77060"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "2"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77060"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77060"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7706102,
+    "StateMachine": "SM_ME1GuangJueDouShiMd00501_2",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1GuangJueDouShiMd00501/AIC_ME1GuangJueDouShiMd00501_New.AIC_ME1GuangJueDouShiMd00501_New",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1GuangJueDouShiMd00501/BT_ME1GuangJueDouShiMd00501.BT_ME1GuangJueDouShiMd00501",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "2"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "7706101"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
     "Id": 8003103,
     "StateMachine": "SM_JiaoHuang_Light",
     "AiController": "/Game/Aki/AI/AIMonster/Lord/AIML1JiaoHuangMd00401/AIC_ML1JiaoHuangMd00401_Flower.AIC_ML1JiaoHuangMd00401_Flower",
@@ -16419,5 +16729,1177 @@
     ],
     "Team": false,
     "MonsterType": 4
+  },
+  {
+    "Id": 7706802,
+    "StateMachine": "SM_ME1ChaoshengMd00401_2",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1ChaoshengMd00401/AIC_ME1ChaoshengMd00401.AIC_ME1ChaoshengMd00401",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1ChaoshengMd00401/BT_ME1ChaoshengMd00401.BT_ME1ChaoshengMd00401",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77068"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77068"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77068"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77068"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 2
+  },
+  {
+    "Id": 88004,
+    "StateMachine": "SM_ML1AogusitaMd00101",
+    "AiController": "/Game/Aki/AI/AIMonster/NPC/AIML1AogusitaMd00101/AIC_ML1AogusitaMd00101.AIC_ML1AogusitaMd00101",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/NPC/AIML1AogusitaMd00101/BT_ML1AogusitaMd00101.BT_ML1AogusitaMd00101",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "7012001"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "7012001"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70065"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "88004"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 1
+  },
+  {
+    "Id": 21058,
+    "StateMachine": "SM_Animal_NA058",
+    "AiController": "/Game/Aki/AI/AINPC/Animal/NA058/AIC_NA058.AIC_NA058",
+    "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA058/BT_NA058.BT_NA058",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "21007"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "14"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "21058"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
+    "Id": 500106,
+    "StateMachine": "",
+    "AiController": "/Game/Aki/AI/AICommon/AI_Floater_HeiHaiAn/AIC_Floater_NM018.AIC_Floater_NM018",
+    "BehaviorTree": "/Game/Aki/AI/AICommon/AI_Floater_HeiHaiAn/BehaviorTree/BT_Floater_NM018_HeiHaiAn_Tafang.BT_Floater_NM018_HeiHaiAn_Tafang",
+    "SubBehaviorConfigs": [],
+    "Team": true,
+    "MonsterType": 4
+  },
+  {
+    "Id": 21057,
+    "StateMachine": "",
+    "AiController": "/Game/Aki/AI/AINPC/Animal/NA057/AIC_NA057.AIC_NA057",
+    "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA057/BT_NA057.BT_NA057",
+    "SubBehaviorConfigs": [],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
+    "Id": 2105801,
+    "StateMachine": "SM_Animal_NA058",
+    "AiController": "/Game/Aki/AI/AINPC/Animal/NA058/AIC_NA058.AIC_NA058",
+    "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA058/BT_NA058_03.BT_NA058_03",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "21007"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "14"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "21058"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
+    "Id": 2105802,
+    "StateMachine": "SM_Animal_NA058",
+    "AiController": "/Game/Aki/AI/AINPC/Animal/NA058/AIC_NA058.AIC_NA058",
+    "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA058/BT_NA058_02.BT_NA058_02",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "21007"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "14"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "21058"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
+    "Id": 7026001,
+    "StateMachine": "SM_MO1ChaoshengzheMd00401",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1ChaoshengzheMd00401/AIC_MO1ChaoshengzheMd00401.AIC_MO1ChaoshengzheMd00401",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1ChaoshengzheMd00401/BT_MO1ChaoshengzheMd00401.BT_MO1ChaoshengzheMd00401",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70162"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70162"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70162"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "70162"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 4
+  },
+  {
+    "Id": 7026002,
+    "StateMachine": "SM_ME1ChaoshengMd00401",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1ChaoshengMd00401/AIC_ME1ChaoshengMd00401.AIC_ME1ChaoshengMd00401",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1ChaoshengMd00401/BT_ME1ChaoshengMd00401.BT_ME1ChaoshengMd00401",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77068"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77068"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77068"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77068"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 2
+  },
+  {
+    "Id": 7026003,
+    "StateMachine": "SM_ME1GuangJueDouShiMd00501",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1GuangJueDouShiMd00501/AIC_ME1GuangJueDouShiMd00501_New.AIC_ME1GuangJueDouShiMd00501_New",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1GuangJueDouShiMd00501/BT_ME1GuangJueDouShiMd00501.BT_ME1GuangJueDouShiMd00501",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77061"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7026004,
+    "StateMachine": "SM_ME1BingJueDouShiMd00201",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1BingJueDouShiMd00201/AIC_ME1BingJueDouShiMd00201.AIC_ME1BingJueDouShiMd00201",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1BingJueDouShiMd00201/BT_ME1BingJueDouShiMd00201.BT_ME1BingJueDouShiMd00201",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77062"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77062"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77062"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77062"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7026005,
+    "StateMachine": "SM_ME1AnJueDouShiMd00601",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1AnJueDouShiMd00601/AIC_ME1AnJueDouShiMd00601.AIC_ME1AnJueDouShiMd00601",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1AnJueDouShiMd00601/BT_ME1AnJueDouShiMd00601.BT_ME1AnJueDouShiMd00601",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77064"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77064"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77064"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77064"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7026006,
+    "StateMachine": "SM_ME1HuoJueDouShiMd00101",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1HuoJueDouShiMd00101/AIC_ME1HuoJueDouShiMd00101_New.AIC_ME1HuoJueDouShiMd00101_New",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1HuoJueDouShiMd00101/BT_ME1HuoJueDouShiMd00101.BT_ME1HuoJueDouShiMd00101",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77059"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77059"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77059"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77059"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7026007,
+    "StateMachine": "SM_ME1LeiJueDouShiMd00301",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1LeiJueDouShiMd00301/AIC_ME1LeiJueDouShiMd00301.AIC_ME1LeiJueDouShiMd00301",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1LeiJueDouShiMd00301/BT_ME1LeiJueDouShiMd00301.BT_ME1LeiJueDouShiMd00301",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77063"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77063"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77063"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77063"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7026008,
+    "StateMachine": "SM_ME1FengJueDouShiMd00401",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1FengJueDouShiMd00401/AIC_ME1FengJueDouShiMd00401_NEW.AIC_ME1FengJueDouShiMd00401_New",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1FengJueDouShiMd00401/BT_ME1FengJueDouShiMd00401.BT_ME1FengJueDouShiMd00401",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77060"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77060"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77060"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77060"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7026009,
+    "StateMachine": "SM_MP1JiaoeMd00401",
+    "AiController": "/Game/Aki/AI/AIMonster/ElitePro/AIMP1JiaoeMd00401/AIC_MP1JiaoeMd00401.AIC_MP1JiaoeMd00401",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/ElitePro/AIMP1JiaoeMd00401/BT_MP1JiaoeMd00401.BT_MP1JiaoeMd00401",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7026010,
+    "StateMachine": "SM_MP1ShijilongMd00101",
+    "AiController": "/Game/Aki/AI/AIMonster/ElitePro/AIMP1ShijilongMd00101/AIC_MP1ShijilongMd00101.AIC_MP1ShijilongMd00101",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/ElitePro/AIMP1ShijilongMd00101/BT_MP1ShijilongMd00101.BT_MP1ShijilongMd00101",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77070"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7026011,
+    "StateMachine": "SM_MO1GuangXYLMd00501",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1GuangXYLMd00501/AIC_MO1GuangXYLMd00501.AIC_MO1GuangXYLMd00501",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1GuangXYLMd00501/BT_MO1GuangXYLMd00501.BT_MO1GuangXYLMd00501",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "70152"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 6
+  },
+  {
+    "Id": 7026012,
+    "StateMachine": "SM_MO1BingXYLMd00201",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1BingXYLMd00201/AIC_MO1BingXYLMd00201_02.AIC_MO1BingXYLMd00201_02",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1BingXYLMd00201/BT_MO1BingXYLMd00201_02.BT_MO1BingXYLMd00201_02",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "7014301"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 6
+  },
+  {
+    "Id": 7026013,
+    "StateMachine": "SM_MO1AnXYLMd00601",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1AnXYLMd00601/AIC_MO1AnXYLMd00601.AIC_MO1AnXYLMd00601",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1AnXYLMd00601/BT_MO1AnXYLMd00601.BT_MO1AnXYLMd00601",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "70153"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 6
+  },
+  {
+    "Id": 7026014,
+    "StateMachine": "SM_MO1HuoXYLMd00101",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1HuoXYLMd00101/AIC_MO1HuoXYLMd00101.AIC_MO1HuoXYLMd00101",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1HuoXYLMd00101/BT_MO1HuoXYLMd00101.BT_MO1HuoXYLMd00101",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "70151"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 6
+  },
+  {
+    "Id": 7026015,
+    "StateMachine": "SM_MO1LeiXYLMd00301",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1LeiXYLMd00301/AIC_MO1LeiXYLMd00301_02.AIC_MO1LeiXYLMd00301_02",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1LeiXYLMd00301/BT_MO1LeiXYLMd00301_02.BT_MO1LeiXYLMd00301_02",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "7014201"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 6
+  },
+  {
+    "Id": 7026016,
+    "StateMachine": "SM_MO1FengXYLMd00401",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1FengXYLMd00401/AIC_MO1FengXYLMd00401_02.AIC_MO1FengXYLMd00401_02",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1FengXYLMd00401/BT_MO1FengXYLMd00401_02.BT_MO1FengXYLMd00401_02",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70141"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "7014101"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 6
+  },
+  {
+    "Id": 7026017,
+    "StateMachine": "SM_MO1AnjinMd006001",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1AnjinMd00601/AIC_MO1AnjinMd00601.AIC_MO1AnjinMd00601",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1AnjinMd00601/BT_MO1AnjinMd00601.BT_MO1AnjinMd00601",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70065"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70065"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70065"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "70065"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 4
+  },
+  {
+    "Id": 7026018,
+    "StateMachine": "SM_MO1BinglieMd00201",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1BinglieMd00201/AIC_MO1BinglieMd00201.AIC_MO1BinglieMd00201",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1BinglieMd00201/BT_MO1BinglieMd00201.BT_MO1BinglieMd00201",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70053"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70053"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70070"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "70070"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 5
+  },
+  {
+    "Id": 7026019,
+    "StateMachine": "SM_MO1FenglieMd00401",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1FenglieMd00401/AIC_MO1FenglieMd00401.AIC_MO1FenglieMd00401",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1FenglieMd00401/BT_MO1FenglieMd00401.BT_MO1FenglieMd00401",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70053"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70053"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70070"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "70071"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 5
+  },
+  {
+    "Id": 7026020,
+    "StateMachine": "SM_MO1HuojinMd00101",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1HuojinMd00101/AIC_MO1HuojinMd00101.AIC_MO1HuojinMd00101",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1HuojinMd00101/BT_MO1HuojinMd00101.BT_MO1HuojinMd00101",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70065"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70065"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70065"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "70064"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 4
+  },
+  {
+    "Id": 7026021,
+    "StateMachine": "SM_ME1AnFaMd00601",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1AnFaMd00601/AIC_ME1AnFaMd00601.AIC_ME1AnFaMd00601",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1AnFaMd00601/BT_ME1AnFaMd00601.BT_ME1AnFaMd00601",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77022"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77022"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77022"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77023"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 2
+  },
+  {
+    "Id": 7026022,
+    "StateMachine": "SM_ME1AntankeMd00601",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1AntankeMd00601/AIC_ME1AntankeMd00601.AIC_ME1AntankeMd00601",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1AntankeMd00601/BT_ME1AntankeMd00601.BT_ME1AntankeMd00601",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77024"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77024"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77024"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77025"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 1
+  },
+  {
+    "Id": 7026023,
+    "StateMachine": "SM_ME1LeiFaMd00301",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1LeiFaMd00301/AIC_ME1LeiFaMd00301.AIC_ME1LeiFaMd00301",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1LeiFaMd00301/BT_ME1LeiFaMd00301.BT_ME1LeiFaMd00301",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77022"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77022"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77022"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77022"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 2
+  },
+  {
+    "Id": 7026024,
+    "StateMachine": "SM_ME1GuangtankeMd00501",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1GuangtankeMd00501/AIC_ME1GuangtankeMd00501.AIC_ME1GuangtankeMd00501",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1GuangtankeMd00501/BT_ME1GuangtankeMd00501.BT_ME1GuangtankeMd00501",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77024"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77024"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77024"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77024"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7026025,
+    "StateMachine": "SM_MO1QunJing2Md00201",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1QunJing2Md00201/AIC_MO1QunJing2Md00201.AIC_MO1QunJing2Md00201",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1QunJing2Md00201/BT_MO1QunJing2Md00201.BT_MO1QunJing2Md00201",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70051"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70051"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70051"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "700521"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 4
+  },
+  {
+    "Id": 7026026,
+    "StateMachine": "SM_MO1QunJing1Md00501",
+    "AiController": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1QunJing1Md00501/AIC_MO1QunJing1Md00501.AIC_MO1QunJing1Md00501",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Ordinary/AIMO1QunJing1Md00501/BT_MO1QunJing1Md00501.BT_MO1QunJing1Md00501",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "70051"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "70051"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70051"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "700511"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 4
+  },
+  {
+    "Id": 7026027,
+    "StateMachine": "SM_ME1DuguizuMd00211",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1DuguizuMd00211/AIC_ME1DuguizuMd00211.AIC_ME1DuguizuMd00211",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1DuguizuMd00211/BT_ME1DuguizuMd00211.BT_ME1DuguizuMd00211",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77051"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77051"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77051"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77051"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 1
+  },
+  {
+    "Id": 7026028,
+    "StateMachine": "SM_ME1DuguizuMd00221",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1DuguizuMd00221/AIC_ME1DuguizuMd00221.AIC_ME1DuguizuMd00221",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1DuguizuMd00221/BT_ME1DuguizuMd00221.BT_ME1DuguizuMd00221",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77052"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77052"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77052"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77052"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 2
+  },
+  {
+    "Id": 7026029,
+    "StateMachine": "SM_ME1JTJunTuanZhangMd00501",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1JTJunTuanZhangMd00501/AIC_ME1JTJunTuanZhangMd00501.AIC_ME1JTJunTuanZhangMd00501",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1JTJunTuanZhangMd00501/BT_ME1JTJunTuanZhangMd00501.BT_ME1JTJunTuanZhangMd00501",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77056"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77056"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "80006"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77056"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77056"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 1
+  },
+  {
+    "Id": 770701,
+    "StateMachine": "SM_MP1ShijilongZhuxianMd00101",
+    "AiController": "/Game/Aki/AI/AIMonster/ElitePro/AIMP1ShijilongMd00101/AIC_MP1ShijilongMd00101.AIC_MP1ShijilongMd00101",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/ElitePro/AIMP1ShijilongMd00101/BT_MP1ShijilongZhuxianMd00101.BT_MP1ShijilongZhuxianMd00101",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77069"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77070"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
   }
 ]

@@ -2,6 +2,7 @@
   {
     "Id": 1,
     "ActionName": "邮件",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "MailBoxView",
     "HandleType": "ViewHotKeyHandle",
@@ -17,6 +18,7 @@
   {
     "Id": 2,
     "ActionName": "地图",
+    "EffectiveType": 0,
     "InputControllerType": 1,
     "ViewName": "WorldMapView",
     "HandleType": "ViewHotKeyHandleMapView",
@@ -32,6 +34,7 @@
   {
     "Id": 3,
     "ActionName": "地图",
+    "EffectiveType": 0,
     "InputControllerType": 2,
     "ViewName": "WorldMapView",
     "HandleType": "ViewHotKeyHandleMapView",
@@ -47,6 +50,7 @@
   {
     "Id": 4,
     "ActionName": "任务",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "QuestView",
     "HandleType": "ViewHotKeyHandle",
@@ -62,6 +66,7 @@
   {
     "Id": 5,
     "ActionName": "编队",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "EditFormationView",
     "HandleType": "ViewHotKeyHandle",
@@ -77,6 +82,7 @@
   {
     "Id": 6,
     "ActionName": "背包",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "InventoryView",
     "HandleType": "ViewHotKeyHandle",
@@ -92,6 +98,7 @@
   {
     "Id": 7,
     "ActionName": "聊天",
+    "EffectiveType": 0,
     "InputControllerType": 1,
     "ViewName": "ChatView",
     "HandleType": "ViewHotKeyHandle",
@@ -107,6 +114,7 @@
   {
     "Id": 8,
     "ActionName": "聊天",
+    "EffectiveType": 0,
     "InputControllerType": 2,
     "ViewName": "ChatView",
     "HandleType": "ViewHotKeyHandle",
@@ -122,6 +130,7 @@
   {
     "Id": 9,
     "ActionName": "功能菜单",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "FunctionView",
     "HandleType": "ViewHotKeyHandleFunctionMenu",
@@ -137,6 +146,7 @@
   {
     "Id": 10,
     "ActionName": "角色选择界面",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "RoleRootView",
     "HandleType": "ViewHotKeyHandleRoleRootView",
@@ -152,6 +162,7 @@
   {
     "Id": 11,
     "ActionName": "幻象列表界面",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "PhantomExploreSetView",
     "HandleType": "ViewHotKeyHandle",
@@ -167,6 +178,7 @@
   {
     "Id": 12,
     "ActionName": "幻象探索选择界面",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "PhantomExploreView",
     "HandleType": "ViewHotKeyHandleRoulette",
@@ -184,6 +196,7 @@
   {
     "Id": 14,
     "ActionName": "教程",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "TutorialView",
     "HandleType": "ViewHotKeyHandle",
@@ -199,6 +212,7 @@
   {
     "Id": 15,
     "ActionName": "联机",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "OnlineWorldHallView",
     "HandleType": "ViewHotKeyHandle",
@@ -214,6 +228,7 @@
   {
     "Id": 16,
     "ActionName": "小活动",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "CommonActivityView",
     "HandleType": "ViewHotKeyHandle",
@@ -229,6 +244,7 @@
   {
     "Id": 17,
     "ActionName": "调谐",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "GachaMainView",
     "HandleType": "ViewHotKeyHandle",
@@ -244,6 +260,7 @@
   {
     "Id": 18,
     "ActionName": "变星",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "BattlePassMainView",
     "HandleType": "ViewHotKeyHandle",
@@ -259,6 +276,7 @@
   {
     "Id": 19,
     "ActionName": "拾音辑录",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "AdventureGuideView",
     "HandleType": "ViewHotKeyHandle",
@@ -274,6 +292,7 @@
   {
     "Id": 20,
     "ActionName": "轮盘2",
+    "EffectiveType": 0,
     "InputControllerType": 0,
     "ViewName": "PhantomExploreView",
     "HandleType": "ViewHotKeyHandleRoulette",
@@ -286,6 +305,24 @@
     "IsReleaseClose": false,
     "ViewParam": [
       "2"
+    ]
+  },
+  {
+    "Id": 21,
+    "ActionName": "塔防轮盘",
+    "EffectiveType": 1,
+    "InputControllerType": 0,
+    "ViewName": "PhantomExploreView",
+    "HandleType": "ViewHotKeyHandleTrapDefenseRoulette",
+    "IsPressTrigger": true,
+    "PressStartTime": 0,
+    "PressTriggerTime": 0,
+    "IsReleaseTrigger": false,
+    "ReleaseInvalidTime": 0,
+    "IsPressClose": false,
+    "IsReleaseClose": false,
+    "ViewParam": [
+      "1"
     ]
   }
 ]
