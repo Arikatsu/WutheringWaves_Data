@@ -143886,6 +143886,34 @@
             "UniquenessTest": "Closest"
           }
         ]
+      },
+      "TriggerComponent": {
+        "Match": {
+          "OnlyPlayer": true,
+          "Categories": [],
+          "States": []
+        },
+        "Actions": [],
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": [
+              {
+                "Type": "Player"
+              }
+            ]
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        },
+        "Disabled": true
       }
     }
   },
@@ -144070,6 +144098,34 @@
             }
           }
         ]
+      },
+      "TriggerComponent": {
+        "Match": {
+          "OnlyPlayer": true,
+          "Categories": [],
+          "States": []
+        },
+        "Actions": [],
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": [
+              {
+                "Type": "Player"
+              }
+            ]
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        },
+        "Disabled": true
       }
     }
   },
@@ -162363,7 +162419,7 @@
         "Camp": 2,
         "EntityPropertyId": 2,
         "OnlineInteractType": 1,
-        "AoiLayer": 0,
+        "AoiLayer": 8,
         "AoiZRadius": 0
       },
       "EntityStateComponent": {
@@ -241313,6 +241369,34 @@
         "Range": 200,
         "DoIntactType": "Direct",
         "Options": [],
+        "Disabled": true
+      },
+      "TriggerComponent": {
+        "Match": {
+          "OnlyPlayer": true,
+          "Categories": [],
+          "States": []
+        },
+        "Actions": [],
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": [
+              {
+                "Type": "Player"
+              }
+            ]
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        },
         "Disabled": true
       }
     }
@@ -379137,7 +379221,7 @@
         "FocusPriority": 11,
         "AoiZRadius": 0,
         "ScanFunction": {
-          "ScanId": 101,
+          "ScanId": 2,
           "IsConcealed": false
         }
       },
@@ -390445,6 +390529,34 @@
         "Range": 200,
         "DoIntactType": "Direct",
         "Options": [],
+        "Disabled": true
+      },
+      "TriggerComponent": {
+        "Match": {
+          "OnlyPlayer": true,
+          "Categories": [],
+          "States": []
+        },
+        "Actions": [],
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": [
+              {
+                "Type": "Player"
+              }
+            ]
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        },
         "Disabled": true
       }
     }
@@ -414192,7 +414304,7 @@
       },
       "RewardComponent": {
         "RewardId": 2738,
-        "RewardType": 3,
+        "RewardType": 0,
         "RefreshConfig": {
           "RefreshType": {
             "Type": "FixedDateTime",
@@ -414245,20 +414357,29 @@
               "Type": "Actions",
               "Actions": [
                 {
-                  "Name": "Log",
+                  "Name": "GetRewardByInteract",
+                  "Params": {},
+                  "ActionId": 1000001,
+                  "Disabled": true
+                },
+                {
+                  "Name": "AddBuffToEntity",
                   "Params": {
-                    "Level": "Info",
-                    "Content": "替换为getrewardbyinteract"
+                    "EntityIds": [
+                      0
+                    ],
+                    "BuffIds": [
+                      611020007
+                    ]
                   },
-                  "ActionGuid": "1a835c0c20134a9d93d93fd78c1a51bd",
-                  "Timeout": 2,
-                  "ActionId": 1000001
+                  "ActionGuid": "6f1a77fb684d442bb87a42e8a307bc5b",
+                  "ActionId": 1000003
                 },
                 {
                   "Name": "DestroySelf",
                   "Params": {},
-                  "ActionGuid": "4f3227481c7d4dcf9af72b950918d97a",
-                  "ActionId": 1000002
+                  "ActionId": 1000002,
+                  "Disabled": true
                 }
               ]
             }
@@ -445374,7 +445495,8 @@
             }
           ],
           "EffectStateList": []
-        }
+        },
+        "TrackHeight": 200
       },
       "EntityVisibleComponent": {
         "DelayChange": false,
@@ -446110,7 +446232,7 @@
     "Name": "幻象—伪作的神王",
     "ComponentsData": {
       "BaseInfoComponent": {
-        "TidName": "Entity_6a8ea919d9d35d96fb86193360b872833f5c02926c2e22f58ec76bad1522472a",
+        "TidName": "Entity_c569649813139c8b7a60fbf2dc38d1a13ed2a1a80b6b6f28f3d27ee8cecb863a",
         "Category": {
           "MainType": "Npc"
         },
@@ -455212,6 +455334,34 @@
         "Range": 200,
         "DoIntactType": "Direct",
         "Options": []
+      },
+      "TriggerComponent": {
+        "Match": {
+          "OnlyPlayer": true,
+          "Categories": [],
+          "States": []
+        },
+        "Actions": [],
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": [
+              {
+                "Type": "Player"
+              }
+            ]
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        },
+        "Disabled": true
       }
     }
   },
@@ -456346,6 +456496,34 @@
             }
           }
         ]
+      },
+      "TriggerComponent": {
+        "Match": {
+          "OnlyPlayer": true,
+          "Categories": [],
+          "States": []
+        },
+        "Actions": [],
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": [
+              {
+                "Type": "Player"
+              }
+            ]
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        },
+        "Disabled": true
       }
     }
   },
@@ -456451,7 +456629,8 @@
           "X": 0,
           "Y": 0,
           "Z": 100
-        }
+        },
+        "Disabled": true
       },
       "AttachTargetComponent": {
         "Disabled": true
@@ -456560,7 +456739,8 @@
           "X": 0,
           "Y": 0,
           "Z": 100
-        }
+        },
+        "Disabled": true
       },
       "AttachTargetComponent": {
         "Disabled": true
@@ -456669,7 +456849,8 @@
           "X": 0,
           "Y": 0,
           "Z": 100
-        }
+        },
+        "Disabled": true
       },
       "AttachTargetComponent": {
         "Disabled": true
@@ -457406,7 +457587,7 @@
     "Name": "幻象—伪作的神王黑蛇",
     "ComponentsData": {
       "BaseInfoComponent": {
-        "TidName": "Entity_d6963b10df7dcbe7fb3402a2ec48e84bebcbec1c4daaed86c0977af98eefed79",
+        "TidName": "Entity_8b978e457b496235a4e56aa9b2ee30562686388cd5c5bf6abebb9be4ee10bd63",
         "Category": {
           "MainType": "Npc"
         },
@@ -457778,91 +457959,6 @@
       },
       "SimpleCombatComponent": {
         "Id": 750044
-      }
-    }
-  },
-  {
-    "Id": 670750001,
-    "BlueprintType": "branch2.6_670_Monster143",
-    "Name": "任务专用奥古斯塔角色怪有血条版",
-    "ComponentsData": {
-      "BaseInfoComponent": {
-        "TidName": "Entity_9752293f47c25371de1abe2d99667bd94547028ac4ce58320d423eb818f56ce7",
-        "Category": {
-          "MainType": "Monster",
-          "MonsterMatchType": 4
-        },
-        "Camp": 1,
-        "EntityPropertyId": 300,
-        "OnlineInteractType": 1,
-        "AoiLayer": 7,
-        "AoiZRadius": 0,
-        "HeadStateViewConfig": {
-          "HeadStateViewType": 11,
-          "ZOffset": 35,
-          "ForwardOffset": 0
-        }
-      },
-      "AiComponent": {
-        "AiId": 88004,
-        "InitState": {
-          "Type": 0,
-          "BirthTag": "怪物.common.状态标识.播放出生"
-        }
-      },
-      "AttributeComponent": {
-        "PropertyId": 1603,
-        "MonsterPropExtraRateId": 0,
-        "Level": 1,
-        "WorldLevelBonusId": 0,
-        "WorldLevelBonusType": {
-          "Type": 1
-        },
-        "RageModeId": 0,
-        "HardnessModeId": 0
-      },
-      "RewardComponent": {
-        "RewardId": 0,
-        "RewardType": 0,
-        "Disabled": true
-      },
-      "VisionCaptureComponent": {
-        "VisionCaptureId": 0,
-        "Disabled": true
-      },
-      "MonsterComponent": {
-        "FightConfigId": 70003
-      },
-      "CombatComponent": {},
-      "RefreshComponent": {
-        "RefreshRule": {
-          "Type": "CD",
-          "Cd": 86400
-        },
-        "Disabled": true
-      },
-      "EntityVisibleComponent": {
-        "DelayChange": false,
-        "UseFadeEffect": true,
-        "UseCutEffect": true,
-        "UseHolographicEffect": true,
-        "VisibleConditions": [],
-        "Disabled": true
-      },
-      "BubbleComponent": {
-        "Disabled": true,
-        "NpcIds": [],
-        "EnterRange": 500,
-        "LeaveRange": 1500,
-        "Flows": []
-      },
-      "ModelComponent": {
-        "HalfHeight": 80,
-        "Disabled": false,
-        "ModelType": {
-          "Type": "ModelId",
-          "ModelId": 390143
-        }
       }
     }
   },
@@ -459186,6 +459282,162 @@
       "SceneItemEventListenerComponent": {
         "Events": [],
         "Disabled": true
+      }
+    }
+  },
+  {
+    "Id": 166750007,
+    "BlueprintType": "branch2.6_166_Animal059",
+    "Name": "TsEntity_生态动物056_彩饰螳螂虾（新）",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "Animal"
+        },
+        "Camp": 6,
+        "TidName": "Entity_31af2f5d85552c5f8c10732e59b8b480aef7309f8c114bdab9ad13eb4cc8295a",
+        "OnlineInteractType": 0,
+        "EntityPropertyId": 1,
+        "AoiLayer": 0,
+        "AoiZRadius": 0
+      },
+      "AiComponent": {
+        "AiId": 21056
+      },
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "FixedDateTime",
+          "Hours": 4,
+          "Minutes": 0,
+          "Seconds": 0
+        }
+      },
+      "RewardComponent": {
+        "RewardId": 2738,
+        "RewardType": 0
+      },
+      "AnimalComponent": {
+        "IsStare": false,
+        "CanKillSelf": true,
+        "AnimalAttackRange": 50
+      },
+      "ModelComponent": {
+        "HalfHeight": 50,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "ModelId",
+          "ModelId": 391324
+        }
+      },
+      "AttributeComponent": {
+        "PropertyId": 90000001,
+        "MonsterPropExtraRateId": 0,
+        "Level": 1,
+        "WorldLevelBonusId": 1,
+        "WorldLevelBonusType": {
+          "Type": 0
+        },
+        "RageModeId": 1,
+        "HardnessModeId": 1
+      },
+      "CombatComponent": {},
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "UseFadeEffect": true,
+        "UseCutEffect": true,
+        "UseHolographicEffect": true,
+        "VisibleConditions": []
+      },
+      "InteractComponent": {
+        "Range": 200,
+        "DoIntactType": "Direct",
+        "Options": [
+          {
+            "Guid": "ccb7ab984402465f90fa275150094f90",
+            "Type": {
+              "Type": "Actions",
+              "Actions": [
+                {
+                  "Name": "AddBuffToEntity",
+                  "Params": {
+                    "EntityIds": [],
+                    "BuffIds": [
+                      611020004
+                    ]
+                  },
+                  "ActionGuid": "c5a3b22ec4284f81bde74ae5ea6d935d",
+                  "ActionId": 1000001
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "InteractAudioComponent": {
+        "Disabled": true
+      }
+    }
+  },
+  {
+    "Id": 164750006,
+    "BlueprintType": "branch2.6_164_TsEntity_170_阿维狄亚_无勋章",
+    "Name": "TsEntity_136_阿维狄亚_无勋章",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "TidName": "Entity_4d65c3034b7de153dfdda8db0081111825d17fb512b9eb1711a674c84689a04f",
+        "Category": {},
+        "Camp": 2,
+        "EntityPropertyId": 2,
+        "OnlineInteractType": 1,
+        "AoiLayer": 0,
+        "AoiZRadius": 0,
+        "IsShowNameOnHead": true,
+        "IsOnlineStandalone": true
+      },
+      "InteractComponent": {
+        "Range": 200,
+        "DoIntactType": "Direct",
+        "Options": [],
+        "TurnAroundType": "FaceEachOther"
+      },
+      "AiComponent": {
+        "AiId": 0
+      },
+      "LevelAiComponent": {
+        "Disabled": true,
+        "States": []
+      },
+      "NpcPerformComponent": {
+        "IsStare": true,
+        "IsShowStrike": false
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "UseFadeEffect": true,
+        "VisibleConditions": [],
+        "Disabled": false
+      },
+      "BubbleComponent": {
+        "NpcIds": [],
+        "Flows": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500
+      },
+      "VarComponent": {
+        "Vars": []
+      },
+      "ModelComponent": {
+        "HalfHeight": 80,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "Npc",
+          "BlueprintPath": "/Game/Aki/Character/NPC/MaleM/Special/NH_MaleM_136/BP_NH_MaleM_136_NoBadage.BP_NH_MaleM_136_NoBadage_C",
+          "NpcModel": {
+            "Type": "Mesh",
+            "Mesh": "/Game/Aki/Character/NPC/MaleM/Special/NH_MaleM_136/Model/NH_MaleM_136.NH_MaleM_136"
+          },
+          "Abp": "/Game/Aki/Character/NPC/MaleM/BPData/ABP_NH_MaleM_136.ABP_NH_MaleM_136_C"
+        }
       }
     }
   }
