@@ -3,5 +3,5 @@
 > Client region: Global</br>
 > Status: Release</br>
 > Game Version: 2.6.0</br>
-> Resource Version: 2.6.11</br>
-> Changelist: 4831546
+> Resource Version: 2.6.12</br>
+> Changelist: 4840901

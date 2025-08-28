@@ -34030,7 +34030,6 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "1306004023",
-      "1306004024",
       "1101002008"
     ],
     "ActionScriptParams": {},
@@ -34097,7 +34096,7 @@
     "IsDefaultActivated": true,
     "TriggerType": "ShieldTrigger",
     "TriggerPreset": [
-      "1"
+      "2"
     ],
     "TriggerParams": {},
     "TriggerFormula": "UpdateType==0",
@@ -34122,16 +34121,18 @@
     "IsDefaultActivated": true,
     "TriggerType": "QteGoBattleTrigger",
     "TriggerPreset": [
-      "1"
+      "0"
     ],
     "TriggerParams": {},
     "TriggerFormula": "TRUE",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
-    "SkillAction": "Customize",
-    "SkillActionParams": [],
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1306003035"
+    ],
     "ActionScriptParams": {},
-    "SkillActionScript": "AddBuff2(GoBattleEntity,1306003035,1,Owner)"
+    "SkillActionScript": "FALSE"
   },
   {
     "Id": 1410010320,
@@ -34144,7 +34145,7 @@
     "IsDefaultActivated": true,
     "TriggerType": "BuffVictimTrigger",
     "TriggerPreset": [
-      "1",
+      "2",
       "0#1410010101#10"
     ],
     "TriggerParams": {},
@@ -34391,81 +34392,6 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "612700020"
-    ],
-    "ActionScriptParams": {},
-    "SkillActionScript": "FALSE"
-  },
-  {
-    "Id": 1410010313,
-    "SkillDesc": "尤诺共鸣链1-监听满月领域展开",
-    "CDTime": 0,
-    "CdThreshold": -1,
-    "ShareGroupId": 0,
-    "MaxCount": 1,
-    "IsShareAllCdSkill": false,
-    "IsDefaultActivated": true,
-    "TriggerType": "TagTrigger",
-    "TriggerPreset": [
-      "角色.7d25c1f5.fe2b308a.0927b2a6",
-      "0",
-      "0",
-      "1"
-    ],
-    "TriggerParams": {},
-    "TriggerFormula": "TRUE",
-    "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1410010314"
-    ],
-    "ActionScriptParams": {},
-    "SkillActionScript": "FALSE"
-  },
-  {
-    "Id": 900274000005,
-    "SkillDesc": "闪避反击命中给15层BUFF",
-    "CDTime": 2,
-    "CdThreshold": -1,
-    "ShareGroupId": 0,
-    "MaxCount": 1,
-    "IsShareAllCdSkill": false,
-    "IsDefaultActivated": true,
-    "TriggerType": "HitTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": {},
-    "TriggerFormula": "SkillType == 5",
-    "SubSkillAction": [],
-    "InstigatorType": "Attacker",
-    "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "900274000007"
-    ],
-    "ActionScriptParams": {},
-    "SkillActionScript": "FALSE"
-  },
-  {
-    "Id": 900274000006,
-    "SkillDesc": "逆势回击命中给15层BUFF",
-    "CDTime": 2,
-    "CdThreshold": -1,
-    "ShareGroupId": 0,
-    "MaxCount": 1,
-    "IsShareAllCdSkill": false,
-    "IsDefaultActivated": true,
-    "TriggerType": "HitTrigger",
-    "TriggerPreset": [
-      "0"
-    ],
-    "TriggerParams": {},
-    "TriggerFormula": "CounterType == 1",
-    "SubSkillAction": [],
-    "InstigatorType": "Attacker",
-    "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "900274000007"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE"

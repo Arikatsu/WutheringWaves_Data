@@ -101549,7 +101549,7 @@
     "LimitParams": [
       {
         "Key": "MonsterId",
-        "Value": "Monster_Branch2.4_001"
+        "Value": "Monster_Branch2.2_001"
       }
     ],
     "LimitParamsOpe": [],
@@ -118026,7 +118026,7 @@
   },
   {
     "Id": 131200912,
-    "Type": "CheckTrapDefenseLevelFinish",
+    "Type": "OnTrapDefenseDeployingBuilding",
     "NeedNum": 1,
     "LimitParams": [
       {
@@ -120091,16 +120091,188 @@
   },
   {
     "Id": 131200981,
-    "Type": "CheckGuideStatus",
+    "Type": "CheckClientQuestNode",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "GuideGroupId",
-        "Value": "10218"
+        "Key": "任务Id",
+        "Value": "226750004"
       },
       {
+        "Key": "步骤Id",
+        "Value": "11"
+      },
+      {
+        "Key": "状态",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
         "Key": "Status",
-        "Value": "3"
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200982,
+    "Type": "CheckClientQuestNode",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "226750005"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "15"
+      },
+      {
+        "Key": "状态",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200983,
+    "Type": "CheckClientQuestNode",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "226750006"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "15"
+      },
+      {
+        "Key": "状态",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200984,
+    "Type": "CheckClientQuestNode",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "226750007"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "20"
+      },
+      {
+        "Key": "状态",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200985,
+    "Type": "CheckClientQuestNode",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "226750008"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "9"
+      },
+      {
+        "Key": "状态",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200986,
+    "Type": "CheckClientQuestNode",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "226750009"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "9"
+      },
+      {
+        "Key": "状态",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131200987,
+    "Type": "CheckClientQuestNode",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "226750010"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "9"
+      },
+      {
+        "Key": "状态",
+        "Value": "2"
       }
     ],
     "LimitParamsOpe": [
@@ -120136,55 +120308,6 @@
       {
         "Key": "ChallengeId",
         "Value": "103"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": true,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
-    "Id": 131200982,
-    "Type": "CheckUIState",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "UIName",
-        "Value": "TrapDefenseBuildingDevelopMainView"
-      },
-      {
-        "Key": "UIState",
-        "Value": "0"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": true,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
-    "Id": 131200983,
-    "Type": "OnViewClose",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "UIName",
-        "Value": "TrapDefenseBuildingDevelopMainView"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": true,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
-    "Id": 131200984,
-    "Type": "CheckUIOpenDone",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "UIName",
-        "Value": "TrapDefenseMainView"
       }
     ],
     "LimitParamsOpe": [],

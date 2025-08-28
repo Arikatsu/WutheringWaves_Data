@@ -165188,7 +165188,7 @@
   {
     "Id": "SM_ML1WeiZuoShenWangMd00601",
     "StateMachineJson": {
-      "Version": 888155622,
+      "Version": 1731405241,
       "StateMachines": [
         8,
         17,
@@ -166704,7 +166704,7 @@
             {
               "From": 31,
               "To": 32,
-              "TransitionPredictionType": 2,
+              "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
                 {
@@ -166723,23 +166723,11 @@
             {
               "From": 32,
               "To": 31,
-              "TransitionPredictionType": 2,
+              "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
                 {
                   "Index": 0,
-                  "Name": "CondOr",
-                  "Type": 2,
-                  "Reverse": false,
-                  "CondOr": {
-                    "Conditions": [
-                      1,
-                      2
-                    ]
-                  }
-                },
-                {
-                  "Index": 1,
                   "Name": "CondTag",
                   "Type": 14,
                   "Reverse": true,
@@ -166747,18 +166735,6 @@
                   "CondTag": {
                     "TagId": -1750196615,
                     "TagName": "怪物.d813bb48.d22a649c.9fe2dfe8"
-                  }
-                },
-                {
-                  "Index": 2,
-                  "Name": "CondAttributeRate",
-                  "Type": 18,
-                  "Reverse": false,
-                  "CondAttributeRate": {
-                    "AttributeId": 3,
-                    "Denominator": 2,
-                    "Min": 0,
-                    "Max": 0
                   }
                 }
               ]
@@ -185606,7 +185582,7 @@
   {
     "Id": "SM_ML1RongYaoHuiJinMd00201_Daoguan",
     "StateMachineJson": {
-      "Version": 1782987752,
+      "Version": 257331556,
       "StateMachines": [
         7,
         15,
@@ -185904,13 +185880,6 @@
               "BindPalsy": {
                 "CounterAttackEffect": "",
                 "CounterAttackCamera": "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
-              }
-            },
-            {
-              "Name": "BindTag",
-              "Type": 3,
-              "BindTag": {
-                "TagId": -335562447
               }
             }
           ],
@@ -186908,7 +186877,7 @@
                   "CondOr": {
                     "Conditions": [
                       1,
-                      6
+                      5
                     ]
                   }
                 },
@@ -186921,8 +186890,7 @@
                     "Conditions": [
                       2,
                       3,
-                      4,
-                      5
+                      4
                     ]
                   }
                 },
@@ -186962,31 +186930,19 @@
                 },
                 {
                   "Index": 5,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": false,
-                  "CondTag": {
-                    "TagId": -335562447,
-                    "TagName": "怪物.35887b22.5c6dc66f"
-                  }
-                },
-                {
-                  "Index": 6,
                   "Name": "CondAnd",
                   "Type": 1,
                   "Reverse": false,
                   "CondAnd": {
                     "Conditions": [
+                      6,
                       7,
-                      8,
-                      9,
-                      10
+                      8
                     ]
                   }
                 },
                 {
-                  "Index": 7,
+                  "Index": 6,
                   "Name": "CondTimer",
                   "Type": 22,
                   "Reverse": false,
@@ -186996,7 +186952,7 @@
                   }
                 },
                 {
-                  "Index": 8,
+                  "Index": 7,
                   "Name": "CondTag",
                   "Type": 14,
                   "Reverse": true,
@@ -187007,7 +186963,7 @@
                   }
                 },
                 {
-                  "Index": 9,
+                  "Index": 8,
                   "Name": "CondBuffStack",
                   "Type": 26,
                   "Reverse": false,
@@ -187015,17 +186971,6 @@
                     "BuffId": 80029008,
                     "MinStack": 0,
                     "MaxStack": 0
-                  }
-                },
-                {
-                  "Index": 10,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": false,
-                  "CondTag": {
-                    "TagId": -335562447,
-                    "TagName": "怪物.35887b22.5c6dc66f"
                   }
                 }
               ]
@@ -187337,15 +187282,6 @@
           "Name": "大招准备",
           "TakeControlType": 0,
           "TransitionRule": 0,
-          "OnExitActions": [
-            {
-              "Name": "ActionAddBuff",
-              "Type": 1,
-              "ActionAddBuff": {
-                "BuffId": 70044
-              }
-            }
-          ],
           "BindStates": [
             {
               "Name": "BindTag",
@@ -187394,15 +187330,6 @@
               "Type": 1,
               "ActionAddBuff": {
                 "BuffId": 80029008
-              }
-            }
-          ],
-          "OnExitActions": [
-            {
-              "Name": "ActionRemoveBuff",
-              "Type": 2,
-              "ActionRemoveBuff": {
-                "BuffId": 70044
               }
             }
           ],
@@ -199915,12 +199842,12 @@
   {
     "Id": "SM_ML1AogusitaMd00101",
     "StateMachineJson": {
-      "Version": 106675144,
+      "Version": 1154577045,
       "StateMachines": [
         4,
         7,
-        13,
-        19
+        12,
+        18
       ],
       "Nodes": [
         {
@@ -200017,8 +199944,7 @@
             8,
             9,
             10,
-            11,
-            12
+            11
           ],
           "Transitions": [
             {
@@ -200029,18 +199955,6 @@
               "Conditions": [
                 {
                   "Index": 0,
-                  "Name": "CondAnd",
-                  "Type": 1,
-                  "Reverse": false,
-                  "CondAnd": {
-                    "Conditions": [
-                      1,
-                      2
-                    ]
-                  }
-                },
-                {
-                  "Index": 1,
                   "Name": "CondAttributeRate",
                   "Type": 18,
                   "Reverse": false,
@@ -200049,17 +199963,6 @@
                     "Denominator": 2,
                     "Min": -1,
                     "Max": 6000
-                  }
-                },
-                {
-                  "Index": 2,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 40422668,
-                    "TagName": "行为状态.位置状态.空中"
                   }
                 }
               ]
@@ -200099,68 +200002,6 @@
                   "CondTag": {
                     "TagId": 1674960297,
                     "TagName": "角色.Common.技能通用标识.QTE"
-                  }
-                }
-              ]
-            },
-            {
-              "From": 8,
-              "To": 12,
-              "TransitionPredictionType": 0,
-              "Weight": 0,
-              "Conditions": [
-                {
-                  "Index": 0,
-                  "Name": "CondAnd",
-                  "Type": 1,
-                  "Reverse": false,
-                  "CondAnd": {
-                    "Conditions": [
-                      1,
-                      2
-                    ]
-                  }
-                },
-                {
-                  "Index": 1,
-                  "Name": "CondAttributeRate",
-                  "Type": 18,
-                  "Reverse": false,
-                  "CondAttributeRate": {
-                    "AttributeId": 3,
-                    "Denominator": 2,
-                    "Min": -1,
-                    "Max": 6000
-                  }
-                },
-                {
-                  "Index": 2,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": false,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 40422668,
-                    "TagName": "行为状态.位置状态.空中"
-                  }
-                }
-              ]
-            },
-            {
-              "From": 12,
-              "To": 9,
-              "TransitionPredictionType": 0,
-              "Weight": 0,
-              "Conditions": [
-                {
-                  "Index": 0,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 40422668,
-                    "TagName": "行为状态.位置状态.空中"
                   }
                 }
               ]
@@ -200282,33 +200123,6 @@
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
-          "Name": "等待进入转阶段",
-          "TakeControlType": 0,
-          "TransitionRule": 0,
-          "BindStates": [
-            {
-              "Name": "BindBuff",
-              "Type": 1,
-              "BindBuff": {
-                "BuffId": 612700004
-              }
-            },
-            {
-              "Name": "BindTag",
-              "Type": 3,
-              "BindTag": {
-                "TagId": 501201000
-              }
-            }
-          ],
-          "Children": [],
-          "Transitions": []
-        },
-        {
-          "Uuid": 13,
-          "IsAnimStateMachine": false,
-          "IsConduitNode": false,
-          "IsAnyState": false,
           "Name": "出手指示",
           "TakeControlType": 0,
           "TransitionRule": 0,
@@ -200357,16 +200171,16 @@
             }
           ],
           "Children": [
+            13,
             14,
             15,
             16,
-            17,
-            18
+            17
           ],
           "Transitions": [
             {
-              "From": 15,
-              "To": 16,
+              "From": 14,
+              "To": 15,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -200383,8 +200197,8 @@
               ]
             },
             {
-              "From": 17,
-              "To": 14,
+              "From": 16,
+              "To": 13,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -200461,8 +200275,8 @@
               ]
             },
             {
-              "From": 16,
-              "To": 17,
+              "From": 15,
+              "To": 16,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -200515,8 +200329,8 @@
               ]
             },
             {
-              "From": 17,
-              "To": 18,
+              "From": 16,
+              "To": 17,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -200534,8 +200348,8 @@
               ]
             },
             {
-              "From": 14,
-              "To": 15,
+              "From": 13,
+              "To": 14,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -200554,8 +200368,8 @@
               ]
             },
             {
-              "From": 18,
-              "To": 15,
+              "From": 17,
+              "To": 14,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -200574,8 +200388,8 @@
               ]
             },
             {
-              "From": 16,
-              "To": 18,
+              "From": 15,
+              "To": 17,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -200595,7 +200409,7 @@
           ]
         },
         {
-          "Uuid": 14,
+          "Uuid": 13,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -200636,7 +200450,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 15,
+          "Uuid": 14,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -200670,7 +200484,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 16,
+          "Uuid": 15,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -200711,7 +200525,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 17,
+          "Uuid": 16,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -200747,7 +200561,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 18,
+          "Uuid": 17,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -200788,7 +200602,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 19,
+          "Uuid": 18,
           "ReferenceUuid": 10263,
           "IsAnimStateMachine": true,
           "IsConduitNode": false,
