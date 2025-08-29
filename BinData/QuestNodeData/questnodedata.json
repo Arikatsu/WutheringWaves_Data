@@ -218900,6 +218900,15 @@
           },
           "ActionGuid": "4c47321e047f4663b415dd31856074ac",
           "ActionId": 3000292
+        },
+        {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_886000000_chun",
+            "DelayShow": true
+          },
+          "ActionGuid": "907bb6edb8b54fb6b02f5ec11ddf4caf",
+          "ActionId": 3000303
         }
       ],
       "HideUi": true,
@@ -328779,6 +328788,20 @@
             },
             "ActionGuid": "3558777f786d47c199ccee6787d6f045",
             "ActionId": 3000044
+          },
+          {
+            "Name": "HideGroup",
+            "Params": {
+              "GroupKey": "q_886000000_chun",
+              "HideConfig": {
+                "Type": "WorldEntityAndLevelPlay",
+                "HideRangeEntities": [
+                  886000008
+                ]
+              }
+            },
+            "ActionGuid": "8df279d7524a46b49f6ddadd2a90fb5b",
+            "ActionId": 3000302
           }
         ]
       },
@@ -476068,6 +476091,40 @@
           "ActionId": 3000280
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareEntityState",
+                  "EntityId": 157750052,
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.激活"
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "UnlockEntity",
+                "Params": {
+                  "EntityIds": [
+                    157750050,
+                    157750051,
+                    157750052,
+                    157750049
+                  ]
+                },
+                "ActionGuid": "72597bba8f304d23bda3e1f8f208632d",
+                "ActionId": 3000413
+              }
+            ],
+            "CheckPeriod": 5
+          }
+        ]
+      },
       "ParentNodeId": 115
     }
   },
@@ -571737,7 +571794,73 @@
                     "ActionGuid": "48a03995bd62443d99a0c4442358550b",
                     "ActionId": 3000094
                   }
-                ]
+                ],
+                "FixProcessor": {
+                  "FixActions": [
+                    {
+                      "Timing": "OnStartAction",
+                      "Condition": {
+                        "Type": 0,
+                        "Conditions": []
+                      },
+                      "ThenActions": [
+                        {
+                          "Name": "UnlockEntity",
+                          "Params": {
+                            "EntityIds": [
+                              157750050,
+                              157750051,
+                              157750052,
+                              157750049
+                            ]
+                          },
+                          "ActionGuid": "1c3174fadfcc481cac08a2174b5fec47",
+                          "ActionId": 3000408
+                        },
+                        {
+                          "Name": "ChangeEntityState",
+                          "Params": {
+                            "Type": "Directly",
+                            "EntityId": 157750050,
+                            "State": "关卡.Common.状态.激活"
+                          },
+                          "ActionGuid": "87f8abb5e6d04aa8b06f8dfb91f4d57c",
+                          "ActionId": 3000409
+                        },
+                        {
+                          "Name": "ChangeEntityState",
+                          "Params": {
+                            "Type": "Directly",
+                            "EntityId": 157750049,
+                            "State": "关卡.Common.状态.激活"
+                          },
+                          "ActionGuid": "00f9ab54b6994462a23b0503087d911b",
+                          "ActionId": 3000410
+                        },
+                        {
+                          "Name": "ChangeEntityState",
+                          "Params": {
+                            "Type": "Directly",
+                            "EntityId": 157750051,
+                            "State": "关卡.Common.状态.激活"
+                          },
+                          "ActionGuid": "444263ca234948a89dceea7e3c9ee461",
+                          "ActionId": 3000411
+                        },
+                        {
+                          "Name": "ChangeEntityState",
+                          "Params": {
+                            "Type": "Directly",
+                            "EntityId": 157750052,
+                            "State": "关卡.Common.状态.激活"
+                          },
+                          "ActionGuid": "62d10c728c424aada9b3684a80a5a54d",
+                          "ActionId": 3000412
+                        }
+                      ]
+                    }
+                  ]
+                }
               },
               {
                 "Type": "ParallelSelect",
@@ -571971,6 +572094,72 @@
           "ActionId": 3000094
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnStartAction",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "UnlockEntity",
+                "Params": {
+                  "EntityIds": [
+                    157750050,
+                    157750051,
+                    157750052,
+                    157750049
+                  ]
+                },
+                "ActionGuid": "1c3174fadfcc481cac08a2174b5fec47",
+                "ActionId": 3000408
+              },
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 157750050,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "87f8abb5e6d04aa8b06f8dfb91f4d57c",
+                "ActionId": 3000409
+              },
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 157750049,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "00f9ab54b6994462a23b0503087d911b",
+                "ActionId": 3000410
+              },
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 157750051,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "444263ca234948a89dceea7e3c9ee461",
+                "ActionId": 3000411
+              },
+              {
+                "Name": "ChangeEntityState",
+                "Params": {
+                  "Type": "Directly",
+                  "EntityId": 157750052,
+                  "State": "关卡.Common.状态.激活"
+                },
+                "ActionGuid": "62d10c728c424aada9b3684a80a5a54d",
+                "ActionId": 3000412
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 291
     }
   },
