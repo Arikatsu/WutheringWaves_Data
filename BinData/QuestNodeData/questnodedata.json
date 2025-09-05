@@ -166932,6 +166932,16 @@
             },
             "ActionGuid": "9d7f8e35f15746b2876ed2f9f8926752",
             "ActionId": 3000290
+          },
+          {
+            "Name": "RemoveBuffFromPlayer",
+            "Params": {
+              "BuffIds": [
+                640112053
+              ]
+            },
+            "ActionGuid": "0810e4f018ad4ad5b5715dd7575b7e27",
+            "ActionId": 3000418
           }
         ]
       },
@@ -476406,6 +476416,49 @@
         }
       ],
       "FinishActions": [],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "CircleRange",
+                    "Pos": {
+                      "X": 1228850,
+                      "Y": 1351365,
+                      "Z": 7975
+                    },
+                    "Radius": 20000
+                  },
+                  "IsOnRange": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "SetPlayerPos",
+                "Params": {
+                  "TelePortConfig": {
+                    "Type": 0,
+                    "TargetPos": {
+                      "X": 1235137,
+                      "Y": 1351560,
+                      "Z": 7121,
+                      "A": 0
+                    }
+                  }
+                },
+                "ActionGuid": "93de6f292d8a4140ad17ed4c8f3e376a",
+                "ActionId": 3000414
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 80
     }
   },
