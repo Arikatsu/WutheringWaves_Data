@@ -3002,6 +3002,53 @@
     "ActionId": 3000087
   },
   {
+    "ActionGuid": "11903e6a8b5d47b3a50acb6aeb093fd6",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119800003
+      ]
+    },
+    "ActionId": 3000019
+  },
+  {
+    "ActionGuid": "4266b3298247480ca8120784e1175c6e",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119800003
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_7_支线_声骸支线",
+        "FlowId": 3,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000018
+  },
+  {
+    "ActionGuid": "6efd77d2e6dc4f83991120163e65c7c5",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119800016
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_7_支线_声骸支线",
+        "FlowId": 3,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000020
+  },
+  {
     "ActionGuid": "7cb19b811432480da4d1faa80fba06c4",
     "Name": "AddPlayBubble",
     "Async": false,

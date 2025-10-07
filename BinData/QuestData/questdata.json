@@ -9,7 +9,7 @@
       "TidName": "Quest_310000006_QuestName_0_2",
       "TidDesc": "Quest_310000006_QuestDesc_0_2",
       "RewardId": 0,
-      "DistributeType": "System",
+      "DistributeType": "Passive",
       "ProvideType": {
         "Conditions": [
           {
@@ -31393,12 +31393,12 @@
         "e_8_114900057",
         "e_8_114900224",
         "e_8_114900128",
+        "e_8_114900071",
         "e_8_114900104",
         "e_8_114900226",
         "e_8_114900147",
         "e_8_114900146",
         "e_8_114001624",
-        "e_8_114900071",
         "e_8_114001599",
         "e_8_114900064",
         "e_8_114900215",
@@ -42207,7 +42207,7 @@
       "ProvideType": {
         "Conditions": []
       },
-      "DistributeType": "System",
+      "DistributeType": "Passive",
       "ActiveActions": [],
       "IsHideInTaskList": true,
       "Reference": [
@@ -53839,6 +53839,7 @@
         "e_8_185750044",
         "e_8_938750190",
         "e_8_185750092",
+        "e_8_886800136",
         "e_8_886750028",
         "e_8_886750034",
         "e_8_886750044",
@@ -53851,6 +53852,7 @@
         "e_8_886750046",
         "e_8_886750049",
         "e_8_886750047",
+        "e_8_886800137",
         "e_8_886750053",
         "e_8_886750033",
         "e_8_886750050",
@@ -53937,6 +53939,7 @@
         "e_8_185750027",
         "e_8_185750093",
         "e_8_185750044",
+        "e_8_886800136",
         "e_8_886750028",
         "e_8_886750034",
         "e_8_886750044",
@@ -53949,6 +53952,7 @@
         "e_8_886750046",
         "e_8_886750049",
         "e_8_886750047",
+        "e_8_886800137",
         "e_8_886750053",
         "e_8_886750051",
         "l_8_185750000"
@@ -54466,6 +54470,7 @@
         "e_8_164750146",
         "e_8_164750145",
         "e_8_164750130",
+        "e_8_173750170",
         "e_8_164750031",
         "e_8_164750082",
         "e_8_164750083",
@@ -56425,6 +56430,90 @@
     }
   },
   {
+    "QuestId": 168000001,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 168000001,
+      "DungeonId": 8,
+      "Type": 1,
+      "RegionId": 14,
+      "Key": "2.7上半主线_1",
+      "TidName": "Quest_168000001_QuestName_168_1",
+      "TidDesc": "Quest_168000001_QuestDesc_168_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": true,
+      "IsAutoCoverCurTrack": true,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 886000001
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_168000001",
+        "e_8_168000002",
+        "e_8_168800001",
+        "e_8_168000050",
+        "e_8_168000008",
+        "e_8_168000007",
+        "e_8_168000006",
+        "e_8_168800002",
+        "e_8_168800004",
+        "e_8_168800003",
+        "e_8_927800006",
+        "e_8_168800104",
+        "e_8_168800105",
+        "e_8_168800143",
+        "e_8_168800103"
+      ],
+      "Reference": [
+        "e_8_168000001",
+        "e_8_168000002",
+        "e_8_168800001",
+        "e_8_168000050",
+        "e_8_168000008",
+        "e_8_168000007",
+        "e_8_168000006",
+        "e_8_168800002",
+        "e_8_168800004",
+        "e_8_168800003",
+        "e_8_927800006",
+        "e_8_168800104",
+        "e_8_168800105",
+        "e_8_168800143",
+        "e_8_114900195",
+        "e_8_168800117",
+        "e_8_168800101",
+        "e_8_168000010",
+        "e_8_168800103",
+        "e_8_168800096",
+        "e_1524_168800004",
+        "l_8_176800013",
+        "l_8_176800012",
+        "q_886000001",
+        "f_168000000_1",
+        "f_168000000_7",
+        "f_168000000_37",
+        "f_168000000_38",
+        "f_168000000_39"
+      ],
+      "WeakReference": [
+        "l_8_176800013",
+        "l_8_176800012",
+        "q_886000001"
+      ],
+      "ChapterId": 22,
+      "FocusModeSetting": {
+        "CanOpenFocusMode": true
+      },
+      "RewardId": 22304
+    }
+  },
+  {
     "QuestId": 915850000,
     "Data": {
       "ObjType": "Quest",
@@ -58361,6 +58450,27 @@
     }
   },
   {
+    "QuestId": 30700003,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 30700003,
+      "DungeonId": 100,
+      "Type": 100,
+      "RegionId": 100,
+      "Key": "试用角色支持更新试用角色",
+      "TidName": "Quest_30700003_QuestName_30_1",
+      "TidDesc": "Quest_30700003_QuestDesc_30_1",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "Passive",
+      "Reference": [
+        "e_100_30700111",
+        "e_100_30700112",
+        "f_31000156_1"
+      ]
+    }
+  },
+  {
     "QuestId": 152850004,
     "Data": {
       "ObjType": "Quest",
@@ -59029,6 +59139,50 @@
     }
   },
   {
+    "QuestId": 610700000,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 610700000,
+      "DungeonId": 100,
+      "Type": 100,
+      "RegionId": 100,
+      "Key": "试用角色手动加回",
+      "TidName": "Quest_610700000_QuestName_610_1",
+      "TidDesc": "Quest_610700000_QuestDesc_610_1",
+      "RewardId": 1001,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": []
+      },
+      "DistributeType": "Passive",
+      "ActiveActions": [],
+      "Children": [
+        "e_100_610700013",
+        "e_100_610700003",
+        "e_100_610700014",
+        "e_100_610700017",
+        "e_100_610700008",
+        "e_100_610700018"
+      ],
+      "Reference": [
+        "e_100_610700002",
+        "e_100_610700013",
+        "e_100_610700003",
+        "e_100_610700005",
+        "e_100_610700014",
+        "e_100_610700011",
+        "e_100_610700007",
+        "e_100_610700017",
+        "e_100_610700008",
+        "e_100_610700015",
+        "e_100_610700018",
+        "e_100_610700016"
+      ]
+    }
+  },
+  {
     "QuestId": 176750000,
     "Data": {
       "ObjType": "Quest",
@@ -59168,6 +59322,47 @@
     }
   },
   {
+    "QuestId": 30700006,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 30700006,
+      "DungeonId": 100,
+      "Type": 100,
+      "RegionId": 100,
+      "Key": "试用角色支持还原试用角色 - 中心点 + 半径",
+      "TidName": "Quest_30700006_QuestName_30_2",
+      "TidDesc": "Quest_30700006_QuestDesc_30_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "Passive",
+      "Reference": [
+        "e_100_30700113",
+        "f_31000156_1"
+      ]
+    }
+  },
+  {
+    "QuestId": 30700007,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 30700007,
+      "DungeonId": 100,
+      "Type": 100,
+      "RegionId": 100,
+      "Key": "试用角色支持还原试用角色 - 范围实体",
+      "TidName": "Quest_30700007_QuestName_30_2",
+      "TidDesc": "Quest_30700007_QuestDesc_30_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "Passive",
+      "Reference": [
+        "e_100_30700113",
+        "e_100_30700114",
+        "f_31000156_1"
+      ]
+    }
+  },
+  {
     "QuestId": 189750000,
     "Data": {
       "ObjType": "Quest",
@@ -59304,6 +59499,128 @@
       "WeakReference": [
         "q_320750000"
       ]
+    }
+  },
+  {
+    "QuestId": 175000000,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 175000000,
+      "DungeonId": 8,
+      "Type": 1,
+      "RegionId": 14,
+      "Key": "2.7下半主线",
+      "TidName": "Quest_175000000_QuestName_175_1",
+      "TidDesc": "Quest_175000000_QuestDesc_175_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": true,
+      "IsAutoCoverCurTrack": true,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          },
+          {
+            "Type": "OpenDate",
+            "DateId": 1145
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_175000005",
+        "e_8_175800002",
+        "e_8_175800004",
+        "e_8_175800003",
+        "e_8_175800006",
+        "e_8_175800009",
+        "e_8_175800011",
+        "e_8_175800010",
+        "e_8_175800008",
+        "e_8_175800014",
+        "e_8_317800008",
+        "e_8_317800010",
+        "e_8_317800009",
+        "e_8_317800048",
+        "e_8_317800049",
+        "e_8_317800050",
+        "e_8_317800051",
+        "e_8_317800052",
+        "e_8_317800053",
+        "e_8_317800054",
+        "e_8_945800002",
+        "e_8_175800024",
+        "e_8_175800023",
+        "e_8_175800025",
+        "e_8_175800031",
+        "e_8_175800027"
+      ],
+      "Reference": [
+        "e_8_175000005",
+        "e_8_175800002",
+        "e_8_175800004",
+        "e_8_175800003",
+        "e_8_175800006",
+        "e_8_175800009",
+        "e_8_175800011",
+        "e_8_175800010",
+        "e_8_175800008",
+        "e_8_175800014",
+        "e_8_317800008",
+        "e_8_317800010",
+        "e_8_317800009",
+        "e_8_317800048",
+        "e_8_317800049",
+        "e_8_317800050",
+        "e_8_317800051",
+        "e_8_317800052",
+        "e_8_317800053",
+        "e_8_317800054",
+        "e_8_162900113",
+        "e_8_162900112",
+        "e_8_162900331",
+        "e_8_162900116",
+        "e_8_162900185",
+        "e_8_162900263",
+        "e_8_162900115",
+        "e_8_175800012",
+        "e_903_175000000",
+        "e_1524_175800002",
+        "e_8_945800002",
+        "e_8_175800024",
+        "e_8_175800023",
+        "e_8_175800025",
+        "e_8_175800031",
+        "e_8_175800027",
+        "e_8_152900114",
+        "e_8_152900119",
+        "e_8_152900118",
+        "q_158800019",
+        "f_175000001_1",
+        "f_175000001_11",
+        "f_175000001_5"
+      ],
+      "WeakReference": [
+        "e_8_162900113",
+        "e_8_162900112",
+        "e_8_162900331",
+        "e_8_162900116",
+        "e_8_162900185",
+        "e_8_162900263",
+        "e_8_162900115",
+        "e_8_152900114",
+        "e_8_152900119",
+        "e_8_152900118",
+        "q_158800019"
+      ],
+      "FocusModeSetting": {
+        "CanOpenFocusMode": true,
+        "IsFocusModeInherit": true
+      },
+      "RewardId": 22505,
+      "ChapterId": 24
     }
   },
   {
@@ -60665,6 +60982,50 @@
     }
   },
   {
+    "QuestId": 320800000,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 320800000,
+      "DungeonId": 8,
+      "Type": 10,
+      "RegionId": 14,
+      "Key": "2.7战斗拍照引导任务",
+      "TidName": "Quest_320800000_QuestName_320_1",
+      "TidDesc": "Quest_320800000_QuestDesc_320_1",
+      "RewardId": 44001,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": []
+      },
+      "DistributeType": "Activity",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_320800000",
+        "f_320800001_1"
+      ],
+      "ActivityId": 106400001,
+      "Children": [
+        "e_8_320800000"
+      ],
+      "DelayDestroy": false,
+      "TerminateActions2": [
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": false,
+            "EntityIds": [
+              320800000
+            ]
+          },
+          "ActionGuid": "4134b476898d4728b8d7e2e3f35c050e",
+          "ActionId": 3000004
+        }
+      ]
+    }
+  },
+  {
     "QuestId": 181750002,
     "Data": {
       "ObjType": "Quest",
@@ -60859,6 +61220,29 @@
     }
   },
   {
+    "QuestId": 30800014,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 30800014,
+      "DungeonId": 100,
+      "Type": 100,
+      "RegionId": 100,
+      "Key": "运行时修改变量",
+      "TidName": "Quest_30800014_QuestName_30_1",
+      "TidDesc": "Quest_30800014_QuestDesc_30_1",
+      "RewardId": 1001,
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "Passive",
+      "Children": [
+        "e_100_30800072"
+      ],
+      "Reference": [
+        "e_100_30800072"
+      ]
+    }
+  },
+  {
     "QuestId": 181750006,
     "Data": {
       "ObjType": "Quest",
@@ -60940,6 +61324,566 @@
     }
   },
   {
+    "QuestId": 320800004,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 320800004,
+      "DungeonId": 8,
+      "Type": 10,
+      "RegionId": 14,
+      "Key": "幸存者活动和约兰通讯",
+      "TidName": "Quest_320800004_QuestName_320_1",
+      "TidDesc": "Quest_320800004_QuestDesc_320_1",
+      "RewardId": 44001,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": []
+      },
+      "DistributeType": "Activity",
+      "ActiveActions": [],
+      "ActivityId": 106300001,
+      "Reference": [
+        "e_8_320800003",
+        "f_320800003_1"
+      ]
+    }
+  },
+  {
+    "QuestId": 189800000,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 189800000,
+      "DungeonId": 8,
+      "Type": 2,
+      "RegionId": 14,
+      "Key": "重建旧街第一阶段",
+      "TidName": "Quest_189800000_QuestName_189_1",
+      "TidDesc": "Quest_189800000_QuestDesc_189_1",
+      "RewardId": 42208,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": true,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 133850000
+          },
+          {
+            "Type": "PreQuest",
+            "PreQuest": 175000000
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_189800003",
+        "e_8_320800040",
+        "e_8_320800039",
+        "e_8_320800041",
+        "e_8_320800042",
+        "e_8_320800047",
+        "e_8_320800045",
+        "e_8_320800046",
+        "e_8_320800044",
+        "e_8_320800043",
+        "e_8_189800263",
+        "e_8_189800262"
+      ],
+      "Reference": [
+        "e_8_189800003",
+        "e_8_320800040",
+        "e_8_320800039",
+        "e_8_320800041",
+        "e_8_320800042",
+        "e_8_320800047",
+        "e_8_320800045",
+        "e_8_320800046",
+        "e_8_320800044",
+        "e_8_320800043",
+        "e_8_189800263",
+        "e_8_189800262",
+        "e_8_133850233",
+        "e_8_133850473",
+        "e_8_133850251",
+        "e_8_133850281",
+        "q_133850000",
+        "q_175000000",
+        "f_189800000_1"
+      ],
+      "WeakReference": [
+        "q_133850000",
+        "q_175000000"
+      ],
+      "DelayDestroy": true
+    }
+  },
+  {
+    "QuestId": 189800001,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 189800001,
+      "DungeonId": 8,
+      "Type": 2,
+      "RegionId": 24,
+      "Key": "重建旧街第二阶段",
+      "TidName": "Quest_189800001_QuestName_189_1",
+      "TidDesc": "Quest_189800001_QuestDesc_189_1",
+      "RewardId": 42209,
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800000
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_189800004",
+        "e_8_189800013",
+        "e_8_189800014",
+        "e_8_189800015",
+        "e_8_189800016",
+        "e_8_189800017",
+        "e_8_189800012",
+        "e_8_189800010",
+        "e_8_189800011",
+        "e_8_189800005"
+      ],
+      "Reference": [
+        "e_8_189800004",
+        "e_8_189800013",
+        "e_8_189800014",
+        "e_8_189800015",
+        "e_8_189800016",
+        "e_8_189800017",
+        "e_8_189800012",
+        "e_8_189800010",
+        "e_8_189800011",
+        "e_8_189800005",
+        "q_189800000",
+        "f_189800000_2"
+      ],
+      "WeakReference": [
+        "q_189800000"
+      ],
+      "AutoTrackConditions": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800000
+          }
+        ]
+      },
+      "IsAutoTrack": true,
+      "IsAutoCoverCurTrack": true
+    }
+  },
+  {
+    "QuestId": 189800002,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 189800002,
+      "DungeonId": 8,
+      "Type": 2,
+      "RegionId": 24,
+      "Key": "重建旧街第三阶段",
+      "TidName": "Quest_189800002_QuestName_189_1",
+      "TidDesc": "Quest_189800002_QuestDesc_189_1",
+      "RewardId": 42210,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": true,
+      "IsAutoCoverCurTrack": true,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800001
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_189800006",
+        "e_8_189800201",
+        "e_8_189800196",
+        "e_8_189800197",
+        "e_8_189800198",
+        "e_8_189800199",
+        "e_8_189800200",
+        "e_8_189800202",
+        "e_8_189800203",
+        "e_8_189800204",
+        "e_8_189800205",
+        "e_8_189800206",
+        "e_8_189800207",
+        "e_8_320800048",
+        "e_8_320800049",
+        "e_8_320800050",
+        "e_8_189800031",
+        "e_8_189800035",
+        "e_8_189800037",
+        "e_8_189800039",
+        "e_8_189800041",
+        "e_8_189800045",
+        "e_8_189800047",
+        "e_8_189800049",
+        "e_8_189800051",
+        "e_8_189800055",
+        "e_8_189800065",
+        "e_8_189800063",
+        "e_8_189800008",
+        "e_8_189800007",
+        "e_8_189800163"
+      ],
+      "Reference": [
+        "e_8_189800006",
+        "e_8_189800201",
+        "e_8_189800196",
+        "e_8_189800197",
+        "e_8_189800198",
+        "e_8_189800199",
+        "e_8_189800200",
+        "e_8_189800202",
+        "e_8_189800203",
+        "e_8_189800204",
+        "e_8_189800205",
+        "e_8_189800206",
+        "e_8_189800207",
+        "e_8_320800048",
+        "e_8_320800049",
+        "e_8_320800050",
+        "e_8_189800031",
+        "e_8_189800035",
+        "e_8_189800037",
+        "e_8_189800039",
+        "e_8_189800041",
+        "e_8_189800045",
+        "e_8_189800047",
+        "e_8_189800049",
+        "e_8_189800051",
+        "e_8_189800055",
+        "e_8_189800065",
+        "e_8_189800063",
+        "e_8_189800008",
+        "e_8_189800007",
+        "e_8_189800163",
+        "q_189800001",
+        "f_189800000_3"
+      ],
+      "WeakReference": [
+        "q_189800001"
+      ],
+      "AutoTrackConditions": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800001
+          }
+        ]
+      },
+      "DelayDestroy": true
+    }
+  },
+  {
+    "QuestId": 189800003,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 189800003,
+      "DungeonId": 8,
+      "Type": 2,
+      "RegionId": 24,
+      "Key": "重建旧街第四阶段",
+      "TidName": "Quest_189800003_QuestName_189_1",
+      "TidDesc": "Quest_189800003_QuestDesc_189_1",
+      "RewardId": 42211,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": true,
+      "IsAutoCoverCurTrack": true,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800006
+          },
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800002
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_189800261",
+        "e_8_189800264",
+        "e_8_189800266",
+        "e_8_189800265",
+        "e_8_189800259",
+        "e_8_189800302",
+        "e_8_189800303",
+        "e_8_320800426",
+        "q_189800002",
+        "q_189800006",
+        "f_189800000_4"
+      ],
+      "WeakReference": [
+        "q_189800002",
+        "q_189800006"
+      ],
+      "Children": [
+        "e_8_189800261",
+        "e_8_189800264",
+        "e_8_189800266",
+        "e_8_189800265",
+        "e_8_189800259"
+      ],
+      "PreShowInfo": {
+        "PreShowCondition": {
+          "Conditions": [
+            {
+              "Type": "PreQuest",
+              "PreQuest": 189800002
+            }
+          ]
+        },
+        "TidPreShowDesc": "Quest_189800003_PreShowDesc_189_1"
+      },
+      "AutoTrackConditions": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800006
+          },
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800002
+          }
+        ]
+      }
+    }
+  },
+  {
+    "QuestId": 189800004,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 189800004,
+      "DungeonId": 8,
+      "Type": 2,
+      "RegionId": 24,
+      "Key": "重建旧城后日谈",
+      "TidName": "Quest_189800004_QuestName_189_1",
+      "TidDesc": "Quest_189800004_QuestDesc_189_1",
+      "RewardId": 42212,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800003
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_189800009",
+        "q_189800003",
+        "f_189800000_5"
+      ],
+      "WeakReference": [
+        "q_189800003"
+      ],
+      "Children": [
+        "e_8_189800009"
+      ],
+      "UnlockDelayTime": {
+        "Day": 0,
+        "Hour": 0,
+        "Minute": 5
+      }
+    }
+  },
+  {
+    "QuestId": 189800005,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 189800005,
+      "DungeonId": 8,
+      "Type": 2,
+      "RegionId": 24,
+      "Key": "清算一阶段",
+      "TidName": "Quest_189800005_QuestName_189_1",
+      "TidDesc": "Quest_189800005_QuestDesc_189_1",
+      "RewardId": 42213,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800001
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_189800164",
+        "e_8_189800256",
+        "e_8_189800165",
+        "e_8_189800170",
+        "e_8_189800174",
+        "e_8_189800173",
+        "e_8_189800268",
+        "e_8_189800166",
+        "e_8_189800168",
+        "e_8_189800177",
+        "q_189800001",
+        "f_189800000_6"
+      ],
+      "WeakReference": [
+        "q_189800001"
+      ],
+      "Children": [
+        "e_8_189800164",
+        "e_8_189800256",
+        "e_8_189800165",
+        "e_8_189800170",
+        "e_8_189800174",
+        "e_8_189800173",
+        "e_8_189800268",
+        "e_8_189800166",
+        "e_8_189800168",
+        "e_8_189800177"
+      ]
+    }
+  },
+  {
+    "QuestId": 189800006,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 189800006,
+      "DungeonId": 8,
+      "Type": 2,
+      "RegionId": 24,
+      "Key": "清算二阶段",
+      "TidName": "Quest_189800006_QuestName_189_1",
+      "TidDesc": "Quest_189800006_QuestDesc_189_1",
+      "RewardId": 42214,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800005
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_189800186",
+        "e_8_189800188",
+        "e_8_189800189",
+        "e_8_189800182",
+        "e_8_189800184",
+        "e_8_189800183",
+        "e_8_189800187",
+        "e_8_189800185",
+        "e_8_189800192",
+        "e_8_189800193",
+        "q_189800005",
+        "f_189800000_7"
+      ],
+      "WeakReference": [
+        "q_189800005"
+      ],
+      "Children": [
+        "e_8_189800186",
+        "e_8_189800188",
+        "e_8_189800189",
+        "e_8_189800182",
+        "e_8_189800184",
+        "e_8_189800183",
+        "e_8_189800187",
+        "e_8_189800185",
+        "e_8_189800192",
+        "e_8_189800193"
+      ]
+    }
+  },
+  {
+    "QuestId": 320800006,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 320800006,
+      "DungeonId": 8,
+      "Type": 2,
+      "RegionId": 24,
+      "Key": "重建帮切里送药",
+      "TidName": "Quest_320800006_QuestName_320_1",
+      "TidDesc": "Quest_320800006_QuestDesc_320_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800001
+          },
+          {
+            "Type": "PreQuest",
+            "PreQuest": 880000033
+          }
+        ]
+      },
+      "DistributeType": "Interact",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_320800220",
+        "e_8_320800068",
+        "e_8_320800267",
+        "q_189800001",
+        "q_880000033",
+        "f_320800004_1"
+      ],
+      "WeakReference": [
+        "q_189800001",
+        "q_880000033"
+      ],
+      "AddInteractOption": {
+        "EntityId": 320800220,
+        "Option": {
+          "Guid": "7c4ae24e5e844479bc0261e3add7429c",
+          "Type": {
+            "Type": "Flow",
+            "Flow": {
+              "FlowListName": "剧情_2_7_支线_重建生态支线",
+              "FlowId": 1,
+              "StateId": 1
+            }
+          },
+          "DoIntactType": "Direct"
+        }
+      },
+      "IsHideAcceptMarkOnNpc": true
+    }
+  },
+  {
     "QuestId": 162750006,
     "Data": {
       "ObjType": "Quest",
@@ -60963,6 +61907,102 @@
         "e_8_162750175",
         "e_8_938750319",
         "f_162750002_1"
+      ]
+    }
+  },
+  {
+    "QuestId": 119800000,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 119800000,
+      "DungeonId": 8,
+      "Type": 2,
+      "RegionId": 24,
+      "RoleId": "anke",
+      "Key": "奏者的愿望",
+      "TidName": "Quest_119800000_QuestName_119_1",
+      "TidDesc": "Quest_119800000_QuestDesc_119_1",
+      "RewardId": 42215,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              119800003
+            ]
+          },
+          "ActionGuid": "20d51853fa354052932957f81dda400f",
+          "ActionId": 3000001
+        }
+      ],
+      "Reference": [
+        "e_8_119800003",
+        "e_8_119800004",
+        "e_8_119800006",
+        "e_8_119800007",
+        "e_8_119800008",
+        "e_8_119800005",
+        "e_8_119800015",
+        "e_8_119800016",
+        "e_8_119800035",
+        "e_8_181850271",
+        "e_8_181850279",
+        "e_8_181850356",
+        "e_8_119800017",
+        "e_8_119800018",
+        "e_8_119800024",
+        "e_8_119800019",
+        "e_8_119800020",
+        "e_8_119800021",
+        "e_8_119800022",
+        "e_8_119800023",
+        "e_8_119800025",
+        "e_8_119800026",
+        "e_8_119800027",
+        "e_8_152900274",
+        "e_8_152900165",
+        "q_158800019",
+        "f_119800000_1",
+        "f_119800000_3",
+        "f_119800000_4"
+      ],
+      "WeakReference": [
+        "e_8_181850271",
+        "e_8_181850279",
+        "e_8_181850356",
+        "e_8_152900274",
+        "e_8_152900165",
+        "q_158800019"
+      ],
+      "Children": [
+        "e_8_119800003",
+        "e_8_119800004",
+        "e_8_119800006",
+        "e_8_119800007",
+        "e_8_119800008",
+        "e_8_119800005",
+        "e_8_119800015",
+        "e_8_119800016",
+        "e_8_119800024",
+        "e_8_119800019",
+        "e_8_119800020",
+        "e_8_119800021",
+        "e_8_119800022",
+        "e_8_119800023",
+        "e_8_119800026",
+        "e_8_119800027"
       ]
     }
   },
@@ -61041,6 +62081,193 @@
         "e_8_181750213",
         "e_8_181750217",
         "e_8_176750090"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800019,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800019,
+      "DungeonId": 8,
+      "Type": 1,
+      "RegionId": 19,
+      "Key": "2.7上半11幕",
+      "TidName": "Quest_158800019_QuestName_158_2",
+      "TidDesc": "Quest_158800019_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": true,
+      "IsAutoCoverCurTrack": true,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 168000001
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_158800508",
+        "e_8_158800365",
+        "e_8_158800511",
+        "e_8_148900381",
+        "e_8_148900382",
+        "e_8_135901338",
+        "e_8_142900741",
+        "e_8_135901333",
+        "e_8_135901334",
+        "e_8_135901335",
+        "e_8_142900676",
+        "e_8_148900603",
+        "e_8_158800342",
+        "e_8_168800056",
+        "e_8_168800057",
+        "e_8_158800390",
+        "e_8_158800487",
+        "e_8_158800341",
+        "e_8_158800392",
+        "e_8_158800581",
+        "e_8_158800577",
+        "e_8_158800509",
+        "e_8_158800576",
+        "e_8_938800073",
+        "e_8_158800636",
+        "e_8_158800602",
+        "e_8_158800600",
+        "e_8_158800601",
+        "e_8_158800603",
+        "e_8_158800599",
+        "e_8_158800608",
+        "e_8_158800605",
+        "e_8_158800604",
+        "e_8_158800610",
+        "e_8_158800606",
+        "e_8_158800609",
+        "e_8_158800607",
+        "e_8_158800614",
+        "e_8_158800613",
+        "e_8_158800612",
+        "e_8_158800347",
+        "e_8_158800611",
+        "e_8_158800350",
+        "l_8_159900001",
+        "l_8_135900021",
+        "l_8_135900013",
+        "q_168000001",
+        "q_142000005",
+        "f_168000000_46",
+        "f_168000000_34",
+        "f_168000000_35",
+        "f_168000001_28",
+        "f_168000001_33",
+        "f_168000001_40",
+        "f_168000001_34",
+        "f_168000001_32",
+        "f_168000001_35",
+        "f_168000001_31",
+        "f_168000001_30",
+        "f_168000001_29"
+      ],
+      "WeakReference": [
+        "e_8_148900381",
+        "e_8_148900382",
+        "e_8_135901338",
+        "e_8_142900741",
+        "e_8_135901333",
+        "e_8_135901334",
+        "e_8_135901335",
+        "e_8_142900676",
+        "e_8_148900603",
+        "l_8_159900001",
+        "l_8_135900021",
+        "l_8_135900013",
+        "q_168000001",
+        "q_142000005"
+      ],
+      "Children": [
+        "e_8_158800342",
+        "e_8_168800056",
+        "e_8_168800057",
+        "e_8_158800390",
+        "e_8_158800487",
+        "e_8_158800341",
+        "e_8_158800581",
+        "e_8_158800509",
+        "e_8_158800602",
+        "e_8_158800600",
+        "e_8_158800601",
+        "e_8_158800603",
+        "e_8_158800599",
+        "e_8_158800608",
+        "e_8_158800605",
+        "e_8_158800604",
+        "e_8_158800610",
+        "e_8_158800606",
+        "e_8_158800609",
+        "e_8_158800607",
+        "e_8_158800614",
+        "e_8_158800613",
+        "e_8_158800612",
+        "e_8_158800347",
+        "e_8_158800611",
+        "e_8_158800350"
+      ],
+      "ChapterId": 23,
+      "FocusModeSetting": {
+        "CanOpenFocusMode": true,
+        "IsFocusModeInherit": true
+      },
+      "RewardId": 22404
+    }
+  },
+  {
+    "QuestId": 320800007,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 320800007,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "重建二阶段显隐",
+      "TidName": "Quest_320800007_QuestName_320_1",
+      "TidDesc": "Quest_320800007_QuestDesc_320_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800001
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_320800079",
+        "e_8_320800071",
+        "e_8_320800081",
+        "e_8_320800084",
+        "e_8_320800136",
+        "e_8_320800223",
+        "e_8_320800226"
+      ],
+      "Reference": [
+        "e_8_320800079",
+        "e_8_320800071",
+        "e_8_320800081",
+        "e_8_320800084",
+        "e_8_320800136",
+        "e_8_320800223",
+        "e_8_320800226",
+        "e_8_320800424",
+        "q_189800001"
+      ],
+      "WeakReference": [
+        "q_189800001"
       ]
     }
   },
@@ -61202,6 +62429,197 @@
     }
   },
   {
+    "QuestId": 320800008,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 320800008,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 24,
+      "RoleId": "anke",
+      "Key": "重建第三阶段显示",
+      "TidName": "Quest_320800008_QuestName_320_1",
+      "TidDesc": "Quest_320800008_QuestDesc_320_1",
+      "RewardId": 1001,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreChildQuest",
+            "PreChildQuest": {
+              "QuestId": 189800003,
+              "ChildQuestId": 2
+            }
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_320800235",
+        "e_8_320800245",
+        "e_8_320800248",
+        "e_8_320800249",
+        "e_8_320800250",
+        "e_8_320800251",
+        "e_8_320800252",
+        "q_189800003"
+      ],
+      "WeakReference": [
+        "q_189800003"
+      ],
+      "Children": [
+        "e_8_320800235",
+        "e_8_320800245",
+        "e_8_320800248",
+        "e_8_320800249",
+        "e_8_320800250",
+        "e_8_320800251",
+        "e_8_320800252"
+      ]
+    }
+  },
+  {
+    "QuestId": 320800009,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 320800009,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "重建寻宝小孩",
+      "TidName": "Quest_320800009_QuestName_320_2",
+      "TidDesc": "Quest_320800009_QuestDesc_320_2",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 189800001
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_320800316",
+        "e_8_320800311",
+        "e_8_320800312",
+        "e_8_320800315",
+        "e_8_320800314",
+        "e_8_320800313",
+        "q_189800001",
+        "f_320800004_6"
+      ],
+      "WeakReference": [
+        "q_189800001"
+      ],
+      "Children": [
+        "e_8_320800311",
+        "e_8_320800312",
+        "e_8_320800316",
+        "e_8_320800315",
+        "e_8_320800314",
+        "e_8_320800313"
+      ],
+      "DelayDestroy": true
+    }
+  },
+  {
+    "QuestId": 316800001,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 316800001,
+      "DungeonId": 100,
+      "Type": 100,
+      "RegionId": 100,
+      "Key": "浴血模式功能验收用例-大世界",
+      "TidName": "Quest_316800001_QuestName_316_2",
+      "TidDesc": "Quest_316800001_QuestDesc_316_2",
+      "RewardId": 1001,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": []
+      },
+      "DistributeType": "Passive",
+      "ActiveActions": [],
+      "Children": [
+        "e_100_316800000",
+        "e_100_316800006",
+        "e_100_316800002",
+        "e_100_316800003",
+        "e_100_316800001"
+      ],
+      "Reference": [
+        "e_100_316800000",
+        "e_100_316800006",
+        "e_100_316800002",
+        "e_100_316800003",
+        "e_100_316800001"
+      ]
+    }
+  },
+  {
+    "QuestId": 30800015,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 30800015,
+      "DungeonId": 100,
+      "Type": 100,
+      "RegionId": 100,
+      "Key": "任务Buff生效范围",
+      "TidName": "Quest_30800015_QuestName_30_1",
+      "TidDesc": "Quest_30800015_QuestDesc_30_1",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "Passive",
+      "Reference": [
+        "e_100_30800076",
+        "e_100_30800077",
+        "e_100_30750027"
+      ],
+      "WeakReference": [
+        "e_100_30750027"
+      ]
+    }
+  },
+  {
+    "QuestId": 316800002,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 316800002,
+      "DungeonId": 100,
+      "Type": 100,
+      "RegionId": 100,
+      "Key": "浴血模式功能验收用例-副本",
+      "TidName": "Quest_316800002_QuestName_316_2",
+      "TidDesc": "Quest_316800002_QuestDesc_316_2",
+      "RewardId": 1001,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": []
+      },
+      "DistributeType": "Passive",
+      "ActiveActions": [],
+      "Children": [
+        "e_100_316800004",
+        "e_100_316800005"
+      ],
+      "Reference": [
+        "e_100_316800004",
+        "e_100_316800005"
+      ]
+    }
+  },
+  {
     "QuestId": 158750005,
     "Data": {
       "ObjType": "Quest",
@@ -61287,6 +62705,82 @@
     }
   },
   {
+    "QuestId": 192800002,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 192800002,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "唤醒2_7转盘任务实体",
+      "TidName": "Quest_192800002_QuestName_192_1",
+      "TidDesc": "Quest_192800002_QuestDesc_192_1",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "Activity",
+      "ActivityId": 101500007,
+      "Children": [
+        "e_8_192800000"
+      ],
+      "Reference": [
+        "e_8_192800000"
+      ]
+    }
+  },
+  {
+    "QuestId": 192800003,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 192800003,
+      "DungeonId": 8,
+      "Type": 10,
+      "RegionId": 24,
+      "Key": "2_7转盘活动道引任务",
+      "TidName": "Quest_192800003_QuestName_192_1",
+      "TidDesc": "Quest_192800003_QuestDesc_192_1",
+      "RewardId": 5160201,
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {},
+      "DistributeType": "Activity",
+      "ActiveActions": [],
+      "ActivityId": 101500007,
+      "FocusModeSetting": {
+        "IsFocusModeWhiteList": true,
+        "CanAcceptInFocusMode": true
+      },
+      "Reference": [
+        "e_8_192800000",
+        "f_192800000_1"
+      ]
+    }
+  },
+  {
+    "QuestId": 192800004,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 192800004,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "转盘引导任务完成打开界面",
+      "TidName": "Quest_192800004_QuestName_192_1",
+      "TidDesc": "Quest_192800004_QuestDesc_192_1",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "Activity",
+      "ActiveActions": [],
+      "Reference": [
+        "q_192800003"
+      ],
+      "WeakReference": [
+        "q_192800003"
+      ],
+      "ActivityId": 101500007
+    }
+  },
+  {
     "QuestId": 157750002,
     "Data": {
       "ObjType": "Quest",
@@ -61319,6 +62813,306 @@
     }
   },
   {
+    "QuestId": 176800025,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 176800025,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "2.7自由广场争执",
+      "TidName": "Quest_176800025_QuestName_176_2",
+      "TidDesc": "Quest_176800025_QuestDesc_176_2",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_176800079",
+        "e_8_176800081",
+        "e_8_176800080"
+      ],
+      "Reference": [
+        "e_8_176800079",
+        "e_8_176800081",
+        "e_8_176800080",
+        "q_158800019",
+        "q_152900002",
+        "f_176800002_1",
+        "f_176800002_3"
+      ],
+      "WeakReference": [
+        "q_158800019",
+        "q_152900002"
+      ]
+    }
+  },
+  {
+    "QuestId": 176800026,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 176800026,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "2.7后检测兰尼是否对话",
+      "TidName": "Quest_176800026_QuestName_176_1",
+      "TidDesc": "Quest_176800026_QuestDesc_176_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_176800083",
+        "q_158800019",
+        "q_152900007"
+      ],
+      "WeakReference": [
+        "q_158800019",
+        "q_152900007"
+      ]
+    }
+  },
+  {
+    "QuestId": 176800027,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 176800027,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "2.7后检测兰尼是否二次出现",
+      "TidName": "Quest_176800027_QuestName_176_2",
+      "TidDesc": "Quest_176800027_QuestDesc_176_2",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "q_158800019",
+        "q_152900008"
+      ],
+      "WeakReference": [
+        "q_158800019",
+        "q_152900008"
+      ]
+    }
+  },
+  {
+    "QuestId": 176800028,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 176800028,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "2.7自由广场争执在角色线期间屏蔽",
+      "TidName": "Quest_176800028_QuestName_176_2",
+      "TidDesc": "Quest_176800028_QuestDesc_176_2",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_176800080",
+        "e_8_176800079",
+        "e_8_176800081",
+        "q_158800019",
+        "q_121000037"
+      ],
+      "WeakReference": [
+        "q_158800019",
+        "q_121000037"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800020,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800020,
+      "DungeonId": 8,
+      "Type": 100,
+      "RegionId": 1,
+      "Key": "特殊loading进副本",
+      "TidName": "Quest_158800020_QuestName_158_1",
+      "TidDesc": "Quest_158800020_QuestDesc_158_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": []
+      },
+      "DistributeType": "Passive",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_158800461"
+      ],
+      "Reference": [
+        "e_8_158800461"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800021,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800021,
+      "DungeonId": 8,
+      "Type": 100,
+      "RegionId": 1,
+      "Key": "特殊loading传送位置",
+      "TidName": "Quest_158800021_QuestName_158_2",
+      "TidDesc": "Quest_158800021_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": []
+      },
+      "DistributeType": "Passive",
+      "ActiveActions": []
+    }
+  },
+  {
+    "QuestId": 158800022,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800022,
+      "DungeonId": 8,
+      "Type": 100,
+      "RegionId": 1,
+      "Key": "特殊loading主动唤醒遮盖",
+      "TidName": "Quest_158800022_QuestName_158_2",
+      "TidDesc": "Quest_158800022_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": []
+      },
+      "DistributeType": "Passive",
+      "ActiveActions": []
+    }
+  },
+  {
+    "QuestId": 316800003,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 316800003,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "解锁黑潮卡提入口",
+      "TidName": "Quest_316800003_QuestName_316_1",
+      "TidDesc": "Quest_316800003_QuestDesc_316_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "ActiveActions": [],
+      "Reference": [
+        "e_8_316800001",
+        "q_158800019"
+      ],
+      "WeakReference": [
+        "q_158800019"
+      ]
+    }
+  },
+  {
+    "QuestId": 320800010,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 320800010,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "打开活动界面",
+      "TidName": "Quest_320800010_QuestName_320_1",
+      "TidDesc": "Quest_320800010_QuestDesc_320_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {},
+      "DistributeType": "Activity",
+      "Reference": [
+        "q_320800000"
+      ],
+      "WeakReference": [
+        "q_320800000"
+      ],
+      "ActivityId": 106400001
+    }
+  },
+  {
+    "QuestId": 158800023,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800023,
+      "DungeonId": 8,
+      "Type": 100,
+      "RegionId": 24,
+      "Key": "任务2",
+      "TidName": "Quest_158800023_QuestName_158_1",
+      "TidDesc": "Quest_158800023_QuestDesc_158_1",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "Passive",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_158800395"
+      ],
+      "Reference": [
+        "e_8_158800395"
+      ]
+    }
+  },
+  {
     "QuestId": 178750000,
     "Data": {
       "ObjType": "Quest",
@@ -61341,6 +63135,645 @@
       ],
       "WeakReference": [
         "q_147700001"
+      ]
+    }
+  },
+  {
+    "QuestId": 320800011,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 320800011,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "（不显示）卡住约兰",
+      "TidName": "Quest_320800011_QuestName_320_1",
+      "TidDesc": "Quest_320800011_QuestDesc_320_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {},
+      "DistributeType": "Activity",
+      "ActiveActions": [],
+      "Children": [
+        "e_8_320800003"
+      ],
+      "Reference": [
+        "e_8_320800003"
+      ],
+      "ActivityId": 106300001
+    }
+  },
+  {
+    "QuestId": 320800012,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 320800012,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "（不显示）打开系统界面",
+      "TidName": "Quest_320800012_QuestName_320_1",
+      "TidDesc": "Quest_320800012_QuestDesc_320_1",
+      "OnlineType": "SingleHangUpOnline",
+      "IsAutoTrack": false,
+      "IsAutoCoverCurTrack": false,
+      "ProvideType": {
+        "Conditions": []
+      },
+      "DistributeType": "Activity",
+      "Reference": [
+        "q_320800004"
+      ],
+      "WeakReference": [
+        "q_320800004"
+      ],
+      "ActivityId": 106300001
+    }
+  },
+  {
+    "QuestId": 168800005,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 168800005,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "嘉贝莉娜生态_七丘酒馆（初见）",
+      "TidName": "Quest_168800005_QuestName_168_2",
+      "TidDesc": "Quest_168800005_QuestDesc_168_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_8_168800097",
+        "e_8_168800098",
+        "l_8_168800004",
+        "q_158800019"
+      ],
+      "WeakReference": [
+        "q_158800019"
+      ],
+      "Children": [
+        "e_8_168800097"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800024,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800024,
+      "DungeonId": 903,
+      "Type": 11,
+      "RegionId": 23,
+      "Key": "（隐藏UI）2.7卡提希娅生态成就",
+      "TidName": "Quest_158800024_QuestName_158_2",
+      "TidDesc": "Quest_158800024_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "System"
+    }
+  },
+  {
+    "QuestId": 158800028,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800028,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 11,
+      "Key": "（隐藏UI）2.7嘉贝莉娜生态成就",
+      "TidName": "Quest_158800028_QuestName_158_2",
+      "TidDesc": "Quest_158800028_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "System"
+    }
+  },
+  {
+    "QuestId": 158800025,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800025,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "（隐藏UI）2.7奥古斯塔生态成就",
+      "TidName": "Quest_158800025_QuestName_158_2",
+      "TidDesc": "Quest_158800025_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "System"
+    }
+  },
+  {
+    "QuestId": 158800026,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800026,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "（隐藏UI）2.7布兰特生态成就",
+      "TidName": "Quest_158800026_QuestName_158_2",
+      "TidDesc": "Quest_158800026_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "System"
+    }
+  },
+  {
+    "QuestId": 158800027,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800027,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "（隐藏UI）2.7洛可可剧团初见对话",
+      "TidName": "Quest_158800027_QuestName_158_2",
+      "TidDesc": "Quest_158800027_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          },
+          {
+            "Type": "PreQuest",
+            "PreQuest": 154000000
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Children": [
+        "e_8_158800464"
+      ],
+      "Reference": [
+        "e_8_158800464",
+        "q_158800019",
+        "q_154000000",
+        "f_158800010_1",
+        "f_158800010_2"
+      ],
+      "WeakReference": [
+        "q_158800019",
+        "q_154000000"
+      ]
+    }
+  },
+  {
+    "QuestId": 168800007,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 168800007,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "夏空生态_广场祈祷（初见）",
+      "TidName": "Quest_168800007_QuestName_168_2",
+      "TidDesc": "Quest_168800007_QuestDesc_168_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          },
+          {
+            "Type": "PreQuest",
+            "PreQuest": 165000003
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_8_168800072",
+        "q_158800019",
+        "q_165000003"
+      ],
+      "WeakReference": [
+        "q_158800019",
+        "q_165000003"
+      ]
+    }
+  },
+  {
+    "QuestId": 168800008,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 168800008,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "尤诺生态_月下相见",
+      "TidName": "Quest_168800008_QuestName_168_2",
+      "TidDesc": "Quest_168800008_QuestDesc_168_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_8_158750010",
+        "q_158800019"
+      ],
+      "WeakReference": [
+        "q_158800019"
+      ]
+    }
+  },
+  {
+    "QuestId": 168800006,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 168800006,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "菲比生态_广场祈祷（初见）",
+      "TidName": "Quest_168800006_QuestName_168_2",
+      "TidDesc": "Quest_168800006_QuestDesc_168_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_8_168800068",
+        "q_158800019"
+      ],
+      "WeakReference": [
+        "q_158800019"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800031,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800031,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "（隐藏UI）2.7洛可可检测剧团留场消失",
+      "TidName": "Quest_158800031_QuestName_158_2",
+      "TidDesc": "Quest_158800031_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800027
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_8_158800464",
+        "q_158800027"
+      ],
+      "WeakReference": [
+        "q_158800027"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800029,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800029,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "（隐藏UI）2.7洛可可生态成就",
+      "TidName": "Quest_158800029_QuestName_158_2",
+      "TidDesc": "Quest_158800029_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {},
+      "DistributeType": "System"
+    }
+  },
+  {
+    "QuestId": 158800030,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800030,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "（隐藏UI）2.7洛可可饭店初见对话",
+      "TidName": "Quest_158800030_QuestName_158_2",
+      "TidDesc": "Quest_158800030_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800027
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_8_158800471",
+        "q_158800027",
+        "f_158800010_4",
+        "f_158800010_5"
+      ],
+      "Children": [
+        "e_8_158800471"
+      ],
+      "WeakReference": [
+        "q_158800027"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800032,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800032,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "（隐藏UI）2.7洛可可检测饭店留场消失",
+      "TidName": "Quest_158800032_QuestName_158_2",
+      "TidDesc": "Quest_158800032_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800030
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_8_158800471",
+        "q_158800030"
+      ],
+      "WeakReference": [
+        "q_158800030"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800033,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800033,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 14,
+      "Key": "（隐藏UI）2.7卡提希娅饭店初见",
+      "TidName": "Quest_158800033_QuestName_158_2",
+      "TidDesc": "Quest_158800033_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_8_158800632",
+        "q_158800019",
+        "f_158800009_1"
+      ],
+      "WeakReference": [
+        "q_158800019"
+      ],
+      "Children": [
+        "e_8_158800632"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800034,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800034,
+      "DungeonId": 8,
+      "Type": 11,
+      "RegionId": 11,
+      "Key": "（隐藏UI）2.7嘉贝莉娜生态初见",
+      "TidName": "Quest_158800034_QuestName_158_2",
+      "TidDesc": "Quest_158800034_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          },
+          {
+            "Type": "PreQuest",
+            "PreQuest": 168800005
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Children": [
+        "e_8_158800477"
+      ],
+      "Reference": [
+        "e_8_158800477",
+        "q_158800019",
+        "q_168800005",
+        "f_158800011_4"
+      ],
+      "WeakReference": [
+        "q_158800019",
+        "q_168800005"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800036,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800036,
+      "DungeonId": 2515,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "（隐藏UI）检测2.7奥古斯塔生态初见实体消失",
+      "TidName": "Quest_158800036_QuestName_158_2",
+      "TidDesc": "Quest_158800036_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          },
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800037
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_2515_158800000",
+        "q_158800019",
+        "q_158800037"
+      ],
+      "WeakReference": [
+        "q_158800019",
+        "q_158800037"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800037,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800037,
+      "DungeonId": 2515,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "（隐藏UI）2.7奥古斯塔生态初见",
+      "TidName": "Quest_158800037_QuestName_158_2",
+      "TidDesc": "Quest_158800037_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Children": [
+        "e_2515_158800000"
+      ],
+      "Reference": [
+        "e_2515_158800000",
+        "q_158800019",
+        "f_158800014_1"
+      ],
+      "WeakReference": [
+        "q_158800019"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800038,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800038,
+      "DungeonId": 2515,
+      "Type": 11,
+      "RegionId": 24,
+      "Key": "（隐藏UI）2.7隐藏2.6常驻奥古斯塔",
+      "TidName": "Quest_158800038_QuestName_158_2",
+      "TidDesc": "Quest_158800038_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreChildQuest",
+            "PreChildQuest": {
+              "QuestId": 168000001,
+              "ChildQuestId": 49
+            }
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_2515_158750000",
+        "q_168000001"
+      ],
+      "WeakReference": [
+        "q_168000001"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800039,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800039,
+      "DungeonId": 903,
+      "Type": 11,
+      "RegionId": 23,
+      "Key": "（隐藏UI）2.7卡提希娅生态初见-检测颠倒塔树上卡提希娅是否在场",
+      "TidName": "Quest_158800039_QuestName_158_2",
+      "TidDesc": "Quest_158800039_QuestDesc_158_2",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800040
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_903_158800003",
+        "q_158800040"
+      ],
+      "WeakReference": [
+        "q_158800040"
+      ]
+    }
+  },
+  {
+    "QuestId": 158800040,
+    "Data": {
+      "ObjType": "Quest",
+      "Id": 158800040,
+      "DungeonId": 903,
+      "Type": 11,
+      "RegionId": 23,
+      "Key": "（隐藏UI）2.7卡提希娅生态初见",
+      "TidName": "Quest_158800040_QuestName_158_3",
+      "TidDesc": "Quest_158800040_QuestDesc_158_3",
+      "OnlineType": "SingleHangUpOnline",
+      "ProvideType": {
+        "Conditions": [
+          {
+            "Type": "PreQuest",
+            "PreQuest": 158800019
+          }
+        ]
+      },
+      "DistributeType": "System",
+      "Reference": [
+        "e_903_158800000",
+        "q_158800019",
+        "f_158750000_1",
+        "f_158750000_8"
+      ],
+      "WeakReference": [
+        "q_158800019"
       ]
     }
   }
