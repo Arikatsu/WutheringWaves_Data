@@ -499891,6 +499891,33 @@
       "Type": "Sequence",
       "Id": 7,
       "Desc": "拉古那城",
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckNodeStatus",
+                  "NodeId": 85,
+                  "Status": 4
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "SetPlayerOperationRestriction",
+                "Params": {
+                  "Type": "EnableAll"
+                },
+                "ActionGuid": "d1e37b7c778a4dc0b7b58f4658597e76",
+                "ActionId": 3000026
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
