@@ -18240,6 +18240,40 @@
     "MonsterType": 1
   },
   {
+    "Id": 88006,
+    "StateMachine": "SM_ML1QianxiaMd00001",
+    "AiController": "/Game/Aki/AI/AIMonster/NPC/AIML1QianxiaMd00001/AIC_ML1QianxiaMd00001.AIC_ML1QianxiaMd00001",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/NPC/AIML1QianxiaMd00001/BT_ML1QianxiaMd00001.BT_ML1QianxiaMd00001",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "7012001"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "7012001"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "70065"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "88006"
+      },
+      {
+        "Key": "AiPatrol",
+        "Value": "1001"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 1
+  },
+  {
     "Id": 2103201,
     "StateMachine": "",
     "AiController": "/Game/Aki/AI/AINPC/Animal/NA032/AIC_NA032.AIC_NA032",
@@ -18256,6 +18290,24 @@
       {
         "Key": "AiFlee",
         "Value": "21018"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
+  },
+  {
+    "Id": 800153,
+    "StateMachine": "SM_AIMB1ShanghengMd00501",
+    "AiController": "/Game/Aki/AI/AIMonster/Boss/AIMB1ShanghengMd00501/AIC_AIMB1ShanghengMd00501.AIC_AIMB1ShanghengMd00501",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Boss/AIMB1ShanghengMd00501/BT_AIMB1ShanghengMd00501.BT_AIMB1ShanghengMd00501",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "80015"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "80015"
       }
     ],
     "Team": false,

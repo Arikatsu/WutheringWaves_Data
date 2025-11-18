@@ -1685,6 +1685,12 @@
     "Id": 133,
     "Name": "小毕业90级角色",
     "OrderList": [
+      "add_new_role_config 14042",
+      "add_new_role_config 14043",
+      "add_new_role_config 14044",
+      "add_new_role_config 14045",
+      "add_new_role_config 14046",
+      "add_new_role_config 14040",
       "add_new_role_config 14051",
       "add_new_role_config 14041",
       "add_new_role_config 14039",
@@ -1830,6 +1836,7 @@
       "add_item 4 99999",
       "add_item 10802 1",
       "add_item 10808 999",
+      "add_item 42100016 999",
       "RunActionList#[{\"Name\": \"SetEntityVisible\",\"Params\": {\"Visible\": false,\"EntityIds\": [141900335,141900336]},\"ActionGuid\": \"9b78e89ef270405d8c7100ae5da03451\"}]",
       "add_new_role_config 13001",
       "add_new_role_config 13002",
@@ -1887,7 +1894,9 @@
       "add_new_role_config 14042",
       "add_new_role_config 14043",
       "add_new_role_config 14044",
-      "add_new_role_config 14045"
+      "add_new_role_config 14045",
+      "add_new_role_config 14046",
+      "add_new_role_config 14049"
     ]
   },
   {
@@ -1995,6 +2004,36 @@
     ]
   },
   {
+    "Id": 160,
+    "Name": "关卡测试",
+    "OrderList": [
+      "gmsetplayerallconditiongroupcomplete 12901400",
+      "add_all_role",
+      "TarkovRequestRoleList#1207 1506 1503",
+      "GmTarkovChallenge 1001 1207 1506 1503",
+      "gmsetplayerallconditiongroupcomplete 12901400",
+      "add_all_role",
+      "GmSelectTarkovRole 106200001 1207 1506 1503",
+      "GmTarkovChallenge 1001 1207 1506 1503"
+    ]
+  },
+  {
+    "Id": 161,
+    "Name": "关卡测试2",
+    "OrderList": [
+      "gmsetplayerallconditiongroupcomplete 12901400",
+      "GmSelectTarkovRole 106200001 1207 1506 1503",
+      "GmTarkovChallenge 1001 1207 1506 1503"
+    ]
+  },
+  {
+    "Id": 147,
+    "Name": "维里奈90",
+    "OrderList": [
+      "add_new_role_config 14003"
+    ]
+  },
+  {
     "Id": 162,
     "Name": "2.6塔防一键解锁前置",
     "OrderList": [
@@ -2005,6 +2044,110 @@
       "GmTrapDefenseUnlockAllBuilding",
       "GmTrapDefenseUnlockAllTech",
       "GmTrapDefenseBuildingLevel 3 1"
+    ]
+  },
+  {
+    "Id": 157,
+    "Name": "千咲90",
+    "OrderList": [
+      "add_new_role_config 14046"
+    ]
+  },
+  {
+    "Id": 164,
+    "Name": "全解锁穗波奇妙物语功能",
+    "OrderList": [
+      "funcopengm 10101",
+      "funcopengm 10102",
+      "funcopengm 10103",
+      "funcopengm 10104",
+      "funcopengm 10105",
+      "funcopengm 10106",
+      "funcopengm 10107",
+      "funcopengm 10108",
+      "funcopengm 10109",
+      "funcopengm 10111",
+      "funcopengm 10112",
+      "funcopengm 10113",
+      "funcopengm 10114",
+      "funcopengm 10115",
+      "funcopengm 10116",
+      "funcopengm 10117",
+      "funcopengm 10118",
+      "funcopengm 10119",
+      "funcopengm 10120",
+      "funcopengm 10121"
+    ]
+  },
+  {
+    "Id": 165,
+    "Name": "一键解锁主线功能",
+    "OrderList": [
+      "funcopengm 10101",
+      "funcopengm 10102",
+      "funcopengm 10103",
+      "funcopengm 10104",
+      "funcopengm 10105",
+      "funcopengm 10106",
+      "funcopengm 10107",
+      "funcopengm 10108",
+      "funcopengm 10109"
+    ]
+  },
+  {
+    "Id": 166,
+    "Name": "一键解锁主线功能",
+    "OrderList": [
+      "gmsetplayerallconditiongroupcomplete 12901400",
+      "accept_quest 318850001",
+      "gmswitchbigworld 910 3007 3409 149"
+    ]
+  },
+  {
+    "Id": 168,
+    "Name": "一键2.8玩法跑测内容",
+    "OrderList": [
+      "accept_quest 318850001",
+      "accept_quest 318850002",
+      "add_item 1 1000000",
+      "add_item 70000002 10",
+      "gmsetplayerallconditiongroupcomplete 12901400",
+      "gmswitchbigworld 910 3007 3409 149",
+      "accept_quest 880000044",
+      "finish_quest 880000044",
+      "finish_quest 165000004",
+      "funcopengm 10031",
+      "funcopengm 10036",
+      "funcopengm 10102",
+      "funcopengm 10103"
+    ]
+  },
+  {
+    "Id": 169,
+    "Name": "一键2.8玩法 主线的功能开启",
+    "OrderList": [
+      "accept_quest 318850001",
+      "accept_quest 318850002",
+      "add_item 1 1000000",
+      "add_item 70000002 10",
+      "gmsetplayerallconditiongroupcomplete 12901400",
+      "gmswitchbigworld 910 3007 3409 149",
+      "gmsetplayerallconditiongroupcomplete 12902114",
+      "gmsetplayerallconditiongroupcomplete 12902115",
+      "gmsetplayerallconditiongroupcomplete 12902116",
+      "gmsetplayerallconditiongroupcomplete 12902117",
+      "gmsetplayerallconditiongroupcomplete 12902118",
+      "gmsetplayerallconditiongroupcomplete 12902119",
+      "gmsetplayerallconditiongroupcomplete 12902120",
+      "gmsetplayerallconditiongroupcomplete 12902121",
+      "gmsetplayerallconditiongroupcomplete 12902122"
+    ]
+  },
+  {
+    "Id": 170,
+    "Name": "卜灵90",
+    "OrderList": [
+      "add_new_role_config 14049"
     ]
   }
 ]

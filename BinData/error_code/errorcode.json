@@ -13467,7 +13467,7 @@
     "Id": 1800048,
     "DebugText": "当前副本功能已禁用",
     "Text": "ErrorCode_1800048_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 200406,
@@ -14690,26 +14690,26 @@
   {
     "Id": 2500076,
     "DebugText": "找不到目标道具置换配置",
-    "Text": "",
-    "IsTip": false
+    "Text": "ErrorCode_MaterialReplaceNoTargetConfig",
+    "IsTip": true
   },
   {
     "Id": 2500077,
     "DebugText": "找不到消耗道具置换配置",
-    "Text": "",
-    "IsTip": false
+    "Text": "ErrorCode_MaterialReplaceNoConsumeConfig",
+    "IsTip": true
   },
   {
     "Id": 2500078,
     "DebugText": "置换道具不属于同一个组",
-    "Text": "",
-    "IsTip": false
+    "Text": "ErrorCode_MaterialReplaceNoSameGroup",
+    "IsTip": true
   },
   {
     "Id": 2500079,
     "DebugText": "道具消耗数量错误",
-    "Text": "",
-    "IsTip": false
+    "Text": "ErrorCode_MaterialReplaceErrConsumeNum",
+    "IsTip": true
   },
   {
     "Id": 1100280,
@@ -21192,6 +21192,12 @@
     "IsTip": false
   },
   {
+    "Id": 2800001,
+    "DebugText": "Tcp获取KCP会话ID失败",
+    "Text": "Tcp获取KCP会话ID失败",
+    "IsTip": false
+  },
+  {
     "Id": 2200172,
     "DebugText": "塔防活动道具配置不存在",
     "Text": "ErrorCode_2200133_Text",
@@ -21279,12 +21285,6 @@
     "Id": 2200186,
     "DebugText": "不是塔防活动建筑实体",
     "Text": "ErrorCode_2200147_Text",
-    "IsTip": false
-  },
-  {
-    "Id": 2800001,
-    "DebugText": "Tcp获取KCP会话ID失败",
-    "Text": "Tcp获取KCP会话ID失败",
     "IsTip": false
   },
   {
@@ -21540,6 +21540,48 @@
     "IsTip": false
   },
   {
+    "Id": 2500248,
+    "DebugText": "该角色已被选择",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 2500249,
+    "DebugText": "找不到天赋配置",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 2500250,
+    "DebugText": "局内不能操作",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 2500251,
+    "DebugText": "天赋已学习",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 2500252,
+    "DebugText": "未完成前置节点",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 2500253,
+    "DebugText": "没有巴别塔活动配置",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 2500254,
+    "DebugText": "排行榜获取冷却中",
+    "Text": "",
+    "IsTip": true
+  },
+  {
     "Id": 2200207,
     "DebugText": "简单战斗实体buff配置不存在",
     "Text": "ErrorCode_2200182_Text",
@@ -21634,6 +21676,84 @@
     "DebugText": "有奖项已经领取",
     "Text": "ErrorCode_3100013_Text",
     "IsTip": true
+  },
+  {
+    "Id": 3100013,
+    "DebugText": "任务配置找不到",
+    "Text": "ErrorCode_3100021_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100014,
+    "DebugText": "任务没到开启时间",
+    "Text": "ErrorCode_3100022_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100015,
+    "DebugText": "任务已经全部完成",
+    "Text": "ErrorCode_3100023_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100016,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_3100024_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100017,
+    "DebugText": "引导任务未完成",
+    "Text": "ErrorCode_3100025_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100018,
+    "DebugText": "上一个任务未完成",
+    "Text": "ErrorCode_3100026_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100019,
+    "DebugText": "活动配置未找到",
+    "Text": "ErrorCode_3100027_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100020,
+    "DebugText": "机关类型未定义",
+    "Text": "ErrorCode_3100028_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100021,
+    "DebugText": "没有可用的机关",
+    "Text": "ErrorCode_3100029_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100022,
+    "DebugText": "奖励组配置找不到",
+    "Text": "ErrorCode_3100030_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100023,
+    "DebugText": "没有可用的奖励组",
+    "Text": "ErrorCode_3100031_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100024,
+    "DebugText": "奖励组抽奖次数超过上限",
+    "Text": "ErrorCode_3100032_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100025,
+    "DebugText": "奖励组剩余可抽奖次数错误",
+    "Text": "ErrorCode_3100033_Text",
+    "IsTip": false
   },
   {
     "Id": 1100452,
@@ -21960,6 +22080,348 @@
     "IsTip": true
   },
   {
+    "Id": 2500262,
+    "DebugText": "不满足商城购买条件",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 2500263,
+    "DebugText": "操作背包重复",
+    "Text": "ErrorCode_2624123_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500264,
+    "DebugText": "没有背包配置",
+    "Text": "ErrorCode_2624124_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500265,
+    "DebugText": "穗波奇妙物语背包不能使用常规添加道具",
+    "Text": "ErrorCode_2624125_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500266,
+    "DebugText": "找不到背包数据",
+    "Text": "ErrorCode_2624126_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500267,
+    "DebugText": "更新道具数量不合法",
+    "Text": "ErrorCode_2624127_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500268,
+    "DebugText": "操作道具重复",
+    "Text": "ErrorCode_2624128_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500269,
+    "DebugText": "该背包已拥有道具",
+    "Text": "ErrorCode_2624129_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500270,
+    "DebugText": "背包位置不合法",
+    "Text": "ErrorCode_2624130_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500271,
+    "DebugText": "道具更新类型错误",
+    "Text": "ErrorCode_2624131_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500272,
+    "DebugText": "该背包没有道具",
+    "Text": "ErrorCode_2624132_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500273,
+    "DebugText": "没有找到掉落物实体id",
+    "Text": "ErrorCode_2624133_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500274,
+    "DebugText": "没有找到实体",
+    "Text": "ErrorCode_2624134_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500275,
+    "DebugText": "不是掉落物实体",
+    "Text": "ErrorCode_2624135_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500276,
+    "DebugText": "掉落物实体没有道具",
+    "Text": "ErrorCode_2624136_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500277,
+    "DebugText": "道具数量没有达到平衡",
+    "Text": "ErrorCode_2624137_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500278,
+    "DebugText": "没有找到更新的道具",
+    "Text": "ErrorCode_2624138_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500279,
+    "DebugText": "没有穗波奇妙物语道具配置",
+    "Text": "ErrorCode_2624139_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500280,
+    "DebugText": "穗波奇妙物语位图校验位置超限",
+    "Text": "ErrorCode_2624140_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500281,
+    "DebugText": "穗波奇妙物语位图校验位置超限",
+    "Text": "ErrorCode_2624141_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500282,
+    "DebugText": "穗波奇妙物语位图校验位置重复标记",
+    "Text": "ErrorCode_2624142_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500283,
+    "DebugText": "操作活动数据不一致",
+    "Text": "ErrorCode_2624143_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500284,
+    "DebugText": "没有装备栏数据",
+    "Text": "ErrorCode_2624144_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500285,
+    "DebugText": "该道具不是装备",
+    "Text": "ErrorCode_2624145_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500286,
+    "DebugText": "没有穗波奇妙物语装备配置",
+    "Text": "ErrorCode_2624146_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500287,
+    "DebugText": "装备类型不匹配",
+    "Text": "ErrorCode_2624147_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500288,
+    "DebugText": "发送活动id错误",
+    "Text": "ErrorCode_2624148_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500289,
+    "DebugText": "穗波奇妙物语玩法内部不可更换角色",
+    "Text": "ErrorCode_2624149_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500290,
+    "DebugText": "选择非法角色",
+    "Text": "ErrorCode_2624150_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500291,
+    "DebugText": "找不到挑战配置",
+    "Text": "ErrorCode_2624151_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500292,
+    "DebugText": "非穗波奇妙物语副本类型",
+    "Text": "ErrorCode_2624152_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500293,
+    "DebugText": "没有道具配置",
+    "Text": "ErrorCode_2624153_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500294,
+    "DebugText": "拾取距离异常",
+    "Text": "ErrorCode_2624154_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500295,
+    "DebugText": "没有穿戴武器",
+    "Text": "ErrorCode_2624155_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500296,
+    "DebugText": "没有武器配置",
+    "Text": "ErrorCode_2624156_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500297,
+    "DebugText": "武器插件装备位置错误",
+    "Text": "ErrorCode_2624157_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500298,
+    "DebugText": "武器插件类型不匹配",
+    "Text": "ErrorCode_2624158_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500299,
+    "DebugText": "穗波奇妙物语仓库超限",
+    "Text": "ErrorCode_2624159_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500300,
+    "DebugText": "未触发安全箱交互",
+    "Text": "ErrorCode_2624160_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500301,
+    "DebugText": "安全箱没有道具",
+    "Text": "ErrorCode_2624161_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500302,
+    "DebugText": "背包类型不匹配",
+    "Text": "ErrorCode_2624162_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500303,
+    "DebugText": "武器插件未卸下",
+    "Text": "ErrorCode_2624163_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500304,
+    "DebugText": "背包修改位置与当前位置一致",
+    "Text": "ErrorCode_2624164_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500305,
+    "DebugText": "装备位置错误",
+    "Text": "ErrorCode_2624165_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500306,
+    "DebugText": "装备位置重复",
+    "Text": "ErrorCode_2624166_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500307,
+    "DebugText": "初始位置错误",
+    "Text": "ErrorCode_2624167_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500308,
+    "DebugText": "局内不能操作背包",
+    "Text": "ErrorCode_2624168_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500309,
+    "DebugText": "已领取奖励",
+    "Text": "ErrorCode_2624169_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500310,
+    "DebugText": "未完成前置条件",
+    "Text": "ErrorCode_2624170_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500311,
+    "DebugText": "没找到配置",
+    "Text": "ErrorCode_2624171_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500312,
+    "DebugText": "已激活天赋",
+    "Text": "ErrorCode_2624172_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500313,
+    "DebugText": "已经解锁",
+    "Text": "ErrorCode_2624173_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500314,
+    "DebugText": "道具不可出售",
+    "Text": "ErrorCode_2624174_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500315,
+    "DebugText": "重复领取奖励",
+    "Text": "ErrorCode_2624175_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500316,
+    "DebugText": "副本已经结束",
+    "Text": "ErrorCode_2624176_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500317,
+    "DebugText": "维生装置等级已满",
+    "Text": "ErrorCode_2624177_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500318,
+    "DebugText": "穗波奇妙物语危险等级非法",
+    "Text": "ErrorCode_2624178_Text",
+    "IsTip": true
+  },
+  {
     "Id": 200649,
     "DebugText": "多人模式下无法进行，请回到单人后尝试",
     "Text": "Trapdefence_NoOlineTpye",
@@ -21982,6 +22444,30 @@
     "DebugText": "塔防活动增益数量超过上限",
     "Text": "ErrorCode_2200186_Text",
     "IsTip": false
+  },
+  {
+    "Id": 3000003,
+    "DebugText": "仅支持单链合成",
+    "Text": "ErrorCode_ErrSynthesisBatchItemNotSupport",
+    "IsTip": true
+  },
+  {
+    "Id": 3000004,
+    "DebugText": "合成链路存在死循环",
+    "Text": "ErrorCode_ErrSynthesisBatchItemDeadLoop",
+    "IsTip": true
+  },
+  {
+    "Id": 3000005,
+    "DebugText": "用于合成的数量不匹配",
+    "Text": "ErrorCode_ErrSynthesisBatchItemCntNotMatch",
+    "IsTip": true
+  },
+  {
+    "Id": 3000006,
+    "DebugText": "客户端发送的合成材料未汇总",
+    "Text": "ErrorCode_ErrSynthesisBatchItemReapeat",
+    "IsTip": true
   },
   {
     "Id": 900077,
@@ -22008,10 +22494,70 @@
     "IsTip": false
   },
   {
+    "Id": 2500319,
+    "DebugText": "穗波奇妙物语武器已被穿戴",
+    "Text": "ErrorCode_2624179_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500320,
+    "DebugText": "穗波奇妙物语道具已锁定",
+    "Text": "ErrorCode_2624180_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500321,
+    "DebugText": "功能为开启",
+    "Text": "ErrorCode_2624181_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500322,
+    "DebugText": "已有安全撤离",
+    "Text": "ErrorCode_2624182_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500323,
+    "DebugText": "塔顶不能操作",
+    "Text": "ErrorCode_2624183_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3000007,
+    "DebugText": "玩家兑换的贝币溢出",
+    "Text": "ErrorCode_ErrBatchSynthesisCoinOverflow",
+    "IsTip": true
+  },
+  {
     "Id": 600144,
     "DebugText": "{0}行为组并行太多",
     "Text": "ErrorCode_600144_Text",
     "IsTip": false
+  },
+  {
+    "Id": 1100504,
+    "DebugText": "常驻肉鸽找不到全局参数",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100505,
+    "DebugText": "只有使用【衍射】【湮灭】【气动】属性的漂泊者才能进入玩法！",
+    "Text": "ErrorCode_1100505_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500324,
+    "DebugText": "请先完成虹音塔任务，再进行出发探索。",
+    "Text": "ErrorCode_2624184_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500325,
+    "DebugText": "前置孔位未解锁",
+    "Text": "ErrorCode_2624185_Text",
+    "IsTip": true
   },
   {
     "Id": 2600068,
@@ -22041,6 +22587,18 @@
     "Id": 3100081,
     "DebugText": "有不可领取的奖项",
     "Text": "ErrorCode_3100014_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200651,
+    "DebugText": "找不到任务配置",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 200652,
+    "DebugText": "请求参数错误",
+    "Text": "",
     "IsTip": true
   },
   {
@@ -22077,6 +22635,66 @@
     "Id": 3200000,
     "DebugText": "无法根据副本id获取其DtTypeList",
     "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3200001,
+    "DebugText": "副本类型配置错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3200002,
+    "DebugText": "GM添加副本类型错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900027,
+    "DebugText": "场景地块切分没有对应地块",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3200003,
+    "DebugText": "切换副本类型参数错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 200657,
+    "DebugText": "登录失败，请尝试重启客户端并重新登录。",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 73,
+    "DebugText": "系统错误，请稍后再试。",
+    "Text": "ErrorCode_33_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200667,
+    "DebugText": "请求异常",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 900078,
+    "DebugText": "主机地块未完全下载",
+    "Text": "ErrorCode_ErrHostSceneBlockSplitFail_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 900079,
+    "DebugText": "当前地块未完全下载",
+    "Text": "ErrorCode_ErrSlaveSceneBlockSplitFail_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 600147,
+    "DebugText": "恢复试用角色行为没有在试用区域内用",
+    "Text": "ErrorCode_600147_Text",
     "IsTip": false
   }
 ]
