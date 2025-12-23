@@ -2,191 +2,621 @@
   {
     "TypeId": 2,
     "Type": "GetPhantomQualityLevelUp",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEAAAADQAAABgAAAAAgAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAGludAAFAAAAbGV2ZWwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAHAAAAcXVhbGl0eQAYAAAAR2V0UGhhbnRvbVF1YWxpdHlMZXZlbFVwAAAAAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "quality",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 3,
     "Type": "RoleWereAndActivateFetters",
-    "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAADgAAABcAAAAhAAAAAMAAAABAAAABAAAALD///8IAAAADAAAAAMAAABpbnQABAAAAHN1aXQAAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAAaW50AAcAAABxdWFsaXR5AAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAAaW50AAMAAABudW0AGgAAAFJvbGVXZXJlQW5kQWN0aXZhdGVGZXR0ZXJzAAA="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "num",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "quality",
+        "Value": "int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "suit",
+        "Value": "int"
+      }
+    ],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 4,
     "Type": "TerminalLevelUp",
-    "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAAEAAAADwAAAFRlcm1pbmFsTGV2ZWxVcAA="
+    "Nullenable": [],
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 5,
     "Type": "GetWeaponQualityLevelUp",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAADgAAABkAAAAbAAAAAUAAAABAAAABAAAANj///8IAAAADAAAAAMAAABpbnQABQAAAGxldmVsAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABpbnQABwAAAHF1YWxpdHkAAgAAAAEAAAACAAAAFwAAAEdldFdlYXBvblF1YWxpdHlMZXZlbFVwAA=="
+    "Nullenable": [
+      1,
+      2
+    ],
+    "Param1": [
+      {
+        "Key": "quality",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 6,
     "Type": "PropertiesRoleLevelUp",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAADgAAABkAAAAbAAAAAYAAAABAAAABAAAANj///8IAAAADAAAAAMAAABpbnQABQAAAGxldmVsAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABpbnQABAAAAHR5cGUAAAAAAgAAAAEAAAACAAAAFQAAAFByb3BlcnRpZXNSb2xlTGV2ZWxVcAAAAA=="
+    "Nullenable": [
+      1,
+      2
+    ],
+    "Param1": [
+      {
+        "Key": "type",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 7,
     "Type": "RoleSkillLevelUp",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAADgAAABgAAAAZAAAAAcAAAABAAAABAAAANj///8IAAAADAAAAAMAAABpbnQABQAAAGxldmVsAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABpbnQAAwAAAG51bQABAAAAAQAAABAAAABSb2xlU2tpbGxMZXZlbFVwAAAAAA=="
+    "Nullenable": [
+      1
+    ],
+    "Param1": [
+      {
+        "Key": "num",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 8,
     "Type": "ActiveDeliveryPoint",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAAgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAABMAAABBY3RpdmVEZWxpdmVyeVBvaW50AA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 9,
     "Type": "ActiveDeliveryPointInRegion",
-    "BinData": "EAAAAAwAFAAQAAwACAAEAAwAAAAQAAAAOAAAADwAAAAJAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABpbnQAAgAAAElkAAABAAAAAQAAABsAAABBY3RpdmVEZWxpdmVyeVBvaW50SW5SZWdpb24A"
+    "Nullenable": [
+      1
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 10,
     "Type": "GetWorldCollection",
-    "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAAKAAAAEgAAAEdldFdvcmxkQ29sbGVjdGlvbgAA"
+    "Nullenable": [],
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 11,
     "Type": "GetLightCatReward",
-    "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAALAAAAEQAAAEdldExpZ2h0Q2F0UmV3YXJkAAAA"
+    "Nullenable": [],
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 12,
     "Type": "GetBoxReward",
-    "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAAMAAAADAAAAEdldEJveFJld2FyZAAAAAA="
+    "Nullenable": [],
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 13,
     "Type": "QuestFinish",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAA0AAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAAsAAABRdWVzdEZpbmlzaAA="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 14,
     "Type": "ConsumeItem",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAA4AAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAAsAAABDb25zdW1lSXRlbQA="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 15,
     "Type": "GetDungeonReward",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAA8AAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAABAAAABHZXREdW5nZW9uUmV3YXJkAAAAAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 16,
     "Type": "GetLevePlayReward",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAABEAAABHZXRMZXZlUGxheVJld2FyZAAAAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 17,
     "Type": "测试",
-    "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAARAAAABgAAAOa1i+ivlQAA"
+    "Nullenable": [],
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 18,
     "Type": "CapturePhantom",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAOAAAABIAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAAUXVhbGl0eQAOAAAAQ2FwdHVyZVBoYW50b20AAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Quality",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 19,
     "Type": "FinishDungeon",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABMAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAA0AAABGaW5pc2hEdW5nZW9uAAAA"
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 20,
     "Type": "FinishCook",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAAoAAABGaW5pc2hDb29rAAA="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 21,
     "Type": "FinishSynthesis",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABUAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAA8AAABGaW5pc2hTeW50aGVzaXMA"
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 22,
     "Type": "FinishForge",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABYAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAAsAAABGaW5pc2hGb3JnZQA="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 23,
     "Type": "XRoleEquipXQualityWeapon",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAOAAAABcAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAHAAAAcXVhbGl0eQAYAAAAWFJvbGVFcXVpcFhRdWFsaXR5V2VhcG9uAAAAAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "quality",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 24,
     "Type": "ActiveXTeleport",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEAAAADQAAABgAAAAGAAAAAEAAAAEAAAA2P///wgAAAAQAAAABwAAAGlfYXJyYXkAAwAAAElkMgABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABwAAAGlfYXJyYXkAAgAAAElkAAAPAAAAQWN0aXZlWFRlbGVwb3J0AA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "i_array"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Id2",
+        "Value": "i_array"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 25,
     "Type": "InstanceTypeFinishCount",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAPAAAABkAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAALAAAAQ3VzdG9tVHlwZXMAFwAAAEluc3RhbmNlVHlwZUZpbmlzaENvdW50AA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "CustomTypes",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 26,
     "Type": "LevelPlayCompleteCount",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAPAAAABoAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAJAAAATGV2ZWxUeXBlAAAAFgAAAExldmVsUGxheUNvbXBsZXRlQ291bnQAAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "LevelType",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 27,
     "Type": "SoundBoxReachXLevel",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEAAAADQAAABoAAAAGwAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAGludAAFAAAAbGV2ZWwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAMAAAARHJhZ29uUG9vbElkAAAAABMAAABTb3VuZEJveFJlYWNoWExldmVsAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "DragonPoolId",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 28,
     "Type": "PhantomProgress",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAABwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAADAAAAbnVtAA8AAABQaGFudG9tUHJvZ3Jlc3MA"
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "num",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 29,
     "Type": "PassTowerFloor",
-    "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAADgAAABcAAAAjAAAAB0AAAABAAAABAAAALD///8IAAAADAAAAAMAAABpbnQABQAAAEZsb29yAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAAaW50AAcAAABBcmVhTnVtAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAAaW50AAoAAABEaWZmaWN1bHR5AAAOAAAAUGFzc1Rvd2VyRmxvb3IAAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Difficulty",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "AreaNum",
+        "Value": "int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "Floor",
+        "Value": "int"
+      }
+    ],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 30,
     "Type": "PassTowerStarCount",
-    "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAADgAAABcAAAAjAAAAB4AAAABAAAABAAAALD///8IAAAADAAAAAMAAABpbnQABAAAAFN0YXIAAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAAaW50AAcAAABBcmVhTnVtAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAAaW50AAoAAABEaWZmaWN1bHR5AAASAAAAUGFzc1Rvd2VyU3RhckNvdW50AAA="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Difficulty",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "AreaNum",
+        "Value": "int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "Star",
+        "Value": "int"
+      }
+    ],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 31,
     "Type": "PassLordLayer",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAAB8AAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAA0AAABQYXNzTG9yZExheWVyAAAA"
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 33,
     "Type": "CommemorativeCoinsStoreConsumeXTimes",
-    "BinData": "DAAAAAgADAAIAAQACAAAAAgAAAAhAAAAJAAAAENvbW1lbW9yYXRpdmVDb2luc1N0b3JlQ29uc3VtZVhUaW1lcwAAAAA="
+    "Nullenable": [],
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 34,
     "Type": "PhantomIdentifyYQualityXNum",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAOAAAACIAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAAUXVhbGl0eQAbAAAAUGhhbnRvbUlkZW50aWZ5WVF1YWxpdHlYTnVtAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Quality",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 35,
     "Type": "GetXPlayLevelTypeFirstPassReward",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAPAAAACMAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAJAAAATGV2ZWxUeXBlAAAAIAAAAEdldFhQbGF5TGV2ZWxUeXBlRmlyc3RQYXNzUmV3YXJkAAAAAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "LevelType",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 36,
     "Type": "PassXDifficultyRogue",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAOAAAACQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAGAAAASW5zdElkAAAUAAAAUGFzc1hEaWZmaWN1bHR5Um9ndWUAAAAA"
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "InstId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 37,
     "Type": "PassExploreLevel",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEAAAADQAAABgAAAAJQAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAGludAAFAAAATGV2ZWwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAHAAAAQ291bnRyeQAQAAAAUGFzc0V4cGxvcmVMZXZlbAAAAAA="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Country",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Level",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 38,
     "Type": "GetItem",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAANAAAACYAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAACAAAASWQAAAcAAABHZXRJdGVtAA=="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 39,
     "Type": "CheckExploreProgress",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEAAAADAAAABcAAAAJwAAAAEAAAAEAAAA3P///wgAAAAMAAAAAwAAAGludAADAAAATnVtAAEAAAAMAAAACAAMAAgABAAIAAAACAAAABAAAAAHAAAAaV9hcnJheQACAAAASWQAABQAAABDaGVja0V4cGxvcmVQcm9ncmVzcwAAAAA="
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "i_array"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Num",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   },
   {
     "TypeId": 40,
     "Type": "SomeTypeQuestComplete",
-    "BinData": "EAAAAAwAEAAMAAgAAAAEAAwAAAAMAAAAOAAAACgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABwAAAGlfYXJyYXkAAgAAAElkAAAVAAAAU29tZVR5cGVRdWVzdENvbXBsZXRlAAAA"
+    "Nullenable": [],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "i_array"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": []
   }
 ]

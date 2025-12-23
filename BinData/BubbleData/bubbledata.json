@@ -1,1126 +1,4708 @@
 [
   {
     "ActionGuid": "2179e5da2de84ec1bb21b06b96770be7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAMcctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzEzNDAwMDcyNl19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMjE3OWU1ZGEyZGU4NGVjMWJiMjFiMDZiOTY3NzBiZTcAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        134000726
+      ]
+    },
+    "ActionId": 3000113
   },
   {
     "ActionGuid": "eefec19f5e4a4324a38afff671173058",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAV8ctAAwAAAC4AAAAyAAAAKoAAAB7IkVudGl0eUlkcyI6WzEzNDAwMDcyNiwxMzQwMDA3MjVdLCJFbnRlclJhZGl1cyI6MjAwMCwiTGVhdmVSYWRpdXMiOjMwMDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+aUr+e6v19TaWRlVGFza19IS1NNXzAwMSIsIkZsb3dJZCI6MTMsIlN0YXRlSWQiOjl9LCJXYWl0VGltZSI6MjAwfQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZWVmZWMxOWY1ZTRhNDMyNGEzOGFmZmY2NzExNzMwNTgAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        134000726,
+        134000725
+      ],
+      "EnterRadius": 2000,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_支线_SideTask_HKSM_001",
+        "FlowId": 13,
+        "StateId": 9
+      },
+      "WaitTime": 200
+    },
+    "ActionId": 3000151
   },
   {
     "ActionGuid": "ad51bab527754bbcb61d2f706e7bf537",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAh8ctAAwAAADEAAAA1AAAALUAAAB7IkVudGl0eUlkcyI6WzEzOTAwMDMyNywxMzkwMDAzOTldLCJFbnRlclJhZGl1cyI6MTUwMCwiTGVhdmVSYWRpdXMiOjIwMDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+aWsOS4u+e6v19DReeJiF/nrKzkuIDnq6Bf56ys5LiA5bmVX+WYpOm4o+WIneebuOWPrCIsIkZsb3dJZCI6MiwiU3RhdGVJZCI6M319AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYWQ1MWJhYjUyNzc1NGJiY2I2MWQyZjcwNmU3YmY1MzcAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        139000327,
+        139000399
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_新主线_CE版_第一章_第一幕_嘤鸣初相召",
+        "FlowId": 2,
+        "StateId": 3
+      }
+    },
+    "ActionId": 3000199
   },
   {
     "ActionGuid": "6f8e68882d33446dbd50cdc0090129b7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAscctAAwAAADcAAAA7AAAAM8AAAB7IkVudGl0eUlkcyI6WzEzOTAwMDAwMCwxMzkwMDAwMzIsMzEwMDAwMDAwXSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+aWsOS4u+e6v19DReeJiF/nrKzkuIDnq6Bf56ys5LqM5bmVX+WuieatpOS6v+WFhueUnyIsIkZsb3dJZCI6MiwiU3RhdGVJZCI6N30sIldhaXRUaW1lIjo5OTk5OX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANmY4ZTY4ODgyZDMzNDQ2ZGJkNTBjZGMwMDkwMTI5YjcAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        139000000,
+        139000032,
+        310000000
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_新主线_CE版_第一章_第二幕_安此亿兆生",
+        "FlowId": 2,
+        "StateId": 7
+      },
+      "WaitTime": 99999
+    },
+    "ActionId": 3000241
   },
   {
     "ActionGuid": "6a2c845ec58645f98bdbed3e9eba42aa",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxcYtAAwAAAC0AAAAxAAAAKcAAAB7IkVudGl0eUlkcyI6WzMxMTAwMDA3MywzMTEwMDAwNzEsMzExMDAwMDcyXSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+S7u+WKoeS4k+eUqOWGkuazoV/liJjmoqbonbYiLCJGbG93SWQiOjQsIlN0YXRlSWQiOjN9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA2YTJjODQ1ZWM1ODY0NWY5OGJkYmVkM2U5ZWJhNDJhYQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311000073,
+        311000071,
+        311000072
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_刘梦蝶",
+        "FlowId": 4,
+        "StateId": 3
+      }
+    },
+    "ActionId": 3000005
   },
   {
     "ActionGuid": "3d29a3bd43b1423bbe7564d43e86dfe6",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0cYtAAwAAAC4AAAAyAAAAKgAAAB7IkVudGl0eUlkcyI6WzExNDAwMDg2NywxMTQwMDA4NjgsMTE0MDAwODY5XSwiRW50ZXJSYWRpdXMiOjE1MDAsIkxlYXZlUmFkaXVzIjozMDAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/ku7vliqHkuJPnlKjlhpLms6Ff5YiY5qKm6J22IiwiRmxvd0lkIjo0LCJTdGF0ZUlkIjoyfX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAM2QyOWEzYmQ0M2IxNDIzYmJlNzU2NGQ0M2U4NmRmZTYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114000867,
+        114000868,
+        114000869
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_刘梦蝶",
+        "FlowId": 4,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000017
   },
   {
     "ActionGuid": "daa387504b964fd98f2601012b1b0b7a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwsYtAAwAAACsAAAAvAAAAJ8AAAB7IkVudGl0eUlkcyI6WzMxMDAwMDUxNF0sIkVudGVyUmFkaXVzIjoyNTAwLCJMZWF2ZVJhZGl1cyI6MzAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+S9meaenCIsIkZsb3dJZCI6MSwiU3RhdGVJZCI6MX0sIlJlZERvdCI6dHJ1ZX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZGFhMzg3NTA0Yjk2NGZkOThmMjYwMTAxMmIxYjBiN2EAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        310000514
+      ],
+      "EnterRadius": 2500,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_余果",
+        "FlowId": 1,
+        "StateId": 1
+      },
+      "RedDot": true
+    },
+    "ActionId": 3000002
   },
   {
     "ActionGuid": "bbe89b766e224308bbead49444536349",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0cYtAAwAAACUAAAApAAAAIUAAAB7IkVudGl0eUlkcyI6WzMxMDAwMDUxOF0sIkVudGVyUmFkaXVzIjoyNTAwLCJMZWF2ZVJhZGl1cyI6MzUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+S9meaenCIsIkZsb3dJZCI6NH19AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYmJlODliNzY2ZTIyNDMwOGJiZWFkNDk0NDQ1MzYzNDkAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        310000518
+      ],
+      "EnterRadius": 2500,
+      "LeaveRadius": 3500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_余果",
+        "FlowId": 4
+      }
+    },
+    "ActionId": 3000017
   },
   {
     "ActionGuid": "e87451f207e8423e8be5b4d88256bf59",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA3MYtAAwAAACUAAAApAAAAIUAAAB7IkVudGl0eUlkcyI6WzMxMDAwMDUyMV0sIkVudGVyUmFkaXVzIjozNTAwLCJMZWF2ZVJhZGl1cyI6NDUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+S9meaenCIsIkZsb3dJZCI6N319AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZTg3NDUxZjIwN2U4NDIzZThiZTViNGQ4ODI1NmJmNTkAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        310000521
+      ],
+      "EnterRadius": 3500,
+      "LeaveRadius": 4500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_余果",
+        "FlowId": 7
+      }
+    },
+    "ActionId": 3000028
   },
   {
     "ActionGuid": "2f4bd5ac2dbc407a8858ca0a7a426bbe",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA6sYtAAwAAAC4AAAAyAAAAKoAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDkxNiwxMDkwMDI4MzRdLCJFbnRlclJhZGl1cyI6MTAwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+aUr+e6v1/puKPpkp/kuYvpvp9CT1NT5pawIiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjoyfSwiV2FpdFRpbWUiOjEwfQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMmY0YmQ1YWMyZGJjNDA3YTg4NThjYTBhN2E0MjZiYmUAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000916,
+        109002834
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+        "FlowId": 2,
+        "StateId": 2
+      },
+      "WaitTime": 10
+    },
+    "ActionId": 3000042
   },
   {
     "ActionGuid": "f638cb6847c94277a21319ebc82cb9a3",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwsYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDkxNiwxMDkwMDI4MzRdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABmNjM4Y2I2ODQ3Yzk0Mjc3YTIxMzE5ZWJjODJjYjlhMwAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000916,
+        109002834
+      ]
+    },
+    "ActionId": 3000002
   },
   {
     "ActionGuid": "d070375ddbeb4ddfa1d264c5b6e27d06",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8MYtAAwAAADQAAAA4AAAAMAAAAB7IkVudGl0eUlkcyI6WzExMDAwNDQ3LDEyMTAwMDkxNywxMjEwMDA5MTldLCJFbnRlclJhZGl1cyI6ODAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5pSv57q/X+m4o+mSn+S5i+m+n0JPU1PmlrAiLCJGbG93SWQiOjIsIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6OCwiUmVkRG90IjpmYWxzZX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZDA3MDM3NWRkYmViNGRkZmExZDI2NGM1YjZlMjdkMDYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        11000447,
+        121000917,
+        121000919
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+        "FlowId": 2,
+        "StateId": 1
+      },
+      "WaitTime": 8,
+      "RedDot": false
+    },
+    "ActionId": 3000048
   },
   {
     "ActionGuid": "73013bae063d403db516978d6fa8ea98",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8cYtAAwAAADQAAAA4AAAAMEAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDkyMSwxMjEwMDA5MjIsMTIxMDAwOTIwXSwiRW50ZXJSYWRpdXMiOjgwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+aUr+e6v1/puKPpkp/kuYvpvp9CT1NT5pawIiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjozfSwiV2FpdFRpbWUiOjgsIlJlZERvdCI6ZmFsc2V9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANzMwMTNiYWUwNjNkNDAzZGI1MTY5NzhkNmZhOGVhOTgAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000921,
+        121000922,
+        121000920
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+        "FlowId": 2,
+        "StateId": 3
+      },
+      "WaitTime": 8,
+      "RedDot": false
+    },
+    "ActionId": 3000049
   },
   {
     "ActionGuid": "24105df2bdba4bf9a121681d0a20bd1d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8sYtAAwAAADQAAAA4AAAAMEAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDkyMywxMjEwMDA5MjQsMTIxMDAwOTI1XSwiRW50ZXJSYWRpdXMiOjgwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+aUr+e6v1/puKPpkp/kuYvpvp9CT1NT5pawIiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjo0fSwiV2FpdFRpbWUiOjgsIlJlZERvdCI6ZmFsc2V9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMjQxMDVkZjJiZGJhNGJmOWExMjE2ODFkMGEyMGJkMWQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000923,
+        121000924,
+        121000925
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+        "FlowId": 2,
+        "StateId": 4
+      },
+      "WaitTime": 8,
+      "RedDot": false
+    },
+    "ActionId": 3000050
   },
   {
     "ActionGuid": "e2bcdf01ebea48b18c6d4a668f5155fd",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA+MYtAAwAAAA8AAAATAAAAC0AAAB7IkVudGl0eUlkcyI6WzEyMTAwMDkyMywxMjEwMDA5MjQsMTIxMDAwOTI1XX0AAAAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABlMmJjZGYwMWViZWE0OGIxOGM2ZDRhNjY4ZjUxNTVmZAAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000923,
+        121000924,
+        121000925
+      ]
+    },
+    "ActionId": 3000056
   },
   {
     "ActionGuid": "87f3863c14dc4910a670a564d37bb17d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA+cYtAAwAAAA8AAAATAAAAC0AAAB7IkVudGl0eUlkcyI6WzEyMTAwMDkyMSwxMjEwMDA5MjIsMTIxMDAwOTIwXX0AAAAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA4N2YzODYzYzE0ZGM0OTEwYTY3MGE1NjRkMzdiYjE3ZAAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000921,
+        121000922,
+        121000920
+      ]
+    },
+    "ActionId": 3000057
   },
   {
     "ActionGuid": "7cd1e93d176340348429cadd83b92c8f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA/sYtAAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDkzMSwxMjEwMDA5MzJdLCJFbnRlclJhZGl1cyI6MTUwMCwiTGVhdmVSYWRpdXMiOjI1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+aUr+e6v1/puKPpkp/kuYvpvp9CT1NT5pawIiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjo1fX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAN2NkMWU5M2QxNzYzNDAzNDg0MjljYWRkODNiOTJjOGYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000931,
+        121000932
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 2500,
+      "Flow": {
+        "FlowListName": "剧情_支线_鸣钟之龟BOSS新",
+        "FlowId": 2,
+        "StateId": 5
+      }
+    },
+    "ActionId": 3000062
   },
   {
     "ActionGuid": "45e1a9f07afd4551981ec4d254d73ac7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzcYtAAwAAADUAAAA5AAAAMQAAAB7IkVudGl0eUlkcyI6WzEyNTAwMTA3OSwxMjUwMDEwODcsMTI1MDAxMDg1LDEyNTAwMTA4Nl0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+S4iea1geeUu+WutiIsIkZsb3dJZCI6MiwiU3RhdGVJZCI6MX0sIlJlZERvdCI6ZmFsc2V9AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADQ1ZTFhOWYwN2FmZDQ1NTE5ODFlYzRkMjU0ZDczYWM3AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        125001079,
+        125001087,
+        125001085,
+        125001086
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_三流画家",
+        "FlowId": 2,
+        "StateId": 1
+      },
+      "RedDot": false
+    },
+    "ActionId": 3000013
   },
   {
     "ActionGuid": "52710117519f47bb99cd7c6c1579283e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxMYtAAwAAADIAAAA2AAAALsAAAB7IkVudGl0eUlkcyI6WzEyMTAwMTAzMCwxMjEwMDA4NjJdLCJFbnRlclJhZGl1cyI6MTUwMCwiTGVhdmVSYWRpdXMiOjMwMDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+S7u+WKoeS4k+eUqOWGkuazoV/lh4zpmLPnur8xIiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjYsIlJlZERvdCI6ZmFsc2V9AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADUyNzEwMTE3NTE5ZjQ3YmI5OWNkN2M2YzE1NzkyODNlAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121001030,
+        121000862
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 2,
+        "StateId": 1
+      },
+      "WaitTime": 6,
+      "RedDot": false
+    },
+    "ActionId": 3000004
   },
   {
     "ActionGuid": "7a7bae9513194af3abefae9c63ebd24b",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxsYtAAwAAADAAAAA0AAAALIAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk2M10sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MzAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+WHjOmYs+e6vzEiLCJGbG93SWQiOjEwLCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjgsIlJlZERvdCI6ZmFsc2V9AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA3YTdiYWU5NTEzMTk0YWYzYWJlZmFlOWM2M2ViZDI0YgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000963
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 10,
+        "StateId": 1
+      },
+      "WaitTime": 8,
+      "RedDot": false
+    },
+    "ActionId": 3000006
   },
   {
     "ActionGuid": "99381a45f9394abb900df21389a60d5a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAx8YtAAwAAADAAAAA0AAAALIAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk2Ml0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MzAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+WHjOmYs+e6vzEiLCJGbG93SWQiOjExLCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjgsIlJlZERvdCI6ZmFsc2V9AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA5OTM4MWE0NWY5Mzk0YWJiOTAwZGYyMTM4OWE2MGQ1YQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000962
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 11,
+        "StateId": 1
+      },
+      "WaitTime": 8,
+      "RedDot": false
+    },
+    "ActionId": 3000007
   },
   {
     "ActionGuid": "77a9b57ad39946b892056af32089c762",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0MYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDg4NiwxMjEwMDA5NDFdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA3N2E5YjU3YWQzOTk0NmI4OTIwNTZhZjMyMDg5Yzc2MgAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000886,
+        121000941
+      ]
+    },
+    "ActionId": 3000016
   },
   {
     "ActionGuid": "6bf9fbd376e143939bb4c1e5a33b68b1",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0sYtAAwAAACsAAAAvAAAAJ4AAAB7IkVudGl0eUlkcyI6WzEyMTAwMDg4NiwxMjEwMDA5NDFdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+WHjOmYs+e6vzEiLCJGbG93SWQiOjYsIlN0YXRlSWQiOjF9fQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANmJmOWZiZDM3NmUxNDM5MzliYjRjMWU1YTMzYjY4YjEAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000886,
+        121000941
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 6,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000018
   },
   {
     "ActionGuid": "cfc99d4e998141e99a512db263f9aa9f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA1cYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk2MiwxMjEwMDA5NjNdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABjZmM5OWQ0ZTk5ODE0MWU5OWE1MTJkYjI2M2Y5YWE5ZgAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000962,
+        121000963
+      ]
+    },
+    "ActionId": 3000021
   },
   {
     "ActionGuid": "9b7783d8ecc2448984fdd0835c6c85cc",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA18YtAAwAAADIAAAA2AAAALsAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk2NSwxMjEwMDA5NjRdLCJFbnRlclJhZGl1cyI6MTAwMCwiTGVhdmVSYWRpdXMiOjMwMDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+S7u+WKoeS4k+eUqOWGkuazoV/lh4zpmLPnur8xIiwiRmxvd0lkIjo1LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjgsIlJlZERvdCI6ZmFsc2V9AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADliNzc4M2Q4ZWNjMjQ0ODk4NGZkZDA4MzVjNmM4NWNjAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000965,
+        121000964
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 5,
+        "StateId": 1
+      },
+      "WaitTime": 8,
+      "RedDot": false
+    },
+    "ActionId": 3000023
   },
   {
     "ActionGuid": "3e886b8c650c416d9276e4f92e6f5109",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA2sYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk2NSwxMjEwMDA5NjRdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAAzZTg4NmI4YzY1MGM0MTZkOTI3NmU0ZjkyZTZmNTEwOQAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000965,
+        121000964
+      ]
+    },
+    "ActionId": 3000026
   },
   {
     "ActionGuid": "707e2a2395d942b884db1d12eb9231c7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA6MYtAAwAAADAAAAA0AAAALEAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDgxNl0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MjUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+WHjOmYs+e6vzEiLCJGbG93SWQiOjEsIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6OCwiUmVkRG90IjpmYWxzZX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA3MDdlMmEyMzk1ZDk0MmI4ODRkYjFkMTJlYjkyMzFjNwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000816
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 2500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 1,
+        "StateId": 1
+      },
+      "WaitTime": 8,
+      "RedDot": false
+    },
+    "ActionId": 3000040
   },
   {
     "ActionGuid": "43b6722b05494df6927ef783b897ed5b",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA6cYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDgxNl19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANDNiNjcyMmIwNTQ5NGRmNjkyN2VmNzgzYjg5N2VkNWIAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000816
+      ]
+    },
+    "ActionId": 3000041
   },
   {
     "ActionGuid": "fa6783dae8364051be532fd384ea20af",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAARsctAAwAAADAAAAA0AAAALAAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDg1N10sIkVudGVyUmFkaXVzIjo4MDAsIkxlYXZlUmFkaXVzIjoyMDAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/ku7vliqHkuJPnlKjlhpLms6Ff5YeM6Ziz57q/MSIsIkZsb3dJZCI6MywiU3RhdGVJZCI6MX0sIldhaXRUaW1lIjo4LCJSZWREb3QiOmZhbHNlfQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABmYTY3ODNkYWU4MzY0MDUxYmU1MzJmZDM4NGVhMjBhZgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000857
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 3,
+        "StateId": 1
+      },
+      "WaitTime": 8,
+      "RedDot": false
+    },
+    "ActionId": 3000134
   },
   {
     "ActionGuid": "6a7a047976c248ffa6c8d62e0d5a1568",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAT8ctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDg1N119AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANmE3YTA0Nzk3NmMyNDhmZmE2YzhkNjJlMGQ1YTE1NjgAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000857
+      ]
+    },
+    "ActionId": 3000143
   },
   {
     "ActionGuid": "089de0667c78443c80c91bbe627d4617",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAU8ctAAwAAACwAAAAwAAAAKMAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk5MV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/ku7vliqHkuJPnlKjlhpLms6Ff5YeM6Ziz57q/MSIsIkZsb3dJZCI6OSwiU3RhdGVJZCI6MX0sIlJlZERvdCI6ZmFsc2V9AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADA4OWRlMDY2N2M3ODQ0M2M4MGM5MWJiZTYyN2Q0NjE3AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000991
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 9,
+        "StateId": 1
+      },
+      "RedDot": false
+    },
+    "ActionId": 3000147
   },
   {
     "ActionGuid": "f9f6c9f42a4f4b118b9cb1b200da90e6",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAXcctAAwAAAC8AAAAzAAAAK0AAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk2OCwxMjEwMDA5NjldLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+WHjOmYs+e6vzEiLCJGbG93SWQiOjcsIlN0YXRlSWQiOjF9LCJSZWREb3QiOmZhbHNlfQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGY5ZjZjOWY0MmE0ZjRiMTE4YjljYjFiMjAwZGE5MGU2AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000968,
+        121000969
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 7,
+        "StateId": 1
+      },
+      "RedDot": false
+    },
+    "ActionId": 3000157
   },
   {
     "ActionGuid": "c00a5764fa26478ca29f7f06b8346f50",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAcMctAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk2OSwxMjEwMDA5NjhdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABjMDBhNTc2NGZhMjY0NzhjYTI5ZjdmMDZiODM0NmY1MAAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000969,
+        121000968
+      ]
+    },
+    "ActionId": 3000176
   },
   {
     "ActionGuid": "38845d55686c4a8399d968808e1e747a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAesctAAwAAADoAAAA+AAAANkAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk5NCwxMjEwMDExMDAsMTIxMDAwOTkzLDEyMTAwMDk5NiwxMjEwMDA5OTddLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+WHjOmYs+e6vzEiLCJGbG93SWQiOjEyLCJTdGF0ZUlkIjoxfSwiUmVkRG90Ijp0cnVlLCJXYWl0VGltZSI6MTB9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMzg4NDVkNTU2ODZjNGE4Mzk5ZDk2ODgwOGUxZTc0N2EAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000994,
+        121001100,
+        121000993,
+        121000996,
+        121000997
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 12,
+        "StateId": 1
+      },
+      "RedDot": true,
+      "WaitTime": 10
+    },
+    "ActionId": 3000186
   },
   {
     "ActionGuid": "7a10709842bd43f0806f883a19928358",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAe8ctAAwAAADAAAAA0AAAALEAAAB7IkVudGl0eUlkcyI6WzEyMTAwMDk4OF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/ku7vliqHkuJPnlKjlhpLms6Ff5YeM6Ziz57q/MSIsIkZsb3dJZCI6OCwiU3RhdGVJZCI6MX0sIlJlZERvdCI6ZmFsc2UsIldhaXRUaW1lIjoxMH0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA3YTEwNzA5ODQyYmQ0M2YwODA2Zjg4M2ExOTkyODM1OAAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000988
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 8,
+        "StateId": 1
+      },
+      "RedDot": false,
+      "WaitTime": 10
+    },
+    "ActionId": 3000187
   },
   {
     "ActionGuid": "1984685448d6467fac9fd2df45cb066d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxcYtAAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzExNDAwMDg3MiwxMTQwMDA4NzNdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Ymn5oOFX+inkuiJsl/lkJ/pnJbnur/mlrAiLCJGbG93SWQiOjEwNywiU3RhdGVJZCI6MX19AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMTk4NDY4NTQ0OGQ2NDY3ZmFjOWZkMmRmNDVjYjA2NmQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114000872,
+        114000873
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_剧情_角色_吟霖线新",
+        "FlowId": 107,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000005
   },
   {
     "ActionGuid": "bff2154485a04d39b48e81fa6382cb2d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAyMYtAAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzExNDAwMDg4MywxMTQwMDA4ODRdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Ymn5oOFX+inkuiJsl/lkJ/pnJbnur/mlrAiLCJGbG93SWQiOjEwNywiU3RhdGVJZCI6Mn19AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYmZmMjE1NDQ4NWEwNGQzOWI0OGU4MWZhNjM4MmNiMmQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114000883,
+        114000884
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_剧情_角色_吟霖线新",
+        "FlowId": 107,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000008
   },
   {
     "ActionGuid": "6d00b28881744083acadf27609ff6ed0",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA4sYtAAwAAACgAAAAsAAAAJMAAAB7IkVudGl0eUlkcyI6WzExNDAwMDkzOF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/liafmg4Vf6KeS6ImyX+WQn+mclue6v+aWsCIsIkZsb3dJZCI6MTA3LCJTdGF0ZUlkIjo5fX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANmQwMGIyODg4MTc0NDA4M2FjYWRmMjc2MDlmZjZlZDAAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114000938
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_剧情_角色_吟霖线新",
+        "FlowId": 107,
+        "StateId": 9
+      }
+    },
+    "ActionId": 3000034
   },
   {
     "ActionGuid": "d786eae2f7fa4e33bfdf73fc0c2ed5f7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA+sYtAAwAAACsAAAAvAAAAJ4AAAB7IkVudGl0eUlkcyI6WzExNDgwMDA3MywxMTQwMDA5NDVdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Ymn5oOFX+inkuiJsl/lkJ/pnJbnur/mlrAiLCJGbG93SWQiOjEwNywiU3RhdGVJZCI6MTB9fQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZDc4NmVhZTJmN2ZhNGUzM2JmZGY3M2ZjMGMyZWQ1ZjcAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114800073,
+        114000945
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_剧情_角色_吟霖线新",
+        "FlowId": 107,
+        "StateId": 10
+      }
+    },
+    "ActionId": 3000058
   },
   {
     "ActionGuid": "29fe973731f74202ae33431b29fe6b34",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAABsctAAwAAACsAAAAvAAAAJ4AAAB7IkVudGl0eUlkcyI6WzExNDAwMTE2MSwxMTQwMDExNjJdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Ymn5oOFX+inkuiJsl/lkJ/pnJbnur/mlrAiLCJGbG93SWQiOjEwNywiU3RhdGVJZCI6MTJ9fQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMjlmZTk3MzczMWY3NDIwMmFlMzM0MzFiMjlmZTZiMzQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114001161,
+        114001162
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_剧情_角色_吟霖线新",
+        "FlowId": 107,
+        "StateId": 12
+      }
+    },
+    "ActionId": 3000070
   },
   {
     "ActionGuid": "dae3e0bf79e043a4bc80fa871edabb90",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAB8ctAAwAAACsAAAAvAAAAJ4AAAB7IkVudGl0eUlkcyI6WzExNDgwMDEzMywxMTQwMDA5NDddLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Ymn5oOFX+inkuiJsl/lkJ/pnJbnur/mlrAiLCJGbG93SWQiOjEwNywiU3RhdGVJZCI6MTN9fQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZGFlM2UwYmY3OWUwNDNhNGJjODBmYTg3MWVkYWJiOTAAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114800133,
+        114000947
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_剧情_角色_吟霖线新",
+        "FlowId": 107,
+        "StateId": 13
+      }
+    },
+    "ActionId": 3000071
   },
   {
     "ActionGuid": "351ff884703044fdab061626f890aef3",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA68YtAAwAAACgAAAAsAAAAJIAAAB7IkVudGl0eUlkcyI6WzI3MDAwMDIyLDI3MDAwMDIzLDI3MDAwMDI0XSwiRW50ZXJSYWRpdXMiOjEwMCwiTGVhdmVSYWRpdXMiOjUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfUXVlc3RUZXh0IiwiRmxvd0lkIjoxMn0sIldhaXRUaW1lIjo1fQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMzUxZmY4ODQ3MDMwNDRmZGFiMDYxNjI2Zjg5MGFlZjMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        27000022,
+        27000023,
+        27000024
+      ],
+      "EnterRadius": 100,
+      "LeaveRadius": 500,
+      "Flow": {
+        "FlowListName": "剧情_QuestText",
+        "FlowId": 12
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 3000043
   },
   {
     "ActionGuid": "7f017d3b976841b8ab1cbb36b0af0f87",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA7MYtAAwAAAA4AAAASAAAACoAAAB7IkVudGl0eUlkcyI6WzI3MDAwMDIyLDI3MDAwMDIzLDI3MDAwMDI0XX0AAA8AAABDbGVhclBsYXlCdWJibGUAIAAAADdmMDE3ZDNiOTc2ODQxYjhhYjFjYmIzNmIwYWYwZjg3AAAAAA=="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        27000022,
+        27000023,
+        27000024
+      ]
+    },
+    "ActionId": 3000044
   },
   {
     "ActionGuid": "bf2b2c47b0124df783379bebad86089c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA7MYtAAwAAACUAAAApAAAAIcAAAB7IkVudGl0eUlkcyI6W10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/ku7vliqHkuJPnlKjlhpLms6Ff5L2Z5p6cIiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjoxfX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYmYyYjJjNDdiMDEyNGRmNzgzMzc5YmViYWQ4NjA4OWMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_余果",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000044
   },
   {
     "ActionGuid": "bf39de0b528944ab941174e24e9a0f19",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA7sYtAAwAAACMAAAAnAAAAH0AAAB7IkVudGl0eUlkcyI6WzI5MDAwMjM5XSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX0RlZmF1bHQiLCJGbG93SWQiOjIsIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGJmMzlkZTBiNTI4OTQ0YWI5NDExNzRlMjRlOWEwZjE5AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        29000239
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 2,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000046
   },
   {
     "ActionGuid": "b7b10eef8d204640ae026fe0f31268cd",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA78YtAAwAAAAoAAAAOAAAABgAAAB7IkVudGl0eUlkcyI6WzI5MDAwMjM5XX0AAAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAYjdiMTBlZWY4ZDIwNDY0MGFlMDI2ZmUwZjMxMjY4Y2QAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        29000239
+      ]
+    },
+    "ActionId": 3000047
   },
   {
     "ActionGuid": "fd7192cc57bb48c78fe524b6560212b8",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8MYtAAwAAACMAAAAnAAAAH0AAAB7IkVudGl0eUlkcyI6WzI5MDAwMjQwXSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX0RlZmF1bHQiLCJGbG93SWQiOjIsIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGZkNzE5MmNjNTdiYjQ4Yzc4ZmU1MjRiNjU2MDIxMmI4AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        29000240
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_Default",
+        "FlowId": 2,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000048
   },
   {
     "ActionGuid": "54fab11193f44b78a9c4499762101a17",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8cYtAAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzI5MDAwMjQxXSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+S7u+WKoeS4k+eUqOWGkuazoV/kvZnmnpwiLCJGbG93SWQiOjEsIlN0YXRlSWQiOjF9LCJSZWREb3QiOnRydWV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANTRmYWIxMTE5M2Y0NGI3OGE5YzQ0OTk3NjIxMDFhMTcAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        29000241
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_余果",
+        "FlowId": 1,
+        "StateId": 1
+      },
+      "RedDot": true
+    },
+    "ActionId": 3000049
   },
   {
     "ActionGuid": "67c508d0635946b3b0bd98e8c0a25c64",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8sYtAAwAAAA8AAAATAAAAC8AAAB7IkVudGl0eUlkcyI6WzI5MDAwMjQxXSwiT25seUNsZWFyUmVkRG90Ijp0cnVlfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA2N2M1MDhkMDYzNTk0NmIzYjBiZDk4ZThjMGEyNWM2NAAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        29000241
+      ],
+      "OnlyClearRedDot": true
+    },
+    "ActionId": 3000050
   },
   {
     "ActionGuid": "779371b53fca4f178abe1c1afb2179bc",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA+cYtAAwAAACoAAAAuAAAAJsAAAB7IkVudGl0eUlkcyI6WzI5MDAwMjUyLDI5MDAwMjUzXSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+S7u+WKoeS4k+eUqOWGkuazoV/lr7jojYnlv4MiLCJGbG93SWQiOjMsIlN0YXRlSWQiOjF9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA3NzkzNzFiNTNmY2E0ZjE3OGFiZTFjMWFmYjIxNzliYwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        29000252,
+        29000253
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_寸草心",
+        "FlowId": 3,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000057
   },
   {
     "ActionGuid": "e8b79d968d3f49c280807ffcc5539b0e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA+sYtAAwAAAAwAAAAQAAAACEAAAB7IkVudGl0eUlkcyI6WzI5MDAwMjUyLDI5MDAwMjUzXX0AAAAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABlOGI3OWQ5NjhkM2Y0OWMyODA4MDdmZmNjNTUzOWIwZQAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        29000252,
+        29000253
+      ]
+    },
+    "ActionId": 3000058
   },
   {
     "ActionGuid": "a30bdaa3d3da4e0e8828f6a0e02a2bad",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA3MYtAAwAAACkAAAAtAAAAJUAAAB7IkVudGl0eUlkcyI6WzExNDAwMTE5MCwxMTQwMDExODldLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5paw5Li757q/X+esrOWbm+eroCIsIkZsb3dJZCI6ODEsIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGEzMGJkYWEzZDNkYTRlMGU4ODI4ZjZhMGUwMmEyYmFkAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114001190,
+        114001189
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_新主线_第四章",
+        "FlowId": 81,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000028
   },
   {
     "ActionGuid": "1b06dedc5fa4434191678aaffd62bab9",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA3cYtAAwAAACYAAAAqAAAAIsAAAB7IkVudGl0eUlkcyI6WzExNDAwMTA1Nl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/mlrDkuLvnur9f56ys5Zub56ugIiwiRmxvd0lkIjo4MSwiU3RhdGVJZCI6Mn19AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADFiMDZkZWRjNWZhNDQzNDE5MTY3OGFhZmZkNjJiYWI5AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114001056
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_新主线_第四章",
+        "FlowId": 81,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000029
   },
   {
     "ActionGuid": "9ed80103c2de44e8b5ea37b8e169c0f6",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA6cYtAAwAAACkAAAAtAAAAJUAAAB7IkVudGl0eUlkcyI6WzExNDAwMDczMiwxMTQwMDA3MzddLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5paw5Li757q/X+esrOWbm+eroCIsIkZsb3dJZCI6ODEsIlN0YXRlSWQiOjN9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADllZDgwMTAzYzJkZTQ0ZThiNWVhMzdiOGUxNjljMGY2AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114000732,
+        114000737
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_新主线_第四章",
+        "FlowId": 81,
+        "StateId": 3
+      }
+    },
+    "ActionId": 3000041
   },
   {
     "ActionGuid": "d94dcdf574534430a19286ae62d40e21",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA7cYtAAwAAACwAAAAwAAAAKAAAAB7IkVudGl0eUlkcyI6WzExNDAwMTEwNSwxMTQwMDExMDYsMTE0MDAxMTA3XSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+aWsOS4u+e6v1/nrKzlm5vnq6AiLCJGbG93SWQiOjgxLCJTdGF0ZUlkIjoxMn19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGQ5NGRjZGY1NzQ1MzQ0MzBhMTkyODZhZTYyZDQwZTIxAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114001105,
+        114001106,
+        114001107
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_新主线_第四章",
+        "FlowId": 81,
+        "StateId": 12
+      }
+    },
+    "ActionId": 3000045
   },
   {
     "ActionGuid": "f4363cda0559483f9cdbd704a688fe11",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA78YtAAwAAACwAAAAwAAAAKAAAAB7IkVudGl0eUlkcyI6WzExNDAwMTEwOSwxMTQwMDExMTAsMTE0MDAxMjQ0XSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+aWsOS4u+e6v1/nrKzlm5vnq6AiLCJGbG93SWQiOjgxLCJTdGF0ZUlkIjoxM319AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGY0MzYzY2RhMDU1OTQ4M2Y5Y2RiZDcwNGE2ODhmZTExAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114001109,
+        114001110,
+        114001244
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_新主线_第四章",
+        "FlowId": 81,
+        "StateId": 13
+      }
+    },
+    "ActionId": 3000047
   },
   {
     "ActionGuid": "10a6143fb03647ed967b46e5a16d86e4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA9MYtAAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzExNDAwMTIyNiwxMTQwMDExMzNdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5paw5Li757q/X+esrOWbm+eroCIsIkZsb3dJZCI6ODEsIlN0YXRlSWQiOjE0fX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADEwYTYxNDNmYjAzNjQ3ZWQ5NjdiNDZlNWExNmQ4NmU0AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114001226,
+        114001133
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_新主线_第四章",
+        "FlowId": 81,
+        "StateId": 14
+      }
+    },
+    "ActionId": 3000052
   },
   {
     "ActionGuid": "12f4072fe8494e9092c6980a9f96f6cb",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAy8YtAAwAAACsAAAAvAAAAJ4AAAB7IkVudGl0eUlkcyI6WzEyMTAwMDg4NiwxMjEwMDA5NDFdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Lu75Yqh5LiT55So5YaS5rOhX+WHjOmYs+e6vzEiLCJGbG93SWQiOjQsIlN0YXRlSWQiOjF9fQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMTJmNDA3MmZlODQ5NGU5MDkyYzY5ODBhOWY5NmY2Y2IAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        121000886,
+        121000941
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_凌阳线1",
+        "FlowId": 4,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000011
   },
   {
     "ActionGuid": "9036e7dfb912458e9994ece3dbe81d5e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA38YtAAwAAACsAAAAvAAAAJ4AAAB7IkVudGl0eUlkcyI6WzExNDgwMDA3OCwxMTQwMDExNzZdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Ymn5oOFX+inkuiJsl/lkJ/pnJbnur/mlrAiLCJGbG93SWQiOjEwNywiU3RhdGVJZCI6MTF9fQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAOTAzNmU3ZGZiOTEyNDU4ZTk5OTRlY2UzZGJlODFkNWUAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114800078,
+        114001176
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_剧情_角色_吟霖线新",
+        "FlowId": 107,
+        "StateId": 11
+      }
+    },
+    "ActionId": 3000031
   },
   {
     "ActionGuid": "0fb48e43d4d84f9f8852af19a7efe786",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwsYtAAwAAADAAAAA0AAAALEAAAB7IkVudGl0eUlkcyI6WzExNDAwMDY2MCwxMTQwMDA2NTksMTE0MDAwNjU4LDExNDAwMTAyOV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/ku7vliqHkuJPnlKjlhpLms6Ff5YiY5qKm6J22IiwiRmxvd0lkIjo0LCJTdGF0ZUlkIjoxfX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAwZmI0OGU0M2Q0ZDg0ZjlmODg1MmFmMTlhN2VmZTc4NgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114000660,
+        114000659,
+        114000658,
+        114001029
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_任务专用冒泡_刘梦蝶",
+        "FlowId": 4,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000002
   },
   {
     "ActionGuid": "a48ca0481f6d4f3094aeb4e5ced7742a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwMctAAwAAADMAAAA3AAAALwAAAB7IkVudGl0eUlkcyI6WzE0MDgwMDcwMywxNDA4MDA3MDQsMTQwODAwNzAxLDE0MDgwMDcwMCwxNDA4MDA2OTksMTQwODAwNzAyXSwiRW50ZXJSYWRpdXMiOjE1MDAsIkxlYXZlUmFkaXVzIjoxODAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/lpKnln47nlJ/mgIFfTlBDIiwiRmxvd0lkIjo1N30sIldhaXRUaW1lIjo1fQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABhNDhjYTA0ODFmNmQ0ZjMwOTRhZWI0ZTVjZWQ3NzQyYQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        140800703,
+        140800704,
+        140800701,
+        140800700,
+        140800699,
+        140800702
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1800,
+      "Flow": {
+        "FlowListName": "剧情_天城生态_NPC",
+        "FlowId": 57
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 3000256
   },
   {
     "ActionGuid": "f790f4b6a788448185d834b0da1f2dc6",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzsYtAAwAAACQAAAAoAAAAIMAAAB7IkVudGl0eUlkcyI6WzI5NzAwMDA4XSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX05QQ0Zsb3dUZXN0MDEiLCJGbG93SWQiOjEsIlN0YXRlSWQiOjF9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABmNzkwZjRiNmE3ODg0NDgxODVkODM0YjBkYTFmMmRjNgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        29700008
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_NPCFlowTest01",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000014
   },
   {
     "ActionGuid": "dd9ab5e183264be7a4d943f8acba6871",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA18YtAAwAAACUAAAApAAAAIQAAAB7IkVudGl0eUlkcyI6W10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8xLjLlkIzooYzmj5Lmm7LmlK/nur8yIiwiRmxvd0lkIjo0LCJTdGF0ZUlkIjoxfX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZGQ5YWI1ZTE4MzI2NGJlN2E0ZDk0M2Y4YWNiYTY4NzEAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_1.2同行插曲支线2",
+        "FlowId": 4,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000023
   },
   {
     "ActionGuid": "e01b8c3ceecb4aa4a91ccc2c0f61f9ca",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxsYtAAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzEzOTcwMDAwOF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/mtLvliqhf5Lu/5aOw6aq45Lya5qKm5Yiw55S15a2Q576K5LmIIiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxfX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZTAxYjhjM2NlZWNiNGFhNGE5MWNjYzJjMGY2MWY5Y2EAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        139700008
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_活动_仿声骸会梦到电子羊么",
+        "FlowId": 3,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000006
   },
   {
     "ActionGuid": "4826007408df4c68879662ef9f9a739e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA2cYtAAwAAACkAAAAtAAAAJcAAAB7IkVudGl0eUlkcyI6WzEzOTcwMDAzOSwxMzk3MDAwMzhdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMS4y5ZCM6KGM5o+S5puy5pSv57q/MiIsIkZsb3dJZCI6MywiU3RhdGVJZCI6MX19AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADQ4MjYwMDc0MDhkZjRjNjg4Nzk2NjJlZjlmOWE3MzllAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        139700039,
+        139700038
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_1.2同行插曲支线2",
+        "FlowId": 3,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000025
   },
   {
     "ActionGuid": "579641c454134a588f1b030d6aa05856",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA88YtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzMxMTAwMDM5NF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANTc5NjQxYzQ1NDEzNGE1ODhmMWIwMzBkNmFhMDU4NTYAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311000394
+      ]
+    },
+    "ActionId": 3000051
   },
   {
     "ActionGuid": "6f3927e3af4f4adcbc75330e9a3553ab",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8cYtAAwAAACcAAAArAAAAIwAAAB7IkVudGl0eUlkcyI6WzMxMTAwMDM5NF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8xXzJf6KeS6ImyX+aKmOaenee6vyIsIkZsb3dJZCI6MywiU3RhdGVJZCI6MTN9fQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA2ZjM5MjdlM2FmNGY0YWRjYmM3NTMzMGU5YTM1NTNhYgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311000394
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_1_2_角色_折枝线",
+        "FlowId": 3,
+        "StateId": 13
+      }
+    },
+    "ActionId": 3000049
   },
   {
     "ActionGuid": "049a6887ed0e4c35b3595f648e0488b8",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAOcctAAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzMxMTcwMDE2MywzMTE3MDAxNjJdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMV8yX+inkuiJsl/mipjmnp3nur8iLCJGbG93SWQiOjYsIlN0YXRlSWQiOjExfX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADA0OWE2ODg3ZWQwZTRjMzViMzU5NWY2NDhlMDQ4OGI4AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311700163,
+        311700162
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_1_2_角色_折枝线",
+        "FlowId": 6,
+        "StateId": 11
+      }
+    },
+    "ActionId": 3000121
   },
   {
     "ActionGuid": "9a9c416ddf7846d28decff38476981c7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAOMctAAwAAACkAAAAtAAAAJUAAAB7IkVudGl0eUlkcyI6WzMxMTcwMDEzMiwzMTE3MDAxNjFdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMV8yX+inkuiJsl/mipjmnp3nur8iLCJGbG93SWQiOjYsIlN0YXRlSWQiOjl9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADlhOWM0MTZkZGY3ODQ2ZDI4ZGVjZmYzODQ3Njk4MWM3AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311700132,
+        311700161
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_1_2_角色_折枝线",
+        "FlowId": 6,
+        "StateId": 9
+      }
+    },
+    "ActionId": 3000120
   },
   {
     "ActionGuid": "f9ad276cea5346c1b4329569f7be275b",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAO8ctAAwAAACwAAAAwAAAAKAAAAB7IkVudGl0eUlkcyI6WzMxMTcwMDEzMCwzMTE3MDAxNjUsMzExNzAwMTY0XSwiRW50ZXJSYWRpdXMiOjUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzFfMl/op5LoibJf5oqY5p6d57q/IiwiRmxvd0lkIjo2LCJTdGF0ZUlkIjoxM319AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGY5YWQyNzZjZWE1MzQ2YzFiNDMyOTU2OWY3YmUyNzViAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311700130,
+        311700165,
+        311700164
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_1_2_角色_折枝线",
+        "FlowId": 6,
+        "StateId": 13
+      }
+    },
+    "ActionId": 3000123
   },
   {
     "ActionGuid": "e9c2b66329f64f38a25b6d37d5eddc1e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8MYtAAwAAAC0AAAAxAAAAKQAAAB7IkVudGl0eUlkcyI6WzMxMTcwMDExOCwzMTE3MDAxMTddLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMV8yX+inkuiJsl/mipjmnp3nur8iLCJGbG93SWQiOjYsIlN0YXRlSWQiOjE0fSwiV2FpdFRpbWUiOjUwfQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABlOWMyYjY2MzI5ZjY0ZjM4YTI1YjZkMzdkNWVkZGMxZQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311700118,
+        311700117
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_1_2_角色_折枝线",
+        "FlowId": 6,
+        "StateId": 14
+      },
+      "WaitTime": 50
+    },
+    "ActionId": 3000048
   },
   {
     "ActionGuid": "df393d122bba4ef2b368866b4056f5f9",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAy8YtAAwAAADAAAAA0AAAALMAAAB7IkVudGl0eUlkcyI6WzExNDAwMTU1NF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzBf6buO6YKj5rGQ5aGU5Li757q/X+esrOS4ieW5leS4i1/ni4LmrKLoioIiLCJGbG93SWQiOjE5LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjMwfQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABkZjM5M2QxMjJiYmE0ZWYyYjM2ODg2NmI0MDU2ZjVmOQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114001554
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第三幕下_狂欢节",
+        "FlowId": 19,
+        "StateId": 1
+      },
+      "WaitTime": 30
+    },
+    "ActionId": 3000011
   },
   {
     "ActionGuid": "357093a276f04a0b80ab4b5052742dc6",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzcYtAAwAAAC4AAAAyAAAAKkAAAB7IkVudGl0eUlkcyI6WzMxMTkwMDI2MV0sIkVudGVyUmFkaXVzIjo4MDAsIkxlYXZlUmFkaXVzIjoxNjAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzBf6buO6YKj5rGQ5aGU5Li757q/X+esrOS6jOW5leS4iiIsIkZsb3dJZCI6NjYsIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6MzB9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMzU3MDkzYTI3NmYwNGEwYjgwYWI0YjUwNTI3NDJkYzYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311900261
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1600,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第二幕上",
+        "FlowId": 66,
+        "StateId": 1
+      },
+      "WaitTime": 30
+    },
+    "ActionId": 3000013
   },
   {
     "ActionGuid": "adbcc260e1264b1596eda5f6797b946e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAADAk9AAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE0NzkwMDIxOF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAYWRiY2MyNjBlMTI2NGIxNTk2ZWRhNWY2Nzk3Yjk0NmUAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        147900218
+      ]
+    },
+    "ActionId": 4000012
   },
   {
     "ActionGuid": "606423026db14d58ae9a4fd58ed68022",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA58YtAAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzMxMTkwMDIyOV0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl8wX+m7jumCo+axkOWhlOS4u+e6v1/nrKzkuozluZXkuIoiLCJGbG93SWQiOjY5LCJTdGF0ZUlkIjoxfX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANjA2NDIzMDI2ZGIxNGQ1OGFlOWE0ZmQ1OGVkNjgwMjIAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311900229
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第二幕上",
+        "FlowId": 69,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000039
   },
   {
     "ActionGuid": "9975b0c7ecad4bb992a84ffd8da764b4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAyMYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzMxMTkwMDIyOV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAOTk3NWIwYzdlY2FkNGJiOTkyYTg0ZmZkOGRhNzY0YjQAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311900229
+      ]
+    },
+    "ActionId": 3000008
   },
   {
     "ActionGuid": "6259053c628046948ab9ad106de3c04b",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAJcctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzMxMTkwMDIzNF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANjI1OTA1M2M2MjgwNDY5NDhhYjlhZDEwNmRlM2MwNGIAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311900234
+      ]
+    },
+    "ActionId": 3000101
   },
   {
     "ActionGuid": "b102dd787b44477384a2aca839e86a1c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAJsctAAwAAAC4AAAAyAAAAKkAAAB7IkVudGl0eUlkcyI6WzMxMTkwMDIzNl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzBf6buO6YKj5rGQ5aGU5Li757q/X+esrOS6jOW5leS4iiIsIkZsb3dJZCI6NjksIlN0YXRlSWQiOjd9LCJXYWl0VGltZSI6MTB9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYjEwMmRkNzg3YjQ0NDc3Mzg0YTJhY2E4MzllODZhMWMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311900236
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第二幕上",
+        "FlowId": 69,
+        "StateId": 7
+      },
+      "WaitTime": 10
+    },
+    "ActionId": 3000102
   },
   {
     "ActionGuid": "e774da4b92224193ab80d88ee6496476",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAJMctAAwAAAC4AAAAyAAAAKkAAAB7IkVudGl0eUlkcyI6WzMxMTkwMDIzNF0sIkVudGVyUmFkaXVzIjo2MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzBf6buO6YKj5rGQ5aGU5Li757q/X+esrOS6jOW5leS4iiIsIkZsb3dJZCI6NjksIlN0YXRlSWQiOjZ9LCJXYWl0VGltZSI6MTB9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZTc3NGRhNGI5MjIyNDE5M2FiODBkODhlZTY0OTY0NzYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311900234
+      ],
+      "EnterRadius": 600,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第二幕上",
+        "FlowId": 69,
+        "StateId": 6
+      },
+      "WaitTime": 10
+    },
+    "ActionId": 3000100
   },
   {
     "ActionGuid": "574d2dfa8504451c8077d9b058fd504c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAqMctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzkxNTkwMDAxNl19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANTc0ZDJkZmE4NTA0NDUxYzgwNzdkOWIwNThmZDUwNGMAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915900016
+      ]
+    },
+    "ActionId": 3000232
   },
   {
     "ActionGuid": "977dd30e187c42e9b30823a1cbdf22ea",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAoMctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzkxNTkwMDAxMl19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAOTc3ZGQzMGUxODdjNDJlOWIzMDgyM2ExY2JkZjIyZWEAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915900012
+      ]
+    },
+    "ActionId": 3000224
   },
   {
     "ActionGuid": "0f1f27bf68da44dfa659c74698252190",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAm8ctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzkxNTkwMDAxMl0sIkVudGVyUmFkaXVzIjoyMDAsIkxlYXZlUmFkaXVzIjo1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzJfMF/pu47pgqPmsZDloZTkuLvnur9f5bqP5bmVIiwiRmxvd0lkIjoxNywiU3RhdGVJZCI6M319AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADBmMWYyN2JmNjhkYTQ0ZGZhNjU5Yzc0Njk4MjUyMTkwAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915900012
+      ],
+      "EnterRadius": 200,
+      "LeaveRadius": 500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_序幕",
+        "FlowId": 17,
+        "StateId": 3
+      }
+    },
+    "ActionId": 3000219
   },
   {
     "ActionGuid": "763078be11aa4fe293dd9b63e036e2b7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAmMctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzkxNTkwMDAxNl0sIkVudGVyUmFkaXVzIjoyMDAsIkxlYXZlUmFkaXVzIjo1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzJfMF/pu47pgqPmsZDloZTkuLvnur9f5bqP5bmVIiwiRmxvd0lkIjoxNywiU3RhdGVJZCI6NH19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADc2MzA3OGJlMTFhYTRmZTI5M2RkOWI2M2UwMzZlMmI3AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915900016
+      ],
+      "EnterRadius": 200,
+      "LeaveRadius": 500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_序幕",
+        "FlowId": 17,
+        "StateId": 4
+      }
+    },
+    "ActionId": 3000216
   },
   {
     "ActionGuid": "6dbd35e812f642d0a55b475942e071bd",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAw8YtAAwAAACgAAAAsAAAAJIAAAB7IkVudGl0eUlkcyI6WzE0NzAwMDA1NywxNDcwMDAxOTFdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl8wX+aLjeeFp+a2gum4piIsIkZsb3dJZCI6MTAsIlN0YXRlSWQiOjF9fQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANmRiZDM1ZTgxMmY2NDJkMGE1NWI0NzU5NDJlMDcxYmQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        147000057,
+        147000191
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_拍照涂鸦",
+        "FlowId": 10,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000003
   },
   {
     "ActionGuid": "c118ce4a26ea4e5880704dfcfb4de427",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxcYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE0NzAwMDE5MSwxNDcwMDAwNTddfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABjMTE4Y2U0YTI2ZWE0ZTU4ODA3MDRkZmNmYjRkZTQyNwAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        147000191,
+        147000057
+      ]
+    },
+    "ActionId": 3000005
   },
   {
     "ActionGuid": "a3d4be0bc1854535b7fecd361e448891",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA28YtAAwAAAC0AAAAxAAAAKYAAAB7IkVudGl0eUlkcyI6WzExNDkwMDA4MV0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MjAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl8wX+m7jumCo+axkOWhlOS4u+e6v1/nrKzkuInluZXkuItf54uC5qyi6IqCIiwiRmxvd0lkIjo2MywiU3RhdGVJZCI6Mn19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABhM2Q0YmUwYmMxODU0NTM1YjdmZWNkMzYxZTQ0ODg5MQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114900081
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第三幕下_狂欢节",
+        "FlowId": 63,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000027
   },
   {
     "ActionGuid": "fedaff0bc53849009d7891d440c3030c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0sYtAAwAAADYAAAA6AAAAMgAAAB7IkVudGl0eUlkcyI6WzExNDkwMDA3NSwxMTQ5MDAwODAsMTE0OTAwMTIwXSwiRW50ZXJSYWRpdXMiOjEwMDAsIkxlYXZlUmFkaXVzIjoyMDAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzBf6buO6YKj5rGQ5aGU5Li757q/X+esrOS4ieW5leS4i1/ni4LmrKLoioIiLCJGbG93SWQiOjYzLCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjMwfQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABmZWRhZmYwYmM1Mzg0OTAwOWQ3ODkxZDQ0MGMzMDMwYwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114900075,
+        114900080,
+        114900120
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第三幕下_狂欢节",
+        "FlowId": 63,
+        "StateId": 1
+      },
+      "WaitTime": 30
+    },
+    "ActionId": 3000018
   },
   {
     "ActionGuid": "6386bd13370e405480184b0d1943102b",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA1sctAAwAAAC0AAAAxAAAAKUAAAB7IkVudGl0eUlkcyI6WzExNDkwMDA5OF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzBf6buO6YKj5rGQ5aGU5Li757q/X+esrOS4ieW5leS4i1/ni4LmrKLoioIiLCJGbG93SWQiOjYzLCJTdGF0ZUlkIjo4fX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA2Mzg2YmQxMzM3MGU0MDU0ODAxODRiMGQxOTQzMTAyYgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114900098
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第三幕下_狂欢节",
+        "FlowId": 63,
+        "StateId": 8
+      }
+    },
+    "ActionId": 3000278
   },
   {
     "ActionGuid": "a5e9c316ffc54362b0889213e6675cbf",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAosctAAwAAAC0AAAAxAAAAKUAAAB7IkVudGl0eUlkcyI6WzExNDkwMDA5OF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzBf6buO6YKj5rGQ5aGU5Li757q/X+esrOS4ieW5leS4i1/ni4LmrKLoioIiLCJGbG93SWQiOjYzLCJTdGF0ZUlkIjo4fX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABhNWU5YzMxNmZmYzU0MzYyYjA4ODkyMTNlNjY3NWNiZgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114900098
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第三幕下_狂欢节",
+        "FlowId": 63,
+        "StateId": 8
+      }
+    },
+    "ActionId": 3000226
   },
   {
     "ActionGuid": "cc8c11ff8c0c4193a8570b56969be05e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAHcctAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzMxNDkwMDAxNF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzFf6KeS6ImyX+W4g+WFsOeJuee6vyIsIkZsb3dJZCI6NCwiU3RhdGVJZCI6MX19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABjYzhjMTFmZjhjMGM0MTkzYTg1NzBiNTY5NjliZTA1ZQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        314900014
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_1_角色_布兰特线",
+        "FlowId": 4,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000093
   },
   {
     "ActionGuid": "6658ed3a6a6941bca328e89c4f1f4681",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAfgk9AAwAAAC0AAAAxAAAAKYAAAB7IkVudGl0eUlkcyI6WzE0NzkwMDIxOF0sIkVudGVyUmFkaXVzIjoyMDAwLCJMZWF2ZVJhZGl1cyI6MjUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl8wX+mqkeWjq+ivleeCvOWymyIsIkZsb3dJZCI6MSwiU3RhdGVJZCI6MX0sIlJlZERvdCI6dHJ1ZSwiV2FpdFRpbWUiOjN9AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA2NjU4ZWQzYTZhNjk0MWJjYTMyOGU4OWM0ZjFmNDY4MQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        147900218
+      ],
+      "EnterRadius": 2000,
+      "LeaveRadius": 2500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_骑士试炼岛",
+        "FlowId": 1,
+        "StateId": 1
+      },
+      "RedDot": true,
+      "WaitTime": 3
+    },
+    "ActionId": 4000126
   },
   {
     "ActionGuid": "9e054c6b3f154ab385b474a5f3242b43",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAAcctAAwAAADAAAAA0AAAALEAAAB7IkVudGl0eUlkcyI6WzE2NDkwMDA1NSwxNjQ5MDAwMDRdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl8wX+m7jumCo+axkOWhlOS4u+e6v1/nrKzkuInluZXkuIpf5biV5bCU57Gz572XIiwiRmxvd0lkIjo1LCJTdGF0ZUlkIjoxfX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA5ZTA1NGM2YjNmMTU0YWIzODViNDc0YTVmMzI0MmI0MwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        164900055,
+        164900004
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第三幕上_帕尔米罗",
+        "FlowId": 5,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000065
   },
   {
     "ActionGuid": "f9ef8872701540718bfb8cb41f41d4e8",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAACcgtAAwAAAC0AAAAxAAAAKUAAAB7IkVudGl0eUlkcyI6WzExNDkwMDA5OF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzBf6buO6YKj5rGQ5aGU5Li757q/X+esrOS4ieW5leS4i1/ni4LmrKLoioIiLCJGbG93SWQiOjYzLCJTdGF0ZUlkIjo4fX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABmOWVmODg3MjcwMTU0MDcxOGJmYjhjYjQxZjQxZDRlOAAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        114900098
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_0_黎那汐塔主线_第三幕下_狂欢节",
+        "FlowId": 63,
+        "StateId": 8
+      }
+    },
+    "ActionId": 3000329
   },
   {
     "ActionGuid": "3d74f6c00de14163a20196c02b78cb9f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAACcctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzMxNDkwMDAxNF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAM2Q3NGY2YzAwZGUxNDE2M2EyMDE5NmMwMmI3OGNiOWYAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        314900014
+      ]
+    },
+    "ActionId": 3000073
   },
   {
     "ActionGuid": "7ac15c8465ed485aab07290136d742bc",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAABMctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzMxNDkwMDAxNF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAN2FjMTVjODQ2NWVkNDg1YWFiMDcyOTAxMzZkNzQyYmMAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        314900014
+      ]
+    },
+    "ActionId": 3000068
   },
   {
     "ActionGuid": "0398783178c44901b7519688cb02d19f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA7cYtAAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAxNV0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MjAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl80X+a0u+WKqF/lo7Dpqrjlr7nmiJgiLCJGbG93SWQiOjEsIlN0YXRlSWQiOjd9LCJXYWl0VGltZSI6NX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMDM5ODc4MzE3OGM0NDkwMWI3NTE5Njg4Y2IwMmQxOWYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850015
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 1,
+        "StateId": 7
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 3000045
   },
   {
     "ActionGuid": "05c60313dc03485c8102f22e0f4811b1",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8MYtAAwAAAC0AAAAxAAAAKcAAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAyMCw5MTU4NTAwMTldLCJFbnRlclJhZGl1cyI6MTAwMCwiTGVhdmVSYWRpdXMiOjIwMDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzJfNF/mtLvliqhf5aOw6aq45a+55oiYIiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjo4fSwiV2FpdFRpbWUiOjEwfQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAwNWM2MDMxM2RjMDM0ODVjODEwMmYyMmUwZjQ4MTFiMQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850020,
+        915850019
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 1,
+        "StateId": 8
+      },
+      "WaitTime": 10
+    },
+    "ActionId": 3000048
   },
   {
     "ActionGuid": "2473000781c249e480468f71f7f8b5f8",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAw8YtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwMV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMjQ3MzAwMDc4MWMyNDllNDgwNDY4ZjcxZjdmOGI1ZjgAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850001
+      ]
+    },
+    "ActionId": 3000003
   },
   {
     "ActionGuid": "3f9319a657d84ff0aac229ee7ed343a3",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA3sYtAAwAAACcAAAArAAAAI8AAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwMV0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MjUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl80X+a0u+WKqF/lo7Dpqrjlr7nmiJgiLCJGbG93SWQiOjEsIlN0YXRlSWQiOjZ9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAzZjkzMTlhNjU3ZDg0ZmYwYWFjMjI5ZWU3ZWQzNDNhMwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850001
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 2500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 1,
+        "StateId": 6
+      }
+    },
+    "ActionId": 3000030
   },
   {
     "ActionGuid": "491c483507264884881508683c0fdf87",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA5sYtAAwAAAC0AAAAxAAAAKQAAAB7IkVudGl0eUlkcyI6WzE3MTg1MDAwNywxNzE4NTAwMDUsMTcxODUwMDA2XSwiRW50ZXJSYWRpdXMiOjEwMDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDIiLCJGbG93SWQiOjEsIlN0YXRlSWQiOjZ9fQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA0OTFjNDgzNTA3MjY0ODg0ODgxNTA4NjgzYzBmZGY4NwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        171850007,
+        171850005,
+        171850006
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战2",
+        "FlowId": 1,
+        "StateId": 6
+      }
+    },
+    "ActionId": 3000038
   },
   {
     "ActionGuid": "5c43569272c64a2b9ff8a4affca57c52",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA58YtAAwAAAA8AAAATAAAAC0AAAB7IkVudGl0eUlkcyI6WzE3MTg1MDAwNywxNzE4NTAwMDUsMTcxODUwMDA2XX0AAAAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA1YzQzNTY5MjcyYzY0YTJiOWZmOGE0YWZmY2E1N2M1MgAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        171850007,
+        171850005,
+        171850006
+      ]
+    },
+    "ActionId": 3000039
   },
   {
     "ActionGuid": "d21fe697beb748559b96ebba2b5a5314",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA5MYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzkxNTAwMDA3Myw5MTUwMDAwNzRdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABkMjFmZTY5N2JlYjc0ODU1OWI5NmViYmEyYjVhNTMxNAAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915000073,
+        915000074
+      ]
+    },
+    "ActionId": 3000036
   },
   {
     "ActionGuid": "df4e676aed1d4b339dad8784d7ec6905",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA48YtAAwAAACoAAAAuAAAAJkAAAB7IkVudGl0eUlkcyI6WzkxNTAwMDA3Myw5MTUwMDAwNzRdLCJFbnRlclJhZGl1cyI6MTAwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzJfNF/mtLvliqhf5aOw6aq45a+55oiYIiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjozfX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABkZjRlNjc2YWVkMWQ0YjMzOWRhZDg3ODRkN2VjNjkwNQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915000073,
+        915000074
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 2,
+        "StateId": 3
+      }
+    },
+    "ActionId": 3000035
   },
   {
     "ActionGuid": "e0d8fdd334fd4decaf7e423d008a2ffb",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA3cYtAAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzkxNTAwMDA2OF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImCIsIkZsb3dJZCI6MSwiU3RhdGVJZCI6OX0sIldhaXRUaW1lIjoxMH0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZTBkOGZkZDMzNGZkNGRlY2FmN2U0MjNkMDA4YTJmZmIAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915000068
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 1,
+        "StateId": 9
+      },
+      "WaitTime": 10
+    },
+    "ActionId": 3000029
   },
   {
     "ActionGuid": "f1216ce4b8fb418cbb16e1376ca7e64f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8sYtAAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAyMV0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl80X+a0u+WKqF/lo7Dpqrjlr7nmiJgiLCJGbG93SWQiOjEsIlN0YXRlSWQiOjZ9LCJXYWl0VGltZSI6NX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZjEyMTZjZTRiOGZiNDE4Y2JiMTZlMTM3NmNhN2U2NGYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850021
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 1,
+        "StateId": 6
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 3000050
   },
   {
     "ActionGuid": "b82dfa7a7d2a473d9e5211de796e1958",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAuAs9AAwAAACgAAAAsAAAAJMAAAB7IkVudGl0eUlkcyI6WzE2MDgwMDMzNV0sIkVudGVyUmFkaXVzIjo4MDAwLCJMZWF2ZVJhZGl1cyI6MTUwMDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzJfM1/otZ7lpq7lia/mnKznoo7niYfljJYiLCJGbG93SWQiOjEyLCJTdGF0ZUlkIjoxfX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYjgyZGZhN2E3ZDJhNDczZDllNTIxMWRlNzk2ZTE5NTgAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160800335
+      ],
+      "EnterRadius": 8000,
+      "LeaveRadius": 15000,
+      "Flow": {
+        "FlowListName": "剧情_2_3_赞妮副本碎片化",
+        "FlowId": 12,
+        "StateId": 1
+      }
+    },
+    "ActionId": 4000696
   },
   {
     "ActionGuid": "23e2521524ee4920a91a2823d7c73400",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAB8ctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyN10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjoxMX19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADIzZTI1MjE1MjRlZTQ5MjBhOTFhMjgyM2Q3YzczNDAwAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850027
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 2,
+        "StateId": 11
+      }
+    },
+    "ActionId": 3000071
   },
   {
     "ActionGuid": "27158eeec8b444919a660a776eb64571",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA9cYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyMSwxNzU4NTAwMDFdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAAyNzE1OGVlZWM4YjQ0NDkxOWE2NjBhNzc2ZWI2NDU3MQAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850021,
+        175850001
+      ]
+    },
+    "ActionId": 3000053
   },
   {
     "ActionGuid": "32dd0b8dac234f8988504dc52a0c1781",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAADMctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyNV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjoxNH19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADMyZGQwYjhkYWMyMzRmODk4ODUwNGRjNTJhMGMxNzgxAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850025
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 2,
+        "StateId": 14
+      }
+    },
+    "ActionId": 3000076
   },
   {
     "ActionGuid": "353221269b864f009868a73acdcd4f59",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAABMctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyNl19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMzUzMjIxMjY5Yjg2NGYwMDk4NjhhNzNhY2RjZDRmNTkAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850026
+      ]
+    },
+    "ActionId": 3000068
   },
   {
     "ActionGuid": "42c1b6c5f2f246bda102807cc49dd122",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA/sYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAwNl19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANDJjMWI2YzVmMmYyNDZiZGExMDI4MDdjYzQ5ZGQxMjIAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850006
+      ]
+    },
+    "ActionId": 3000062
   },
   {
     "ActionGuid": "45adbee1eaf94e428e51e2d281795482",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAABsctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyN119AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANDVhZGJlZTFlYWY5NGU0MjhlNTFlMmQyODE3OTU0ODIAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850027
+      ]
+    },
+    "ActionId": 3000070
   },
   {
     "ActionGuid": "538deeef6a4e44c1b70148f8c2ab5891",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAC8ctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyOF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjoxM319AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADUzOGRlZWVmNmE0ZTQ0YzFiNzAxNDhmOGMyYWI1ODkxAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850028
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 2,
+        "StateId": 13
+      }
+    },
+    "ActionId": 3000075
   },
   {
     "ActionGuid": "88cd2f6678f3471cb6c1fb7ebe6d8c8b",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA+sYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAwN119AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAODhjZDJmNjY3OGYzNDcxY2I2YzFmYjdlYmU2ZDhjOGIAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850007
+      ]
+    },
+    "ActionId": 3000058
   },
   {
     "ActionGuid": "b29db04af0fa48adb11e71f4b7199caf",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA/8YtAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAwNl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjoxM319AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGIyOWRiMDRhZjBmYTQ4YWRiMTFlNzFmNGI3MTk5Y2FmAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850006
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 1,
+        "StateId": 13
+      }
+    },
+    "ActionId": 3000063
   },
   {
     "ActionGuid": "d453779c128d4c4eb13f4e37ab6735df",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAACMctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyOF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZDQ1Mzc3OWMxMjhkNGM0ZWIxM2Y0ZTM3YWI2NzM1ZGYAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850028
+      ]
+    },
+    "ActionId": 3000072
   },
   {
     "ActionGuid": "d8e2749636eb4c2c97755a2ad6dd485f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA+8YtAAwAAACgAAAAsAAAAJMAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAwN10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjo5fX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZDhlMjc0OTYzNmViNGMyYzk3NzU1YTJhZDZkZDQ4NWYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850007
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 1,
+        "StateId": 9
+      }
+    },
+    "ActionId": 3000059
   },
   {
     "ActionGuid": "e4734253424545b2bd9a1f9876814052",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAD8ctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyNV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZTQ3MzQyNTM0MjQ1NDViMmJkOWExZjk4NzY4MTQwNTIAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850025
+      ]
+    },
+    "ActionId": 3000079
   },
   {
     "ActionGuid": "f3be5731af274b2a8e90c07cce43c98e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAABcctAAwAAACgAAAAsAAAAJMAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyNl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjo5fX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZjNiZTU3MzFhZjI3NGIyYThlOTBjMDdjY2U0M2M5OGUAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850026
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 2,
+        "StateId": 9
+      }
+    },
+    "ActionId": 3000069
   },
   {
     "ActionGuid": "01ebe4b71c8146a8885a421efd33da1e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAHMctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyOV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxMH19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADAxZWJlNGI3MWM4MTQ2YTg4ODVhNDIxZWZkMzNkYTFlAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850029
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 3,
+        "StateId": 10
+      }
+    },
+    "ActionId": 3000092
   },
   {
     "ActionGuid": "3c4c48c82cd8431485975be1b5234a04",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAJcctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAzMl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxNX19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADNjNGM0OGM4MmNkODQzMTQ4NTk3NWJlMWI1MjM0YTA0AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850032
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 3,
+        "StateId": 15
+      }
+    },
+    "ActionId": 3000101
   },
   {
     "ActionGuid": "614ca900d15f47e7becc20a33fa15d82",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAJMctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAzMV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxNH19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADYxNGNhOTAwZDE1ZjQ3ZTdiZWNjMjBhMzNmYTE1ZDgyAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850031
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 3,
+        "StateId": 14
+      }
+    },
+    "ActionId": 3000100
   },
   {
     "ActionGuid": "8189edac59d446a08f9842dbc0a9c8ff",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAIMctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAzMF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxMn19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADgxODllZGFjNTlkNDQ2YTA4Zjk4NDJkYmMwYTljOGZmAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850030
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 3,
+        "StateId": 12
+      }
+    },
+    "ActionId": 3000096
   },
   {
     "ActionGuid": "077668f7cdb24e9d9edd33f0fee9a8ab",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAKsctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwNV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMDc3NjY4ZjdjZGIyNGU5ZDllZGQzM2YwZmVlOWE4YWIAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850005
+      ]
+    },
+    "ActionId": 3000106
   },
   {
     "ActionGuid": "2b89cb83bfe34abca5acf6aa28d2b5c0",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAALcctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwNF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMmI4OWNiODNiZmUzNGFiY2E1YWNmNmFhMjhkMmI1YzAAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850004
+      ]
+    },
+    "ActionId": 3000109
   },
   {
     "ActionGuid": "2d97766a11594a15aa6bdd09fb0edc78",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAx8YtAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwM10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImCIsIkZsb3dJZCI6NCwiU3RhdGVJZCI6NX19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAyZDk3NzY2YTExNTk0YTE1YWE2YmRkMDlmYjBlZGM3OAAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850003
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 4,
+        "StateId": 5
+      }
+    },
+    "ActionId": 3000007
   },
   {
     "ActionGuid": "4149aed723c647e58e97d18005d396ef",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAK8ctAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwNV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImCIsIkZsb3dJZCI6NCwiU3RhdGVJZCI6OH19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA0MTQ5YWVkNzIzYzY0N2U1OGU5N2QxODAwNWQzOTZlZgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850005
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 4,
+        "StateId": 8
+      }
+    },
+    "ActionId": 3000107
   },
   {
     "ActionGuid": "5f3e2136b1e44d32af5a7af034bf6c59",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAKMctAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwM10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImCIsIkZsb3dJZCI6NCwiU3RhdGVJZCI6Nn19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA1ZjNlMjEzNmIxZTQ0ZDMyYWY1YTdhZjAzNGJmNmM1OQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850003
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 4,
+        "StateId": 6
+      }
+    },
+    "ActionId": 3000104
   },
   {
     "ActionGuid": "8523503dc6e24eb484ef35459c8043b8",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAJ8ctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwM119AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAODUyMzUwM2RjNmUyNGViNDg0ZWYzNTQ1OWM4MDQzYjgAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850003
+      ]
+    },
+    "ActionId": 3000103
   },
   {
     "ActionGuid": "a5a6763e263b43588b7bb0c144c9f989",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAALMctAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwNF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImCIsIkZsb3dJZCI6NCwiU3RhdGVJZCI6OX19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABhNWE2NzYzZTI2M2I0MzU4OGI3YmIwYzE0NGM5Zjk4OQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850004
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 4,
+        "StateId": 9
+      }
+    },
+    "ActionId": 3000108
   },
   {
     "ActionGuid": "ba0dd0bb1d1549fcb579e29a09137b21",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAKcctAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwNV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImCIsIkZsb3dJZCI6NCwiU3RhdGVJZCI6N319AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABiYTBkZDBiYjFkMTU0OWZjYjU3OWUyOWEwOTEzN2IyMQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850005
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 4,
+        "StateId": 7
+      }
+    },
+    "ActionId": 3000105
   },
   {
     "ActionGuid": "ed4208a081ae4f01a924899f0b3da3b4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAALsctAAwAAACcAAAArAAAAI8AAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwNF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImCIsIkZsb3dJZCI6NCwiU3RhdGVJZCI6MTB9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABlZDQyMDhhMDgxYWU0ZjAxYTkyNDg5OWYwYjNkYTNiNAAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850004
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 4,
+        "StateId": 10
+      }
+    },
+    "ActionId": 3000110
   },
   {
     "ActionGuid": "1484738b937d4ecdad270d2505f001dc",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAC8ctAAwAAACwAAAAwAAAAKEAAAB7IkVudGl0eUlkcyI6WzkzNjg1MDE0Nl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5pSv57q/X+WOhueoi+iusOW/huaJi+WGjF/miJjpmbXov73nl5UiLCJGbG93SWQiOjYsIlN0YXRlSWQiOjR9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADE0ODQ3MzhiOTM3ZDRlY2RhZDI3MGQyNTA1ZjAwMWRjAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        936850146
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_支线_历程记忆手册_战陵追痕",
+        "FlowId": 6,
+        "StateId": 4
+      }
+    },
+    "ActionId": 3000075
   },
   {
     "ActionGuid": "0c79566a87c548b18f9d5a3990148eba",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAasctAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAzMCwxNzU4NTAwMzFdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAAwYzc5NTY2YTg3YzU0OGIxOGY5ZDVhMzk5MDE0OGViYQAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850030,
+        175850031
+      ]
+    },
+    "ActionId": 3000170
   },
   {
     "ActionGuid": "1c341e72ceec4a229e21e31923f45203",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAbcctAAwAAACcAAAArAAAAI8AAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAyMF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+W4uOmpu+eUn+aAgSIsIkZsb3dJZCI6MywiU3RhdGVJZCI6MjF9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAxYzM0MWU3MmNlZWM0YTIyOWUyMWUzMTkyM2Y0NTIwMwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850020
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_常驻生态",
+        "FlowId": 3,
+        "StateId": 21
+      }
+    },
+    "ActionId": 3000173
   },
   {
     "ActionGuid": "2de5f726100545dc84ea6d9e0cc881d4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAaMctAAwAAACoAAAAuAAAAJkAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAzMCwxNzU4NTAwMzFdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl80X+a0u+WKqF/luLjpqbvnlJ/mgIEiLCJGbG93SWQiOjMsIlN0YXRlSWQiOjMyfX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAyZGU1ZjcyNjEwMDU0NWRjODRlYTZkOWUwY2M4ODFkNAAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850030,
+        175850031
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_常驻生态",
+        "FlowId": 3,
+        "StateId": 32
+      }
+    },
+    "ActionId": 3000168
   },
   {
     "ActionGuid": "712301e7df45430988c1bbf8e4975b1c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAZ8ctAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAzMCwxNzU4NTAwMzFdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA3MTIzMDFlN2RmNDU0MzA5ODhjMWJiZjhlNDk3NWIxYwAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850030,
+        175850031
+      ]
+    },
+    "ActionId": 3000167
   },
   {
     "ActionGuid": "74f4de0ca5364f588a87421dc73bb8df",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAYcctAAwAAACoAAAAuAAAAJkAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAzMCwxNzU4NTAwMzFdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl80X+a0u+WKqF/luLjpqbvnlJ/mgIEiLCJGbG93SWQiOjMsIlN0YXRlSWQiOjMxfX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA3NGY0ZGUwY2E1MzY0ZjU4OGE4NzQyMWRjNzNiYjhkZgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850030,
+        175850031
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_常驻生态",
+        "FlowId": 3,
+        "StateId": 31
+      }
+    },
+    "ActionId": 3000161
   },
   {
     "ActionGuid": "960abce6f05c4aaba34f882270de46a3",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAa8ctAAwAAACoAAAAuAAAAJkAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAzMCwxNzU4NTAwMzFdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl80X+a0u+WKqF/luLjpqbvnlJ/mgIEiLCJGbG93SWQiOjMsIlN0YXRlSWQiOjMzfX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA5NjBhYmNlNmYwNWM0YWFiYTM0Zjg4MjI3MGRlNDZhMwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850030,
+        175850031
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_常驻生态",
+        "FlowId": 3,
+        "StateId": 33
+      }
+    },
+    "ActionId": 3000171
   },
   {
     "ActionGuid": "218a5a8e9385469fb22ca76d1ccc40f6",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAcMctAAwAAACcAAAArAAAAI8AAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAyMF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+W4uOmpu+eUn+aAgSIsIkZsb3dJZCI6MywiU3RhdGVJZCI6Mjl9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAyMThhNWE4ZTkzODU0NjlmYjIyY2E3NmQxY2NjNDBmNgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850020
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_常驻生态",
+        "FlowId": 3,
+        "StateId": 29
+      }
+    },
+    "ActionId": 3000176
   },
   {
     "ActionGuid": "7c7bf533b2ed4272bad9d3d0539a0d5a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAb8ctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAyMF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAN2M3YmY1MzNiMmVkNDI3MmJhZDlkM2QwNTM5YTBkNWEAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850020
+      ]
+    },
+    "ActionId": 3000175
   },
   {
     "ActionGuid": "0aa8ba690dc843fd96562508e1fe1970",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAAwk9AAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzE2MDgwMTA2OCwxNjA4MDEwNjldLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf55Sf5oCBX+inkuiJsl/otZ7lpq4iLCJGbG93SWQiOjZ9LCJXYWl0VGltZSI6N30AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADBhYThiYTY5MGRjODQzZmQ5NjU2MjUwOGUxZmUxOTcwAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160801068,
+        160801069
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_生态_角色_赞妮",
+        "FlowId": 6
+      },
+      "WaitTime": 7
+    },
+    "ActionId": 4000003
   },
   {
     "ActionGuid": "7082c29adaa24ab78074dfaa91c08d9e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEgk9AAwAAACwAAAAwAAAAKMAAAB7IkVudGl0eUlkcyI6WzE2MDgwMTA3OCwxNjA4MDExMDFdLCJFbnRlclJhZGl1cyI6MTUwMCwiTGVhdmVSYWRpdXMiOjIwMDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+eUn+aAgV/op5LoibJf6LWe5aauIiwiRmxvd0lkIjo1LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjd9AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADcwODJjMjlhZGFhMjRhYjc4MDc0ZGZhYTkxYzA4ZDllAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160801078,
+        160801101
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_生态_角色_赞妮",
+        "FlowId": 5,
+        "StateId": 1
+      },
+      "WaitTime": 7
+    },
+    "ActionId": 4000018
   },
   {
     "ActionGuid": "b4807f522797450aaa4ccbdfccac7f26",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEQk9AAwAAACwAAAAwAAAAKMAAAB7IkVudGl0eUlkcyI6WzE2MDgwMTA3MSwxNjA4MDEwOTZdLCJFbnRlclJhZGl1cyI6MTAwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFX+eUn+aAgV/op5LoibJf6LWe5aauIiwiRmxvd0lkIjo3LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjd9AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGI0ODA3ZjUyMjc5NzQ1MGFhYTRjY2JkZmNjYWM3ZjI2AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160801071,
+        160801096
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_生态_角色_赞妮",
+        "FlowId": 7,
+        "StateId": 1
+      },
+      "WaitTime": 7
+    },
+    "ActionId": 4000017
   },
   {
     "ActionGuid": "d788c8cee89b457289f3272ae0666bef",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEwk9AAwAAACoAAAAuAAAAJgAAAB7IkVudGl0eUlkcyI6WzE2MDgwMTA4MF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV/nlJ/mgIFf6KeS6ImyX+i1nuWmriIsIkZsb3dJZCI6OCwiU3RhdGVJZCI6MX0sIldhaXRUaW1lIjo3fQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABkNzg4YzhjZWU4OWI0NTcyODlmMzI3MmFlMDY2NmJlZgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160801080
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_生态_角色_赞妮",
+        "FlowId": 8,
+        "StateId": 1
+      },
+      "WaitTime": 7
+    },
+    "ActionId": 4000019
   },
   {
     "ActionGuid": "36d8b2c8651843bc85b05c277a3b053e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAI8ctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAzMV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMzZkOGIyYzg2NTE4NDNiYzg1YjA1YzI3N2EzYjA1M2UAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850031
+      ]
+    },
+    "ActionId": 3000099
   },
   {
     "ActionGuid": "54366ff3ac3043a6a43dadfab85c227e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAGcctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyOV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANTQzNjZmZjNhYzMwNDNhNmE0M2RhZGZhYjg1YzIyN2UAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850029
+      ]
+    },
+    "ActionId": 3000089
   },
   {
     "ActionGuid": "d683c1a246ad4146b8db3238d3d5756a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAH8ctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAzMF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZDY4M2MxYTI0NmFkNDE0NmI4ZGIzMjM4ZDNkNTc1NmEAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850030
+      ]
+    },
+    "ActionId": 3000095
   },
   {
     "ActionGuid": "054e667c52764fe78ee211e7e064fcc6",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA9sYtAAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyMSwxNzU4NTAwMDFdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl80X+a0u+WKqF/lo7Dpqrjlr7nmiJgz6IezNSIsIkZsb3dJZCI6MSwiU3RhdGVJZCI6N319AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMDU0ZTY2N2M1Mjc2NGZlNzhlZTIxMWU3ZTA2NGZjYzYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850021,
+        175850001
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 1,
+        "StateId": 7
+      }
+    },
+    "ActionId": 3000054
   },
   {
     "ActionGuid": "07ea1cc4225541a7a127e281916b6ce6",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA/MYtAAwAAACgAAAAsAAAAJMAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyNV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjo3fX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMDdlYTFjYzQyMjU1NDFhN2ExMjdlMjgxOTE2YjZjZTYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850025
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 2,
+        "StateId": 7
+      }
+    },
+    "ActionId": 3000060
   },
   {
     "ActionGuid": "5000340c9db24924a56fcaa069a2c853",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAFcctAAwAAACgAAAAsAAAAJMAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyOV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjo5fX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANTAwMDM0MGM5ZGIyNDkyNGE1NmZjYWEwNjlhMmM4NTMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850029
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 3,
+        "StateId": 9
+      }
+    },
+    "ActionId": 3000085
   },
   {
     "ActionGuid": "509990197188433c87fcc30c3b0b65c1",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA98YtAAwAAACgAAAAsAAAAJMAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAwN10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjo4fX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANTA5OTkwMTk3MTg4NDMzYzg3ZmNjMzBjM2IwYjY1YzEAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850007
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 1,
+        "StateId": 8
+      }
+    },
+    "ActionId": 3000055
   },
   {
     "ActionGuid": "6c71ae8106574217ad74a7baad5799ce",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAAMctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyN10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjoxMH19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADZjNzFhZTgxMDY1NzQyMTdhZDc0YTdiYWFkNTc5OWNlAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850027
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 2,
+        "StateId": 10
+      }
+    },
+    "ActionId": 3000064
   },
   {
     "ActionGuid": "792500543a8f4e28973cb26f7b30800a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAFMctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAzMF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxMX19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADc5MjUwMDU0M2E4ZjRlMjg5NzNjYjI2ZjdiMzA4MDBhAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850030
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 3,
+        "StateId": 11
+      }
+    },
+    "ActionId": 3000084
   },
   {
     "ActionGuid": "83aee62894814f44b64f83780038c633",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA/cYtAAwAAACgAAAAsAAAAJMAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyNl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjo4fX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAODNhZWU2Mjg5NDgxNGY0NGI2NGY4Mzc4MDAzOGM2MzMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850026
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 2,
+        "StateId": 8
+      }
+    },
+    "ActionId": 3000061
   },
   {
     "ActionGuid": "8b3aa0369d6c488495454b5771657569",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAAcctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAyOF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjoxMn19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADhiM2FhMDM2OWQ2YzQ4ODQ5NTQ1NGI1NzcxNjU3NTY5AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850028
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 2,
+        "StateId": 12
+      }
+    },
+    "ActionId": 3000065
   },
   {
     "ActionGuid": "b960e5e5819b4bef88f9a0a44e8e5585",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAA8ctAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE2Nzg1MDAzMV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxM319AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGI5NjBlNWU1ODE5YjRiZWY4OGY5YTBhNDRlOGU1NTg1AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        167850031
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 3,
+        "StateId": 13
+      }
+    },
+    "ActionId": 3000067
   },
   {
     "ActionGuid": "fc20178029e449beb49bcba1fbe1a229",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA+cYtAAwAAACkAAAAtAAAAJQAAAB7IkVudGl0eUlkcyI6WzE3NTg1MDAwNl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImDPoh7M1IiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjoxMn19AAAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGZjMjAxNzgwMjllNDQ5YmViNDliY2JhMWZiZTFhMjI5AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        175850006
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战3至5",
+        "FlowId": 1,
+        "StateId": 12
+      }
+    },
+    "ActionId": 3000057
   },
   {
     "ActionGuid": "1abe24178eaf42258dbeceae9df5d645",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAvgk9AAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzE1MTg1MDQwOF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yLjRf5ZOA5oG45riK56KO54mH5YyWIiwiRmxvd0lkIjoxMywiU3RhdGVJZCI6Mn19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAxYWJlMjQxNzhlYWY0MjI1OGRiZWNlYWU5ZGY1ZDY0NQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        151850408
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2.4_哀恸渊碎片化",
+        "FlowId": 13,
+        "StateId": 2
+      }
+    },
+    "ActionId": 4000190
   },
   {
     "ActionGuid": "52c661ad907e46b980fb2455eac1ec5d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwQk9AAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE1MTg1MDQwOF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANTJjNjYxYWQ5MDdlNDZiOTgwZmIyNDU1ZWFjMWVjNWQAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        151850408
+      ]
+    },
+    "ActionId": 4000193
   },
   {
     "ActionGuid": "2b26605a871442079698e3922ca24b34",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA6sYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzkxNTAwMDA2OF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMmIyNjYwNWE4NzE0NDIwNzk2OThlMzkyMmNhMjRiMzQAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915000068
+      ]
+    },
+    "ActionId": 3000042
   },
   {
     "ActionGuid": "617a3db74f9d4e51ae97f91238842f56",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzMYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAxOSw5MTU4NTAwMjBdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA2MTdhM2RiNzRmOWQ0ZTUxYWU5N2Y5MTIzODg0MmY1NgAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850019,
+        915850020
+      ]
+    },
+    "ActionId": 3000012
   },
   {
     "ActionGuid": "d65e2a5719dd4b0d802eb941d1b427e2",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAy8YtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAxNV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZDY1ZTJhNTcxOWRkNGIwZDgwMmViOTQxZDFiNDI3ZTIAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850015
+      ]
+    },
+    "ActionId": 3000011
   },
   {
     "ActionGuid": "8ff26993ede147a5bb7b05344f6de4b1",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAFsctAAwAAAC4AAAAyAAAAKsAAAB7IkVudGl0eUlkcyI6WzkzNjg1MDExNyw5MzY4NTAxNDddLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl80X+aUr+e6v1/ljobnqIvorrDlv4bmiYvlhoxf5oiY6Zm16L+955eVIiwiRmxvd0lkIjo3LCJTdGF0ZUlkIjoyfX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAOGZmMjY5OTNlZGUxNDdhNWJiN2IwNTM0NGY2ZGU0YjEAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        936850117,
+        936850147
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_支线_历程记忆手册_战陵追痕",
+        "FlowId": 7,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000086
   },
   {
     "ActionGuid": "6e5dc1bd308541abb4426c9ddad4035a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAE8ctAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAyNV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzRf5rS75YqoX+WjsOmquOWvueaImCIsIkZsb3dJZCI6MywiU3RhdGVJZCI6N319AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA2ZTVkYzFiZDMwODU0MWFiYjQ0MjZjOWRkYWQ0MDM1YQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850025
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_4_活动_声骸对战",
+        "FlowId": 3,
+        "StateId": 7
+      }
+    },
+    "ActionId": 3000083
   },
   {
     "ActionGuid": "af99409503e949f39f77c58e3f42dd21",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAGMctAAwAAAA8AAAATAAAAC0AAAB7IkVudGl0eUlkcyI6WzkxNTg1MDAwNCw5MTU4NTAwMDMsOTE1ODUwMDA1XX0AAAAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABhZjk5NDA5NTAzZTk0OWYzOWY3N2M1OGUzZjQyZGQyMQAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915850004,
+        915850003,
+        915850005
+      ]
+    },
+    "ActionId": 3000088
   },
   {
     "ActionGuid": "1cfab80ab198471883d78736716df7f4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8sYtAAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzE4NjcwMDAzMl0sIkVudGVyUmFkaXVzIjoyMDAwLCJMZWF2ZVJhZGl1cyI6MjAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl81X+aUr+e6v1/ljobnqIvorrDlv4bmiYvlhowiLCJGbG93SWQiOjExLCJTdGF0ZUlkIjo0fX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADFjZmFiODBhYjE5ODQ3MTg4M2Q3ODczNjcxNmRmN2Y0AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        186700032
+      ],
+      "EnterRadius": 2000,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_2_5_支线_历程记忆手册",
+        "FlowId": 11,
+        "StateId": 4
+      }
+    },
+    "ActionId": 3000050
   },
   {
     "ActionGuid": "36464c76bf3f43f188046c1e574d79c5",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA98YtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE4NjcwMDAzMl19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMzY0NjRjNzZiZjNmNDNmMTg4MDQ2YzFlNTc0ZDc5YzUAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        186700032
+      ]
+    },
+    "ActionId": 3000055
   },
   {
     "ActionGuid": "6873f5ae3d294e46936777d963764905",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA7cYtAAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzE3Njc1MDA2MV0sIkVudGVyUmFkaXVzIjoxODAwLCJMZWF2ZVJhZGl1cyI6MjAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl82X+aUr+e6v1/ni6nnjI5f6aOO566t57CH54aKIiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjo2fX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADY4NzNmNWFlM2QyOTRlNDY5MzY3NzdkOTYzNzY0OTA1AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        176750061
+      ],
+      "EnterRadius": 1800,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_2_6_支线_狩猎_风箭簇熊",
+        "FlowId": 1,
+        "StateId": 6
+      }
+    },
+    "ActionId": 3000045
   },
   {
     "ActionGuid": "b032746a93d94034a8e8578c7dc4dbe1",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAHMctAAwAAACwAAAAwAAAAKEAAAB7IkVudGl0eUlkcyI6WzMxMTAwMDU0NCwzMTEwMDA1NDVdLCJFbnRlclJhZGl1cyI6ODAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl82X+eLhOaWr+WPsOWcsOS4u+e6v1/kuIrljYpfMiIsIkZsb3dJZCI6NzQsIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGIwMzI3NDZhOTNkOTQwMzRhOGU4NTc4YzdkYzRkYmUxAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311000544,
+        311000545
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_上半_2",
+        "FlowId": 74,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000092
   },
   {
     "ActionGuid": "327faaefd4f2413e842aa589c48adbcf",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwcYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE3Njc1MDA2MV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMzI3ZmFhZWZkNGYyNDEzZTg0MmFhNTg5YzQ4YWRiY2YAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        176750061
+      ]
+    },
+    "ActionId": 3000001
   },
   {
     "ActionGuid": "106450a882e046e3946414dd30d2ed9b",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAACsgtAAwAAACkAAAAtAAAAJcAAAB7IkVudGl0eUlkcyI6WzE2NDc1MDAyM10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzZf54uE5pav5Y+w5Zyw5Li757q/X+S4iuWNil8yIiwiRmxvd0lkIjo1NCwiU3RhdGVJZCI6MX19AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADEwNjQ1MGE4ODJlMDQ2ZTM5NDY0MTRkZDMwZDJlZDliAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        164750023
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_上半_2",
+        "FlowId": 54,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000330
   },
   {
     "ActionGuid": "2e0032056ace4d96be3474b86d42c034",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA+cYtAAwAAACwAAAAwAAAAKEAAAB7IkVudGl0eUlkcyI6WzMxMTAwMDUzOCwxNjQ3NTAwMjhdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl82X+eLhOaWr+WPsOWcsOS4u+e6v1/kuIrljYpfMiIsIkZsb3dJZCI6NTAsIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADJlMDAzMjA1NmFjZTRkOTZiZTM0NzRiODZkNDJjMDM0AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311000538,
+        164750028
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_上半_2",
+        "FlowId": 50,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000057
   },
   {
     "ActionGuid": "37226ab610174d5eb9c682214da6bd25",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA7MctAAwAAACwAAAAwAAAAKEAAAB7IkVudGl0eUlkcyI6WzMxMTAwMDU4NCwxNjQ3NTAwMjZdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl82X+eLhOaWr+WPsOWcsOS4u+e6v1/kuIrljYpfMiIsIkZsb3dJZCI6NTksIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADM3MjI2YWI2MTAxNzRkNWViOWM2ODIyMTRkYTZiZDI1AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311000584,
+        164750026
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_上半_2",
+        "FlowId": 59,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000300
   },
   {
     "ActionGuid": "3c94316b254742aa9f58de2555d4adc8",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAADMgtAAwAAACkAAAAtAAAAJcAAAB7IkVudGl0eUlkcyI6WzMxMTAwMDU0Ml0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzZf54uE5pav5Y+w5Zyw5Li757q/X+S4iuWNil8yIiwiRmxvd0lkIjo1MywiU3RhdGVJZCI6MX19AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADNjOTQzMTZiMjU0NzQyYWE5ZjU4ZGUyNTU1ZDRhZGM4AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311000542
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_上半_2",
+        "FlowId": 53,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000332
   },
   {
     "ActionGuid": "3dda99bd4c2d496c933cc41dae2e1c2a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAACMgtAAwAAACkAAAAtAAAAJcAAAB7IkVudGl0eUlkcyI6WzMxMTAwMDU0MF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzZf54uE5pav5Y+w5Zyw5Li757q/X+S4iuWNil8yIiwiRmxvd0lkIjo1MiwiU3RhdGVJZCI6MX19AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADNkZGE5OWJkNGMyZDQ5NmM5MzNjYzQxZGFlMmUxYzJhAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        311000540
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_上半_2",
+        "FlowId": 52,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000328
   },
   {
     "ActionGuid": "ca5b7a5b948943ea808c324ddbc3450e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA7cctAAwAAACwAAAAwAAAAKEAAAB7IkVudGl0eUlkcyI6WzE2NDc1MDA2MCwxNjQ3NTAwNTldLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl82X+eLhOaWr+WPsOWcsOS4u+e6v1/kuIrljYpfMiIsIkZsb3dJZCI6NjUsIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGNhNWI3YTViOTQ4OTQzZWE4MDhjMzI0ZGRiYzM0NTBlAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        164750060,
+        164750059
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_上半_2",
+        "FlowId": 65,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000301
   },
   {
     "ActionGuid": "d0debc892b6f4c67ba9767bb6edc98cb",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAF8ctAAwAAACwAAAAwAAAAKEAAAB7IkVudGl0eUlkcyI6WzE2NDc1MDAyNCwzMTEwMDA1MzldLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl82X+eLhOaWr+WPsOWcsOS4u+e6v1/kuIrljYpfMiIsIkZsb3dJZCI6NTEsIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGQwZGViYzg5MmI2ZjRjNjdiYTk3NjdiYjZlZGM5OGNiAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        164750024,
+        311000539
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_上半_2",
+        "FlowId": 51,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000087
   },
   {
     "ActionGuid": "11903e6a8b5d47b3a50acb6aeb093fd6",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA08YtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzExOTgwMDAwM119AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMTE5MDNlNmE4YjVkNDdiM2E1MGFjYjZhZWIwOTNmZDYAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119800003
+      ]
+    },
+    "ActionId": 3000019
   },
   {
     "ActionGuid": "4266b3298247480ca8120784e1175c6e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0sYtAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzExOTgwMDAwM10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzdf5pSv57q/X+WjsOmquOaUr+e6vyIsIkZsb3dJZCI6MywiU3RhdGVJZCI6MX19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA0MjY2YjMyOTgyNDc0ODBjYTgxMjA3ODRlMTE3NWM2ZQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119800003
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_7_支线_声骸支线",
+        "FlowId": 3,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000018
   },
   {
     "ActionGuid": "6efd77d2e6dc4f83991120163e65c7c5",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA1MYtAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzExOTgwMDAxNl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzdf5pSv57q/X+WjsOmquOaUr+e6vyIsIkZsb3dJZCI6MywiU3RhdGVJZCI6Mn19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA2ZWZkNzdkMmU2ZGM0ZjgzOTkxMTIwMTYzZTY1YzdjNQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119800016
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_7_支线_声骸支线",
+        "FlowId": 3,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000020
   },
   {
     "ActionGuid": "7cb19b811432480da4d1faa80fba06c4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA18YtAAwAAAC4AAAAyAAAAKsAAAB7IkVudGl0eUlkcyI6Wzg4Njc1MDAxMiw4ODY3NTAwMTFdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6NTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzZf54uE5pav5Y+w5Zyw5Li757q/X+S4i+WNiiIsIkZsb3dJZCI6MiwiU3RhdGVJZCI6OH0sIldhaXRUaW1lIjozMH0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAN2NiMTliODExNDMyNDgwZGE0ZDFmYWE4MGZiYTA2YzQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        886750012,
+        886750011
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_下半",
+        "FlowId": 2,
+        "StateId": 8
+      },
+      "WaitTime": 30
+    },
+    "ActionId": 3000023
   },
   {
     "ActionGuid": "db5433b65e524eea89a87fac4033c75a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwsYtAAwAAACwAAAAwAAAAKEAAAB7IkVudGl0eUlkcyI6WzE2NTg1MDAwNF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzhf5pSv57q/X+WOhueoi+iusOW/huaJi+WGjF/mtarmsqvkvZnpn7MiLCJGbG93SWQiOjEsIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGRiNTQzM2I2NWU1MjRlZWE4OWE4N2ZhYzQwMzNjNzVhAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165850004
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_8_支线_历程记忆手册_浪沫余音",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000002
   },
   {
     "ActionGuid": "b79a4a8a81c74816acfd0a2d2293203e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxsYtAAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzE3Mzc1MDA1N10sIkVudGVyUmFkaXVzIjo3NTAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzZf54uE5pav5Y+w5Zyw5Li757q/X+S4iuWNil8xIiwiRmxvd0lkIjo0LCJTdGF0ZUlkIjoxfX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGI3OWE0YThhODFjNzQ4MTZhY2ZkMGEyZDIyOTMyMDNlAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        173750057
+      ],
+      "EnterRadius": 750,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_6_狄斯台地主线_上半_1",
+        "FlowId": 4,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000006
   },
   {
     "ActionGuid": "19f2d4591aa94a03a2745febaa1ec6b1",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAbsctAAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzE3Mzc1MDI2OV0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MzAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf5Li757q/55Sf5oCBbnBj5a+56K+d77yI5LiK77yJIiwiRmxvd0lkIjoyLCJTdGF0ZUlkIjo2fX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADE5ZjJkNDU5MWFhOTRhMDNhMjc0NWZlYmFhMWVjNmIxAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        173750269
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_主线生态npc对话（上）",
+        "FlowId": 2,
+        "StateId": 6
+      }
+    },
+    "ActionId": 3000174
   },
   {
     "ActionGuid": "5834946ea5ee4b329823ca9fe06b2647",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAh8ctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE3Mzc1MDI2OV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANTgzNDk0NmVhNWVlNGIzMjk4MjNjYTlmZTA2YjI2NDcAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        173750269
+      ]
+    },
+    "ActionId": 3000199
   },
   {
     "ActionGuid": "2e2eca241cbc47d19dfb2af7adb32c36",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzcYtAAwAAAC0AAAAxAAAAKUAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDE4NSwxNjkwMDAxODldLCJFbnRlclJhZGl1cyI6MTIwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzNfMF/kuIDnuqdQT0lf5aSp5paH5Y+w5Li757q/5Lu75YqhIiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoyfX0AAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAyZTJlY2EyNDFjYmM0N2QxOWRmYjJhZjdhZGIzMmMzNgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000185,
+        169000189
+      ],
+      "EnterRadius": 1200,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 3,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000013
   },
   {
     "ActionGuid": "39f660d47c0a4cd29d72d9beaeecdb6f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAz8YtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDE4NV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMzlmNjYwZDQ3YzBhNGNkMjlkNzJkOWJlYWVlY2RiNmYAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000185
+      ]
+    },
+    "ActionId": 3000015
   },
   {
     "ActionGuid": "3e9a7ddb678f4495821bc785fd44d1bc",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA2sYtAAwAAAC0AAAAxAAAAKQAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDE5OCwxNjkwMDAxOTldLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/lpKnmloflj7DkuLvnur/ku7vliqEiLCJGbG93SWQiOjUsIlN0YXRlSWQiOjJ9fQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAzZTlhN2RkYjY3OGY0NDk1ODIxYmM3ODVmZDQ0ZDFiYwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000198,
+        169000199
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 5,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000026
   },
   {
     "ActionGuid": "9e973cc1a2e3492b861c20ca6d79e953",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0MYtAAwAAACoAAAAuAAAAJsAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDE4OF0sIkVudGVyUmFkaXVzIjoxMjAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/lpKnmloflj7DkuLvnur/ku7vliqEiLCJGbG93SWQiOjMsIlN0YXRlSWQiOjR9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA5ZTk3M2NjMWEyZTM0OTJiODYxYzIwY2E2ZDc5ZTk1MwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000188
+      ],
+      "EnterRadius": 1200,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 3,
+        "StateId": 4
+      }
+    },
+    "ActionId": 3000016
   },
   {
     "ActionGuid": "ffd5d644263341609be3de8c533a0d77",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0cYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDE4OF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZmZkNWQ2NDQyNjMzNDE2MDliZTNkZThjNTMzYTBkNzcAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000188
+      ]
+    },
+    "ActionId": 3000017
   },
   {
     "ActionGuid": "adfb13ba888d49fb86ae5ae17acb4a5d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA3cYtAAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzE2NTg1MDAzMiwxNjU4NTAwMzNdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4Vf56mX5rOi5biC5ZKM6buR5rW35bK4576k5bKbIiwiRmxvd0lkIjozLCJTdGF0ZUlkIjo1fX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYWRmYjEzYmE4ODhkNDlmYjg2YWU1YWUxN2FjYjRhNWQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165850032,
+        165850033
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_穗波市和黑海岸群岛",
+        "FlowId": 3,
+        "StateId": 5
+      }
+    },
+    "ActionId": 3000029
   },
   {
     "ActionGuid": "1ed9838c1d3b4c40b61b5d1221f5329f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwsYtAAwAAACcAAAArAAAAI4AAAB7IkVudGl0eUlkcyI6WzY5MjcwMDIxN10sIkVudGVyUmFkaXVzIjo4MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zXzBfUE9JX+aRqeaJmOaooeaLn+i1myIsIkZsb3dJZCI6MiwiU3RhdGVJZCI6Mn19AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAxZWQ5ODM4YzFkM2I0YzQwYjYxYjVkMTIyMWY1MzI5ZgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        692700217
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_POI_摩托模拟赛",
+        "FlowId": 2,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000002
   },
   {
     "ActionGuid": "b28d40ad23104ce9a8b8617d70c6a80f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAycYtAAwAAACYAAAAqAAAAIoAAAB7IkVudGl0eUlkcyI6WzE5MjcwMDAwM10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV9WMy4wQlZC5byV5a+85Lu75YqhIiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjoxfX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGIyOGQ0MGFkMjMxMDRjZTlhOGI4NjE3ZDcwYzZhODBmAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        192700003
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_V3.0BVB引导任务",
+        "FlowId": 1,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000009
   },
   {
     "ActionGuid": "5edf59f79e6245379fa73c81724f62fc",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAAwk9AAwAAAC4AAAAyAAAAKgAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDA4MSwxODE3MDAwODBdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5pif54Ks5a2m6Zmi5pWZ5a2m5Yy6IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxOX0sIldhaXRUaW1lIjo2MH0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANWVkZjU5Zjc5ZTYyNDUzNzlmYTczYzgxNzI0ZjYyZmMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700081,
+        181700080
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0星炬学院教学区",
+        "FlowId": 3,
+        "StateId": 19
+      },
+      "WaitTime": 60
+    },
+    "ActionId": 4000003
   },
   {
     "ActionGuid": "9a1ff655a2994c1b8abb66fb2b6bcc8e",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwcYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE2NTg1MDAzMiwxNjU4NTAwMzNdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA5YTFmZjY1NWEyOTk0YzFiOGFiYjY2ZmIyYjZiY2M4ZQAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165850032,
+        165850033
+      ]
+    },
+    "ActionId": 3000001
   },
   {
     "ActionGuid": "13b68d6f57874ea5a9a19904cf0a7cc7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAGAk9AAwAAAC4AAAAyAAAAKgAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDEwMCwxODE3MDAxMDFdLCJFbnRlclJhZGl1cyI6MTAwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzMuMOaYn+eCrOWtpumZouaVmeWtpuWMuiIsIkZsb3dJZCI6MSwiU3RhdGVJZCI6OX0sIldhaXRUaW1lIjo2MH0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMTNiNjhkNmY1Nzg3NGVhNWE5YTE5OTA0Y2YwYTdjYzcAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700100,
+        181700101
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0星炬学院教学区",
+        "FlowId": 1,
+        "StateId": 9
+      },
+      "WaitTime": 60
+    },
+    "ActionId": 4000024
   },
   {
     "ActionGuid": "f9378591dfbe49478655f241d44e1d5d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAEwk9AAwAAACsAAAAvAAAAJ4AAAB7IkVudGl0eUlkcyI6WzE4MTcwMDA5OV0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5pif54Ks5a2m6Zmi5pWZ5a2m5Yy6IiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjo0fSwiV2FpdFRpbWUiOjYwfQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZjkzNzg1OTFkZmJlNDk0Nzg2NTVmMjQxZDQ0ZTFkNWQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700099
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0星炬学院教学区",
+        "FlowId": 1,
+        "StateId": 4
+      },
+      "WaitTime": 60
+    },
+    "ActionId": 4000019
   },
   {
     "ActionGuid": "2d7bf819a00b484b9d0c0a4760c891a3",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAQAk9AAwAAACwAAAAwAAAAKEAAAB7IkVudGl0eUlkcyI6WzE2NTg1MDAxOF0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzhf5pSv57q/X+WOhueoi+iusOW/huaJi+WGjF/mtarmsqvkvZnpn7MiLCJGbG93SWQiOjIsIlN0YXRlSWQiOjl9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADJkN2JmODE5YTAwYjQ4NGI5ZDBjMGE0NzYwYzg5MWEzAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165850018
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_8_支线_历程记忆手册_浪沫余音",
+        "FlowId": 2,
+        "StateId": 9
+      }
+    },
+    "ActionId": 4000064
   },
   {
     "ActionGuid": "59a4ca40fb484f2b92f77b6a1ba4ff5d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAMgk9AAwAAACoAAAAuAAAAJgAAAB7IkVudGl0eUlkcyI6W10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzhf5pSv57q/X+WOhueoi+iusOW/huaJi+WGjF/mtarmsqvkvZnpn7MiLCJGbG93SWQiOjIsIlN0YXRlSWQiOjR9fQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA1OWE0Y2E0MGZiNDg0ZjJiOTJmNzdiNmExYmE0ZmY1ZAAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_8_支线_历程记忆手册_浪沫余音",
+        "FlowId": 2,
+        "StateId": 4
+      }
+    },
+    "ActionId": 4000050
   },
   {
     "ActionGuid": "0b74b120b9f34a95a4b61ba54e935f45",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0MYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE5MjcwMDAxMywxOTI3MDAwMTJdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAAwYjc0YjEyMGI5ZjM0YTk1YTRiNjFiYTU0ZTkzNWY0NQAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        192700013,
+        192700012
+      ]
+    },
+    "ActionId": 3000016
   },
   {
     "ActionGuid": "9ec85c4ccc7f45c8a7708c8569b16869",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxcYtAAwAAACYAAAAqAAAAIsAAAB7IkVudGl0eUlkcyI6WzE5MjcwMDAwNl0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV9WMy4wQlZC5byV5a+85Lu75YqhIiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjoxMH19AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADllYzg1YzRjY2M3ZjQ1YzhhNzcwOGM4NTY5YjE2ODY5AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        192700006
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_V3.0BVB引导任务",
+        "FlowId": 1,
+        "StateId": 10
+      }
+    },
+    "ActionId": 3000005
   },
   {
     "ActionGuid": "a9e6eacf4e1f4c5fa4ac1881f85ad891",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxsYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE5MjcwMDAwNl19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAYTllNmVhY2Y0ZTFmNGM1ZmE0YWMxODgxZjg1YWQ4OTEAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        192700006
+      ]
+    },
+    "ActionId": 3000006
   },
   {
     "ActionGuid": "ba120bbf68d342c39f6f90e8991ba006",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwsYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE5MjcwMDAwNV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAYmExMjBiYmY2OGQzNDJjMzlmNmY5MGU4OTkxYmEwMDYAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        192700005
+      ]
+    },
+    "ActionId": 3000002
   },
   {
     "ActionGuid": "c24784dce49e46f190063adc02fe6eb4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwcYtAAwAAACYAAAAqAAAAIoAAAB7IkVudGl0eUlkcyI6WzE5MjcwMDAwNV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV9WMy4wQlZC5byV5a+85Lu75YqhIiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjo3fX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGMyNDc4NGRjZTQ5ZTQ2ZjE5MDA2M2FkYzAyZmU2ZWI0AAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        192700005
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_V3.0BVB引导任务",
+        "FlowId": 1,
+        "StateId": 7
+      }
+    },
+    "ActionId": 3000001
   },
   {
     "ActionGuid": "8c59da6c24d24091a44b8133cf03204c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA7sYtAAwAAAA8AAAATAAAAC0AAAB7IkVudGl0eUlkcyI6WzE2OTAwMDIzNiwxNzY3MDAwNDcsMTc2NzAwMDQ4XX0AAAAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA4YzU5ZGE2YzI0ZDI0MDkxYTQ0YjgxMzNjZjAzMjA0YwAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000236,
+        176700047,
+        176700048
+      ]
+    },
+    "ActionId": 3000046
   },
   {
     "ActionGuid": "920ce923d9a8424c8880f0ff43ddd19d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAHcctAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE3NjcwMDAwMywxNzY3MDAwMDJdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA5MjBjZTkyM2Q5YTg0MjRjODg4MGYwZmY0M2RkZDE5ZAAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        176700003,
+        176700002
+      ]
+    },
+    "ActionId": 3000093
   },
   {
     "ActionGuid": "3d8ced716a4b46c18918e55557fbdf03",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzMYtAAwAAADEAAAA1AAAALcAAAB7IkVudGl0eUlkcyI6WzE2NTAwMDE0NCwxNjUwMDAxMzhdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMi446buR5rW35bK45a+5MS4z55Sf5oCB55qE5pu05pawX+WGkuazoSIsIkZsb3dJZCI6MSwiU3RhdGVJZCI6OX0sIldhaXRUaW1lIjoyMH0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAM2Q4Y2VkNzE2YTRiNDZjMTg5MThlNTU1NTdmYmRmMDMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165000144,
+        165000138
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2.8黑海岸对1.3生态的更新_冒泡",
+        "FlowId": 1,
+        "StateId": 9
+      },
+      "WaitTime": 20
+    },
+    "ActionId": 3000012
   },
   {
     "ActionGuid": "45f382e6673b40678234f0a3cbc1c4ba",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA5MYtAAwAAAC4AAAAyAAAAKkAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDIzNl0sIkVudGVyUmFkaXVzIjo1MDAwLCJMZWF2ZVJhZGl1cyI6MTUwMDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzNfMF/kuIDnuqdQT0lf5aSp5paH5Y+w5Li757q/5Lu75YqhIiwiRmxvd0lkIjo3LCJTdGF0ZUlkIjo2fSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANDVmMzgyZTY2NzNiNDA2NzgyMzRmMGEzY2JjMWM0YmEAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000236
+      ],
+      "EnterRadius": 5000,
+      "LeaveRadius": 15000,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 7,
+        "StateId": 6
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 3000036
   },
   {
     "ActionGuid": "b680e97324d44d599067381865389074",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAJsctAAwAAADEAAAA1AAAALcAAAB7IkVudGl0eUlkcyI6WzE3NjcwMDA0OCwxNzY3MDAwNDddLCJFbnRlclJhZGl1cyI6MTUwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzNfMF/kuIDnuqdQT0lf5aSp5paH5Y+w5Li757q/5Lu75YqhIiwiRmxvd0lkIjoxMSwiU3RhdGVJZCI6Mn0sIldhaXRUaW1lIjoxMDAwMH0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYjY4MGU5NzMyNGQ0NGQ1OTkwNjczODE4NjUzODkwNzQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        176700048,
+        176700047
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 11,
+        "StateId": 2
+      },
+      "WaitTime": 10000
+    },
+    "ActionId": 3000102
   },
   {
     "ActionGuid": "183d9f40996641e6a8e40d40b34b5fbd",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAw8YtAAwAAAC8AAAAzAAAAK4AAAB7IkVudGl0eUlkcyI6WzE2NTg1MDAwNV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjo1MTAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzJfOF/mlK/nur9f5Y6G56iL6K6w5b+G5omL5YaMX+a1quayq+S9memfsyIsIkZsb3dJZCI6MSwiU3RhdGVJZCI6NH0sIldhaXRUaW1lIjoxMH0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADE4M2Q5ZjQwOTk2NjQxZTZhOGU0MGQ0MGIzNGI1ZmJkAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165850005
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 510,
+      "Flow": {
+        "FlowListName": "剧情_2_8_支线_历程记忆手册_浪沫余音",
+        "FlowId": 1,
+        "StateId": 4
+      },
+      "WaitTime": 10
+    },
+    "ActionId": 3000003
   },
   {
     "ActionGuid": "34fb827f8cdd40a78f12150f01eff79b",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAALQk9AAwAAACwAAAAwAAAAKEAAAB7IkVudGl0eUlkcyI6WzE2NTg1MDAwOV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8yXzhf5pSv57q/X+WOhueoi+iusOW/huaJi+WGjF/mtarmsqvkvZnpn7MiLCJGbG93SWQiOjIsIlN0YXRlSWQiOjR9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADM0ZmI4MjdmOGNkZDQwYTc4ZjEyMTUwZjAxZWZmNzliAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165850009
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_8_支线_历程记忆手册_浪沫余音",
+        "FlowId": 2,
+        "StateId": 4
+      }
+    },
+    "ActionId": 4000045
   },
   {
     "ActionGuid": "ac6e38420ccf4f41a21391ef3dbd90fc",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzMYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2NTg1MDAwNV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAYWM2ZTM4NDIwY2NmNGY0MWEyMTM5MWVmM2RiZDkwZmMAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165850005
+      ]
+    },
+    "ActionId": 3000012
   },
   {
     "ActionGuid": "186d1748a4c0401389d9254a9c351ab4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAWgk9AAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE2NTAwMDAwNSwxNjU4NTAwMDhdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAAxODZkMTc0OGE0YzA0MDEzODlkOTI1NGE5YzM1MWFiNAAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165000005,
+        165850008
+      ]
+    },
+    "ActionId": 4000090
   },
   {
     "ActionGuid": "87aa7f4c47c3432bbac29078036b7baf",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAkQk9AAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzE2NTAwMDA1OSwxNjUwMDAwMThdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl84X+S4i+WNil/nqZfms6LluIIiLCJGbG93SWQiOjQsIlN0YXRlSWQiOjE0fX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADg3YWE3ZjRjNDdjMzQzMmJiYWMyOTA3ODAzNmI3YmFmAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165000059,
+        165000018
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_8_下半_穗波市",
+        "FlowId": 4,
+        "StateId": 14
+      }
+    },
+    "ActionId": 4000145
   },
   {
     "ActionGuid": "8e50a1966bbe4ee4bebf0a0f8d1135de",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAUwk9AAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzE2NTAwMDAwNSwxNjU4NTAwMDhdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl84X+S4i+WNil/nqZfms6LluIIiLCJGbG93SWQiOjMsIlN0YXRlSWQiOjIxfX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADhlNTBhMTk2NmJiZTRlZTRiZWJmMGEwZjhkMTEzNWRlAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165000005,
+        165850008
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_8_下半_穗波市",
+        "FlowId": 3,
+        "StateId": 21
+      }
+    },
+    "ActionId": 4000083
   },
   {
     "ActionGuid": "a901a87a049e4e5986b45ac365652bcd",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAVAk9AAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE2NTAwMDAwNSwxNjU4NTAwMDhdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABhOTAxYTg3YTA0OWU0ZTU5ODZiNDVhYzM2NTY1MmJjZAAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165000005,
+        165850008
+      ]
+    },
+    "ActionId": 4000084
   },
   {
     "ActionGuid": "c79d1ea8c6324d5d86628482b9a1cc13",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAVwk9AAwAAACkAAAAtAAAAJYAAAB7IkVudGl0eUlkcyI6WzE2NTAwMDAwNSwxNjU4NTAwMDhdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMl84X+S4i+WNil/nqZfms6LluIIiLCJGbG93SWQiOjMsIlN0YXRlSWQiOjI1fX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGM3OWQxZWE4YzYzMjRkNWQ4NjYyODQ4MmI5YTFjYzEzAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        165000005,
+        165850008
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_2_8_下半_穗波市",
+        "FlowId": 3,
+        "StateId": 25
+      }
+    },
+    "ActionId": 4000087
   },
   {
     "ActionGuid": "ff593741eace4e59898c2df18d5d2bbd",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAJgk9AAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDA0MywxODE3MDAwNDRdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABmZjU5Mzc0MWVhY2U0ZTU5ODk4YzJkZjE4ZDVkMmJiZAAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700043,
+        181700044
+      ]
+    },
+    "ActionId": 4000038
   },
   {
     "ActionGuid": "a41f9a5a4acf458b8e69d0574263dd25",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAMwk9AAwAAAC4AAAAyAAAAKsAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDM3MiwxODE3MDAzNzNdLCJFbnRlclJhZGl1cyI6ODAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5ouJ5rW35rSbX+Wlvea1geawkeiQpeWcsCIsIkZsb3dJZCI6NywiU3RhdGVJZCI6MX0sIldhaXRUaW1lIjozMH0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYTQxZjlhNWE0YWNmNDU4YjhlNjlkMDU3NDI2M2RkMjUAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700372,
+        181700373
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0拉海洛_好流民营地",
+        "FlowId": 7,
+        "StateId": 1
+      },
+      "WaitTime": 30
+    },
+    "ActionId": 4000051
   },
   {
     "ActionGuid": "931ce837db794df5862478e8493fdaad",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAQQk9AAwAAAC4AAAAyAAAAKsAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDQyOCwxODE3MDA0MjldLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5ouJ5rW35rSbX+Wdj+a1geawkeiQpeWcsCIsIkZsb3dJZCI6MywiU3RhdGVJZCI6MX0sIldhaXRUaW1lIjoyMH0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAOTMxY2U4MzdkYjc5NGRmNTg2MjQ3OGU4NDkzZmRhYWQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700428,
+        181700429
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0拉海洛_坏流民营地",
+        "FlowId": 3,
+        "StateId": 1
+      },
+      "WaitTime": 20
+    },
+    "ActionId": 4000065
   },
   {
     "ActionGuid": "cb72688f8ef747ad83c34264e6bc7f22",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAOMctAAwAAACkAAAAtAAAAJUAAAB7IkVudGl0eUlkcyI6W10sIkVudGVyUmFkaXVzIjoyMDAwLCJMZWF2ZVJhZGl1cyI6MzAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/ln7rlu7rmlrDmiYvlvJXlr7zku7vliqEiLCJGbG93SWQiOjksIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGNiNzI2ODhmOGVmNzQ3YWQ4M2MzNDI2NGU2YmM3ZjIyAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [],
+      "EnterRadius": 2000,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_基建新手引导任务",
+        "FlowId": 9,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000120
   },
   {
     "ActionGuid": "fca3c6b51a1e405cbfc423287ef4c461",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAOcctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2OTcwMDE3M119AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZmNhM2M2YjUxYTFlNDA1Y2JmYzQyMzI4N2VmNGM0NjEAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169700173
+      ]
+    },
+    "ActionId": 3000121
   },
   {
     "ActionGuid": "822185c25ea64827a7fbb8714c9331da",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAw8YtAAwAAACwAAAAwAAAAKIAAAB7IkVudGl0eUlkcyI6WzE2MDcwMDA2NF0sIkVudGVyUmFkaXVzIjoxMDAwMCwiTGVhdmVSYWRpdXMiOjEyMDAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zXzBf5LqM57qnUE9JX+mjnumxvOS7u+WKoSIsIkZsb3dJZCI6MTMsIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6NX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADgyMjE4NWMyNWVhNjQ4MjdhN2ZiYjg3MTRjOTMzMWRhAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160700064
+      ],
+      "EnterRadius": 10000,
+      "LeaveRadius": 12000,
+      "Flow": {
+        "FlowListName": "剧情_3_0_二级POI_飞鱼任务",
+        "FlowId": 13,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 3000003
   },
   {
     "ActionGuid": "9e28a030a06c492586703c9027fad2b8",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA2cYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2MDcwMDA3N119AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAOWUyOGEwMzBhMDZjNDkyNTg2NzAzYzkwMjdmYWQyYjgAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160700077
+      ]
+    },
+    "ActionId": 3000025
   },
   {
     "ActionGuid": "af47d4fe0b994898b4015e891339cf51",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAysYtAAwAAACsAAAAvAAAAJ8AAAB7IkVudGl0eUlkcyI6WzE2MDcwMDAwNl0sIkVudGVyUmFkaXVzIjoyMDAwLCJMZWF2ZVJhZGl1cyI6MjIwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S6jOe6p1BPSV/po57psbzku7vliqEiLCJGbG93SWQiOjksIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6NX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYWY0N2Q0ZmUwYjk5NDg5OGI0MDE1ZTg5MTMzOWNmNTEAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160700006
+      ],
+      "EnterRadius": 2000,
+      "LeaveRadius": 2200,
+      "Flow": {
+        "FlowListName": "剧情_3_0_二级POI_飞鱼任务",
+        "FlowId": 9,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 3000010
   },
   {
     "ActionGuid": "b416435549c043c69500f2850b7b8e03",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAz8YtAAwAAACwAAAAwAAAAKIAAAB7IkVudGl0eUlkcyI6WzY4NjcwMDAzMV0sIkVudGVyUmFkaXVzIjoxMDAwMCwiTGVhdmVSYWRpdXMiOjEyMDAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zXzBf5LqM57qnUE9JX+mjnumxvOS7u+WKoSIsIkZsb3dJZCI6MTYsIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6NX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGI0MTY0MzU1NDljMDQzYzY5NTAwZjI4NTBiN2I4ZTAzAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        686700031
+      ],
+      "EnterRadius": 10000,
+      "LeaveRadius": 12000,
+      "Flow": {
+        "FlowListName": "剧情_3_0_二级POI_飞鱼任务",
+        "FlowId": 16,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 3000015
   },
   {
     "ActionGuid": "b794c2cc7c814772b575379e97c237cd",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxMYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2MDcwMDA2NF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAYjc5NGMyY2M3YzgxNDc3MmI1NzUzNzllOTdjMjM3Y2QAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160700064
+      ]
+    },
+    "ActionId": 3000004
   },
   {
     "ActionGuid": "bf87c52f8c6d4658925ecb929eeabf2d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA18YtAAwAAACwAAAAwAAAAKIAAAB7IkVudGl0eUlkcyI6WzE2MDcwMDA3N10sIkVudGVyUmFkaXVzIjoxMDAwMCwiTGVhdmVSYWRpdXMiOjEyMDAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zXzBf5LqM57qnUE9JX+mjnumxvOS7u+WKoSIsIkZsb3dJZCI6MTksIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6NX0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGJmODdjNTJmOGM2ZDQ2NTg5MjVlY2I5MjllZWFiZjJkAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160700077
+      ],
+      "EnterRadius": 10000,
+      "LeaveRadius": 12000,
+      "Flow": {
+        "FlowListName": "剧情_3_0_二级POI_飞鱼任务",
+        "FlowId": 19,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 3000023
   },
   {
     "ActionGuid": "e443be119e0842469574654a0167d730",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0MYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzY4NjcwMDAzMV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZTQ0M2JlMTE5ZTA4NDI0Njk1NzQ2NTRhMDE2N2Q3MzAAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        686700031
+      ]
+    },
+    "ActionId": 3000016
   },
   {
     "ActionGuid": "ea1056c811404d16bba9d754c0b9053c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzcYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2MDcwMDAwNl19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZWExMDU2YzgxMTQwNGQxNmJiYTlkNzU0YzBiOTA1M2MAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        160700006
+      ]
+    },
+    "ActionId": 3000013
   },
   {
     "ActionGuid": "387ef0bbcce24be28d5afa5992e9a54a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAQwk9AAwAAAC4AAAAyAAAAKsAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDY0NiwxODk3MDAwNzNdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5ouJ5rW35rSbX+Wdj+a1geawkeiQpeWcsCIsIkZsb3dJZCI6MywiU3RhdGVJZCI6MX0sIldhaXRUaW1lIjoyMH0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMzg3ZWYwYmJjY2UyNGJlMjhkNWFmYTU5OTJlOWE1NGEAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700646,
+        189700073
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0拉海洛_坏流民营地",
+        "FlowId": 3,
+        "StateId": 1
+      },
+      "WaitTime": 20
+    },
+    "ActionId": 4000067
   },
   {
     "ActionGuid": "117a54eeff11433c8c6f3ba48ac91322",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA/cYtAAwAAAC0AAAAxAAAAKQAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDI0MSwxNjkwMDAyMzldLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/lpKnmloflj7DkuLvnur/ku7vliqEiLCJGbG93SWQiOjgsIlN0YXRlSWQiOjF9fQAAAAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAAxMTdhNTRlZWZmMTE0MzNjOGM2ZjNiYTQ4YWM5MTMyMgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000241,
+        169000239
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 8,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000061
   },
   {
     "ActionGuid": "e6161f1c8308470da88145b769f55b66",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAE8ctAAwAAACoAAAAuAAAAJoAAAB7IkVudGl0eUlkcyI6WzE3NjcwMDA2MV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zXzBf5LiA57qnUE9JX+WkqeaWh+WPsOS4u+e6v+S7u+WKoSIsIkZsb3dJZCI6OCwiU3RhdGVJZCI6M319AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABlNjE2MWYxYzgzMDg0NzBkYTg4MTQ1Yjc2OWY1NWI2NgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        176700061
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 8,
+        "StateId": 3
+      }
+    },
+    "ActionId": 3000083
   },
   {
     "ActionGuid": "99d410a65a734f1c8775e9ea4efabe6f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAKMctAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDE4MV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAOTlkNDEwYTY1YTczNGYxYzg3NzVlOWVhNGVmYWJlNmYAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000181
+      ]
+    },
+    "ActionId": 3000104
   },
   {
     "ActionGuid": "f5005fea7fa9496ebd753bac66846d90",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAycYtAAwAAADAAAAA0AAAALMAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDE4MSwxNzY3MDAwMDddLCJFbnRlclJhZGl1cyI6MTIwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzNfMF/kuIDnuqdQT0lf5aSp5paH5Y+w5Li757q/5Lu75YqhIiwiRmxvd0lkIjoxLCJTdGF0ZUlkIjo1fSwiV2FpdFRpbWUiOjE1fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABmNTAwNWZlYTdmYTk0OTZlYmQ3NTNiYWM2Njg0NmQ5MAAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000181,
+        176700007
+      ],
+      "EnterRadius": 1200,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 1,
+        "StateId": 5
+      },
+      "WaitTime": 15
+    },
+    "ActionId": 3000009
   },
   {
     "ActionGuid": "bdd4166f086b4e1fb59d5f636ff12e73",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAApwk9AAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzE1NzcwMDU2MV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zXzBf5LiA57qnUE9JX+a1ruWFieaelyIsIkZsb3dJZCI6MTQsIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6NH0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYmRkNDE2NmYwODZiNGUxZmI1OWQ1ZjYzNmZmMTJlNzMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700561
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 4
+    },
+    "ActionId": 4000167
   },
   {
     "ActionGuid": "f12987908dc049af9c2a2de7e4a71436",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAtgk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDU2OF0sIkVudGVyUmFkaXVzIjo0MDAwLCJMZWF2ZVJhZGl1cyI6NDAwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjEyLCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjR9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZjEyOTg3OTA4ZGMwNDlhZjljMmEyZGU3ZTRhNzE0MzYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700568
+      ],
+      "EnterRadius": 4000,
+      "LeaveRadius": 4000,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 12,
+        "StateId": 1
+      },
+      "WaitTime": 4
+    },
+    "ActionId": 4000182
   },
   {
     "ActionGuid": "db322e9c04c6413fb2d652c773b38380",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAALwk9AAwAAACQAAAAoAAAAIMAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDA4Ml0sIkVudGVyUmFkaXVzIjo3MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zLjDmmJ/ngqzlrabpmaLmlZnlrabljLoiLCJGbG93SWQiOjR9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABkYjMyMmU5YzA0YzY0MTNmYjJkNjUyYzc3M2IzODM4MAAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700082
+      ],
+      "EnterRadius": 700,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0星炬学院教学区",
+        "FlowId": 4
+      }
+    },
+    "ActionId": 4000047
   },
   {
     "ActionGuid": "78608c4092c64a5ca619926ceb82d977",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA6MYtAAwAAADAAAAA0AAAALMAAAB7IkVudGl0eUlkcyI6WzkxNTcwMDA5Niw5MTU3MDAwOThdLCJFbnRlclJhZGl1cyI6ODAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4u+e6v1/mi4nmtbfmtJvkuLvnur9f5LiK5Y2KXzEiLCJGbG93SWQiOjEyLCJTdGF0ZUlkIjoyfSwiV2FpdFRpbWUiOjEwfQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA3ODYwOGM0MDkyYzY0YTVjYTYxOTkyNmNlYjgyZDk3NwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915700096,
+        915700098
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_主线_拉海洛主线_上半_1",
+        "FlowId": 12,
+        "StateId": 2
+      },
+      "WaitTime": 10
+    },
+    "ActionId": 3000040
   },
   {
     "ActionGuid": "fa827ba6adef4042a22f2b2c0a8c062b",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAycYtAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzkxNTcwMDA5OCw5MTU3MDAwOTZdfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABmYTgyN2JhNmFkZWY0MDQyYTIyZjJiMmMwYThjMDYyYgAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        915700098,
+        915700096
+      ]
+    },
+    "ActionId": 3000009
   },
   {
     "ActionGuid": "de721461bc5944a38b6e1742571e0157",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA8MYtAAwAAADAAAAA0AAAALMAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDI0MSwxNjkwMDAyMzldLCJFbnRlclJhZGl1cyI6NTAwMCwiTGVhdmVSYWRpdXMiOjE1MDAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zXzBf5LiA57qnUE9JX+WkqeaWh+WPsOS4u+e6v+S7u+WKoSIsIkZsb3dJZCI6NywiU3RhdGVJZCI6OX0sIldhaXRUaW1lIjoxfQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABkZTcyMTQ2MWJjNTk0NGEzOGI2ZTE3NDI1NzFlMDE1NwAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000241,
+        169000239
+      ],
+      "EnterRadius": 5000,
+      "LeaveRadius": 15000,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 7,
+        "StateId": 9
+      },
+      "WaitTime": 1
+    },
+    "ActionId": 3000048
   },
   {
     "ActionGuid": "90bc9dbbe23745dca6e1757b43597e36",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwsYtAAwAAACcAAAArAAAAI8AAAB7IkVudGl0eUlkcyI6WzE5NzcwMDAxNV0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5ouJ5rW35rSbX+WGnOWtpumDqCIsIkZsb3dJZCI6MTMsIlN0YXRlSWQiOjF9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAAA5MGJjOWRiYmUyMzc0NWRjYTZlMTc1N2I0MzU5N2UzNgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        197700015
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0拉海洛_农学部",
+        "FlowId": 13,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000002
   },
   {
     "ActionGuid": "ff370fae8f804d7eb2bde2d0aebe9b51",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxMYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE5NzcwMDAxNV19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZmYzNzBmYWU4ZjgwNGQ3ZWIyYmRlMmQwYWViZTliNTEAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        197700015
+      ]
+    },
+    "ActionId": 3000004
   },
   {
     "ActionGuid": "0d5df2719a6f47c19edbb73d833e1bc7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAkAk9AAwAAACUAAAApAAAAIQAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDczMF0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5pif54Ks5a2m6Zmi5pWZ5a2m5Yy6IiwiRmxvd0lkIjo1fX0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMGQ1ZGYyNzE5YTZmNDdjMTllZGJiNzNkODMzZTFiYzcAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700730
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0星炬学院教学区",
+        "FlowId": 5
+      }
+    },
+    "ActionId": 4000144
   },
   {
     "ActionGuid": "2bc223a6e2e24a88869faac6804ef87a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAdAk9AAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDczM119AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAMmJjMjIzYTZlMmUyNGE4ODg2OWZhYWM2ODA0ZWY4N2EAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700733
+      ]
+    },
+    "ActionId": 4000116
   },
   {
     "ActionGuid": "82f6efbcf258455894210687c0fd79bd",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAATwk9AAwAAAC8AAAAzAAAAK4AAAB7IkVudGl0eUlkcyI6WzE4MTcwMDczM10sIkVudGVyUmFkaXVzIjo4MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zLjDmi4nmtbfmtJtf5a2m6Zmi6YCa55So5a+56K+d5ZKM5YaS5rOhMSIsIkZsb3dJZCI6NSwiU3RhdGVJZCI6NX0sIldhaXRUaW1lIjo2MH0AAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADgyZjZlZmJjZjI1ODQ1NTg5NDIxMDY4N2MwZmQ3OWJkAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700733
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0拉海洛_学院通用对话和冒泡1",
+        "FlowId": 5,
+        "StateId": 5
+      },
+      "WaitTime": 60
+    },
+    "ActionId": 4000079
   },
   {
     "ActionGuid": "852b3b559bed4f8c9309ec08f3010cb2",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAkgk9AAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDczMF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAODUyYjNiNTU5YmVkNGY4YzkzMDllYzA4ZjMwMTBjYjIAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700730
+      ]
+    },
+    "ActionId": 4000146
   },
   {
     "ActionGuid": "b2a48502a83d482abeca9f8e7eb8f0e2",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAUgk9AAwAAAC0AAAAxAAAAKYAAAB7IkVudGl0eUlkcyI6W10sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5ouJ5rW35rSbX+WtpumZoumAmueUqOWvueivneWSjOWGkuazoTEiLCJGbG93SWQiOjUsIlN0YXRlSWQiOjR9LCJXYWl0VGltZSI6NjB9AAANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABiMmE0ODUwMmE4M2Q0ODJhYmVjYTlmOGU3ZWI4ZjBlMgAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0拉海洛_学院通用对话和冒泡1",
+        "FlowId": 5,
+        "StateId": 4
+      },
+      "WaitTime": 60
+    },
+    "ActionId": 4000082
   },
   {
     "ActionGuid": "c7b93fe7706b493ebc0d0a9668c4a754",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAcgk9AAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDA0Ml19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAYzdiOTNmZTc3MDZiNDkzZWJjMGQwYTk2NjhjNGE3NTQAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700042
+      ]
+    },
+    "ActionId": 4000114
   },
   {
     "ActionGuid": "eeb41537964b4e62ad6923495a71a6b2",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAcwk9AAwAAACIAAAAmAAAAHoAAAB7IkVudGl0eUlkcyI6W10sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zLjDmmJ/ngqzlrabpmaLmlZnlrabljLoiLCJGbG93SWQiOjZ9fQAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZWViNDE1Mzc5NjRiNGU2MmFkNjkyMzQ5NWE3MWE2YjIAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0星炬学院教学区",
+        "FlowId": 6
+      }
+    },
+    "ActionId": 4000115
   },
   {
     "ActionGuid": "f6a66cc235364116944b903ffe6d0f1c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAUQk9AAwAAAC8AAAAzAAAAK8AAAB7IkVudGl0eUlkcyI6WzE4MTcwMDA0Ml0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5ouJ5rW35rSbX+WtpumZoumAmueUqOWvueivneWSjOWGkuazoTEiLCJGbG93SWQiOjUsIlN0YXRlSWQiOjN9LCJXYWl0VGltZSI6NjB9AA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGY2YTY2Y2MyMzUzNjQxMTY5NDRiOTAzZmZlNmQwZjFjAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700042
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0拉海洛_学院通用对话和冒泡1",
+        "FlowId": 5,
+        "StateId": 3
+      },
+      "WaitTime": 60
+    },
+    "ActionId": 4000081
   },
   {
     "ActionGuid": "0178a0ef749c44b783b417a64c9cca66",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAugk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDM3N10sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMDE3OGEwZWY3NDljNDRiNzgzYjQxN2E2NGM5Y2NhNjYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700377
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000186
   },
   {
     "ActionGuid": "0adec39b9f6445b48631516ad19176c2",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAegk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDQwN10sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMGFkZWMzOWI5ZjY0NDViNDg2MzE1MTZhZDE5MTc2YzIAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700407
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000122
   },
   {
     "ActionGuid": "260e078e422b4ded879eb4f985432925",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwgk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDI2MF0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMjYwZTA3OGU0MjJiNGRlZDg3OWViNGY5ODU0MzI5MjUAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700260
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000194
   },
   {
     "ActionGuid": "9eea14343d57473f80f3d793038ac2cb",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAvgk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDQzN10sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAOWVlYTE0MzQzZDU3NDczZjgwZjNkNzkzMDM4YWMyY2IAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700437
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000190
   },
   {
     "ActionGuid": "f7ad5b97a7f94c84a250930b0ee7582f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAdwk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDYzMl0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZjdhZDViOTdhN2Y5NGM4NGEyNTA5MzBiMGVlNzU4MmYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700632
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000119
   },
   {
     "ActionGuid": "54b1ad212b0c4bc5b5266626c2c725d7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAwsYtAAwAAADEAAAA1AAAALUAAAB7IkVudGl0eUlkcyI6WzE1ODcwMDAwMF0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+aLiea1t+a0m+S4u+e6v1/kuIvljYpf54KJ6Iqv6aKG5Li75oiY5paXIiwiRmxvd0lkIjoxNCwiU3RhdGVJZCI6MX0sIldhaXRUaW1lIjoxMjB9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANTRiMWFkMjEyYjBjNGJjNWI1MjY2NjI2YzJjNzI1ZDcAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        158700000
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_拉海洛主线_下半_炉芯领主战斗",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 120
+    },
+    "ActionId": 3000002
   },
   {
     "ActionGuid": "e60000310b744a618ae68ba7255df7b7",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAw8YtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE1ODcwMDAwMF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAZTYwMDAwMzEwYjc0NGE2MThhZTY4YmE3MjU1ZGY3YjcAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        158700000
+      ]
+    },
+    "ActionId": 3000003
   },
   {
     "ActionGuid": "61e9800f52d64f7bb45d4f1d8be1bb7a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAmgk9AAwAAAC4AAAAyAAAAKsAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDM3MywxODE3MDAzNzJdLCJFbnRlclJhZGl1cyI6NjAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5ouJ5rW35rSbX+Wlvea1geawkeiQpeWcsCIsIkZsb3dJZCI6OCwiU3RhdGVJZCI6MX0sIldhaXRUaW1lIjoxNX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANjFlOTgwMGY1MmQ2NGY3YmI0NWQ0ZjFkOGJlMWJiN2EAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700373,
+        181700372
+      ],
+      "EnterRadius": 600,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0拉海洛_好流民营地",
+        "FlowId": 8,
+        "StateId": 1
+      },
+      "WaitTime": 15
+    },
+    "ActionId": 4000154
   },
   {
     "ActionGuid": "564148c9b4834750a7bd1fb2940fc70d",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA0Ak9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDY1Ml0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANTY0MTQ4YzliNDgzNDc1MGE3YmQxZmIyOTQwZmM3MGQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700652
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000208
   },
   {
     "ActionGuid": "6b1ca52087084f79bfa3e94698b6bc8c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzQk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDY0N10sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAANmIxY2E1MjA4NzA4NGY3OWJmYTNlOTQ2OThiNmJjOGMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700647
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000205
   },
   {
     "ActionGuid": "b889ab4d45f54bdcb3b90fcdd8aad064",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAxAk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDYzN10sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYjg4OWFiNGQ0NWY1NGJkY2IzYjkwZmNkZDhhYWQwNjQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700637
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000196
   },
   {
     "ActionGuid": "c30f01ec75ac42abb282bf483c26b943",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAyAk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDY0Ml0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjV9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYzMwZjAxZWM3NWFjNDJhYmIyODJiZjQ4M2MyNmI5NDMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700642
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000200
   },
   {
     "ActionGuid": "944e9652756949b29bce1f03436d2963",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAVcctAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDE5OCwxNjkwMDAxOTldfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAAA5NDRlOTY1Mjc1Njk0OWIyOWJjZTFmMDM0MzZkMjk2MwAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000198,
+        169000199
+      ]
+    },
+    "ActionId": 3000149
   },
   {
     "ActionGuid": "01a0f4ad05044d06b11639ceaecff281",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAa8ctAAwAAABQAAAAYAAAAEEAAAB7IkVudGl0eUlkcyI6WzE1NTcwMDExOSwxNTU3MDAxMTYsMTU1NzAwMTE1LDE1NTcwMDExOCwxNTU3MDAxMTddfQAAAA8AAABDbGVhclBsYXlCdWJibGUAIAAAADAxYTBmNGFkMDUwNDRkMDZiMTE2MzljZWFlY2ZmMjgxAAAAAA=="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        155700119,
+        155700116,
+        155700115,
+        155700118,
+        155700117
+      ]
+    },
+    "ActionId": 3000171
   },
   {
     "ActionGuid": "3b5c2fe7e05a4575a56ec8c860877a96",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAasctAAwAAACsAAAAvAAAAJ8AAAB7IkVudGl0eUlkcyI6WzE1NTcwMDExNSwxNTU3MDAxMTZdLCJFbnRlclJhZGl1cyI6MTAwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzNfMF/mi4nmtbfmtJvkuLvnur9f5LiL5Y2KXzEiLCJGbG93SWQiOjI1LCJTdGF0ZUlkIjoxfX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAM2I1YzJmZTdlMDVhNDU3NWE1NmVjOGM4NjA4NzdhOTYAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        155700115,
+        155700116
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_拉海洛主线_下半_1",
+        "FlowId": 25,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000170
   },
   {
     "ActionGuid": "ca30ba2c417942f48202a2d0cc3e7dd4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAacctAAwAAACsAAAAvAAAAJ8AAAB7IkVudGl0eUlkcyI6WzE1NTcwMDExOCwxNTU3MDAxMTddLCJFbnRlclJhZGl1cyI6MTAwMCwiTGVhdmVSYWRpdXMiOjE1MDAsIkZsb3ciOnsiRmxvd0xpc3ROYW1lIjoi5Ymn5oOFXzNfMF/mi4nmtbfmtJvkuLvnur9f5LiL5Y2KXzEiLCJGbG93SWQiOjI0LCJTdGF0ZUlkIjoxfX0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAY2EzMGJhMmM0MTc5NDJmNDgyMDJhMmQwY2MzZTdkZDQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        155700118,
+        155700117
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_拉海洛主线_下半_1",
+        "FlowId": 24,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000169
   },
   {
     "ActionGuid": "d8de9f256d89484b98883811f3644de3",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAaMctAAwAAACkAAAAtAAAAJUAAAB7IkVudGl0eUlkcyI6WzE1NTcwMDExOV0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+aLiea1t+a0m+S4u+e6v1/kuIvljYpfMSIsIkZsb3dJZCI6MjMsIlN0YXRlSWQiOjF9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAAGQ4ZGU5ZjI1NmQ4OTQ4NGI5ODg4MzgxMWYzNjQ0ZGUzAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        155700119
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_拉海洛主线_下半_1",
+        "FlowId": 23,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000168
   },
   {
     "ActionGuid": "8acb18573a2f4a78a84d94442240106c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA4Ak9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDIwNV0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjR9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAOGFjYjE4NTczYTJmNGE3OGE4NGQ5NDQ0MjI0MDEwNmMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700205
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 4
+    },
+    "ActionId": 4000224
   },
   {
     "ActionGuid": "e267d37544ed4c82a765123ff3f021ca",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAUAk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDI0NV0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjEzLCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjR9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAZTI2N2QzNzU0NGVkNGM4MmE3NjUxMjNmZjNmMDIxY2EAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700245
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 13,
+        "StateId": 1
+      },
+      "WaitTime": 4
+    },
+    "ActionId": 4000080
   },
   {
     "ActionGuid": "601e155cbbf341efbe595048ae431cd2",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAzMYtAAwAAACkAAAAtAAAAJUAAAB7IkVudGl0eUlkcyI6WzE5MjcwMDAxMywxOTI3MDAwMTJdLCJFbnRlclJhZGl1cyI6NTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfVjMuMEJWQuW8leWvvOS7u+WKoSIsIkZsb3dJZCI6MSwiU3RhdGVJZCI6MTR9fQAAAA0AAABBZGRQbGF5QnViYmxlAAAAIAAAADYwMWUxNTVjYmJmMzQxZWZiZTU5NTA0OGFlNDMxY2QyAAAAAA=="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        192700013,
+        192700012
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_V3.0BVB引导任务",
+        "FlowId": 1,
+        "StateId": 14
+      }
+    },
+    "ActionId": 3000012
   },
   {
     "ActionGuid": "1b3baaf736694f1d9aa9e4e202cc0f69",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAtwk9AAwAAACsAAAAvAAAAJ0AAAB7IkVudGl0eUlkcyI6WzE1NzcwMDI0Ml0sIkVudGVyUmFkaXVzIjoxNTAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/mta7lhYnmnpciLCJGbG93SWQiOjE0LCJTdGF0ZUlkIjoxfSwiV2FpdFRpbWUiOjR9AAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAMWIzYmFhZjczNjY5NGYxZDlhYTllNGUyMDJjYzBmNjkAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700242
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 4
+    },
+    "ActionId": 4000183
   },
   {
     "ActionGuid": "84ee015893cc4c1f9cdc4e78a28b9e60",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAIwk9AAwAAACsAAAAvAAAAJ8AAAB7IkVudGl0eUlkcyI6WzE4MTcwMDA0M10sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5pif54Ks5a2m6Zmi5pWZ5a2m5Yy6IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxM30sIldhaXRUaW1lIjo1MH0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAODRlZTAxNTg5M2NjNGMxZjljZGM0ZTc4YTI4YjllNjAAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700043
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0星炬学院教学区",
+        "FlowId": 3,
+        "StateId": 13
+      },
+      "WaitTime": 50
+    },
+    "ActionId": 4000035
   },
   {
     "ActionGuid": "ba4864ae458545e9b9b3fe5175b4067f",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAJQk9AAwAAACsAAAAvAAAAJ8AAAB7IkVudGl0eUlkcyI6WzE4MTcwMDA0NF0sIkVudGVyUmFkaXVzIjoxMDAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfMy4w5pif54Ks5a2m6Zmi5pWZ5a2m5Yy6IiwiRmxvd0lkIjozLCJTdGF0ZUlkIjoxNH0sIldhaXRUaW1lIjo1MH0ADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYmE0ODY0YWU0NTg1NDVlOWI5YjNmZTUxNzViNDA2N2YAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700044
+      ],
+      "EnterRadius": 1000,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3.0星炬学院教学区",
+        "FlowId": 3,
+        "StateId": 14
+      },
+      "WaitTime": 50
+    },
+    "ActionId": 4000037
   },
   {
     "ActionGuid": "91f1b562a9b849c8a0d476045daea417",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAPAk9AAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE4MTcwMDA0M119AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAAOTFmMWI1NjJhOWI4NDljOGEwZDQ3NjA0NWRhZWE0MTcAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        181700043
+      ]
+    },
+    "ActionId": 4000060
   },
   {
     "ActionGuid": "8fe5e3c62287497a99e93a477c7209b4",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAsgk9AAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzE1NzcwMDU2MV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zXzBf5LiA57qnUE9JX+a1ruWFieaelyIsIkZsb3dJZCI6MTQsIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6NH0AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAOGZlNWUzYzYyMjg3NDk3YTk5ZTkzYTQ3N2M3MjA5YjQAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700561
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 14,
+        "StateId": 1
+      },
+      "WaitTime": 4
+    },
+    "ActionId": 4000178
   },
   {
     "ActionGuid": "c2a7759fef21488da62d124c07de835c",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAApAk9AAwAAACsAAAAvAAAAJwAAAB7IkVudGl0eUlkcyI6WzE1NzcwMDU2MV0sIkVudGVyUmFkaXVzIjo1MDAsIkxlYXZlUmFkaXVzIjoxNTAwLCJGbG93Ijp7IkZsb3dMaXN0TmFtZSI6IuWJp+aDhV8zXzBf5LiA57qnUE9JX+a1ruWFieaelyIsIkZsb3dJZCI6MTIsIlN0YXRlSWQiOjF9LCJXYWl0VGltZSI6M30AAAAADQAAAEFkZFBsYXlCdWJibGUAAAAgAAAAYzJhNzc1OWZlZjIxNDg4ZGE2MmQxMjRjMDdkZTgzNWMAAAAA"
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        157700561
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_浮光林",
+        "FlowId": 12,
+        "StateId": 1
+      },
+      "WaitTime": 3
+    },
+    "ActionId": 4000164
   },
   {
     "ActionGuid": "6012cf346bbd4c9cb2bd427dc032e68a",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA4MYtAAwAAAAoAAAAOAAAABkAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDIyNF19AAAADwAAAENsZWFyUGxheUJ1YmJsZQAgAAAANjAxMmNmMzQ2YmJkNGM5Y2IyYmQ0MjdkYzAzMmU2OGEAAAAA"
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000224
+      ]
+    },
+    "ActionId": 3000032
   },
   {
     "ActionGuid": "ac2830f5ca174dbb8f009de3e850f905",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAAIMctAAwAAAAwAAAAQAAAACMAAAB7IkVudGl0eUlkcyI6WzE3NjcwMDA0OCwxNzY3MDAwNDddfQAPAAAAQ2xlYXJQbGF5QnViYmxlACAAAABhYzI4MzBmNWNhMTc0ZGJiOGYwMDlkZTNlODUwZjkwNQAAAAA="
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        176700048,
+        176700047
+      ]
+    },
+    "ActionId": 3000096
   },
   {
     "ActionGuid": "f54e78d04768473480d70347b6f8b729",
-    "BinData": "FAAAAAAADgAUABAADAAAAAgABAAOAAAA38YtAAwAAACoAAAAuAAAAJsAAAB7IkVudGl0eUlkcyI6WzE2OTAwMDIyNF0sIkVudGVyUmFkaXVzIjoxMjAwLCJMZWF2ZVJhZGl1cyI6MTUwMCwiRmxvdyI6eyJGbG93TGlzdE5hbWUiOiLliafmg4VfM18wX+S4gOe6p1BPSV/lpKnmloflj7DkuLvnur/ku7vliqEiLCJGbG93SWQiOjcsIlN0YXRlSWQiOjJ9fQANAAAAQWRkUGxheUJ1YmJsZQAAACAAAABmNTRlNzhkMDQ3Njg0NzM0ODBkNzAzNDdiNmY4YjcyOQAAAAA="
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        169000224
+      ],
+      "EnterRadius": 1200,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_0_一级POI_天文台主线任务",
+        "FlowId": 7,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000031
   }
 ]

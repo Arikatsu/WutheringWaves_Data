@@ -2,46 +2,98 @@
   {
     "Id": 1,
     "Type": "测试0",
-    "BinData": "FAAAABAAHAAYABQAEAAMAAgABAAQAAAAGAAAAEsDAAAcAAAATAAAAKwAAAABAAAABQAAAEVtcHR5AAAAAQAAAAQAAAAmAAAA5oiY5paX54q25oCBLuihjOS4uumZkOWIti7npoHmraLmlIDniKwAAAIAAAAIAAAALAAAACMAAADooYzkuLrnirbmgIEu5L2N572u54q25oCBLuasoeeKtuaAgQAqAAAA6KGM5Li654q25oCBLuS9jee9rueKtuaAgS7mrKHnirbmgIEu5rC06Z2iAAAHAAAA5rWL6K+VMAA="
+    "IncludedTags": [
+      "行为状态.位置状态.次状态",
+      "行为状态.位置状态.次状态.水面"
+    ],
+    "ExcludedTags": [
+      "战斗状态.行为限制.禁止攀爬"
+    ],
+    "CreatorId": 843,
+    "Remark": "Empty"
   },
   {
     "Id": 2,
     "Type": "不在技能中",
-    "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAAJECAAAgAAAATAAAAAIAAAAPAAAA5LiN5Zyo5oqA6IO95LitAAEAAAAEAAAAIwAAAOihjOS4uueKtuaAgS7pgLvovpHnirbmgIEu5oqA6IO95LitAA8AAADkuI3lnKjmioDog73kuK0A"
+    "IncludedTags": [],
+    "ExcludedTags": [
+      "行为状态.逻辑状态.技能中"
+    ],
+    "CreatorId": 657,
+    "Remark": "不在技能中"
   },
   {
     "Id": 3,
     "Type": "声骸非霸体",
-    "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAAHoAAAAsAAAAWAAAAAMAAAAbAAAA5aOw6aq45aSE5LqO6Z2e6Zy45L2T54q25oCBAAEAAAAEAAAAIQAAAOaAqueJqS5jb21tb24u54q25oCB5qCH6K+GLumcuOS9kwAAAA8AAADlo7DpqrjpnZ7pnLjkvZMA"
+    "IncludedTags": [],
+    "ExcludedTags": [
+      "怪物.common.状态标识.霸体"
+    ],
+    "CreatorId": 122,
+    "Remark": "声骸处于非霸体状态"
   },
   {
     "Id": 900001,
     "Type": "地面&不在技能中",
-    "BinData": "FAAAABAAHAAYABQAEAAMAAgABAAQAAAAGAAAAGICAAAsAAAAWAAAAIQAAAChuw0AFgAAAOWcsOmdoibkuI3lnKjmioDog73kuK0AAAEAAAAEAAAAIwAAAOihjOS4uueKtuaAgS7pgLvovpHnirbmgIEu5oqA6IO95LitAAEAAAAEAAAAIAAAAOihjOS4uueKtuaAgS7kvY3nva7nirbmgIEu5Zyw6Z2iAAAAABYAAADlnLDpnaIm5LiN5Zyo5oqA6IO95LitAAA="
+    "IncludedTags": [
+      "行为状态.位置状态.地面"
+    ],
+    "ExcludedTags": [
+      "行为状态.逻辑状态.技能中"
+    ],
+    "CreatorId": 610,
+    "Remark": "地面&不在技能中"
   },
   {
     "Id": 850001,
     "Type": "斩击变身限制2_4",
-    "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAAI8AAAAsAAAAhAAAAFH4DAAbAAAA5LiN5Y+v5pap5Ye75Y+Y6Lqr55qE5p2h5Lu2AAIAAAAIAAAAMAAAACYAAADooYzkuLrnirbmgIEu6YC76L6R54q25oCBLui/m+WFpeaImOaWlwAAHAAAAOihjOS4uueKtuaAgS7liqjkvZznirbmgIEuWEEAAAAAFQAAAOaWqeWHu+WPmOi6q+mZkOWItjJfNAAAAA=="
+    "IncludedTags": [],
+    "ExcludedTags": [
+      "行为状态.逻辑状态.进入战斗",
+      "行为状态.动作状态.XA"
+    ],
+    "CreatorId": 143,
+    "Remark": "不可斩击变身的条件"
   },
   {
     "Id": 700001,
     "Type": "不在滑轨及定点钩锁中",
-    "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAAGICAAAwAAAApAAAAGGuCgAeAAAA5LiN5Zyo5ruR6L2o5Y+K5a6a54K56ZKp6ZSB5LitAAACAAAACAAAADwAAAAzAAAA6KeS6ImyLkNvbW1vbi7mioDog73pgJrnlKjmoIfor4Yu5a6a54K56ZKp57Si5Y+v55SoAC8AAADlhbPljaEu5YWz5Y2h6L+Q5YqoLuWFs+WNoei/kOWKqOexu+Weiy40ZjlkYzMyNgAeAAAA5LiN5Zyo5ruR6L2o5Y+K5a6a54K56ZKp6ZSB5LitAAA="
+    "IncludedTags": [],
+    "ExcludedTags": [
+      "角色.Common.技能通用标识.定点钩索可用",
+      "关卡.关卡运动.关卡运动类型.4f9dc326"
+    ],
+    "CreatorId": 610,
+    "Remark": "不在滑轨及定点钩锁中"
   },
   {
     "Id": 700002,
     "Type": "玩家开始坐下",
-    "BinData": "FAAAABAAGAAUABAADAAAAAgABAAQAAAAFAAAAJgAAAAkAAAAZAAAAGKuCgASAAAA546p5a625byA5aeL5Z2Q5LiLAAABAAAABAAAADcAAADop5LoibIuQmFzZVJvbGUu54q25oCB6YCa55So5qCH6K+GLuWKqOS9nC7lnZDkuIsu5ZCv5YqoABIAAADnjqnlrrblvIDlp4vlnZDkuIsAAA=="
+    "IncludedTags": [
+      "角色.BaseRole.状态通用标识.动作.坐下.启动"
+    ],
+    "ExcludedTags": [],
+    "CreatorId": 152,
+    "Remark": "玩家开始坐下"
   },
   {
     "Id": 700003,
     "Type": "玩家起身",
-    "BinData": "FAAAABAAGAAUABAADAAAAAgABAAQAAAAFAAAAJgAAAAgAAAAYAAAAGOuCgAMAAAA546p5a626LW36LqrAAAAAAEAAAAEAAAANwAAAOinkuiJsi5CYXNlUm9sZS7nirbmgIHpgJrnlKjmoIfor4Yu5Yqo5L2cLuWdkOS4iy7nu5PmnZ8ADAAAAOeOqeWutui1t+i6qwAAAAA="
+    "IncludedTags": [
+      "角色.BaseRole.状态通用标识.动作.坐下.结束"
+    ],
+    "ExcludedTags": [],
+    "CreatorId": 152,
+    "Remark": "玩家起身"
   },
   {
     "Id": 700004,
     "Type": "日灵滚球进行中",
-    "BinData": "FAAAABAAGAAUABAAAAAMAAgABAAQAAAAFAAAAKsDAAAoAAAATAAAAGSuCgAVAAAA5pel54G15rua55CD6L+b6KGM5LitAAAAAQAAAAQAAAAYAAAA5YWz5Y2hLmFhMGY3MTgwLmUwY2M4YzAwAAAAABUAAADml6XngbXmu5rnkIPov5vooYzkuK0AAAA="
+    "IncludedTags": [],
+    "ExcludedTags": [
+      "关卡.aa0f7180.e0cc8c00"
+    ],
+    "CreatorId": 939,
+    "Remark": "日灵滚球进行中"
   }
 ]

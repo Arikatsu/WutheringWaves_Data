@@ -1,166 +1,3441 @@
 [
   {
     "Id": 0,
-    "BinData": "HAAAAAAAFgAkAAAAIAAcABgAFAAQAAwACAAEABYAAAAgAAAArAIAANwGAAAcDgAAhA4AAMAOAACYDwAAvA8AAA4AAAA4AAAAZAAAAIgAAACoAAAAzAAAAPAAAAAYAQAAPAEAAGABAACEAQAAuAEAANgBAAAcAgAANAIAAGjy//8IAAAApRMOHiLx//8EAAAABgAAAAEAAAACAAAABAAAAAUAAAAHAAAAaAAAAJjy//8IAAAAnuPkXVLx//8EAAAABAAAAAQAAAAFAAAABwAAAGgAAADA8v//CAAAAP4BBTN68f//BAAAAAMAAAAFAAAABwAAAGgAAADk8v//CAAAAGA6wsee8f//BAAAAAQAAAABAAAA/////wcAAABoAAAADPP//wgAAADBZT+JxvH//wQAAAAEAAAAAQAAAAUAAAAHAAAAaAAAADTz//8IAAAAmmx7c+7x//8EAAAABQAAAAEAAAAFAAAABgAAAAcAAABoAAAAYPP//wgAAAB92Y5oGvL//wQAAAAEAAAAAQAAAAUAAAAHAAAAaAAAAIjz//8IAAAA0yT+fELy//8EAAAABAAAAAEAAAD//////////2gAAACw8///CAAAAEFkYVJq8v//BAAAAAQAAAAEAAAA//////////9oAAAA2PP//wgAAAAjNSGHkvL//wQAAAAIAAAAAQAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAGgAAAAQ9P//CAAAAP9AQTPK8v//BAAAAAMAAAABAAAABAAAAAYAAAA09P//CAAAAC3FoBTu8v//BAAAAAwAAAABAAAAAgAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAGUAAABoAAAAyQAAAMoAAAB89P//CAAAAAW+ObU28///BAAAAAEAAAAHAAAAmPT//wgAAADWFpVaUvP//wQAAAADAAAABAAAAAgAAAAFAAAAEwAAAEwAAAB8AAAArAAAANwAAAAMAQAAQAEAAHABAACgAQAA0AEAAAACAAAwAgAAYAIAAJACAADAAgAA8AIAACADAABQAwAAgAMAALQDAAAM9f//CAAAAKUTDh7G8///BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAQPX//wgAAACe4+Rd+vP//wQAAAAHAAAABAAAAP//////////BwAAAP////8FAAAA/////3T1//8IAAAA/gEFMy70//8EAAAABwAAAP///////////////wcAAAD/////BQAAAP////+o9f//CAAAAPtnMMBi9P//BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAA3PX//wgAAADdzm8ulvT//wQAAAAIAAAABAAAAP////8MAAAABwAAAP////8FAAAAAQAAAAkAAAAU9v//CAAAAOnDPAfO9P//BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAASPb//wgAAADrhcXaAvX//wQAAAAHAAAABAAAAP////8MAAAABwAAAP////8FAAAAAQAAAHz2//8IAAAAYDrCxzb1//8EAAAABwAAAP///////////////wcAAAD//////////wEAAACw9v//CAAAAMFlP4lq9f//BAAAAAcAAAD///////////////8HAAAA/////wUAAAABAAAA5Pb//wgAAACabHtznvX//wQAAAAHAAAA/////wYAAAD/////BwAAAP////8FAAAAAQAAABj3//8IAAAAfdmOaNL1//8EAAAABwAAAP///////////////wcAAAD/////BQAAAAEAAABM9///CAAAANMk/nwG9v//BAAAAAcAAAD///////////////////////////////8BAAAAgPf//wgAAABBZGFSOvb//wQAAAAHAAAABAAAAP///////////////////////////////7T3//8IAAAA/0BBM272//8EAAAABwAAAAQAAAAGAAAA///////////////////////////o9///CAAAALw+mJWi9v//BAAAAAcAAADJAAAABAAAAAgAAAAHAAAABQAAAAYAAADKAAAAHPj//wgAAAAtxaAU1vb//wQAAAAHAAAAyQAAAAEAAAAIAAAABwAAAAUAAAAGAAAAygAAAFD4//8IAAAABb45tQr3//8EAAAABwAAAP///////////////wcAAAD///////////////+E+P//CAAAANYWlVo+9///BAAAAAgAAAAEAAAA/////////////////////wUAAAAIAAAA/////7z4//8IAAAAjWstzHb3//8EAAAABwAAAAQAAAD/////CAAAAAcAAAD//////////wEAAAAqAAAAqAAAAMwAAAD0AAAAGAEAADwBAABgAQAAhAEAAKQBAADAAQAA4AEAAAQCAAAkAgAAPAIAAFQCAAB8AgAAmAIAAMACAADoAgAADAMAACQDAABMAwAAdAMAAJwDAAC0AwAA3AMAAPgDAAAgBAAATAQAAHQEAACcBAAAuAQAAOAEAAAEBQAAKAUAAFAFAABwBQAAmAUAAMAFAADoBQAAFAYAADwGAABwBgAAnPn//wgAAAClEw4eVvj//wQAAAAEAAAAAgAAAAcAAAAFAAAA/////8T5//8IAAAAnuPkXX74//8EAAAABQAAAAQAAAAFAAAABwAAAP//////////8Pn//wgAAAD+AQUzqvj//wQAAAAEAAAABQAAAAcAAAD//////////xj6//8IAAAA+2cwwNL4//8EAAAABAAAAAQAAAAMAAAABgAAAAcAAABA+v//CAAAAN3Oby76+P//BAAAAAQAAAAEAAAADAAAAAcAAAAJAAAAaPr//wgAAADpwzwHIvn//wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAJD6//8IAAAA64XF2kr5//8EAAAAAwAAAAQAAAAMAAAABwAAALT6//8IAAAAYDrCx275//8EAAAAAgAAAAcAAAABAAAA1Pr//wgAAADBZT+Jjvn//wQAAAADAAAABQAAAAcAAAABAAAA+Pr//wgAAACabHtzsvn//wQAAAAEAAAABQAAAAcAAAAGAAAAAQAAACD7//8IAAAAfdmOaNr5//8EAAAAAwAAAAUAAAAHAAAAAQAAAET7//8IAAAA0yT+fP75//8EAAAAAQAAAAEAAABg+///CAAAAEFkYVIa+v//BAAAAAEAAAAEAAAAfPv//wgAAAAjNSGHNvr//wQAAAAFAAAABQAAAAcAAAAGAAAACQAAAAgAAACo+///CAAAAP9AQTNi+v//BAAAAAIAAAAEAAAABgAAAMj7//8IAAAAvD6YlYL6//8EAAAABQAAAAQAAAAGAAAABQAAAAcAAAAIAAAA9Pv//wgAAAB3hGBdrvr//wQAAAAFAAAAAwAAAAYAAAAFAAAABwAAAAgAAAAg/P//CAAAAC3FoBTa+v//BAAAAAQAAAAGAAAABQAAAAcAAAAIAAAASPz//wgAAAAFvjm1Avv//wQAAAABAAAABwAAAGT8//8IAAAAgUdWyR77//8EAAAABQAAAAQAAAAHAAAABgAAAAkAAAAIAAAAkPz//wgAAACBR8xPSvv//wQAAAAFAAAABAAAAAcAAAAGAAAACQAAAAgAAAC8/P//CAAAAKGTdid2+///BAAAAAUAAAAEAAAABwAAAAYAAAAJAAAACAAAAOj8//8IAAAANfXnxqL7//8EAAAAAQAAAAQAAAAE/f//CAAAAGDWYgm++///BAAAAAUAAAAEAAAABwAAAAYAAAAJAAAACAAAADD9//8IAAAAKjrbC+r7//8EAAAAAgAAAAQAAAAIAAAAUP3//wgAAABBrUbCCvz//wQAAAAFAAAABAAAAAcAAAAGAAAACQAAAAgAAAB8/f//CAAAAA4584w2/P//BAAAAAYAAAABAAAABAAAAAcAAAAGAAAACQAAAAgAAACs/f//CAAAACFsz3tm/P//BAAAAAUAAAABAAAABwAAAAYAAAAJAAAACAAAANj9//8IAAAAX9AiAZL8//8EAAAABQAAAAQAAAAHAAAABgAAAAkAAAAIAAAABP7//wgAAADWFpVavvz//wQAAAACAAAABAAAAAgAAAAk/v//CAAAALzgoADe/P//BAAAAAUAAAAEAAAABwAAAAYAAAAJAAAACAAAAFD+//8IAAAA8crB7gr9//8EAAAABAAAAAcAAAAGAAAACQAAAAgAAAB4/v//CAAAAK9oCzky/f//BAAAAAQAAAAHAAAABgAAAAkAAAAIAAAAoP7//wgAAADuTcIzWv3//wQAAAAFAAAABAAAAAcAAAAGAAAACQAAAAgAAADM/v//CAAAAI1rLcyG/f//BAAAAAMAAAAEAAAABwAAAAgAAADw/v//CAAAABYIEZ6q/f//BAAAAAUAAAAEAAAABwAAAAYAAAAJAAAACAAAABz///8IAAAAXHRn8tb9//8EAAAABQAAAAQAAAAHAAAABgAAAAkAAAAIAAAASP///wgAAAAYnssTAv7//wQAAAAFAAAABAAAAAcAAAAGAAAACQAAAAgAAAB0////CAAAAAfhHQIu/v//BAAAAAYAAAABAAAABAAAAAcAAAAGAAAACQAAAAgAAACk////CAAAAGTU6tBe/v//BAAAAAUAAAAEAAAABwAAAAYAAAAJAAAACAAAAND///8IAAAABit1H4r+//8EAAAABgAAAAEAAAAEAAAABwAAAAYAAAAJAAAACAAAAAgADAAIAAQACAAAAAgAAADoEhS0wv7//wQAAAAFAAAABAAAAAcAAAAGAAAACQAAAAgAAAACAAAACAAAADQAAADu/v//BAAAAAkAAAACAAAABAAAAP////8HAAAA/////wUAAAABAAAA/////wsAAAAe////BAAAAAkAAAAEAAAA//////////8HAAAA/////wUAAAD//////////wsAAAACAAAACAAAACAAAABa////BAAAAAQAAAAEAAAAAgAAAAcAAAAFAAAAdv///wQAAAADAAAABAAAAAUAAAAHAAAAAgAAAAgAAABwAAAAmv///wQAAAACAAAACAAAACwAAAAgAAAA6KGM5Li654q25oCBLuS9jee9rueKtuaAgS7mlIDniKwAAAAAIwAAAOi+heWKqeacui7pgJrnlKjlsITlh7su5bCE5Ye7556E5YeGAAAABgAIAAQABgAAAAQAAAACAAAACAAAACwAAAAgAAAA6KGM5Li654q25oCBLuS9jee9rueKtuaAgS7msLTkuK0AAAAAIwAAAOi+heWKqeacui7pgJrnlKjlsITlh7su5bCE5Ye7556E5YeGAAkAAAAEAAAABgAAAAkAAAAHAAAACAAAAAUAAAABAAAACgAAAAsAAAAEAAAABwAAAAYAAAAJAAAACAAAAA=="
+    "DesktopButtonTypeList": [
+      7,
+      6,
+      9,
+      8
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      9,
+      7,
+      8,
+      5,
+      1,
+      10,
+      11
+    ],
+    "TagList": [
+      {
+        "ArrayString": [
+          "行为状态.位置状态.攀爬",
+          "辅助机.通用射击.射击瞄准"
+        ]
+      },
+      {
+        "ArrayString": [
+          "行为状态.位置状态.水中",
+          "辅助机.通用射击.射击瞄准"
+        ]
+      }
+    ],
+    "TagDesktopButtonTypeList": [
+      {
+        "ArrayInt": [
+          4,
+          2,
+          7,
+          5
+        ]
+      },
+      {
+        "ArrayInt": [
+          4,
+          5,
+          7
+        ]
+      }
+    ],
+    "TagPadButtonTypeList": [
+      {
+        "ArrayInt": [
+          2,
+          4,
+          -1,
+          7,
+          -1,
+          5,
+          1,
+          -1,
+          11
+        ]
+      },
+      {
+        "ArrayInt": [
+          4,
+          -1,
+          -1,
+          7,
+          -1,
+          5,
+          -1,
+          -1,
+          11
+        ]
+      }
+    ],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1575281566,
+        "Value": {
+          "ArrayInt": [
+            4,
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": 779079389,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7,
+            9
+          ]
+        }
+      },
+      {
+        "Key": 121422825,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -943572384,
+        "Value": {
+          "ArrayInt": [
+            7,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1992333887,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 1937468570,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            6,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 1754192253,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 2097030355,
+        "Value": {
+          "ArrayInt": [
+            1
+          ]
+        }
+      },
+      {
+        "Key": 1382114369,
+        "Value": {
+          "ArrayInt": [
+            4
+          ]
+        }
+      },
+      {
+        "Key": -2027866845,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 859914495,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "Key": -1785184580,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            5,
+            7,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 1566606455,
+        "Value": {
+          "ArrayInt": [
+            3,
+            6,
+            5,
+            7,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 346080557,
+        "Value": {
+          "ArrayInt": [
+            6,
+            5,
+            7,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -1254507003,
+        "Value": {
+          "ArrayInt": [
+            7
+          ]
+        }
+      },
+      {
+        "Key": -917092479,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 1338787713,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 662082465,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -957876939,
+        "Value": {
+          "ArrayInt": [
+            4
+          ]
+        }
+      },
+      {
+        "Key": 157472352,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 198916650,
+        "Value": {
+          "ArrayInt": [
+            4,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -1035555519,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -1930217202,
+        "Value": {
+          "ArrayInt": [
+            1,
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 2077191201,
+        "Value": {
+          "ArrayInt": [
+            1,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 19058783,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 1519720150,
+        "Value": {
+          "ArrayInt": [
+            4,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 10543292,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -289289487,
+        "Value": {
+          "ArrayInt": [
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 957049007,
+        "Value": {
+          "ArrayInt": [
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 868371950,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -869438579,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -1643050986,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -228101028,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 332111384,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 35512583,
+        "Value": {
+          "ArrayInt": [
+            1,
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -789916572,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 527772422,
+        "Value": {
+          "ArrayInt": [
+            1,
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -1273752856,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 1575281566,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 779079389,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1,
+            9
+          ]
+        }
+      },
+      {
+        "Key": 121422825,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -943572384,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            -1,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1992333887,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 1937468570,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            6,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 1754192253,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 2097030355,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 1382114369,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 859914495,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1785184580,
+        "Value": {
+          "ArrayInt": [
+            201,
+            4,
+            8,
+            7,
+            5,
+            6,
+            202
+          ]
+        }
+      },
+      {
+        "Key": 346080557,
+        "Value": {
+          "ArrayInt": [
+            201,
+            1,
+            8,
+            7,
+            5,
+            6,
+            202
+          ]
+        }
+      },
+      {
+        "Key": -1254507003,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1519720150,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            -1,
+            -1,
+            -1,
+            5,
+            8,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -869438579,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            8,
+            7,
+            -1,
+            -1,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 1575281566,
+        "Value": {
+          "ArrayInt": [
+            4,
+            5,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": -943572384,
+        "Value": {
+          "ArrayInt": [
+            1,
+            -1,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": -1992333887,
+        "Value": {
+          "ArrayInt": [
+            1,
+            5,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 1937468570,
+        "Value": {
+          "ArrayInt": [
+            1,
+            5,
+            6,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 1754192253,
+        "Value": {
+          "ArrayInt": [
+            1,
+            5,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 2097030355,
+        "Value": {
+          "ArrayInt": [
+            1,
+            -1,
+            -1,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 1382114369,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            -1,
+            104
+          ]
+        }
+      },
+      {
+        "Key": -2027866845,
+        "Value": {
+          "ArrayInt": [
+            1,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 859914495,
+        "Value": {
+          "ArrayInt": [
+            1,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "Key": 346080557,
+        "Value": {
+          "ArrayInt": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            101,
+            104,
+            201,
+            202
+          ]
+        }
+      },
+      {
+        "Key": -1254507003,
+        "Value": {
+          "ArrayInt": [
+            7
+          ]
+        }
+      },
+      {
+        "Key": 1519720150,
+        "Value": {
+          "ArrayInt": [
+            4,
+            8,
+            5
+          ]
+        }
+      }
+    ]
   },
   {
     "Id": 5008,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAJAAAAJATAAAGAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAgAAAAQAAAAFAAAA"
+    "DesktopButtonTypeList": [
+      4,
+      5
+    ],
+    "PadButtonTypeList": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5009,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAJAAAAJETAAAGAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAgAAAAQAAAAFAAAA"
+    "DesktopButtonTypeList": [
+      4,
+      5
+    ],
+    "PadButtonTypeList": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5010,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAKAAAAJITAAAHAAAABAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAMAAAAEAAAABQAAAAYAAAA="
+    "DesktopButtonTypeList": [
+      4,
+      5,
+      6
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5012,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAJQTAAABAAAABAAAAAEAAAAEAAAA"
+    "DesktopButtonTypeList": [
+      4
+    ],
+    "PadButtonTypeList": [
+      4
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5011,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAKAAAAJMTAAAHAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAQAAAAMAAAAEAAAABQAAAAEAAAA="
+    "DesktopButtonTypeList": [
+      4,
+      5,
+      1
+    ],
+    "PadButtonTypeList": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      5,
+      1
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5006,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAKAAAAI4TAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAQAAAAIAAAAFAAAAAQAAAA=="
+    "DesktopButtonTypeList": [
+      5,
+      1
+    ],
+    "PadButtonTypeList": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      1
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5007,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAJAAAAI8TAAAGAAAABAAAAAYAAAAJAAAAAAAAAAgAAAAFAAAABAAAAAAAAAAGAAAACQAAAAgAAAA="
+    "DesktopButtonTypeList": [
+      0,
+      6,
+      9,
+      8
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      9,
+      0,
+      8,
+      5
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5013,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAKAAAAJUTAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAQAAAAIAAAAFAAAAAQAAAA=="
+    "DesktopButtonTypeList": [
+      5,
+      1
+    ],
+    "PadButtonTypeList": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      1
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5014,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAKAAAAJYTAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAQAAAAIAAAAFAAAAAQAAAA=="
+    "DesktopButtonTypeList": [
+      5,
+      1
+    ],
+    "PadButtonTypeList": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      1
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5002,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAKAAAAIoTAAAHAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAAGAAAAAQAAAA=="
+    "DesktopButtonTypeList": [
+      6,
+      1
+    ],
+    "PadButtonTypeList": [
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5001,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAANwBAACJEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAA+2cwwPr+//8EAAAABwAAAAQAAAAGAAAADAAAAAcAAAD/////BQAAAAEAAABo////CAAAAOuFxdou////BAAAAAcAAAAEAAAA/////wwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAAJAAAABAAAAAYAAAAJAAAABwAAAAgAAAAFAAAAAQAAAAoAAAALAAAABAAAAAcAAAAGAAAACQAAAAgAAAA="
+    "DesktopButtonTypeList": [
+      7,
+      6,
+      9,
+      8
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      9,
+      7,
+      8,
+      5,
+      1,
+      10,
+      11
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5003,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAANwBAACLEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAA+2cwwPr+//8EAAAABwAAAAQAAAAGAAAADAAAAAcAAAD/////BQAAAAEAAABo////CAAAAOuFxdou////BAAAAAcAAAAEAAAA/////wwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAAJAAAABAAAAAYAAAAJAAAABwAAAAgAAAAFAAAAAQAAAAoAAAALAAAABAAAAAcAAAAGAAAACQAAAAgAAAA="
+    "DesktopButtonTypeList": [
+      7,
+      6,
+      9,
+      8
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      9,
+      7,
+      8,
+      5,
+      1,
+      10,
+      11
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5004,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAANwBAACMEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAA+2cwwPr+//8EAAAABwAAAAQAAAAGAAAADAAAAAcAAAD/////BQAAAAEAAABo////CAAAAOuFxdou////BAAAAAcAAAAEAAAA/////wwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAAJAAAABAAAAAYAAAAJAAAABwAAAAgAAAAFAAAAAQAAAAoAAAALAAAABAAAAAcAAAAGAAAACQAAAAgAAAA="
+    "DesktopButtonTypeList": [
+      7,
+      6,
+      9,
+      8
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      9,
+      7,
+      8,
+      5,
+      1,
+      10,
+      11
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5005,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAANwBAACNEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAA+2cwwPr+//8EAAAABwAAAAQAAAAGAAAADAAAAAcAAAD/////BQAAAAEAAABo////CAAAAOuFxdou////BAAAAAcAAAAEAAAA/////wwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAAJAAAABAAAAAYAAAAJAAAABwAAAAgAAAAFAAAAAQAAAAoAAAALAAAABAAAAAcAAAAGAAAACQAAAAgAAAA="
+    "DesktopButtonTypeList": [
+      7,
+      6,
+      9,
+      8
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      9,
+      7,
+      8,
+      5,
+      1,
+      10,
+      11
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5015,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAANwBAACXEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAAhznLcPr+//8EAAAABwAAAAQAAAD/////DAAAAAcAAAD/////BQAAAAEAAABo////CAAAAPtnMMAu////BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAAJAAAABAAAAAYAAAAJAAAABwAAAAgAAAAFAAAAAQAAAAoAAAALAAAABAAAAAcAAAAGAAAACQAAAAgAAAA="
+    "DesktopButtonTypeList": [
+      7,
+      6,
+      9,
+      8
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      9,
+      7,
+      8,
+      5,
+      1,
+      10,
+      11
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5016,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAANwBAACYEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAAhznLcPr+//8EAAAABwAAAAQAAAD/////DAAAAAcAAAD/////BQAAAAEAAABo////CAAAAPtnMMAu////BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAAJAAAABAAAAAYAAAAJAAAABwAAAAgAAAAFAAAAAQAAAAoAAAALAAAABAAAAAcAAAAGAAAACQAAAAgAAAA="
+    "DesktopButtonTypeList": [
+      7,
+      6,
+      9,
+      8
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      9,
+      7,
+      8,
+      5,
+      1,
+      10,
+      11
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5017,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAMAAAAJkTAAAJAAAABAAAAAAAAAAAAAAABwAAAAAAAAAFAAAAAQAAAAAAAAAAAAAABAAAAAQAAAAFAAAABwAAAAEAAAA="
+    "DesktopButtonTypeList": [
+      4,
+      5,
+      7,
+      1
+    ],
+    "PadButtonTypeList": [
+      4,
+      0,
+      0,
+      7,
+      0,
+      5,
+      1,
+      0,
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5018,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAMAAAAJoTAAAJAAAABAAAAAYAAAAAAAAAAAAAAAAAAAAFAAAAAQAAAAAAAAAAAAAABAAAAAQAAAAGAAAABQAAAAEAAAA="
+    "DesktopButtonTypeList": [
+      4,
+      6,
+      5,
+      1
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      0,
+      0,
+      0,
+      5,
+      1,
+      0,
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5020,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAJwTAAABAAAABAAAAAEAAAAEAAAA"
+    "DesktopButtonTypeList": [
+      4
+    ],
+    "PadButtonTypeList": [
+      4
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 50171,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAPvDAAABAAAABAAAAAEAAAAEAAAA"
+    "DesktopButtonTypeList": [
+      4
+    ],
+    "PadButtonTypeList": [
+      4
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5026,
-    "BinData": "HAAAAAAAFgAcABgAFAAQAAAAAAAAAAwACAAEABYAAAAYAAAARAAAACQBAADoAQAA8AEAAKITAAABAAAABAAAAJD+//8IAAAA1jFoGlb+//8EAAAABAAAAAcAAAAGAAAACQAAAAgAAAAEAAAAEAAAAEAAAABwAAAAoAAAAMz+//8IAAAApRMOHpL+//8EAAAABwAAAAIAAAD//////////wcAAAD/////BQAAAAEAAAAA////CAAAAP4BBTPG/v//BAAAAAcAAAD///////////////8HAAAA/////wUAAAD/////NP///wgAAACHOctw+v7//wQAAAAHAAAABAAAAP////8MAAAABwAAAP////8FAAAAAQAAAGj///8IAAAA+2cwwC7///8EAAAABwAAAAQAAAAGAAAADAAAAAcAAAD/////BQAAAAEAAAAEAAAAEAAAADQAAABgAAAAjAAAALD///8IAAAApRMOHnb///8EAAAABAAAAAIAAAAHAAAABQAAAP/////Y////CAAAAP4BBTOe////BAAAAAQAAAAFAAAABwAAAP//////////CAAMAAgABAAIAAAACAAAAPtnMMDO////BAAAAAQAAAAEAAAADAAAAAYAAAAHAAAACAAOAAgABAAIAAAAEAAAAOuFxdoAAAYACAAEAAYAAAAEAAAAAwAAAAQAAAAMAAAABwAAAAIAAAAEAAAABQAAAAIAAAAEAAAABQAAAA=="
+    "DesktopButtonTypeList": [
+      4,
+      5
+    ],
+    "PadButtonTypeList": [
+      4,
+      5
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": [
+      {
+        "Key": 443036118,
+        "Value": {
+          "ArrayInt": [
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      }
+    ]
   },
   {
     "Id": 5027,
-    "BinData": "HAAAAAAAFgAcABgAFAAQAAAAAAAAAAwACAAEABYAAAAYAAAARAAAACQBAADoAQAA8AEAAKMTAAABAAAABAAAAJD+//8IAAAA1jFoGlb+//8EAAAABAAAAAcAAAAGAAAACQAAAAgAAAAEAAAAEAAAAEAAAABwAAAAoAAAAMz+//8IAAAApRMOHpL+//8EAAAABwAAAAIAAAD//////////wcAAAD/////BQAAAAEAAAAA////CAAAAP4BBTPG/v//BAAAAAcAAAD///////////////8HAAAA/////wUAAAD/////NP///wgAAACHOctw+v7//wQAAAAHAAAABAAAAP////8MAAAABwAAAP////8FAAAAAQAAAGj///8IAAAA+2cwwC7///8EAAAABwAAAAQAAAAGAAAADAAAAAcAAAD/////BQAAAAEAAAAEAAAAEAAAADQAAABgAAAAjAAAALD///8IAAAApRMOHnb///8EAAAABAAAAAIAAAAHAAAABQAAAP/////Y////CAAAAP4BBTOe////BAAAAAQAAAAFAAAABwAAAP//////////CAAMAAgABAAIAAAACAAAAPtnMMDO////BAAAAAQAAAAEAAAADAAAAAYAAAAHAAAACAAOAAgABAAIAAAAEAAAAOuFxdoAAAYACAAEAAYAAAAEAAAAAwAAAAQAAAAMAAAABwAAAAIAAAAEAAAABQAAAAIAAAAEAAAABQAAAA=="
+    "DesktopButtonTypeList": [
+      4,
+      5
+    ],
+    "PadButtonTypeList": [
+      4,
+      5
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": [
+      {
+        "Key": 443036118,
+        "Value": {
+          "ArrayInt": [
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      }
+    ]
   },
   {
     "Id": 5021,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAMAAAAJ0TAAAJAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAFAAAA"
+    "DesktopButtonTypeList": [
+      4,
+      5
+    ],
+    "PadButtonTypeList": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5022,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAJ4TAAABAAAAAAAAAAEAAAAAAAAA"
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5023,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAJ8TAAABAAAAAAAAAAEAAAAAAAAA"
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5029,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAKUTAAABAAAAAAAAAAEAAAAAAAAA"
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5030,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAKYTAAABAAAAAAAAAAEAAAAAAAAA"
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5024,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAKATAAABAAAAAAAAAAEAAAAAAAAA"
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5031,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAAMABAACnEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAAhznLcPr+//8EAAAABwAAAAQAAAD/////DAAAAAcAAAD/////BQAAAAEAAABo////CAAAAPtnMMAu////BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAACAAAABQAAAAYAAAACAAAABQAAAAYAAAA="
+    "DesktopButtonTypeList": [
+      5,
+      6
+    ],
+    "PadButtonTypeList": [
+      5,
+      6
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5032,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAAMABAACoEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAAhznLcPr+//8EAAAABwAAAAQAAAD/////DAAAAAcAAAD/////BQAAAAEAAABo////CAAAAPtnMMAu////BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAACAAAABQAAAAYAAAACAAAABQAAAAYAAAA="
+    "DesktopButtonTypeList": [
+      5,
+      6
+    ],
+    "PadButtonTypeList": [
+      5,
+      6
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5033,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAAMABAACpEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAAhznLcPr+//8EAAAABwAAAAQAAAD/////DAAAAAcAAAD/////BQAAAAEAAABo////CAAAAPtnMMAu////BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAACAAAABQAAAAYAAAACAAAABQAAAAYAAAA="
+    "DesktopButtonTypeList": [
+      5,
+      6
+    ],
+    "PadButtonTypeList": [
+      5,
+      6
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5028,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAKQTAAABAAAAAAAAAAEAAAAAAAAA"
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5034,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAKoTAAABAAAAAAAAAAEAAAAAAAAA"
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5025,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAAKETAAABAAAAAAAAAAEAAAAAAAAA"
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5036,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAAMABAACsEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAAhznLcPr+//8EAAAABwAAAAQAAAD/////DAAAAAcAAAD/////BQAAAAEAAABo////CAAAAPtnMMAu////BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAACAAAABQAAAAYAAAACAAAABQAAAAYAAAA="
+    "DesktopButtonTypeList": [
+      5,
+      6
+    ],
+    "PadButtonTypeList": [
+      5,
+      6
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5037,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAAuAEAAMABAACtEwAABAAAABAAAABAAAAAcAAAAKAAAADM/v//CAAAAKUTDh6S/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAAAP///wgAAAD+AQUzxv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////zT///8IAAAAhznLcPr+//8EAAAABwAAAAQAAAD/////DAAAAAcAAAD/////BQAAAAEAAABo////CAAAAPtnMMAu////BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAABAAAABAAAAA0AAAAYAAAAIwAAACw////CAAAAKUTDh52////BAAAAAQAAAACAAAABwAAAAUAAAD/////2P///wgAAAD+AQUznv///wQAAAAEAAAABQAAAAcAAAD//////////wgADAAIAAQACAAAAAgAAAD7ZzDAzv///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADgAIAAQACAAAABAAAADrhcXaAAAGAAgABAAGAAAABAAAAAMAAAAEAAAADAAAAAcAAAACAAAABQAAAAYAAAACAAAABQAAAAYAAAA="
+    "DesktopButtonTypeList": [
+      5,
+      6
+    ],
+    "PadButtonTypeList": [
+      5,
+      6
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5042,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAD0AAAA4AEAAOgBAACyEwAABAAAABAAAABAAAAAcAAAAKAAAACg/v//CAAAAKUTDh5q/v//BAAAAAcAAAACAAAA//////////8HAAAA/////wUAAAABAAAA1P7//wgAAAD+AQUznv7//wQAAAAHAAAA////////////////BwAAAP////8FAAAA/////wj///8IAAAAhznLcNL+//8EAAAABwAAAAQAAAD/////DAAAAAcAAAD/////BQAAAAEAAAA8////CAAAAPtnMMAG////BAAAAAcAAAAEAAAABgAAAAwAAAAHAAAA/////wUAAAABAAAABQAAABQAAAA4AAAAXAAAAIgAAACwAAAAiP///wgAAAClEw4eUv///wQAAAAEAAAAAgAAAAcAAAAFAAAA/////7D///8IAAAA/gEFM3r///8EAAAABAAAAAUAAAAHAAAA///////////Y////CAAAAPtnMMCi////BAAAAAQAAAAEAAAADAAAAAYAAAAHAAAACAAMAAgABAAIAAAACAAAAOuFxdrS////BAAAAAMAAAAEAAAADAAAAAcAAAAIAA4ACAAEAAgAAAAQAAAAnKOvCQAABgAIAAQABgAAAAQAAAADAAAABAAAAAwAAAAGAAAAAgAAAAUAAAAGAAAAAgAAAAUAAAAGAAAA"
+    "DesktopButtonTypeList": [
+      5,
+      6
+    ],
+    "PadButtonTypeList": [
+      5,
+      6
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      },
+      {
+        "Key": 162505628,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5043,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAAcAQAACAIAABACAACzEwAABQAAABQAAABEAAAAdAAAAKQAAADUAAAAfP7//wgAAAClEw4eRv7//wQAAAAHAAAAAgAAAP//////////BwAAAP////8FAAAAAQAAALD+//8IAAAA/gEFM3r+//8EAAAABwAAAP///////////////wcAAAD/////BQAAAP/////k/v//CAAAAIc5y3Cu/v//BAAAAAcAAAAEAAAA/////wwAAAAHAAAA/////wUAAAABAAAAGP///wgAAAD7ZzDA4v7//wQAAAAHAAAABAAAAAYAAAAMAAAABwAAAP////8FAAAAAQAAAEz///8IAAAAnKOvCRb///8EAAAAAwAAAAQAAAAMAAAABgAAAAUAAAAUAAAAOAAAAFwAAACIAAAAsAAAAIj///8IAAAApRMOHlL///8EAAAABAAAAAIAAAAHAAAABQAAAP////+w////CAAAAP4BBTN6////BAAAAAQAAAAFAAAABwAAAP//////////2P///wgAAAD7ZzDAov///wQAAAAEAAAABAAAAAwAAAAGAAAABwAAAAgADAAIAAQACAAAAAgAAADrhcXa0v///wQAAAADAAAABAAAAAwAAAAHAAAACAAOAAgABAAIAAAAEAAAAJyjrwkAAAYACAAEAAYAAAAEAAAAAwAAAAQAAAAMAAAABgAAAAIAAAAFAAAABgAAAAIAAAAFAAAABgAAAA=="
+    "DesktopButtonTypeList": [
+      5,
+      6
+    ],
+    "PadButtonTypeList": [
+      5,
+      6
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      },
+      {
+        "Key": 162505628,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 162505628,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5044,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAAcAQAA4AEAAOgBAAC0EwAABQAAABQAAABEAAAAdAAAAKQAAADUAAAAqP7//wgAAAClEw4ebv7//wQAAAAHAAAAAgAAAP//////////BwAAAP////8FAAAAAQAAANz+//8IAAAA/gEFM6L+//8EAAAABwAAAP///////////////wcAAAD/////BQAAAP////8Q////CAAAAIc5y3DW/v//BAAAAAcAAAAEAAAA/////wwAAAAHAAAA/////wUAAAABAAAARP///wgAAAD7ZzDACv///wQAAAAHAAAABAAAAAYAAAAMAAAABwAAAP////8FAAAAAQAAAHj///8IAAAAnKOvCT7///8EAAAAAwAAAAQAAAAMAAAABgAAAAQAAAAQAAAANAAAAGAAAACMAAAAsP///wgAAAClEw4edv///wQAAAAEAAAAAgAAAAcAAAAFAAAA/////9j///8IAAAA/gEFM57///8EAAAABAAAAAUAAAAHAAAA//////////8IAAwACAAEAAgAAAAIAAAA+2cwwM7///8EAAAABAAAAAQAAAAMAAAABgAAAAcAAAAIAA4ACAAEAAgAAAAQAAAA64XF2gAABgAIAAQABgAAAAQAAAADAAAABAAAAAwAAAAHAAAAAgAAAAUAAAAGAAAAAgAAAAUAAAAGAAAA"
+    "DesktopButtonTypeList": [
+      5,
+      6
+    ],
+    "PadButtonTypeList": [
+      5,
+      6
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            7,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "Key": -624589333,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            7
+          ]
+        }
+      }
+    ],
+    "PadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            2,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 1892366727,
+        "Value": {
+          "ArrayInt": [
+            4,
+            -1,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": -1070569477,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            12,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": 162505628,
+        "Value": {
+          "ArrayInt": [
+            4,
+            12,
+            6
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": []
   },
   {
     "Id": 5046,
-    "BinData": "EAAAAAAACgAQAAwACAAEAAoAAAAMAAAAEAAAALYTAAABAAAAAAAAAAEAAAAAAAAA"
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": [],
+    "TagDesktopButtonTypeList": [],
+    "TagPadButtonTypeList": [],
+    "DesktopButtonTypeMap": [],
+    "PadButtonTypeMap": [],
+    "GamepadButtonTypeMap": []
   }
 ]

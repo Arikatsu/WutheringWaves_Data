@@ -1,214 +1,2440 @@
 [
   {
     "Id": 81001102,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAnAMAAI760wQdAAAAcGxheV92b19zYW5odWFfY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b19zYW5odWFfanVtcAATAAAAcGxheV92b19zYW5odWFfaG9vawASAAAAcGxheV92b19zYW5odWFfZmx5AAAYAAAAcGxheV92b19zYW5odWFfYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX3Nhbmh1YV9iZWhpdAAAAAAbAAAAcGxheV92b19zYW5odWFfZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX3Nhbmh1YV9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX3Nhbmh1YV9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9fc2FuaHVhX3Jhbmt1cDAxABcAAABwbGF5X3ZvX3Nhbmh1YV9yYW5rdXAwMgAXAAAAcGxheV92b19zYW5odWFfcmFua3VwMDEAFwAAAHBsYXlfdm9fc2FuaHVhX3Jhbmt1cDAyABcAAABwbGF5X3ZvX3Nhbmh1YV9yYW5rdXAwMwAXAAAAcGxheV92b19zYW5odWFfcmFua3VwMDQAFwAAAHBsYXlfdm9fc2FuaHVhX3Jhbmt1cDA1ABQAAABwbGF5X3ZvX3Nhbmh1YV90aXJlZAAAAAASAAAAcGxheV92b19zYW5odWFfZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9fc2FuaHVhX2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9fc2FuaHVhX2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b19zYW5odWFfaHAzMAAYAAAAcGxheV92b19zYW5odWFfam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX3Nhbmh1YV9zY2FuABQAAABwbGF5X3ZvX3Nhbmh1YV9jaGVzdAAAAAAYAAAAcGxheV92b19zYW5odWFfaHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX3Nhbmh1YV9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9fc2FuaHVhX2Zhc3RfcnVuABEAAAByb2xlX2ZvbGV5X3Nhbmh1YQAAABgAAAByb2xlX2Zvb3RzdGVwX2Jsb2NraGVlbHMAAAAABgAAAHNhbmh1YQAA"
+    "Name": "sanhua",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_sanhua",
+    "FastClimbEvent": "play_vo_sanhua_fast_run",
+    "VisionMorphEvent": "play_vo_sanhua_hx_change",
+    "VisionSummonEvent": "play_vo_sanhua_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_sanhua_chest",
+    "ScanTreasureBoxEvent": "play_vo_sanhua_scan",
+    "JoinTeamEvent": "play_vo_sanhua_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_sanhua_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_sanhua_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_sanhua_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_sanhua_die",
+    "LowStrengthEvent": "play_vo_sanhua_tired",
+    "BreakUpEventList": [
+      "play_vo_sanhua_rankup01",
+      "play_vo_sanhua_rankup02",
+      "play_vo_sanhua_rankup01",
+      "play_vo_sanhua_rankup02",
+      "play_vo_sanhua_rankup03",
+      "play_vo_sanhua_rankup04",
+      "play_vo_sanhua_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_sanhua_evasion_success",
+    "ParryEvent": "play_vo_sanhua_parry_success",
+    "EnterBattleEvent": "play_vo_sanhua_enter_battle",
+    "UnderAttackEvent": "play_vo_sanhua_behit",
+    "KnockUpEvent": "play_vo_sanhua_behit_fly",
+    "EnterGlideEvent": "play_vo_sanhua_fly",
+    "UseExploreHookEvent": "play_vo_sanhua_hook",
+    "ClimbLeapEvent": "play_vo_sanhua_jump",
+    "AccelerateEvent": "play_vo_sanhua_com_accelerate"
   },
   {
     "Id": 81001103,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAnAMAAI/60wQdAAAAcGxheV92b19iYWl6aGlfY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b19iYWl6aGlfanVtcAATAAAAcGxheV92b19iYWl6aGlfaG9vawASAAAAcGxheV92b19iYWl6aGlfZmx5AAAYAAAAcGxheV92b19iYWl6aGlfYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX2JhaXpoaV9iZWhpdAAAAAAbAAAAcGxheV92b19iYWl6aGlfZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX2JhaXpoaV9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX2JhaXpoaV9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9fYmFpemhpX3Jhbmt1cDAxABcAAABwbGF5X3ZvX2JhaXpoaV9yYW5rdXAwMgAXAAAAcGxheV92b19iYWl6aGlfcmFua3VwMDEAFwAAAHBsYXlfdm9fYmFpemhpX3Jhbmt1cDAyABcAAABwbGF5X3ZvX2JhaXpoaV9yYW5rdXAwMwAXAAAAcGxheV92b19iYWl6aGlfcmFua3VwMDQAFwAAAHBsYXlfdm9fYmFpemhpX3Jhbmt1cDA1ABQAAABwbGF5X3ZvX2JhaXpoaV90aXJlZAAAAAASAAAAcGxheV92b19iYWl6aGlfZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9fYmFpemhpX2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9fYmFpemhpX2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b19iYWl6aGlfaHAzMAAYAAAAcGxheV92b19iYWl6aGlfam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX2JhaXpoaV9zY2FuABQAAABwbGF5X3ZvX2JhaXpoaV9jaGVzdAAAAAAYAAAAcGxheV92b19iYWl6aGlfaHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX2JhaXpoaV9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9fYmFpemhpX2Zhc3RfcnVuABIAAAByb2xlX2ZvbGV5X2ppYW54aW4AABgAAAByb2xlX2Zvb3RzdGVwX2Jsb2NraGVlbHMAAAAABgAAAGJhaXpoaQAA"
+    "Name": "baizhi",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_jianxin",
+    "FastClimbEvent": "play_vo_baizhi_fast_run",
+    "VisionMorphEvent": "play_vo_baizhi_hx_change",
+    "VisionSummonEvent": "play_vo_baizhi_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_baizhi_chest",
+    "ScanTreasureBoxEvent": "play_vo_baizhi_scan",
+    "JoinTeamEvent": "play_vo_baizhi_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_baizhi_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_baizhi_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_baizhi_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_baizhi_die",
+    "LowStrengthEvent": "play_vo_baizhi_tired",
+    "BreakUpEventList": [
+      "play_vo_baizhi_rankup01",
+      "play_vo_baizhi_rankup02",
+      "play_vo_baizhi_rankup01",
+      "play_vo_baizhi_rankup02",
+      "play_vo_baizhi_rankup03",
+      "play_vo_baizhi_rankup04",
+      "play_vo_baizhi_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_baizhi_evasion_success",
+    "ParryEvent": "play_vo_baizhi_parry_success",
+    "EnterBattleEvent": "play_vo_baizhi_enter_battle",
+    "UnderAttackEvent": "play_vo_baizhi_behit",
+    "KnockUpEvent": "play_vo_baizhi_behit_fly",
+    "EnterGlideEvent": "play_vo_baizhi_fly",
+    "UseExploreHookEvent": "play_vo_baizhi_hook",
+    "ClimbLeapEvent": "play_vo_baizhi_jump",
+    "AccelerateEvent": "play_vo_baizhi_com_accelerate"
   },
   {
     "Id": 81001104,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA+AAAABgBAAA4AQAAXAEAAFgCAABwAgAAiAIAABQDAAAwAwAASAMAAGADAAB8AwAAmAMAALQDAADIAwAA5AMAAJD60wQfAAAAcGxheV92b19saW5neWFuZ19jb21fYWNjZWxlcmF0ZQAVAAAAcGxheV92b19saW5neWFuZ19qdW1wAAAAFQAAAHBsYXlfdm9fbGluZ3lhbmdfaG9vawAAABQAAABwbGF5X3ZvX2xpbmd5YW5nX2ZseQAAAAAaAAAAcGxheV92b19saW5neWFuZ19iZWhpdF9mbHkAABYAAABwbGF5X3ZvX2xpbmd5YW5nX2JlaGl0AAAdAAAAcGxheV92b19saW5neWFuZ19lbnRlcl9iYXR0bGUAAAAeAAAAcGxheV92b19saW5neWFuZ19wYXJyeV9zdWNjZXNzAAAgAAAAcGxheV92b19saW5neWFuZ19ldmFzaW9uX3N1Y2Nlc3MAAAAABwAAABwAAAA4AAAAVAAAAHAAAACMAAAAqAAAAMQAAAAZAAAAcGxheV92b19saW5neWFuZ19yYW5rdXAwMQAAABkAAABwbGF5X3ZvX2xpbmd5YW5nX3Jhbmt1cDAyAAAAGQAAAHBsYXlfdm9fbGluZ3lhbmdfcmFua3VwMDEAAAAZAAAAcGxheV92b19saW5neWFuZ19yYW5rdXAwMgAAABkAAABwbGF5X3ZvX2xpbmd5YW5nX3Jhbmt1cDAzAAAAGQAAAHBsYXlfdm9fbGluZ3lhbmdfcmFua3VwMDQAAAAZAAAAcGxheV92b19saW5neWFuZ19yYW5rdXAwNQAAABYAAABwbGF5X3ZvX2xpbmd5YW5nX3RpcmVkAAAUAAAAcGxheV92b19saW5neWFuZ19kaWUAAAAAAwAAAAwAAAAwAAAAXAAAALD///8IAAAARgAAABUAAABwbGF5X3ZvX2xpbmd5YW5nX2hwNzAAAADY////CAAAADIAAAAVAAAAcGxheV92b19saW5neWFuZ19ocDUwAAAACAAMAAgABAAIAAAACAAAAB4AAAAVAAAAcGxheV92b19saW5neWFuZ19ocDMwAAAAGgAAAHBsYXlfdm9fbGluZ3lhbmdfam9pbl90ZWFtAAAVAAAAcGxheV92b19saW5neWFuZ19zY2FuAAAAFgAAAHBsYXlfdm9fbGluZ3lhbmdfY2hlc3QAABoAAABwbGF5X3ZvX2xpbmd5YW5nX2h4X3N1bW1vbgAAGgAAAHBsYXlfdm9fbGluZ3lhbmdfaHhfY2hhbmdlAAAZAAAAcGxheV92b19saW5neWFuZ19mYXN0X3J1bgAAABMAAAByb2xlX2ZvbGV5X2xpbmd5YW5nABgAAAByb2xlX2Zvb3RzdGVwX2Jsb2NraGVlbHMAAAAACAAAAGxpbmd5YW5nAAAAAA=="
+    "Name": "lingyang",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_lingyang",
+    "FastClimbEvent": "play_vo_lingyang_fast_run",
+    "VisionMorphEvent": "play_vo_lingyang_hx_change",
+    "VisionSummonEvent": "play_vo_lingyang_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_lingyang_chest",
+    "ScanTreasureBoxEvent": "play_vo_lingyang_scan",
+    "JoinTeamEvent": "play_vo_lingyang_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_lingyang_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_lingyang_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_lingyang_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_lingyang_die",
+    "LowStrengthEvent": "play_vo_lingyang_tired",
+    "BreakUpEventList": [
+      "play_vo_lingyang_rankup01",
+      "play_vo_lingyang_rankup02",
+      "play_vo_lingyang_rankup01",
+      "play_vo_lingyang_rankup02",
+      "play_vo_lingyang_rankup03",
+      "play_vo_lingyang_rankup04",
+      "play_vo_lingyang_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_lingyang_evasion_success",
+    "ParryEvent": "play_vo_lingyang_parry_success",
+    "EnterBattleEvent": "play_vo_lingyang_enter_battle",
+    "UnderAttackEvent": "play_vo_lingyang_behit",
+    "KnockUpEvent": "play_vo_lingyang_behit_fly",
+    "EnterGlideEvent": "play_vo_lingyang_fly",
+    "UseExploreHookEvent": "play_vo_lingyang_hook",
+    "ClimbLeapEvent": "play_vo_lingyang_jump",
+    "AccelerateEvent": "play_vo_lingyang_com_accelerate"
   },
   {
     "Id": 81001202,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAlAMAAPL60wQdAAAAcGxheV92b19jaGl4aWFfY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b19jaGl4aWFfanVtcAATAAAAcGxheV92b19jaGl4aWFfaG9vawASAAAAcGxheV92b19jaGl4aWFfZmx5AAAYAAAAcGxheV92b19jaGl4aWFfYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX2NoaXhpYV9iZWhpdAAAAAAbAAAAcGxheV92b19jaGl4aWFfZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX2NoaXhpYV9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX2NoaXhpYV9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9fY2hpeGlhX3Jhbmt1cDAxABcAAABwbGF5X3ZvX2NoaXhpYV9yYW5rdXAwMgAXAAAAcGxheV92b19jaGl4aWFfcmFua3VwMDEAFwAAAHBsYXlfdm9fY2hpeGlhX3Jhbmt1cDAyABcAAABwbGF5X3ZvX2NoaXhpYV9yYW5rdXAwMwAXAAAAcGxheV92b19jaGl4aWFfcmFua3VwMDQAFwAAAHBsYXlfdm9fY2hpeGlhX3Jhbmt1cDA1ABQAAABwbGF5X3ZvX2NoaXhpYV90aXJlZAAAAAASAAAAcGxheV92b19jaGl4aWFfZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9fY2hpeGlhX2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9fY2hpeGlhX2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b19jaGl4aWFfaHAzMAAYAAAAcGxheV92b19jaGl4aWFfam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX2NoaXhpYV9zY2FuABQAAABwbGF5X3ZvX2NoaXhpYV9jaGVzdAAAAAAYAAAAcGxheV92b19jaGl4aWFfaHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX2NoaXhpYV9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9fY2hpeGlhX2Zhc3RfcnVuABEAAAByb2xlX2ZvbGV5X2NoaXhpYQAAABMAAAByb2xlX2Zvb3RzdGVwX2hlZWxzAAYAAABjaGl4aWEAAA=="
+    "Name": "chixia",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_chixia",
+    "FastClimbEvent": "play_vo_chixia_fast_run",
+    "VisionMorphEvent": "play_vo_chixia_hx_change",
+    "VisionSummonEvent": "play_vo_chixia_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_chixia_chest",
+    "ScanTreasureBoxEvent": "play_vo_chixia_scan",
+    "JoinTeamEvent": "play_vo_chixia_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_chixia_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_chixia_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_chixia_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_chixia_die",
+    "LowStrengthEvent": "play_vo_chixia_tired",
+    "BreakUpEventList": [
+      "play_vo_chixia_rankup01",
+      "play_vo_chixia_rankup02",
+      "play_vo_chixia_rankup01",
+      "play_vo_chixia_rankup02",
+      "play_vo_chixia_rankup03",
+      "play_vo_chixia_rankup04",
+      "play_vo_chixia_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_chixia_evasion_success",
+    "ParryEvent": "play_vo_chixia_parry_success",
+    "EnterBattleEvent": "play_vo_chixia_enter_battle",
+    "UnderAttackEvent": "play_vo_chixia_behit",
+    "KnockUpEvent": "play_vo_chixia_behit_fly",
+    "EnterGlideEvent": "play_vo_chixia_fly",
+    "UseExploreHookEvent": "play_vo_chixia_hook",
+    "ClimbLeapEvent": "play_vo_chixia_jump",
+    "AccelerateEvent": "play_vo_chixia_com_accelerate"
   },
   {
     "Id": 81001203,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHgAAACMAAAAoAAAALQAAADMAAAA4AAAAPwAAAAYAQAAOAEAABgCAAAsAgAAQAIAAMACAADYAgAA7AIAAAADAAAYAwAAMAMAAEgDAABYAwAAcAMAAPP60wQbAAAAcGxheV92b19hbmtlX2NvbV9hY2NlbGVyYXRlABEAAABwbGF5X3ZvX2Fua2VfanVtcAAAABEAAABwbGF5X3ZvX2Fua2VfaG9vawAAABAAAABwbGF5X3ZvX2Fua2VfZmx5AAAAABYAAABwbGF5X3ZvX2Fua2VfYmVoaXRfZmx5AAASAAAAcGxheV92b19hbmtlX2JlaGl0AAAZAAAAcGxheV92b19hbmtlX2VudGVyX2JhdHRsZQAAABoAAABwbGF5X3ZvX2Fua2VfcGFycnlfc3VjY2VzcwAAHAAAAHBsYXlfdm9fYW5rZV9ldmFzaW9uX3N1Y2Nlc3MAAAAABwAAABwAAAA0AAAATAAAAGQAAAB8AAAAlAAAAKwAAAAVAAAAcGxheV92b19hbmtlX3Jhbmt1cDAxAAAAFQAAAHBsYXlfdm9fYW5rZV9yYW5rdXAwMgAAABUAAABwbGF5X3ZvX2Fua2VfcmFua3VwMDEAAAAVAAAAcGxheV92b19hbmtlX3Jhbmt1cDAyAAAAFQAAAHBsYXlfdm9fYW5rZV9yYW5rdXAwMwAAABUAAABwbGF5X3ZvX2Fua2VfcmFua3VwMDQAAAAVAAAAcGxheV92b19hbmtlX3Jhbmt1cDA1AAAAEgAAAHBsYXlfdm9fYW5rZV90aXJlZAAAEAAAAHBsYXlfdm9fYW5rZV9kaWUAAAAAAwAAAAwAAAAsAAAAVAAAALj///8IAAAARgAAABEAAABwbGF5X3ZvX2Fua2VfaHA3MAAAANz///8IAAAAMgAAABEAAABwbGF5X3ZvX2Fua2VfaHA1MAAAAAgADAAIAAQACAAAAAgAAAAeAAAAEQAAAHBsYXlfdm9fYW5rZV9ocDMwAAAAFgAAAHBsYXlfdm9fYW5rZV9qb2luX3RlYW0AABEAAABwbGF5X3ZvX2Fua2Vfc2NhbgAAABIAAABwbGF5X3ZvX2Fua2VfY2hlc3QAABYAAABwbGF5X3ZvX2Fua2VfaHhfc3VtbW9uAAAWAAAAcGxheV92b19hbmtlX2h4X2NoYW5nZQAAFQAAAHBsYXlfdm9fYW5rZV9mYXN0X3J1bgAAAA8AAAByb2xlX2ZvbGV5X2Fua2UAFwAAAHJvbGVfZm9vdHN0ZXBfbWFyeWphbmVzAAQAAABhbmtlAAAAAA=="
+    "Name": "anke",
+    "FootstepEvent": "role_footstep_maryjanes",
+    "FoleyEvent": "role_foley_anke",
+    "FastClimbEvent": "play_vo_anke_fast_run",
+    "VisionMorphEvent": "play_vo_anke_hx_change",
+    "VisionSummonEvent": "play_vo_anke_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_anke_chest",
+    "ScanTreasureBoxEvent": "play_vo_anke_scan",
+    "JoinTeamEvent": "play_vo_anke_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_anke_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_anke_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_anke_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_anke_die",
+    "LowStrengthEvent": "play_vo_anke_tired",
+    "BreakUpEventList": [
+      "play_vo_anke_rankup01",
+      "play_vo_anke_rankup02",
+      "play_vo_anke_rankup01",
+      "play_vo_anke_rankup02",
+      "play_vo_anke_rankup03",
+      "play_vo_anke_rankup04",
+      "play_vo_anke_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_anke_evasion_success",
+    "ParryEvent": "play_vo_anke_parry_success",
+    "EnterBattleEvent": "play_vo_anke_enter_battle",
+    "UnderAttackEvent": "play_vo_anke_behit",
+    "KnockUpEvent": "play_vo_anke_behit_fly",
+    "EnterGlideEvent": "play_vo_anke_fly",
+    "UseExploreHookEvent": "play_vo_anke_hook",
+    "ClimbLeapEvent": "play_vo_anke_jump",
+    "AccelerateEvent": "play_vo_anke_com_accelerate"
   },
   {
     "Id": 81001204,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMAAAADcAAAA9AAAABQBAAA0AQAAVAEAAFACAABoAgAAfAIAAAgDAAAkAwAAPAMAAFQDAABwAwAAjAMAAKgDAAC8AwAA0AMAAPT60wQeAAAAcGxheV92b19tb3RlZmVpX2NvbV9hY2NlbGVyYXRlAAAUAAAAcGxheV92b19tb3RlZmVpX2p1bXAAAAAAFAAAAHBsYXlfdm9fbW90ZWZlaV9ob29rAAAAABMAAABwbGF5X3ZvX21vdGVmZWlfZmx5ABkAAABwbGF5X3ZvX21vdGVmZWlfYmVoaXRfZmx5AAAAFQAAAHBsYXlfdm9fbW90ZWZlaV9iZWhpdAAAABwAAABwbGF5X3ZvX21vdGVmZWlfZW50ZXJfYmF0dGxlAAAAAB0AAABwbGF5X3ZvX21vdGVmZWlfcGFycnlfc3VjY2VzcwAAAB8AAABwbGF5X3ZvX21vdGVmZWlfZXZhc2lvbl9zdWNjZXNzAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGAAAAHBsYXlfdm9fbW90ZWZlaV9yYW5rdXAwMQAAAAAYAAAAcGxheV92b19tb3RlZmVpX3Jhbmt1cDAyAAAAABgAAABwbGF5X3ZvX21vdGVmZWlfcmFua3VwMDEAAAAAGAAAAHBsYXlfdm9fbW90ZWZlaV9yYW5rdXAwMgAAAAAYAAAAcGxheV92b19tb3RlZmVpX3Jhbmt1cDAzAAAAABgAAABwbGF5X3ZvX21vdGVmZWlfcmFua3VwMDQAAAAAGAAAAHBsYXlfdm9fbW90ZWZlaV9yYW5rdXAwNQAAAAAVAAAAcGxheV92b19tb3RlZmVpX3RpcmVkAAAAEwAAAHBsYXlfdm9fbW90ZWZlaV9kaWUAAwAAAAwAAAAwAAAAXAAAALD///8IAAAARgAAABQAAABwbGF5X3ZvX21vdGVmZWlfaHA3MAAAAADY////CAAAADIAAAAUAAAAcGxheV92b19tb3RlZmVpX2hwNTAAAAAACAAMAAgABAAIAAAACAAAAB4AAAAUAAAAcGxheV92b19tb3RlZmVpX2hwMzAAAAAAGQAAAHBsYXlfdm9fbW90ZWZlaV9qb2luX3RlYW0AAAAUAAAAcGxheV92b19tb3RlZmVpX3NjYW4AAAAAFQAAAHBsYXlfdm9fbW90ZWZlaV9jaGVzdAAAABkAAABwbGF5X3ZvX21vdGVmZWlfaHhfc3VtbW9uAAAAGQAAAHBsYXlfdm9fbW90ZWZlaV9oeF9jaGFuZ2UAAAAYAAAAcGxheV92b19tb3RlZmVpX2Zhc3RfcnVuAAAAABIAAAByb2xlX2ZvbGV5X21vdGVmZWkAABMAAAByb2xlX2Zvb3RzdGVwX2Jvb3RzAAcAAABtb3RlZmVpAA=="
+    "Name": "motefei",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_motefei",
+    "FastClimbEvent": "play_vo_motefei_fast_run",
+    "VisionMorphEvent": "play_vo_motefei_hx_change",
+    "VisionSummonEvent": "play_vo_motefei_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_motefei_chest",
+    "ScanTreasureBoxEvent": "play_vo_motefei_scan",
+    "JoinTeamEvent": "play_vo_motefei_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_motefei_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_motefei_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_motefei_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_motefei_die",
+    "LowStrengthEvent": "play_vo_motefei_tired",
+    "BreakUpEventList": [
+      "play_vo_motefei_rankup01",
+      "play_vo_motefei_rankup02",
+      "play_vo_motefei_rankup01",
+      "play_vo_motefei_rankup02",
+      "play_vo_motefei_rankup03",
+      "play_vo_motefei_rankup04",
+      "play_vo_motefei_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_motefei_evasion_success",
+    "ParryEvent": "play_vo_motefei_parry_success",
+    "EnterBattleEvent": "play_vo_motefei_enter_battle",
+    "UnderAttackEvent": "play_vo_motefei_behit",
+    "KnockUpEvent": "play_vo_motefei_behit_fly",
+    "EnterGlideEvent": "play_vo_motefei_fly",
+    "UseExploreHookEvent": "play_vo_motefei_hook",
+    "ClimbLeapEvent": "play_vo_motefei_jump",
+    "AccelerateEvent": "play_vo_motefei_com_accelerate"
   },
   {
     "Id": 81001301,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMAAAADcAAAA9AAAABQBAAA0AQAAVAEAAFACAABoAgAAfAIAAAgDAAAkAwAAPAMAAFQDAABwAwAAjAMAAKgDAAC8AwAA0AMAAFX70wQeAAAAcGxheV92b19rYWthbHVvX2NvbV9hY2NlbGVyYXRlAAAUAAAAcGxheV92b19rYWthbHVvX2p1bXAAAAAAFAAAAHBsYXlfdm9fa2FrYWx1b19ob29rAAAAABMAAABwbGF5X3ZvX2tha2FsdW9fZmx5ABkAAABwbGF5X3ZvX2tha2FsdW9fYmVoaXRfZmx5AAAAFQAAAHBsYXlfdm9fa2FrYWx1b19iZWhpdAAAABwAAABwbGF5X3ZvX2tha2FsdW9fZW50ZXJfYmF0dGxlAAAAAB0AAABwbGF5X3ZvX2tha2FsdW9fcGFycnlfc3VjY2VzcwAAAB8AAABwbGF5X3ZvX2tha2FsdW9fZXZhc2lvbl9zdWNjZXNzAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGAAAAHBsYXlfdm9fa2FrYWx1b19yYW5rdXAwMQAAAAAYAAAAcGxheV92b19rYWthbHVvX3Jhbmt1cDAyAAAAABgAAABwbGF5X3ZvX2tha2FsdW9fcmFua3VwMDEAAAAAGAAAAHBsYXlfdm9fa2FrYWx1b19yYW5rdXAwMgAAAAAYAAAAcGxheV92b19rYWthbHVvX3Jhbmt1cDAzAAAAABgAAABwbGF5X3ZvX2tha2FsdW9fcmFua3VwMDQAAAAAGAAAAHBsYXlfdm9fa2FrYWx1b19yYW5rdXAwNQAAAAAVAAAAcGxheV92b19rYWthbHVvX3RpcmVkAAAAEwAAAHBsYXlfdm9fa2FrYWx1b19kaWUAAwAAAAwAAAAwAAAAXAAAALD///8IAAAARgAAABQAAABwbGF5X3ZvX2tha2FsdW9faHA3MAAAAADY////CAAAADIAAAAUAAAAcGxheV92b19rYWthbHVvX2hwNTAAAAAACAAMAAgABAAIAAAACAAAAB4AAAAUAAAAcGxheV92b19rYWthbHVvX2hwMzAAAAAAGQAAAHBsYXlfdm9fa2FrYWx1b19qb2luX3RlYW0AAAAUAAAAcGxheV92b19rYWthbHVvX3NjYW4AAAAAFQAAAHBsYXlfdm9fa2FrYWx1b19jaGVzdAAAABkAAABwbGF5X3ZvX2tha2FsdW9faHhfc3VtbW9uAAAAGQAAAHBsYXlfdm9fa2FrYWx1b19oeF9jaGFuZ2UAAAAYAAAAcGxheV92b19rYWthbHVvX2Zhc3RfcnVuAAAAABIAAAByb2xlX2ZvbGV5X2tha2FsdW8AABMAAAByb2xlX2Zvb3RzdGVwX2Jvb3RzAAcAAABrYWthbHVvAA=="
+    "Name": "kakaluo",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_kakaluo",
+    "FastClimbEvent": "play_vo_kakaluo_fast_run",
+    "VisionMorphEvent": "play_vo_kakaluo_hx_change",
+    "VisionSummonEvent": "play_vo_kakaluo_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_kakaluo_chest",
+    "ScanTreasureBoxEvent": "play_vo_kakaluo_scan",
+    "JoinTeamEvent": "play_vo_kakaluo_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_kakaluo_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_kakaluo_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_kakaluo_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_kakaluo_die",
+    "LowStrengthEvent": "play_vo_kakaluo_tired",
+    "BreakUpEventList": [
+      "play_vo_kakaluo_rankup01",
+      "play_vo_kakaluo_rankup02",
+      "play_vo_kakaluo_rankup01",
+      "play_vo_kakaluo_rankup02",
+      "play_vo_kakaluo_rankup03",
+      "play_vo_kakaluo_rankup04",
+      "play_vo_kakaluo_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_kakaluo_evasion_success",
+    "ParryEvent": "play_vo_kakaluo_parry_success",
+    "EnterBattleEvent": "play_vo_kakaluo_enter_battle",
+    "UnderAttackEvent": "play_vo_kakaluo_behit",
+    "KnockUpEvent": "play_vo_kakaluo_behit_fly",
+    "EnterGlideEvent": "play_vo_kakaluo_fly",
+    "UseExploreHookEvent": "play_vo_kakaluo_hook",
+    "ClimbLeapEvent": "play_vo_kakaluo_jump",
+    "AccelerateEvent": "play_vo_kakaluo_com_accelerate"
   },
   {
     "Id": 81001302,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAlAMAAFb70wQdAAAAcGxheV92b195aW5saW5fY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b195aW5saW5fanVtcAATAAAAcGxheV92b195aW5saW5faG9vawASAAAAcGxheV92b195aW5saW5fZmx5AAAYAAAAcGxheV92b195aW5saW5fYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX3lpbmxpbl9iZWhpdAAAAAAbAAAAcGxheV92b195aW5saW5fZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX3lpbmxpbl9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX3lpbmxpbl9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9feWlubGluX3Jhbmt1cDAxABcAAABwbGF5X3ZvX3lpbmxpbl9yYW5rdXAwMgAXAAAAcGxheV92b195aW5saW5fcmFua3VwMDEAFwAAAHBsYXlfdm9feWlubGluX3Jhbmt1cDAyABcAAABwbGF5X3ZvX3lpbmxpbl9yYW5rdXAwMwAXAAAAcGxheV92b195aW5saW5fcmFua3VwMDQAFwAAAHBsYXlfdm9feWlubGluX3Jhbmt1cDA1ABQAAABwbGF5X3ZvX3lpbmxpbl90aXJlZAAAAAASAAAAcGxheV92b195aW5saW5fZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9feWlubGluX2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9feWlubGluX2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b195aW5saW5faHAzMAAYAAAAcGxheV92b195aW5saW5fam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX3lpbmxpbl9zY2FuABQAAABwbGF5X3ZvX3lpbmxpbl9jaGVzdAAAAAAYAAAAcGxheV92b195aW5saW5faHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX3lpbmxpbl9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9feWlubGluX2Zhc3RfcnVuABEAAAByb2xlX2ZvbGV5X3lpbmxpbgAAABMAAAByb2xlX2Zvb3RzdGVwX2hlZWxzAAYAAAB5aW5saW4AAA=="
+    "Name": "yinlin",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_yinlin",
+    "FastClimbEvent": "play_vo_yinlin_fast_run",
+    "VisionMorphEvent": "play_vo_yinlin_hx_change",
+    "VisionSummonEvent": "play_vo_yinlin_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_yinlin_chest",
+    "ScanTreasureBoxEvent": "play_vo_yinlin_scan",
+    "JoinTeamEvent": "play_vo_yinlin_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_yinlin_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_yinlin_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_yinlin_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_yinlin_die",
+    "LowStrengthEvent": "play_vo_yinlin_tired",
+    "BreakUpEventList": [
+      "play_vo_yinlin_rankup01",
+      "play_vo_yinlin_rankup02",
+      "play_vo_yinlin_rankup01",
+      "play_vo_yinlin_rankup02",
+      "play_vo_yinlin_rankup03",
+      "play_vo_yinlin_rankup04",
+      "play_vo_yinlin_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_yinlin_evasion_success",
+    "ParryEvent": "play_vo_yinlin_parry_success",
+    "EnterBattleEvent": "play_vo_yinlin_enter_battle",
+    "UnderAttackEvent": "play_vo_yinlin_behit",
+    "KnockUpEvent": "play_vo_yinlin_behit_fly",
+    "EnterGlideEvent": "play_vo_yinlin_fly",
+    "UseExploreHookEvent": "play_vo_yinlin_hook",
+    "ClimbLeapEvent": "play_vo_yinlin_jump",
+    "AccelerateEvent": "play_vo_yinlin_com_accelerate"
   },
   {
     "Id": 81001303,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAlAMAAFf70wQdAAAAcGxheV92b195dWFud3VfY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b195dWFud3VfanVtcAATAAAAcGxheV92b195dWFud3VfaG9vawASAAAAcGxheV92b195dWFud3VfZmx5AAAYAAAAcGxheV92b195dWFud3VfYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX3l1YW53dV9iZWhpdAAAAAAbAAAAcGxheV92b195dWFud3VfZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX3l1YW53dV9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX3l1YW53dV9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9feXVhbnd1X3Jhbmt1cDAxABcAAABwbGF5X3ZvX3l1YW53dV9yYW5rdXAwMgAXAAAAcGxheV92b195dWFud3VfcmFua3VwMDEAFwAAAHBsYXlfdm9feXVhbnd1X3Jhbmt1cDAyABcAAABwbGF5X3ZvX3l1YW53dV9yYW5rdXAwMwAXAAAAcGxheV92b195dWFud3VfcmFua3VwMDQAFwAAAHBsYXlfdm9feXVhbnd1X3Jhbmt1cDA1ABQAAABwbGF5X3ZvX3l1YW53dV90aXJlZAAAAAASAAAAcGxheV92b195dWFud3VfZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9feXVhbnd1X2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9feXVhbnd1X2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b195dWFud3VfaHAzMAAYAAAAcGxheV92b195dWFud3Vfam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX3l1YW53dV9zY2FuABQAAABwbGF5X3ZvX3l1YW53dV9jaGVzdAAAAAAYAAAAcGxheV92b195dWFud3VfaHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX3l1YW53dV9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9feXVhbnd1X2Zhc3RfcnVuABIAAAByb2xlX2ZvbGV5X21vdGVmZWkAABMAAAByb2xlX2Zvb3RzdGVwX2Jvb3RzAAYAAAB5dWFud3UAAA=="
+    "Name": "yuanwu",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_motefei",
+    "FastClimbEvent": "play_vo_yuanwu_fast_run",
+    "VisionMorphEvent": "play_vo_yuanwu_hx_change",
+    "VisionSummonEvent": "play_vo_yuanwu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_yuanwu_chest",
+    "ScanTreasureBoxEvent": "play_vo_yuanwu_scan",
+    "JoinTeamEvent": "play_vo_yuanwu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_yuanwu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_yuanwu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_yuanwu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_yuanwu_die",
+    "LowStrengthEvent": "play_vo_yuanwu_tired",
+    "BreakUpEventList": [
+      "play_vo_yuanwu_rankup01",
+      "play_vo_yuanwu_rankup02",
+      "play_vo_yuanwu_rankup01",
+      "play_vo_yuanwu_rankup02",
+      "play_vo_yuanwu_rankup03",
+      "play_vo_yuanwu_rankup04",
+      "play_vo_yuanwu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_yuanwu_evasion_success",
+    "ParryEvent": "play_vo_yuanwu_parry_success",
+    "EnterBattleEvent": "play_vo_yuanwu_enter_battle",
+    "UnderAttackEvent": "play_vo_yuanwu_behit",
+    "KnockUpEvent": "play_vo_yuanwu_behit_fly",
+    "EnterGlideEvent": "play_vo_yuanwu_fly",
+    "UseExploreHookEvent": "play_vo_yuanwu_hook",
+    "ClimbLeapEvent": "play_vo_yuanwu_jump",
+    "AccelerateEvent": "play_vo_yuanwu_com_accelerate"
   },
   {
     "Id": 81001402,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA+AAAABgBAAA4AQAAXAEAAFgCAABwAgAAiAIAABQDAAAwAwAASAMAAGADAAB8AwAAmAMAALQDAADIAwAA5AMAALr70wQfAAAAcGxheV92b195YW5neWFuZ19jb21fYWNjZWxlcmF0ZQAVAAAAcGxheV92b195YW5neWFuZ19qdW1wAAAAFQAAAHBsYXlfdm9feWFuZ3lhbmdfaG9vawAAABQAAABwbGF5X3ZvX3lhbmd5YW5nX2ZseQAAAAAaAAAAcGxheV92b195YW5neWFuZ19iZWhpdF9mbHkAABYAAABwbGF5X3ZvX3lhbmd5YW5nX2JlaGl0AAAdAAAAcGxheV92b195YW5neWFuZ19lbnRlcl9iYXR0bGUAAAAeAAAAcGxheV92b195YW5neWFuZ19wYXJyeV9zdWNjZXNzAAAgAAAAcGxheV92b195YW5neWFuZ19ldmFzaW9uX3N1Y2Nlc3MAAAAABwAAABwAAAA4AAAAVAAAAHAAAACMAAAAqAAAAMQAAAAZAAAAcGxheV92b195YW5neWFuZ19yYW5rdXAwMQAAABkAAABwbGF5X3ZvX3lhbmd5YW5nX3Jhbmt1cDAyAAAAGQAAAHBsYXlfdm9feWFuZ3lhbmdfcmFua3VwMDEAAAAZAAAAcGxheV92b195YW5neWFuZ19yYW5rdXAwMgAAABkAAABwbGF5X3ZvX3lhbmd5YW5nX3Jhbmt1cDAzAAAAGQAAAHBsYXlfdm9feWFuZ3lhbmdfcmFua3VwMDQAAAAZAAAAcGxheV92b195YW5neWFuZ19yYW5rdXAwNQAAABYAAABwbGF5X3ZvX3lhbmd5YW5nX3RpcmVkAAAUAAAAcGxheV92b195YW5neWFuZ19kaWUAAAAAAwAAAAwAAAAwAAAAXAAAALD///8IAAAARgAAABUAAABwbGF5X3ZvX3lhbmd5YW5nX2hwNzAAAADY////CAAAADIAAAAVAAAAcGxheV92b195YW5neWFuZ19ocDUwAAAACAAMAAgABAAIAAAACAAAAB4AAAAVAAAAcGxheV92b195YW5neWFuZ19ocDMwAAAAGgAAAHBsYXlfdm9feWFuZ3lhbmdfam9pbl90ZWFtAAAVAAAAcGxheV92b195YW5neWFuZ19zY2FuAAAAFgAAAHBsYXlfdm9feWFuZ3lhbmdfY2hlc3QAABoAAABwbGF5X3ZvX3lhbmd5YW5nX2h4X3N1bW1vbgAAGgAAAHBsYXlfdm9feWFuZ3lhbmdfaHhfY2hhbmdlAAAZAAAAcGxheV92b195YW5neWFuZ19mYXN0X3J1bgAAABMAAAByb2xlX2ZvbGV5X3lhbmd5YW5nABgAAAByb2xlX2Zvb3RzdGVwX2Jsb2NraGVlbHMAAAAACAAAAHlhbmd5YW5nAAAAAA=="
+    "Name": "yangyang",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_yangyang",
+    "FastClimbEvent": "play_vo_yangyang_fast_run",
+    "VisionMorphEvent": "play_vo_yangyang_hx_change",
+    "VisionSummonEvent": "play_vo_yangyang_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_yangyang_chest",
+    "ScanTreasureBoxEvent": "play_vo_yangyang_scan",
+    "JoinTeamEvent": "play_vo_yangyang_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_yangyang_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_yangyang_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_yangyang_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_yangyang_die",
+    "LowStrengthEvent": "play_vo_yangyang_tired",
+    "BreakUpEventList": [
+      "play_vo_yangyang_rankup01",
+      "play_vo_yangyang_rankup02",
+      "play_vo_yangyang_rankup01",
+      "play_vo_yangyang_rankup02",
+      "play_vo_yangyang_rankup03",
+      "play_vo_yangyang_rankup04",
+      "play_vo_yangyang_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_yangyang_evasion_success",
+    "ParryEvent": "play_vo_yangyang_parry_success",
+    "EnterBattleEvent": "play_vo_yangyang_enter_battle",
+    "UnderAttackEvent": "play_vo_yangyang_behit",
+    "KnockUpEvent": "play_vo_yangyang_behit_fly",
+    "EnterGlideEvent": "play_vo_yangyang_fly",
+    "UseExploreHookEvent": "play_vo_yangyang_hook",
+    "ClimbLeapEvent": "play_vo_yangyang_jump",
+    "AccelerateEvent": "play_vo_yangyang_com_accelerate"
   },
   {
     "Id": 81001403,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMAAAADcAAAA9AAAABQBAAA0AQAAVAEAAFACAABoAgAAfAIAAAgDAAAkAwAAPAMAAFQDAABwAwAAjAMAAKgDAAC8AwAA0AMAALv70wQeAAAAcGxheV92b19xaXVzaHVpX2NvbV9hY2NlbGVyYXRlAAAUAAAAcGxheV92b19xaXVzaHVpX2p1bXAAAAAAFAAAAHBsYXlfdm9fcWl1c2h1aV9ob29rAAAAABMAAABwbGF5X3ZvX3FpdXNodWlfZmx5ABkAAABwbGF5X3ZvX3FpdXNodWlfYmVoaXRfZmx5AAAAFQAAAHBsYXlfdm9fcWl1c2h1aV9iZWhpdAAAABwAAABwbGF5X3ZvX3FpdXNodWlfZW50ZXJfYmF0dGxlAAAAAB0AAABwbGF5X3ZvX3FpdXNodWlfcGFycnlfc3VjY2VzcwAAAB8AAABwbGF5X3ZvX3FpdXNodWlfZXZhc2lvbl9zdWNjZXNzAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGAAAAHBsYXlfdm9fcWl1c2h1aV9yYW5rdXAwMQAAAAAYAAAAcGxheV92b19xaXVzaHVpX3Jhbmt1cDAyAAAAABgAAABwbGF5X3ZvX3FpdXNodWlfcmFua3VwMDEAAAAAGAAAAHBsYXlfdm9fcWl1c2h1aV9yYW5rdXAwMgAAAAAYAAAAcGxheV92b19xaXVzaHVpX3Jhbmt1cDAzAAAAABgAAABwbGF5X3ZvX3FpdXNodWlfcmFua3VwMDQAAAAAGAAAAHBsYXlfdm9fcWl1c2h1aV9yYW5rdXAwNQAAAAAVAAAAcGxheV92b19xaXVzaHVpX3RpcmVkAAAAEwAAAHBsYXlfdm9fcWl1c2h1aV9kaWUAAwAAAAwAAAAwAAAAXAAAALD///8IAAAARgAAABQAAABwbGF5X3ZvX3FpdXNodWlfaHA3MAAAAADY////CAAAADIAAAAUAAAAcGxheV92b19xaXVzaHVpX2hwNTAAAAAACAAMAAgABAAIAAAACAAAAB4AAAAUAAAAcGxheV92b19xaXVzaHVpX2hwMzAAAAAAGQAAAHBsYXlfdm9fcWl1c2h1aV9qb2luX3RlYW0AAAAUAAAAcGxheV92b19xaXVzaHVpX3NjYW4AAAAAFQAAAHBsYXlfdm9fcWl1c2h1aV9jaGVzdAAAABkAAABwbGF5X3ZvX3FpdXNodWlfaHhfc3VtbW9uAAAAGQAAAHBsYXlfdm9fcWl1c2h1aV9oeF9jaGFuZ2UAAAAYAAAAcGxheV92b19xaXVzaHVpX2Zhc3RfcnVuAAAAABIAAAByb2xlX2ZvbGV5X21vdGVmZWkAABMAAAByb2xlX2Zvb3RzdGVwX2Jvb3RzAAcAAABxaXVzaHVpAA=="
+    "Name": "qiushui",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_motefei",
+    "FastClimbEvent": "play_vo_qiushui_fast_run",
+    "VisionMorphEvent": "play_vo_qiushui_hx_change",
+    "VisionSummonEvent": "play_vo_qiushui_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_qiushui_chest",
+    "ScanTreasureBoxEvent": "play_vo_qiushui_scan",
+    "JoinTeamEvent": "play_vo_qiushui_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_qiushui_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_qiushui_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_qiushui_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_qiushui_die",
+    "LowStrengthEvent": "play_vo_qiushui_tired",
+    "BreakUpEventList": [
+      "play_vo_qiushui_rankup01",
+      "play_vo_qiushui_rankup02",
+      "play_vo_qiushui_rankup01",
+      "play_vo_qiushui_rankup02",
+      "play_vo_qiushui_rankup03",
+      "play_vo_qiushui_rankup04",
+      "play_vo_qiushui_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_qiushui_evasion_success",
+    "ParryEvent": "play_vo_qiushui_parry_success",
+    "EnterBattleEvent": "play_vo_qiushui_enter_battle",
+    "UnderAttackEvent": "play_vo_qiushui_behit",
+    "KnockUpEvent": "play_vo_qiushui_behit_fly",
+    "EnterGlideEvent": "play_vo_qiushui_fly",
+    "UseExploreHookEvent": "play_vo_qiushui_hook",
+    "ClimbLeapEvent": "play_vo_qiushui_jump",
+    "AccelerateEvent": "play_vo_qiushui_com_accelerate"
   },
   {
     "Id": 81001404,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADQAAAA5AAAAAABAAAcAQAAPAEAABwCAAAwAgAARAIAAMQCAADcAgAA8AIAAAQDAAAcAwAANAMAAEwDAABgAwAAdAMAALz70wQcAAAAcGxheV92b19qaXlhbl9jb21fYWNjZWxlcmF0ZQAAAAASAAAAcGxheV92b19qaXlhbl9qdW1wAAASAAAAcGxheV92b19qaXlhbl9ob29rAAARAAAAcGxheV92b19qaXlhbl9mbHkAAAAXAAAAcGxheV92b19qaXlhbl9iZWhpdF9mbHkAEwAAAHBsYXlfdm9faml5YW5fYmVoaXQAGgAAAHBsYXlfdm9faml5YW5fZW50ZXJfYmF0dGxlAAAbAAAAcGxheV92b19qaXlhbl9wYXJyeV9zdWNjZXNzAB0AAABwbGF5X3ZvX2ppeWFuX2V2YXNpb25fc3VjY2VzcwAAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFgAAAHBsYXlfdm9faml5YW5fcmFua3VwMDEAABYAAABwbGF5X3ZvX2ppeWFuX3Jhbmt1cDAyAAAWAAAAcGxheV92b19qaXlhbl9yYW5rdXAwMQAAFgAAAHBsYXlfdm9faml5YW5fcmFua3VwMDIAABYAAABwbGF5X3ZvX2ppeWFuX3Jhbmt1cDAzAAAWAAAAcGxheV92b19qaXlhbl9yYW5rdXAwNAAAFgAAAHBsYXlfdm9faml5YW5fcmFua3VwMDUAABMAAABwbGF5X3ZvX2ppeWFuX3RpcmVkABEAAABwbGF5X3ZvX2ppeWFuX2RpZQAAAAMAAAAMAAAALAAAAFQAAAC4////CAAAAEYAAAASAAAAcGxheV92b19qaXlhbl9ocDcwAADc////CAAAADIAAAASAAAAcGxheV92b19qaXlhbl9ocDUwAAAIAAwACAAEAAgAAAAIAAAAHgAAABIAAABwbGF5X3ZvX2ppeWFuX2hwMzAAABcAAABwbGF5X3ZvX2ppeWFuX2pvaW5fdGVhbQASAAAAcGxheV92b19qaXlhbl9zY2FuAAATAAAAcGxheV92b19qaXlhbl9jaGVzdAAXAAAAcGxheV92b19qaXlhbl9oeF9zdW1tb24AFwAAAHBsYXlfdm9faml5YW5faHhfY2hhbmdlABYAAABwbGF5X3ZvX2ppeWFuX2Zhc3RfcnVuAAAQAAAAcm9sZV9mb2xleV9qaXlhbgAAAAATAAAAcm9sZV9mb290c3RlcF9ib290cwAFAAAAaml5YW4AAAA="
+    "Name": "jiyan",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_jiyan",
+    "FastClimbEvent": "play_vo_jiyan_fast_run",
+    "VisionMorphEvent": "play_vo_jiyan_hx_change",
+    "VisionSummonEvent": "play_vo_jiyan_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_jiyan_chest",
+    "ScanTreasureBoxEvent": "play_vo_jiyan_scan",
+    "JoinTeamEvent": "play_vo_jiyan_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_jiyan_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_jiyan_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_jiyan_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_jiyan_die",
+    "LowStrengthEvent": "play_vo_jiyan_tired",
+    "BreakUpEventList": [
+      "play_vo_jiyan_rankup01",
+      "play_vo_jiyan_rankup02",
+      "play_vo_jiyan_rankup01",
+      "play_vo_jiyan_rankup02",
+      "play_vo_jiyan_rankup03",
+      "play_vo_jiyan_rankup04",
+      "play_vo_jiyan_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_jiyan_evasion_success",
+    "ParryEvent": "play_vo_jiyan_parry_success",
+    "EnterBattleEvent": "play_vo_jiyan_enter_battle",
+    "UnderAttackEvent": "play_vo_jiyan_behit",
+    "KnockUpEvent": "play_vo_jiyan_behit_fly",
+    "EnterGlideEvent": "play_vo_jiyan_fly",
+    "UseExploreHookEvent": "play_vo_jiyan_hook",
+    "ClimbLeapEvent": "play_vo_jiyan_jump",
+    "AccelerateEvent": "play_vo_jiyan_com_accelerate"
   },
   {
     "Id": 81001405,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMAAAADcAAAA9AAAABQBAAA0AQAAVAEAAFACAABoAgAAfAIAAAgDAAAkAwAAPAMAAFQDAABwAwAAjAMAAKgDAAC8AwAA0AMAAL370wQeAAAAcGxheV92b19qaWFueGluX2NvbV9hY2NlbGVyYXRlAAAUAAAAcGxheV92b19qaWFueGluX2p1bXAAAAAAFAAAAHBsYXlfdm9famlhbnhpbl9ob29rAAAAABMAAABwbGF5X3ZvX2ppYW54aW5fZmx5ABkAAABwbGF5X3ZvX2ppYW54aW5fYmVoaXRfZmx5AAAAFQAAAHBsYXlfdm9famlhbnhpbl9iZWhpdAAAABwAAABwbGF5X3ZvX2ppYW54aW5fZW50ZXJfYmF0dGxlAAAAAB0AAABwbGF5X3ZvX2ppYW54aW5fcGFycnlfc3VjY2VzcwAAAB8AAABwbGF5X3ZvX2ppYW54aW5fZXZhc2lvbl9zdWNjZXNzAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGAAAAHBsYXlfdm9famlhbnhpbl9yYW5rdXAwMQAAAAAYAAAAcGxheV92b19qaWFueGluX3Jhbmt1cDAyAAAAABgAAABwbGF5X3ZvX2ppYW54aW5fcmFua3VwMDEAAAAAGAAAAHBsYXlfdm9famlhbnhpbl9yYW5rdXAwMgAAAAAYAAAAcGxheV92b19qaWFueGluX3Jhbmt1cDAzAAAAABgAAABwbGF5X3ZvX2ppYW54aW5fcmFua3VwMDQAAAAAGAAAAHBsYXlfdm9famlhbnhpbl9yYW5rdXAwNQAAAAAVAAAAcGxheV92b19qaWFueGluX3RpcmVkAAAAEwAAAHBsYXlfdm9famlhbnhpbl9kaWUAAwAAAAwAAAAwAAAAXAAAALD///8IAAAARgAAABQAAABwbGF5X3ZvX2ppYW54aW5faHA3MAAAAADY////CAAAADIAAAAUAAAAcGxheV92b19qaWFueGluX2hwNTAAAAAACAAMAAgABAAIAAAACAAAAB4AAAAUAAAAcGxheV92b19qaWFueGluX2hwMzAAAAAAGQAAAHBsYXlfdm9famlhbnhpbl9qb2luX3RlYW0AAAAUAAAAcGxheV92b19qaWFueGluX3NjYW4AAAAAFQAAAHBsYXlfdm9famlhbnhpbl9jaGVzdAAAABkAAABwbGF5X3ZvX2ppYW54aW5faHhfc3VtbW9uAAAAGQAAAHBsYXlfdm9famlhbnhpbl9oeF9jaGFuZ2UAAAAYAAAAcGxheV92b19qaWFueGluX2Zhc3RfcnVuAAAAABIAAAByb2xlX2ZvbGV5X2ppYW54aW4AABMAAAByb2xlX2Zvb3RzdGVwX2hlZWxzAAcAAABqaWFueGluAA=="
+    "Name": "jianxin",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_jianxin",
+    "FastClimbEvent": "play_vo_jianxin_fast_run",
+    "VisionMorphEvent": "play_vo_jianxin_hx_change",
+    "VisionSummonEvent": "play_vo_jianxin_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_jianxin_chest",
+    "ScanTreasureBoxEvent": "play_vo_jianxin_scan",
+    "JoinTeamEvent": "play_vo_jianxin_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_jianxin_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_jianxin_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_jianxin_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_jianxin_die",
+    "LowStrengthEvent": "play_vo_jianxin_tired",
+    "BreakUpEventList": [
+      "play_vo_jianxin_rankup01",
+      "play_vo_jianxin_rankup02",
+      "play_vo_jianxin_rankup01",
+      "play_vo_jianxin_rankup02",
+      "play_vo_jianxin_rankup03",
+      "play_vo_jianxin_rankup04",
+      "play_vo_jianxin_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_jianxin_evasion_success",
+    "ParryEvent": "play_vo_jianxin_parry_success",
+    "EnterBattleEvent": "play_vo_jianxin_enter_battle",
+    "UnderAttackEvent": "play_vo_jianxin_behit",
+    "KnockUpEvent": "play_vo_jianxin_behit_fly",
+    "EnterGlideEvent": "play_vo_jianxin_fly",
+    "UseExploreHookEvent": "play_vo_jianxin_hook",
+    "ClimbLeapEvent": "play_vo_jianxin_jump",
+    "AccelerateEvent": "play_vo_jianxin_com_accelerate"
   },
   {
     "Id": 81001501,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAlAMAAB380wQdAAAAcGxheV92b19uYW56aHVfY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b19uYW56aHVfanVtcAATAAAAcGxheV92b19uYW56aHVfaG9vawASAAAAcGxheV92b19uYW56aHVfZmx5AAAYAAAAcGxheV92b19uYW56aHVfYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX25hbnpodV9iZWhpdAAAAAAbAAAAcGxheV92b19uYW56aHVfZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX25hbnpodV9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX25hbnpodV9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9fbmFuemh1X3Jhbmt1cDAxABcAAABwbGF5X3ZvX25hbnpodV9yYW5rdXAwMgAXAAAAcGxheV92b19uYW56aHVfcmFua3VwMDEAFwAAAHBsYXlfdm9fbmFuemh1X3Jhbmt1cDAyABcAAABwbGF5X3ZvX25hbnpodV9yYW5rdXAwMwAXAAAAcGxheV92b19uYW56aHVfcmFua3VwMDQAFwAAAHBsYXlfdm9fbmFuemh1X3Jhbmt1cDA1ABQAAABwbGF5X3ZvX25hbnpodV90aXJlZAAAAAASAAAAcGxheV92b19uYW56aHVfZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9fbmFuemh1X2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9fbmFuemh1X2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b19uYW56aHVfaHAzMAAYAAAAcGxheV92b19uYW56aHVfam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX25hbnpodV9zY2FuABQAAABwbGF5X3ZvX25hbnpodV9jaGVzdAAAAAAYAAAAcGxheV92b19uYW56aHVfaHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX25hbnpodV9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9fbmFuemh1X2Zhc3RfcnVuABEAAAByb2xlX2ZvbGV5X25hbnpodQAAABMAAAByb2xlX2Zvb3RzdGVwX2Jvb3RzAAYAAABuYW56aHUAAA=="
+    "Name": "nanzhu",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_nanzhu",
+    "FastClimbEvent": "play_vo_nanzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nanzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nanzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nanzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nanzhu_scan",
+    "JoinTeamEvent": "play_vo_nanzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nanzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nanzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nanzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nanzhu_die",
+    "LowStrengthEvent": "play_vo_nanzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup03",
+      "play_vo_nanzhu_rankup04",
+      "play_vo_nanzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nanzhu_evasion_success",
+    "ParryEvent": "play_vo_nanzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nanzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nanzhu_behit",
+    "KnockUpEvent": "play_vo_nanzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nanzhu_fly",
+    "UseExploreHookEvent": "play_vo_nanzhu_hook",
+    "ClimbLeapEvent": "play_vo_nanzhu_jump",
+    "AccelerateEvent": "play_vo_nanzhu_com_accelerate"
   },
   {
     "Id": 81001502,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADQAAAA5AAAAAABAAAcAQAAPAEAABwCAAAwAgAARAIAAMQCAADcAgAA8AIAAAQDAAAcAwAANAMAAEwDAABgAwAAfAMAAB780wQcAAAAcGxheV92b19udnpodV9jb21fYWNjZWxlcmF0ZQAAAAASAAAAcGxheV92b19udnpodV9qdW1wAAASAAAAcGxheV92b19udnpodV9ob29rAAARAAAAcGxheV92b19udnpodV9mbHkAAAAXAAAAcGxheV92b19udnpodV9iZWhpdF9mbHkAEwAAAHBsYXlfdm9fbnZ6aHVfYmVoaXQAGgAAAHBsYXlfdm9fbnZ6aHVfZW50ZXJfYmF0dGxlAAAbAAAAcGxheV92b19udnpodV9wYXJyeV9zdWNjZXNzAB0AAABwbGF5X3ZvX252emh1X2V2YXNpb25fc3VjY2VzcwAAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFgAAAHBsYXlfdm9fbnZ6aHVfcmFua3VwMDEAABYAAABwbGF5X3ZvX252emh1X3Jhbmt1cDAyAAAWAAAAcGxheV92b19udnpodV9yYW5rdXAwMQAAFgAAAHBsYXlfdm9fbnZ6aHVfcmFua3VwMDIAABYAAABwbGF5X3ZvX252emh1X3Jhbmt1cDAzAAAWAAAAcGxheV92b19udnpodV9yYW5rdXAwNAAAFgAAAHBsYXlfdm9fbnZ6aHVfcmFua3VwMDUAABMAAABwbGF5X3ZvX252emh1X3RpcmVkABEAAABwbGF5X3ZvX252emh1X2RpZQAAAAMAAAAMAAAALAAAAFQAAAC4////CAAAAEYAAAASAAAAcGxheV92b19udnpodV9ocDcwAADc////CAAAADIAAAASAAAAcGxheV92b19udnpodV9ocDUwAAAIAAwACAAEAAgAAAAIAAAAHgAAABIAAABwbGF5X3ZvX252emh1X2hwMzAAABcAAABwbGF5X3ZvX252emh1X2pvaW5fdGVhbQASAAAAcGxheV92b19udnpodV9zY2FuAAATAAAAcGxheV92b19udnpodV9jaGVzdAAXAAAAcGxheV92b19udnpodV9oeF9zdW1tb24AFwAAAHBsYXlfdm9fbnZ6aHVfaHhfY2hhbmdlABYAAABwbGF5X3ZvX252emh1X2Zhc3RfcnVuAAAQAAAAcm9sZV9mb2xleV9udnpodQAAAAAYAAAAcm9sZV9mb290c3RlcF9ibG9ja2hlZWxzAAAAAAUAAABudnpodQAAAA=="
+    "Name": "nvzhu",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_nvzhu",
+    "FastClimbEvent": "play_vo_nvzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nvzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nvzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nvzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nvzhu_scan",
+    "JoinTeamEvent": "play_vo_nvzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nvzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nvzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nvzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nvzhu_die",
+    "LowStrengthEvent": "play_vo_nvzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup03",
+      "play_vo_nvzhu_rankup04",
+      "play_vo_nvzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nvzhu_evasion_success",
+    "ParryEvent": "play_vo_nvzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nvzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nvzhu_behit",
+    "KnockUpEvent": "play_vo_nvzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nvzhu_fly",
+    "UseExploreHookEvent": "play_vo_nvzhu_hook",
+    "ClimbLeapEvent": "play_vo_nvzhu_jump",
+    "AccelerateEvent": "play_vo_nvzhu_com_accelerate"
   },
   {
     "Id": 81001503,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA+AAAABgBAAA4AQAAXAEAAFgCAABwAgAAiAIAABQDAAAwAwAASAMAAGADAAB8AwAAmAMAALQDAADIAwAA4AMAAB/80wQfAAAAcGxheV92b193ZWlsaW5haV9jb21fYWNjZWxlcmF0ZQAVAAAAcGxheV92b193ZWlsaW5haV9qdW1wAAAAFQAAAHBsYXlfdm9fd2VpbGluYWlfaG9vawAAABQAAABwbGF5X3ZvX3dlaWxpbmFpX2ZseQAAAAAaAAAAcGxheV92b193ZWlsaW5haV9iZWhpdF9mbHkAABYAAABwbGF5X3ZvX3dlaWxpbmFpX2JlaGl0AAAdAAAAcGxheV92b193ZWlsaW5haV9lbnRlcl9iYXR0bGUAAAAeAAAAcGxheV92b193ZWlsaW5haV9wYXJyeV9zdWNjZXNzAAAgAAAAcGxheV92b193ZWlsaW5haV9ldmFzaW9uX3N1Y2Nlc3MAAAAABwAAABwAAAA4AAAAVAAAAHAAAACMAAAAqAAAAMQAAAAZAAAAcGxheV92b193ZWlsaW5haV9yYW5rdXAwMQAAABkAAABwbGF5X3ZvX3dlaWxpbmFpX3Jhbmt1cDAyAAAAGQAAAHBsYXlfdm9fd2VpbGluYWlfcmFua3VwMDEAAAAZAAAAcGxheV92b193ZWlsaW5haV9yYW5rdXAwMgAAABkAAABwbGF5X3ZvX3dlaWxpbmFpX3Jhbmt1cDAzAAAAGQAAAHBsYXlfdm9fd2VpbGluYWlfcmFua3VwMDQAAAAZAAAAcGxheV92b193ZWlsaW5haV9yYW5rdXAwNQAAABYAAABwbGF5X3ZvX3dlaWxpbmFpX3RpcmVkAAAUAAAAcGxheV92b193ZWlsaW5haV9kaWUAAAAAAwAAAAwAAAAwAAAAXAAAALD///8IAAAARgAAABUAAABwbGF5X3ZvX3dlaWxpbmFpX2hwNzAAAADY////CAAAADIAAAAVAAAAcGxheV92b193ZWlsaW5haV9ocDUwAAAACAAMAAgABAAIAAAACAAAAB4AAAAVAAAAcGxheV92b193ZWlsaW5haV9ocDMwAAAAGgAAAHBsYXlfdm9fd2VpbGluYWlfam9pbl90ZWFtAAAVAAAAcGxheV92b193ZWlsaW5haV9zY2FuAAAAFgAAAHBsYXlfdm9fd2VpbGluYWlfY2hlc3QAABoAAABwbGF5X3ZvX3dlaWxpbmFpX2h4X3N1bW1vbgAAGgAAAHBsYXlfdm9fd2VpbGluYWlfaHhfY2hhbmdlAAAZAAAAcGxheV92b193ZWlsaW5haV9mYXN0X3J1bgAAABMAAAByb2xlX2ZvbGV5X3dlaWxpbmFpABcAAAByb2xlX2Zvb3RzdGVwX21hcnlqYW5lcwAIAAAAd2VpbGluYWkAAAAA"
+    "Name": "weilinai",
+    "FootstepEvent": "role_footstep_maryjanes",
+    "FoleyEvent": "role_foley_weilinai",
+    "FastClimbEvent": "play_vo_weilinai_fast_run",
+    "VisionMorphEvent": "play_vo_weilinai_hx_change",
+    "VisionSummonEvent": "play_vo_weilinai_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_weilinai_chest",
+    "ScanTreasureBoxEvent": "play_vo_weilinai_scan",
+    "JoinTeamEvent": "play_vo_weilinai_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_weilinai_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_weilinai_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_weilinai_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_weilinai_die",
+    "LowStrengthEvent": "play_vo_weilinai_tired",
+    "BreakUpEventList": [
+      "play_vo_weilinai_rankup01",
+      "play_vo_weilinai_rankup02",
+      "play_vo_weilinai_rankup01",
+      "play_vo_weilinai_rankup02",
+      "play_vo_weilinai_rankup03",
+      "play_vo_weilinai_rankup04",
+      "play_vo_weilinai_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_weilinai_evasion_success",
+    "ParryEvent": "play_vo_weilinai_parry_success",
+    "EnterBattleEvent": "play_vo_weilinai_enter_battle",
+    "UnderAttackEvent": "play_vo_weilinai_behit",
+    "KnockUpEvent": "play_vo_weilinai_behit_fly",
+    "EnterGlideEvent": "play_vo_weilinai_fly",
+    "UseExploreHookEvent": "play_vo_weilinai_hook",
+    "ClimbLeapEvent": "play_vo_weilinai_jump",
+    "AccelerateEvent": "play_vo_weilinai_com_accelerate"
   },
   {
     "Id": 81001601,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADQAAAA5AAAAAABAAAcAQAAPAEAABwCAAAwAgAARAIAAMQCAADcAgAA8AIAAAQDAAAcAwAANAMAAEwDAABgAwAAdAMAAIH80wQcAAAAcGxheV92b190YW9xaV9jb21fYWNjZWxlcmF0ZQAAAAASAAAAcGxheV92b190YW9xaV9qdW1wAAASAAAAcGxheV92b190YW9xaV9ob29rAAARAAAAcGxheV92b190YW9xaV9mbHkAAAAXAAAAcGxheV92b190YW9xaV9iZWhpdF9mbHkAEwAAAHBsYXlfdm9fdGFvcWlfYmVoaXQAGgAAAHBsYXlfdm9fdGFvcWlfZW50ZXJfYmF0dGxlAAAbAAAAcGxheV92b190YW9xaV9wYXJyeV9zdWNjZXNzAB0AAABwbGF5X3ZvX3Rhb3FpX2V2YXNpb25fc3VjY2VzcwAAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFgAAAHBsYXlfdm9fdGFvcWlfcmFua3VwMDEAABYAAABwbGF5X3ZvX3Rhb3FpX3Jhbmt1cDAyAAAWAAAAcGxheV92b190YW9xaV9yYW5rdXAwMQAAFgAAAHBsYXlfdm9fdGFvcWlfcmFua3VwMDIAABYAAABwbGF5X3ZvX3Rhb3FpX3Jhbmt1cDAzAAAWAAAAcGxheV92b190YW9xaV9yYW5rdXAwNAAAFgAAAHBsYXlfdm9fdGFvcWlfcmFua3VwMDUAABMAAABwbGF5X3ZvX3Rhb3FpX3RpcmVkABEAAABwbGF5X3ZvX3Rhb3FpX2RpZQAAAAMAAAAMAAAALAAAAFQAAAC4////CAAAAEYAAAASAAAAcGxheV92b190YW9xaV9ocDcwAADc////CAAAADIAAAASAAAAcGxheV92b190YW9xaV9ocDUwAAAIAAwACAAEAAgAAAAIAAAAHgAAABIAAABwbGF5X3ZvX3Rhb3FpX2hwMzAAABcAAABwbGF5X3ZvX3Rhb3FpX2pvaW5fdGVhbQASAAAAcGxheV92b190YW9xaV9zY2FuAAATAAAAcGxheV92b190YW9xaV9jaGVzdAAXAAAAcGxheV92b190YW9xaV9oeF9zdW1tb24AFwAAAHBsYXlfdm9fdGFvcWlfaHhfY2hhbmdlABYAAABwbGF5X3ZvX3Rhb3FpX2Zhc3RfcnVuAAAQAAAAcm9sZV9mb2xleV90YW9xaQAAAAATAAAAcm9sZV9mb290c3RlcF9ib290cwAFAAAAdGFvcWkAAAA="
+    "Name": "taoqi",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_taoqi",
+    "FastClimbEvent": "play_vo_taoqi_fast_run",
+    "VisionMorphEvent": "play_vo_taoqi_hx_change",
+    "VisionSummonEvent": "play_vo_taoqi_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_taoqi_chest",
+    "ScanTreasureBoxEvent": "play_vo_taoqi_scan",
+    "JoinTeamEvent": "play_vo_taoqi_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_taoqi_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_taoqi_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_taoqi_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_taoqi_die",
+    "LowStrengthEvent": "play_vo_taoqi_tired",
+    "BreakUpEventList": [
+      "play_vo_taoqi_rankup01",
+      "play_vo_taoqi_rankup02",
+      "play_vo_taoqi_rankup01",
+      "play_vo_taoqi_rankup02",
+      "play_vo_taoqi_rankup03",
+      "play_vo_taoqi_rankup04",
+      "play_vo_taoqi_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_taoqi_evasion_success",
+    "ParryEvent": "play_vo_taoqi_parry_success",
+    "EnterBattleEvent": "play_vo_taoqi_enter_battle",
+    "UnderAttackEvent": "play_vo_taoqi_behit",
+    "KnockUpEvent": "play_vo_taoqi_behit_fly",
+    "EnterGlideEvent": "play_vo_taoqi_fly",
+    "UseExploreHookEvent": "play_vo_taoqi_hook",
+    "ClimbLeapEvent": "play_vo_taoqi_jump",
+    "AccelerateEvent": "play_vo_taoqi_com_accelerate"
   },
   {
     "Id": 81001602,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAnAMAAIL80wQdAAAAcGxheV92b19kYW5qaW5fY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b19kYW5qaW5fanVtcAATAAAAcGxheV92b19kYW5qaW5faG9vawASAAAAcGxheV92b19kYW5qaW5fZmx5AAAYAAAAcGxheV92b19kYW5qaW5fYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX2Rhbmppbl9iZWhpdAAAAAAbAAAAcGxheV92b19kYW5qaW5fZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX2Rhbmppbl9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX2Rhbmppbl9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9fZGFuamluX3Jhbmt1cDAxABcAAABwbGF5X3ZvX2Rhbmppbl9yYW5rdXAwMgAXAAAAcGxheV92b19kYW5qaW5fcmFua3VwMDEAFwAAAHBsYXlfdm9fZGFuamluX3Jhbmt1cDAyABcAAABwbGF5X3ZvX2Rhbmppbl9yYW5rdXAwMwAXAAAAcGxheV92b19kYW5qaW5fcmFua3VwMDQAFwAAAHBsYXlfdm9fZGFuamluX3Jhbmt1cDA1ABQAAABwbGF5X3ZvX2Rhbmppbl90aXJlZAAAAAASAAAAcGxheV92b19kYW5qaW5fZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9fZGFuamluX2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9fZGFuamluX2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b19kYW5qaW5faHAzMAAYAAAAcGxheV92b19kYW5qaW5fam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX2Rhbmppbl9zY2FuABQAAABwbGF5X3ZvX2Rhbmppbl9jaGVzdAAAAAAYAAAAcGxheV92b19kYW5qaW5faHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX2Rhbmppbl9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9fZGFuamluX2Zhc3RfcnVuABEAAAByb2xlX2ZvbGV5X2RhbmppbgAAABgAAAByb2xlX2Zvb3RzdGVwX2Jsb2NraGVlbHMAAAAABgAAAGRhbmppbgAA"
+    "Name": "danjin",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_danjin",
+    "FastClimbEvent": "play_vo_danjin_fast_run",
+    "VisionMorphEvent": "play_vo_danjin_hx_change",
+    "VisionSummonEvent": "play_vo_danjin_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_danjin_chest",
+    "ScanTreasureBoxEvent": "play_vo_danjin_scan",
+    "JoinTeamEvent": "play_vo_danjin_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_danjin_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_danjin_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_danjin_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_danjin_die",
+    "LowStrengthEvent": "play_vo_danjin_tired",
+    "BreakUpEventList": [
+      "play_vo_danjin_rankup01",
+      "play_vo_danjin_rankup02",
+      "play_vo_danjin_rankup01",
+      "play_vo_danjin_rankup02",
+      "play_vo_danjin_rankup03",
+      "play_vo_danjin_rankup04",
+      "play_vo_danjin_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_danjin_evasion_success",
+    "ParryEvent": "play_vo_danjin_parry_success",
+    "EnterBattleEvent": "play_vo_danjin_enter_battle",
+    "UnderAttackEvent": "play_vo_danjin_behit",
+    "KnockUpEvent": "play_vo_danjin_behit_fly",
+    "EnterGlideEvent": "play_vo_danjin_fly",
+    "UseExploreHookEvent": "play_vo_danjin_hook",
+    "ClimbLeapEvent": "play_vo_danjin_jump",
+    "AccelerateEvent": "play_vo_danjin_com_accelerate"
   },
   {
     "Id": 81001604,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADQAAAA5AAAAAABAAAcAQAAPAEAABwCAAAwAgAARAIAAMQCAADcAgAA8AIAAAQDAAAcAwAANAMAAEwDAABgAwAAfAMAAIT80wQcAAAAcGxheV92b19udnpodV9jb21fYWNjZWxlcmF0ZQAAAAASAAAAcGxheV92b19udnpodV9qdW1wAAASAAAAcGxheV92b19udnpodV9ob29rAAARAAAAcGxheV92b19udnpodV9mbHkAAAAXAAAAcGxheV92b19udnpodV9iZWhpdF9mbHkAEwAAAHBsYXlfdm9fbnZ6aHVfYmVoaXQAGgAAAHBsYXlfdm9fbnZ6aHVfZW50ZXJfYmF0dGxlAAAbAAAAcGxheV92b19udnpodV9wYXJyeV9zdWNjZXNzAB0AAABwbGF5X3ZvX252emh1X2V2YXNpb25fc3VjY2VzcwAAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFgAAAHBsYXlfdm9fbnZ6aHVfcmFua3VwMDEAABYAAABwbGF5X3ZvX252emh1X3Jhbmt1cDAyAAAWAAAAcGxheV92b19udnpodV9yYW5rdXAwMQAAFgAAAHBsYXlfdm9fbnZ6aHVfcmFua3VwMDIAABYAAABwbGF5X3ZvX252emh1X3Jhbmt1cDAzAAAWAAAAcGxheV92b19udnpodV9yYW5rdXAwNAAAFgAAAHBsYXlfdm9fbnZ6aHVfcmFua3VwMDUAABMAAABwbGF5X3ZvX252emh1X3RpcmVkABEAAABwbGF5X3ZvX252emh1X2RpZQAAAAMAAAAMAAAALAAAAFQAAAC4////CAAAAEYAAAASAAAAcGxheV92b19udnpodV9ocDcwAADc////CAAAADIAAAASAAAAcGxheV92b19udnpodV9ocDUwAAAIAAwACAAEAAgAAAAIAAAAHgAAABIAAABwbGF5X3ZvX252emh1X2hwMzAAABcAAABwbGF5X3ZvX252emh1X2pvaW5fdGVhbQASAAAAcGxheV92b19udnpodV9zY2FuAAATAAAAcGxheV92b19udnpodV9jaGVzdAAXAAAAcGxheV92b19udnpodV9oeF9zdW1tb24AFwAAAHBsYXlfdm9fbnZ6aHVfaHhfY2hhbmdlABYAAABwbGF5X3ZvX252emh1X2Zhc3RfcnVuAAAQAAAAcm9sZV9mb2xleV9udnpodQAAAAAYAAAAcm9sZV9mb290c3RlcF9ibG9ja2hlZWxzAAAAAAUAAABudnpodQAAAA=="
+    "Name": "nvzhu",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_nvzhu",
+    "FastClimbEvent": "play_vo_nvzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nvzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nvzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nvzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nvzhu_scan",
+    "JoinTeamEvent": "play_vo_nvzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nvzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nvzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nvzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nvzhu_die",
+    "LowStrengthEvent": "play_vo_nvzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup03",
+      "play_vo_nvzhu_rankup04",
+      "play_vo_nvzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nvzhu_evasion_success",
+    "ParryEvent": "play_vo_nvzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nvzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nvzhu_behit",
+    "KnockUpEvent": "play_vo_nvzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nvzhu_fly",
+    "UseExploreHookEvent": "play_vo_nvzhu_hook",
+    "ClimbLeapEvent": "play_vo_nvzhu_jump",
+    "AccelerateEvent": "play_vo_nvzhu_com_accelerate"
   },
   {
     "Id": 81001605,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAlAMAAIX80wQdAAAAcGxheV92b19uYW56aHVfY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b19uYW56aHVfanVtcAATAAAAcGxheV92b19uYW56aHVfaG9vawASAAAAcGxheV92b19uYW56aHVfZmx5AAAYAAAAcGxheV92b19uYW56aHVfYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX25hbnpodV9iZWhpdAAAAAAbAAAAcGxheV92b19uYW56aHVfZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX25hbnpodV9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX25hbnpodV9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9fbmFuemh1X3Jhbmt1cDAxABcAAABwbGF5X3ZvX25hbnpodV9yYW5rdXAwMgAXAAAAcGxheV92b19uYW56aHVfcmFua3VwMDEAFwAAAHBsYXlfdm9fbmFuemh1X3Jhbmt1cDAyABcAAABwbGF5X3ZvX25hbnpodV9yYW5rdXAwMwAXAAAAcGxheV92b19uYW56aHVfcmFua3VwMDQAFwAAAHBsYXlfdm9fbmFuemh1X3Jhbmt1cDA1ABQAAABwbGF5X3ZvX25hbnpodV90aXJlZAAAAAASAAAAcGxheV92b19uYW56aHVfZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9fbmFuemh1X2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9fbmFuemh1X2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b19uYW56aHVfaHAzMAAYAAAAcGxheV92b19uYW56aHVfam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX25hbnpodV9zY2FuABQAAABwbGF5X3ZvX25hbnpodV9jaGVzdAAAAAAYAAAAcGxheV92b19uYW56aHVfaHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX25hbnpodV9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9fbmFuemh1X2Zhc3RfcnVuABEAAAByb2xlX2ZvbGV5X25hbnpodQAAABMAAAByb2xlX2Zvb3RzdGVwX2Jvb3RzAAYAAABuYW56aHUAAA=="
+    "Name": "nanzhu",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_nanzhu",
+    "FastClimbEvent": "play_vo_nanzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nanzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nanzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nanzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nanzhu_scan",
+    "JoinTeamEvent": "play_vo_nanzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nanzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nanzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nanzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nanzhu_die",
+    "LowStrengthEvent": "play_vo_nanzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup03",
+      "play_vo_nanzhu_rankup04",
+      "play_vo_nanzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nanzhu_evasion_success",
+    "ParryEvent": "play_vo_nanzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nanzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nanzhu_behit",
+    "KnockUpEvent": "play_vo_nanzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nanzhu_fly",
+    "UseExploreHookEvent": "play_vo_nanzhu_hook",
+    "ClimbLeapEvent": "play_vo_nanzhu_jump",
+    "AccelerateEvent": "play_vo_nanzhu_com_accelerate"
   },
   {
     "Id": 81001304,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA+AAAABQBAAA0AQAAVAEAAFACAABoAgAAgAIAABgDAAA0AwAATAMAAGgDAACEAwAAoAMAALwDAADMAwAA6AMAAFj70wQcAAAAcGxheV92b19qaW54aV9jb21fYWNjZWxlcmF0ZQAAAAAWAAAAcGxheV92b19qaW54aV9jb21fanVtcAAAFgAAAHBsYXlfdm9famlueGlfY29tX2hvb2sAABUAAABwbGF5X3ZvX2ppbnhpX2NvbV9mbHkAAAAaAAAAcGxheV92b19qaW54aV9jb21fYmVoaXRmbHkAABcAAABwbGF5X3ZvX2ppbnhpX2NvbV9iZWhpdAAYAAAAcGxheV92b19qaW54aV9jb21fZW5nYWdlAAAAABwAAABwbGF5X3ZvX2ppbnhpX2JhdF9jb3VudGVyYXRrAAAAABwAAABwbGF5X3ZvX2ppbnhpX2JhdF9saW1pdGRvZGdlAAAAAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGgAAAHBsYXlfdm9famlueGlfc3lzX3Jhbmt1cDAxAAAaAAAAcGxheV92b19qaW54aV9zeXNfcmFua3VwMDIAABoAAABwbGF5X3ZvX2ppbnhpX3N5c19yYW5rdXAwMQAAGgAAAHBsYXlfdm9famlueGlfc3lzX3Jhbmt1cDAyAAAaAAAAcGxheV92b19qaW54aV9zeXNfcmFua3VwMDMAABoAAABwbGF5X3ZvX2ppbnhpX3N5c19yYW5rdXAwNAAAGgAAAHBsYXlfdm9famlueGlfc3lzX3Jhbmt1cDA1AAAXAAAAcGxheV92b19qaW54aV9jb21fdGlyZWQAFQAAAHBsYXlfdm9famlueGlfY29tX2RpZQAAAAMAAAAMAAAANAAAAGQAAACo////CAAAAEYAAAAaAAAAcGxheV92b19qaW54aV9jb21faHBkb3duMDEAANT///8IAAAAMgAAABoAAABwbGF5X3ZvX2ppbnhpX2NvbV9ocGRvd24wMgAACAAMAAgABAAIAAAACAAAAB4AAAAaAAAAcGxheV92b19qaW54aV9jb21faHBkb3duMDMAABoAAABwbGF5X3ZvX2ppbnhpX3N5c19qb2ludGVhbQAAFgAAAHBsYXlfdm9famlueGlfY29tX3NjYW4AABkAAABwbGF5X3ZvX2ppbnhpX2NvbV9vcGVuYm94AAAAGgAAAHBsYXlfdm9famlueGlfYmF0X2h4c3VtbW9uAAAaAAAAcGxheV92b19qaW54aV9iYXRfaHhjaGFuZ2UAABsAAABwbGF5X3ZvX2ppbnhpX2NvbV9mYXN0Y2xpbWIADwAAAHJvbGVfZm9sZXlfYW5rZQAYAAAAcm9sZV9mb290c3RlcF9ibG9ja2hlZWxzAAAAAAUAAABqaW54aQAAAA=="
+    "Name": "jinxi",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_anke",
+    "FastClimbEvent": "play_vo_jinxi_com_fastclimb",
+    "VisionMorphEvent": "play_vo_jinxi_bat_hxchange",
+    "VisionSummonEvent": "play_vo_jinxi_bat_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_jinxi_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_jinxi_com_scan",
+    "JoinTeamEvent": "play_vo_jinxi_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_jinxi_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_jinxi_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_jinxi_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_jinxi_com_die",
+    "LowStrengthEvent": "play_vo_jinxi_com_tired",
+    "BreakUpEventList": [
+      "play_vo_jinxi_sys_rankup01",
+      "play_vo_jinxi_sys_rankup02",
+      "play_vo_jinxi_sys_rankup01",
+      "play_vo_jinxi_sys_rankup02",
+      "play_vo_jinxi_sys_rankup03",
+      "play_vo_jinxi_sys_rankup04",
+      "play_vo_jinxi_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_jinxi_bat_limitdodge",
+    "ParryEvent": "play_vo_jinxi_bat_counteratk",
+    "EnterBattleEvent": "play_vo_jinxi_com_engage",
+    "UnderAttackEvent": "play_vo_jinxi_com_behit",
+    "KnockUpEvent": "play_vo_jinxi_com_behitfly",
+    "EnterGlideEvent": "play_vo_jinxi_com_fly",
+    "UseExploreHookEvent": "play_vo_jinxi_com_hook",
+    "ClimbLeapEvent": "play_vo_jinxi_com_jump",
+    "AccelerateEvent": "play_vo_jinxi_com_accelerate"
   },
   {
     "Id": 81001205,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAAMwAAADsAAAACAEAACQBAABEAQAAZAEAAHwCAACYAgAAsAIAAFQDAAB0AwAAkAMAAKwDAADMAwAA7AMAAAwEAAAcBAAAMAQAAPX60wQeAAAAcGxheV92b19jaGFuZ2xpX2NvbV9hY2NlbGVyYXRlAAAYAAAAcGxheV92b19jaGFuZ2xpX2NvbV9qdW1wAAAAABgAAABwbGF5X3ZvX2NoYW5nbGlfY29tX2hvb2sAAAAAFwAAAHBsYXlfdm9fY2hhbmdsaV9jb21fZmx5ABwAAABwbGF5X3ZvX2NoYW5nbGlfY29tX2JlaGl0Zmx5AAAAABkAAABwbGF5X3ZvX2NoYW5nbGlfY29tX2JlaGl0AAAAGgAAAHBsYXlfdm9fY2hhbmdsaV9jb21fZW5nYWdlAAAeAAAAcGxheV92b19jaGFuZ2xpX2JhdF9jb3VudGVyYXRrAAAeAAAAcGxheV92b19jaGFuZ2xpX2JhdF9saW1pdGRvZGdlAAAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAzAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDA0AAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDA1AAAAABkAAABwbGF5X3ZvX2NoYW5nbGlfY29tX3RpcmVkAAAAFwAAAHBsYXlfdm9fY2hhbmdsaV9jb21fZGllAAMAAAAMAAAAOAAAAGwAAACg////CAAAAEYAAAAcAAAAcGxheV92b19jaGFuZ2xpX2NvbV9ocGRvd24wMQAAAADQ////CAAAADIAAAAcAAAAcGxheV92b19jaGFuZ2xpX2NvbV9ocGRvd24wMgAAAAAIAAwACAAEAAgAAAAIAAAAHgAAABwAAABwbGF5X3ZvX2NoYW5nbGlfY29tX2hwZG93bjAzAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX2pvaW50ZWFtAAAAABgAAABwbGF5X3ZvX2NoYW5nbGlfY29tX3NjYW4AAAAAGwAAAHBsYXlfdm9fY2hhbmdsaV9jb21fb3BlbmJveAAcAAAAcGxheV92b19jaGFuZ2xpX2JhdF9oeHN1bW1vbgAAAAAcAAAAcGxheV92b19jaGFuZ2xpX2JhdF9oeGNoYW5nZQAAAAAdAAAAcGxheV92b19jaGFuZ2xpX2NvbV9mYXN0Y2xpbWIAAAAPAAAAcm9sZV9mb2xleV9hbmtlABMAAAByb2xlX2Zvb3RzdGVwX2hlZWxzAAcAAABjaGFuZ2xpAA=="
+    "Name": "changli",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_anke",
+    "FastClimbEvent": "play_vo_changli_com_fastclimb",
+    "VisionMorphEvent": "play_vo_changli_bat_hxchange",
+    "VisionSummonEvent": "play_vo_changli_bat_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_changli_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_changli_com_scan",
+    "JoinTeamEvent": "play_vo_changli_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_changli_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_changli_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_changli_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_changli_com_die",
+    "LowStrengthEvent": "play_vo_changli_com_tired",
+    "BreakUpEventList": [
+      "play_vo_changli_sys_rankup01",
+      "play_vo_changli_sys_rankup02",
+      "play_vo_changli_sys_rankup01",
+      "play_vo_changli_sys_rankup02",
+      "play_vo_changli_sys_rankup03",
+      "play_vo_changli_sys_rankup04",
+      "play_vo_changli_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_changli_bat_limitdodge",
+    "ParryEvent": "play_vo_changli_bat_counteratk",
+    "EnterBattleEvent": "play_vo_changli_com_engage",
+    "UnderAttackEvent": "play_vo_changli_com_behit",
+    "KnockUpEvent": "play_vo_changli_com_behitfly",
+    "EnterGlideEvent": "play_vo_changli_com_fly",
+    "UseExploreHookEvent": "play_vo_changli_com_hook",
+    "ClimbLeapEvent": "play_vo_changli_com_jump",
+    "AccelerateEvent": "play_vo_changli_com_accelerate"
   },
   {
     "Id": 81001305,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAIAAAACcAAAAuAAAANQAAAD0AAAAFAEAADQBAABYAQAAfAEAAJQCAAC0AgAA0AIAAHQDAACUAwAAsAMAANADAADwAwAAEAQAADQEAABIBAAAXAQAAFn70wQhAAAAcGxheV92b194aWFuZ2xpeWFvX2NvbV9hY2NlbGVyYXRlAAAAGwAAAHBsYXlfdm9feGlhbmdsaXlhb19jb21fanVtcAAbAAAAcGxheV92b194aWFuZ2xpeWFvX2NvbV9ob29rABoAAABwbGF5X3ZvX3hpYW5nbGl5YW9fY29tX2ZseQAAHwAAAHBsYXlfdm9feGlhbmdsaXlhb19jb21fYmVoaXRmbHkAHAAAAHBsYXlfdm9feGlhbmdsaXlhb19jb21fYmVoaXQAAAAAHQAAAHBsYXlfdm9feGlhbmdsaXlhb19jb21fZW5nYWdlAAAAIQAAAHBsYXlfdm9feGlhbmdsaXlhb19iYXRfY291bnRlcmF0awAAACEAAABwbGF5X3ZvX3hpYW5nbGl5YW9fYmF0X2xpbWl0ZG9kZ2UAAAAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAAB8AAABwbGF5X3ZvX3hpYW5nbGl5YW9fc3lzX3Jhbmt1cDAxAB8AAABwbGF5X3ZvX3hpYW5nbGl5YW9fc3lzX3Jhbmt1cDAyAB8AAABwbGF5X3ZvX3hpYW5nbGl5YW9fc3lzX3Jhbmt1cDAxAB8AAABwbGF5X3ZvX3hpYW5nbGl5YW9fc3lzX3Jhbmt1cDAyAB8AAABwbGF5X3ZvX3hpYW5nbGl5YW9fc3lzX3Jhbmt1cDAzAB8AAABwbGF5X3ZvX3hpYW5nbGl5YW9fc3lzX3Jhbmt1cDA0AB8AAABwbGF5X3ZvX3hpYW5nbGl5YW9fc3lzX3Jhbmt1cDA1ABwAAABwbGF5X3ZvX3hpYW5nbGl5YW9fY29tX3RpcmVkAAAAABoAAABwbGF5X3ZvX3hpYW5nbGl5YW9fY29tX2RpZQAAAwAAAAwAAAA4AAAAbAAAAKD///8IAAAARgAAAB8AAABwbGF5X3ZvX3hpYW5nbGl5YW9fY29tX2hwZG93bjAxAND///8IAAAAMgAAAB8AAABwbGF5X3ZvX3hpYW5nbGl5YW9fY29tX2hwZG93bjAyAAgADAAIAAQACAAAAAgAAAAeAAAAHwAAAHBsYXlfdm9feGlhbmdsaXlhb19jb21faHBkb3duMDMAHwAAAHBsYXlfdm9feGlhbmdsaXlhb19zeXNfam9pbnRlYW0AGwAAAHBsYXlfdm9feGlhbmdsaXlhb19jb21fc2NhbgAeAAAAcGxheV92b194aWFuZ2xpeWFvX2NvbV9vcGVuYm94AAAfAAAAcGxheV92b194aWFuZ2xpeWFvX2JhdF9oeHN1bW1vbgAfAAAAcGxheV92b194aWFuZ2xpeWFvX2JhdF9oeGNoYW5nZQAgAAAAcGxheV92b194aWFuZ2xpeWFvX2NvbV9mYXN0Y2xpbWIAAAAAEgAAAHJvbGVfZm9sZXlfbW90ZWZlaQAAEwAAAHJvbGVfZm9vdHN0ZXBfYm9vdHMACgAAAHhpYW5nbGl5YW8AAA=="
+    "Name": "xiangliyao",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_motefei",
+    "FastClimbEvent": "play_vo_xiangliyao_com_fastclimb",
+    "VisionMorphEvent": "play_vo_xiangliyao_bat_hxchange",
+    "VisionSummonEvent": "play_vo_xiangliyao_bat_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_xiangliyao_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_xiangliyao_com_scan",
+    "JoinTeamEvent": "play_vo_xiangliyao_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_xiangliyao_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_xiangliyao_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_xiangliyao_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_xiangliyao_com_die",
+    "LowStrengthEvent": "play_vo_xiangliyao_com_tired",
+    "BreakUpEventList": [
+      "play_vo_xiangliyao_sys_rankup01",
+      "play_vo_xiangliyao_sys_rankup02",
+      "play_vo_xiangliyao_sys_rankup01",
+      "play_vo_xiangliyao_sys_rankup02",
+      "play_vo_xiangliyao_sys_rankup03",
+      "play_vo_xiangliyao_sys_rankup04",
+      "play_vo_xiangliyao_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_xiangliyao_bat_limitdodge",
+    "ParryEvent": "play_vo_xiangliyao_bat_counteratk",
+    "EnterBattleEvent": "play_vo_xiangliyao_com_engage",
+    "UnderAttackEvent": "play_vo_xiangliyao_com_behit",
+    "KnockUpEvent": "play_vo_xiangliyao_com_behitfly",
+    "EnterGlideEvent": "play_vo_xiangliyao_com_fly",
+    "UseExploreHookEvent": "play_vo_xiangliyao_com_hook",
+    "ClimbLeapEvent": "play_vo_xiangliyao_com_jump",
+    "AccelerateEvent": "play_vo_xiangliyao_com_accelerate"
   },
   {
     "Id": 81001105,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA/AAAABgBAAA4AQAAWAEAAFQCAABwAgAAiAIAACADAAA8AwAAVAMAAHADAACMAwAAqAMAAMgDAADcAwAA8AMAAJH60wQdAAAAcGxheV92b196aGV6aGlfY29tX2FjY2VsZXJhdGUAAAAXAAAAcGxheV92b196aGV6aGlfY29tX2p1bXAAFwAAAHBsYXlfdm9femhlemhpX2NvbV9ob29rABYAAABwbGF5X3ZvX3poZXpoaV9jb21fZmx5AAAbAAAAcGxheV92b196aGV6aGlfY29tX2JlaGl0Zmx5ABgAAABwbGF5X3ZvX3poZXpoaV9jb21fYmVoaXQAAAAAGQAAAHBsYXlfdm9femhlemhpX2NvbV9lbmdhZ2UAAAAdAAAAcGxheV92b196aGV6aGlfYmF0X2NvdW50ZXJhdGsAAAAdAAAAcGxheV92b196aGV6aGlfYmF0X2xpbWl0ZG9kZ2UAAAAHAAAAHAAAADgAAABUAAAAcAAAAIwAAACoAAAAxAAAABsAAABwbGF5X3ZvX3poZXpoaV9zeXNfcmFua3VwMDEAGwAAAHBsYXlfdm9femhlemhpX3N5c19yYW5rdXAwMgAbAAAAcGxheV92b196aGV6aGlfc3lzX3Jhbmt1cDAxABsAAABwbGF5X3ZvX3poZXpoaV9zeXNfcmFua3VwMDIAGwAAAHBsYXlfdm9femhlemhpX3N5c19yYW5rdXAwMwAbAAAAcGxheV92b196aGV6aGlfc3lzX3Jhbmt1cDA0ABsAAABwbGF5X3ZvX3poZXpoaV9zeXNfcmFua3VwMDUAGAAAAHBsYXlfdm9femhlemhpX2NvbV90aXJlZAAAAAAWAAAAcGxheV92b196aGV6aGlfY29tX2RpZQAAAwAAAAwAAAA0AAAAZAAAAKj///8IAAAARgAAABsAAABwbGF5X3ZvX3poZXpoaV9jb21faHBkb3duMDEA1P///wgAAAAyAAAAGwAAAHBsYXlfdm9femhlemhpX2NvbV9ocGRvd24wMgAIAAwACAAEAAgAAAAIAAAAHgAAABsAAABwbGF5X3ZvX3poZXpoaV9jb21faHBkb3duMDMAGwAAAHBsYXlfdm9femhlemhpX3N5c19qb2ludGVhbQAXAAAAcGxheV92b196aGV6aGlfY29tX3NjYW4AGgAAAHBsYXlfdm9femhlemhpX2NvbV9vcGVuYm94AAAbAAAAcGxheV92b196aGV6aGlfYmF0X2h4c3VtbW9uABsAAABwbGF5X3ZvX3poZXpoaV9iYXRfaHhjaGFuZ2UAHAAAAHBsYXlfdm9femhlemhpX2NvbV9mYXN0Y2xpbWIAAAAAEgAAAHJvbGVfZm9sZXlfamlhbnhpbgAAEwAAAHJvbGVfZm9vdHN0ZXBfaGVlbHMABgAAAHpoZXpoaQAA"
+    "Name": "zhezhi",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_jianxin",
+    "FastClimbEvent": "play_vo_zhezhi_com_fastclimb",
+    "VisionMorphEvent": "play_vo_zhezhi_bat_hxchange",
+    "VisionSummonEvent": "play_vo_zhezhi_bat_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_zhezhi_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_zhezhi_com_scan",
+    "JoinTeamEvent": "play_vo_zhezhi_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_zhezhi_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_zhezhi_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_zhezhi_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_zhezhi_com_die",
+    "LowStrengthEvent": "play_vo_zhezhi_com_tired",
+    "BreakUpEventList": [
+      "play_vo_zhezhi_sys_rankup01",
+      "play_vo_zhezhi_sys_rankup02",
+      "play_vo_zhezhi_sys_rankup01",
+      "play_vo_zhezhi_sys_rankup02",
+      "play_vo_zhezhi_sys_rankup03",
+      "play_vo_zhezhi_sys_rankup04",
+      "play_vo_zhezhi_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_zhezhi_bat_limitdodge",
+    "ParryEvent": "play_vo_zhezhi_bat_counteratk",
+    "EnterBattleEvent": "play_vo_zhezhi_com_engage",
+    "UnderAttackEvent": "play_vo_zhezhi_com_behit",
+    "KnockUpEvent": "play_vo_zhezhi_com_behitfly",
+    "EnterGlideEvent": "play_vo_zhezhi_com_fly",
+    "UseExploreHookEvent": "play_vo_zhezhi_com_hook",
+    "ClimbLeapEvent": "play_vo_zhezhi_com_jump",
+    "AccelerateEvent": "play_vo_zhezhi_com_accelerate"
   },
   {
     "Id": 81001106,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA+AAAABQBAAAYAQAAHAEAABgCAAAwAgAASAIAAOACAAD8AgAAFAMAADADAABQAwAAcAMAAIwDAACcAwAAtAMAAJL60wQcAAAAcGxheV92b195b3VodV9jb21fYWNjZWxlcmF0ZQAAAAAWAAAAcGxheV92b195b3VodV9jb21fanVtcAAAFgAAAHBsYXlfdm9feW91aHVfY29tX2hvb2sAABUAAABwbGF5X3ZvX3lvdWh1X2NvbV9mbHkAAAAaAAAAcGxheV92b195b3VodV9jb21fYmVoaXRmbHkAABcAAABwbGF5X3ZvX3lvdWh1X2NvbV9iZWhpdAAYAAAAcGxheV92b195b3VodV9jb21fZW5nYWdlAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAHAAAADgAAABUAAAAcAAAAIwAAACoAAAAxAAAABoAAABwbGF5X3ZvX3lvdWh1X3N5c19yYW5rdXAwMQAAGgAAAHBsYXlfdm9feW91aHVfc3lzX3Jhbmt1cDAyAAAaAAAAcGxheV92b195b3VodV9zeXNfcmFua3VwMDEAABoAAABwbGF5X3ZvX3lvdWh1X3N5c19yYW5rdXAwMgAAGgAAAHBsYXlfdm9feW91aHVfc3lzX3Jhbmt1cDAzAAAaAAAAcGxheV92b195b3VodV9zeXNfcmFua3VwMDQAABoAAABwbGF5X3ZvX3lvdWh1X3N5c19yYW5rdXAwNQAAFwAAAHBsYXlfdm9feW91aHVfY29tX3RpcmVkABUAAABwbGF5X3ZvX3lvdWh1X2NvbV9kaWUAAAADAAAADAAAADQAAABkAAAAqP///wgAAABGAAAAGgAAAHBsYXlfdm9feW91aHVfY29tX2hwZG93bjAxAADU////CAAAADIAAAAaAAAAcGxheV92b195b3VodV9jb21faHBkb3duMDIAAAgADAAIAAQACAAAAAgAAAAeAAAAGgAAAHBsYXlfdm9feW91aHVfY29tX2hwZG93bjAzAAAaAAAAcGxheV92b195b3VodV9zeXNfam9pbnRlYW0AABYAAABwbGF5X3ZvX3lvdWh1X2NvbV9zY2FuAAAZAAAAcGxheV92b195b3VodV9jb21fb3BlbmJveAAAABwAAABwbGF5X3ZvX3lvdWh1X3NraWxsX2h4c3VtbW9uAAAAABwAAABwbGF5X3ZvX3lvdWh1X3NraWxsX2h4Y2hhbmdlAAAAABsAAABwbGF5X3ZvX3lvdWh1X2NvbV9mYXN0Y2xpbWIADwAAAHJvbGVfZm9sZXlfYW5rZQAXAAAAcm9sZV9mb290c3RlcF9tYXJ5amFuZXMABQAAAHlvdWh1AAAA"
+    "Name": "youhu",
+    "FootstepEvent": "role_footstep_maryjanes",
+    "FoleyEvent": "role_foley_anke",
+    "FastClimbEvent": "play_vo_youhu_com_fastclimb",
+    "VisionMorphEvent": "play_vo_youhu_skill_hxchange",
+    "VisionSummonEvent": "play_vo_youhu_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_youhu_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_youhu_com_scan",
+    "JoinTeamEvent": "play_vo_youhu_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_youhu_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_youhu_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_youhu_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_youhu_com_die",
+    "LowStrengthEvent": "play_vo_youhu_com_tired",
+    "BreakUpEventList": [
+      "play_vo_youhu_sys_rankup01",
+      "play_vo_youhu_sys_rankup02",
+      "play_vo_youhu_sys_rankup01",
+      "play_vo_youhu_sys_rankup02",
+      "play_vo_youhu_sys_rankup03",
+      "play_vo_youhu_sys_rankup04",
+      "play_vo_youhu_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "",
+    "ParryEvent": "",
+    "EnterBattleEvent": "play_vo_youhu_com_engage",
+    "UnderAttackEvent": "play_vo_youhu_com_behit",
+    "KnockUpEvent": "play_vo_youhu_com_behitfly",
+    "EnterGlideEvent": "play_vo_youhu_com_fly",
+    "UseExploreHookEvent": "play_vo_youhu_com_hook",
+    "ClimbLeapEvent": "play_vo_youhu_com_jump",
+    "AccelerateEvent": "play_vo_youhu_com_accelerate"
   },
   {
     "Id": 81001505,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAIAAAACcAAAAuAAAANQAAAD0AAAAEAEAADABAAA0AQAAOAEAAFACAABsAgAAiAIAACwDAABMAwAAaAMAAIgDAACsAwAA0AMAAPADAAAEBAAAGAQAACH80wQgAAAAcGxheV92b19zaG91YW5yZW5fY29tX2FjY2VsZXJhdGUAAAAAGgAAAHBsYXlfdm9fc2hvdWFucmVuX2NvbV9qdW1wAAAaAAAAcGxheV92b19zaG91YW5yZW5fY29tX2hvb2sAABkAAABwbGF5X3ZvX3Nob3VhbnJlbl9jb21fZmx5AAAAHgAAAHBsYXlfdm9fc2hvdWFucmVuX2NvbV9iZWhpdGZseQAAGwAAAHBsYXlfdm9fc2hvdWFucmVuX2NvbV9iZWhpdAAcAAAAcGxheV92b19zaG91YW5yZW5fY29tX2VuZ2FnZQAAAAAAAAAAAAAAAAAAAAAAAAAABwAAABwAAAA8AAAAXAAAAHwAAACcAAAAvAAAANwAAAAeAAAAcGxheV92b19zaG91YW5yZW5fc3lzX3Jhbmt1cDAxAAAeAAAAcGxheV92b19zaG91YW5yZW5fc3lzX3Jhbmt1cDAyAAAeAAAAcGxheV92b19zaG91YW5yZW5fc3lzX3Jhbmt1cDAxAAAeAAAAcGxheV92b19zaG91YW5yZW5fc3lzX3Jhbmt1cDAyAAAeAAAAcGxheV92b19zaG91YW5yZW5fc3lzX3Jhbmt1cDAzAAAeAAAAcGxheV92b19zaG91YW5yZW5fc3lzX3Jhbmt1cDA0AAAeAAAAcGxheV92b19zaG91YW5yZW5fc3lzX3Jhbmt1cDA1AAAbAAAAcGxheV92b19zaG91YW5yZW5fY29tX3RpcmVkABkAAABwbGF5X3ZvX3Nob3VhbnJlbl9jb21fZGllAAAAAwAAAAwAAAA4AAAAbAAAAKD///8IAAAARgAAAB4AAABwbGF5X3ZvX3Nob3VhbnJlbl9jb21faHBkb3duMDEAAND///8IAAAAMgAAAB4AAABwbGF5X3ZvX3Nob3VhbnJlbl9jb21faHBkb3duMDIAAAgADAAIAAQACAAAAAgAAAAeAAAAHgAAAHBsYXlfdm9fc2hvdWFucmVuX2NvbV9ocGRvd24wMwAAHgAAAHBsYXlfdm9fc2hvdWFucmVuX3N5c19qb2ludGVhbQAAGgAAAHBsYXlfdm9fc2hvdWFucmVuX2NvbV9zY2FuAAAdAAAAcGxheV92b19zaG91YW5yZW5fY29tX29wZW5ib3gAAAAgAAAAcGxheV92b19zaG91YW5yZW5fc2tpbGxfaHhzdW1tb24AAAAAIAAAAHBsYXlfdm9fc2hvdWFucmVuX3NraWxsX2h4Y2hhbmdlAAAAAB8AAABwbGF5X3ZvX3Nob3VhbnJlbl9jb21fZmFzdGNsaW1iABEAAAByb2xlX2ZvbGV5X2NoaXhpYQAAABMAAAByb2xlX2Zvb3RzdGVwX2hlZWxzAAkAAABzaG91YW5yZW4AAAA="
+    "Name": "shouanren",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_chixia",
+    "FastClimbEvent": "play_vo_shouanren_com_fastclimb",
+    "VisionMorphEvent": "play_vo_shouanren_skill_hxchange",
+    "VisionSummonEvent": "play_vo_shouanren_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_shouanren_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_shouanren_com_scan",
+    "JoinTeamEvent": "play_vo_shouanren_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_shouanren_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_shouanren_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_shouanren_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_shouanren_com_die",
+    "LowStrengthEvent": "play_vo_shouanren_com_tired",
+    "BreakUpEventList": [
+      "play_vo_shouanren_sys_rankup01",
+      "play_vo_shouanren_sys_rankup02",
+      "play_vo_shouanren_sys_rankup01",
+      "play_vo_shouanren_sys_rankup02",
+      "play_vo_shouanren_sys_rankup03",
+      "play_vo_shouanren_sys_rankup04",
+      "play_vo_shouanren_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "",
+    "ParryEvent": "",
+    "EnterBattleEvent": "play_vo_shouanren_com_engage",
+    "UnderAttackEvent": "play_vo_shouanren_com_behit",
+    "KnockUpEvent": "play_vo_shouanren_com_behitfly",
+    "EnterGlideEvent": "play_vo_shouanren_com_fly",
+    "UseExploreHookEvent": "play_vo_shouanren_com_hook",
+    "ClimbLeapEvent": "play_vo_shouanren_com_jump",
+    "AccelerateEvent": "play_vo_shouanren_com_accelerate"
   },
   {
     "Id": 81001603,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHgAAACQAAAAqAAAAMAAAADcAAAA9AAAAAwBAAAsAQAATAEAAEgCAABgAgAAeAIAABADAAAsAwAARAMAAGADAAB8AwAAmAMAALQDAADEAwAA4AMAAIP80wQbAAAAcGxheV92b19jaHVuX2NvbV9hY2NlbGVyYXRlABUAAABwbGF5X3ZvX2NodW5fY29tX2p1bXAAAAAVAAAAcGxheV92b19jaHVuX2NvbV9ob29rAAAAFAAAAHBsYXlfdm9fY2h1bl9jb21fZmx5AAAAABkAAABwbGF5X3ZvX2NodW5fY29tX2JlaGl0Zmx5AAAAFgAAAHBsYXlfdm9fY2h1bl9jb21fYmVoaXQAABcAAABwbGF5X3ZvX2NodW5fY29tX2VuZ2FnZQAdAAAAcGxheV92b19jaHVuX3NraWxsX2NvdW50ZXJhdGsAAAAdAAAAcGxheV92b19jaHVuX3NraWxsX2xpbWl0ZG9kZ2UAAAAHAAAAHAAAADgAAABUAAAAcAAAAIwAAACoAAAAxAAAABkAAABwbGF5X3ZvX2NodW5fc3lzX3Jhbmt1cDAxAAAAGQAAAHBsYXlfdm9fY2h1bl9zeXNfcmFua3VwMDIAAAAZAAAAcGxheV92b19jaHVuX3N5c19yYW5rdXAwMQAAABkAAABwbGF5X3ZvX2NodW5fc3lzX3Jhbmt1cDAyAAAAGQAAAHBsYXlfdm9fY2h1bl9zeXNfcmFua3VwMDMAAAAZAAAAcGxheV92b19jaHVuX3N5c19yYW5rdXAwNAAAABkAAABwbGF5X3ZvX2NodW5fc3lzX3Jhbmt1cDA1AAAAFgAAAHBsYXlfdm9fY2h1bl9jb21fdGlyZWQAABQAAABwbGF5X3ZvX2NodW5fY29tX2RpZQAAAAADAAAADAAAADQAAABkAAAAqP///wgAAABGAAAAGQAAAHBsYXlfdm9fY2h1bl9jb21faHBkb3duMDEAAADU////CAAAADIAAAAZAAAAcGxheV92b19jaHVuX2NvbV9ocGRvd24wMgAAAAgADAAIAAQACAAAAAgAAAAeAAAAGQAAAHBsYXlfdm9fY2h1bl9jb21faHBkb3duMDMAAAAZAAAAcGxheV92b19jaHVuX3N5c19qb2ludGVhbQAAABUAAABwbGF5X3ZvX2NodW5fY29tX3NjYW4AAAAYAAAAcGxheV92b19jaHVuX2NvbV9vcGVuYm94AAAAABsAAABwbGF5X3ZvX2NodW5fc2tpbGxfaHhzdW1tb24AGwAAAHBsYXlfdm9fY2h1bl9za2lsbF9oeGNoYW5nZQAaAAAAcGxheV92b19jaHVuX2NvbV9mYXN0Y2xpbWIAAA8AAAByb2xlX2ZvbGV5X2NodW4AGAAAAHJvbGVfZm9vdHN0ZXBfYmxvY2toZWVscwAAAAAEAAAAY2h1bgAAAAA="
+    "Name": "chun",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_chun",
+    "FastClimbEvent": "play_vo_chun_com_fastclimb",
+    "VisionMorphEvent": "play_vo_chun_skill_hxchange",
+    "VisionSummonEvent": "play_vo_chun_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_chun_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_chun_com_scan",
+    "JoinTeamEvent": "play_vo_chun_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_chun_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_chun_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_chun_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_chun_com_die",
+    "LowStrengthEvent": "play_vo_chun_com_tired",
+    "BreakUpEventList": [
+      "play_vo_chun_sys_rankup01",
+      "play_vo_chun_sys_rankup02",
+      "play_vo_chun_sys_rankup01",
+      "play_vo_chun_sys_rankup02",
+      "play_vo_chun_sys_rankup03",
+      "play_vo_chun_sys_rankup04",
+      "play_vo_chun_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_chun_skill_limitdodge",
+    "ParryEvent": "play_vo_chun_skill_counteratk",
+    "EnterBattleEvent": "play_vo_chun_com_engage",
+    "UnderAttackEvent": "play_vo_chun_com_behit",
+    "KnockUpEvent": "play_vo_chun_com_behitfly",
+    "EnterGlideEvent": "play_vo_chun_com_fly",
+    "UseExploreHookEvent": "play_vo_chun_com_hook",
+    "ClimbLeapEvent": "play_vo_chun_com_jump",
+    "AccelerateEvent": "play_vo_chun_com_accelerate"
   },
   {
     "Id": 81001504,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAANAAAADwAAAADAEAACgBAAAsAQAAMAEAAEgCAABkAgAAgAIAACQDAABEAwAAYAMAAIADAACgAwAAwAMAAOADAAD0AwAAEAQAACD80wQfAAAAcGxheV92b19kZW5nZGVuZ19jb21fYWNjZWxlcmF0ZQAZAAAAcGxheV92b19kZW5nZGVuZ19jb21fanVtcAAAABkAAABwbGF5X3ZvX2RlbmdkZW5nX2NvbV9ob29rAAAAGAAAAHBsYXlfdm9fZGVuZ2RlbmdfY29tX2ZseQAAAAAdAAAAcGxheV92b19kZW5nZGVuZ19jb21fYmVoaXRmbHkAAAAaAAAAcGxheV92b19kZW5nZGVuZ19jb21fYmVoaXQAABsAAABwbGF5X3ZvX2RlbmdkZW5nX2NvbV9lbmdhZ2UAAAAAAAAAAAAAAAAAAAAAAAcAAAAcAAAAPAAAAFwAAAB8AAAAnAAAALwAAADcAAAAHQAAAHBsYXlfdm9fZGVuZ2Rlbmdfc3lzX3Jhbmt1cDAxAAAAHQAAAHBsYXlfdm9fZGVuZ2Rlbmdfc3lzX3Jhbmt1cDAyAAAAHQAAAHBsYXlfdm9fZGVuZ2Rlbmdfc3lzX3Jhbmt1cDAxAAAAHQAAAHBsYXlfdm9fZGVuZ2Rlbmdfc3lzX3Jhbmt1cDAyAAAAHQAAAHBsYXlfdm9fZGVuZ2Rlbmdfc3lzX3Jhbmt1cDAzAAAAHQAAAHBsYXlfdm9fZGVuZ2Rlbmdfc3lzX3Jhbmt1cDA0AAAAHQAAAHBsYXlfdm9fZGVuZ2Rlbmdfc3lzX3Jhbmt1cDA1AAAAGgAAAHBsYXlfdm9fZGVuZ2RlbmdfY29tX3RpcmVkAAAYAAAAcGxheV92b19kZW5nZGVuZ19jb21fZGllAAAAAAMAAAAMAAAAOAAAAGwAAACg////CAAAAEYAAAAdAAAAcGxheV92b19kZW5nZGVuZ19jb21faHBkb3duMDEAAADQ////CAAAADIAAAAdAAAAcGxheV92b19kZW5nZGVuZ19jb21faHBkb3duMDIAAAAIAAwACAAEAAgAAAAIAAAAHgAAAB0AAABwbGF5X3ZvX2RlbmdkZW5nX2NvbV9ocGRvd24wMwAAAB0AAABwbGF5X3ZvX2RlbmdkZW5nX3N5c19qb2ludGVhbQAAABkAAABwbGF5X3ZvX2RlbmdkZW5nX2NvbV9zY2FuAAAAHAAAAHBsYXlfdm9fZGVuZ2RlbmdfY29tX29wZW5ib3gAAAAAHwAAAHBsYXlfdm9fZGVuZ2Rlbmdfc2tpbGxfaHhzdW1tb24AHwAAAHBsYXlfdm9fZGVuZ2Rlbmdfc2tpbGxfaHhjaGFuZ2UAHgAAAHBsYXlfdm9fZGVuZ2RlbmdfY29tX2Zhc3RjbGltYgAAEwAAAHJvbGVfZm9sZXlfZGVuZ2RlbmcAGAAAAHJvbGVfZm9vdHN0ZXBfYmxvY2toZWVscwAAAAAIAAAAZGVuZ2RlbmcAAAAA"
+    "Name": "dengdeng",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_dengdeng",
+    "FastClimbEvent": "play_vo_dengdeng_com_fastclimb",
+    "VisionMorphEvent": "play_vo_dengdeng_skill_hxchange",
+    "VisionSummonEvent": "play_vo_dengdeng_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_dengdeng_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_dengdeng_com_scan",
+    "JoinTeamEvent": "play_vo_dengdeng_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_dengdeng_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_dengdeng_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_dengdeng_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_dengdeng_com_die",
+    "LowStrengthEvent": "play_vo_dengdeng_com_tired",
+    "BreakUpEventList": [
+      "play_vo_dengdeng_sys_rankup01",
+      "play_vo_dengdeng_sys_rankup02",
+      "play_vo_dengdeng_sys_rankup01",
+      "play_vo_dengdeng_sys_rankup02",
+      "play_vo_dengdeng_sys_rankup03",
+      "play_vo_dengdeng_sys_rankup04",
+      "play_vo_dengdeng_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "",
+    "ParryEvent": "",
+    "EnterBattleEvent": "play_vo_dengdeng_com_engage",
+    "UnderAttackEvent": "play_vo_dengdeng_com_behit",
+    "KnockUpEvent": "play_vo_dengdeng_com_behitfly",
+    "EnterGlideEvent": "play_vo_dengdeng_com_fly",
+    "UseExploreHookEvent": "play_vo_dengdeng_com_hook",
+    "ClimbLeapEvent": "play_vo_dengdeng_com_jump",
+    "AccelerateEvent": "play_vo_dengdeng_com_accelerate"
   },
   {
     "Id": 81001107,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAAMwAAADsAAAACAEAACQBAABEAQAAZAEAAHwCAACYAgAAsAIAAFQDAAB0AwAAkAMAAKwDAADMAwAA7AMAAAwEAAAgBAAANAQAAJP60wQeAAAAcGxheV92b19rZWxhaXRhX2NvbV9hY2NlbGVyYXRlAAAYAAAAcGxheV92b19rZWxhaXRhX2NvbV9qdW1wAAAAABgAAABwbGF5X3ZvX2tlbGFpdGFfY29tX2hvb2sAAAAAFwAAAHBsYXlfdm9fa2VsYWl0YV9jb21fZmx5ABwAAABwbGF5X3ZvX2tlbGFpdGFfY29tX2JlaGl0Zmx5AAAAABkAAABwbGF5X3ZvX2tlbGFpdGFfY29tX2JlaGl0AAAAGgAAAHBsYXlfdm9fa2VsYWl0YV9jb21fZW5nYWdlAAAeAAAAcGxheV92b19rZWxhaXRhX2NvbV9jb3VudGVyYXRrAAAeAAAAcGxheV92b19rZWxhaXRhX2NvbV9saW1pdGRvZGdlAAAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAzAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDA0AAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDA1AAAAABkAAABwbGF5X3ZvX2tlbGFpdGFfY29tX3RpcmVkAAAAFwAAAHBsYXlfdm9fa2VsYWl0YV9jb21fZGllAAMAAAAMAAAAOAAAAGwAAACg////CAAAAEYAAAAcAAAAcGxheV92b19rZWxhaXRhX2NvbV9ocGRvd24wMQAAAADQ////CAAAADIAAAAcAAAAcGxheV92b19rZWxhaXRhX2NvbV9ocGRvd24wMgAAAAAIAAwACAAEAAgAAAAIAAAAHgAAABwAAABwbGF5X3ZvX2tlbGFpdGFfY29tX2hwZG93bjAzAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX2pvaW50ZWFtAAAAABgAAABwbGF5X3ZvX2tlbGFpdGFfY29tX3NjYW4AAAAAGwAAAHBsYXlfdm9fa2VsYWl0YV9jb21fb3BlbmJveAAeAAAAcGxheV92b19rZWxhaXRhX3NraWxsX2h4c3VtbW9uAAAeAAAAcGxheV92b19rZWxhaXRhX3NraWxsX2h4Y2hhbmdlAAAdAAAAcGxheV92b19rZWxhaXRhX2NvbV9mYXN0Y2xpbWIAAAASAAAAcm9sZV9mb2xleV9rZWxhaXRhAAATAAAAcm9sZV9mb290c3RlcF9oZWVscwAHAAAAa2VsYWl0YQA="
+    "Name": "kelaita",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_kelaita",
+    "FastClimbEvent": "play_vo_kelaita_com_fastclimb",
+    "VisionMorphEvent": "play_vo_kelaita_skill_hxchange",
+    "VisionSummonEvent": "play_vo_kelaita_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_kelaita_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_kelaita_com_scan",
+    "JoinTeamEvent": "play_vo_kelaita_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_kelaita_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_kelaita_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_kelaita_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_kelaita_com_die",
+    "LowStrengthEvent": "play_vo_kelaita_com_tired",
+    "BreakUpEventList": [
+      "play_vo_kelaita_sys_rankup01",
+      "play_vo_kelaita_sys_rankup02",
+      "play_vo_kelaita_sys_rankup01",
+      "play_vo_kelaita_sys_rankup02",
+      "play_vo_kelaita_sys_rankup03",
+      "play_vo_kelaita_sys_rankup04",
+      "play_vo_kelaita_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_kelaita_com_limitdodge",
+    "ParryEvent": "play_vo_kelaita_com_counteratk",
+    "EnterBattleEvent": "play_vo_kelaita_com_engage",
+    "UnderAttackEvent": "play_vo_kelaita_com_behit",
+    "KnockUpEvent": "play_vo_kelaita_com_behitfly",
+    "EnterGlideEvent": "play_vo_kelaita_com_fly",
+    "UseExploreHookEvent": "play_vo_kelaita_com_hook",
+    "ClimbLeapEvent": "play_vo_kelaita_com_jump",
+    "AccelerateEvent": "play_vo_kelaita_com_accelerate"
   },
   {
     "Id": 81001606,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAAMwAAADsAAAACAEAACQBAABEAQAAZAEAAHwCAACYAgAAsAIAAFQDAAB0AwAAkAMAAKwDAADMAwAA7AMAAAwEAAAgBAAAOAQAAIb80wQeAAAAcGxheV92b19sdW9rZWtlX2NvbV9hY2NlbGVyYXRlAAAYAAAAcGxheV92b19sdW9rZWtlX2NvbV9qdW1wAAAAABgAAABwbGF5X3ZvX2x1b2tla2VfY29tX2hvb2sAAAAAFwAAAHBsYXlfdm9fbHVva2VrZV9jb21fZmx5ABwAAABwbGF5X3ZvX2x1b2tla2VfY29tX2JlaGl0Zmx5AAAAABkAAABwbGF5X3ZvX2x1b2tla2VfY29tX2JlaGl0AAAAGgAAAHBsYXlfdm9fbHVva2VrZV9jb21fZW5nYWdlAAAeAAAAcGxheV92b19sdW9rZWtlX2NvbV9jb3VudGVyYXRrAAAeAAAAcGxheV92b19sdW9rZWtlX2NvbV9saW1pdGRvZGdlAAAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAABwAAABwbGF5X3ZvX2x1b2tla2Vfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2x1b2tla2Vfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2x1b2tla2Vfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2x1b2tla2Vfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2x1b2tla2Vfc3lzX3Jhbmt1cDAzAAAAABwAAABwbGF5X3ZvX2x1b2tla2Vfc3lzX3Jhbmt1cDA0AAAAABwAAABwbGF5X3ZvX2x1b2tla2Vfc3lzX3Jhbmt1cDA1AAAAABkAAABwbGF5X3ZvX2x1b2tla2VfY29tX3RpcmVkAAAAFwAAAHBsYXlfdm9fbHVva2VrZV9jb21fZGllAAMAAAAMAAAAOAAAAGwAAACg////CAAAAEYAAAAcAAAAcGxheV92b19sdW9rZWtlX2NvbV9ocGRvd24wMQAAAADQ////CAAAADIAAAAcAAAAcGxheV92b19sdW9rZWtlX2NvbV9ocGRvd24wMgAAAAAIAAwACAAEAAgAAAAIAAAAHgAAABwAAABwbGF5X3ZvX2x1b2tla2VfY29tX2hwZG93bjAzAAAAABwAAABwbGF5X3ZvX2x1b2tla2Vfc3lzX2pvaW50ZWFtAAAAABgAAABwbGF5X3ZvX2x1b2tla2VfY29tX3NjYW4AAAAAGwAAAHBsYXlfdm9fbHVva2VrZV9jb21fb3BlbmJveAAeAAAAcGxheV92b19sdW9rZWtlX3NraWxsX2h4c3VtbW9uAAAeAAAAcGxheV92b19sdW9rZWtlX3NraWxsX2h4Y2hhbmdlAAAdAAAAcGxheV92b19sdW9rZWtlX2NvbV9mYXN0Y2xpbWIAAAASAAAAcm9sZV9mb2xleV9sdW9rZWtlAAAXAAAAcm9sZV9mb290c3RlcF9tYXJ5amFuZXMABwAAAGx1b2tla2UA"
+    "Name": "luokeke",
+    "FootstepEvent": "role_footstep_maryjanes",
+    "FoleyEvent": "role_foley_luokeke",
+    "FastClimbEvent": "play_vo_luokeke_com_fastclimb",
+    "VisionMorphEvent": "play_vo_luokeke_skill_hxchange",
+    "VisionSummonEvent": "play_vo_luokeke_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_luokeke_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_luokeke_com_scan",
+    "JoinTeamEvent": "play_vo_luokeke_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_luokeke_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_luokeke_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_luokeke_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_luokeke_com_die",
+    "LowStrengthEvent": "play_vo_luokeke_com_tired",
+    "BreakUpEventList": [
+      "play_vo_luokeke_sys_rankup01",
+      "play_vo_luokeke_sys_rankup02",
+      "play_vo_luokeke_sys_rankup01",
+      "play_vo_luokeke_sys_rankup02",
+      "play_vo_luokeke_sys_rankup03",
+      "play_vo_luokeke_sys_rankup04",
+      "play_vo_luokeke_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_luokeke_com_limitdodge",
+    "ParryEvent": "play_vo_luokeke_com_counteratk",
+    "EnterBattleEvent": "play_vo_luokeke_com_engage",
+    "UnderAttackEvent": "play_vo_luokeke_com_behit",
+    "KnockUpEvent": "play_vo_luokeke_com_behitfly",
+    "EnterGlideEvent": "play_vo_luokeke_com_fly",
+    "UseExploreHookEvent": "play_vo_luokeke_com_hook",
+    "ClimbLeapEvent": "play_vo_luokeke_com_jump",
+    "AccelerateEvent": "play_vo_luokeke_com_accelerate"
   },
   {
     "Id": 81001206,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAAMwAAADsAAAACAEAACQBAABEAQAAZAEAAHwCAACYAgAAsAIAAFQDAAB0AwAAkAMAAKwDAADMAwAA7AMAAAwEAAAgBAAANAQAAPb60wQeAAAAcGxheV92b19idWxhbnRlX2NvbV9hY2NlbGVyYXRlAAAYAAAAcGxheV92b19idWxhbnRlX2NvbV9qdW1wAAAAABgAAABwbGF5X3ZvX2J1bGFudGVfY29tX2hvb2sAAAAAFwAAAHBsYXlfdm9fYnVsYW50ZV9jb21fZmx5ABwAAABwbGF5X3ZvX2J1bGFudGVfY29tX2JlaGl0Zmx5AAAAABkAAABwbGF5X3ZvX2J1bGFudGVfY29tX2JlaGl0AAAAGgAAAHBsYXlfdm9fYnVsYW50ZV9jb21fZW5nYWdlAAAeAAAAcGxheV92b19idWxhbnRlX2NvbV9jb3VudGVyYXRrAAAeAAAAcGxheV92b19idWxhbnRlX2NvbV9saW1pdGRvZGdlAAAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAABwAAABwbGF5X3ZvX2J1bGFudGVfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2J1bGFudGVfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2J1bGFudGVfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2J1bGFudGVfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2J1bGFudGVfc3lzX3Jhbmt1cDAzAAAAABwAAABwbGF5X3ZvX2J1bGFudGVfc3lzX3Jhbmt1cDA0AAAAABwAAABwbGF5X3ZvX2J1bGFudGVfc3lzX3Jhbmt1cDA1AAAAABkAAABwbGF5X3ZvX2J1bGFudGVfY29tX3RpcmVkAAAAFwAAAHBsYXlfdm9fYnVsYW50ZV9jb21fZGllAAMAAAAMAAAAOAAAAGwAAACg////CAAAAEYAAAAcAAAAcGxheV92b19idWxhbnRlX2NvbV9ocGRvd24wMQAAAADQ////CAAAADIAAAAcAAAAcGxheV92b19idWxhbnRlX2NvbV9ocGRvd24wMgAAAAAIAAwACAAEAAgAAAAIAAAAHgAAABwAAABwbGF5X3ZvX2J1bGFudGVfY29tX2hwZG93bjAzAAAAABwAAABwbGF5X3ZvX2J1bGFudGVfc3lzX2pvaW50ZWFtAAAAABgAAABwbGF5X3ZvX2J1bGFudGVfY29tX3NjYW4AAAAAGwAAAHBsYXlfdm9fYnVsYW50ZV9jb21fb3BlbmJveAAeAAAAcGxheV92b19idWxhbnRlX3NraWxsX2h4c3VtbW9uAAAeAAAAcGxheV92b19idWxhbnRlX3NraWxsX2h4Y2hhbmdlAAAdAAAAcGxheV92b19idWxhbnRlX2NvbV9mYXN0Y2xpbWIAAAASAAAAcm9sZV9mb2xleV9rYWthbHVvAAATAAAAcm9sZV9mb290c3RlcF9ib290cwAHAAAAYnVsYW50ZQA="
+    "Name": "bulante",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_kakaluo",
+    "FastClimbEvent": "play_vo_bulante_com_fastclimb",
+    "VisionMorphEvent": "play_vo_bulante_skill_hxchange",
+    "VisionSummonEvent": "play_vo_bulante_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_bulante_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_bulante_com_scan",
+    "JoinTeamEvent": "play_vo_bulante_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_bulante_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_bulante_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_bulante_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_bulante_com_die",
+    "LowStrengthEvent": "play_vo_bulante_com_tired",
+    "BreakUpEventList": [
+      "play_vo_bulante_sys_rankup01",
+      "play_vo_bulante_sys_rankup02",
+      "play_vo_bulante_sys_rankup01",
+      "play_vo_bulante_sys_rankup02",
+      "play_vo_bulante_sys_rankup03",
+      "play_vo_bulante_sys_rankup04",
+      "play_vo_bulante_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_bulante_com_limitdodge",
+    "ParryEvent": "play_vo_bulante_com_counteratk",
+    "EnterBattleEvent": "play_vo_bulante_com_engage",
+    "UnderAttackEvent": "play_vo_bulante_com_behit",
+    "KnockUpEvent": "play_vo_bulante_com_behitfly",
+    "EnterGlideEvent": "play_vo_bulante_com_fly",
+    "UseExploreHookEvent": "play_vo_bulante_com_hook",
+    "ClimbLeapEvent": "play_vo_bulante_com_jump",
+    "AccelerateEvent": "play_vo_bulante_com_accelerate"
   },
   {
     "Id": 81001506,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA+AAAABQBAAA0AQAAVAEAAFACAABoAgAAgAIAABgDAAA0AwAATAMAAGgDAACIAwAAqAMAAMQDAADYAwAA9AMAACL80wQcAAAAcGxheV92b19mZWliaV9jb21fYWNjZWxlcmF0ZQAAAAAWAAAAcGxheV92b19mZWliaV9jb21fanVtcAAAFgAAAHBsYXlfdm9fZmVpYmlfY29tX2hvb2sAABUAAABwbGF5X3ZvX2ZlaWJpX2NvbV9mbHkAAAAaAAAAcGxheV92b19mZWliaV9jb21fYmVoaXRmbHkAABcAAABwbGF5X3ZvX2ZlaWJpX2NvbV9iZWhpdAAYAAAAcGxheV92b19mZWliaV9jb21fZW5nYWdlAAAAABwAAABwbGF5X3ZvX2ZlaWJpX2NvbV9jb3VudGVyYXRrAAAAABwAAABwbGF5X3ZvX2ZlaWJpX2NvbV9saW1pdGRvZGdlAAAAAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGgAAAHBsYXlfdm9fZmVpYmlfc3lzX3Jhbmt1cDAxAAAaAAAAcGxheV92b19mZWliaV9zeXNfcmFua3VwMDIAABoAAABwbGF5X3ZvX2ZlaWJpX3N5c19yYW5rdXAwMQAAGgAAAHBsYXlfdm9fZmVpYmlfc3lzX3Jhbmt1cDAyAAAaAAAAcGxheV92b19mZWliaV9zeXNfcmFua3VwMDMAABoAAABwbGF5X3ZvX2ZlaWJpX3N5c19yYW5rdXAwNAAAGgAAAHBsYXlfdm9fZmVpYmlfc3lzX3Jhbmt1cDA1AAAXAAAAcGxheV92b19mZWliaV9jb21fdGlyZWQAFQAAAHBsYXlfdm9fZmVpYmlfY29tX2RpZQAAAAMAAAAMAAAANAAAAGQAAACo////CAAAAEYAAAAaAAAAcGxheV92b19mZWliaV9jb21faHBkb3duMDEAANT///8IAAAAMgAAABoAAABwbGF5X3ZvX2ZlaWJpX2NvbV9ocGRvd24wMgAACAAMAAgABAAIAAAACAAAAB4AAAAaAAAAcGxheV92b19mZWliaV9jb21faHBkb3duMDMAABoAAABwbGF5X3ZvX2ZlaWJpX3N5c19qb2ludGVhbQAAFgAAAHBsYXlfdm9fZmVpYmlfY29tX3NjYW4AABkAAABwbGF5X3ZvX2ZlaWJpX2NvbV9vcGVuYm94AAAAHAAAAHBsYXlfdm9fZmVpYmlfc2tpbGxfaHhzdW1tb24AAAAAHAAAAHBsYXlfdm9fZmVpYmlfc2tpbGxfaHhjaGFuZ2UAAAAAGwAAAHBsYXlfdm9fZmVpYmlfY29tX2Zhc3RjbGltYgASAAAAcm9sZV9mb2xleV9sdW9rZWtlAAAYAAAAcm9sZV9mb290c3RlcF9ibG9ja2hlZWxzAAAAAAUAAABmZWliaQAAAA=="
+    "Name": "feibi",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_luokeke",
+    "FastClimbEvent": "play_vo_feibi_com_fastclimb",
+    "VisionMorphEvent": "play_vo_feibi_skill_hxchange",
+    "VisionSummonEvent": "play_vo_feibi_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_feibi_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_feibi_com_scan",
+    "JoinTeamEvent": "play_vo_feibi_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_feibi_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_feibi_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_feibi_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_feibi_com_die",
+    "LowStrengthEvent": "play_vo_feibi_com_tired",
+    "BreakUpEventList": [
+      "play_vo_feibi_sys_rankup01",
+      "play_vo_feibi_sys_rankup02",
+      "play_vo_feibi_sys_rankup01",
+      "play_vo_feibi_sys_rankup02",
+      "play_vo_feibi_sys_rankup03",
+      "play_vo_feibi_sys_rankup04",
+      "play_vo_feibi_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_feibi_com_limitdodge",
+    "ParryEvent": "play_vo_feibi_com_counteratk",
+    "EnterBattleEvent": "play_vo_feibi_com_engage",
+    "UnderAttackEvent": "play_vo_feibi_com_behit",
+    "KnockUpEvent": "play_vo_feibi_com_behitfly",
+    "EnterGlideEvent": "play_vo_feibi_com_fly",
+    "UseExploreHookEvent": "play_vo_feibi_com_hook",
+    "ClimbLeapEvent": "play_vo_feibi_com_jump",
+    "AccelerateEvent": "play_vo_feibi_com_accelerate"
   },
   {
     "Id": 81001406,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAlAMAAL770wQdAAAAcGxheV92b19uYW56aHVfY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b19uYW56aHVfanVtcAATAAAAcGxheV92b19uYW56aHVfaG9vawASAAAAcGxheV92b19uYW56aHVfZmx5AAAYAAAAcGxheV92b19uYW56aHVfYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX25hbnpodV9iZWhpdAAAAAAbAAAAcGxheV92b19uYW56aHVfZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX25hbnpodV9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX25hbnpodV9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9fbmFuemh1X3Jhbmt1cDAxABcAAABwbGF5X3ZvX25hbnpodV9yYW5rdXAwMgAXAAAAcGxheV92b19uYW56aHVfcmFua3VwMDEAFwAAAHBsYXlfdm9fbmFuemh1X3Jhbmt1cDAyABcAAABwbGF5X3ZvX25hbnpodV9yYW5rdXAwMwAXAAAAcGxheV92b19uYW56aHVfcmFua3VwMDQAFwAAAHBsYXlfdm9fbmFuemh1X3Jhbmt1cDA1ABQAAABwbGF5X3ZvX25hbnpodV90aXJlZAAAAAASAAAAcGxheV92b19uYW56aHVfZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9fbmFuemh1X2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9fbmFuemh1X2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b19uYW56aHVfaHAzMAAYAAAAcGxheV92b19uYW56aHVfam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX25hbnpodV9zY2FuABQAAABwbGF5X3ZvX25hbnpodV9jaGVzdAAAAAAYAAAAcGxheV92b19uYW56aHVfaHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX25hbnpodV9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9fbmFuemh1X2Zhc3RfcnVuABEAAAByb2xlX2ZvbGV5X25hbnpodQAAABMAAAByb2xlX2Zvb3RzdGVwX2Jvb3RzAAYAAABuYW56aHUAAA=="
+    "Name": "nanzhu",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_nanzhu",
+    "FastClimbEvent": "play_vo_nanzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nanzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nanzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nanzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nanzhu_scan",
+    "JoinTeamEvent": "play_vo_nanzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nanzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nanzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nanzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nanzhu_die",
+    "LowStrengthEvent": "play_vo_nanzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup03",
+      "play_vo_nanzhu_rankup04",
+      "play_vo_nanzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nanzhu_evasion_success",
+    "ParryEvent": "play_vo_nanzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nanzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nanzhu_behit",
+    "KnockUpEvent": "play_vo_nanzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nanzhu_fly",
+    "UseExploreHookEvent": "play_vo_nanzhu_hook",
+    "ClimbLeapEvent": "play_vo_nanzhu_jump",
+    "AccelerateEvent": "play_vo_nanzhu_com_accelerate"
   },
   {
     "Id": 81001408,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADQAAAA5AAAAAABAAAcAQAAPAEAABwCAAAwAgAARAIAAMQCAADcAgAA8AIAAAQDAAAcAwAANAMAAEwDAABgAwAAfAMAAMD70wQcAAAAcGxheV92b19udnpodV9jb21fYWNjZWxlcmF0ZQAAAAASAAAAcGxheV92b19udnpodV9qdW1wAAASAAAAcGxheV92b19udnpodV9ob29rAAARAAAAcGxheV92b19udnpodV9mbHkAAAAXAAAAcGxheV92b19udnpodV9iZWhpdF9mbHkAEwAAAHBsYXlfdm9fbnZ6aHVfYmVoaXQAGgAAAHBsYXlfdm9fbnZ6aHVfZW50ZXJfYmF0dGxlAAAbAAAAcGxheV92b19udnpodV9wYXJyeV9zdWNjZXNzAB0AAABwbGF5X3ZvX252emh1X2V2YXNpb25fc3VjY2VzcwAAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFgAAAHBsYXlfdm9fbnZ6aHVfcmFua3VwMDEAABYAAABwbGF5X3ZvX252emh1X3Jhbmt1cDAyAAAWAAAAcGxheV92b19udnpodV9yYW5rdXAwMQAAFgAAAHBsYXlfdm9fbnZ6aHVfcmFua3VwMDIAABYAAABwbGF5X3ZvX252emh1X3Jhbmt1cDAzAAAWAAAAcGxheV92b19udnpodV9yYW5rdXAwNAAAFgAAAHBsYXlfdm9fbnZ6aHVfcmFua3VwMDUAABMAAABwbGF5X3ZvX252emh1X3RpcmVkABEAAABwbGF5X3ZvX252emh1X2RpZQAAAAMAAAAMAAAALAAAAFQAAAC4////CAAAAEYAAAASAAAAcGxheV92b19udnpodV9ocDcwAADc////CAAAADIAAAASAAAAcGxheV92b19udnpodV9ocDUwAAAIAAwACAAEAAgAAAAIAAAAHgAAABIAAABwbGF5X3ZvX252emh1X2hwMzAAABcAAABwbGF5X3ZvX252emh1X2pvaW5fdGVhbQASAAAAcGxheV92b19udnpodV9zY2FuAAATAAAAcGxheV92b19udnpodV9jaGVzdAAXAAAAcGxheV92b19udnpodV9oeF9zdW1tb24AFwAAAHBsYXlfdm9fbnZ6aHVfaHhfY2hhbmdlABYAAABwbGF5X3ZvX252emh1X2Zhc3RfcnVuAAAQAAAAcm9sZV9mb2xleV9udnpodQAAAAAYAAAAcm9sZV9mb290c3RlcF9ibG9ja2hlZWxzAAAAAAUAAABudnpodQAAAA=="
+    "Name": "nvzhu",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_nvzhu",
+    "FastClimbEvent": "play_vo_nvzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nvzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nvzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nvzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nvzhu_scan",
+    "JoinTeamEvent": "play_vo_nvzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nvzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nvzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nvzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nvzhu_die",
+    "LowStrengthEvent": "play_vo_nvzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup03",
+      "play_vo_nvzhu_rankup04",
+      "play_vo_nvzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nvzhu_evasion_success",
+    "ParryEvent": "play_vo_nvzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nvzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nvzhu_behit",
+    "KnockUpEvent": "play_vo_nvzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nvzhu_fly",
+    "UseExploreHookEvent": "play_vo_nvzhu_hook",
+    "ClimbLeapEvent": "play_vo_nvzhu_jump",
+    "AccelerateEvent": "play_vo_nvzhu_com_accelerate"
   },
   {
     "Id": 81001607,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAIAAAACcAAAAuAAAANQAAAD0AAAAFAEAADQBAABYAQAAfAEAAJQCAAC0AgAA0AIAAHQDAACUAwAAsAMAANADAAD0AwAAGAQAADwEAABMBAAAYAQAAIf80wQhAAAAcGxheV92b19rYW50ZWxlaWxhX2NvbV9hY2NlbGVyYXRlAAAAGwAAAHBsYXlfdm9fa2FudGVsZWlsYV9jb21fanVtcAAbAAAAcGxheV92b19rYW50ZWxlaWxhX2NvbV9ob29rABoAAABwbGF5X3ZvX2thbnRlbGVpbGFfY29tX2ZseQAAHwAAAHBsYXlfdm9fa2FudGVsZWlsYV9jb21fYmVoaXRmbHkAHAAAAHBsYXlfdm9fa2FudGVsZWlsYV9jb21fYmVoaXQAAAAAHQAAAHBsYXlfdm9fa2FudGVsZWlsYV9jb21fZW5nYWdlAAAAIQAAAHBsYXlfdm9fa2FudGVsZWlsYV9jb21fY291bnRlcmF0awAAACEAAABwbGF5X3ZvX2thbnRlbGVpbGFfY29tX2xpbWl0ZG9kZ2UAAAAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAAB8AAABwbGF5X3ZvX2thbnRlbGVpbGFfc3lzX3Jhbmt1cDAxAB8AAABwbGF5X3ZvX2thbnRlbGVpbGFfc3lzX3Jhbmt1cDAyAB8AAABwbGF5X3ZvX2thbnRlbGVpbGFfc3lzX3Jhbmt1cDAxAB8AAABwbGF5X3ZvX2thbnRlbGVpbGFfc3lzX3Jhbmt1cDAyAB8AAABwbGF5X3ZvX2thbnRlbGVpbGFfc3lzX3Jhbmt1cDAzAB8AAABwbGF5X3ZvX2thbnRlbGVpbGFfc3lzX3Jhbmt1cDA0AB8AAABwbGF5X3ZvX2thbnRlbGVpbGFfc3lzX3Jhbmt1cDA1ABwAAABwbGF5X3ZvX2thbnRlbGVpbGFfY29tX3RpcmVkAAAAABoAAABwbGF5X3ZvX2thbnRlbGVpbGFfY29tX2RpZQAAAwAAAAwAAAA4AAAAbAAAAKD///8IAAAARgAAAB8AAABwbGF5X3ZvX2thbnRlbGVpbGFfY29tX2hwZG93bjAxAND///8IAAAAMgAAAB8AAABwbGF5X3ZvX2thbnRlbGVpbGFfY29tX2hwZG93bjAyAAgADAAIAAQACAAAAAgAAAAeAAAAHwAAAHBsYXlfdm9fa2FudGVsZWlsYV9jb21faHBkb3duMDMAHwAAAHBsYXlfdm9fa2FudGVsZWlsYV9zeXNfam9pbnRlYW0AGwAAAHBsYXlfdm9fa2FudGVsZWlsYV9jb21fc2NhbgAeAAAAcGxheV92b19rYW50ZWxlaWxhX2NvbV9vcGVuYm94AAAhAAAAcGxheV92b19rYW50ZWxlaWxhX3NraWxsX2h4c3VtbW9uAAAAIQAAAHBsYXlfdm9fa2FudGVsZWlsYV9za2lsbF9oeGNoYW5nZQAAACAAAABwbGF5X3ZvX2thbnRlbGVpbGFfY29tX2Zhc3RjbGltYgAAAAAPAAAAcm9sZV9mb2xleV9hbmtlABMAAAByb2xlX2Zvb3RzdGVwX2hlZWxzAAoAAABrYW50ZWxlaWxhAAA="
+    "Name": "kanteleila",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_anke",
+    "FastClimbEvent": "play_vo_kanteleila_com_fastclimb",
+    "VisionMorphEvent": "play_vo_kanteleila_skill_hxchange",
+    "VisionSummonEvent": "play_vo_kanteleila_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_kanteleila_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_kanteleila_com_scan",
+    "JoinTeamEvent": "play_vo_kanteleila_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_kanteleila_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_kanteleila_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_kanteleila_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_kanteleila_com_die",
+    "LowStrengthEvent": "play_vo_kanteleila_com_tired",
+    "BreakUpEventList": [
+      "play_vo_kanteleila_sys_rankup01",
+      "play_vo_kanteleila_sys_rankup02",
+      "play_vo_kanteleila_sys_rankup01",
+      "play_vo_kanteleila_sys_rankup02",
+      "play_vo_kanteleila_sys_rankup03",
+      "play_vo_kanteleila_sys_rankup04",
+      "play_vo_kanteleila_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_kanteleila_com_limitdodge",
+    "ParryEvent": "play_vo_kanteleila_com_counteratk",
+    "EnterBattleEvent": "play_vo_kanteleila_com_engage",
+    "UnderAttackEvent": "play_vo_kanteleila_com_behit",
+    "KnockUpEvent": "play_vo_kanteleila_com_behitfly",
+    "EnterGlideEvent": "play_vo_kanteleila_com_fly",
+    "UseExploreHookEvent": "play_vo_kanteleila_com_hook",
+    "ClimbLeapEvent": "play_vo_kanteleila_com_jump",
+    "AccelerateEvent": "play_vo_kanteleila_com_accelerate"
   },
   {
     "Id": 81001407,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAAMwAAADsAAAACAEAACQBAABEAQAAZAEAAHwCAACYAgAAsAIAAFQDAAB0AwAAkAMAAKwDAADMAwAA7AMAAAwEAAAgBAAAPAQAAL/70wQeAAAAcGxheV92b194aWFrb25nX2NvbV9hY2NlbGVyYXRlAAAYAAAAcGxheV92b194aWFrb25nX2NvbV9qdW1wAAAAABgAAABwbGF5X3ZvX3hpYWtvbmdfY29tX2hvb2sAAAAAFwAAAHBsYXlfdm9feGlha29uZ19jb21fZmx5ABwAAABwbGF5X3ZvX3hpYWtvbmdfY29tX2JlaGl0Zmx5AAAAABkAAABwbGF5X3ZvX3hpYWtvbmdfY29tX2JlaGl0AAAAGgAAAHBsYXlfdm9feGlha29uZ19jb21fZW5nYWdlAAAeAAAAcGxheV92b194aWFrb25nX2NvbV9jb3VudGVyYXRrAAAeAAAAcGxheV92b194aWFrb25nX2NvbV9saW1pdGRvZGdlAAAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAABwAAABwbGF5X3ZvX3hpYWtvbmdfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX3hpYWtvbmdfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX3hpYWtvbmdfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX3hpYWtvbmdfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX3hpYWtvbmdfc3lzX3Jhbmt1cDAzAAAAABwAAABwbGF5X3ZvX3hpYWtvbmdfc3lzX3Jhbmt1cDA0AAAAABwAAABwbGF5X3ZvX3hpYWtvbmdfc3lzX3Jhbmt1cDA1AAAAABkAAABwbGF5X3ZvX3hpYWtvbmdfY29tX3RpcmVkAAAAFwAAAHBsYXlfdm9feGlha29uZ19jb21fZGllAAMAAAAMAAAAOAAAAGwAAACg////CAAAAEYAAAAcAAAAcGxheV92b194aWFrb25nX2NvbV9ocGRvd24wMQAAAADQ////CAAAADIAAAAcAAAAcGxheV92b194aWFrb25nX2NvbV9ocGRvd24wMgAAAAAIAAwACAAEAAgAAAAIAAAAHgAAABwAAABwbGF5X3ZvX3hpYWtvbmdfY29tX2hwZG93bjAzAAAAABwAAABwbGF5X3ZvX3hpYWtvbmdfc3lzX2pvaW50ZWFtAAAAABgAAABwbGF5X3ZvX3hpYWtvbmdfY29tX3NjYW4AAAAAGwAAAHBsYXlfdm9feGlha29uZ19jb21fb3BlbmJveAAeAAAAcGxheV92b194aWFrb25nX3NraWxsX2h4c3VtbW9uAAAeAAAAcGxheV92b194aWFrb25nX3NraWxsX2h4Y2hhbmdlAAAdAAAAcGxheV92b194aWFrb25nX2NvbV9mYXN0Y2xpbWIAAAARAAAAcm9sZV9mb2xleV9jaGl4aWEAAAAYAAAAcm9sZV9mb290c3RlcF9ibG9ja2hlZWxzAAAAAAcAAAB4aWFrb25nAA=="
+    "Name": "xiakong",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_chixia",
+    "FastClimbEvent": "play_vo_xiakong_com_fastclimb",
+    "VisionMorphEvent": "play_vo_xiakong_skill_hxchange",
+    "VisionSummonEvent": "play_vo_xiakong_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_xiakong_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_xiakong_com_scan",
+    "JoinTeamEvent": "play_vo_xiakong_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_xiakong_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_xiakong_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_xiakong_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_xiakong_com_die",
+    "LowStrengthEvent": "play_vo_xiakong_com_tired",
+    "BreakUpEventList": [
+      "play_vo_xiakong_sys_rankup01",
+      "play_vo_xiakong_sys_rankup02",
+      "play_vo_xiakong_sys_rankup01",
+      "play_vo_xiakong_sys_rankup02",
+      "play_vo_xiakong_sys_rankup03",
+      "play_vo_xiakong_sys_rankup04",
+      "play_vo_xiakong_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_xiakong_com_limitdodge",
+    "ParryEvent": "play_vo_xiakong_com_counteratk",
+    "EnterBattleEvent": "play_vo_xiakong_com_engage",
+    "UnderAttackEvent": "play_vo_xiakong_com_behit",
+    "KnockUpEvent": "play_vo_xiakong_com_behitfly",
+    "EnterGlideEvent": "play_vo_xiakong_com_fly",
+    "UseExploreHookEvent": "play_vo_xiakong_com_hook",
+    "ClimbLeapEvent": "play_vo_xiakong_com_jump",
+    "AccelerateEvent": "play_vo_xiakong_com_accelerate"
   },
   {
     "Id": 81001507,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA+AAAABQBAAA0AQAAVAEAAFACAABoAgAAgAIAABgDAAA0AwAATAMAAGgDAACIAwAAqAMAAMQDAADYAwAA7AMAACP80wQcAAAAcGxheV92b196YW5uaV9jb21fYWNjZWxlcmF0ZQAAAAAWAAAAcGxheV92b196YW5uaV9jb21fanVtcAAAFgAAAHBsYXlfdm9femFubmlfY29tX2hvb2sAABUAAABwbGF5X3ZvX3phbm5pX2NvbV9mbHkAAAAaAAAAcGxheV92b196YW5uaV9jb21fYmVoaXRmbHkAABcAAABwbGF5X3ZvX3phbm5pX2NvbV9iZWhpdAAYAAAAcGxheV92b196YW5uaV9jb21fZW5nYWdlAAAAABwAAABwbGF5X3ZvX3phbm5pX2NvbV9jb3VudGVyYXRrAAAAABwAAABwbGF5X3ZvX3phbm5pX2NvbV9saW1pdGRvZGdlAAAAAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGgAAAHBsYXlfdm9femFubmlfc3lzX3Jhbmt1cDAxAAAaAAAAcGxheV92b196YW5uaV9zeXNfcmFua3VwMDIAABoAAABwbGF5X3ZvX3phbm5pX3N5c19yYW5rdXAwMQAAGgAAAHBsYXlfdm9femFubmlfc3lzX3Jhbmt1cDAyAAAaAAAAcGxheV92b196YW5uaV9zeXNfcmFua3VwMDMAABoAAABwbGF5X3ZvX3phbm5pX3N5c19yYW5rdXAwNAAAGgAAAHBsYXlfdm9femFubmlfc3lzX3Jhbmt1cDA1AAAXAAAAcGxheV92b196YW5uaV9jb21fdGlyZWQAFQAAAHBsYXlfdm9femFubmlfY29tX2RpZQAAAAMAAAAMAAAANAAAAGQAAACo////CAAAAEYAAAAaAAAAcGxheV92b196YW5uaV9jb21faHBkb3duMDEAANT///8IAAAAMgAAABoAAABwbGF5X3ZvX3phbm5pX2NvbV9ocGRvd24wMgAACAAMAAgABAAIAAAACAAAAB4AAAAaAAAAcGxheV92b196YW5uaV9jb21faHBkb3duMDMAABoAAABwbGF5X3ZvX3phbm5pX3N5c19qb2ludGVhbQAAFgAAAHBsYXlfdm9femFubmlfY29tX3NjYW4AABkAAABwbGF5X3ZvX3phbm5pX2NvbV9vcGVuYm94AAAAHAAAAHBsYXlfdm9femFubmlfc2tpbGxfaHhzdW1tb24AAAAAHAAAAHBsYXlfdm9femFubmlfc2tpbGxfaHhjaGFuZ2UAAAAAGwAAAHBsYXlfdm9femFubmlfY29tX2Zhc3RjbGltYgASAAAAcm9sZV9mb2xleV9rZWxhaXRhAAATAAAAcm9sZV9mb290c3RlcF9oZWVscwAFAAAAemFubmkAAAA="
+    "Name": "zanni",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_kelaita",
+    "FastClimbEvent": "play_vo_zanni_com_fastclimb",
+    "VisionMorphEvent": "play_vo_zanni_skill_hxchange",
+    "VisionSummonEvent": "play_vo_zanni_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_zanni_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_zanni_com_scan",
+    "JoinTeamEvent": "play_vo_zanni_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_zanni_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_zanni_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_zanni_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_zanni_com_die",
+    "LowStrengthEvent": "play_vo_zanni_com_tired",
+    "BreakUpEventList": [
+      "play_vo_zanni_sys_rankup01",
+      "play_vo_zanni_sys_rankup02",
+      "play_vo_zanni_sys_rankup01",
+      "play_vo_zanni_sys_rankup02",
+      "play_vo_zanni_sys_rankup03",
+      "play_vo_zanni_sys_rankup04",
+      "play_vo_zanni_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_zanni_com_limitdodge",
+    "ParryEvent": "play_vo_zanni_com_counteratk",
+    "EnterBattleEvent": "play_vo_zanni_com_engage",
+    "UnderAttackEvent": "play_vo_zanni_com_behit",
+    "KnockUpEvent": "play_vo_zanni_com_behitfly",
+    "EnterGlideEvent": "play_vo_zanni_com_fly",
+    "UseExploreHookEvent": "play_vo_zanni_com_hook",
+    "ClimbLeapEvent": "play_vo_zanni_com_jump",
+    "AccelerateEvent": "play_vo_zanni_com_accelerate"
   },
   {
     "Id": 81001207,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHgAAACQAAAAqAAAAMAAAADcAAAA9AAAAAwBAAAoAQAARAEAAEACAABYAgAAcAIAAAgDAAAkAwAAPAMAAFgDAAB0AwAAkAMAAKwDAADAAwAA3AMAAPf60wQbAAAAcGxheV92b19sdXBhX2NvbV9hY2NlbGVyYXRlABUAAABwbGF5X3ZvX2x1cGFfY29tX2p1bXAAAAAVAAAAcGxheV92b19sdXBhX2NvbV9ob29rAAAAFAAAAHBsYXlfdm9fbHVwYV9jb21fZmx5AAAAABkAAABwbGF5X3ZvX2x1cGFfY29tX2JlaGl0Zmx5AAAAFgAAAHBsYXlfdm9fbHVwYV9jb21fYmVoaXQAABcAAABwbGF5X3ZvX2x1cGFfY29tX2VuZ2FnZQAbAAAAcGxheV92b19sdXBhX2NvbV9jb3VudGVyYXRrABsAAABwbGF5X3ZvX2x1cGFfY29tX2xpbWl0ZG9kZ2UABwAAABwAAAA4AAAAVAAAAHAAAACMAAAAqAAAAMQAAAAZAAAAcGxheV92b19sdXBhX3N5c19yYW5rdXAwMQAAABkAAABwbGF5X3ZvX2x1cGFfc3lzX3Jhbmt1cDAyAAAAGQAAAHBsYXlfdm9fbHVwYV9zeXNfcmFua3VwMDEAAAAZAAAAcGxheV92b19sdXBhX3N5c19yYW5rdXAwMgAAABkAAABwbGF5X3ZvX2x1cGFfc3lzX3Jhbmt1cDAzAAAAGQAAAHBsYXlfdm9fbHVwYV9zeXNfcmFua3VwMDQAAAAZAAAAcGxheV92b19sdXBhX3N5c19yYW5rdXAwNQAAABYAAABwbGF5X3ZvX2x1cGFfY29tX3RpcmVkAAAUAAAAcGxheV92b19sdXBhX2NvbV9kaWUAAAAAAwAAAAwAAAA0AAAAZAAAAKj///8IAAAARgAAABkAAABwbGF5X3ZvX2x1cGFfY29tX2hwZG93bjAxAAAA1P///wgAAAAyAAAAGQAAAHBsYXlfdm9fbHVwYV9jb21faHBkb3duMDIAAAAIAAwACAAEAAgAAAAIAAAAHgAAABkAAABwbGF5X3ZvX2x1cGFfY29tX2hwZG93bjAzAAAAGQAAAHBsYXlfdm9fbHVwYV9zeXNfam9pbnRlYW0AAAAVAAAAcGxheV92b19sdXBhX2NvbV9zY2FuAAAAGAAAAHBsYXlfdm9fbHVwYV9jb21fb3BlbmJveAAAAAAbAAAAcGxheV92b19sdXBhX3NraWxsX2h4c3VtbW9uABsAAABwbGF5X3ZvX2x1cGFfc2tpbGxfaHhjaGFuZ2UAGgAAAHBsYXlfdm9fbHVwYV9jb21fZmFzdGNsaW1iAAARAAAAcm9sZV9mb2xleV9jaGl4aWEAAAAYAAAAcm9sZV9mb290c3RlcF9ibG9ja2hlZWxzAAAAAAQAAABsdXBhAAAAAA=="
+    "Name": "lupa",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_chixia",
+    "FastClimbEvent": "play_vo_lupa_com_fastclimb",
+    "VisionMorphEvent": "play_vo_lupa_skill_hxchange",
+    "VisionSummonEvent": "play_vo_lupa_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_lupa_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_lupa_com_scan",
+    "JoinTeamEvent": "play_vo_lupa_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_lupa_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_lupa_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_lupa_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_lupa_com_die",
+    "LowStrengthEvent": "play_vo_lupa_com_tired",
+    "BreakUpEventList": [
+      "play_vo_lupa_sys_rankup01",
+      "play_vo_lupa_sys_rankup02",
+      "play_vo_lupa_sys_rankup01",
+      "play_vo_lupa_sys_rankup02",
+      "play_vo_lupa_sys_rankup03",
+      "play_vo_lupa_sys_rankup04",
+      "play_vo_lupa_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_lupa_com_limitdodge",
+    "ParryEvent": "play_vo_lupa_com_counteratk",
+    "EnterBattleEvent": "play_vo_lupa_com_engage",
+    "UnderAttackEvent": "play_vo_lupa_com_behit",
+    "KnockUpEvent": "play_vo_lupa_com_behitfly",
+    "EnterGlideEvent": "play_vo_lupa_com_fly",
+    "UseExploreHookEvent": "play_vo_lupa_com_hook",
+    "ClimbLeapEvent": "play_vo_lupa_com_jump",
+    "AccelerateEvent": "play_vo_lupa_com_accelerate"
   },
   {
     "Id": 81001409,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAANAAAADwAAAADAEAACgBAABIAQAAaAEAAIACAACcAgAAuAIAAFwDAAB8AwAAmAMAALgDAADYAwAA+AMAABgEAAAsBAAAQAQAAMH70wQfAAAAcGxheV92b19rYXRpeGl5YV9jb21fYWNjZWxlcmF0ZQAZAAAAcGxheV92b19rYXRpeGl5YV9jb21fanVtcAAAABkAAABwbGF5X3ZvX2thdGl4aXlhX2NvbV9ob29rAAAAGAAAAHBsYXlfdm9fa2F0aXhpeWFfY29tX2ZseQAAAAAdAAAAcGxheV92b19rYXRpeGl5YV9jb21fYmVoaXRmbHkAAAAaAAAAcGxheV92b19rYXRpeGl5YV9jb21fYmVoaXQAABsAAABwbGF5X3ZvX2thdGl4aXlhX2NvbV9lbmdhZ2UAHwAAAHBsYXlfdm9fa2F0aXhpeWFfY29tX2NvdW50ZXJhdGsAHwAAAHBsYXlfdm9fa2F0aXhpeWFfY29tX2xpbWl0ZG9kZ2UABwAAABwAAAA8AAAAXAAAAHwAAACcAAAAvAAAANwAAAAdAAAAcGxheV92b19rYXRpeGl5YV9zeXNfcmFua3VwMDEAAAAdAAAAcGxheV92b19rYXRpeGl5YV9zeXNfcmFua3VwMDIAAAAdAAAAcGxheV92b19rYXRpeGl5YV9zeXNfcmFua3VwMDEAAAAdAAAAcGxheV92b19rYXRpeGl5YV9zeXNfcmFua3VwMDIAAAAdAAAAcGxheV92b19rYXRpeGl5YV9zeXNfcmFua3VwMDMAAAAdAAAAcGxheV92b19rYXRpeGl5YV9zeXNfcmFua3VwMDQAAAAdAAAAcGxheV92b19rYXRpeGl5YV9zeXNfcmFua3VwMDUAAAAaAAAAcGxheV92b19rYXRpeGl5YV9jb21fdGlyZWQAABgAAABwbGF5X3ZvX2thdGl4aXlhX2NvbV9kaWUAAAAAAwAAAAwAAAA4AAAAbAAAAKD///8IAAAARgAAAB0AAABwbGF5X3ZvX2thdGl4aXlhX2NvbV9ocGRvd24wMQAAAND///8IAAAAMgAAAB0AAABwbGF5X3ZvX2thdGl4aXlhX2NvbV9ocGRvd24wMgAAAAgADAAIAAQACAAAAAgAAAAeAAAAHQAAAHBsYXlfdm9fa2F0aXhpeWFfY29tX2hwZG93bjAzAAAAHQAAAHBsYXlfdm9fa2F0aXhpeWFfc3lzX2pvaW50ZWFtAAAAGQAAAHBsYXlfdm9fa2F0aXhpeWFfY29tX3NjYW4AAAAcAAAAcGxheV92b19rYXRpeGl5YV9jb21fb3BlbmJveAAAAAAfAAAAcGxheV92b19rYXRpeGl5YV9za2lsbF9oeHN1bW1vbgAfAAAAcGxheV92b19rYXRpeGl5YV9za2lsbF9oeGNoYW5nZQAeAAAAcGxheV92b19rYXRpeGl5YV9jb21fZmFzdGNsaW1iAAASAAAAcm9sZV9mb2xleV9rZWxhaXRhAAATAAAAcm9sZV9mb290c3RlcF9oZWVscwAIAAAAa2F0aXhpeWEAAAAA"
+    "Name": "katixiya",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_kelaita",
+    "FastClimbEvent": "play_vo_katixiya_com_fastclimb",
+    "VisionMorphEvent": "play_vo_katixiya_skill_hxchange",
+    "VisionSummonEvent": "play_vo_katixiya_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_katixiya_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_katixiya_com_scan",
+    "JoinTeamEvent": "play_vo_katixiya_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_katixiya_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_katixiya_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_katixiya_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_katixiya_com_die",
+    "LowStrengthEvent": "play_vo_katixiya_com_tired",
+    "BreakUpEventList": [
+      "play_vo_katixiya_sys_rankup01",
+      "play_vo_katixiya_sys_rankup02",
+      "play_vo_katixiya_sys_rankup01",
+      "play_vo_katixiya_sys_rankup02",
+      "play_vo_katixiya_sys_rankup03",
+      "play_vo_katixiya_sys_rankup04",
+      "play_vo_katixiya_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_katixiya_com_limitdodge",
+    "ParryEvent": "play_vo_katixiya_com_counteratk",
+    "EnterBattleEvent": "play_vo_katixiya_com_engage",
+    "UnderAttackEvent": "play_vo_katixiya_com_behit",
+    "KnockUpEvent": "play_vo_katixiya_com_behitfly",
+    "EnterGlideEvent": "play_vo_katixiya_com_fly",
+    "UseExploreHookEvent": "play_vo_katixiya_com_hook",
+    "ClimbLeapEvent": "play_vo_katixiya_com_jump",
+    "AccelerateEvent": "play_vo_katixiya_com_accelerate"
   },
   {
     "Id": 81011304,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA+AAAABQBAAA0AQAAVAEAAFACAABoAgAAgAIAABgDAAA0AwAATAMAAGgDAACEAwAAoAMAALwDAADMAwAA6AMAAGgi1AQcAAAAcGxheV92b19qaW54aV9jb21fYWNjZWxlcmF0ZQAAAAAWAAAAcGxheV92b19qaW54aV9jb21fanVtcAAAFgAAAHBsYXlfdm9famlueGlfY29tX2hvb2sAABUAAABwbGF5X3ZvX2ppbnhpX2NvbV9mbHkAAAAaAAAAcGxheV92b19qaW54aV9jb21fYmVoaXRmbHkAABcAAABwbGF5X3ZvX2ppbnhpX2NvbV9iZWhpdAAYAAAAcGxheV92b19qaW54aV9jb21fZW5nYWdlAAAAABwAAABwbGF5X3ZvX2ppbnhpX2JhdF9jb3VudGVyYXRrAAAAABwAAABwbGF5X3ZvX2ppbnhpX2JhdF9saW1pdGRvZGdlAAAAAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGgAAAHBsYXlfdm9famlueGlfc3lzX3Jhbmt1cDAxAAAaAAAAcGxheV92b19qaW54aV9zeXNfcmFua3VwMDIAABoAAABwbGF5X3ZvX2ppbnhpX3N5c19yYW5rdXAwMQAAGgAAAHBsYXlfdm9famlueGlfc3lzX3Jhbmt1cDAyAAAaAAAAcGxheV92b19qaW54aV9zeXNfcmFua3VwMDMAABoAAABwbGF5X3ZvX2ppbnhpX3N5c19yYW5rdXAwNAAAGgAAAHBsYXlfdm9famlueGlfc3lzX3Jhbmt1cDA1AAAXAAAAcGxheV92b19qaW54aV9jb21fdGlyZWQAFQAAAHBsYXlfdm9famlueGlfY29tX2RpZQAAAAMAAAAMAAAANAAAAGQAAACo////CAAAAEYAAAAaAAAAcGxheV92b19qaW54aV9jb21faHBkb3duMDEAANT///8IAAAAMgAAABoAAABwbGF5X3ZvX2ppbnhpX2NvbV9ocGRvd24wMgAACAAMAAgABAAIAAAACAAAAB4AAAAaAAAAcGxheV92b19qaW54aV9jb21faHBkb3duMDMAABoAAABwbGF5X3ZvX2ppbnhpX3N5c19qb2ludGVhbQAAFgAAAHBsYXlfdm9famlueGlfY29tX3NjYW4AABkAAABwbGF5X3ZvX2ppbnhpX2NvbV9vcGVuYm94AAAAGgAAAHBsYXlfdm9famlueGlfYmF0X2h4c3VtbW9uAAAaAAAAcGxheV92b19qaW54aV9iYXRfaHhjaGFuZ2UAABsAAABwbGF5X3ZvX2ppbnhpX2NvbV9mYXN0Y2xpbWIADwAAAHJvbGVfZm9sZXlfYW5rZQAYAAAAcm9sZV9mb290c3RlcF9ibG9ja2hlZWxzAAAAAAUAAABqaW54aQAAAA=="
+    "Name": "jinxi",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_anke",
+    "FastClimbEvent": "play_vo_jinxi_com_fastclimb",
+    "VisionMorphEvent": "play_vo_jinxi_bat_hxchange",
+    "VisionSummonEvent": "play_vo_jinxi_bat_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_jinxi_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_jinxi_com_scan",
+    "JoinTeamEvent": "play_vo_jinxi_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_jinxi_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_jinxi_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_jinxi_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_jinxi_com_die",
+    "LowStrengthEvent": "play_vo_jinxi_com_tired",
+    "BreakUpEventList": [
+      "play_vo_jinxi_sys_rankup01",
+      "play_vo_jinxi_sys_rankup02",
+      "play_vo_jinxi_sys_rankup01",
+      "play_vo_jinxi_sys_rankup02",
+      "play_vo_jinxi_sys_rankup03",
+      "play_vo_jinxi_sys_rankup04",
+      "play_vo_jinxi_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_jinxi_bat_limitdodge",
+    "ParryEvent": "play_vo_jinxi_bat_counteratk",
+    "EnterBattleEvent": "play_vo_jinxi_com_engage",
+    "UnderAttackEvent": "play_vo_jinxi_com_behit",
+    "KnockUpEvent": "play_vo_jinxi_com_behitfly",
+    "EnterGlideEvent": "play_vo_jinxi_com_fly",
+    "UseExploreHookEvent": "play_vo_jinxi_com_hook",
+    "ClimbLeapEvent": "play_vo_jinxi_com_jump",
+    "AccelerateEvent": "play_vo_jinxi_com_accelerate"
   },
   {
     "Id": 81011102,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACQAAAApAAAALgAAADUAAAA7AAAAAgBAAAoAQAASAEAACgCAABAAgAAVAIAANQCAADwAgAABAMAABwDAAA4AwAAVAMAAGwDAACAAwAAnAMAAJ4h1AQdAAAAcGxheV92b19zYW5odWFfY29tX2FjY2VsZXJhdGUAAAATAAAAcGxheV92b19zYW5odWFfanVtcAATAAAAcGxheV92b19zYW5odWFfaG9vawASAAAAcGxheV92b19zYW5odWFfZmx5AAAYAAAAcGxheV92b19zYW5odWFfYmVoaXRfZmx5AAAAABQAAABwbGF5X3ZvX3Nhbmh1YV9iZWhpdAAAAAAbAAAAcGxheV92b19zYW5odWFfZW50ZXJfYmF0dGxlABwAAABwbGF5X3ZvX3Nhbmh1YV9wYXJyeV9zdWNjZXNzAAAAAB4AAABwbGF5X3ZvX3Nhbmh1YV9ldmFzaW9uX3N1Y2Nlc3MAAAcAAAAcAAAANAAAAEwAAABkAAAAfAAAAJQAAACsAAAAFwAAAHBsYXlfdm9fc2FuaHVhX3Jhbmt1cDAxABcAAABwbGF5X3ZvX3Nhbmh1YV9yYW5rdXAwMgAXAAAAcGxheV92b19zYW5odWFfcmFua3VwMDEAFwAAAHBsYXlfdm9fc2FuaHVhX3Jhbmt1cDAyABcAAABwbGF5X3ZvX3Nhbmh1YV9yYW5rdXAwMwAXAAAAcGxheV92b19zYW5odWFfcmFua3VwMDQAFwAAAHBsYXlfdm9fc2FuaHVhX3Jhbmt1cDA1ABQAAABwbGF5X3ZvX3Nhbmh1YV90aXJlZAAAAAASAAAAcGxheV92b19zYW5odWFfZGllAAADAAAADAAAACwAAABUAAAAuP///wgAAABGAAAAEwAAAHBsYXlfdm9fc2FuaHVhX2hwNzAA3P///wgAAAAyAAAAEwAAAHBsYXlfdm9fc2FuaHVhX2hwNTAACAAMAAgABAAIAAAACAAAAB4AAAATAAAAcGxheV92b19zYW5odWFfaHAzMAAYAAAAcGxheV92b19zYW5odWFfam9pbl90ZWFtAAAAABMAAABwbGF5X3ZvX3Nhbmh1YV9zY2FuABQAAABwbGF5X3ZvX3Nhbmh1YV9jaGVzdAAAAAAYAAAAcGxheV92b19zYW5odWFfaHhfc3VtbW9uAAAAABgAAABwbGF5X3ZvX3Nhbmh1YV9oeF9jaGFuZ2UAAAAAFwAAAHBsYXlfdm9fc2FuaHVhX2Zhc3RfcnVuABEAAAByb2xlX2ZvbGV5X3Nhbmh1YQAAABgAAAByb2xlX2Zvb3RzdGVwX2Jsb2NraGVlbHMAAAAABgAAAHNhbmh1YQAA"
+    "Name": "sanhua",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_sanhua",
+    "FastClimbEvent": "play_vo_sanhua_fast_run",
+    "VisionMorphEvent": "play_vo_sanhua_hx_change",
+    "VisionSummonEvent": "play_vo_sanhua_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_sanhua_chest",
+    "ScanTreasureBoxEvent": "play_vo_sanhua_scan",
+    "JoinTeamEvent": "play_vo_sanhua_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_sanhua_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_sanhua_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_sanhua_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_sanhua_die",
+    "LowStrengthEvent": "play_vo_sanhua_tired",
+    "BreakUpEventList": [
+      "play_vo_sanhua_rankup01",
+      "play_vo_sanhua_rankup02",
+      "play_vo_sanhua_rankup01",
+      "play_vo_sanhua_rankup02",
+      "play_vo_sanhua_rankup03",
+      "play_vo_sanhua_rankup04",
+      "play_vo_sanhua_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_sanhua_evasion_success",
+    "ParryEvent": "play_vo_sanhua_parry_success",
+    "EnterBattleEvent": "play_vo_sanhua_enter_battle",
+    "UnderAttackEvent": "play_vo_sanhua_behit",
+    "KnockUpEvent": "play_vo_sanhua_behit_fly",
+    "EnterGlideEvent": "play_vo_sanhua_fly",
+    "UseExploreHookEvent": "play_vo_sanhua_hook",
+    "ClimbLeapEvent": "play_vo_sanhua_jump",
+    "AccelerateEvent": "play_vo_sanhua_com_accelerate"
   },
   {
     "Id": 81011205,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAAMwAAADsAAAACAEAACQBAABEAQAAZAEAAHwCAACYAgAAsAIAAFQDAAB0AwAAkAMAAKwDAADMAwAA7AMAAAwEAAAcBAAAMAQAAAUi1AQeAAAAcGxheV92b19jaGFuZ2xpX2NvbV9hY2NlbGVyYXRlAAAYAAAAcGxheV92b19jaGFuZ2xpX2NvbV9qdW1wAAAAABgAAABwbGF5X3ZvX2NoYW5nbGlfY29tX2hvb2sAAAAAFwAAAHBsYXlfdm9fY2hhbmdsaV9jb21fZmx5ABwAAABwbGF5X3ZvX2NoYW5nbGlfY29tX2JlaGl0Zmx5AAAAABkAAABwbGF5X3ZvX2NoYW5nbGlfY29tX2JlaGl0AAAAGgAAAHBsYXlfdm9fY2hhbmdsaV9jb21fZW5nYWdlAAAeAAAAcGxheV92b19jaGFuZ2xpX2JhdF9jb3VudGVyYXRrAAAeAAAAcGxheV92b19jaGFuZ2xpX2JhdF9saW1pdGRvZGdlAAAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDAzAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDA0AAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX3Jhbmt1cDA1AAAAABkAAABwbGF5X3ZvX2NoYW5nbGlfY29tX3RpcmVkAAAAFwAAAHBsYXlfdm9fY2hhbmdsaV9jb21fZGllAAMAAAAMAAAAOAAAAGwAAACg////CAAAAEYAAAAcAAAAcGxheV92b19jaGFuZ2xpX2NvbV9ocGRvd24wMQAAAADQ////CAAAADIAAAAcAAAAcGxheV92b19jaGFuZ2xpX2NvbV9ocGRvd24wMgAAAAAIAAwACAAEAAgAAAAIAAAAHgAAABwAAABwbGF5X3ZvX2NoYW5nbGlfY29tX2hwZG93bjAzAAAAABwAAABwbGF5X3ZvX2NoYW5nbGlfc3lzX2pvaW50ZWFtAAAAABgAAABwbGF5X3ZvX2NoYW5nbGlfY29tX3NjYW4AAAAAGwAAAHBsYXlfdm9fY2hhbmdsaV9jb21fb3BlbmJveAAcAAAAcGxheV92b19jaGFuZ2xpX2JhdF9oeHN1bW1vbgAAAAAcAAAAcGxheV92b19jaGFuZ2xpX2JhdF9oeGNoYW5nZQAAAAAdAAAAcGxheV92b19jaGFuZ2xpX2NvbV9mYXN0Y2xpbWIAAAAPAAAAcm9sZV9mb2xleV9hbmtlABMAAAByb2xlX2Zvb3RzdGVwX2hlZWxzAAcAAABjaGFuZ2xpAA=="
+    "Name": "changli",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_anke",
+    "FastClimbEvent": "play_vo_changli_com_fastclimb",
+    "VisionMorphEvent": "play_vo_changli_bat_hxchange",
+    "VisionSummonEvent": "play_vo_changli_bat_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_changli_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_changli_com_scan",
+    "JoinTeamEvent": "play_vo_changli_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_changli_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_changli_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_changli_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_changli_com_die",
+    "LowStrengthEvent": "play_vo_changli_com_tired",
+    "BreakUpEventList": [
+      "play_vo_changli_sys_rankup01",
+      "play_vo_changli_sys_rankup02",
+      "play_vo_changli_sys_rankup01",
+      "play_vo_changli_sys_rankup02",
+      "play_vo_changli_sys_rankup03",
+      "play_vo_changli_sys_rankup04",
+      "play_vo_changli_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_changli_bat_limitdodge",
+    "ParryEvent": "play_vo_changli_bat_counteratk",
+    "EnterBattleEvent": "play_vo_changli_com_engage",
+    "UnderAttackEvent": "play_vo_changli_com_behit",
+    "KnockUpEvent": "play_vo_changli_com_behitfly",
+    "EnterGlideEvent": "play_vo_changli_com_fly",
+    "UseExploreHookEvent": "play_vo_changli_com_hook",
+    "ClimbLeapEvent": "play_vo_changli_com_jump",
+    "AccelerateEvent": "play_vo_changli_com_accelerate"
   },
   {
     "Id": 81011107,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAAMwAAADsAAAACAEAACQBAABEAQAAZAEAAHwCAACYAgAAsAIAAFQDAAB0AwAAkAMAAKwDAADMAwAA7AMAAAwEAAAcBAAAMAQAAKMh1AQeAAAAcGxheV92b19rZWxhaXRhX2NvbV9hY2NlbGVyYXRlAAAYAAAAcGxheV92b19rZWxhaXRhX2NvbV9qdW1wAAAAABgAAABwbGF5X3ZvX2tlbGFpdGFfY29tX2hvb2sAAAAAFwAAAHBsYXlfdm9fa2VsYWl0YV9jb21fZmx5ABwAAABwbGF5X3ZvX2tlbGFpdGFfY29tX2JlaGl0Zmx5AAAAABkAAABwbGF5X3ZvX2tlbGFpdGFfY29tX2JlaGl0AAAAGgAAAHBsYXlfdm9fa2VsYWl0YV9jb21fZW5nYWdlAAAeAAAAcGxheV92b19rZWxhaXRhX2NvbV9jb3VudGVyYXRrAAAeAAAAcGxheV92b19rZWxhaXRhX2NvbV9saW1pdGRvZGdlAAAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAxAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAyAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDAzAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDA0AAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX3Jhbmt1cDA1AAAAABkAAABwbGF5X3ZvX2tlbGFpdGFfY29tX3RpcmVkAAAAFwAAAHBsYXlfdm9fa2VsYWl0YV9jb21fZGllAAMAAAAMAAAAOAAAAGwAAACg////CAAAAEYAAAAcAAAAcGxheV92b19rZWxhaXRhX2NvbV9ocGRvd24wMQAAAADQ////CAAAADIAAAAcAAAAcGxheV92b19rZWxhaXRhX2NvbV9ocGRvd24wMgAAAAAIAAwACAAEAAgAAAAIAAAAHgAAABwAAABwbGF5X3ZvX2tlbGFpdGFfY29tX2hwZG93bjAzAAAAABwAAABwbGF5X3ZvX2tlbGFpdGFfc3lzX2pvaW50ZWFtAAAAABgAAABwbGF5X3ZvX2tlbGFpdGFfY29tX3NjYW4AAAAAGwAAAHBsYXlfdm9fa2VsYWl0YV9jb21fb3BlbmJveAAeAAAAcGxheV92b19rZWxhaXRhX3NraWxsX2h4c3VtbW9uAAAeAAAAcGxheV92b19rZWxhaXRhX3NraWxsX2h4Y2hhbmdlAAAdAAAAcGxheV92b19rZWxhaXRhX2NvbV9mYXN0Y2xpbWIAAAAPAAAAcm9sZV9mb2xleV9ub25lABMAAAByb2xlX2Zvb3RzdGVwX2hlZWxzAAcAAABrZWxhaXRhAA=="
+    "Name": "kelaita",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_none",
+    "FastClimbEvent": "play_vo_kelaita_com_fastclimb",
+    "VisionMorphEvent": "play_vo_kelaita_skill_hxchange",
+    "VisionSummonEvent": "play_vo_kelaita_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_kelaita_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_kelaita_com_scan",
+    "JoinTeamEvent": "play_vo_kelaita_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_kelaita_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_kelaita_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_kelaita_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_kelaita_com_die",
+    "LowStrengthEvent": "play_vo_kelaita_com_tired",
+    "BreakUpEventList": [
+      "play_vo_kelaita_sys_rankup01",
+      "play_vo_kelaita_sys_rankup02",
+      "play_vo_kelaita_sys_rankup01",
+      "play_vo_kelaita_sys_rankup02",
+      "play_vo_kelaita_sys_rankup03",
+      "play_vo_kelaita_sys_rankup04",
+      "play_vo_kelaita_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_kelaita_com_limitdodge",
+    "ParryEvent": "play_vo_kelaita_com_counteratk",
+    "EnterBattleEvent": "play_vo_kelaita_com_engage",
+    "UnderAttackEvent": "play_vo_kelaita_com_behit",
+    "KnockUpEvent": "play_vo_kelaita_com_behitfly",
+    "EnterGlideEvent": "play_vo_kelaita_com_fly",
+    "UseExploreHookEvent": "play_vo_kelaita_com_hook",
+    "ClimbLeapEvent": "play_vo_kelaita_com_jump",
+    "AccelerateEvent": "play_vo_kelaita_com_accelerate"
   },
   {
     "Id": 81001608,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAANAAAADwAAAADAEAACgBAABEAQAAZAEAAHwCAACYAgAAtAIAAFgDAAB4AwAAlAMAALQDAADUAwAA9AMAABQEAAAkBAAAOAQAAIj80wQfAAAAcGxheV92b19mdWx1b2x1b19jb21fYWNjZWxlcmF0ZQAZAAAAcGxheV92b19mdWx1b2x1b19jb21fanVtcAAAABkAAABwbGF5X3ZvX2Z1bHVvbHVvX2NvbV9ob29rAAAAGAAAAHBsYXlfdm9fZnVsdW9sdW9fY29tX2ZseQAAAAAdAAAAcGxheV92b19mdWx1b2x1b19jb21fYmVoaXRmbHkAAAAaAAAAcGxheV92b19mdWx1b2x1b19jb21fYmVoaXQAABsAAABwbGF5X3ZvX2Z1bHVvbHVvX2NvbV9lbmdhZ2UAGgAAAHBsYXlfdm9fZnVsdW9sdW9fY29tX3BhcnJ5AAAfAAAAcGxheV92b19mdWx1b2x1b19jb21fbGltaXRkb2RnZQAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAAB0AAABwbGF5X3ZvX2Z1bHVvbHVvX3N5c19yYW5rdXAwMQAAAB0AAABwbGF5X3ZvX2Z1bHVvbHVvX3N5c19yYW5rdXAwMQAAAB0AAABwbGF5X3ZvX2Z1bHVvbHVvX3N5c19yYW5rdXAwMgAAAB0AAABwbGF5X3ZvX2Z1bHVvbHVvX3N5c19yYW5rdXAwMwAAAB0AAABwbGF5X3ZvX2Z1bHVvbHVvX3N5c19yYW5rdXAwNAAAAB0AAABwbGF5X3ZvX2Z1bHVvbHVvX3N5c19yYW5rdXAwNQAAAB0AAABwbGF5X3ZvX2Z1bHVvbHVvX3N5c19yYW5rdXAwNQAAABoAAABwbGF5X3ZvX2Z1bHVvbHVvX2NvbV90aXJlZAAAGAAAAHBsYXlfdm9fZnVsdW9sdW9fY29tX2RpZQAAAAADAAAADAAAADgAAABsAAAAoP///wgAAABGAAAAHQAAAHBsYXlfdm9fZnVsdW9sdW9fY29tX2hwZG93bjAxAAAA0P///wgAAAAyAAAAHQAAAHBsYXlfdm9fZnVsdW9sdW9fY29tX2hwZG93bjAyAAAACAAMAAgABAAIAAAACAAAAB4AAAAdAAAAcGxheV92b19mdWx1b2x1b19jb21faHBkb3duMDMAAAAdAAAAcGxheV92b19mdWx1b2x1b19zeXNfam9pbnRlYW0AAAAZAAAAcGxheV92b19mdWx1b2x1b19jb21fc2NhbgAAABwAAABwbGF5X3ZvX2Z1bHVvbHVvX2NvbV9vcGVuYm94AAAAAB0AAABwbGF5X3ZvX2Z1bHVvbHVvX2NvbV9oeHN1bW1vbgAAAB0AAABwbGF5X3ZvX2Z1bHVvbHVvX2NvbV9oeGNoYW5nZQAAAB4AAABwbGF5X3ZvX2Z1bHVvbHVvX2NvbV9mYXN0Y2xpbWIAAA8AAAByb2xlX2ZvbGV5X2NodW4AEwAAAHJvbGVfZm9vdHN0ZXBfaGVlbHMACAAAAGZ1bHVvbHVvAAAAAA=="
+    "Name": "fuluoluo",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_chun",
+    "FastClimbEvent": "play_vo_fuluoluo_com_fastclimb",
+    "VisionMorphEvent": "play_vo_fuluoluo_com_hxchange",
+    "VisionSummonEvent": "play_vo_fuluoluo_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_fuluoluo_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_fuluoluo_com_scan",
+    "JoinTeamEvent": "play_vo_fuluoluo_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_fuluoluo_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_fuluoluo_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_fuluoluo_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_fuluoluo_com_die",
+    "LowStrengthEvent": "play_vo_fuluoluo_com_tired",
+    "BreakUpEventList": [
+      "play_vo_fuluoluo_sys_rankup01",
+      "play_vo_fuluoluo_sys_rankup01",
+      "play_vo_fuluoluo_sys_rankup02",
+      "play_vo_fuluoluo_sys_rankup03",
+      "play_vo_fuluoluo_sys_rankup04",
+      "play_vo_fuluoluo_sys_rankup05",
+      "play_vo_fuluoluo_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_fuluoluo_com_limitdodge",
+    "ParryEvent": "play_vo_fuluoluo_com_parry",
+    "EnterBattleEvent": "play_vo_fuluoluo_com_engage",
+    "UnderAttackEvent": "play_vo_fuluoluo_com_behit",
+    "KnockUpEvent": "play_vo_fuluoluo_com_behitfly",
+    "EnterGlideEvent": "play_vo_fuluoluo_com_fly",
+    "UseExploreHookEvent": "play_vo_fuluoluo_com_hook",
+    "ClimbLeapEvent": "play_vo_fuluoluo_com_jump",
+    "AccelerateEvent": "play_vo_fuluoluo_com_accelerate"
   },
   {
     "Id": 81001411,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAAMwAAADsAAAACAEAACQBAABAAQAAYAEAAHgCAACUAgAArAIAAFADAABwAwAAjAMAAKgDAADIAwAA6AMAAAgEAAAcBAAAMAQAAMP70wQeAAAAcGxheV92b19xaXV5dWFuX2NvbV9hY2NlbGVyYXRlAAAYAAAAcGxheV92b19xaXV5dWFuX2NvbV9qdW1wAAAAABgAAABwbGF5X3ZvX3FpdXl1YW5fY29tX2hvb2sAAAAAFwAAAHBsYXlfdm9fcWl1eXVhbl9jb21fZmx5ABwAAABwbGF5X3ZvX3FpdXl1YW5fY29tX2JlaGl0Zmx5AAAAABkAAABwbGF5X3ZvX3FpdXl1YW5fY29tX2JlaGl0AAAAGgAAAHBsYXlfdm9fcWl1eXVhbl9jb21fZW5nYWdlAAAZAAAAcGxheV92b19xaXV5dWFuX2NvbV9wYXJyeQAAAB4AAABwbGF5X3ZvX3FpdXl1YW5fY29tX2xpbWl0ZG9kZ2UAAAcAAAAcAAAAPAAAAFwAAAB8AAAAnAAAALwAAADcAAAAHAAAAHBsYXlfdm9fcWl1eXVhbl9zeXNfcmFua3VwMDEAAAAAHAAAAHBsYXlfdm9fcWl1eXVhbl9zeXNfcmFua3VwMDEAAAAAHAAAAHBsYXlfdm9fcWl1eXVhbl9zeXNfcmFua3VwMDIAAAAAHAAAAHBsYXlfdm9fcWl1eXVhbl9zeXNfcmFua3VwMDMAAAAAHAAAAHBsYXlfdm9fcWl1eXVhbl9zeXNfcmFua3VwMDQAAAAAHAAAAHBsYXlfdm9fcWl1eXVhbl9zeXNfcmFua3VwMDUAAAAAHAAAAHBsYXlfdm9fcWl1eXVhbl9zeXNfcmFua3VwMDUAAAAAGQAAAHBsYXlfdm9fcWl1eXVhbl9jb21fdGlyZWQAAAAXAAAAcGxheV92b19xaXV5dWFuX2NvbV9kaWUAAwAAAAwAAAA4AAAAbAAAAKD///8IAAAARgAAABwAAABwbGF5X3ZvX3FpdXl1YW5fY29tX2hwZG93bjAxAAAAAND///8IAAAAMgAAABwAAABwbGF5X3ZvX3FpdXl1YW5fY29tX2hwZG93bjAyAAAAAAgADAAIAAQACAAAAAgAAAAeAAAAHAAAAHBsYXlfdm9fcWl1eXVhbl9jb21faHBkb3duMDMAAAAAHAAAAHBsYXlfdm9fcWl1eXVhbl9zeXNfam9pbnRlYW0AAAAAGAAAAHBsYXlfdm9fcWl1eXVhbl9jb21fc2NhbgAAAAAbAAAAcGxheV92b19xaXV5dWFuX2NvbV9vcGVuYm94ABwAAABwbGF5X3ZvX3FpdXl1YW5fY29tX2h4c3VtbW9uAAAAABwAAABwbGF5X3ZvX3FpdXl1YW5fY29tX2h4Y2hhbmdlAAAAAB0AAABwbGF5X3ZvX3FpdXl1YW5fY29tX2Zhc3RjbGltYgAAABIAAAByb2xlX2ZvbGV5X2tha2FsdW8AABMAAAByb2xlX2Zvb3RzdGVwX2Jvb3RzAAcAAABxaXV5dWFuAA=="
+    "Name": "qiuyuan",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_kakaluo",
+    "FastClimbEvent": "play_vo_qiuyuan_com_fastclimb",
+    "VisionMorphEvent": "play_vo_qiuyuan_com_hxchange",
+    "VisionSummonEvent": "play_vo_qiuyuan_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_qiuyuan_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_qiuyuan_com_scan",
+    "JoinTeamEvent": "play_vo_qiuyuan_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_qiuyuan_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_qiuyuan_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_qiuyuan_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_qiuyuan_com_die",
+    "LowStrengthEvent": "play_vo_qiuyuan_com_tired",
+    "BreakUpEventList": [
+      "play_vo_qiuyuan_sys_rankup01",
+      "play_vo_qiuyuan_sys_rankup01",
+      "play_vo_qiuyuan_sys_rankup02",
+      "play_vo_qiuyuan_sys_rankup03",
+      "play_vo_qiuyuan_sys_rankup04",
+      "play_vo_qiuyuan_sys_rankup05",
+      "play_vo_qiuyuan_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_qiuyuan_com_limitdodge",
+    "ParryEvent": "play_vo_qiuyuan_com_parry",
+    "EnterBattleEvent": "play_vo_qiuyuan_com_engage",
+    "UnderAttackEvent": "play_vo_qiuyuan_com_behit",
+    "KnockUpEvent": "play_vo_qiuyuan_com_behitfly",
+    "EnterGlideEvent": "play_vo_qiuyuan_com_fly",
+    "UseExploreHookEvent": "play_vo_qiuyuan_com_hook",
+    "ClimbLeapEvent": "play_vo_qiuyuan_com_jump",
+    "AccelerateEvent": "play_vo_qiuyuan_com_accelerate"
   },
   {
     "Id": 81001306,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAANAAAADwAAAADAEAACgBAABEAQAAZAEAAHwCAACYAgAAtAIAAFgDAAB4AwAAlAMAALQDAADUAwAA9AMAABQEAAAoBAAARAQAAFr70wQfAAAAcGxheV92b19hb2d1c2l0YV9jb21fYWNjZWxlcmF0ZQAZAAAAcGxheV92b19hb2d1c2l0YV9jb21fanVtcAAAABkAAABwbGF5X3ZvX2FvZ3VzaXRhX2NvbV9ob29rAAAAGAAAAHBsYXlfdm9fYW9ndXNpdGFfY29tX2ZseQAAAAAdAAAAcGxheV92b19hb2d1c2l0YV9jb21fYmVoaXRmbHkAAAAaAAAAcGxheV92b19hb2d1c2l0YV9jb21fYmVoaXQAABsAAABwbGF5X3ZvX2FvZ3VzaXRhX2NvbV9lbmdhZ2UAGgAAAHBsYXlfdm9fYW9ndXNpdGFfY29tX3BhcnJ5AAAfAAAAcGxheV92b19hb2d1c2l0YV9jb21fbGltaXRkb2RnZQAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAAB0AAABwbGF5X3ZvX2FvZ3VzaXRhX3N5c19yYW5rdXAwMQAAAB0AAABwbGF5X3ZvX2FvZ3VzaXRhX3N5c19yYW5rdXAwMQAAAB0AAABwbGF5X3ZvX2FvZ3VzaXRhX3N5c19yYW5rdXAwMgAAAB0AAABwbGF5X3ZvX2FvZ3VzaXRhX3N5c19yYW5rdXAwMwAAAB0AAABwbGF5X3ZvX2FvZ3VzaXRhX3N5c19yYW5rdXAwNAAAAB0AAABwbGF5X3ZvX2FvZ3VzaXRhX3N5c19yYW5rdXAwNQAAAB0AAABwbGF5X3ZvX2FvZ3VzaXRhX3N5c19yYW5rdXAwNQAAABoAAABwbGF5X3ZvX2FvZ3VzaXRhX2NvbV90aXJlZAAAGAAAAHBsYXlfdm9fYW9ndXNpdGFfY29tX2RpZQAAAAADAAAADAAAADgAAABsAAAAoP///wgAAABGAAAAHQAAAHBsYXlfdm9fYW9ndXNpdGFfY29tX2hwZG93bjAxAAAA0P///wgAAAAyAAAAHQAAAHBsYXlfdm9fYW9ndXNpdGFfY29tX2hwZG93bjAyAAAACAAMAAgABAAIAAAACAAAAB4AAAAdAAAAcGxheV92b19hb2d1c2l0YV9jb21faHBkb3duMDMAAAAdAAAAcGxheV92b19hb2d1c2l0YV9zeXNfam9pbnRlYW0AAAAZAAAAcGxheV92b19hb2d1c2l0YV9jb21fc2NhbgAAABwAAABwbGF5X3ZvX2FvZ3VzaXRhX2NvbV9vcGVuYm94AAAAAB0AAABwbGF5X3ZvX2FvZ3VzaXRhX2NvbV9oeHN1bW1vbgAAAB0AAABwbGF5X3ZvX2FvZ3VzaXRhX2NvbV9oeGNoYW5nZQAAAB4AAABwbGF5X3ZvX2FvZ3VzaXRhX2NvbV9mYXN0Y2xpbWIAABIAAAByb2xlX2ZvbGV5X2ppYW54aW4AABgAAAByb2xlX2Zvb3RzdGVwX2Jsb2NraGVlbHMAAAAACAAAAGFvZ3VzaXRhAAAAAA=="
+    "Name": "aogusita",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_jianxin",
+    "FastClimbEvent": "play_vo_aogusita_com_fastclimb",
+    "VisionMorphEvent": "play_vo_aogusita_com_hxchange",
+    "VisionSummonEvent": "play_vo_aogusita_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_aogusita_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_aogusita_com_scan",
+    "JoinTeamEvent": "play_vo_aogusita_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_aogusita_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_aogusita_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_aogusita_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_aogusita_com_die",
+    "LowStrengthEvent": "play_vo_aogusita_com_tired",
+    "BreakUpEventList": [
+      "play_vo_aogusita_sys_rankup01",
+      "play_vo_aogusita_sys_rankup01",
+      "play_vo_aogusita_sys_rankup02",
+      "play_vo_aogusita_sys_rankup03",
+      "play_vo_aogusita_sys_rankup04",
+      "play_vo_aogusita_sys_rankup05",
+      "play_vo_aogusita_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_aogusita_com_limitdodge",
+    "ParryEvent": "play_vo_aogusita_com_parry",
+    "EnterBattleEvent": "play_vo_aogusita_com_engage",
+    "UnderAttackEvent": "play_vo_aogusita_com_behit",
+    "KnockUpEvent": "play_vo_aogusita_com_behitfly",
+    "EnterGlideEvent": "play_vo_aogusita_com_fly",
+    "UseExploreHookEvent": "play_vo_aogusita_com_hook",
+    "ClimbLeapEvent": "play_vo_aogusita_com_jump",
+    "AccelerateEvent": "play_vo_aogusita_com_accelerate"
   },
   {
     "Id": 81001410,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA/AAAABgBAAA0AQAAVAEAAFACAABsAgAAhAIAABwDAAA4AwAAUAMAAGwDAACIAwAApAMAAMQDAADUAwAA6AMAAML70wQdAAAAcGxheV92b195b3VudW9fY29tX2FjY2VsZXJhdGUAAAAXAAAAcGxheV92b195b3VudW9fY29tX2p1bXAAFwAAAHBsYXlfdm9feW91bnVvX2NvbV9ob29rABYAAABwbGF5X3ZvX3lvdW51b19jb21fZmx5AAAbAAAAcGxheV92b195b3VudW9fY29tX2JlaGl0Zmx5ABgAAABwbGF5X3ZvX3lvdW51b19jb21fYmVoaXQAAAAAGQAAAHBsYXlfdm9feW91bnVvX2NvbV9lbmdhZ2UAAAAYAAAAcGxheV92b195b3VudW9fY29tX3BhcnJ5AAAAAB0AAABwbGF5X3ZvX3lvdW51b19jb21fbGltaXRkb2RnZQAAAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGwAAAHBsYXlfdm9feW91bnVvX3N5c19yYW5rdXAwMQAbAAAAcGxheV92b195b3VudW9fc3lzX3Jhbmt1cDAxABsAAABwbGF5X3ZvX3lvdW51b19zeXNfcmFua3VwMDIAGwAAAHBsYXlfdm9feW91bnVvX3N5c19yYW5rdXAwMwAbAAAAcGxheV92b195b3VudW9fc3lzX3Jhbmt1cDA0ABsAAABwbGF5X3ZvX3lvdW51b19zeXNfcmFua3VwMDUAGwAAAHBsYXlfdm9feW91bnVvX3N5c19yYW5rdXAwNQAYAAAAcGxheV92b195b3VudW9fY29tX3RpcmVkAAAAABYAAABwbGF5X3ZvX3lvdW51b19jb21fZGllAAADAAAADAAAADQAAABkAAAAqP///wgAAABGAAAAGwAAAHBsYXlfdm9feW91bnVvX2NvbV9ocGRvd24wMQDU////CAAAADIAAAAbAAAAcGxheV92b195b3VudW9fY29tX2hwZG93bjAyAAgADAAIAAQACAAAAAgAAAAeAAAAGwAAAHBsYXlfdm9feW91bnVvX2NvbV9ocGRvd24wMwAbAAAAcGxheV92b195b3VudW9fc3lzX2pvaW50ZWFtABcAAABwbGF5X3ZvX3lvdW51b19jb21fc2NhbgAaAAAAcGxheV92b195b3VudW9fY29tX29wZW5ib3gAABsAAABwbGF5X3ZvX3lvdW51b19jb21faHhzdW1tb24AGwAAAHBsYXlfdm9feW91bnVvX2NvbV9oeGNoYW5nZQAcAAAAcGxheV92b195b3VudW9fY29tX2Zhc3RjbGltYgAAAAAPAAAAcm9sZV9mb2xleV9hbmtlABMAAAByb2xlX2Zvb3RzdGVwX2hlZWxzAAYAAAB5b3VudW8AAA=="
+    "Name": "younuo",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_anke",
+    "FastClimbEvent": "play_vo_younuo_com_fastclimb",
+    "VisionMorphEvent": "play_vo_younuo_com_hxchange",
+    "VisionSummonEvent": "play_vo_younuo_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_younuo_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_younuo_com_scan",
+    "JoinTeamEvent": "play_vo_younuo_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_younuo_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_younuo_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_younuo_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_younuo_com_die",
+    "LowStrengthEvent": "play_vo_younuo_com_tired",
+    "BreakUpEventList": [
+      "play_vo_younuo_sys_rankup01",
+      "play_vo_younuo_sys_rankup01",
+      "play_vo_younuo_sys_rankup02",
+      "play_vo_younuo_sys_rankup03",
+      "play_vo_younuo_sys_rankup04",
+      "play_vo_younuo_sys_rankup05",
+      "play_vo_younuo_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_younuo_com_limitdodge",
+    "ParryEvent": "play_vo_younuo_com_parry",
+    "EnterBattleEvent": "play_vo_younuo_com_engage",
+    "UnderAttackEvent": "play_vo_younuo_com_behit",
+    "KnockUpEvent": "play_vo_younuo_com_behitfly",
+    "EnterGlideEvent": "play_vo_younuo_com_fly",
+    "UseExploreHookEvent": "play_vo_younuo_com_hook",
+    "ClimbLeapEvent": "play_vo_younuo_com_jump",
+    "AccelerateEvent": "play_vo_younuo_com_accelerate"
   },
   {
     "Id": 81001208,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAIAAAACcAAAAuAAAANQAAAD0AAAAFAEAADQBAABUAQAAeAEAAJACAACwAgAAzAIAAHADAACQAwAArAMAAMwDAADsAwAADAQAADAEAABEBAAAWAQAAPj60wQhAAAAcGxheV92b19qaWFiZWlsaW5hX2NvbV9hY2NlbGVyYXRlAAAAGwAAAHBsYXlfdm9famlhYmVpbGluYV9jb21fanVtcAAbAAAAcGxheV92b19qaWFiZWlsaW5hX2NvbV9ob29rABoAAABwbGF5X3ZvX2ppYWJlaWxpbmFfY29tX2ZseQAAHwAAAHBsYXlfdm9famlhYmVpbGluYV9jb21fYmVoaXRmbHkAHAAAAHBsYXlfdm9famlhYmVpbGluYV9jb21fYmVoaXQAAAAAHQAAAHBsYXlfdm9famlhYmVpbGluYV9jb21fZW5nYWdlAAAAHAAAAHBsYXlfdm9famlhYmVpbGluYV9jb21fcGFycnkAAAAAIQAAAHBsYXlfdm9famlhYmVpbGluYV9jb21fbGltaXRkb2RnZQAAAAcAAAAcAAAAPAAAAFwAAAB8AAAAnAAAALwAAADcAAAAHwAAAHBsYXlfdm9famlhYmVpbGluYV9zeXNfcmFua3VwMDEAHwAAAHBsYXlfdm9famlhYmVpbGluYV9zeXNfcmFua3VwMDEAHwAAAHBsYXlfdm9famlhYmVpbGluYV9zeXNfcmFua3VwMDIAHwAAAHBsYXlfdm9famlhYmVpbGluYV9zeXNfcmFua3VwMDMAHwAAAHBsYXlfdm9famlhYmVpbGluYV9zeXNfcmFua3VwMDQAHwAAAHBsYXlfdm9famlhYmVpbGluYV9zeXNfcmFua3VwMDUAHwAAAHBsYXlfdm9famlhYmVpbGluYV9zeXNfcmFua3VwMDUAHAAAAHBsYXlfdm9famlhYmVpbGluYV9jb21fdGlyZWQAAAAAGgAAAHBsYXlfdm9famlhYmVpbGluYV9jb21fZGllAAADAAAADAAAADgAAABsAAAAoP///wgAAABGAAAAHwAAAHBsYXlfdm9famlhYmVpbGluYV9jb21faHBkb3duMDEA0P///wgAAAAyAAAAHwAAAHBsYXlfdm9famlhYmVpbGluYV9jb21faHBkb3duMDIACAAMAAgABAAIAAAACAAAAB4AAAAfAAAAcGxheV92b19qaWFiZWlsaW5hX2NvbV9ocGRvd24wMwAfAAAAcGxheV92b19qaWFiZWlsaW5hX3N5c19qb2ludGVhbQAbAAAAcGxheV92b19qaWFiZWlsaW5hX2NvbV9zY2FuAB4AAABwbGF5X3ZvX2ppYWJlaWxpbmFfY29tX29wZW5ib3gAAB8AAABwbGF5X3ZvX2ppYWJlaWxpbmFfY29tX2h4c3VtbW9uAB8AAABwbGF5X3ZvX2ppYWJlaWxpbmFfY29tX2h4Y2hhbmdlACAAAABwbGF5X3ZvX2ppYWJlaWxpbmFfY29tX2Zhc3RjbGltYgAAAAASAAAAcm9sZV9mb2xleV9rZWxhaXRhAAATAAAAcm9sZV9mb290c3RlcF9oZWVscwAKAAAAamlhYmVpbGluYQAA"
+    "Name": "jiabeilina",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_kelaita",
+    "FastClimbEvent": "play_vo_jiabeilina_com_fastclimb",
+    "VisionMorphEvent": "play_vo_jiabeilina_com_hxchange",
+    "VisionSummonEvent": "play_vo_jiabeilina_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_jiabeilina_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_jiabeilina_com_scan",
+    "JoinTeamEvent": "play_vo_jiabeilina_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_jiabeilina_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_jiabeilina_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_jiabeilina_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_jiabeilina_com_die",
+    "LowStrengthEvent": "play_vo_jiabeilina_com_tired",
+    "BreakUpEventList": [
+      "play_vo_jiabeilina_sys_rankup01",
+      "play_vo_jiabeilina_sys_rankup01",
+      "play_vo_jiabeilina_sys_rankup02",
+      "play_vo_jiabeilina_sys_rankup03",
+      "play_vo_jiabeilina_sys_rankup04",
+      "play_vo_jiabeilina_sys_rankup05",
+      "play_vo_jiabeilina_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_jiabeilina_com_limitdodge",
+    "ParryEvent": "play_vo_jiabeilina_com_parry",
+    "EnterBattleEvent": "play_vo_jiabeilina_com_engage",
+    "UnderAttackEvent": "play_vo_jiabeilina_com_behit",
+    "KnockUpEvent": "play_vo_jiabeilina_com_behitfly",
+    "EnterGlideEvent": "play_vo_jiabeilina_com_fly",
+    "UseExploreHookEvent": "play_vo_jiabeilina_com_hook",
+    "ClimbLeapEvent": "play_vo_jiabeilina_com_jump",
+    "AccelerateEvent": "play_vo_jiabeilina_com_accelerate"
   },
   {
     "Id": 81001508,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACYAAAAtAAAANAAAADwAAAADAEAACgBAABEAQAAZAEAAHwCAACYAgAAtAIAAFgDAAB4AwAAlAMAALQDAADUAwAA9AMAABQEAAAkBAAAQAQAACT80wQfAAAAcGxheV92b19xaWFueGlhb19jb21fYWNjZWxlcmF0ZQAZAAAAcGxheV92b19xaWFueGlhb19jb21fanVtcAAAABkAAABwbGF5X3ZvX3FpYW54aWFvX2NvbV9ob29rAAAAGAAAAHBsYXlfdm9fcWlhbnhpYW9fY29tX2ZseQAAAAAdAAAAcGxheV92b19xaWFueGlhb19jb21fYmVoaXRmbHkAAAAaAAAAcGxheV92b19xaWFueGlhb19jb21fYmVoaXQAABsAAABwbGF5X3ZvX3FpYW54aWFvX2NvbV9lbmdhZ2UAGgAAAHBsYXlfdm9fcWlhbnhpYW9fY29tX3BhcnJ5AAAfAAAAcGxheV92b19xaWFueGlhb19jb21fbGltaXRkb2RnZQAHAAAAHAAAADwAAABcAAAAfAAAAJwAAAC8AAAA3AAAAB0AAABwbGF5X3ZvX3FpYW54aWFvX3N5c19yYW5rdXAwMQAAAB0AAABwbGF5X3ZvX3FpYW54aWFvX3N5c19yYW5rdXAwMQAAAB0AAABwbGF5X3ZvX3FpYW54aWFvX3N5c19yYW5rdXAwMgAAAB0AAABwbGF5X3ZvX3FpYW54aWFvX3N5c19yYW5rdXAwMwAAAB0AAABwbGF5X3ZvX3FpYW54aWFvX3N5c19yYW5rdXAwNAAAAB0AAABwbGF5X3ZvX3FpYW54aWFvX3N5c19yYW5rdXAwNQAAAB0AAABwbGF5X3ZvX3FpYW54aWFvX3N5c19yYW5rdXAwNQAAABoAAABwbGF5X3ZvX3FpYW54aWFvX2NvbV90aXJlZAAAGAAAAHBsYXlfdm9fcWlhbnhpYW9fY29tX2RpZQAAAAADAAAADAAAADgAAABsAAAAoP///wgAAABGAAAAHQAAAHBsYXlfdm9fcWlhbnhpYW9fY29tX2hwZG93bjAxAAAA0P///wgAAAAyAAAAHQAAAHBsYXlfdm9fcWlhbnhpYW9fY29tX2hwZG93bjAyAAAACAAMAAgABAAIAAAACAAAAB4AAAAdAAAAcGxheV92b19xaWFueGlhb19jb21faHBkb3duMDMAAAAdAAAAcGxheV92b19xaWFueGlhb19zeXNfam9pbnRlYW0AAAAZAAAAcGxheV92b19xaWFueGlhb19jb21fc2NhbgAAABwAAABwbGF5X3ZvX3FpYW54aWFvX2NvbV9vcGVuYm94AAAAAB0AAABwbGF5X3ZvX3FpYW54aWFvX2NvbV9oeHN1bW1vbgAAAB0AAABwbGF5X3ZvX3FpYW54aWFvX2NvbV9oeGNoYW5nZQAAAB4AAABwbGF5X3ZvX3FpYW54aWFvX2NvbV9mYXN0Y2xpbWIAAA8AAAByb2xlX2ZvbGV5X2NodW4AGAAAAHJvbGVfZm9vdHN0ZXBfYmxvY2toZWVscwAAAAAIAAAAcWlhbnhpYW8AAAAA"
+    "Name": "qianxiao",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_chun",
+    "FastClimbEvent": "play_vo_qianxiao_com_fastclimb",
+    "VisionMorphEvent": "play_vo_qianxiao_com_hxchange",
+    "VisionSummonEvent": "play_vo_qianxiao_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_qianxiao_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_qianxiao_com_scan",
+    "JoinTeamEvent": "play_vo_qianxiao_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_qianxiao_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_qianxiao_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_qianxiao_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_qianxiao_com_die",
+    "LowStrengthEvent": "play_vo_qianxiao_com_tired",
+    "BreakUpEventList": [
+      "play_vo_qianxiao_sys_rankup01",
+      "play_vo_qianxiao_sys_rankup01",
+      "play_vo_qianxiao_sys_rankup02",
+      "play_vo_qianxiao_sys_rankup03",
+      "play_vo_qianxiao_sys_rankup04",
+      "play_vo_qianxiao_sys_rankup05",
+      "play_vo_qianxiao_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_qianxiao_com_limitdodge",
+    "ParryEvent": "play_vo_qianxiao_com_parry",
+    "EnterBattleEvent": "play_vo_qianxiao_com_engage",
+    "UnderAttackEvent": "play_vo_qianxiao_com_behit",
+    "KnockUpEvent": "play_vo_qianxiao_com_behitfly",
+    "EnterGlideEvent": "play_vo_qianxiao_com_fly",
+    "UseExploreHookEvent": "play_vo_qianxiao_com_hook",
+    "ClimbLeapEvent": "play_vo_qianxiao_com_jump",
+    "AccelerateEvent": "play_vo_qianxiao_com_accelerate"
   },
   {
     "Id": 81001307,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA/AAAABgBAAA0AQAAVAEAAFACAABsAgAAhAIAABwDAAA4AwAAUAMAAGwDAACIAwAApAMAAMQDAADUAwAA8AMAAFv70wQdAAAAcGxheV92b19idWxpbmdfY29tX2FjY2VsZXJhdGUAAAAXAAAAcGxheV92b19idWxpbmdfY29tX2p1bXAAFwAAAHBsYXlfdm9fYnVsaW5nX2NvbV9ob29rABYAAABwbGF5X3ZvX2J1bGluZ19jb21fZmx5AAAbAAAAcGxheV92b19idWxpbmdfY29tX2JlaGl0Zmx5ABgAAABwbGF5X3ZvX2J1bGluZ19jb21fYmVoaXQAAAAAGQAAAHBsYXlfdm9fYnVsaW5nX2NvbV9lbmdhZ2UAAAAYAAAAcGxheV92b19idWxpbmdfY29tX3BhcnJ5AAAAAB0AAABwbGF5X3ZvX2J1bGluZ19jb21fbGltaXRkb2RnZQAAAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGwAAAHBsYXlfdm9fYnVsaW5nX3N5c19yYW5rdXAwMQAbAAAAcGxheV92b19idWxpbmdfc3lzX3Jhbmt1cDAxABsAAABwbGF5X3ZvX2J1bGluZ19zeXNfcmFua3VwMDIAGwAAAHBsYXlfdm9fYnVsaW5nX3N5c19yYW5rdXAwMwAbAAAAcGxheV92b19idWxpbmdfc3lzX3Jhbmt1cDA0ABsAAABwbGF5X3ZvX2J1bGluZ19zeXNfcmFua3VwMDUAGwAAAHBsYXlfdm9fYnVsaW5nX3N5c19yYW5rdXAwNQAYAAAAcGxheV92b19idWxpbmdfY29tX3RpcmVkAAAAABYAAABwbGF5X3ZvX2J1bGluZ19jb21fZGllAAADAAAADAAAADQAAABkAAAAqP///wgAAABGAAAAGwAAAHBsYXlfdm9fYnVsaW5nX2NvbV9ocGRvd24wMQDU////CAAAADIAAAAbAAAAcGxheV92b19idWxpbmdfY29tX2hwZG93bjAyAAgADAAIAAQACAAAAAgAAAAeAAAAGwAAAHBsYXlfdm9fYnVsaW5nX2NvbV9ocGRvd24wMwAbAAAAcGxheV92b19idWxpbmdfc3lzX2pvaW50ZWFtABcAAABwbGF5X3ZvX2J1bGluZ19jb21fc2NhbgAaAAAAcGxheV92b19idWxpbmdfY29tX29wZW5ib3gAABsAAABwbGF5X3ZvX2J1bGluZ19jb21faHhzdW1tb24AGwAAAHBsYXlfdm9fYnVsaW5nX2NvbV9oeGNoYW5nZQAcAAAAcGxheV92b19idWxpbmdfY29tX2Zhc3RjbGltYgAAAAAPAAAAcm9sZV9mb2xleV9hbmtlABgAAAByb2xlX2Zvb3RzdGVwX2Jsb2NraGVlbHMAAAAABgAAAGJ1bGluZwAA"
+    "Name": "buling",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_anke",
+    "FastClimbEvent": "play_vo_buling_com_fastclimb",
+    "VisionMorphEvent": "play_vo_buling_com_hxchange",
+    "VisionSummonEvent": "play_vo_buling_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_buling_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_buling_com_scan",
+    "JoinTeamEvent": "play_vo_buling_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_buling_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_buling_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_buling_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_buling_com_die",
+    "LowStrengthEvent": "play_vo_buling_com_tired",
+    "BreakUpEventList": [
+      "play_vo_buling_sys_rankup01",
+      "play_vo_buling_sys_rankup01",
+      "play_vo_buling_sys_rankup02",
+      "play_vo_buling_sys_rankup03",
+      "play_vo_buling_sys_rankup04",
+      "play_vo_buling_sys_rankup05",
+      "play_vo_buling_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_buling_com_limitdodge",
+    "ParryEvent": "play_vo_buling_com_parry",
+    "EnterBattleEvent": "play_vo_buling_com_engage",
+    "UnderAttackEvent": "play_vo_buling_com_behit",
+    "KnockUpEvent": "play_vo_buling_com_behitfly",
+    "EnterGlideEvent": "play_vo_buling_com_fly",
+    "UseExploreHookEvent": "play_vo_buling_com_hook",
+    "ClimbLeapEvent": "play_vo_buling_com_jump",
+    "AccelerateEvent": "play_vo_buling_com_accelerate"
   },
   {
     "Id": 81011507,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA+AAAABQBAAA0AQAAVAEAAFACAABoAgAAgAIAABgDAAA0AwAATAMAAGgDAACIAwAAqAMAAMQDAADYAwAA7AMAADMj1AQcAAAAcGxheV92b196YW5uaV9jb21fYWNjZWxlcmF0ZQAAAAAWAAAAcGxheV92b196YW5uaV9jb21fanVtcAAAFgAAAHBsYXlfdm9femFubmlfY29tX2hvb2sAABUAAABwbGF5X3ZvX3phbm5pX2NvbV9mbHkAAAAaAAAAcGxheV92b196YW5uaV9jb21fYmVoaXRmbHkAABcAAABwbGF5X3ZvX3phbm5pX2NvbV9iZWhpdAAYAAAAcGxheV92b196YW5uaV9jb21fZW5nYWdlAAAAABwAAABwbGF5X3ZvX3phbm5pX2NvbV9jb3VudGVyYXRrAAAAABwAAABwbGF5X3ZvX3phbm5pX2NvbV9saW1pdGRvZGdlAAAAAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGgAAAHBsYXlfdm9femFubmlfc3lzX3Jhbmt1cDAxAAAaAAAAcGxheV92b196YW5uaV9zeXNfcmFua3VwMDIAABoAAABwbGF5X3ZvX3phbm5pX3N5c19yYW5rdXAwMQAAGgAAAHBsYXlfdm9femFubmlfc3lzX3Jhbmt1cDAyAAAaAAAAcGxheV92b196YW5uaV9zeXNfcmFua3VwMDMAABoAAABwbGF5X3ZvX3phbm5pX3N5c19yYW5rdXAwNAAAGgAAAHBsYXlfdm9femFubmlfc3lzX3Jhbmt1cDA1AAAXAAAAcGxheV92b196YW5uaV9jb21fdGlyZWQAFQAAAHBsYXlfdm9femFubmlfY29tX2RpZQAAAAMAAAAMAAAANAAAAGQAAACo////CAAAAEYAAAAaAAAAcGxheV92b196YW5uaV9jb21faHBkb3duMDEAANT///8IAAAAMgAAABoAAABwbGF5X3ZvX3phbm5pX2NvbV9ocGRvd24wMgAACAAMAAgABAAIAAAACAAAAB4AAAAaAAAAcGxheV92b196YW5uaV9jb21faHBkb3duMDMAABoAAABwbGF5X3ZvX3phbm5pX3N5c19qb2ludGVhbQAAFgAAAHBsYXlfdm9femFubmlfY29tX3NjYW4AABkAAABwbGF5X3ZvX3phbm5pX2NvbV9vcGVuYm94AAAAHAAAAHBsYXlfdm9femFubmlfc2tpbGxfaHhzdW1tb24AAAAAHAAAAHBsYXlfdm9femFubmlfc2tpbGxfaHhjaGFuZ2UAAAAAGwAAAHBsYXlfdm9femFubmlfY29tX2Zhc3RjbGltYgASAAAAcm9sZV9mb2xleV9rZWxhaXRhAAATAAAAcm9sZV9mb290c3RlcF9oZWVscwAFAAAAemFubmkAAAA="
+    "Name": "zanni",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_kelaita",
+    "FastClimbEvent": "play_vo_zanni_com_fastclimb",
+    "VisionMorphEvent": "play_vo_zanni_skill_hxchange",
+    "VisionSummonEvent": "play_vo_zanni_skill_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_zanni_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_zanni_com_scan",
+    "JoinTeamEvent": "play_vo_zanni_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_zanni_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_zanni_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_zanni_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_zanni_com_die",
+    "LowStrengthEvent": "play_vo_zanni_com_tired",
+    "BreakUpEventList": [
+      "play_vo_zanni_sys_rankup01",
+      "play_vo_zanni_sys_rankup02",
+      "play_vo_zanni_sys_rankup01",
+      "play_vo_zanni_sys_rankup02",
+      "play_vo_zanni_sys_rankup03",
+      "play_vo_zanni_sys_rankup04",
+      "play_vo_zanni_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_zanni_com_limitdodge",
+    "ParryEvent": "play_vo_zanni_com_counteratk",
+    "EnterBattleEvent": "play_vo_zanni_com_engage",
+    "UnderAttackEvent": "play_vo_zanni_com_behit",
+    "KnockUpEvent": "play_vo_zanni_com_behitfly",
+    "EnterGlideEvent": "play_vo_zanni_com_fly",
+    "UseExploreHookEvent": "play_vo_zanni_com_hook",
+    "ClimbLeapEvent": "play_vo_zanni_com_jump",
+    "AccelerateEvent": "play_vo_zanni_com_accelerate"
   },
   {
     "Id": 81001509,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA/AAAABgBAAA0AQAAVAEAAFACAABsAgAAhAIAABwDAAA4AwAAUAMAAGwDAACIAwAApAMAAMQDAADYAwAA9AMAACX80wQdAAAAcGxheV92b19saW5uYWlfY29tX2FjY2VsZXJhdGUAAAAXAAAAcGxheV92b19saW5uYWlfY29tX2p1bXAAFwAAAHBsYXlfdm9fbGlubmFpX2NvbV9ob29rABYAAABwbGF5X3ZvX2xpbm5haV9jb21fZmx5AAAbAAAAcGxheV92b19saW5uYWlfY29tX2JlaGl0Zmx5ABgAAABwbGF5X3ZvX2xpbm5haV9jb21fYmVoaXQAAAAAGQAAAHBsYXlfdm9fbGlubmFpX2NvbV9lbmdhZ2UAAAAYAAAAcGxheV92b19saW5uYWlfY29tX3BhcnJ5AAAAAB0AAABwbGF5X3ZvX2xpbm5haV9jb21fbGltaXRkb2RnZQAAAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGwAAAHBsYXlfdm9fbGlubmFpX3N5c19yYW5rdXAwMQAbAAAAcGxheV92b19saW5uYWlfc3lzX3Jhbmt1cDAxABsAAABwbGF5X3ZvX2xpbm5haV9zeXNfcmFua3VwMDIAGwAAAHBsYXlfdm9fbGlubmFpX3N5c19yYW5rdXAwMwAbAAAAcGxheV92b19saW5uYWlfc3lzX3Jhbmt1cDA0ABsAAABwbGF5X3ZvX2xpbm5haV9zeXNfcmFua3VwMDUAGwAAAHBsYXlfdm9fbGlubmFpX3N5c19yYW5rdXAwNQAYAAAAcGxheV92b19saW5uYWlfY29tX3RpcmVkAAAAABYAAABwbGF5X3ZvX2xpbm5haV9jb21fZGllAAADAAAADAAAADQAAABkAAAAqP///wgAAABGAAAAGwAAAHBsYXlfdm9fbGlubmFpX2NvbV9ocGRvd24wMQDU////CAAAADIAAAAbAAAAcGxheV92b19saW5uYWlfY29tX2hwZG93bjAyAAgADAAIAAQACAAAAAgAAAAeAAAAGwAAAHBsYXlfdm9fbGlubmFpX2NvbV9ocGRvd24wMwAbAAAAcGxheV92b19saW5uYWlfc3lzX2pvaW50ZWFtABcAAABwbGF5X3ZvX2xpbm5haV9jb21fc2NhbgAaAAAAcGxheV92b19saW5uYWlfY29tX29wZW5ib3gAABsAAABwbGF5X3ZvX2xpbm5haV9jb21faHhzdW1tb24AGwAAAHBsYXlfdm9fbGlubmFpX2NvbV9oeGNoYW5nZQAcAAAAcGxheV92b19saW5uYWlfY29tX2Zhc3RjbGltYgAAAAARAAAAcm9sZV9mb2xleV9kYW5qaW4AAAAYAAAAcm9sZV9mb290c3RlcF9ibG9ja2hlZWxzAAAAAAYAAABsaW5uYWkAAA=="
+    "Name": "linnai",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_danjin",
+    "FastClimbEvent": "play_vo_linnai_com_fastclimb",
+    "VisionMorphEvent": "play_vo_linnai_com_hxchange",
+    "VisionSummonEvent": "play_vo_linnai_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_linnai_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_linnai_com_scan",
+    "JoinTeamEvent": "play_vo_linnai_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_linnai_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_linnai_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_linnai_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_linnai_com_die",
+    "LowStrengthEvent": "play_vo_linnai_com_tired",
+    "BreakUpEventList": [
+      "play_vo_linnai_sys_rankup01",
+      "play_vo_linnai_sys_rankup01",
+      "play_vo_linnai_sys_rankup02",
+      "play_vo_linnai_sys_rankup03",
+      "play_vo_linnai_sys_rankup04",
+      "play_vo_linnai_sys_rankup05",
+      "play_vo_linnai_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_linnai_com_limitdodge",
+    "ParryEvent": "play_vo_linnai_com_parry",
+    "EnterBattleEvent": "play_vo_linnai_com_engage",
+    "UnderAttackEvent": "play_vo_linnai_com_behit",
+    "KnockUpEvent": "play_vo_linnai_com_behitfly",
+    "EnterGlideEvent": "play_vo_linnai_com_fly",
+    "UseExploreHookEvent": "play_vo_linnai_com_hook",
+    "ClimbLeapEvent": "play_vo_linnai_com_jump",
+    "AccelerateEvent": "play_vo_linnai_com_accelerate"
   },
   {
     "Id": 81001209,
-    "BinData": "OAAAAAAAMgBgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAAyAAAAXAAAAHwAAACUAAAArAAAAMQAAADgAAAA/AAAABgBAAA0AQAAVAEAAFACAABsAgAAhAIAABwDAAA4AwAAUAMAAGwDAACIAwAApAMAAMQDAADYAwAA7AMAAPn60wQdAAAAcGxheV92b19tb25pbmdfY29tX2FjY2VsZXJhdGUAAAAXAAAAcGxheV92b19tb25pbmdfY29tX2p1bXAAFwAAAHBsYXlfdm9fbW9uaW5nX2NvbV9ob29rABYAAABwbGF5X3ZvX21vbmluZ19jb21fZmx5AAAbAAAAcGxheV92b19tb25pbmdfY29tX2JlaGl0Zmx5ABgAAABwbGF5X3ZvX21vbmluZ19jb21fYmVoaXQAAAAAGQAAAHBsYXlfdm9fbW9uaW5nX2NvbV9lbmdhZ2UAAAAYAAAAcGxheV92b19tb25pbmdfY29tX3BhcnJ5AAAAAB0AAABwbGF5X3ZvX21vbmluZ19jb21fbGltaXRkb2RnZQAAAAcAAAAcAAAAOAAAAFQAAABwAAAAjAAAAKgAAADEAAAAGwAAAHBsYXlfdm9fbW9uaW5nX3N5c19yYW5rdXAwMQAbAAAAcGxheV92b19tb25pbmdfc3lzX3Jhbmt1cDAxABsAAABwbGF5X3ZvX21vbmluZ19zeXNfcmFua3VwMDIAGwAAAHBsYXlfdm9fbW9uaW5nX3N5c19yYW5rdXAwMwAbAAAAcGxheV92b19tb25pbmdfc3lzX3Jhbmt1cDA0ABsAAABwbGF5X3ZvX21vbmluZ19zeXNfcmFua3VwMDUAGwAAAHBsYXlfdm9fbW9uaW5nX3N5c19yYW5rdXAwNQAYAAAAcGxheV92b19tb25pbmdfY29tX3RpcmVkAAAAABYAAABwbGF5X3ZvX21vbmluZ19jb21fZGllAAADAAAADAAAADQAAABkAAAAqP///wgAAABGAAAAGwAAAHBsYXlfdm9fbW9uaW5nX2NvbV9ocGRvd24wMQDU////CAAAADIAAAAbAAAAcGxheV92b19tb25pbmdfY29tX2hwZG93bjAyAAgADAAIAAQACAAAAAgAAAAeAAAAGwAAAHBsYXlfdm9fbW9uaW5nX2NvbV9ocGRvd24wMwAbAAAAcGxheV92b19tb25pbmdfc3lzX2pvaW50ZWFtABcAAABwbGF5X3ZvX21vbmluZ19jb21fc2NhbgAaAAAAcGxheV92b19tb25pbmdfY29tX29wZW5ib3gAABsAAABwbGF5X3ZvX21vbmluZ19jb21faHhzdW1tb24AGwAAAHBsYXlfdm9fbW9uaW5nX2NvbV9oeGNoYW5nZQAcAAAAcGxheV92b19tb25pbmdfY29tX2Zhc3RjbGltYgAAAAARAAAAcm9sZV9mb2xleV9jaGl4aWEAAAATAAAAcm9sZV9mb290c3RlcF9oZWVscwAGAAAAbW9uaW5nAAA="
+    "Name": "moning",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_chixia",
+    "FastClimbEvent": "play_vo_moning_com_fastclimb",
+    "VisionMorphEvent": "play_vo_moning_com_hxchange",
+    "VisionSummonEvent": "play_vo_moning_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_moning_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_moning_com_scan",
+    "JoinTeamEvent": "play_vo_moning_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_moning_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_moning_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_moning_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_moning_com_die",
+    "LowStrengthEvent": "play_vo_moning_com_tired",
+    "BreakUpEventList": [
+      "play_vo_moning_sys_rankup01",
+      "play_vo_moning_sys_rankup01",
+      "play_vo_moning_sys_rankup02",
+      "play_vo_moning_sys_rankup03",
+      "play_vo_moning_sys_rankup04",
+      "play_vo_moning_sys_rankup05",
+      "play_vo_moning_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_moning_com_limitdodge",
+    "ParryEvent": "play_vo_moning_com_parry",
+    "EnterBattleEvent": "play_vo_moning_com_engage",
+    "UnderAttackEvent": "play_vo_moning_com_behit",
+    "KnockUpEvent": "play_vo_moning_com_behitfly",
+    "EnterGlideEvent": "play_vo_moning_com_fly",
+    "UseExploreHookEvent": "play_vo_moning_com_hook",
+    "ClimbLeapEvent": "play_vo_moning_com_jump",
+    "AccelerateEvent": "play_vo_moning_com_accelerate"
   }
 ]

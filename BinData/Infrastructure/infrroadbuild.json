@@ -2,51 +2,579 @@
   {
     "Id": 1,
     "MarkId": 342001,
-    "BinData": "PAAAAAAANgBgAFwAWABUAFAAAABMAEgAAABEAEAAPAA4ADQAMAAsACgAJAAgABwAGAAUABAADAAIAAcANgAAAAAAAAFYAAAAaAAAAPQBAADwAAAAEAEAADABAACAAQAAmAEAAKgBAAC8AQAAwAEAAMgBAADA1AEAAQAAAJYAAABMAgAAYycNAKHNvAxP5MQAigMAAPE3BQABAAAADQAAAEppSmlhblJvYWRPbmUAAACJAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpQWN0aXZpdHkvSW1hZ2UvQWN0aXZpdHkzMC9BY3Rpdml0eUluZnJhc3RydWN0dXJlL01hcC9NaW5pTWFwL1RfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwMS5UX0luZnJhc3RydWN0dXJlTWluaU1hcDEAAAAfAAAAUXVlc3RfMzEzNzAwMDAwX1F1ZXN0TmFtZV8zMTNfMQAfAAAAQnVpbGRSb2FkXzFfQ29tcGxldGVFZmZlY3REZXNfMgACAAAACAAAACgAAAAfAAAAQnVpbGRSb2FkXzFfQ29tcGxldGVFZmZlY3REZXNfMQAfAAAAQnVpbGRSb2FkXzFfQ29tcGxldGVFZmZlY3REZXNfMgAXAAAAQnVpbGRSb2FkXzFfQ29tcGxldGVEZXMADwAAAEJ1aWxkUm9hZF8xX0RlcwAQAAAAQnVpbGRSb2FkXzFfTmFtZQAAAAABAAAAgK4KAAIAAACBrgoAs64KAAkAAAAkAAAALAAAADQAAAA8AAAARAAAAEwAAABUAAAAXAAAAGQAAABs////ZAAAAAEAAAB4////ZAAAAAIAAACE////ZAAAAAMAAACQ////ZAAAAAQAAACc////ZAAAAAUAAACo////ZAAAAAYAAAC0////ZAAAAAcAAADA////MgAAAAgAAADM////ZAAAAAkAAAADAAAADAAAABQAAAAkAAAA6P///wUAAABlYs8E9P///wUAAABmYs8ECAAMAAgABAAIAAAABQAAAGdizwQ="
+    "DungeonId": 906,
+    "ConditionId": 12903503,
+    "BuildQuest": 0,
+    "BuildConditionQuestId": 213700001,
+    "JumpId": 862051,
+    "Difficulty": 1,
+    "Requirement": [
+      {
+        "Key": 80700005,
+        "Value": 5
+      },
+      {
+        "Key": 80700006,
+        "Value": 5
+      },
+      {
+        "Key": 80700007,
+        "Value": 5
+      }
+    ],
+    "FireExpReward": 150,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      },
+      {
+        "Key": 3,
+        "Value": 100
+      },
+      {
+        "Key": 4,
+        "Value": 100
+      },
+      {
+        "Key": 5,
+        "Value": 100
+      },
+      {
+        "Key": 6,
+        "Value": 100
+      },
+      {
+        "Key": 7,
+        "Value": 100
+      },
+      {
+        "Key": 8,
+        "Value": 50
+      },
+      {
+        "Key": 9,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700033,
+      700083
+    ],
+    "UnloadDataLayers": [
+      700032
+    ],
+    "Name": "BuildRoad_1_Name",
+    "Description": "BuildRoad_1_Des",
+    "BuildDoneDes": "BuildRoad_1_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_1_CompleteEffectDes_1",
+      "BuildRoad_1_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_1_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_1",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap1.T_InfrastructureMiniMap1",
+    "BodyCameraSettingsName": "JiJianRoadOne",
+    "DisableMark": true
   },
   {
     "Id": 2,
     "MarkId": 342002,
-    "BinData": "OAAAADQAYABcAFgAVABQAEwASABEAAAAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAA0AAAAXAAAAGwAAAD0AQAA9AAAABQBAAA0AQAAhAEAAJwBAACsAQAAwAEAAMQBAADMAQAAwNQBAAEAAACWAAAA4AEAAGQnDQCizbwMra6yElvkxACKAwAA8jcFAAIAAAANAAAASmlKaWFuUm9hZFR3bwAAAIkAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTMwL0FjdGl2aXR5SW5mcmFzdHJ1Y3R1cmUvTWFwL01pbmlNYXAvVF9JbmZyYXN0cnVjdHVyZU1pbmlNYXAyLlRfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwMgAAAB8AAABRdWVzdF8zMTM3MDAwMDBfUXVlc3ROYW1lXzMxM18zAB8AAABCdWlsZFJvYWRfMl9Db21wbGV0ZUVmZmVjdERlc18yAAIAAAAIAAAAKAAAAB8AAABCdWlsZFJvYWRfMl9Db21wbGV0ZUVmZmVjdERlc18xAB8AAABCdWlsZFJvYWRfMl9Db21wbGV0ZUVmZmVjdERlc18yABcAAABCdWlsZFJvYWRfMl9Db21wbGV0ZURlcwAPAAAAQnVpbGRSb2FkXzJfRGVzABAAAABCdWlsZFJvYWRfMl9OYW1lAAAAAAEAAACCrgoAAgAAAIOuCgC0rgoAAgAAAAgAAAAQAAAA0P///2QAAAABAAAA3P///2QAAAACAAAAAgAAAAgAAAAYAAAA9P////QBAABhYs8ECAAMAAgABAAIAAAA4AEAAGJizwQ="
+    "DungeonId": 906,
+    "ConditionId": 12903515,
+    "BuildQuest": 313700013,
+    "BuildConditionQuestId": 213700002,
+    "JumpId": 862052,
+    "Difficulty": 1,
+    "Requirement": [
+      {
+        "Key": 80700001,
+        "Value": 500
+      },
+      {
+        "Key": 80700002,
+        "Value": 480
+      }
+    ],
+    "FireExpReward": 150,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700035,
+      700084
+    ],
+    "UnloadDataLayers": [
+      700034
+    ],
+    "Name": "BuildRoad_2_Name",
+    "Description": "BuildRoad_2_Des",
+    "BuildDoneDes": "BuildRoad_2_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_2_CompleteEffectDes_1",
+      "BuildRoad_2_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_2_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_3",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap2.T_InfrastructureMiniMap2",
+    "BodyCameraSettingsName": "JiJianRoadTwo",
+    "DisableMark": false
   },
   {
     "Id": 3,
     "MarkId": 342003,
-    "BinData": "OAAAADQAYABcAFgAVABQAEwASABEAAAAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAA0AAAAXAAAAGwAAAD0AQAA9AAAABQBAAA0AQAAhAEAAJwBAACsAQAAwAEAAMQBAADMAQAAwNQBAAEAAACWAAAA4AEAAGUnDQCjzbwMrq6yElvkxACKAwAA8zcFAAMAAAAPAAAASmlKaWFuUm9hZFRocmVlAIkAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTMwL0FjdGl2aXR5SW5mcmFzdHJ1Y3R1cmUvTWFwL01pbmlNYXAvVF9JbmZyYXN0cnVjdHVyZU1pbmlNYXAzLlRfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwMwAAAB8AAABRdWVzdF8zMTM3MDAwMDBfUXVlc3ROYW1lXzMxM181AB8AAABCdWlsZFJvYWRfM19Db21wbGV0ZUVmZmVjdERlc18yAAIAAAAIAAAAKAAAAB8AAABCdWlsZFJvYWRfM19Db21wbGV0ZUVmZmVjdERlc18xAB8AAABCdWlsZFJvYWRfM19Db21wbGV0ZUVmZmVjdERlc18yABcAAABCdWlsZFJvYWRfM19Db21wbGV0ZURlcwAPAAAAQnVpbGRSb2FkXzNfRGVzABAAAABCdWlsZFJvYWRfM19OYW1lAAAAAAEAAACErgoAAgAAAIWuCgC1rgoAAgAAAAgAAAAQAAAA0P///2QAAAABAAAA3P///2QAAAACAAAAAgAAAAgAAAAYAAAA9P///9ACAABiYs8ECAAMAAgABAAIAAAAtAAAAGNizwQ="
+    "DungeonId": 906,
+    "ConditionId": 12903515,
+    "BuildQuest": 313700014,
+    "BuildConditionQuestId": 213700003,
+    "JumpId": 862053,
+    "Difficulty": 1,
+    "Requirement": [
+      {
+        "Key": 80700002,
+        "Value": 720
+      },
+      {
+        "Key": 80700003,
+        "Value": 180
+      }
+    ],
+    "FireExpReward": 150,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700037,
+      700085
+    ],
+    "UnloadDataLayers": [
+      700036
+    ],
+    "Name": "BuildRoad_3_Name",
+    "Description": "BuildRoad_3_Des",
+    "BuildDoneDes": "BuildRoad_3_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_3_CompleteEffectDes_1",
+      "BuildRoad_3_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_3_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_5",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap3.T_InfrastructureMiniMap3",
+    "BodyCameraSettingsName": "JiJianRoadThree",
+    "DisableMark": false
   },
   {
     "Id": 4,
     "MarkId": 342004,
-    "BinData": "OAAAADQAYABcAFgAVABQAEwASABEAAAAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAA0AAAAXAAAAGwAAAD0AQAA9AAAABQBAAA0AQAAhAEAAJwBAACsAQAAwAEAAMQBAADMAQAAwNQBAAEAAACWAAAA4AEAAGYnDQCkzbwMr66yElvkxACKAwAA9DcFAAQAAAAOAAAASmlKaWFuUm9hZEZvdXIAAIkAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTMwL0FjdGl2aXR5SW5mcmFzdHJ1Y3R1cmUvTWFwL01pbmlNYXAvVF9JbmZyYXN0cnVjdHVyZU1pbmlNYXA0LlRfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwNAAAAB8AAABRdWVzdF8zMTM3MDAwMDBfUXVlc3ROYW1lXzMxM183AB8AAABCdWlsZFJvYWRfNF9Db21wbGV0ZUVmZmVjdERlc18yAAIAAAAIAAAAKAAAAB8AAABCdWlsZFJvYWRfNF9Db21wbGV0ZUVmZmVjdERlc18xAB8AAABCdWlsZFJvYWRfNF9Db21wbGV0ZUVmZmVjdERlc18yABcAAABCdWlsZFJvYWRfNF9Db21wbGV0ZURlcwAPAAAAQnVpbGRSb2FkXzRfRGVzABAAAABCdWlsZFJvYWRfNF9OYW1lAAAAAAEAAACGrgoAAgAAAIeuCgC2rgoAAgAAAAgAAAAQAAAA0P///2QAAAABAAAA3P///2QAAAACAAAAAgAAAAgAAAAYAAAA9P///9wFAABhYs8ECAAMAAgABAAIAAAAIAEAAGNizwQ="
+    "DungeonId": 906,
+    "ConditionId": 12903515,
+    "BuildQuest": 313700015,
+    "BuildConditionQuestId": 213700004,
+    "JumpId": 862054,
+    "Difficulty": 1,
+    "Requirement": [
+      {
+        "Key": 80700001,
+        "Value": 1500
+      },
+      {
+        "Key": 80700003,
+        "Value": 288
+      }
+    ],
+    "FireExpReward": 150,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700039,
+      700086
+    ],
+    "UnloadDataLayers": [
+      700038
+    ],
+    "Name": "BuildRoad_4_Name",
+    "Description": "BuildRoad_4_Des",
+    "BuildDoneDes": "BuildRoad_4_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_4_CompleteEffectDes_1",
+      "BuildRoad_4_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_4_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_7",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap4.T_InfrastructureMiniMap4",
+    "BodyCameraSettingsName": "JiJianRoadFour",
+    "DisableMark": false
   },
   {
     "Id": 5,
     "MarkId": 342005,
-    "BinData": "OAAAADQAZABgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAA0AAAAYAAAAHAAAAD0AQAA+AAAABwBAAA8AQAAjAEAAKQBAAC0AQAAyAEAAMwBAADUAQAAwNQBAAEAAADIAAAA6AEAAAIAAABnJw0Apc28DLGushJb5MQAigMAAPU3BQAFAAAADgAAAEppSmlhblJvYWRGaXZlAACJAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpQWN0aXZpdHkvSW1hZ2UvQWN0aXZpdHkzMC9BY3Rpdml0eUluZnJhc3RydWN0dXJlL01hcC9NaW5pTWFwL1RfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwNS5UX0luZnJhc3RydWN0dXJlTWluaU1hcDUAAAAgAAAAUXVlc3RfMzEzNzAwMDAwX1F1ZXN0TmFtZV8zMTNfMTEAAAAAHwAAAEJ1aWxkUm9hZF81X0NvbXBsZXRlRWZmZWN0RGVzXzIAAgAAAAgAAAAoAAAAHwAAAEJ1aWxkUm9hZF81X0NvbXBsZXRlRWZmZWN0RGVzXzEAHwAAAEJ1aWxkUm9hZF81X0NvbXBsZXRlRWZmZWN0RGVzXzIAFwAAAEJ1aWxkUm9hZF81X0NvbXBsZXRlRGVzAA8AAABCdWlsZFJvYWRfNV9EZXMAEAAAAEJ1aWxkUm9hZF81X05hbWUAAAAAAQAAAIiuCgACAAAAia4KALeuCgACAAAACAAAABAAAADA////ZAAAAAEAAADM////ZAAAAAIAAAADAAAADAAAABQAAAAkAAAA6P///7gLAABhYs8E9P///6AFAABiYs8ECAAMAAgABAAIAAAAaAEAAGNizwQ="
+    "DungeonId": 906,
+    "ConditionId": 12903515,
+    "BuildQuest": 313700017,
+    "BuildConditionQuestId": 213700005,
+    "JumpId": 862055,
+    "Difficulty": 2,
+    "Requirement": [
+      {
+        "Key": 80700001,
+        "Value": 3000
+      },
+      {
+        "Key": 80700002,
+        "Value": 1440
+      },
+      {
+        "Key": 80700003,
+        "Value": 360
+      }
+    ],
+    "FireExpReward": 200,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700041,
+      700087
+    ],
+    "UnloadDataLayers": [
+      700040
+    ],
+    "Name": "BuildRoad_5_Name",
+    "Description": "BuildRoad_5_Des",
+    "BuildDoneDes": "BuildRoad_5_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_5_CompleteEffectDes_1",
+      "BuildRoad_5_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_5_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_11",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap5.T_InfrastructureMiniMap5",
+    "BodyCameraSettingsName": "JiJianRoadFive",
+    "DisableMark": false
   },
   {
     "Id": 6,
     "MarkId": 342007,
-    "BinData": "OAAAADQAZABgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAA0AAAAYAAAAHAAAAD0AQAA+AAAABwBAAA8AQAAjAEAAKQBAAC0AQAAyAEAAMwBAADUAQAAwNQBAAEAAADIAAAA6AEAAAIAAABpJw0Ap828DLSushJb5MQAigMAAPc3BQAGAAAADgAAAEppSmlhblJvYWROaW5lAACJAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpQWN0aXZpdHkvSW1hZ2UvQWN0aXZpdHkzMC9BY3Rpdml0eUluZnJhc3RydWN0dXJlL01hcC9NaW5pTWFwL1RfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwNi5UX0luZnJhc3RydWN0dXJlTWluaU1hcDYAAAAgAAAAUXVlc3RfMzEzNzAwMDAwX1F1ZXN0TmFtZV8zMTNfMTcAAAAAHwAAAEJ1aWxkUm9hZF85X0NvbXBsZXRlRWZmZWN0RGVzXzIAAgAAAAgAAAAoAAAAHwAAAEJ1aWxkUm9hZF85X0NvbXBsZXRlRWZmZWN0RGVzXzEAHwAAAEJ1aWxkUm9hZF85X0NvbXBsZXRlRWZmZWN0RGVzXzIAFwAAAEJ1aWxkUm9hZF85X0NvbXBsZXRlRGVzAA8AAABCdWlsZFJvYWRfOV9EZXMAEAAAAEJ1aWxkUm9hZF85X05hbWUAAAAAAQAAAH6uCgACAAAAf64KALyuCgACAAAACAAAABAAAADQ////ZAAAAAEAAADc////ZAAAAAIAAAACAAAACAAAABgAAAD0////oAUAAGJizwQIAAwACAAEAAgAAACwAQAAY2LPBA=="
+    "DungeonId": 906,
+    "ConditionId": 12903515,
+    "BuildQuest": 313700020,
+    "BuildConditionQuestId": 213700007,
+    "JumpId": 862057,
+    "Difficulty": 2,
+    "Requirement": [
+      {
+        "Key": 80700002,
+        "Value": 1440
+      },
+      {
+        "Key": 80700003,
+        "Value": 432
+      }
+    ],
+    "FireExpReward": 200,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700031,
+      700092
+    ],
+    "UnloadDataLayers": [
+      700030
+    ],
+    "Name": "BuildRoad_9_Name",
+    "Description": "BuildRoad_9_Des",
+    "BuildDoneDes": "BuildRoad_9_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_9_CompleteEffectDes_1",
+      "BuildRoad_9_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_9_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_17",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap6.T_InfrastructureMiniMap6",
+    "BodyCameraSettingsName": "JiJianRoadNine",
+    "DisableMark": false
   },
   {
     "Id": 7,
     "MarkId": 342009,
-    "BinData": "OAAAADQAZABgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAA0AAAAYAAAAHAAAAD0AQAA+AAAABwBAAA8AQAAjAEAAKQBAAC0AQAAyAEAAMwBAADUAQAAwNQBAAEAAADIAAAA6AEAAAIAAABrJw0Aqc28DLaushJb5MQAigMAAPk3BQAHAAAADwAAAEppSmlhblJvYWRTZXZlbgCJAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpQWN0aXZpdHkvSW1hZ2UvQWN0aXZpdHkzMC9BY3Rpdml0eUluZnJhc3RydWN0dXJlL01hcC9NaW5pTWFwL1RfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwNy5UX0luZnJhc3RydWN0dXJlTWluaU1hcDcAAAAgAAAAUXVlc3RfMzEzNzAwMDAwX1F1ZXN0TmFtZV8zMTNfMjEAAAAAHwAAAEJ1aWxkUm9hZF83X0NvbXBsZXRlRWZmZWN0RGVzXzIAAgAAAAgAAAAoAAAAHwAAAEJ1aWxkUm9hZF83X0NvbXBsZXRlRWZmZWN0RGVzXzEAHwAAAEJ1aWxkUm9hZF83X0NvbXBsZXRlRWZmZWN0RGVzXzIAFwAAAEJ1aWxkUm9hZF83X0NvbXBsZXRlRGVzAA8AAABCdWlsZFJvYWRfN19EZXMAEAAAAEJ1aWxkUm9hZF83X05hbWUAAAAAAQAAAI6uCgACAAAAj64KALquCgACAAAACAAAABAAAADQ////ZAAAAAEAAADc////ZAAAAAIAAAACAAAACAAAABgAAAD0////pg4AAGFizwQIAAwACAAEAAgAAACwAQAAY2LPBA=="
+    "DungeonId": 906,
+    "ConditionId": 12903515,
+    "BuildQuest": 313700022,
+    "BuildConditionQuestId": 213700009,
+    "JumpId": 862059,
+    "Difficulty": 2,
+    "Requirement": [
+      {
+        "Key": 80700001,
+        "Value": 3750
+      },
+      {
+        "Key": 80700003,
+        "Value": 432
+      }
+    ],
+    "FireExpReward": 200,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700047,
+      700090
+    ],
+    "UnloadDataLayers": [
+      700046
+    ],
+    "Name": "BuildRoad_7_Name",
+    "Description": "BuildRoad_7_Des",
+    "BuildDoneDes": "BuildRoad_7_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_7_CompleteEffectDes_1",
+      "BuildRoad_7_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_7_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_21",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap7.T_InfrastructureMiniMap7",
+    "BodyCameraSettingsName": "JiJianRoadSeven",
+    "DisableMark": false
   },
   {
     "Id": 8,
     "MarkId": 342008,
-    "BinData": "OAAAADQAZABgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAA0AAAAYAAAAHAAAAD0AQAA+AAAABwBAAA8AQAAjAEAAKQBAAC0AQAAyAEAAMwBAADUAQAAwNQBAAEAAAAsAQAA6AEAAAMAAABqJw0AqM28DLWushJb5MQAigMAAPg3BQAIAAAADwAAAEppSmlhblJvYWRFaWdodACJAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpQWN0aXZpdHkvSW1hZ2UvQWN0aXZpdHkzMC9BY3Rpdml0eUluZnJhc3RydWN0dXJlL01hcC9NaW5pTWFwL1RfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwOC5UX0luZnJhc3RydWN0dXJlTWluaU1hcDgAAAAgAAAAUXVlc3RfMzEzNzAwMDAwX1F1ZXN0TmFtZV8zMTNfMTkAAAAAHwAAAEJ1aWxkUm9hZF84X0NvbXBsZXRlRWZmZWN0RGVzXzIAAgAAAAgAAAAoAAAAHwAAAEJ1aWxkUm9hZF84X0NvbXBsZXRlRWZmZWN0RGVzXzEAHwAAAEJ1aWxkUm9hZF84X0NvbXBsZXRlRWZmZWN0RGVzXzIAFwAAAEJ1aWxkUm9hZF84X0NvbXBsZXRlRGVzAA8AAABCdWlsZFJvYWRfOF9EZXMAEAAAAEJ1aWxkUm9hZF84X05hbWUAAAAAAQAAAIyuCgACAAAAja4KALmuCgACAAAACAAAABAAAADA////ZAAAAAEAAADM////ZAAAAAIAAAADAAAADAAAABQAAAAkAAAA6P///4gTAABhYs8E9P///2AJAABiYs8ECAAMAAgABAAIAAAAHAIAAGNizwQ="
+    "DungeonId": 906,
+    "ConditionId": 12903515,
+    "BuildQuest": 313700021,
+    "BuildConditionQuestId": 213700008,
+    "JumpId": 862058,
+    "Difficulty": 3,
+    "Requirement": [
+      {
+        "Key": 80700001,
+        "Value": 5000
+      },
+      {
+        "Key": 80700002,
+        "Value": 2400
+      },
+      {
+        "Key": 80700003,
+        "Value": 540
+      }
+    ],
+    "FireExpReward": 300,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700045,
+      700089
+    ],
+    "UnloadDataLayers": [
+      700044
+    ],
+    "Name": "BuildRoad_8_Name",
+    "Description": "BuildRoad_8_Des",
+    "BuildDoneDes": "BuildRoad_8_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_8_CompleteEffectDes_1",
+      "BuildRoad_8_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_8_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_19",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap8.T_InfrastructureMiniMap8",
+    "BodyCameraSettingsName": "JiJianRoadEight",
+    "DisableMark": false
   },
   {
     "Id": 9,
     "MarkId": 342006,
-    "BinData": "OAAAADQAZABgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAA0AAAAYAAAAHAAAAD0AQAA+AAAABwBAAA8AQAAjAEAAKQBAAC0AQAAyAEAAMwBAADUAQAAwNQBAAEAAAAsAQAA6AEAAAMAAABoJw0Aps28DLKushJb5MQAigMAAPY3BQAJAAAADQAAAEppSmlhblJvYWRTaXgAAACJAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpQWN0aXZpdHkvSW1hZ2UvQWN0aXZpdHkzMC9BY3Rpdml0eUluZnJhc3RydWN0dXJlL01hcC9NaW5pTWFwL1RfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwOS5UX0luZnJhc3RydWN0dXJlTWluaU1hcDkAAAAgAAAAUXVlc3RfMzEzNzAwMDAwX1F1ZXN0TmFtZV8zMTNfMTMAAAAAHwAAAEJ1aWxkUm9hZF82X0NvbXBsZXRlRWZmZWN0RGVzXzIAAgAAAAgAAAAoAAAAHwAAAEJ1aWxkUm9hZF82X0NvbXBsZXRlRWZmZWN0RGVzXzEAHwAAAEJ1aWxkUm9hZF82X0NvbXBsZXRlRWZmZWN0RGVzXzIAFwAAAEJ1aWxkUm9hZF82X0NvbXBsZXRlRGVzAA8AAABCdWlsZFJvYWRfNl9EZXMAEAAAAEJ1aWxkUm9hZF82X05hbWUAAAAAAQAAAIquCgACAAAAi64KALiuCgACAAAACAAAABAAAADA////ZAAAAAEAAADM////ZAAAAAIAAAADAAAADAAAABQAAAAkAAAA6P///4gTAABhYs8E9P///1AKAABiYs8ECAAMAAgABAAIAAAAiAIAAGNizwQ="
+    "DungeonId": 906,
+    "ConditionId": 12903515,
+    "BuildQuest": 313700018,
+    "BuildConditionQuestId": 213700006,
+    "JumpId": 862056,
+    "Difficulty": 3,
+    "Requirement": [
+      {
+        "Key": 80700001,
+        "Value": 5000
+      },
+      {
+        "Key": 80700002,
+        "Value": 2640
+      },
+      {
+        "Key": 80700003,
+        "Value": 648
+      }
+    ],
+    "FireExpReward": 300,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700043,
+      700088
+    ],
+    "UnloadDataLayers": [
+      700042
+    ],
+    "Name": "BuildRoad_6_Name",
+    "Description": "BuildRoad_6_Des",
+    "BuildDoneDes": "BuildRoad_6_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_6_CompleteEffectDes_1",
+      "BuildRoad_6_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_6_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_13",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap9.T_InfrastructureMiniMap9",
+    "BodyCameraSettingsName": "JiJianRoadSix",
+    "DisableMark": false
   },
   {
     "Id": 10,
     "MarkId": 342010,
-    "BinData": "OAAAADQAZABgAFwAWABUAFAATABIAEQAQAA8ADgANAAwACwAKAAkACAAHAAYABQAEAAMAAgABAA0AAAAYAAAAHAAAAD0AQAA+AAAABwBAABAAQAAmAEAALQBAADIAQAA3AEAAOABAADoAQAAwNQBAAEAAAAsAQAA/AEAAAMAAABsJw0Aqs28DLeushJb5MQAigMAAPo3BQAKAAAADQAAAEppSmlhblJvYWRUZW4AAACLAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpQWN0aXZpdHkvSW1hZ2UvQWN0aXZpdHkzMC9BY3Rpdml0eUluZnJhc3RydWN0dXJlL01hcC9NaW5pTWFwL1RfSW5mcmFzdHJ1Y3R1cmVNaW5pTWFwMTAuVF9JbmZyYXN0cnVjdHVyZU1pbmlNYXAxMAAgAAAAUXVlc3RfMzEzNzAwMDAwX1F1ZXN0TmFtZV8zMTNfMjMAAAAAIAAAAEJ1aWxkUm9hZF8xMF9Db21wbGV0ZUVmZmVjdERlc18yAAAAAAIAAAAIAAAALAAAACAAAABCdWlsZFJvYWRfMTBfQ29tcGxldGVFZmZlY3REZXNfMQAAAAAgAAAAQnVpbGRSb2FkXzEwX0NvbXBsZXRlRWZmZWN0RGVzXzIAAAAAGAAAAEJ1aWxkUm9hZF8xMF9Db21wbGV0ZURlcwAAAAAQAAAAQnVpbGRSb2FkXzEwX0RlcwAAAAARAAAAQnVpbGRSb2FkXzEwX05hbWUAAAABAAAAkK4KAAIAAACRrgoAu64KAAIAAAAIAAAAEAAAAMD///9kAAAAAQAAAMz///9kAAAAAgAAAAMAAAAMAAAAFAAAACQAAADo////ahgAAGFizwT0////QAsAAGJizwQIAAwACAAEAAgAAADQAgAAY2LPBA=="
+    "DungeonId": 906,
+    "ConditionId": 12903515,
+    "BuildQuest": 313700023,
+    "BuildConditionQuestId": 213700010,
+    "JumpId": 862060,
+    "Difficulty": 3,
+    "Requirement": [
+      {
+        "Key": 80700001,
+        "Value": 6250
+      },
+      {
+        "Key": 80700002,
+        "Value": 2880
+      },
+      {
+        "Key": 80700003,
+        "Value": 720
+      }
+    ],
+    "FireExpReward": 300,
+    "GiftCount": 1,
+    "GiftCD": 120000,
+    "WeightPasser": [
+      {
+        "Key": 1,
+        "Value": 100
+      },
+      {
+        "Key": 2,
+        "Value": 100
+      }
+    ],
+    "LoadDataLayers": [
+      700049,
+      700091
+    ],
+    "UnloadDataLayers": [
+      700048
+    ],
+    "Name": "BuildRoad_10_Name",
+    "Description": "BuildRoad_10_Des",
+    "BuildDoneDes": "BuildRoad_10_CompleteDes",
+    "EffectDes": [
+      "BuildRoad_10_CompleteEffectDes_1",
+      "BuildRoad_10_CompleteEffectDes_2"
+    ],
+    "BuildDoneEffectDes": "BuildRoad_10_CompleteEffectDes_2",
+    "QuestDescription": "Quest_313700000_QuestName_313_23",
+    "Length": 500,
+    "InfoPicturePath": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity30/ActivityInfrastructure/Map/MiniMap/T_InfrastructureMiniMap10.T_InfrastructureMiniMap10",
+    "BodyCameraSettingsName": "JiJianRoadTen",
+    "DisableMark": false
   }
 ]

@@ -1,134 +1,332 @@
 [
   {
     "Id": 2,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAABAAAAfAAAAJQAAAACAAAAaQAAAC9HYW1lL0FraS9VSS9VSVJlc291cmNlcy9Db21tb24vSW1hZ2UvSWNvbkF0dHJpYnV0ZS9UX0ljb25wcm9wZXJ0eWdyZWVubGlmZV9VSS5UX0ljb25wcm9wZXJ0eWdyZWVubGlmZV9VSQAAABUAAABTdXJ2aXZvcnNMaWZlTWF4X05hbWUAAAAQAAAAU3Vydml2b3JzTGlmZU1heAAAAAA="
+    "Key": "SurvivorsLifeMax",
+    "Name": "SurvivorsLifeMax_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": false,
+    "IsSpecial": false,
+    "Priority": 1,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI"
   },
   {
     "Id": 7,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAACAAAAfAAAAJAAAAAHAAAAaQAAAC9HYW1lL0FraS9VSS9VSVJlc291cmNlcy9Db21tb24vSW1hZ2UvSWNvbkF0dHJpYnV0ZS9UX0ljb25wcm9wZXJ0eXJlZGF0dGFja19VSS5UX0ljb25wcm9wZXJ0eXJlZGF0dGFja19VSQAAABEAAABTdXJ2aXZvcnNBdGtfTmFtZQAAAAwAAABTdXJ2aXZvcnNBdGsAAAAA"
+    "Key": "SurvivorsAtk",
+    "Name": "SurvivorsAtk_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": false,
+    "IsSpecial": false,
+    "Priority": 2,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
   },
   {
     "Id": 8,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAEAAAAAAABAXgAAACMAAAACAAAAGcAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRiYW9qaV9VSS5UX0ljb25wcm9wZXJ0eXJlZGJhb2ppX1VJABIAAABTdXJ2aXZvcnNDcml0X05hbWUAAA0AAABTdXJ2aXZvcnNDcml0AAAA"
+    "Key": "SurvivorsCrit",
+    "Name": "SurvivorsCrit_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 4,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
   },
   {
     "Id": 9,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAFAAAAAAABAXgAAACUAAAACQAAAGUAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRjcml0X1VJLlRfSWNvbnByb3BlcnR5cmVkY3JpdF9VSQAAABgAAABTdXJ2aXZvcnNDcml0RGFtYWdlX05hbWUAAAAAEwAAAFN1cnZpdm9yc0NyaXREYW1hZ2UA"
+    "Key": "SurvivorsCritDamage",
+    "Name": "SurvivorsCritDamage_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 5,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
   },
   {
     "Id": 11,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAADAAAAAAABAXwAAACUAAAACwAAAGsAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTI3L1N1cnZpdm9yL1RfSWNvblN1cnZpdm9yV2VhcG9uMTEuVF9JY29uU3Vydml2b3JXZWFwb24xMQAXAAAAU3Vydml2b3JzQXRrQ2hhbmdlX05hbWUAEgAAAFN1cnZpdm9yc0F0a0NoYW5nZQAA"
+    "Key": "SurvivorsAtkChange",
+    "Name": "SurvivorsAtkChange_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 3,
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity27/Survivor/T_IconSurvivorWeapon11.T_IconSurvivorWeapon11"
   },
   {
     "Id": 15,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAKAAAAAAABAXwAAACgAAAADwAAAGsAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRwaHlzaWNzX1VJLlRfSWNvbnByb3BlcnR5cmVkcGh5c2ljc19VSQAhAAAAU3Vydml2b3JzRGFtYWdlQ2hhbmdlR2VuZXJhbF9OYW1lAAAAHAAAAFN1cnZpdm9yc0RhbWFnZUNoYW5nZUdlbmVyYWwAAAAA"
+    "Key": "SurvivorsDamageChangeGeneral",
+    "Name": "SurvivorsDamageChangeGeneral_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 10,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredphysics_UI.T_Iconpropertyredphysics_UI"
   },
   {
     "Id": 16,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAATAAAAAAABAYAAAACcAAAAEAAAAG8AAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlncmVlbnByb3RlY3RfVUkuVF9JY29ucHJvcGVydHlncmVlbnByb3RlY3RfVUkAGgAAAFN1cnZpdm9yc0RhbWFnZVJlZHVjZV9OYW1lAAAVAAAAU3Vydml2b3JzRGFtYWdlUmVkdWNlAAAA"
+    "Key": "SurvivorsDamageReduce",
+    "Name": "SurvivorsDamageReduce_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 19,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenprotect_UI.T_Iconpropertygreenprotect_UI"
   },
   {
     "Id": 21,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAALAAAAAAABAXgAAACYAAAAFQAAAGUAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlwaHlzaWNzX1VJLlRfSWNvbnByb3BlcnR5cGh5c2ljc19VSQAAAB4AAABTdXJ2aXZvcnNEYW1hZ2VDaGFuZ2VQaHlzX05hbWUAABkAAABTdXJ2aXZvcnNEYW1hZ2VDaGFuZ2VQaHlzAAAA"
+    "Key": "SurvivorsDamageChangePhys",
+    "Name": "SurvivorsDamageChangePhys_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 11,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyphysics_UI.T_Iconpropertyphysics_UI"
   },
   {
     "Id": 22,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAMAAAAAAABAXQAAACYAAAAFgAAAGMAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRpY2VfVUkuVF9JY29ucHJvcGVydHlyZWRpY2VfVUkAIgAAAFN1cnZpdm9yc0RhbWFnZUNoYW5nZUVsZW1lbnQxX05hbWUAAB0AAABTdXJ2aXZvcnNEYW1hZ2VDaGFuZ2VFbGVtZW50MQAAAA=="
+    "Key": "SurvivorsDamageChangeElement1",
+    "Name": "SurvivorsDamageChangeElement1_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 12,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredice_UI.T_Iconpropertyredice_UI"
   },
   {
     "Id": 23,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAANAAAAAAABAXQAAACYAAAAFwAAAGMAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRob3RfVUkuVF9JY29ucHJvcGVydHlyZWRob3RfVUkAIgAAAFN1cnZpdm9yc0RhbWFnZUNoYW5nZUVsZW1lbnQyX05hbWUAAB0AAABTdXJ2aXZvcnNEYW1hZ2VDaGFuZ2VFbGVtZW50MgAAAA=="
+    "Key": "SurvivorsDamageChangeElement2",
+    "Name": "SurvivorsDamageChangeElement2_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 13,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredhot_UI.T_Iconpropertyredhot_UI"
   },
   {
     "Id": 24,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAOAAAAAAABAXgAAACcAAAAGAAAAGUAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRtaW5lX1VJLlRfSWNvbnByb3BlcnR5cmVkbWluZV9VSQAAACIAAABTdXJ2aXZvcnNEYW1hZ2VDaGFuZ2VFbGVtZW50M19OYW1lAAAdAAAAU3Vydml2b3JzRGFtYWdlQ2hhbmdlRWxlbWVudDMAAAA="
+    "Key": "SurvivorsDamageChangeElement3",
+    "Name": "SurvivorsDamageChangeElement3_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 14,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredmine_UI.T_Iconpropertyredmine_UI"
   },
   {
     "Id": 25,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAPAAAAAAABAXgAAACcAAAAGQAAAGUAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWR3aW5kX1VJLlRfSWNvbnByb3BlcnR5cmVkd2luZF9VSQAAACIAAABTdXJ2aXZvcnNEYW1hZ2VDaGFuZ2VFbGVtZW50NF9OYW1lAAAdAAAAU3Vydml2b3JzRGFtYWdlQ2hhbmdlRWxlbWVudDQAAAA="
+    "Key": "SurvivorsDamageChangeElement4",
+    "Name": "SurvivorsDamageChangeElement4_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 15,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredwind_UI.T_Iconpropertyredwind_UI"
   },
   {
     "Id": 26,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAQAAAAAAABAXgAAACcAAAAGgAAAGcAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRsaWdodF9VSS5UX0ljb25wcm9wZXJ0eXJlZGxpZ2h0X1VJACIAAABTdXJ2aXZvcnNEYW1hZ2VDaGFuZ2VFbGVtZW50NV9OYW1lAAAdAAAAU3Vydml2b3JzRGFtYWdlQ2hhbmdlRWxlbWVudDUAAAA="
+    "Key": "SurvivorsDamageChangeElement5",
+    "Name": "SurvivorsDamageChangeElement5_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 16,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredlight_UI.T_Iconpropertyredlight_UI"
   },
   {
     "Id": 27,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAARAAAAAAABAXgAAACcAAAAGwAAAGUAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRkYXJrX1VJLlRfSWNvbnByb3BlcnR5cmVkZGFya19VSQAAACIAAABTdXJ2aXZvcnNEYW1hZ2VDaGFuZ2VFbGVtZW50Nl9OYW1lAAAdAAAAU3Vydml2b3JzRGFtYWdlQ2hhbmdlRWxlbWVudDYAAAA="
+    "Key": "SurvivorsDamageChangeElement6",
+    "Name": "SurvivorsDamageChangeElement6_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 17,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyreddark_UI.T_Iconpropertyreddark_UI"
   },
   {
     "Id": 35,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAASAAAAAAABAXwAAACYAAAAIwAAAGkAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlncmVlbmN1cmVfVUkuVF9JY29ucHJvcGVydHlncmVlbmN1cmVfVUkAAAAYAAAAU3Vydml2b3JzSGVhbENoYW5nZV9OYW1lAAAAABMAAABTdXJ2aXZvcnNIZWFsQ2hhbmdlAA=="
+    "Key": "SurvivorsHealChange",
+    "Name": "SurvivorsHealChange_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 18,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI"
   },
   {
     "Id": 44,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAHAAAAAAABAXwAAACoAAAALAAAAGsAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTI3L1N1cnZpdm9yL1RfSWNvblN1cnZpdm9yV2VhcG9uMTIuVF9JY29uU3Vydml2b3JXZWFwb24xMgAqAAAAU3Vydml2b3JzRGFtYWdlTWFnbml0dWRlQ2hhbmdlR2VuZXJhbF9OYW1lAAAlAAAAU3Vydml2b3JzRGFtYWdlTWFnbml0dWRlQ2hhbmdlR2VuZXJhbAAAAA=="
+    "Key": "SurvivorsDamageMagnitudeChangeGeneral",
+    "Name": "SurvivorsDamageMagnitudeChangeGeneral_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 7,
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity27/Survivor/T_IconSurvivorWeapon12.T_IconSurvivorWeapon12"
   },
   {
     "Id": 45,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAJAAAAAAABAXgAAACUAAAALQAAAGUAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRmb2NvX1VJLlRfSWNvbnByb3BlcnR5cmVkZm9jb19VSQAAABsAAABTdXJ2aXZvcnNEYW1hZ2VBbXBsaWZ5X05hbWUAFgAAAFN1cnZpdm9yc0RhbWFnZUFtcGxpZnkAAA=="
+    "Key": "SurvivorsDamageAmplify",
+    "Name": "SurvivorsDamageAmplify_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 9,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredfoco_UI.T_Iconpropertyredfoco_UI"
   },
   {
     "Id": 99,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAGAAAAAAABAXwAAACYAAAAYwAAAGsAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTI3L1N1cnZpdm9yL1RfSWNvblN1cnZpdm9yV2VhcG9uMDkuVF9JY29uU3Vydml2b3JXZWFwb24wOQAbAAAAU3Vydml2b3JzSWdub3JlRGVmUmF0ZV9OYW1lABYAAABTdXJ2aXZvcnNJZ25vcmVEZWZSYXRlAAA="
+    "Key": "SurvivorsIgnoreDefRate",
+    "Name": "SurvivorsIgnoreDefRate_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 6,
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity27/Survivor/T_IconSurvivorWeapon09.T_IconSurvivorWeapon09"
   },
   {
     "Id": 257,
-    "BinData": "GAAAABQAHAAYABQAEAAAAA8AAAAIAAQAFAAAABgAAAAIAAAAAAAAAYQAAACgAAAAAQEAAHEAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9Sb2d1ZVNraWxsX0F0dGFja0ludGVydmFsX1VJLlRfUm9ndWVTa2lsbF9BdHRhY2tJbnRlcnZhbF9VSQAAABkAAABTdXJ2aXZvcnNBdHRhY2tTcGVlZF9OYW1lAAAAFAAAAFN1cnZpdm9yc0F0dGFja1NwZWVkAAAAAA=="
+    "Key": "SurvivorsAttackSpeed",
+    "Name": "SurvivorsAttackSpeed_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 8,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_RogueSkill_AttackInterval_UI.T_RogueSkill_AttackInterval_UI"
   },
   {
     "Id": 190,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAAUAAAAdAAAAIwAAAC+AAAAYwAAAC9HYW1lL0FraS9VSS9VSVJlc291cmNlcy9Db21tb24vSW1hZ2UvSWNvbkF0dHJpYnV0ZS9UX0ljb25wcm9wZXJ0eXJlZHdxZV9VSS5UX0ljb25wcm9wZXJ0eXJlZHdxZV9VSQAXAAAAU3Vydml2b3JzTW92ZVNwZWVkX05hbWUAEgAAAFN1cnZpdm9yc01vdmVTcGVlZAAA"
+    "Key": "SurvivorsMoveSpeed",
+    "Name": "SurvivorsMoveSpeed_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": false,
+    "IsSpecial": false,
+    "Priority": 20,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredwqe_UI.T_Iconpropertyredwqe_UI"
   },
   {
     "Id": 191,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4AAAAIAAQAFAAAABgAAAAUAAAAAAABAXQAAACQAAAAvwAAAGMAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWR3cWVfVUkuVF9JY29ucHJvcGVydHlyZWR3cWVfVUkAGgAAAFN1cnZpdm9yc01vdmVTcGVlZEFkZF9OYW1lAAAVAAAAU3Vydml2b3JzTW92ZVNwZWVkQWRkAAAA"
+    "Key": "SurvivorsMoveSpeedAdd",
+    "Name": "SurvivorsMoveSpeedAdd_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": false,
+    "Priority": 20,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredwqe_UI.T_Iconpropertyredwqe_UI"
   },
   {
     "Id": 259,
-    "BinData": "GAAAABQAHAAYABQAEAAAAA8ADgAIAAQAFAAAABgAAAAVAAAAAAABAXwAAACYAAAAAwEAAGsAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTI3L1N1cnZpdm9yL1RfSWNvblN1cnZpdm9yV2VhcG9uMTAuVF9JY29uU3Vydml2b3JXZWFwb24xMAAZAAAAU3Vydml2b3JzUGlja3VwUmFuZ2VfTmFtZQAAABQAAABTdXJ2aXZvcnNQaWNrdXBSYW5nZQAAAAA="
+    "Key": "SurvivorsPickupRange",
+    "Name": "SurvivorsPickupRange_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": true,
+    "IsSpecial": true,
+    "Priority": 21,
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity27/Survivor/T_IconSurvivorWeapon10.T_IconSurvivorWeapon10"
   },
   {
     "Id": 260,
-    "BinData": "GAAAABQAHAAYABQAEAAAAA8ADgAIAAQAFAAAABgAAAAWAAAAAAABAXQAAACIAAAABAEAAGMAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWR3cWVfVUkuVF9JY29ucHJvcGVydHlyZWR3cWVfVUkAEwAAAFN1cnZpdm9yc05haWxpX05hbWUADgAAAFN1cnZpdm9yc05haWxpAAA="
+    "Key": "SurvivorsNaili",
+    "Name": "SurvivorsNaili_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": true,
+    "IsSpecial": true,
+    "Priority": 22,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredwqe_UI.T_Iconpropertyredwqe_UI"
   },
   {
     "Id": 261,
-    "BinData": "GAAAABQAHAAYABQAEAAAAA8ADgAIAAQAFAAAABgAAAAXAAAAAAABAXQAAACMAAAABQEAAGMAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWR3cWVfVUkuVF9JY29ucHJvcGVydHlyZWR3cWVfVUkAFwAAAFN1cnZpdm9yc01vdmVTcGVlZF9OYW1lABUAAABTdXJ2aXZvcnNOZXdNb3ZlU3BlZWQAAAA="
+    "Key": "SurvivorsNewMoveSpeed",
+    "Name": "SurvivorsMoveSpeed_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": true,
+    "IsSpecial": true,
+    "Priority": 23,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredwqe_UI.T_Iconpropertyredwqe_UI"
   },
   {
     "Id": 262,
-    "BinData": "GAAAABQAHAAYABQAEAAAAA8ADgAIAAQAFAAAABgAAAAYAAAAAAABAYQAAACgAAAABgEAAHEAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9Sb2d1ZVNraWxsX0F0dGFja0ludGVydmFsX1VJLlRfUm9ndWVTa2lsbF9BdHRhY2tJbnRlcnZhbF9VSQAAABkAAABTdXJ2aXZvcnNBdHRhY2tTcGVlZF9OYW1lAAAAFwAAAFN1cnZpdm9yc05ld0F0dGFja1NwZWVkAA=="
+    "Key": "SurvivorsNewAttackSpeed",
+    "Name": "SurvivorsAttackSpeed_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": true,
+    "IsSpecial": true,
+    "Priority": 24,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_RogueSkill_AttackInterval_UI.T_RogueSkill_AttackInterval_UI"
   },
   {
     "Id": 263,
-    "BinData": "GAAAABQAHAAYABQAEAAAAAAADwAIAAQAFAAAABgAAAAZAAAAAAAAAXgAAACMAAAABwEAAGcAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRiYW9qaV9VSS5UX0ljb25wcm9wZXJ0eXJlZGJhb2ppX1VJABIAAABTdXJ2aXZvcnNDcml0X05hbWUAABAAAABTdXJ2aXZvcnNOZXdDcml0AAAAAA=="
+    "Key": "SurvivorsNewCrit",
+    "Name": "SurvivorsCrit_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": false,
+    "IsSpecial": true,
+    "Priority": 25,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
   },
   {
     "Id": 264,
-    "BinData": "GAAAABQAHAAYABQAEAAAAAAADwAIAAQAFAAAABgAAAAaAAAAAAAAAXwAAACoAAAACAEAAGsAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTI3L1N1cnZpdm9yL1RfSWNvblN1cnZpdm9yV2VhcG9uMTEuVF9JY29uU3Vydml2b3JXZWFwb24xMQAqAAAAU3Vydml2b3JzRGFtYWdlTWFnbml0dWRlQ2hhbmdlR2VuZXJhbF9OYW1lAAAoAAAAU3Vydml2b3JzTmV3RGFtYWdlTWFnbml0dWRlQ2hhbmdlR2VuZXJhbAAAAAA="
+    "Key": "SurvivorsNewDamageMagnitudeChangeGeneral",
+    "Name": "SurvivorsDamageMagnitudeChangeGeneral_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": false,
+    "IsSpecial": true,
+    "Priority": 26,
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity27/Survivor/T_IconSurvivorWeapon11.T_IconSurvivorWeapon11"
   },
   {
     "Id": 265,
-    "BinData": "GAAAABQAHAAYABQAEAAAAA8ADgAIAAQAFAAAABgAAAAbAAAAAAABAXwAAACQAAAACQEAAGsAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTI3L1N1cnZpdm9yL1RfSWNvblN1cnZpdm9yV2VhcG9uMDkuVF9JY29uU3Vydml2b3JXZWFwb24wOQARAAAAU3Vydml2b3JzQXRrX05hbWUAAAAPAAAAU3Vydml2b3JzTmV3QXRrAA=="
+    "Key": "SurvivorsNewAtk",
+    "Name": "SurvivorsAtk_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": true,
+    "IsSpecial": true,
+    "Priority": 27,
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity27/Survivor/T_IconSurvivorWeapon09.T_IconSurvivorWeapon09"
   },
   {
     "Id": 266,
-    "BinData": "GAAAABQAHAAYABQAEAAAAAAADwAIAAQAFAAAABgAAAAcAAAAAAAAAXgAAACUAAAACgEAAGUAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlyZWRjcml0X1VJLlRfSWNvbnByb3BlcnR5cmVkY3JpdF9VSQAAABgAAABTdXJ2aXZvcnNDcml0RGFtYWdlX05hbWUAAAAAFgAAAFN1cnZpdm9yc05ld0NyaXREYW1hZ2UAAA=="
+    "Key": "SurvivorsNewCritDamage",
+    "Name": "SurvivorsCritDamage_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": false,
+    "IsSpecial": true,
+    "Priority": 28,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
   },
   {
     "Id": 267,
-    "BinData": "GAAAABQAGAAUABAADAAAAAAAAAAIAAQAFAAAABQAAAAdAAAAeAAAAJgAAAALAQAAZQAAAC9HYW1lL0FraS9VSS9VSVJlc291cmNlcy9Db21tb24vSW1hZ2UvSWNvbkF0dHJpYnV0ZS9UX0ljb25wcm9wZXJ0eUNvbUJ1ZmZfVUkuVF9JY29ucHJvcGVydHlDb21CdWZmX1VJAAAAHAAAAFN1cnZpdm9yc1RvdGFsS2lsbENvdW50X05hbWUAAAAAFwAAAFN1cnZpdm9yc1RvdGFsS2lsbENvdW50AA=="
+    "Key": "SurvivorsTotalKillCount",
+    "Name": "SurvivorsTotalKillCount_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": false,
+    "IsSpecial": false,
+    "Priority": 29,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_IconpropertyComBuff_UI.T_IconpropertyComBuff_UI"
   },
   {
     "Id": 268,
-    "BinData": "GAAAABQAHAAYABQAEAAPAA4ADQAIAAQAFAAAABgAAAAeAAAAAAEBAXwAAACYAAAADAEAAGsAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTI3L1N1cnZpdm9yL1RfSWNvblN1cnZpdm9yV2VhcG9uMDkuVF9JY29uU3Vydml2b3JXZWFwb24wOQAbAAAAU3Vydml2b3JzSWdub3JlRGVmUmF0ZV9OYW1lABkAAABTdXJ2aXZvcnNOZXdJZ25vcmVEZWZSYXRlAAAA"
+    "Key": "SurvivorsNewIgnoreDefRate",
+    "Name": "SurvivorsIgnoreDefRate_Name",
+    "IsBasePermyriad": true,
+    "IsPercent": true,
+    "IsSpecial": true,
+    "Priority": 30,
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity27/Survivor/T_IconSurvivorWeapon09.T_IconSurvivorWeapon09"
   },
   {
     "Id": 269,
-    "BinData": "GAAAABQAHAAYABQAEAAAAAAADwAIAAQAFAAAABgAAAAfAAAAAAAAAXwAAACUAAAADQEAAGkAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvQ29tbW9uL0ltYWdlL0ljb25BdHRyaWJ1dGUvVF9JY29ucHJvcGVydHlncmVlbmxpZmVfVUkuVF9JY29ucHJvcGVydHlncmVlbmxpZmVfVUkAAAAVAAAAU3Vydml2b3JzTGlmZU1heF9OYW1lAAAAEwAAAFN1cnZpdm9yc05ld0xpZmVNYXgA"
+    "Key": "SurvivorsNewLifeMax",
+    "Name": "SurvivorsLifeMax_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": false,
+    "IsSpecial": true,
+    "Priority": 31,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI"
   },
   {
     "Id": 270,
-    "BinData": "GAAAABQAHAAYABQAEAAAAA8ADgAIAAQAFAAAABgAAAAgAAAAAAABAXwAAACYAAAADgEAAGsAAAAvR2FtZS9Ba2kvVUkvVUlSZXNvdXJjZXMvVWlBY3Rpdml0eS9JbWFnZS9BY3Rpdml0eTI3L1N1cnZpdm9yL1RfSWNvblN1cnZpdm9yV2VhcG9uMTAuVF9JY29uU3Vydml2b3JXZWFwb24xMAAZAAAAU3Vydml2b3JzUGlja3VwUmFuZ2VfTmFtZQAAABcAAABTdXJ2aXZvcnNOZXdQaWNrdXBSYW5nZQA="
+    "Key": "SurvivorsNewPickupRange",
+    "Name": "SurvivorsPickupRange_Name",
+    "IsBasePermyriad": false,
+    "IsPercent": true,
+    "IsSpecial": true,
+    "Priority": 32,
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity27/Survivor/T_IconSurvivorWeapon10.T_IconSurvivorWeapon10"
   }
 ]

@@ -3,756 +3,882 @@
     "Id": 1,
     "Name": "Talk.JumpWaitTime",
     "Desc": "默认跳过对话的等待时长",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAARAAAAAEAAAADAAAAMC4zAAUAAABGbG9hdAAAACEAAADpu5jorqTot7Pov4flr7nor53nmoTnrYnlvoXml7bplb8AAAARAAAAVGFsay5KdW1wV2FpdFRpbWUAAAA="
+    "Type": "Float",
+    "Value": "0.3"
   },
   {
     "Id": 2,
     "Name": "Talk.CharPerSec",
     "Desc": "字幕每分钟显示字数(速度)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAgAAAARAAAAAIAAAAEAAAAMTQwMAAAAAADAAAASW50ACMAAADlrZfluZXmr4/liIbpkp/mmL7npLrlrZfmlbAo6YCf5bqmKQAPAAAAVGFsay5DaGFyUGVyU2VjAA=="
+    "Type": "Int",
+    "Value": "1400"
   },
   {
     "Id": 3,
     "Name": "BooleanValue",
     "Desc": "Bool值测试",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAkAAAANAAAAAMAAAAEAAAAVFJVRQAAAAAHAAAAQm9vbGVhbgANAAAAQm9vbOWAvOa1i+ivlQAAAAwAAABCb29sZWFuVmFsdWUAAAAA"
+    "Type": "Boolean",
+    "Value": "TRUE"
   },
   {
     "Id": 4,
     "Name": "Talk.EndWaitTime",
     "Desc": "动画结束后的等待时长",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAQAAAAAQAAAABAAAAMwAAAAUAAABGbG9hdAAAAB4AAADliqjnlLvnu5PmnZ/lkI7nmoTnrYnlvoXml7bplb8AABAAAABUYWxrLkVuZFdhaXRUaW1lAAAAAA=="
+    "Type": "Float",
+    "Value": "3"
   },
   {
     "Id": 6,
     "Name": "EInteractIcon.Dialog",
     "Desc": "交互通用图标：对话 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAlAAAAAYAAABRAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uRGlhbG9ndWVfVUkuVF9QbG90SWNvbkRpYWxvZ3VlX1VJAAAABgAAAFN0cmluZwAAIgAAAOS6pOS6kumAmueUqOWbvuagh++8muWvueivnSDot6/lvoQAABQAAABFSW50ZXJhY3RJY29uLkRpYWxvZwAAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconDialogue_UI.T_PlotIconDialogue_UI"
   },
   {
     "Id": 43,
     "Name": "EInteractIcon.OS",
     "Desc": "交互通用图标：内心独白 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAFwAAABkAAAAkAAAACsAAABHAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uWGluX1VJLlRfUGxvdEljb25YaW5fVUkABgAAAFN0cmluZwAAKAAAAOS6pOS6kumAmueUqOWbvuagh++8muWGheW/g+eLrOeZvSDot6/lvoQAAAAAEAAAAEVJbnRlcmFjdEljb24uT1MAAAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconXin_UI.T_PlotIconXin_UI"
   },
   {
     "Id": 7,
     "Name": "EInteractIcon.Shop",
     "Desc": "交互通用图标：商店 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGAAAABoAAAAjAAAAAcAAABJAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uU2hvcF9VSS5UX1Bsb3RJY29uU2hvcF9VSQAAAAYAAABTdHJpbmcAACIAAADkuqTkupLpgJrnlKjlm77moIfvvJrllYblupcg6Lev5b6EAAASAAAARUludGVyYWN0SWNvbi5TaG9wAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconShop_UI.T_PlotIconShop_UI"
   },
   {
     "Id": 8,
     "Name": "EInteractIcon.Other",
     "Desc": "交互通用图标：其他 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHAAAAB4AAAAnAAAAAgAAABZAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uTGV2ZWxnZW5lcmFsX1VJLlRfUGxvdEljb25MZXZlbGdlbmVyYWxfVUkAAAAGAAAAU3RyaW5nAAAiAAAA5Lqk5LqS6YCa55So5Zu+5qCH77ya5YW25LuWIOi3r+W+hAAAEwAAAEVJbnRlcmFjdEljb24uT3RoZXIA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconLevelgeneral_UI.T_PlotIconLevelgeneral_UI"
   },
   {
     "Id": 9,
     "Name": "EInteractIcon.Weapon",
     "Desc": "交互通用图标：武器 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAAkAAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMDdfVUkuVF9JY29uTWFwX1Nob3BfMDdfVUkAAAAABgAAAFN0cmluZwAAIgAAAOS6pOS6kumAmueUqOWbvuagh++8muatpuWZqCDot6/lvoQAABQAAABFSW50ZXJhY3RJY29uLldlYXBvbgAAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_07_UI.T_IconMap_Shop_07_UI"
   },
   {
     "Id": 10,
     "Name": "EInteractIcon.Cook",
     "Desc": "交互通用图标：烹饪 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAAoAAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMDZfVUkuVF9JY29uTWFwX1Nob3BfMDZfVUkAAAAABgAAAFN0cmluZwAAIgAAAOS6pOS6kumAmueUqOWbvuagh++8mueDuemlqiDot6/lvoQAABIAAABFSW50ZXJhY3RJY29uLkNvb2sAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_06_UI.T_IconMap_Shop_06_UI"
   },
   {
     "Id": 11,
     "Name": "EInteractIcon.Souvenir",
     "Desc": "交互通用图标：纪念品 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAApAAAAAsAAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMTBfVUkuVF9JY29uTWFwX1Nob3BfMTBfVUkAAAAABgAAAFN0cmluZwAAJQAAAOS6pOS6kumAmueUqOWbvuagh++8mue6quW/teWTgSDot6/lvoQAAAAWAAAARUludGVyYWN0SWNvbi5Tb3V2ZW5pcgAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_10_UI.T_IconMap_Shop_10_UI"
   },
   {
     "Id": 12,
     "Name": "EInteractIcon.Hospital",
     "Desc": "交互通用图标：医馆 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAAwAAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMDNfVUkuVF9JY29uTWFwX1Nob3BfMDNfVUkAAAAABgAAAFN0cmluZwAAIgAAAOS6pOS6kumAmueUqOWbvuagh++8muWMu+mmhiDot6/lvoQAABYAAABFSW50ZXJhY3RJY29uLkhvc3BpdGFsAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_03_UI.T_IconMap_Shop_03_UI"
   },
   {
     "Id": 72,
     "Name": "EInteractIcon.Collect",
     "Desc": "交互通用图标：兑换商人 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAqAAAAEgAAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMTFfVUkuVF9JY29uTWFwX1Nob3BfMTFfVUkAAAAABgAAAFN0cmluZwAAKAAAAOS6pOS6kumAmueUqOWbvuagh++8muWFkeaNouWVhuS6uiDot6/lvoQAAAAAFQAAAEVJbnRlcmFjdEljb24uQ29sbGVjdAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_11_UI.T_IconMap_Shop_11_UI"
   },
   {
     "Id": 71,
     "Name": "EInteractIcon.Institute",
     "Desc": "交互通用图标：研究所 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAApAAAAEcAAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMDJfVUkuVF9JY29uTWFwX1Nob3BfMDJfVUkAAAAABgAAAFN0cmluZwAAJQAAAOS6pOS6kumAmueUqOWbvuagh++8mueglOeptuaJgCDot6/lvoQAAAAXAAAARUludGVyYWN0SWNvbi5JbnN0aXR1dGUA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_02_UI.T_IconMap_Shop_02_UI"
   },
   {
     "Id": 14,
     "Name": "EInteractIcon.SearchingLegacy",
     "Desc": "交互通用图标：寻遗商人 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAqAAAAA4AAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1BsYXlfMDZfVUkuVF9JY29uTWFwX1BsYXlfMDZfVUkAAAAABgAAAFN0cmluZwAAKAAAAOS6pOS6kumAmueUqOWbvuagh++8muWvu+mBl+WVhuS6uiDot6/lvoQAAAAAHQAAAEVJbnRlcmFjdEljb24uU2VhcmNoaW5nTGVnYWN5AAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_06_UI.T_IconMap_Play_06_UI"
   },
   {
     "Id": 15,
     "Name": "EInteractIcon.AntecedentConvention",
     "Desc": "交互通用图标：先行公约商人 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAArAAAAA8AAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1BsYXlfMDdfVUkuVF9JY29uTWFwX1BsYXlfMDdfVUkAAAAABgAAAFN0cmluZwAALgAAAOS6pOS6kumAmueUqOWbvuagh++8muWFiOihjOWFrOe6puWVhuS6uiDot6/lvoQAACIAAABFSW50ZXJhY3RJY29uLkFudGVjZWRlbnRDb252ZW50aW9uAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_07_UI.T_IconMap_Play_07_UI"
   },
   {
     "Id": 16,
     "Name": "EInteractIcon.AnechoicRegion",
     "Desc": "交互通用图标：无音区商人（武器商人暂用） 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAwAAAABAAAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMDFfVUkuVF9JY29uTWFwX1Nob3BfMDFfVUkAAAAABgAAAFN0cmluZwAAQwAAAOS6pOS6kumAmueUqOWbvuagh++8muaXoOmfs+WMuuWVhuS6uu+8iOatpuWZqOWVhuS6uuaagueUqO+8iSDot6/lvoQAHAAAAEVJbnRlcmFjdEljb24uQW5lY2hvaWNSZWdpb24AAAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_01_UI.T_IconMap_Shop_01_UI"
   },
   {
     "Id": 50,
     "Name": "EInteractIcon.Grocery",
     "Desc": "交互通用图标：杂货店 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAApAAAADIAAABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMDhfVUkuVF9JY29uTWFwX1Nob3BfMDhfVUkAAAAABgAAAFN0cmluZwAAJQAAAOS6pOS6kumAmueUqOWbvuagh++8muadgui0p+W6lyDot6/lvoQAAAAVAAAARUludGVyYWN0SWNvbi5Hcm9jZXJ5AAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_08_UI.T_IconMap_Shop_08_UI"
   },
   {
     "Id": 46,
     "Name": "EInteractIcon.Leave",
     "Desc": "交互通用图标：离开 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGAAAABoAAAAjAAAAC4AAABLAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uTGVhdmVfVUkuVF9QbG90SWNvbkxlYXZlX1VJAAYAAABTdHJpbmcAACIAAADkuqTkupLpgJrnlKjlm77moIfvvJrnprvlvIAg6Lev5b6EAAATAAAARUludGVyYWN0SWNvbi5MZWF2ZQA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconLeave_UI.T_PlotIconLeave_UI"
   },
   {
     "Id": 17,
     "Name": "EInteractDefaultIcon.BigTeleporter",
     "Desc": "交互系统默认图标： 大传送表",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHAAAAB4AAAApAAAABEAAABYAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX0NTXzAxX1VJLlRfSWNvbk1hcF9DU18wMV9VSQAAAAAGAAAAU3RyaW5nAAAoAAAA5Lqk5LqS57O757uf6buY6K6k5Zu+5qCH77yaIOWkp+S8oOmAgeihqAAAAAAiAAAARUludGVyYWN0RGVmYXVsdEljb24uQmlnVGVsZXBvcnRlcgAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_CS_01_UI.T_IconMap_CS_01_UI"
   },
   {
     "Id": 18,
     "Name": "EInteractDefaultIcon.SmallTeleporter",
     "Desc": "交互系统默认图标：小传送表",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHAAAAB4AAAAoAAAABIAAABYAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX0NTXzAyX1VJLlRfSWNvbk1hcF9DU18wMl9VSQAAAAAGAAAAU3RyaW5nAAAnAAAA5Lqk5LqS57O757uf6buY6K6k5Zu+5qCH77ya5bCP5Lyg6YCB6KGoACQAAABFSW50ZXJhY3REZWZhdWx0SWNvbi5TbWFsbFRlbGVwb3J0ZXIAAAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_CS_02_UI.T_IconMap_CS_02_UI"
   },
   {
     "Id": 19,
     "Name": "EInteractDefaultIcon.TreasureBox",
     "Desc": "交互系统默认图标：宝箱",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHAAAAB4AAAAnAAAABMAAABYAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1NKXzAxX1VJLlRfSWNvbk1hcF9TSl8wMV9VSQAAAAAGAAAAU3RyaW5nAAAhAAAA5Lqk5LqS57O757uf6buY6K6k5Zu+5qCH77ya5a6d566xAAAAIAAAAEVJbnRlcmFjdERlZmF1bHRJY29uLlRyZWFzdXJlQm94AAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_SJ_01_UI.T_IconMap_SJ_01_UI"
   },
   {
     "Id": 52,
     "Name": "EInteractDefaultIcon.UnknownCollect",
     "Desc": "交互系统默认图标：未知采集物",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHAAAAB4AAAApAAAADQAAABaAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1BpY2t1cF9VSS5UX0ljb25NYXBfUGlja3VwX1VJAAAGAAAAU3RyaW5nAAAqAAAA5Lqk5LqS57O757uf6buY6K6k5Zu+5qCH77ya5pyq55+l6YeH6ZuG54mpAAAjAAAARUludGVyYWN0RGVmYXVsdEljb24uVW5rbm93bkNvbGxlY3QA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Pickup_UI.T_IconMap_Pickup_UI"
   },
   {
     "Id": 20,
     "Name": "ETrackEffect.LongLightBeam",
     "Desc": "追踪目标特效：大光柱 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHAAAAB4AAAAoAAAABQAAABZAAAAL0dhbWUvQWtpL0VmZmVjdC9FZmZlY3RHcm91cC9Db21tb24vREFfRnhfR3JvdXBfTGlnaHRiZWFtX0xvbmcuREFfRnhfR3JvdXBfTGlnaHRiZWFtX0xvbmcAAAAGAAAAU3RyaW5nAAAlAAAA6L+96Liq55uu5qCH54m55pWI77ya5aSn5YWJ5p+xIOi3r+W+hAAAABoAAABFVHJhY2tFZmZlY3QuTG9uZ0xpZ2h0QmVhbQAA"
+    "Type": "String",
+    "Value": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Lightbeam_Long.DA_Fx_Group_Lightbeam_Long"
   },
   {
     "Id": 21,
     "Name": "ETrackEffect.ShortLightBeam",
     "Desc": "追踪目标特效：小光柱 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHAAAAB4AAAAoAAAABUAAABbAAAAL0dhbWUvQWtpL0VmZmVjdC9FZmZlY3RHcm91cC9Db21tb24vREFfRnhfR3JvdXBfTGlnaHRiZWFtX1Nob3J0LkRBX0Z4X0dyb3VwX0xpZ2h0YmVhbV9TaG9ydAAGAAAAU3RyaW5nAAAlAAAA6L+96Liq55uu5qCH54m55pWI77ya5bCP5YWJ5p+xIOi3r+W+hAAAABsAAABFVHJhY2tFZmZlY3QuU2hvcnRMaWdodEJlYW0A"
+    "Type": "String",
+    "Value": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Lightbeam_Short.DA_Fx_Group_Lightbeam_Short"
   },
   {
     "Id": 22,
     "Name": "ENearbyTrackingTexture.BigTeleporter",
     "Desc": "附近追踪图标：大华表 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAApAAAABYAAABeAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvbk1hcF9DU18wMV8wX1VJLlNQX0ljb25NYXBfQ1NfMDFfMF9VSQAABgAAAFN0cmluZwAAJQAAAOmZhOi/kei/vei4quWbvuagh++8muWkp+WNjuihqCDot6/lvoQAAAAkAAAARU5lYXJieVRyYWNraW5nVGV4dHVyZS5CaWdUZWxlcG9ydGVyAAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_CS_01_0_UI.SP_IconMap_CS_01_0_UI"
   },
   {
     "Id": 23,
     "Name": "ENearbyTrackingTexture.SmallTeleporter",
     "Desc": "附近追踪图标：小华表 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAApAAAABcAAABeAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvbk1hcF9DU18wMl8wX1VJLlNQX0ljb25NYXBfQ1NfMDJfMF9VSQAABgAAAFN0cmluZwAAJQAAAOmZhOi/kei/vei4quWbvuagh++8muWwj+WNjuihqCDot6/lvoQAAAAmAAAARU5lYXJieVRyYWNraW5nVGV4dHVyZS5TbWFsbFRlbGVwb3J0ZXIAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_CS_02_0_UI.SP_IconMap_CS_02_0_UI"
   },
   {
     "Id": 24,
     "Name": "ENearbyTrackingTexture.TreasureBox",
     "Desc": "附近追踪图标：宝箱 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAlAAAABgAAABQAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvblRyYWNrMDMuU1BfSWNvblRyYWNrMDMAAAAABgAAAFN0cmluZwAAIgAAAOmZhOi/kei/vei4quWbvuagh++8muWuneeusSDot6/lvoQAACIAAABFTmVhcmJ5VHJhY2tpbmdUZXh0dXJlLlRyZWFzdXJlQm94AAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconTrack03.SP_IconTrack03"
   },
   {
     "Id": 63,
     "Name": "ENearbyTrackingTexture.TeleControl",
     "Desc": "附近追踪图标：控物 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAlAAAAD8AAABQAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvblRyYWNrMDAuU1BfSWNvblRyYWNrMDAAAAAABgAAAFN0cmluZwAAIgAAAOmZhOi/kei/vei4quWbvuagh++8muaOp+eJqSDot6/lvoQAACIAAABFTmVhcmJ5VHJhY2tpbmdUZXh0dXJlLlRlbGVDb250cm9sAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconTrack00.SP_IconTrack00"
   },
   {
     "Id": 64,
     "Name": "ENearbyTrackingTexture.PhantomBox",
     "Desc": "附近追踪图标：幻象宝箱 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAnAAAAEAAAABQAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvblRyYWNrMDIuU1BfSWNvblRyYWNrMDIAAAAABgAAAFN0cmluZwAAKAAAAOmZhOi/kei/vei4quWbvuagh++8muW5u+ixoeWuneeusSDot6/lvoQAAAAAIQAAAEVOZWFyYnlUcmFja2luZ1RleHR1cmUuUGhhbnRvbUJveAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconTrack02.SP_IconTrack02"
   },
   {
     "Id": 65,
     "Name": "ENearbyTrackingTexture.DungeonKey",
     "Desc": "附近追踪图标：副本钥匙 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAnAAAAEEAAABQAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvblRyYWNrMDEuU1BfSWNvblRyYWNrMDEAAAAABgAAAFN0cmluZwAAKAAAAOmZhOi/kei/vei4quWbvuagh++8muWJr+acrOmSpeWMmSDot6/lvoQAAAAAIQAAAEVOZWFyYnlUcmFja2luZ1RleHR1cmUuRHVuZ2VvbktleQAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconTrack01.SP_IconTrack01"
   },
   {
     "Id": 25,
     "Name": "TrackMarkHideDis",
     "Desc": "追踪标记隐藏距离",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAOAAAABkAAAABAAAAMAAAAAMAAABJbnQAGAAAAOi/vei4quagh+iusOmakOiXj+i3neemuwAAAAAQAAAAVHJhY2tNYXJrSGlkZURpcwAAAAA="
+    "Type": "Int",
+    "Value": "0"
   },
   {
     "Id": 26,
     "Name": "CenterText.EndWaitTime",
     "Desc": "黑幕字结束后的等待时长",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAARAAAABoAAAABAAAANQAAAAUAAABGbG9hdAAAACEAAADpu5HluZXlrZfnu5PmnZ/lkI7nmoTnrYnlvoXml7bplb8AAAAWAAAAQ2VudGVyVGV4dC5FbmRXYWl0VGltZQAA"
+    "Type": "Float",
+    "Value": "5"
   },
   {
     "Id": 27,
     "Name": "Talk.GuardTime",
     "Desc": "字幕保护时间(秒)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAOAAAABsAAAADAAAAMC4zAAUAAABGbG9hdAAAABcAAADlrZfluZXkv53miqTml7bpl7Qo56eSKQAOAAAAVGFsay5HdWFyZFRpbWUAAA=="
+    "Type": "Float",
+    "Value": "0.3"
   },
   {
     "Id": 28,
     "Name": "Talk.AudioDelay",
     "Desc": "字幕语音延迟播放时间(秒)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAARAAAABwAAAABAAAAMAAAAAUAAABGbG9hdAAAACMAAADlrZfluZXor63pn7Plu7bov5/mkq3mlL7ml7bpl7Qo56eSKQAPAAAAVGFsay5BdWRpb0RlbGF5AA=="
+    "Type": "Float",
+    "Value": "0"
   },
   {
     "Id": 29,
     "Name": "Talk.AudioTransitionDuration",
     "Desc": "字幕语音淡出时间(秒)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAQAAAAB0AAAADAAAAMC41AAUAAABGbG9hdAAAAB0AAADlrZfluZXor63pn7Pmt6Hlh7rml7bpl7Qo56eSKQAAABwAAABUYWxrLkF1ZGlvVHJhbnNpdGlvbkR1cmF0aW9uAAAAAA=="
+    "Type": "Float",
+    "Value": "0.5"
   },
   {
     "Id": 30,
     "Name": "Interaction.EndWaitTime",
     "Desc": "交互前文本动画结束后的等待时长",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAUAAAAB4AAAABAAAAMwAAAAUAAABGbG9hdAAAAC0AAADkuqTkupLliY3mlofmnKzliqjnlLvnu5PmnZ/lkI7nmoTnrYnlvoXml7bplb8AAAAXAAAASW50ZXJhY3Rpb24uRW5kV2FpdFRpbWUA"
+    "Type": "Float",
+    "Value": "3"
   },
   {
     "Id": 31,
     "Name": "LevelD.EndWaitTime",
     "Desc": "D级字幕动画结束后的等待时长",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAATAAAAB8AAAABAAAAMwAAAAUAAABGbG9hdAAAACgAAABE57qn5a2X5bmV5Yqo55S757uT5p2f5ZCO55qE562J5b6F5pe26ZW/AAAAABIAAABMZXZlbEQuRW5kV2FpdFRpbWUAAA=="
+    "Type": "Float",
+    "Value": "3"
   },
   {
     "Id": 32,
     "Name": "LevelC.EndWaitTime",
     "Desc": "C级字幕动画结束后的等待时长",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAATAAAACAAAAABAAAANAAAAAUAAABGbG9hdAAAACgAAABD57qn5a2X5bmV5Yqo55S757uT5p2f5ZCO55qE562J5b6F5pe26ZW/AAAAABIAAABMZXZlbEMuRW5kV2FpdFRpbWUAAA=="
+    "Type": "Float",
+    "Value": "4"
   },
   {
     "Id": 33,
     "Name": "CenterText.CharPerSec",
     "Desc": "黑幕字每分钟显示字数(速度)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAARAAAACEAAAADAAAANDgwAAMAAABJbnQAJgAAAOm7keW5leWtl+avj+WIhumSn+aYvuekuuWtl+aVsCjpgJ/luqYpAAAVAAAAQ2VudGVyVGV4dC5DaGFyUGVyU2VjAAAA"
+    "Type": "Int",
+    "Value": "480"
   },
   {
     "Id": 34,
     "Name": "Interaction.CharPerSec",
     "Desc": "交互前文本每分钟显示字数(速度)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAgAAAAUAAAACIAAAAEAAAAMjQwMAAAAAADAAAASW50ACwAAADkuqTkupLliY3mlofmnKzmr4/liIbpkp/mmL7npLrlrZfmlbAo6YCf5bqmKQAAAAAWAAAASW50ZXJhY3Rpb24uQ2hhclBlclNlYwAA"
+    "Type": "Int",
+    "Value": "2400"
   },
   {
     "Id": 35,
     "Name": "LevelD.CharPerSec",
     "Desc": "D级字幕每分钟显示字数(速度)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAgAAAASAAAACMAAAAEAAAAMjQwMAAAAAADAAAASW50ACcAAABE57qn5a2X5bmV5q+P5YiG6ZKf5pi+56S65a2X5pWwKOmAn+W6pikAEQAAAExldmVsRC5DaGFyUGVyU2VjAAAA"
+    "Type": "Int",
+    "Value": "2400"
   },
   {
     "Id": 36,
     "Name": "LevelC.CharPerSec",
     "Desc": "C级字幕每分钟显示字数(速度)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAgAAAASAAAACQAAAAEAAAAMjQwMAAAAAADAAAASW50ACcAAABD57qn5a2X5bmV5q+P5YiG6ZKf5pi+56S65a2X5pWwKOmAn+W6pikAEQAAAExldmVsQy5DaGFyUGVyU2VjAAAA"
+    "Type": "Int",
+    "Value": "2400"
   },
   {
     "Id": 37,
     "Name": "Seq.CharPerSec",
     "Desc": "Seq字幕每分钟显示字数(速度)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAgAAAASAAAACUAAAAEAAAAMjQwMAAAAAADAAAASW50ACYAAABTZXHlrZfluZXmr4/liIbpkp/mmL7npLrlrZfmlbAo6YCf5bqmKQAADgAAAFNlcS5DaGFyUGVyU2VjAAA="
+    "Type": "Int",
+    "Value": "2400"
   },
   {
     "Id": 38,
     "Name": "GuideLineShowTime",
     "Desc": "引导线显示时间",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAANAAAACYAAAACAAAAMzAAAAMAAABJbnQAFQAAAOW8leWvvOe6v+aYvuekuuaXtumXtAAAABEAAABHdWlkZUxpbmVTaG93VGltZQAAAA=="
+    "Type": "Int",
+    "Value": "30"
   },
   {
     "Id": 39,
     "Name": "CenterText.FontSizeBig",
     "Desc": "黑幕字体大号",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAMAAAACcAAAACAAAAODAAAAMAAABJbnQAEgAAAOm7keW5leWtl+S9k+Wkp+WPtwAAFgAAAENlbnRlclRleHQuRm9udFNpemVCaWcAAA=="
+    "Type": "Int",
+    "Value": "80"
   },
   {
     "Id": 40,
     "Name": "CenterText.FontSizeMiddle",
     "Desc": "黑幕字体中号",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAMAAAACgAAAACAAAANTAAAAMAAABJbnQAEgAAAOm7keW5leWtl+S9k+S4reWPtwAAGQAAAENlbnRlclRleHQuRm9udFNpemVNaWRkbGUAAAA="
+    "Type": "Int",
+    "Value": "50"
   },
   {
     "Id": 41,
     "Name": "CenterText.FontSizeSmall",
     "Desc": "黑幕字体小号",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAMAAAACkAAAACAAAAMzAAAAMAAABJbnQAEgAAAOm7keW5leWtl+S9k+Wwj+WPtwAAGAAAAENlbnRlclRleHQuRm9udFNpemVTbWFsbAAAAAA="
+    "Type": "Int",
+    "Value": "30"
   },
   {
     "Id": 42,
     "Name": "PlotTemplate.CameraShake",
     "Desc": "模板手持效果",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAhAAAACoAAABQAAAAL0dhbWUvQWtpL1NlcXVlbmNlL1Rhc2tfU2VxL0NvbW1vbi9TaGFrZV9TZXEvVGVtcGxhdGVfTG9uZ0hhbmQuVGVtcGxhdGVfTG9uZ0hhbmQAAAAABgAAAFN0cmluZwAAEgAAAOaooeadv+aJi+aMgeaViOaenAAAGAAAAFBsb3RUZW1wbGF0ZS5DYW1lcmFTaGFrZQAAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/Sequence/Task_Seq/Common/Shake_Seq/Template_LongHand.Template_LongHand"
   },
   {
     "Id": 44,
     "Name": "Plot.GoBattleMaterialPath",
     "Desc": "剧情切人上场材质",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAmAAAACwAAABdAAAAL0dhbWUvQWtpL0VmZmVjdC9NYXRlcmlhbENvbnRyb2xsZXIvU2VxdWVuY2UvQ29tbW9uL0RBX0Z4X1NlcV9TaG93UGxheWVyLkRBX0Z4X1NlcV9TaG93UGxheWVyAAAABgAAAFN0cmluZwAAGAAAAOWJp+aDheWIh+S6uuS4iuWcuuadkOi0qAAAAAAZAAAAUGxvdC5Hb0JhdHRsZU1hdGVyaWFsUGF0aAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/Effect/MaterialController/Sequence/Common/DA_Fx_Seq_ShowPlayer.DA_Fx_Seq_ShowPlayer"
   },
   {
     "Id": 45,
     "Name": "PlotTemplate.CameraExitRotation",
     "Desc": "模板退出后还原相机的角度(pitch,yaw,roll)——请勿改格式",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAACAAAAAoAAAAdAAAAC0AAAAIAAAALTUsLTEwLDAAAAAABgAAAFN0cmluZwAASQAAAOaooeadv+mAgOWHuuWQjui/mOWOn+ebuOacuueahOinkuW6pihwaXRjaCx5YXcscm9sbCnigJTigJTor7fli7/mlLnmoLzlvI8AAAAfAAAAUGxvdFRlbXBsYXRlLkNhbWVyYUV4aXRSb3RhdGlvbgA="
+    "Type": "String",
+    "Value": "-5,-10,0"
   },
   {
     "Id": 47,
     "Name": "PlotTemplate.LookAtDelay",
     "Desc": "模板看向说话人的随机延迟区间(秒,秒)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAkAAAAWAAAAC8AAAAFAAAAMC4zLDEAAAAGAAAAU3RyaW5nAAAzAAAA5qih5p2/55yL5ZCR6K+06K+d5Lq655qE6ZqP5py65bu26L+f5Yy66Ze0KOenkiznp5IpABgAAABQbG90VGVtcGxhdGUuTG9va0F0RGVsYXkAAAAA"
+    "Type": "String",
+    "Value": "0.3,1"
   },
   {
     "Id": 48,
     "Name": "PhoneCall.CallShowAudioEvent",
     "Desc": "通讯UI打开音频",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAFgAAABgAAAAeAAAADAAAABBAAAAL0dhbWUvQWtpL1d3aXNlQXVkaW8vRXZlbnRzL3BsYXlfYWVfdWlfZmJfY2FsbC5wbGF5X2FlX3VpX2ZiX2NhbGwAAAAGAAAAU3RyaW5nAAAUAAAA6YCa6K6vVUnmiZPlvIDpn7PpopEAAAAAHAAAAFBob25lQ2FsbC5DYWxsU2hvd0F1ZGlvRXZlbnQAAAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/WwiseAudio/Events/play_ae_ui_fb_call.play_ae_ui_fb_call"
   },
   {
     "Id": 49,
     "Name": "PhoneCall.CallHideAudioEvent",
     "Desc": "通讯UI关闭音频",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGAAAABoAAAAgAAAADEAAABJAAAAL0dhbWUvQWtpL1d3aXNlQXVkaW8vRXZlbnRzL3BsYXlfYWVfdWlfZmJfY2FsbF9lbmQucGxheV9hZV91aV9mYl9jYWxsX2VuZAAAAAYAAABTdHJpbmcAABQAAADpgJrorq9VSeWFs+mXremfs+mikQAAAAAcAAAAUGhvbmVDYWxsLkNhbGxIaWRlQXVkaW9FdmVudAAAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/WwiseAudio/Events/play_ae_ui_fb_call_end.play_ae_ui_fb_call_end"
   },
   {
     "Id": 51,
     "Name": "Photo.TargetFinderFrameSize",
     "Desc": "拍照玩法取景框大小",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAPAAAADMAAAABAAAAMQAAAAUAAABGbG9hdAAAABsAAADmi43nhafnjqnms5Xlj5bmma/moYblpKflsI8AGwAAAFBob3RvLlRhcmdldEZpbmRlckZyYW1lU2l6ZQA="
+    "Type": "Float",
+    "Value": "1"
   },
   {
     "Id": 55,
     "Name": "Sequence.SequenceEndLeastTime",
     "Desc": "Sequence字幕最后一句跳过的淡出时间（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAXAAAADcAAAADAAAAMS41AAUAAABGbG9hdAAAADgAAABTZXF1ZW5jZeWtl+W5leacgOWQjuS4gOWPpei3s+i/h+eahOa3oeWHuuaXtumXtO+8iOenku+8iQAAAAAdAAAAU2VxdWVuY2UuU2VxdWVuY2VFbmRMZWFzdFRpbWUAAAA="
+    "Type": "Float",
+    "Value": "1.5"
   },
   {
     "Id": 56,
     "Name": "Plot.DoubleClickInterval",
     "Desc": "唤醒跳过剧情按钮的双击间隔（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAVAAAADgAAAADAAAAMC44AAUAAABGbG9hdAAAADAAAADllKTphpLot7Pov4fliafmg4XmjInpkq7nmoTlj4zlh7vpl7TpmpTvvIjnp5LvvIkAAAAAGAAAAFBsb3QuRG91YmxlQ2xpY2tJbnRlcnZhbAAAAAA="
+    "Type": "Float",
+    "Value": "0.8"
   },
   {
     "Id": 57,
     "Name": "Plot.SkipPressingTime",
     "Desc": "长按跳过需要的时间（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAASAAAADkAAAADAAAAMC44AAUAAABGbG9hdAAAACQAAADplb/mjInot7Pov4fpnIDopoHnmoTml7bpl7TvvIjnp5LvvIkAAAAAFQAAAFBsb3QuU2tpcFByZXNzaW5nVGltZQAAAA=="
+    "Type": "Float",
+    "Value": "0.8"
   },
   {
     "Id": 58,
     "Name": "Plot.TipsDuration",
     "Desc": "隐藏跳过按钮的时间（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAASAAAADoAAAABAAAAMwAAAAUAAABGbG9hdAAAACQAAADpmpDol4/ot7Pov4fmjInpkq7nmoTml7bpl7TvvIjnp5LvvIkAAAAAEQAAAFBsb3QuVGlwc0R1cmF0aW9uAAAA"
+    "Type": "Float",
+    "Value": "3"
   },
   {
     "Id": 59,
     "Name": "Plot.ClickBufferTime",
     "Desc": "跳过进度条最短响应时间（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAATAAAADsAAAADAAAAMC42AAUAAABGbG9hdAAAACoAAADot7Pov4fov5vluqbmnaHmnIDnn63lk43lupTml7bpl7TvvIjnp5LvvIkAABQAAABQbG90LkNsaWNrQnVmZmVyVGltZQAAAAA="
+    "Type": "Float",
+    "Value": "0.6"
   },
   {
     "Id": 60,
     "Name": "Plot.DisableFlow",
     "Desc": "强制跳过全部剧情",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAOAAAADwAAAABAAAAMAAAAAMAAABJbnQAGAAAAOW8uuWItui3s+i/h+WFqOmDqOWJp+aDhQAAAAAQAAAAUGxvdC5EaXNhYmxlRmxvdwAAAAA="
+    "Type": "Int",
+    "Value": "0"
   },
   {
     "Id": 61,
     "Name": "Plot.WaitCalmTime",
     "Desc": "剧情开始时等待当前角色技能完成的保底时间（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAaAAAAD0AAAABAAAANAAAAAUAAABGbG9hdAAAAEUAAADliafmg4XlvIDlp4vml7bnrYnlvoXlvZPliY3op5LoibLmioDog73lrozmiJDnmoTkv53lupXml7bpl7TvvIjnp5LvvIkAAAARAAAAUGxvdC5XYWl0Q2FsbVRpbWUAAAA="
+    "Type": "Float",
+    "Value": "4"
   },
   {
     "Id": 62,
     "Name": "Plot.DragDist",
     "Desc": "剧情中拖拽相机超过多少时放开跳过",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAVAAAAD4AAAACAAAAMTAAAAUAAABGbG9hdAAAADAAAADliafmg4XkuK3mi5bmi73nm7jmnLrotoXov4flpJrlsJHml7bmlL7lvIDot7Pov4cAAAAADQAAAFBsb3QuRHJhZ0Rpc3QAAAA="
+    "Type": "Float",
+    "Value": "10"
   },
   {
     "Id": 67,
     "Name": "SundialGamePlay.AngularSpeed1",
     "Desc": "日晷玩法的角速度，外圈单位时间转动的角度",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAXAAAAEMAAAACAAAANDAAAAMAAABJbnQAPAAAAOaXpeaZt+eOqeazleeahOinkumAn+W6pu+8jOWkluWciOWNleS9jeaXtumXtOi9rOWKqOeahOinkuW6pgAAAAAdAAAAU3VuZGlhbEdhbWVQbGF5LkFuZ3VsYXJTcGVlZDEAAAA="
+    "Type": "Int",
+    "Value": "40"
   },
   {
     "Id": 68,
     "Name": "SundialGamePlay.AngularSpeed2",
     "Desc": "日晷玩法的角速度，内圈单位时间转动的角度",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAXAAAAEQAAAACAAAAODAAAAMAAABJbnQAPAAAAOaXpeaZt+eOqeazleeahOinkumAn+W6pu+8jOWGheWciOWNleS9jeaXtumXtOi9rOWKqOeahOinkuW6pgAAAAAdAAAAU3VuZGlhbEdhbWVQbGF5LkFuZ3VsYXJTcGVlZDIAAAA="
+    "Type": "Int",
+    "Value": "80"
   },
   {
     "Id": 69,
     "Name": "Photo.EntityCameraFovRangeMin",
     "Desc": "拍照道具fov范围最小值",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAQAAAAEUAAAACAAAAMzAAAAUAAABGbG9hdAAAAB4AAADmi43nhafpgZPlhbdmb3bojIPlm7TmnIDlsI/lgLwAAB0AAABQaG90by5FbnRpdHlDYW1lcmFGb3ZSYW5nZU1pbgAAAA=="
+    "Type": "Float",
+    "Value": "30"
   },
   {
     "Id": 70,
     "Name": "Photo.EntityCameraFovRangeMax",
     "Desc": "拍照道具fov范围最大值",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAQAAAAEYAAAACAAAANzAAAAUAAABGbG9hdAAAAB4AAADmi43nhafpgZPlhbdmb3bojIPlm7TmnIDlpKflgLwAAB0AAABQaG90by5FbnRpdHlDYW1lcmFGb3ZSYW5nZU1heAAAAA=="
+    "Type": "Float",
+    "Value": "70"
   },
   {
     "Id": 800001,
     "Name": "EInteractIcon.Dungeon",
     "Desc": "交互通用图标：副本 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAAE1DABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1BsYXlfMDFfVUkuVF9JY29uTWFwX1BsYXlfMDFfVUkAAAAABgAAAFN0cmluZwAAIgAAAOS6pOS6kumAmueUqOWbvuagh++8muWJr+acrCDot6/lvoQAABUAAABFSW50ZXJhY3RJY29uLkR1bmdlb24AAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_01_UI.T_IconMap_Play_01_UI"
   },
   {
     "Id": 900001,
     "Name": "EInteractIcon.ChengXiaoShanShop",
     "Desc": "交互通用图标：乘霄山收集物商店 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAtAAAAKG7DQBcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1BsYXlfMTNfVUkuVF9JY29uTWFwX1BsYXlfMTNfVUkAAAAABgAAAFN0cmluZwAANAAAAOS6pOS6kumAmueUqOWbvuagh++8muS5mOmchOWxseaUtumbhueJqeWVhuW6lyDot6/lvoQAAAAAHwAAAEVJbnRlcmFjdEljb24uQ2hlbmdYaWFvU2hhblNob3AA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_13_UI.T_IconMap_Play_13_UI"
   },
   {
     "Id": 900002,
     "Name": "Plot.AudioEndWaitTimePrompt",
     "Desc": "吉祥物对话：语音结束到下一句话的间隔（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAYAAAAKK7DQABAAAAMQAAAAYAAABTdHJpbmcAAD8AAADlkInnpaXnianlr7nor53vvJror63pn7Pnu5PmnZ/liLDkuIvkuIDlj6Xor53nmoTpl7TpmpTvvIjnp5LvvIkAGwAAAFBsb3QuQXVkaW9FbmRXYWl0VGltZVByb21wdAA="
+    "Type": "String",
+    "Value": "1"
   },
   {
     "Id": 900003,
     "Name": "Plot.DefaultDurationPrompt",
     "Desc": "吉祥物对话：没有音频时一句话的显示时长（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAZAAAAKO7DQABAAAAMwAAAAYAAABTdHJpbmcAAEIAAADlkInnpaXnianlr7nor53vvJrmsqHmnInpn7PpopHml7bkuIDlj6Xor53nmoTmmL7npLrml7bplb/vvIjnp5LvvIkAABoAAABQbG90LkRlZmF1bHREdXJhdGlvblByb21wdAAA"
+    "Type": "String",
+    "Value": "3"
   },
   {
     "Id": 700001,
     "Name": "Plot.ProtectOptionTime",
     "Desc": "选项防误触保护时间（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAkAAAATAAAAGGuCgAEAAAAMC44NAAAAAAFAAAARmxvYXQAAAAkAAAA6YCJ6aG56Ziy6K+v6Kem5L+d5oqk5pe26Ze077yI56eS77yJAAAAABYAAABQbG90LlByb3RlY3RPcHRpb25UaW1lAAA="
+    "Type": "Float",
+    "Value": "0.84"
   },
   {
     "Id": 750001,
     "Name": "EInteractIcon.GroceryKuroRobot",
     "Desc": "交互通用图标：库默尼商行 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAqAAAALFxCwBeAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvbk1hcF9TaG9wXzEyX1VJLlNQX0ljb25NYXBfU2hvcF8xMl9VSQAABgAAAFN0cmluZwAAKwAAAOS6pOS6kumAmueUqOWbvuagh++8muW6k+m7mOWwvOWVhuihjCDot6/lvoQAHgAAAEVJbnRlcmFjdEljb24uR3JvY2VyeUt1cm9Sb2JvdAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Shop_12_UI.SP_IconMap_Shop_12_UI"
   },
   {
     "Id": 50001,
     "Name": "WalkingPattern.MinDist",
     "Desc": "寂寞小姐走线玩法100分距离",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAARAAAAFHDAAACAAAAMjAAAAMAAABJbnQAJAAAAOWvguWvnuWwj+WnkOi1sOe6v+eOqeazlTEwMOWIhui3neemuwAAAAAWAAAAV2Fsa2luZ1BhdHRlcm4uTWluRGlzdAAA"
+    "Type": "Int",
+    "Value": "20"
   },
   {
     "Id": 50002,
     "Name": "WalkingPattern.MaxDist",
     "Desc": "寂寞小姐走线玩法0分距离",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAQAAAAFLDAAADAAAAMTQwAAMAAABJbnQAIgAAAOWvguWvnuWwj+WnkOi1sOe6v+eOqeazlTDliIbot53nprsAABYAAABXYWxraW5nUGF0dGVybi5NYXhEaXN0AAA="
+    "Type": "Int",
+    "Value": "140"
   },
   {
     "Id": 50004,
     "Name": "WalkingPattern.CheckPointDist",
     "Desc": "寂寞小姐走线玩法检查点检测距离",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAATAAAAFTDAAADAAAAMjAwAAMAAABJbnQALQAAAOWvguWvnuWwj+WnkOi1sOe6v+eOqeazleajgOafpeeCueajgOa1i+i3neemuwAAAB0AAABXYWxraW5nUGF0dGVybi5DaGVja1BvaW50RGlzdAAAAA=="
+    "Type": "Int",
+    "Value": "200"
   },
   {
     "Id": 900004,
     "Name": "StatueInteract.CheckAngle",
     "Desc": "寂寞小姐拉取雕像玩法检测角度",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAATAAAAKS7DQACAAAAMjAAAAUAAABGbG9hdAAAACoAAADlr4Llr57lsI/lp5Dmi4nlj5bpm5Xlg4/njqnms5Xmo4DmtYvop5LluqYAABkAAABTdGF0dWVJbnRlcmFjdC5DaGVja0FuZ2xlAAAA"
+    "Type": "Float",
+    "Value": "20"
   },
   {
     "Id": 900005,
     "Name": "StatueInteract.MoveSpeed",
     "Desc": "寂寞小姐拉取雕像玩法移动速度(cm/s)",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAUAAAAKW7DQADAAAAODAwAAMAAABJbnQAMAAAAOWvguWvnuWwj+WnkOaLieWPlumbleWDj+eOqeazleenu+WKqOmAn+W6pihjbS9zKQAAAAAYAAAAU3RhdHVlSW50ZXJhY3QuTW92ZVNwZWVkAAAAAA=="
+    "Type": "Int",
+    "Value": "800"
   },
   {
     "Id": 900006,
     "Name": "StatueInteract.MaxMoveTime",
     "Desc": "寂寞小姐拉取雕像玩法最大移动时间",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAAVAAAAKa7DQADAAAAMS41AAUAAABGbG9hdAAAADAAAADlr4Llr57lsI/lp5Dmi4nlj5bpm5Xlg4/njqnms5XmnIDlpKfnp7vliqjml7bpl7QAAAAAGgAAAFN0YXR1ZUludGVyYWN0Lk1heE1vdmVUaW1lAAA="
+    "Type": "Float",
+    "Value": "1.5"
   },
   {
     "Id": 900007,
     "Name": "Plot.AudioEndDelay",
     "Desc": "剧情语音默认延迟结束时间（ms）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAkAAAAVAAAAKe7DQAEAAAAMTAwMAAAAAAFAAAARmxvYXQAAAAsAAAA5Ymn5oOF6K+t6Z+z6buY6K6k5bu26L+f57uT5p2f5pe26Ze077yIbXPvvIkAAAAAEgAAAFBsb3QuQXVkaW9FbmREZWxheQAA"
+    "Type": "Float",
+    "Value": "1000"
   },
   {
     "Id": 900008,
     "Name": "Plot.BubbleAudioEndDelay",
     "Desc": "冒泡语音默认延迟结束时间（ms）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABwAAAAkAAAAVAAAAKi7DQAEAAAAMTAwMAAAAAAFAAAARmxvYXQAAAAsAAAA5YaS5rOh6K+t6Z+z6buY6K6k5bu26L+f57uT5p2f5pe26Ze077yIbXPvvIkAAAAAGAAAAFBsb3QuQnViYmxlQXVkaW9FbmREZWxheQAAAAA="
+    "Type": "Float",
+    "Value": "1000"
   },
   {
     "Id": 900009,
     "Name": "WalkingPattern.RecordMinDist",
     "Desc": "寂寞小姐走线玩法记录位置最小间隔距离",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAVAAAAKm7DQADAAAAMTAwAAMAAABJbnQANgAAAOWvguWvnuWwj+WnkOi1sOe6v+eOqeazleiusOW9leS9jee9ruacgOWwj+mXtOmalOi3neemuwAAHAAAAFdhbGtpbmdQYXR0ZXJuLlJlY29yZE1pbkRpc3QAAAAA"
+    "Type": "Int",
+    "Value": "100"
   },
   {
     "Id": 900010,
     "Name": "WalkingPattern.StepNum",
     "Desc": "寂寞小姐走线玩法记录位置最多个数",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAcAAAAUAAAAKq7DQADAAAAMTAwAAMAAABJbnQAMAAAAOWvguWvnuWwj+WnkOi1sOe6v+eOqeazleiusOW9leS9jee9ruacgOWkmuS4quaVsAAAAAAWAAAAV2Fsa2luZ1BhdHRlcm4uU3RlcE51bQAA"
+    "Type": "Int",
+    "Value": "100"
   },
   {
     "Id": 900011,
     "Name": "EInteractIcon.Phonograph",
     "Desc": "交互选项图标2.0主城留声机",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAApAAAAKu7DQBcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1BsYXlfMjVfVUkuVF9JY29uTWFwX1BsYXlfMjVfVUkAAAAABgAAAFN0cmluZwAAJAAAAOS6pOS6kumAiemhueWbvuaghzIuMOS4u+WfjueVmeWjsOacugAAAAAYAAAARUludGVyYWN0SWNvbi5QaG9ub2dyYXBoAAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_25_UI.T_IconMap_Play_25_UI"
   },
   {
     "Id": 900012,
     "Name": "EInteractIcon.LifePointShop",
     "Desc": "交互选项图标2.0静风杂货生命点商店",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAsAAAAKy7DQBcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMTNfVUkuVF9JY29uTWFwX1Nob3BfMTNfVUkAAAAABgAAAFN0cmluZwAAMAAAAOS6pOS6kumAiemhueWbvuaghzIuMOmdmemjjuadgui0p+eUn+WRveeCueWVhuW6lwAAAAAbAAAARUludGVyYWN0SWNvbi5MaWZlUG9pbnRTaG9wAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_13_UI.T_IconMap_Shop_13_UI"
   },
   {
     "Id": 900013,
     "Name": "EInteractIcon.PlushVillage",
     "Desc": "交互选项图标2.0声匣",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAmAAAAK27DQBcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1BsYXlfMjRfVUkuVF9JY29uTWFwX1BsYXlfMjRfVUkAAAAABgAAAFN0cmluZwAAGwAAAOS6pOS6kumAiemhueWbvuaghzIuMOWjsOWMowAaAAAARUludGVyYWN0SWNvbi5QbHVzaFZpbGxhZ2UAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_24_UI.T_IconMap_Play_24_UI"
   },
   {
     "Id": 900014,
     "Name": "FloatStatue.BoundSize",
     "Desc": "悬浮雕像碰撞检测盒体长宽高",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAACAAAAAoAAAAUAAAAK67DQAJAAAAMC41LDAuNSwzAAAABgAAAFN0cmluZwAAJwAAAOaCrOa1rumbleWDj+eisOaSnuajgOa1i+ebkuS9k+mVv+WuvemrmAAVAAAARmxvYXRTdGF0dWUuQm91bmRTaXplAAAA"
+    "Type": "String",
+    "Value": "0.5,0.5,3"
   },
   {
     "Id": 700002,
     "Name": "EInteractIcon.FishingDock",
     "Desc": "交互通用图标：捕鱼船坞入口",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGwAAAB0AAAAnAAAAGKuCgBVAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uTmF2aWdhdGlvbl9VSS5UX1Bsb3RJY29uTmF2aWdhdGlvbl9VSQAAAAYAAABTdHJpbmcAACcAAADkuqTkupLpgJrnlKjlm77moIfvvJrmjZXpsbzoiLnlnZ7lhaXlj6MAGQAAAEVJbnRlcmFjdEljb24uRmlzaGluZ0RvY2sAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconNavigation_UI.T_PlotIconNavigation_UI"
   },
   {
     "Id": 700003,
     "Name": "ENearbyTrackingTexture.FishingSpectrum",
     "Desc": "附近追踪图标：捕鱼信息频段",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAmAAAAGOuCgBQAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvblRyYWNrMDYuU1BfSWNvblRyYWNrMDYAAAAABgAAAFN0cmluZwAAJwAAAOmZhOi/kei/vei4quWbvuagh++8muaNlemxvOS/oeaBr+mikeautQAmAAAARU5lYXJieVRyYWNraW5nVGV4dHVyZS5GaXNoaW5nU3BlY3RydW0AAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconTrack06.SP_IconTrack06"
   },
   {
     "Id": 750002,
     "Name": "ENearbyTrackingTexture.Gongduola",
     "Desc": "附近追踪图标：贡多拉 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAmAAAALJxCwBQAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvblRyYWNrMDcuU1BfSWNvblRyYWNrMDcAAAAABgAAAFN0cmluZwAAJQAAAOmZhOi/kei/vei4quWbvuagh++8mui0oeWkmuaLiSDot6/lvoQAAAAgAAAARU5lYXJieVRyYWNraW5nVGV4dHVyZS5Hb25nZHVvbGEAAAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconTrack07.SP_IconTrack07"
   },
   {
     "Id": 750003,
     "Name": "EInteractIcon.CartethyiaCall",
     "Desc": "交互选项图标2.2卡提希娅",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAlAAAALNxCwBRAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uS2F0aXhpeWFfVUkuVF9QbG90SWNvbkthdGl4aXlhX1VJAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAiemhueWbvuaghzIuMuWNoeaPkOW4jOWohQAAABwAAABFSW50ZXJhY3RJY29uLkNhcnRldGh5aWFDYWxsAAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconKatixiya_UI.T_PlotIconKatixiya_UI"
   },
   {
     "Id": 800002,
     "Name": "EInteractIcon.AbyssDialog",
     "Desc": "团子小世界交互图标",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAjAAAAAI1DABRAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uRGlhbG9ndWVfVUkuVF9QbG90SWNvbkRpYWxvZ3VlX1VJAAAABgAAAFN0cmluZwAAGwAAAOWbouWtkOWwj+S4lueVjOS6pOS6kuWbvuaghwAZAAAARUludGVyYWN0SWNvbi5BYnlzc0RpYWxvZwAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconDialogue_UI.T_PlotIconDialogue_UI"
   },
   {
     "Id": 850001,
     "Name": "SP_IconMap_Task_02_UI",
     "Desc": "交互通用图标：记闻任务",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAFH4DABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDJfVUkuVF9JY29uTWFwX1Rhc2tfMDJfVUkAAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAmueUqOWbvuagh++8muiusOmXu+S7u+WKoQAAABUAAABTUF9JY29uTWFwX1Rhc2tfMDJfVUkAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_02_UI.T_IconMap_Task_02_UI"
   },
   {
     "Id": 850002,
     "Name": "SP_IconMap_Task_01_UI",
     "Desc": "交互通用图标：主线任务",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAFL4DABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDFfVUkuVF9JY29uTWFwX1Rhc2tfMDFfVUkAAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAmueUqOWbvuagh++8muS4u+e6v+S7u+WKoQAAABUAAABTUF9JY29uTWFwX1Rhc2tfMDFfVUkAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_01_UI.T_IconMap_Task_01_UI"
   },
   {
     "Id": 850003,
     "Name": "SP_IconMap_Task_01_1_UI",
     "Desc": "交互通用图标：主线问号",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAFP4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDFfMV9VSS5UX0ljb25NYXBfVGFza18wMV8xX1VJAAAAAAYAAABTdHJpbmcAACEAAADkuqTkupLpgJrnlKjlm77moIfvvJrkuLvnur/pl67lj7cAAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzAxXzFfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_01_1_UI.T_IconMap_Task_01_1_UI"
   },
   {
     "Id": 850004,
     "Name": "SP_IconMap_Task_02_1_UI",
     "Desc": "交互通用图标：记闻问号",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAFT4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDJfMV9VSS5UX0ljb25NYXBfVGFza18wMl8xX1VJAAAAAAYAAABTdHJpbmcAACEAAADkuqTkupLpgJrnlKjlm77moIfvvJrorrDpl7vpl67lj7cAAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzAyXzFfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_02_1_UI.T_IconMap_Task_02_1_UI"
   },
   {
     "Id": 850005,
     "Name": "SP_IconMap_Task_03_1_UI",
     "Desc": "交互通用图标：伴星问号",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAFX4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDNfMV9VSS5UX0ljb25NYXBfVGFza18wM18xX1VJAAAAAAYAAABTdHJpbmcAACEAAADkuqTkupLpgJrnlKjlm77moIfvvJrkvLTmmJ/pl67lj7cAAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzAzXzFfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_03_1_UI.T_IconMap_Task_03_1_UI"
   },
   {
     "Id": 850006,
     "Name": "SP_IconMap_Task_03_UI",
     "Desc": "交互通用图标：伴星任务",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAFb4DABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDNfVUkuVF9JY29uTWFwX1Rhc2tfMDNfVUkAAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAmueUqOWbvuagh++8muS8tOaYn+S7u+WKoQAAABUAAABTUF9JY29uTWFwX1Rhc2tfMDNfVUkAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_03_UI.T_IconMap_Task_03_UI"
   },
   {
     "Id": 850007,
     "Name": "SP_IconMap_Task_05_UI",
     "Desc": "交互通用图标：委托任务",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAFf4DABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDVfVUkuVF9JY29uTWFwX1Rhc2tfMDVfVUkAAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAmueUqOWbvuagh++8muWnlOaJmOS7u+WKoQAAABUAAABTUF9JY29uTWFwX1Rhc2tfMDVfVUkAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_05_UI.T_IconMap_Task_05_UI"
   },
   {
     "Id": 850008,
     "Name": "SP_IconMap_Task_06_1_UI",
     "Desc": "交互通用图标：每日问号",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAFj4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDZfMV9VSS5UX0ljb25NYXBfVGFza18wNl8xX1VJAAAAAAYAAABTdHJpbmcAACEAAADkuqTkupLpgJrnlKjlm77moIfvvJrmr4/ml6Xpl67lj7cAAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzA2XzFfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_06_1_UI.T_IconMap_Task_06_1_UI"
   },
   {
     "Id": 850009,
     "Name": "SP_IconMap_Task_06_UI",
     "Desc": "交互通用图标：每日任务",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAFn4DABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDZfVUkuVF9JY29uTWFwX1Rhc2tfMDZfVUkAAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAmueUqOWbvuagh++8muavj+aXpeS7u+WKoQAAABUAAABTUF9JY29uTWFwX1Rhc2tfMDZfVUkAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_06_UI.T_IconMap_Task_06_UI"
   },
   {
     "Id": 850010,
     "Name": "SP_IconMap_Task_10_1_UI",
     "Desc": "交互通用图标：POI任务",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAAoAAAAFr4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMTBfMV9VSS5UX0ljb25NYXBfVGFza18xMF8xX1VJAAAAAAYAAABTdHJpbmcAAB4AAADkuqTkupLpgJrnlKjlm77moIfvvJpQT0nku7vliqEAABcAAABTUF9JY29uTWFwX1Rhc2tfMTBfMV9VSQA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_10_1_UI.T_IconMap_Task_10_1_UI"
   },
   {
     "Id": 850011,
     "Name": "SP_IconMap_Task_11_1_UI",
     "Desc": "交互通用图标：引导任务",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAFv4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMTFfMV9VSS5UX0ljb25NYXBfVGFza18xMV8xX1VJAAAAAAYAAABTdHJpbmcAACEAAADkuqTkupLpgJrnlKjlm77moIfvvJrlvJXlr7zku7vliqEAAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzExXzFfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_11_1_UI.T_IconMap_Task_11_1_UI"
   },
   {
     "Id": 700004,
     "Name": "T_IconMap_Shop_16_UI",
     "Desc": "交互通用图标：教会商店",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAGSuCgBcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Nob3BfMTZfVUkuVF9JY29uTWFwX1Nob3BfMTZfVUkAAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAmueUqOWbvuagh++8muaVmeS8muWVhuW6lwAAABQAAABUX0ljb25NYXBfU2hvcF8xNl9VSQAAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_16_UI.T_IconMap_Shop_16_UI"
   },
   {
     "Id": 850012,
     "Name": "EInteractIcon.BvbEntrance",
     "Desc": "交互通用图标：BVB玩法入口 路径",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGAAAABoAAAAlAAAAFz4DABJAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uX0J2Ql9VSS5UX1Bsb3RJY29uX0J2Ql9VSQAAAAYAAABTdHJpbmcAACsAAADkuqTkupLpgJrnlKjlm77moIfvvJpCVkLnjqnms5XlhaXlj6Mg6Lev5b6EABkAAABFSW50ZXJhY3RJY29uLkJ2YkVudHJhbmNlAAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIcon_BvB_UI.T_PlotIcon_BvB_UI"
   },
   {
     "Id": 850013,
     "Name": "SP_IconMap_Task_14_1_UI",
     "Desc": "交互通用图标：活动问号",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAF34DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMTRfMV9VSS5UX0ljb25NYXBfVGFza18xNF8xX1VJAAAAAAYAAABTdHJpbmcAACEAAADkuqTkupLpgJrnlKjlm77moIfvvJrmtLvliqjpl67lj7cAAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzE0XzFfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_14_1_UI.T_IconMap_Task_14_1_UI"
   },
   {
     "Id": 850014,
     "Name": "SP_IconMap_Task_14_UI",
     "Desc": "交互通用图标：活动任务",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAF74DABcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMTRfVUkuVF9JY29uTWFwX1Rhc2tfMTRfVUkAAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAmueUqOWbvuagh++8mua0u+WKqOS7u+WKoQAAABUAAABTUF9JY29uTWFwX1Rhc2tfMTRfVUkAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_14_UI.T_IconMap_Task_14_UI"
   },
   {
     "Id": 850015,
     "Name": "SP_IconMap_Task_01_2_UI",
     "Desc": "交互通用图标：主线任务2",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAF/4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDFfMl9VSS5UX0ljb25NYXBfVGFza18wMV8yX1VJAAAAAAYAAABTdHJpbmcAACIAAADkuqTkupLpgJrnlKjlm77moIfvvJrkuLvnur/ku7vliqEyAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzAxXzJfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_01_2_UI.T_IconMap_Task_01_2_UI"
   },
   {
     "Id": 850016,
     "Name": "SP_IconMap_Task_02_2_UI",
     "Desc": "交互通用图标：记闻任务2",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAGD4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDJfMl9VSS5UX0ljb25NYXBfVGFza18wMl8yX1VJAAAAAAYAAABTdHJpbmcAACIAAADkuqTkupLpgJrnlKjlm77moIfvvJrorrDpl7vku7vliqEyAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzAyXzJfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_02_2_UI.T_IconMap_Task_02_2_UI"
   },
   {
     "Id": 850017,
     "Name": "SP_IconMap_Task_03_2_UI",
     "Desc": "交互通用图标：伴星任务2",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAGH4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDNfMl9VSS5UX0ljb25NYXBfVGFza18wM18yX1VJAAAAAAYAAABTdHJpbmcAACIAAADkuqTkupLpgJrnlKjlm77moIfvvJrkvLTmmJ/ku7vliqEyAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzAzXzJfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_03_2_UI.T_IconMap_Task_03_2_UI"
   },
   {
     "Id": 850018,
     "Name": "SP_IconMap_Task_06_2_UI",
     "Desc": "交互通用图标：每日任务2",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAGL4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDZfMl9VSS5UX0ljb25NYXBfVGFza18wNl8yX1VJAAAAAAYAAABTdHJpbmcAACIAAADkuqTkupLpgJrnlKjlm77moIfvvJrmr4/ml6Xku7vliqEyAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzA2XzJfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_06_2_UI.T_IconMap_Task_06_2_UI"
   },
   {
     "Id": 850019,
     "Name": "SP_IconMap_Task_10_2_UI",
     "Desc": "交互通用图标：POI任务2",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAAoAAAAGP4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMTBfMl9VSS5UX0ljb25NYXBfVGFza18xMF8yX1VJAAAAAAYAAABTdHJpbmcAAB8AAADkuqTkupLpgJrnlKjlm77moIfvvJpQT0nku7vliqEyABcAAABTUF9JY29uTWFwX1Rhc2tfMTBfMl9VSQA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_10_2_UI.T_IconMap_Task_10_2_UI"
   },
   {
     "Id": 850020,
     "Name": "SP_IconMap_Task_11_2_UI",
     "Desc": "交互通用图标：引导任务2",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAGT4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMTFfMl9VSS5UX0ljb25NYXBfVGFza18xMV8yX1VJAAAAAAYAAABTdHJpbmcAACIAAADkuqTkupLpgJrnlKjlm77moIfvvJrlvJXlr7zku7vliqEyAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzExXzJfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_11_2_UI.T_IconMap_Task_11_2_UI"
   },
   {
     "Id": 850021,
     "Name": "SP_IconMap_Task_14_2_UI",
     "Desc": "交互通用图标：活动任务2",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHgAAACAAAAApAAAAGX4DABgAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMTRfMl9VSS5UX0ljb25NYXBfVGFza18xNF8yX1VJAAAAAAYAAABTdHJpbmcAACIAAADkuqTkupLpgJrnlKjlm77moIfvvJrmtLvliqjku7vliqEyAAAXAAAAU1BfSWNvbk1hcF9UYXNrXzE0XzJfVUkA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_14_2_UI.T_IconMap_Task_14_2_UI"
   },
   {
     "Id": 750004,
     "Name": "EInteractIcon.HandInHand",
     "Desc": "交互通用图标：牵手",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGwAAAB0AAAAkAAAALRxCwBVAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uSGFuZGluaGFuZF9VSS5UX1Bsb3RJY29uSGFuZGluaGFuZF9VSQAAAAYAAABTdHJpbmcAABsAAADkuqTkupLpgJrnlKjlm77moIfvvJrnibXmiYsAGAAAAEVJbnRlcmFjdEljb24uSGFuZEluSGFuZAAAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconHandinhand_UI.T_PlotIconHandinhand_UI"
   },
   {
     "Id": 750005,
     "Name": "EInteractIcon.Silhouette",
     "Desc": "交互通用图标：剪影",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAjAAAALVxCwBRAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uQWN0aXZpdHlfVUkuVF9QbG90SWNvbkFjdGl2aXR5X1VJAAAABgAAAFN0cmluZwAAGwAAAOS6pOS6kumAmueUqOWbvuagh++8muWJquW9sQAYAAAARUludGVyYWN0SWNvbi5TaWxob3VldHRlAAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconActivity_UI.T_PlotIconActivity_UI"
   },
   {
     "Id": 700005,
     "Name": "EInteractIcon.Switch",
     "Desc": "交互通用图标：电路开关",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAGWuCgBdAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JbnRlcmFjdGlvbkljb24vVF9JbnRlcmFjdGlvbkljb24xMy5UX0ludGVyYWN0aW9uSWNvbjEzAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAmueUqOWbvuagh++8mueUtei3r+W8gOWFswAAABQAAABFSW50ZXJhY3RJY29uLlN3aXRjaAAAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/InteractionIcon/T_InteractionIcon13.T_InteractionIcon13"
   },
   {
     "Id": 750006,
     "Name": "EInteractIcon.BlackBlade",
     "Desc": "交互通用图标：大剑机关",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGwAAAB0AAAAmAAAALZxCwBVAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uQmxhY2tCbGFkZV9VSS5UX1Bsb3RpY29uQmxhY2tCbGFkZV9VSQAAAAYAAABTdHJpbmcAACEAAADkuqTkupLpgJrnlKjlm77moIfvvJrlpKfliZHmnLrlhbMAAAAYAAAARUludGVyYWN0SWNvbi5CbGFja0JsYWRlAAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconBlackBlade_UI.T_PloticonBlackBlade_UI"
   },
   {
     "Id": 750007,
     "Name": "EInteractIcon.Exchange",
     "Desc": "交互通用图标：时空切换雕像",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAmAAAALdxCwBRAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RpY29uRXhjaGFuZ2VfVUkuVF9QbG90SWNvbkV4Y2hhbmdlX1VJAAAABgAAAFN0cmluZwAAJwAAAOS6pOS6kumAmueUqOWbvuagh++8muaXtuepuuWIh+aNoumbleWDjwAWAAAARUludGVyYWN0SWNvbi5FeGNoYW5nZQAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PloticonExchange_UI.T_PlotIconExchange_UI"
   },
   {
     "Id": 750008,
     "Name": "SP_IconMap_Task_07_UI",
     "Desc": "交互通用图标：07",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAlAAAALhxCwBcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1Rhc2tfMDdfVUkuVF9JY29uTWFwX1Rhc2tfMDdfVUkAAAAABgAAAFN0cmluZwAAFwAAAOS6pOS6kumAmueUqOWbvuagh++8mjA3ABUAAABTUF9JY29uTWFwX1Rhc2tfMDdfVUkAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Task_07_UI.T_IconMap_Task_07_UI"
   },
   {
     "Id": 850022,
     "Name": "Plot.TransitionPopupTime",
     "Desc": "剧情转场弹窗时长（秒）",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAABgAAAAgAAAARAAAAGb4DAABAAAANAAAAAUAAABGbG9hdAAAACEAAADliafmg4XovazlnLrlvLnnqpfml7bplb/vvIjnp5LvvIkAAAAYAAAAUGxvdC5UcmFuc2l0aW9uUG9wdXBUaW1lAAAAAA=="
+    "Type": "Float",
+    "Value": "4"
   },
   {
     "Id": 700006,
     "Name": "EInteractIcon.Sunstone",
     "Desc": "交互选项图标3.0日灵交付",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAGauCgBcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1BsYXlfNTFfVUkuVF9JY29uTWFwX1BsYXlfNTFfVUkAAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAiemhueWbvuaghzMuMOaXpeeBteS6pOS7mAAAABYAAABFSW50ZXJhY3RJY29uLlN1bnN0b25lAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_51_UI.T_IconMap_Play_51_UI"
   },
   {
     "Id": 700007,
     "Name": "EInteractIcon.Arseni",
     "Desc": "交互选项图标3.0声匣交付",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAHQAAAB8AAAAoAAAAGeuCgBcAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9JbWFnZS9JY29uV29ybGRNYXAvVF9JY29uTWFwX1BsYXlfNTBfVUkuVF9JY29uTWFwX1BsYXlfNTBfVUkAAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAiemhueWbvuaghzMuMOWjsOWMo+S6pOS7mAAAABQAAABFSW50ZXJhY3RJY29uLkFyc2VuaQAAAAA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_50_UI.T_IconMap_Play_50_UI"
   },
   {
     "Id": 700008,
     "Name": "EInteractIcon.RollBlock",
     "Desc": "交互选项图标滚方块交互",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGgAAABwAAAAlAAAAGiuCgBRAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uQ3ViZU1vdmVfVUkuVF9QbG90SWNvbkN1YmVNb3ZlX1VJAAAABgAAAFN0cmluZwAAIQAAAOS6pOS6kumAiemhueWbvuagh+a7muaWueWdl+S6pOS6kgAAABcAAABFSW50ZXJhY3RJY29uLlJvbGxCbG9jawA="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconCubeMove_UI.T_PlotIconCubeMove_UI"
   },
   {
     "Id": 700009,
     "Name": "EInteractIcon.BvbInteract",
     "Desc": "3.0bvb交互图标",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAGAAAABoAAAAfAAAAGmuCgBLAAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL1VpUGxvdC9JbWFnZS9UX1Bsb3RJY29uX0J2QjFfVUkuVF9QbG90SWNvbl9CdkIxX1VJAAYAAABTdHJpbmcAABIAAAAzLjBidmLkuqTkupLlm77moIcAABkAAABFSW50ZXJhY3RJY29uLkJ2YkludGVyYWN0AAAA"
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIcon_BvB1_UI.T_PlotIcon_BvB1_UI"
   },
   {
     "Id": 700010,
     "Name": "ENearbyTrackingTexture.Paver",
     "Desc": "3.0铺路机追踪图标",
-    "BinData": "FAAAAAAADgAYABQAEAAMAAgABAAOAAAAFAAAAJQAAACcAAAAuAAAAGquCgB8AAAAL0dhbWUvQWtpL1VJL1VJUmVzb3VyY2VzL0NvbW1vbi9BdGxhcy9Xb3JsZE1hcEljb24vU1BfSWNvbk1hcF9BY3Rpdml0eV9OYXZpZ2F0aW9uXzEwX1VJLlNQX0ljb25NYXBfQWN0aXZpdHlfTmF2aWdhdGlvbl8xMF9VSQAAAAAGAAAAU3RyaW5nAAAYAAAAMy4w6ZO66Lev5py66L+96Liq5Zu+5qCHAAAAABwAAABFTmVhcmJ5VHJhY2tpbmdUZXh0dXJlLlBhdmVyAAAAAA=="
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Activity_Navigation_10_UI.SP_IconMap_Activity_Navigation_10_UI"
   }
 ]
