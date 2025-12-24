@@ -566591,6 +566591,9 @@
               "ExcludeEntities": [
                 692700146,
                 196700125
+              ],
+              "ExcludeLevelPlays": [
+                692700005
               ]
             },
             "IsHidePasserByNpc": true
@@ -566780,6 +566783,13 @@
               ],
               "AppendLevelPlays": [
                 938700036
+              ],
+              "ExcludeEntities": [
+                692700146,
+                196700125
+              ],
+              "ExcludeLevelPlays": [
+                692700005
               ]
             },
             "IsHidePasserByNpc": true
@@ -566966,7 +566976,8 @@
               "AppendLevelPlays": [
                 120700001,
                 939700020,
-                939700021
+                939700021,
+                692700008
               ],
               "ExcludeEntities": [
                 155700106
@@ -566978,6 +566989,21 @@
           },
           "ActionGuid": "374acc25b3254b22995fdb416e8b545c",
           "ActionId": 3000133
+        },
+        {
+          "Name": "HideGroup",
+          "Params": {
+            "GroupKey": "q_155000002_浮光林BVB",
+            "HideConfig": {
+              "Type": "SpecifyEntity",
+              "EntityIds": [
+                692700157
+              ],
+              "ForceClean": true
+            }
+          },
+          "ActionGuid": "ce0b5f1f518b4ed289c0ca9e7ffe6b65",
+          "ActionId": 3000275
         },
         {
           "Name": "FadeOutScreen",
@@ -567288,6 +567314,15 @@
           },
           "ActionGuid": "bf283689640f4d09afd967a685caab70",
           "ActionId": 3000035
+        },
+        {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_155000002_浮光林BVB",
+            "DelayShow": true
+          },
+          "ActionGuid": "2ae2ec213ed64d4b96110b5c3ee456c2",
+          "ActionId": 3000276
         },
         {
           "Name": "DestroyEntity",
@@ -577941,6 +577976,16 @@
           "ActionId": 3000241
         },
         {
+          "Name": "LockEntity",
+          "Params": {
+            "EntityIds": [
+              155700123
+            ]
+          },
+          "ActionGuid": "47921b8d9b474e97a6e784196f450c38",
+          "ActionId": 3000238
+        },
+        {
           "Name": "SetAreaTimeState",
           "Params": {
             "SetAreaTimeConfig": {
@@ -578008,16 +578053,6 @@
           },
           "ActionGuid": "5ab10e24856144788662081776fd4004",
           "ActionId": 3000144
-        },
-        {
-          "Name": "SetTime",
-          "Params": {
-            "Hour": 7,
-            "Min": 0,
-            "ShowUi": false
-          },
-          "ActionGuid": "1eb3526d09e84bf08801cd647f3bfcfa",
-          "ActionId": 3000238
         },
         {
           "Name": "SetWeather",
@@ -578297,6 +578332,21 @@
           },
           "ActionGuid": "3868f97219b64b2db80e59b7fc2b0c3f",
           "ActionId": 3000205
+        },
+        {
+          "Name": "HideGroup",
+          "Params": {
+            "GroupKey": "q_155000003_医务室NANA",
+            "HideConfig": {
+              "Type": "SpecifyEntity",
+              "EntityIds": [
+                152700008
+              ],
+              "ForceClean": true
+            }
+          },
+          "ActionGuid": "78c1d26034f645eb931745264a4108bb",
+          "ActionId": 3000273
         }
       ],
       "FinishActions": [],
@@ -578332,7 +578382,6 @@
               "AppendEntities": [
                 152700118
               ],
-              "AppendLevelPlays": [],
               "ExcludeEntities": [
                 155700126,
                 155700128,
@@ -578353,6 +578402,15 @@
           },
           "ActionGuid": "537c68d00bd24d82bfc1f2dad3b607b6",
           "ActionId": 3000206
+        },
+        {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_155000003_医务室NANA",
+            "DelayShow": true
+          },
+          "ActionGuid": "facb65513216428ebe0df8a8befa715d",
+          "ActionId": 3000274
         },
         {
           "Name": "SetPlayerPos",
@@ -610272,63 +610330,6 @@
             ]
           },
           "ActionId": 3000057
-        },
-        {
-          "Name": "EnableLevelPlay",
-          "Params": {
-            "Configs": [
-              {
-                "LevelPlayId": 939700012,
-                "Enable": false
-              },
-              {
-                "LevelPlayId": 939700015,
-                "Enable": false
-              },
-              {
-                "LevelPlayId": 939000000,
-                "Enable": false
-              },
-              {
-                "LevelPlayId": 939700013,
-                "Enable": false
-              },
-              {
-                "LevelPlayId": 939700009,
-                "Enable": false
-              },
-              {
-                "LevelPlayId": 939700014,
-                "Enable": false
-              }
-            ]
-          },
-          "ActionGuid": "16f9024b608c4680b16e49ca1394f071",
-          "ActionId": 3000033
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              939700398,
-              939700399,
-              939700400
-            ]
-          },
-          "ActionGuid": "3eec8f5e50424e4db236bae0989001c8",
-          "ActionId": 3000076
-        },
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
-              939700148,
-              939700038,
-              939000193
-            ]
-          },
-          "ActionGuid": "8169b574a0754e74a93ed2c0ef7714fb",
-          "ActionId": 3000078
         }
       ],
       "ParentNodeId": 1
@@ -611985,10 +611986,7 @@
               939000155,
               939000154,
               939000156,
-              939000157,
-              939700148,
-              939700038,
-              939000193
+              939000157
             ]
           },
           "ActionGuid": "525c289b394943a9b11af6ed5105b390",
@@ -626849,7 +626847,16 @@
         "Range": 150
       },
       "EnterActions": [],
-      "FinishActions": [],
+      "FinishActions": [
+        {
+          "Name": "UnlockTeleportTrigger",
+          "Params": {
+            "TeleportId": 4027
+          },
+          "ActionGuid": "f68b4e1e474842329f7bafbfd5d44cd7",
+          "ActionId": 3000007
+        }
+      ],
       "RewardId": 44001,
       "ParentNodeId": 1
     }
@@ -627843,7 +627850,8 @@
             "DurationType": {
               "Type": "BorderAnimFinished"
             },
-            "BorderAnimDuration": 0.5
+            "BorderAnimDuration": 0.5,
+            "AutoExitInFlow": true
           },
           "ActionGuid": "bfc04c2d64bc4e1a83fa8f4e5ff67eab",
           "ActionId": 3000198
@@ -627926,17 +627934,6 @@
           },
           "ActionGuid": "4468d6b45c364de98216909223f0fd16",
           "ActionId": 3000040
-        },
-        {
-          "Name": "FadeOutScreen",
-          "Params": {
-            "Ease": {
-              "Type": 2,
-              "Duration": 1
-            }
-          },
-          "ActionGuid": "b4061204123047d0862fb827f83d380c",
-          "ActionId": 3000049
         }
       ],
       "ParentNodeId": 67
@@ -631022,6 +631019,24 @@
           },
           "ActionGuid": "8e68e9961f634e22ab9e5d1cb9c4bb30",
           "ActionId": 3000112
+        },
+        {
+          "Name": "EnableSystem",
+          "Params": {
+            "SystemType": 10015,
+            "IsEnable": true
+          },
+          "ActionGuid": "c1585ef5c3714887b03805da0e13b50a",
+          "ActionId": 3000114
+        },
+        {
+          "Name": "EnableFunction",
+          "Params": {
+            "Type": "TeleportDungeon",
+            "Enable": true
+          },
+          "ActionGuid": "306bdbf7e10941e5b09df9af4ae91172",
+          "ActionId": 3000117
         }
       ],
       "HideTip": true,
@@ -635899,6 +635914,16 @@
           "ActionId": 3000111
         },
         {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 131700235,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "2c4dcb15972a4ac0aa157375df6f00bc",
+          "ActionId": 3000077
+        },
+        {
           "Name": "SetPlayerPos",
           "Params": {
             "TelePortConfig": {
@@ -637287,6 +637312,26 @@
           },
           "ActionGuid": "8e9d852ca5de4da2bd933cf03137b6cb",
           "ActionId": 3000237
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Hide",
+            "MarkId": 201512
+          },
+          "ActionGuid": "6aeb85c02f4d4a17903efa073220301f",
+          "Async": true,
+          "ActionId": 3000266
+        },
+        {
+          "Name": "ToggleMapMarkState",
+          "Params": {
+            "Type": "Show",
+            "MarkId": 201513
+          },
+          "ActionGuid": "5dc4cc0278ac4e969e0c9864d3af8140",
+          "Async": true,
+          "ActionId": 3000267
         },
         {
           "Name": "FadeOutScreen",
@@ -638922,7 +638967,8 @@
                 320701084,
                 320700007,
                 320700006
-              ]
+              ],
+              "ForceClean": true
             }
           },
           "ActionGuid": "f56b35564330425a880f1d0990f24b6f",
@@ -639180,6 +639226,7 @@
       },
       "EnterActions": [],
       "FinishActions": [],
+      "RewardId": 42245,
       "ParentNodeId": 1
     }
   },
@@ -639195,13 +639242,20 @@
         "MainTitle": {
           "TidTitle": "Quest_155000002_QuestScheduleMainTitle_155_3",
           "QuestScheduleType": {
-            "Type": "ChildQuestCompleted",
-            "ChildQuestId": 144,
-            "ShowComplete": true,
-            "ShowTracking": true
+            "Type": "None"
           }
         },
         "SubTitles": [
+          {
+            "TidTitle": "Quest_155000002_QuestScheduleSubTitle_155_4",
+            "QuestScheduleType": {
+              "Type": "ChildQuestCompleted",
+              "ChildQuestId": 144,
+              "ShowComplete": true,
+              "ShowTracking": true
+            },
+            "BlankTitleStillShow": true
+          },
           {
             "TidTitle": "Quest_155000002_QuestScheduleSubTitle_155_2",
             "QuestScheduleType": {
@@ -639438,13 +639492,20 @@
         "MainTitle": {
           "TidTitle": "Quest_155000002_QuestScheduleMainTitle_155_2",
           "QuestScheduleType": {
-            "Type": "ChildQuestCompleted",
-            "ChildQuestId": 128,
-            "ShowComplete": true,
-            "ShowTracking": true
+            "Type": "None"
           }
         },
         "SubTitles": [
+          {
+            "TidTitle": "Quest_155000002_QuestScheduleSubTitle_155_5",
+            "QuestScheduleType": {
+              "Type": "ChildQuestCompleted",
+              "ChildQuestId": 128,
+              "ShowComplete": true,
+              "ShowTracking": true
+            },
+            "BlankTitleStillShow": true
+          },
           {
             "TidTitle": "Quest_155000002_QuestScheduleSubTitle_155_1",
             "QuestScheduleType": {
@@ -639454,7 +639515,13 @@
               "ShowTracking": true
             }
           }
-        ]
+        ],
+        "TrackTarget": {
+          "TrackType": {
+            "Type": "Locations",
+            "Locations": []
+          }
+        }
       },
       "OccupationConfig": {
         "TidDesc": "Quest_155000002_OccupyDesc_155_4",
@@ -641740,16 +641807,6 @@
           "ActionId": 3000042
         },
         {
-          "Name": "DestroyQuestItem",
-          "Params": {
-            "ItemId": 70051234,
-            "Count": 8,
-            "IsAll": true
-          },
-          "ActionGuid": "f8cf5a0f07964bcabcb02f6b1aaa3eec",
-          "ActionId": 3000061
-        },
-        {
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
@@ -643914,7 +643971,7 @@
     "Data": {
       "Type": "ChildQuest",
       "Id": 10,
-      "Desc": "出学院范围保底解锁摩托-发短信",
+      "Desc": "出学院范围改变量",
       "Condition": {
         "Type": "CheckConditionGroup",
         "Condition": {
@@ -643967,43 +644024,6 @@
           },
           "ActionGuid": "c7b6f367a2e147fe9b2b3a37e22d426f",
           "ActionId": 3000007
-        },
-        {
-          "Name": "PhoneSystemInteract",
-          "Params": {
-            "InteractType": {
-              "Type": "SendPhoneMessage",
-              "PhoneRecordActionConfig": {
-                "PhoneMessageId": 30005
-              }
-            }
-          },
-          "ActionGuid": "74af5c785b7d4cb9bef6afc568d21c4e",
-          "ActionId": 3000003
-        },
-        {
-          "Name": "ToggleHighlightExploreUi",
-          "Params": {
-            "Type": "Show",
-            "SkillType": 6002,
-            "Duration": 8,
-            "IsSwitchBack": false,
-            "HighlightType": "角色.Common.技能通用标识.探索技能高亮黄色"
-          },
-          "ActionGuid": "31c3d9b242bc4e589e5d4144245e466b",
-          "ActionId": 3000006
-        },
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
-              151700754,
-              151700932
-            ],
-            "DelayDestroy": true
-          },
-          "ActionGuid": "1f63f65a9dc64c13b814339fb0920b30",
-          "ActionId": 3000001
         }
       ],
       "ParentNodeId": 9
@@ -647019,6 +647039,24 @@
           "ActionId": 3000020
         },
         {
+          "Name": "EnableFunction",
+          "Params": {
+            "Type": "TeleportDungeon",
+            "Enable": true
+          },
+          "ActionGuid": "55d42f3c3112486aaef85806e03d671c",
+          "ActionId": 3000034
+        },
+        {
+          "Name": "EnableSystem",
+          "Params": {
+            "SystemType": 10015,
+            "IsEnable": true
+          },
+          "ActionGuid": "6d5058f76c75491f80ea3172b2124c76",
+          "ActionId": 3000035
+        },
+        {
           "Name": "DestroyEntity",
           "Params": {
             "EntityIds": [
@@ -647191,6 +647229,33 @@
           "ActionId": 3000030
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckEntitesExist",
+                  "EntityIds": [
+                    170700106
+                  ],
+                  "IsExist": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "9368e560c69246de8eb67e477333fafb",
+                "ActionId": 3000080
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 30
     }
   },
@@ -650129,6 +650194,33 @@
           "ActionId": 3000084
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckEntitesExist",
+                  "EntityIds": [
+                    170700107
+                  ],
+                  "IsExist": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "eb5eb29c7a4840a5a7bd90423cdc219d",
+                "ActionId": 3000127
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 30
     }
   },
@@ -650206,6 +650298,33 @@
           "ActionId": 3000087
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckEntitesExist",
+                  "EntityIds": [
+                    170700108
+                  ],
+                  "IsExist": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "08fb922f6495402f96823b5b0f46c081",
+                "ActionId": 3000133
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 30
     }
   },
@@ -656341,7 +656460,19 @@
           "ActionId": 3000110
         }
       ],
-      "FinishActions": [],
+      "FinishActions": [
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_0_支线彩蛋_学院怪谈_后日谈",
+            "FlowId": 2,
+            "StateId": 1
+          },
+          "ActionGuid": "0b4b2305a4c94cdd85dfc88fe99c29e6",
+          "ActionId": 3000203,
+          "Async": true
+        }
+      ],
       "TrackCustomBoard": {
         "TrackPhoneMessageBoard": {
           "PhoneMessageId": 30065
@@ -656430,6 +656561,15 @@
         }
       ],
       "FinishActions": [
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableAll",
+            "DisplayMode": "ShowUi"
+          },
+          "ActionGuid": "ad958553ef2b4048803a8b6b3362fd29",
+          "ActionId": 3000022
+        },
         {
           "Name": "FadeInScreen",
           "Params": {
@@ -656555,11 +656695,20 @@
           "ActionId": 3000008
         },
         {
-          "Name": "SetTimeLockState",
+          "Name": "SetAreaTimeState",
           "Params": {
-            "LockState": "Lock"
+            "SetAreaTimeConfig": {
+              "Type": 0,
+              "AreaIds": [
+                36105
+              ],
+              "LockTime": {
+                "Hour": 0,
+                "Minutes": 0
+              }
+            }
           },
-          "ActionGuid": "6feb626f26b24e71904b97fa09525274",
+          "ActionGuid": "5af7b6afd87d4257935d69e0283dd9da",
           "ActionId": 3000192
         },
         {
@@ -656583,15 +656732,6 @@
           "ActionGuid": "2002e6ee7815447f94a0ff1e53fcbb37",
           "ActionId": 3000031,
           "Async": true
-        },
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "DisableAll",
-            "DisplayMode": "ShowUi"
-          },
-          "ActionGuid": "7986916e34b9419fa7b0806391950ffd",
-          "ActionId": 3000022
         },
         {
           "Name": "AdjustPlayerCamera",
@@ -657935,7 +658075,18 @@
       "Type": "QuestSucceed",
       "Id": 3,
       "Desc": "",
-      "FinishActions": [],
+      "FinishActions": [
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 151700767,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "f44cdda97d60481bb361ecc8eff1c375",
+          "ActionId": 3000009
+        }
+      ],
       "ParentNodeId": 1
     }
   },
@@ -659383,6 +659534,24 @@
           "ActionId": 3000014
         },
         {
+          "Name": "EnableSystem",
+          "Params": {
+            "SystemType": 10015,
+            "IsEnable": false
+          },
+          "ActionGuid": "267006bbb6fc46c095afaede09ba4e16",
+          "ActionId": 3000032
+        },
+        {
+          "Name": "EnableFunction",
+          "Params": {
+            "Type": "TeleportDungeon",
+            "Enable": false
+          },
+          "ActionGuid": "6f40e117b2b143178c4270c71b1ca3f7",
+          "ActionId": 3000033
+        },
+        {
           "Name": "DestroyEntity",
           "Params": {
             "EntityIds": [
@@ -659428,6 +659597,23 @@
           },
           "ActionGuid": "64b705606fe3403b8e5afe0311813ec6",
           "ActionId": 3000021
+        },
+        {
+          "Name": "SetVar",
+          "Params": {
+            "VarLeft": {
+              "Type": "Int",
+              "Source": "Global",
+              "Keyword": "捉迷藏开启状态变量"
+            },
+            "VarRight": {
+              "Type": "Int",
+              "Source": "Constant",
+              "Value": 0
+            }
+          },
+          "ActionGuid": "2db0b08e1def437894280fd5e4a849b4",
+          "ActionId": 3000027
         },
         {
           "Name": "HideGroup",
@@ -659531,9 +659717,9 @@
             "Z": 42179.92
           },
           "Range": 10000,
-          "RequiresSecondConfirmation": false,
+          "RequiresSecondConfirmation": true,
           "RangeEffectPath": "/Game/Aki/Effect/EffectGroup/Common/Fight/DA_Fx_Group_Circle_Hit01.DA_Fx_Group_Circle_Hit01",
-          "OverRangeCountdown": 10
+          "OverRangeCountdown": 5
         },
         "CanGiveUp": true
       },
@@ -659565,6 +659751,28 @@
           },
           "ActionGuid": "5e5259adbf74408d9e5ed783d3cdef1d",
           "ActionId": 3000010
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              189701593,
+              189701596,
+              189701415
+            ]
+          },
+          "ActionGuid": "d79743c424134132ba4c6553e7083a3f",
+          "ActionId": 3000028
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_0_支线_罗伊小孩捉迷藏",
+            "FlowId": 9,
+            "StateId": 1
+          },
+          "ActionGuid": "858765bb94f9425eb753571f8ba78459",
+          "ActionId": 3000029
         }
       ],
       "ParentNodeId": 11
@@ -659974,6 +660182,14 @@
                     "ActionId": 3000097
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "b985d18db6fd42318243d70c2a389bb0",
+                    "ActionId": 3000575
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -660118,6 +660334,14 @@
                     "ActionId": 3000564
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "97126f673276445fb7170e1202f5dfe1",
+                    "ActionId": 3000576
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -660220,6 +660444,14 @@
           },
           "ActionGuid": "5c28df7cacef4be9beaed36e1ea9dc61",
           "ActionId": 3000097
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "b985d18db6fd42318243d70c2a389bb0",
+          "ActionId": 3000575
         },
         {
           "Name": "SetVar",
@@ -660331,6 +660563,14 @@
           },
           "ActionGuid": "9a0677ff44084b868642da6eaff336da",
           "ActionId": 3000564
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "97126f673276445fb7170e1202f5dfe1",
+          "ActionId": 3000576
         },
         {
           "Name": "SetVar",
@@ -660546,6 +660786,14 @@
                     "ActionId": 3000098
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "c13bdbe7e88140cb8c8a4fcf1c42e904",
+                    "ActionId": 3000577
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -660690,6 +660938,14 @@
                     "ActionId": 3000565
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "bce99e519c42438dbbbc611438b6b33e",
+                    "ActionId": 3000578
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -660792,6 +661048,14 @@
           },
           "ActionGuid": "962715c85d2c4718ac68a1af57c17ba4",
           "ActionId": 3000098
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "c13bdbe7e88140cb8c8a4fcf1c42e904",
+          "ActionId": 3000577
         },
         {
           "Name": "SetVar",
@@ -660903,6 +661167,14 @@
           },
           "ActionGuid": "b115a3e1121448c5b24cbb01ad918093",
           "ActionId": 3000565
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "bce99e519c42438dbbbc611438b6b33e",
+          "ActionId": 3000578
         },
         {
           "Name": "SetVar",
@@ -662202,6 +662474,33 @@
                     "ActionId": 3000100
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "0a9c87ec1c434bd79d5c0f5acaa7726a",
+                    "ActionId": 3000579
+                  },
+                  {
+                    "Name": "SetVar",
+                    "Params": {
+                      "VarLeft": {
+                        "Type": "Int",
+                        "Source": "Other",
+                        "RefType": "Entity",
+                        "RefId": 151700748,
+                        "Name": "被踩踏次数"
+                      },
+                      "VarRight": {
+                        "Type": "Int",
+                        "Source": "Constant",
+                        "Value": 0
+                      }
+                    },
+                    "ActionGuid": "9373c0d0ccc34ad08f6695a04f34756d",
+                    "ActionId": 3000580
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -662346,6 +662645,14 @@
                     "ActionId": 3000567
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "91cc8012c44445f0bef00d17fdf593e5",
+                    "ActionId": 3000581
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -662448,6 +662755,33 @@
           },
           "ActionGuid": "3cc1089ba2314461b4b7f3d874c038c5",
           "ActionId": 3000100
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "0a9c87ec1c434bd79d5c0f5acaa7726a",
+          "ActionId": 3000579
+        },
+        {
+          "Name": "SetVar",
+          "Params": {
+            "VarLeft": {
+              "Type": "Int",
+              "Source": "Other",
+              "RefType": "Entity",
+              "RefId": 151700748,
+              "Name": "被踩踏次数"
+            },
+            "VarRight": {
+              "Type": "Int",
+              "Source": "Constant",
+              "Value": 0
+            }
+          },
+          "ActionGuid": "9373c0d0ccc34ad08f6695a04f34756d",
+          "ActionId": 3000580
         },
         {
           "Name": "SetVar",
@@ -662559,6 +662893,14 @@
           },
           "ActionGuid": "d2b5dd2c7f6b40048496104fbaff307d",
           "ActionId": 3000567
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "91cc8012c44445f0bef00d17fdf593e5",
+          "ActionId": 3000581
         },
         {
           "Name": "SetVar",
@@ -662774,6 +663116,14 @@
                     "ActionId": 3000551
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "5c411c83064d451f9d5197422ae2b8d2",
+                    "ActionId": 3000582
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -662918,6 +663268,14 @@
                     "ActionId": 3000568
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "d7bc26f63d1b41ac8201ee7b5ed3d87a",
+                    "ActionId": 3000583
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -663020,6 +663378,14 @@
           },
           "ActionGuid": "4a1746f9e7bc47679842ddeabbd6c0a3",
           "ActionId": 3000551
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "5c411c83064d451f9d5197422ae2b8d2",
+          "ActionId": 3000582
         },
         {
           "Name": "SetVar",
@@ -663131,6 +663497,14 @@
           },
           "ActionGuid": "6e9f4efa0d19416e94d73289d45a2715",
           "ActionId": 3000568
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "d7bc26f63d1b41ac8201ee7b5ed3d87a",
+          "ActionId": 3000583
         },
         {
           "Name": "SetVar",
@@ -664447,6 +664821,14 @@
                     "ActionId": 3000555
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "b036066ca9a64ef49005599264a96b87",
+                    "ActionId": 3000584
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -664591,6 +664973,14 @@
                     "ActionId": 3000570
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "8894d2b8288b42478a272ba02218b9d4",
+                    "ActionId": 3000585
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -664693,6 +665083,14 @@
           },
           "ActionGuid": "6610e8c7c5704142a2bc86b9177b1b70",
           "ActionId": 3000555
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "b036066ca9a64ef49005599264a96b87",
+          "ActionId": 3000584
         },
         {
           "Name": "SetVar",
@@ -664804,6 +665202,14 @@
           },
           "ActionGuid": "535f66ac4c364b8d95c8e7ca639dcad5",
           "ActionId": 3000570
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "8894d2b8288b42478a272ba02218b9d4",
+          "ActionId": 3000585
         },
         {
           "Name": "SetVar",
@@ -665019,6 +665425,14 @@
                     "ActionId": 3000557
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "8e592ada6732440bab00e3aa5785e264",
+                    "ActionId": 3000586
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -665163,6 +665577,14 @@
                     "ActionId": 3000571
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "296d0fe689d044e588bb03b9e9e82cd1",
+                    "ActionId": 3000587
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -665265,6 +665687,14 @@
           },
           "ActionGuid": "96be8b244b4b4bd4bdb509b028802a09",
           "ActionId": 3000557
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "8e592ada6732440bab00e3aa5785e264",
+          "ActionId": 3000586
         },
         {
           "Name": "SetVar",
@@ -665376,6 +665806,14 @@
           },
           "ActionGuid": "ecbcf5d2a43e4664805f22563bef6785",
           "ActionId": 3000571
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "296d0fe689d044e588bb03b9e9e82cd1",
+          "ActionId": 3000587
         },
         {
           "Name": "SetVar",
@@ -665591,6 +666029,14 @@
                     "ActionId": 3000562
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "c26d3e2b7bb948819286888de851763c",
+                    "ActionId": 3000588
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -665752,6 +666198,14 @@
                     "ActionId": 3000572
                   },
                   {
+                    "Name": "Wait",
+                    "Params": {
+                      "Time": 1
+                    },
+                    "ActionGuid": "e877c363463c4924b8fccc6f4be37972",
+                    "ActionId": 3000589
+                  },
+                  {
                     "Name": "SetVar",
                     "Params": {
                       "VarLeft": {
@@ -665854,6 +666308,14 @@
           },
           "ActionGuid": "af52f8913de54bb0881e51c2491f0605",
           "ActionId": 3000562
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "c26d3e2b7bb948819286888de851763c",
+          "ActionId": 3000588
         },
         {
           "Name": "SetVar",
@@ -665982,6 +666444,14 @@
           },
           "ActionGuid": "4cda806c1e534b628c25dabb7ef30c25",
           "ActionId": 3000572
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1
+          },
+          "ActionGuid": "e877c363463c4924b8fccc6f4be37972",
+          "ActionId": 3000589
         },
         {
           "Name": "SetVar",
@@ -668471,8 +668941,7 @@
         {
           "Name": "SetPlayerOperationRestriction",
           "Params": {
-            "Type": "DisableAll",
-            "DisplayMode": "ShowUi"
+            "Type": "EnableAll"
           },
           "ActionGuid": "a365328d856245c7b501db3046679e9b",
           "ActionId": 3000202
@@ -668520,7 +668989,8 @@
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
-              146700195
+              146700195,
+              146700214
             ]
           },
           "ActionGuid": "60148da415764bc9a30a62bf925a3117",
@@ -670809,7 +671279,8 @@
                 181700093
               ],
               "ExcludeEntities": [
-                181700301
+                181700301,
+                146700202
               ]
             }
           },
@@ -671434,12 +671905,17 @@
           "ActionId": 3000196
         },
         {
-          "Name": "SetTimeLockState",
+          "Name": "SetAreaTimeState",
           "Params": {
-            "LockState": "Unlock"
+            "SetAreaTimeConfig": {
+              "Type": 1,
+              "AreaIds": [
+                36105
+              ]
+            }
           },
-          "ActionGuid": "cfe16fc9f89845a6978da0df8e1b7059",
-          "ActionId": 3000200
+          "ActionGuid": "e7e92ea9c58643999973f5f1ce4854b3",
+          "ActionId": 3000194
         },
         {
           "Name": "FadeOutScreen",
@@ -672211,7 +672687,7 @@
           "Params": {
             "EventConfig": {
               "Type": "Global",
-              "AkEvent": "/Game/Aki/WwiseAudio/Events/stop_3_0_xueyuanguaitan_music.stop_3_0_xueyuanguaitan_music"
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_3_0_xueyuanguaitan_music_silence.play_3_0_xueyuanguaitan_music_silence"
             }
           },
           "ActionGuid": "f1b05b16ab7f43919b6164521e48bff0",
@@ -675809,6 +676285,25 @@
           },
           "ActionGuid": "ff3b70527b9d465fab686a377575df7c",
           "ActionId": 3000001
+        },
+        {
+          "Name": "HideGroup",
+          "Params": {
+            "GroupKey": "q_158700001_琳奈角色生态",
+            "HideConfig": {
+              "Type": "WorldEntityAndLevelPlay",
+              "HideRangeEntities": [
+                155700167
+              ],
+              "ExcludeEntities": [
+                152700118,
+                152700120
+              ],
+              "ExcludeLevelPlays": []
+            }
+          },
+          "ActionGuid": "33b2e269e3b845f3852b6db5dcea3127",
+          "ActionId": 3000006
         }
       ],
       "FinishActions": [
@@ -676772,11 +677267,20 @@
       },
       "EnterActions": [
         {
-          "Name": "SetTimeLockState",
+          "Name": "SetAreaTimeState",
           "Params": {
-            "LockState": "Lock"
+            "SetAreaTimeConfig": {
+              "Type": 0,
+              "AreaIds": [
+                36110
+              ],
+              "LockTime": {
+                "Hour": 0,
+                "Minutes": 0
+              }
+            }
           },
-          "ActionGuid": "5555cd5b7c8e4445b09b078d80bc8149",
+          "ActionGuid": "7899ce9777c0488ea3bb8f7e2de635b1",
           "ActionId": 3000071
         }
       ],
@@ -677647,7 +678151,7 @@
           "Params": {
             "Type": "Directly",
             "EntityId": 146700075,
-            "State": "关卡.Common.状态.激活"
+            "State": "关卡.Common.状态.常态"
           },
           "ActionGuid": "feef194e5f0d4d7ab0a870e60e947920",
           "ActionId": 3000043
@@ -677949,6 +678453,19 @@
           "ActionId": 3000075
         },
         {
+          "Name": "SetAreaTimeState",
+          "Params": {
+            "SetAreaTimeConfig": {
+              "Type": 1,
+              "AreaIds": [
+                36110
+              ]
+            }
+          },
+          "ActionGuid": "fcf289c6af3e4a97923e8ceabdc92b85",
+          "ActionId": 3000079
+        },
+        {
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
@@ -677957,14 +678474,6 @@
           },
           "ActionGuid": "ef4872d8c1f74e0cac0dfc939ba3d859",
           "ActionId": 3000050
-        },
-        {
-          "Name": "SetTimeLockState",
-          "Params": {
-            "LockState": "Unlock"
-          },
-          "ActionGuid": "a9e057dc9ef74e97b1707f227be71b89",
-          "ActionId": 3000072
         },
         {
           "Name": "RemoveTrialCharacter",
@@ -678456,6 +678965,16 @@
           },
           "ActionGuid": "ea1056c811404d16bba9d754c0b9053c",
           "ActionId": 3000013
+        },
+        {
+          "Name": "VehicleExitPlayer",
+          "Params": {
+            "ExitType": {
+              "Type": "Launch"
+            }
+          },
+          "ActionGuid": "612ec7d6bd9445da9d6bae3bbfb06909",
+          "ActionId": 3000096
         },
         {
           "Name": "PlayFlow",
@@ -681962,16 +682481,6 @@
           "ActionId": 3000073
         },
         {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 164700112,
-            "State": "关卡.LevelSeq标记.标记D"
-          },
-          "ActionGuid": "3f039a634eba4504b94f3f900158ae6f",
-          "ActionId": 3000074
-        },
-        {
           "Name": "RestorePlayerCameraAdjustment",
           "Params": {},
           "ActionGuid": "4b24530b76c34ac8b962e04117262745",
@@ -682186,9 +682695,9 @@
       "Condition": {
         "Type": "ReachArea",
         "Pos": {
-          "X": -70155.9,
-          "Y": -775685.2,
-          "Z": 29029.3
+          "X": -64071.9,
+          "Y": -778666.1,
+          "Z": 27863.1
         },
         "Range": 1500
       },
@@ -682198,9 +682707,9 @@
           "Type": "Locations",
           "Locations": [
             {
-              "X": -70155.9,
-              "Y": -775685.2,
-              "Z": 29029.3
+              "X": -64071.9,
+              "Y": -778666.1,
+              "Z": 27863.1
             }
           ]
         }
@@ -682219,27 +682728,6 @@
         }
       ],
       "FinishActions": [
-        {
-          "Name": "PlayFlow",
-          "Params": {
-            "FlowListName": "剧情_3_0_深空联合主线_上半_2",
-            "FlowId": 2,
-            "StateId": 12
-          },
-          "ActionGuid": "3c70a1a67c0c4bdeb3d27bcc176779d2",
-          "ActionId": 3000089
-        },
-        {
-          "Name": "PlayFlow",
-          "Params": {
-            "FlowListName": "剧情_3_0_深空联合主线_上半_2",
-            "FlowId": 2,
-            "StateId": 13
-          },
-          "ActionGuid": "58a67faea25b43f9a415a22da0de54c7",
-          "ActionId": 3000104,
-          "Async": true
-        },
         {
           "Name": "AdjustPlayerCamera",
           "Params": {
@@ -682294,6 +682782,27 @@
           },
           "ActionGuid": "c583d45a3843436c8ff89a85bc8872f3",
           "ActionId": 3000284
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_0_深空联合主线_上半_2",
+            "FlowId": 2,
+            "StateId": 12
+          },
+          "ActionGuid": "3c70a1a67c0c4bdeb3d27bcc176779d2",
+          "ActionId": 3000089
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_0_深空联合主线_上半_2",
+            "FlowId": 2,
+            "StateId": 13
+          },
+          "ActionGuid": "58a67faea25b43f9a415a22da0de54c7",
+          "ActionId": 3000104,
+          "Async": true
         }
       ],
       "ParentNodeId": 200
@@ -682621,7 +683130,9 @@
           "Name": "RemoveBuffFromPlayer",
           "Params": {
             "BuffIds": [
-              611640002
+              611640002,
+              611640008,
+              611640003
             ]
           },
           "ActionGuid": "840df02c22174d6693d438b2a7b42317",
@@ -682732,7 +683243,7 @@
         "Type": "ReachArea",
         "Pos": {
           "X": -16616.5,
-          "Y": -846614.2,
+          "Y": -844580.2,
           "Z": 31125.4
         },
         "Range": 2500
@@ -682824,6 +683335,16 @@
           "ActionId": 3000110
         },
         {
+          "Name": "AddBuffToPlayer",
+          "Params": {
+            "BuffIds": [
+              611640008
+            ]
+          },
+          "ActionGuid": "d0b28b86ce8c4414a8888f79bf500152",
+          "ActionId": 3000310
+        },
+        {
           "Name": "SetPlayerOperationRestriction",
           "Params": {
             "Type": "DisableModule",
@@ -682898,6 +683419,16 @@
       "TidTip": "Quest_915000003_ChildQuestTip_164_34",
       "EnterActions": [],
       "FinishActions": [
+        {
+          "Name": "RemoveBuffFromPlayer",
+          "Params": {
+            "BuffIds": [
+              611640008
+            ]
+          },
+          "ActionGuid": "16ed8b737f434cc88cef8b216a8540ee",
+          "ActionId": 3000311
+        },
         {
           "Name": "PlayFlow",
           "Params": {
@@ -693506,19 +694037,6 @@
           "ActionId": 3000008
         },
         {
-          "Name": "GetItem",
-          "Params": {
-            "Items": [
-              {
-                "ItemId": 70051234,
-                "Count": 1
-              }
-            ]
-          },
-          "ActionGuid": "a93f0ad6662845aab40ef0ce9bc8785d",
-          "ActionId": 3000029
-        },
-        {
           "Name": "CalculateVar",
           "Params": {
             "Var1": {
@@ -693746,19 +694264,6 @@
           },
           "ActionGuid": "449262ca825e47369aea5cd7dc41aa30",
           "ActionId": 3000051
-        },
-        {
-          "Name": "GetItem",
-          "Params": {
-            "Items": [
-              {
-                "ItemId": 70051234,
-                "Count": 1
-              }
-            ]
-          },
-          "ActionGuid": "8d82582a305a4d5db0fbf94ff4815929",
-          "ActionId": 3000052
         },
         {
           "Name": "ShowHidedGroup",
@@ -693997,19 +694502,6 @@
           "Params": {},
           "ActionGuid": "ffb4fdb11ae249b68bb1bbc4b9bab3bb",
           "ActionId": 3000098
-        },
-        {
-          "Name": "GetItem",
-          "Params": {
-            "Items": [
-              {
-                "ItemId": 70051234,
-                "Count": 1
-              }
-            ]
-          },
-          "ActionGuid": "76a2d8ee891a456eadaa553d23f9607c",
-          "ActionId": 3000036
         },
         {
           "Name": "ShowHidedGroup",
@@ -694253,19 +694745,6 @@
           "ActionId": 3000089
         },
         {
-          "Name": "GetItem",
-          "Params": {
-            "Items": [
-              {
-                "ItemId": 70051234,
-                "Count": 1
-              }
-            ]
-          },
-          "ActionGuid": "227660344d3a4bb79347c11d154debd0",
-          "ActionId": 3000037
-        },
-        {
           "Name": "CalculateVar",
           "Params": {
             "Var1": {
@@ -694290,211 +694769,6 @@
         }
       ],
       "ParentNodeId": 72
-    }
-  },
-  {
-    "Key": "153700000_75",
-    "Data": {
-      "Type": "ParallelSelect",
-      "Count": 1,
-      "Id": 75,
-      "Desc": "",
-      "SaveConfig": {
-        "DisableRollbackWhileReconnect": true,
-        "EnterActions": [
-          {
-            "Name": "SetPlayerPos",
-            "Params": {
-              "TelePortConfig": {
-                "Type": 0,
-                "TargetPos": {
-                  "X": 755.85,
-                  "Y": -515703.84,
-                  "Z": 34688.55,
-                  "A": 100
-                }
-              }
-            },
-            "ActionGuid": "e2209a17a5b6443ebc96283fe16fd329",
-            "ActionId": 3000039
-          }
-        ]
-      },
-      "ParentNodeId": 70
-    }
-  },
-  {
-    "Key": "153700000_76",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 76,
-      "Desc": "",
-      "Condition": {
-        "Type": "Kill",
-        "ExistTargets": [
-          153700029,
-          153700028,
-          153700027
-        ],
-        "TargetsToAwake": []
-      },
-      "TidTip": "Quest_153700000_ChildQuestTip_153_16",
-      "TrackTarget": {
-        "TrackType": {
-          "Type": "Locations",
-          "Locations": []
-        }
-      },
-      "EnterActions": [
-        {
-          "Name": "HideGroup",
-          "Params": {
-            "GroupKey": "q_153700000_三号营地",
-            "HideConfig": {
-              "Type": "WorldEntityAndLevelPlay",
-              "HideRangeEntities": [
-                153700026
-              ],
-              "ExcludeEntities": [
-                153700268,
-                153700269,
-                153700349,
-                153700348
-              ]
-            }
-          },
-          "ActionGuid": "044f1d47c5864d90943e6a71c6ca3631",
-          "ActionId": 3000040
-        },
-        {
-          "Name": "FadeInScreen",
-          "Params": {
-            "Ease": {
-              "Type": 2,
-              "Duration": 1
-            },
-            "ScreenType": "Black"
-          },
-          "ActionGuid": "8507cc8b6614474484d1ff8acff0a75d",
-          "ActionId": 3000041
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              153700029,
-              153700028,
-              153700027,
-              153700030
-            ]
-          },
-          "ActionGuid": "8e98ba1eca7e424ea0026ceb3a8c4aee",
-          "ActionId": 3000054
-        },
-        {
-          "Name": "SetPlayerPos",
-          "Params": {
-            "TelePortConfig": {
-              "Type": 0,
-              "TargetPos": {
-                "X": 755.85,
-                "Y": -515703.84,
-                "Z": 34688.55,
-                "A": 100
-              }
-            },
-            "DisableAutoFadeInScreen": true
-          },
-          "ActionGuid": "e7c144fa9af04624bef9ac4954f0121b",
-          "ActionId": 3000055
-        },
-        {
-          "Name": "PlayFlow",
-          "Params": {
-            "FlowListName": "剧情_3.0_日灵贴纸收集彩蛋",
-            "FlowId": 1,
-            "StateId": 5
-          },
-          "ActionGuid": "f9923c27d6f34031ab1930d841cf1f48",
-          "ActionId": 3000062
-        }
-      ],
-      "FinishActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 153700030,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "440b55ebe661430cbb8b2a2c752ca7cb",
-          "ActionId": 3000063
-        },
-        {
-          "Name": "ShowHidedGroup",
-          "Params": {
-            "GroupKey": "q_153700000_三号营地",
-            "DelayShow": true
-          },
-          "ActionGuid": "5db71b34c5754f05b474aefe9849f495",
-          "ActionId": 3000079
-        },
-        {
-          "Name": "PlayFlow",
-          "Params": {
-            "FlowListName": "剧情_3.0_日灵贴纸收集彩蛋",
-            "FlowId": 3,
-            "StateId": 1
-          },
-          "ActionGuid": "4755b0df80d043978213840b8531d238",
-          "ActionId": 3000080
-        },
-        {
-          "Name": "FadeInScreen",
-          "Params": {
-            "Ease": {
-              "Type": 2,
-              "Duration": 1
-            },
-            "ScreenType": "Black"
-          },
-          "ActionGuid": "9030300443dd471789d522d1ca55c2ca",
-          "ActionId": 3000117
-        },
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
-              153700270
-            ]
-          },
-          "ActionGuid": "5b66b1271629401ea686b633448c65ef",
-          "ActionId": 3000118
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": true,
-            "EntityIds": [
-              153700268
-            ]
-          },
-          "ActionGuid": "c21b7d4e510f42c7962f79ab898b7e23",
-          "ActionId": 3000121
-        },
-        {
-          "Name": "FadeOutScreen",
-          "Params": {
-            "Ease": {
-              "Type": 2,
-              "Duration": 1
-            }
-          },
-          "ActionGuid": "7f07372f83fa4b639f1ffd54f1ce9cef",
-          "ActionId": 3000122
-        }
-      ],
-      "ParentNodeId": 75
     }
   },
   {
@@ -694696,19 +694970,6 @@
           "ActionId": 3000103
         },
         {
-          "Name": "GetItem",
-          "Params": {
-            "Items": [
-              {
-                "ItemId": 70051234,
-                "Count": 1
-              }
-            ]
-          },
-          "ActionGuid": "485ac863ad9c44d492711ae5106e3e3b",
-          "ActionId": 3000022
-        },
-        {
           "Name": "CalculateVar",
           "Params": {
             "Var1": {
@@ -694861,19 +695122,6 @@
           "Params": {},
           "ActionGuid": "488fedbc5c114016957c6b46e46c8f7b",
           "ActionId": 3000106
-        },
-        {
-          "Name": "GetItem",
-          "Params": {
-            "Items": [
-              {
-                "ItemId": 70051234,
-                "Count": 1
-              }
-            ]
-          },
-          "ActionGuid": "209385091e3346b0a7fb6d26d90cfb9a",
-          "ActionId": 3000081
         },
         {
           "Name": "CalculateVar",
@@ -695086,19 +695334,6 @@
           "Params": {},
           "ActionGuid": "8d5ccfd58d8b4db5b0206d21d96899ab",
           "ActionId": 3000108
-        },
-        {
-          "Name": "GetItem",
-          "Params": {
-            "Items": [
-              {
-                "ItemId": 70051234,
-                "Count": 1
-              }
-            ]
-          },
-          "ActionGuid": "d9a0b1fb30544a66870f35eb7238fe27",
-          "ActionId": 3000058
         },
         {
           "Name": "CalculateVar",
@@ -701801,14 +702036,6 @@
         {
           "Name": "SetPlayerOperationRestriction",
           "Params": {
-            "Type": "EnableAll"
-          },
-          "ActionGuid": "f6a49c4819584e93b7964f254e9b289e",
-          "ActionId": 3000138
-        },
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
             "Type": "DisableModule",
             "SkillOption": {
               "Type": "DisableSection",
@@ -701816,8 +702043,7 @@
               "DisableBattleSkill": {
                 "IsDisableCharacterSectionalSkill": {
                   "DisableUltimateSkill": true
-                },
-                "IsDisablePhantomSkill": true
+                }
               }
             }
           },
@@ -701956,6 +702182,19 @@
           },
           "ActionGuid": "3acd1001e3894d3fa3c8b3cb1487232e",
           "ActionId": 3000150
+        },
+        {
+          "Name": "EnableLevelPlay",
+          "Params": {
+            "Configs": [
+              {
+                "LevelPlayId": 146700014,
+                "Enable": false
+              }
+            ]
+          },
+          "ActionGuid": "10e88a7845104956a9be5ed4d15deed9",
+          "ActionId": 3000138
         },
         {
           "Name": "FadeOutScreen",
@@ -705491,6 +705730,17 @@
           },
           "ActionGuid": "64826ae71bed4bf0aee26c804360d26f",
           "ActionId": 3000112
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              146700136,
+              146700138
+            ]
+          },
+          "ActionGuid": "73f853015ef9467bae7a96de50d2012a",
+          "ActionId": 3000199
         }
       ],
       "FinishActions": [],
@@ -705578,6 +705828,18 @@
           },
           "ActionGuid": "509a772d8a1044f1a7fe5911aeda25f0",
           "ActionId": 3000171
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              146700136,
+              146700138
+            ],
+            "DelayDestroy": true
+          },
+          "ActionGuid": "0e1894eab3b14e7b8b13a08d9d7dc08d",
+          "ActionId": 3000200
         }
       ],
       "HideTip": true,
@@ -709909,43 +710171,7 @@
         "Range": 100,
         "ViewRange": 100
       },
-      "EnterActions": [
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "DisableModule",
-            "MoveOption": {
-              "Type": "Disable",
-              "Forward": true,
-              "Back": true,
-              "Left": true,
-              "Right": true
-            },
-            "SkillOption": {
-              "Type": "Disable",
-              "DisplayMode": "Hide"
-            },
-            "CameraOption": {
-              "Type": "Enable"
-            },
-            "UiOption": {
-              "Type": "EnableSectionalUi",
-              "ShowMiniMap": true,
-              "ShowQuestTrack": true,
-              "ShowEsc": true,
-              "ShowSystem": true,
-              "ShowScreenEffect": true,
-              "ShowPositionOfficial": true,
-              "ShowOther": true
-            },
-            "SceneInteractionOption": {
-              "Type": "Disable"
-            }
-          },
-          "ActionGuid": "e8ceba5454e8410dadf335fed727a722",
-          "ActionId": 3000026
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [
         {
           "Name": "FadeInScreen",
@@ -709994,14 +710220,6 @@
           "ActionId": 3000033
         },
         {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "EnableAll"
-          },
-          "ActionGuid": "54400dfe1a0f4be7a7160480fda44452",
-          "ActionId": 3000035
-        },
-        {
           "Name": "FadeOutScreen",
           "Params": {
             "Ease": {
@@ -710047,16 +710265,7 @@
           "ConfirmId": 76
         }
       },
-      "FinishActions": [
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": []
-          },
-          "ActionGuid": "dc6b5af74ba4441a99a71bc7cdaa79a0",
-          "ActionId": 3000041
-        }
-      ],
+      "FinishActions": [],
       "ParentNodeId": 29
     }
   },
@@ -710603,6 +710812,16 @@
           },
           "ActionGuid": "0a60880f12a04dedbc452c1d6d38797b",
           "ActionId": 3000236
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 164700112,
+            "State": "关卡.LevelSeq标记.标记D"
+          },
+          "ActionGuid": "187860328b094b00a7bcd505709b5ba5",
+          "ActionId": 3000074
         },
         {
           "Name": "VehicleMoveWithPathLine",
@@ -714329,13 +714548,18 @@
                       "Option": {
                         "Guid": "2268372e22aa4248bd7606e3d4bb3fc3",
                         "Type": {
-                          "Type": "Flow",
-                          "Flow": {
-                            "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
-                            "FlowId": 4,
-                            "StateId": 1,
-                            "FlowGuid": "7874344548b544f4aede5c24bf0a22c4"
-                          }
+                          "Type": "Actions",
+                          "Actions": [
+                            {
+                              "Name": "OpenSystemBoard",
+                              "Params": {
+                                "SystemType": "MingSuTi",
+                                "BoardId": 7
+                              },
+                              "ActionGuid": "497b9429e92246d083574554a8b59307",
+                              "ActionId": 3000003
+                            }
+                          ]
                         },
                         "DoIntactType": "Option",
                         "TidContent": "Quest_939700000_InteractContent_939_1"
@@ -714355,12 +714579,13 @@
                 "EnterActions": [],
                 "FinishActions": [
                   {
-                    "Name": "OpenSystemBoard",
+                    "Name": "PlayFlow",
                     "Params": {
-                      "SystemType": "MingSuTi",
-                      "BoardId": 7
+                      "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
+                      "FlowId": 4,
+                      "StateId": 1
                     },
-                    "ActionGuid": "db8412e75a9940059a3a67e21910e86e",
+                    "ActionGuid": "13bb3995076942f0abc918602a353c75",
                     "ActionId": 3000002
                   }
                 ]
@@ -714401,12 +714626,18 @@
                       "Option": {
                         "Guid": "585c998ec4fe42b5bbf7261ec3d011a5",
                         "Type": {
-                          "Type": "Flow",
-                          "Flow": {
-                            "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
-                            "FlowId": 3,
-                            "StateId": 1
-                          }
+                          "Type": "Actions",
+                          "Actions": [
+                            {
+                              "Name": "OpenSystemBoard",
+                              "Params": {
+                                "SystemType": "MingSuTi",
+                                "BoardId": 7
+                              },
+                              "ActionGuid": "0c23564fe7714a0bbd49dbf617689acf",
+                              "ActionId": 3000004
+                            }
+                          ]
                         },
                         "DoIntactType": "Option",
                         "TidContent": "Quest_939700000_InteractContent_939_3"
@@ -714426,13 +714657,14 @@
                 "EnterActions": [],
                 "FinishActions": [
                   {
-                    "Name": "OpenSystemBoard",
+                    "Name": "PlayFlow",
                     "Params": {
-                      "SystemType": "MingSuTi",
-                      "BoardId": 7
+                      "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
+                      "FlowId": 3,
+                      "StateId": 1
                     },
-                    "ActionGuid": "a84f0cdd41c3433fa47a2120f583eb2c",
-                    "ActionId": 3000006
+                    "ActionGuid": "5fba71db84c1432bbf67d20f8c80276f",
+                    "ActionId": 3000005
                   }
                 ]
               }
@@ -714466,13 +714698,18 @@
             "Option": {
               "Guid": "2268372e22aa4248bd7606e3d4bb3fc3",
               "Type": {
-                "Type": "Flow",
-                "Flow": {
-                  "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
-                  "FlowId": 4,
-                  "StateId": 1,
-                  "FlowGuid": "7874344548b544f4aede5c24bf0a22c4"
-                }
+                "Type": "Actions",
+                "Actions": [
+                  {
+                    "Name": "OpenSystemBoard",
+                    "Params": {
+                      "SystemType": "MingSuTi",
+                      "BoardId": 7
+                    },
+                    "ActionGuid": "497b9429e92246d083574554a8b59307",
+                    "ActionId": 3000003
+                  }
+                ]
               },
               "DoIntactType": "Option",
               "TidContent": "Quest_939700000_InteractContent_939_1"
@@ -714492,12 +714729,13 @@
       "EnterActions": [],
       "FinishActions": [
         {
-          "Name": "OpenSystemBoard",
+          "Name": "PlayFlow",
           "Params": {
-            "SystemType": "MingSuTi",
-            "BoardId": 7
+            "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
+            "FlowId": 4,
+            "StateId": 1
           },
-          "ActionGuid": "db8412e75a9940059a3a67e21910e86e",
+          "ActionGuid": "13bb3995076942f0abc918602a353c75",
           "ActionId": 3000002
         }
       ],
@@ -714527,12 +714765,18 @@
             "Option": {
               "Guid": "585c998ec4fe42b5bbf7261ec3d011a5",
               "Type": {
-                "Type": "Flow",
-                "Flow": {
-                  "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
-                  "FlowId": 3,
-                  "StateId": 1
-                }
+                "Type": "Actions",
+                "Actions": [
+                  {
+                    "Name": "OpenSystemBoard",
+                    "Params": {
+                      "SystemType": "MingSuTi",
+                      "BoardId": 7
+                    },
+                    "ActionGuid": "0c23564fe7714a0bbd49dbf617689acf",
+                    "ActionId": 3000004
+                  }
+                ]
               },
               "DoIntactType": "Option",
               "TidContent": "Quest_939700000_InteractContent_939_3"
@@ -714552,13 +714796,14 @@
       "EnterActions": [],
       "FinishActions": [
         {
-          "Name": "OpenSystemBoard",
+          "Name": "PlayFlow",
           "Params": {
-            "SystemType": "MingSuTi",
-            "BoardId": 7
+            "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
+            "FlowId": 3,
+            "StateId": 1
           },
-          "ActionGuid": "a84f0cdd41c3433fa47a2120f583eb2c",
-          "ActionId": 3000006
+          "ActionGuid": "5fba71db84c1432bbf67d20f8c80276f",
+          "ActionId": 3000005
         }
       ],
       "ParentNodeId": 25
@@ -720460,18 +720705,23 @@
             "Params": {
               "EventConfig": {
                 "Type": "Global",
-                "AkEvent": "/Game/Aki/WwiseAudio/Events/play_3_0_xueyuanguaitan_music_silence.play_3_0_xueyuanguaitan_music_silence"
+                "AkEvent": "/Game/Aki/WwiseAudio/Events/stop_3_0_xueyuanguaitan_music.stop_3_0_xueyuanguaitan_music"
               }
             },
             "ActionGuid": "8f473b3674f94925bedb359acaa0817c",
             "ActionId": 3000162
           },
           {
-            "Name": "SetTimeLockState",
+            "Name": "SetAreaTimeState",
             "Params": {
-              "LockState": "Unlock"
+              "SetAreaTimeConfig": {
+                "Type": 1,
+                "AreaIds": [
+                  36105
+                ]
+              }
             },
-            "ActionGuid": "c3fb77d0818146c09b27754fb84dfa3b",
+            "ActionGuid": "1d22d1cacb8f40968a062d0799079132",
             "ActionId": 3000191
           }
         ]
@@ -721189,6 +721439,24 @@
                 "Desc": "失败后复接",
                 "Actions": [
                   {
+                    "Name": "EnableFunction",
+                    "Params": {
+                      "Type": "TeleportDungeon",
+                      "Enable": true
+                    },
+                    "ActionGuid": "106ab94f9a72472ba0405a42c7f76d14",
+                    "ActionId": 3000030
+                  },
+                  {
+                    "Name": "EnableSystem",
+                    "Params": {
+                      "SystemType": 10015,
+                      "IsEnable": true
+                    },
+                    "ActionGuid": "87698a62ef6e4491afb81eada59c1b63",
+                    "ActionId": 3000031
+                  },
+                  {
                     "Name": "AwakeEntity",
                     "Params": {
                       "EntityIds": [
@@ -721228,13 +721496,14 @@
                     "ActionId": 3000017
                   },
                   {
-                    "Name": "PlayFlow",
+                    "Name": "FadeOutScreen",
                     "Params": {
-                      "FlowListName": "剧情_3_0_支线_罗伊小孩捉迷藏",
-                      "FlowId": 9,
-                      "StateId": 1
+                      "Ease": {
+                        "Type": 2,
+                        "Duration": 1
+                      }
                     },
-                    "ActionGuid": "1a5ed30e0e12499ca1be005dbc2894f1",
+                    "ActionGuid": "6f08e11ca99c4499becc0b9b05d35c95",
                     "ActionId": 3000025
                   }
                 ]
@@ -721282,6 +721551,24 @@
       "Desc": "失败后复接",
       "Actions": [
         {
+          "Name": "EnableFunction",
+          "Params": {
+            "Type": "TeleportDungeon",
+            "Enable": true
+          },
+          "ActionGuid": "106ab94f9a72472ba0405a42c7f76d14",
+          "ActionId": 3000030
+        },
+        {
+          "Name": "EnableSystem",
+          "Params": {
+            "SystemType": 10015,
+            "IsEnable": true
+          },
+          "ActionGuid": "87698a62ef6e4491afb81eada59c1b63",
+          "ActionId": 3000031
+        },
+        {
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
@@ -721321,13 +721608,14 @@
           "ActionId": 3000017
         },
         {
-          "Name": "PlayFlow",
+          "Name": "FadeOutScreen",
           "Params": {
-            "FlowListName": "剧情_3_0_支线_罗伊小孩捉迷藏",
-            "FlowId": 9,
-            "StateId": 1
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
           },
-          "ActionGuid": "1a5ed30e0e12499ca1be005dbc2894f1",
+          "ActionGuid": "6f08e11ca99c4499becc0b9b05d35c95",
           "ActionId": 3000025
         }
       ],
@@ -722397,6 +722685,17 @@
         }
       },
       "EnterActions": [
+        {
+          "Name": "EnterMovieMode",
+          "Params": {
+            "DurationType": {
+              "Type": "BorderAnimFinished"
+            },
+            "BorderAnimDuration": 0.1
+          },
+          "ActionGuid": "21d2b5d0347b4d11b954d6140806acce",
+          "ActionId": 3000312
+        },
         {
           "Name": "AddBuffToPlayer",
           "Params": {
@@ -724135,6 +724434,23 @@
           "ActionId": 3000088
         },
         {
+          "Name": "SetPlayerPos",
+          "Params": {
+            "TelePortConfig": {
+              "Type": 0,
+              "TargetPos": {
+                "X": -59483.4,
+                "Y": -544933.9,
+                "Z": 43206.8,
+                "A": 125.2
+              }
+            },
+            "DisableAutoFadeInScreen": true
+          },
+          "ActionGuid": "619f26289f144887b5d999ca0183350b",
+          "ActionId": 3000139
+        },
+        {
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
@@ -725503,6 +725819,46 @@
       "EnterActions": [],
       "FinishActions": [],
       "HideTip": true,
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareVar",
+                  "Var1": {
+                    "Type": "Boolean",
+                    "Source": "Global",
+                    "Keyword": "3_0_完成摩托教学1"
+                  },
+                  "Compare": "Eq",
+                  "Var2": {
+                    "Type": "Boolean",
+                    "Source": "Constant",
+                    "Value": true
+                  }
+                },
+                {
+                  "Type": "CheckLevelPlayCompleteNumber",
+                  "LevelId": 151700045,
+                  "Compare": "Ge",
+                  "Number": 1
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "7c1b1cebe373414b9fade29147e030d1",
+                "ActionId": 3000008
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 44
     }
   },
@@ -725688,9 +726044,9 @@
       "Desc": "",
       "Condition": {
         "Type": "WaitTime",
-        "Days": 0,
+        "Days": 1,
         "Hours": 0,
-        "Minutes": 10,
+        "Minutes": 0,
         "Seconds": 0
       },
       "TidTip": "Quest_135700005_ChildQuestTip_135_2",
@@ -725787,9 +726143,9 @@
       "Desc": "",
       "Condition": {
         "Type": "WaitTime",
-        "Days": 0,
+        "Days": 1,
         "Hours": 0,
-        "Minutes": 10,
+        "Minutes": 0,
         "Seconds": 0
       },
       "TidTip": "Quest_135700006_ChildQuestTip_135_6",
@@ -725886,9 +726242,9 @@
       "Desc": "",
       "Condition": {
         "Type": "WaitTime",
-        "Days": 0,
+        "Days": 1,
         "Hours": 0,
-        "Minutes": 10,
+        "Minutes": 0,
         "Seconds": 0
       },
       "TidTip": "Quest_135700007_ChildQuestTip_135_3",
@@ -726047,6 +726403,7 @@
       "Count": 1,
       "Id": 15,
       "Desc": "",
+      "DisableGlobalTraffic": true,
       "ParentNodeId": 13
     }
   },
@@ -726190,16 +726547,6 @@
             "ActionId": 3000085
           },
           {
-            "Name": "ChangeEntityState",
-            "Params": {
-              "Type": "Directly",
-              "EntityId": 146000007,
-              "State": "关卡.Common.状态.激活"
-            },
-            "ActionGuid": "e6c72c8de58945ff9d61f82a94d315d6",
-            "ActionId": 3000029
-          },
-          {
             "Name": "HideGroup",
             "Params": {
               "GroupKey": "q_936000002_研究院清场",
@@ -726257,17 +726604,6 @@
             "ActionId": 3000080
           },
           {
-            "Name": "LockEntity",
-            "Params": {
-              "EntityIds": [
-                146000007,
-                175000002
-              ]
-            },
-            "ActionGuid": "c7710d0f3a494481b1bd457e34f15bb0",
-            "ActionId": 3000024
-          },
-          {
             "Name": "SwitchSubLevels",
             "Params": {
               "Type": "Directly",
@@ -726276,8 +726612,7 @@
               ],
               "UnloadLevels": [
                 "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/instance_luxin_01",
-                "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/instance_luxin_02",
-                "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/Institute_02"
+                "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/instance_luxin_02"
               ]
             },
             "ActionGuid": "9baef7b088b0486793466aba678399bf",
@@ -726644,6 +726979,36 @@
           "ActionId": 3000126
         },
         {
+          "Name": "SwitchSubLevels",
+          "Params": {
+            "Type": "Directly",
+            "LoadLevels": [
+              "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/Instance_Institute_Light_blue",
+              "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/instance_luxin_01",
+              "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/instance_luxin_02"
+            ],
+            "UnloadLevels": [
+              "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/Instance_Institute_Light_red"
+            ]
+          },
+          "ActionGuid": "21a357bb8bb44e4faa139be174d3ef87",
+          "ActionId": 3000125
+        },
+        {
+          "Name": "SwitchSubLevels",
+          "Params": {
+            "Type": "Directly",
+            "LoadLevels": [
+              "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/lnstitute_05"
+            ],
+            "UnloadLevels": [
+              "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/lnstitute_04"
+            ]
+          },
+          "ActionGuid": "592e5e62178748fb97a750be8b4443e3",
+          "ActionId": 3000127
+        },
+        {
           "Name": "SetVar",
           "Params": {
             "VarLeft": {
@@ -726659,20 +727024,6 @@
           },
           "ActionGuid": "4b0995fe8c1f4be8ba8cf07b403a374b",
           "ActionId": 3000115
-        },
-        {
-          "Name": "SwitchSubLevels",
-          "Params": {
-            "Type": "Directly",
-            "LoadLevels": [
-              "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/Instance_Institute_Light_blue"
-            ],
-            "UnloadLevels": [
-              "/Game/Aki/Map/Level/WorldInstance/3_0_Institute/Art/Instance_Institute_Light_red"
-            ]
-          },
-          "ActionGuid": "21a357bb8bb44e4faa139be174d3ef87",
-          "ActionId": 3000125
         },
         {
           "Name": "TeleportDungeon",
@@ -727095,19 +727446,6 @@
           "Params": {},
           "ActionGuid": "4295373e41644af0838fb6cc51d2c2a7",
           "ActionId": 3000101
-        },
-        {
-          "Name": "GetItem",
-          "Params": {
-            "Items": [
-              {
-                "ItemId": 70051234,
-                "Count": 1
-              }
-            ]
-          },
-          "ActionGuid": "0671788d2e2f435a9a90da509fd94c5a",
-          "ActionId": 3000119
         },
         {
           "Name": "CalculateVar",
@@ -730611,17 +730949,12 @@
       },
       "EnterActions": [
         {
-          "Name": "EnableLevelPlay",
+          "Name": "SetPlayerOperationRestriction",
           "Params": {
-            "Configs": [
-              {
-                "LevelPlayId": 146700014,
-                "Enable": false
-              }
-            ]
+            "Type": "EnableAll"
           },
-          "ActionGuid": "140f492feaef424aaba5172a5039073a",
-          "ActionId": 3000203
+          "ActionGuid": "d7ef24a1872f467e9b9d3de55bbe1932",
+          "ActionId": 3000124
         },
         {
           "Name": "SetWeather",
@@ -734975,8 +735308,15 @@
       "TrackTarget": {
         "TrackType": {
           "Type": "Locations",
-          "Locations": []
-        }
+          "Locations": [
+            {
+              "X": -64177.74,
+              "Y": -781897.06,
+              "Z": 33734.7
+            }
+          ]
+        },
+        "Range": 500
       },
       "EnterActions": [
         {
@@ -734989,43 +735329,6 @@
           "ActionGuid": "393beb27ad4542bea88114c3ba45c387",
           "Async": true,
           "ActionId": 3000155
-        },
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "DisableModule",
-            "MoveOption": {
-              "Type": "Disable",
-              "Forward": false,
-              "Back": false,
-              "Left": false,
-              "Right": false
-            },
-            "SkillOption": {
-              "Type": "DisableSection",
-              "DisplayMode": "Disable",
-              "DisableBattleSkill": {
-                "IsDisablePhantomSkill": true,
-                "IsDisableCharacterSkill": true
-              },
-              "DisableSkillWheel": false
-            },
-            "CameraOption": {
-              "Type": "Enable"
-            },
-            "UiOption": {
-              "Type": "EnableSectionalUi",
-              "ShowQuestTrack": true,
-              "ShowSystem": false,
-              "ShowScreenEffect": true,
-              "ShowOther": false
-            },
-            "SceneInteractionOption": {
-              "Type": "Disable"
-            }
-          },
-          "ActionGuid": "0fd31b0ad94449d9941379bf7f9fa60c",
-          "ActionId": 3000124
         }
       ],
       "FinishActions": [
@@ -735036,6 +735339,16 @@
           },
           "ActionGuid": "4e1a360d78bd453cbbaa2dd435623c8e",
           "ActionId": 3000154
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              146700214
+            ]
+          },
+          "ActionGuid": "092aaaeb643c4d9cbfaf7ae06b7c9259",
+          "ActionId": 3000193
         },
         {
           "Name": "ChangeEntityState",
@@ -736262,7 +736575,8 @@
           "Range": 150000,
           "RequiresSecondConfirmation": true
         },
-        "IsTeamDeathFailure": true
+        "IsTeamDeathFailure": true,
+        "CanGiveUp": true
       },
       "ParentNodeId": 77
     }
@@ -736609,6 +736923,14 @@
       "Desc": "",
       "Actions": [
         {
+          "Name": "Wait",
+          "Params": {
+            "Time": 2.5
+          },
+          "ActionGuid": "33c430fc79b548ebaca26e0c99eb3943",
+          "ActionId": 3000076
+        },
+        {
           "Name": "SwitchDataLayers",
           "Params": {
             "LoadDataLayers": [
@@ -736619,8 +736941,7 @@
               "Type": "Sequence",
               "SequencePath": "/Game/Aki/Sequence/Level/3_0/Fuguanglin/FuguanglinHuagui01.FuguanglinHuagui01",
               "SeqMarkBeforeModifyMat": "A"
-            },
-            "MaterialDataForLoadedLayers": "/Game/Aki/Render/Data/SceneMatModify/DA_SMM_FuGuangLin.DA_SMM_FuGuangLin"
+            }
           },
           "ActionGuid": "04febc744c544b3f8b51cd40ed317f38",
           "ActionId": 3000056,
@@ -737308,7 +737629,8 @@
   {
     "Key": "226700002_1",
     "Data": {
-      "Type": "Sequence",
+      "Type": "ParallelSelect",
+      "Count": 0,
       "Id": 1,
       "Desc": "",
       "ParentNodeId": 0
@@ -737358,17 +737680,9 @@
           },
           "ActionGuid": "a4a2e88d03e84225a75e5eb708bf4ba5",
           "ActionId": 3000005
-        },
-        {
-          "Name": "UnlockTeleportTrigger",
-          "Params": {
-            "TeleportId": 3041001
-          },
-          "ActionGuid": "cf8ea55d75d6465cb56b3a45985a1e2d",
-          "ActionId": 3000007
         }
       ],
-      "ParentNodeId": 1
+      "ParentNodeId": 9
     }
   },
   {
@@ -737404,17 +737718,7 @@
           "ActionId": 3000006
         }
       ],
-      "ParentNodeId": 1
-    }
-  },
-  {
-    "Key": "226700002_3",
-    "Data": {
-      "Type": "QuestSucceed",
-      "Id": 3,
-      "Desc": "",
-      "FinishActions": [],
-      "ParentNodeId": 1
+      "ParentNodeId": 9
     }
   },
   {
@@ -737437,6 +737741,16 @@
             },
             "ActionGuid": "ae805bd79ba64c12a6717a6a475adf1d",
             "ActionId": 3000039
+          },
+          {
+            "Name": "UnlockEntity",
+            "Params": {
+              "EntityIds": [
+                155700123
+              ]
+            },
+            "ActionGuid": "1c04776954614fe189118fb91e59d85e",
+            "ActionId": 3000265
           },
           {
             "Name": "ChangeEntityState",
@@ -740057,6 +740371,15 @@
           },
           "ActionGuid": "1767f9a9dfd8436f9a0949334360a1f2",
           "ActionId": 3000004
+        },
+        {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_158700001_琳奈角色生态",
+            "DelayShow": true
+          },
+          "ActionGuid": "c56030e2d5bb47f7bd30642ff1d2baa0",
+          "ActionId": 3000007
         }
       ],
       "ParentNodeId": 1
@@ -741219,11 +741542,11 @@
                 "Condition": {
                   "Type": "ReachArea",
                   "Pos": {
-                    "X": -392607.19,
-                    "Y": -620921.25,
-                    "Z": 35986.58
+                    "X": -391300.5,
+                    "Y": -621189.4,
+                    "Z": 36393.9
                   },
-                  "Range": 1500
+                  "Range": 2400
                 },
                 "TidTip": "Quest_939000000_ChildQuestTip_939_200",
                 "TrackTarget": {
@@ -741300,11 +741623,11 @@
       "Condition": {
         "Type": "ReachArea",
         "Pos": {
-          "X": -392607.19,
-          "Y": -620921.25,
-          "Z": 35986.58
+          "X": -391300.5,
+          "Y": -621189.4,
+          "Z": 36393.9
         },
-        "Range": 1500
+        "Range": 2400
       },
       "TidTip": "Quest_939000000_ChildQuestTip_939_200",
       "TrackTarget": {
@@ -741407,9 +741730,9 @@
       "Condition": {
         "Type": "ReachArea",
         "Pos": {
-          "X": -392858.19,
-          "Y": -621590.25,
-          "Z": 35986.58
+          "X": -391300.5,
+          "Y": -621189.4,
+          "Z": 36393.9
         },
         "Range": 2400
       },
@@ -741419,9 +741742,9 @@
           "Type": "Locations",
           "Locations": [
             {
-              "X": -392858.2,
-              "Y": -621590.2,
-              "Z": 35986.6
+              "X": -391300.5,
+              "Y": -621189.4,
+              "Z": 36393.9
             }
           ]
         }
@@ -741740,12 +742063,28 @@
       "SaveConfig": {
         "EnterActions": [
           {
-            "Name": "SetTimeLockState",
+            "Name": "SetAreaTimeState",
             "Params": {
-              "LockState": "Unlock"
+              "SetAreaTimeConfig": {
+                "Type": 1,
+                "AreaIds": [
+                  36110
+                ]
+              }
             },
-            "ActionGuid": "7f02284b12294c01b543a2416ee231c0",
-            "ActionId": 3000079
+            "ActionGuid": "4162a02529524a1ca267ca5e48017ebf",
+            "ActionId": 3000072
+          },
+          {
+            "Name": "PostAkEvent",
+            "Params": {
+              "EventConfig": {
+                "Type": "Global",
+                "AkEvent": "/Game/Aki/WwiseAudio/Events/stop_3_0_xueyuanguaitan_music.stop_3_0_xueyuanguaitan_music"
+              }
+            },
+            "ActionGuid": "e4ed1c63cba740779323afef343efeec",
+            "ActionId": 3000080
           }
         ]
       },
@@ -743402,7 +743741,29 @@
           ]
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 146000007,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "fe5f10042dbc4a6191ffda4141cf70b2",
+          "ActionId": 3000024
+        },
+        {
+          "Name": "LockEntity",
+          "Params": {
+            "EntityIds": [
+              146000007,
+              175000002
+            ]
+          },
+          "ActionGuid": "afde8aee6b184375a0785b9f683eb472",
+          "ActionId": 3000029
+        }
+      ],
       "FinishActions": [
         {
           "Name": "PlayFlow",
@@ -748918,7 +749279,7 @@
           "Params": {
             "Visible": true,
             "EntityIds": [
-              169700194
+              169700195
             ]
           },
           "ActionGuid": "09f0bfb977d84b2ca841b3a729c5a084",
@@ -748953,7 +749314,7 @@
             "ControlType": {
               "Type": "Other",
               "Entities": [
-                169700194
+                169700195
               ]
             }
           },
@@ -749107,7 +749468,7 @@
           "Params": {
             "Visible": true,
             "EntityIds": [
-              169700195
+              169700194
             ]
           },
           "ActionGuid": "8fca47bb683a41e185ca69e7b6ffaad2",
@@ -749142,7 +749503,7 @@
             "ControlType": {
               "Type": "Other",
               "Entities": [
-                169700195
+                169700194
               ]
             }
           },
@@ -751202,6 +751563,11 @@
               "Type": "CompareExploreLevel",
               "Compare": "Ge",
               "Level": 8
+            },
+            {
+              "Type": "CheckSystemFunction",
+              "SystemId": 10130,
+              "Compare": "Eq"
             }
           ]
         }
@@ -751215,7 +751581,7 @@
       },
       "EnterActions": [],
       "FinishActions": [],
-      "ParentNodeId": 1
+      "ParentNodeId": 9
     }
   },
   {
@@ -751239,6 +751605,438 @@
       "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 16
+    }
+  },
+  {
+    "Key": "151700000_11",
+    "Data": {
+      "Type": "ConditionSelector",
+      "Id": 11,
+      "Desc": "判定不是正常解锁",
+      "PendingClientResults": true,
+      "Slots": [
+        {
+          "Condition": {
+            "Type": 0,
+            "Conditions": [
+              {
+                "Type": "CompareVar",
+                "Var1": {
+                  "Type": "Boolean",
+                  "Source": "Global",
+                  "Keyword": "3_0_是否正常解锁摩托"
+                },
+                "Compare": "Eq",
+                "Var2": {
+                  "Type": "Boolean",
+                  "Source": "Constant",
+                  "Value": false
+                }
+              }
+            ]
+          },
+          "Node": {
+            "Type": "Sequence",
+            "Id": 12,
+            "Desc": "",
+            "Children": [
+              {
+                "Type": "ChildQuest",
+                "Id": 13,
+                "Desc": "保底解锁摩托+发短信",
+                "Condition": {
+                  "Type": "CompareVar",
+                  "Count": 0,
+                  "Conditions": [
+                    {
+                      "Var1": {
+                        "Type": "Boolean",
+                        "Source": "Global",
+                        "Keyword": "3_0_是否正常解锁摩托"
+                      },
+                      "Compare": "Eq",
+                      "Var2": {
+                        "Type": "Boolean",
+                        "Source": "Constant",
+                        "Value": false
+                      }
+                    }
+                  ]
+                },
+                "TidTip": "Quest_151700000_ChildQuestTip_151_14",
+                "EnterActions": [],
+                "FinishActions": [
+                  {
+                    "Name": "PhoneSystemInteract",
+                    "Params": {
+                      "InteractType": {
+                        "Type": "SendPhoneMessage",
+                        "PhoneRecordActionConfig": {
+                          "PhoneMessageId": 30005
+                        }
+                      }
+                    },
+                    "ActionGuid": "94cb23e76256469c9db3e9f10d26773f",
+                    "ActionId": 3000001
+                  },
+                  {
+                    "Name": "ToggleHighlightExploreUi",
+                    "Params": {
+                      "Type": "Show",
+                      "SkillType": 6002,
+                      "Duration": 8,
+                      "IsSwitchBack": false,
+                      "HighlightType": "角色.Common.技能通用标识.探索技能高亮黄色"
+                    },
+                    "ActionGuid": "26ee7e18576a46d19771ebc1c7a62cef",
+                    "ActionId": 3000003
+                  },
+                  {
+                    "Name": "DestroyEntity",
+                    "Params": {
+                      "EntityIds": [
+                        151700754,
+                        151700932
+                      ],
+                      "DelayDestroy": true
+                    },
+                    "ActionGuid": "43fd5bf391c94dd39e5a95fd94ef1491",
+                    "ActionId": 3000006
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "ParentNodeId": 1
+    }
+  },
+  {
+    "Key": "151700000_12",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 12,
+      "Desc": "",
+      "ParentNodeId": 11
+    }
+  },
+  {
+    "Key": "151700000_13",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 13,
+      "Desc": "保底解锁摩托+发短信",
+      "Condition": {
+        "Type": "CompareVar",
+        "Count": 0,
+        "Conditions": [
+          {
+            "Var1": {
+              "Type": "Boolean",
+              "Source": "Global",
+              "Keyword": "3_0_是否正常解锁摩托"
+            },
+            "Compare": "Eq",
+            "Var2": {
+              "Type": "Boolean",
+              "Source": "Constant",
+              "Value": false
+            }
+          }
+        ]
+      },
+      "TidTip": "Quest_151700000_ChildQuestTip_151_14",
+      "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "PhoneSystemInteract",
+          "Params": {
+            "InteractType": {
+              "Type": "SendPhoneMessage",
+              "PhoneRecordActionConfig": {
+                "PhoneMessageId": 30005
+              }
+            }
+          },
+          "ActionGuid": "94cb23e76256469c9db3e9f10d26773f",
+          "ActionId": 3000001
+        },
+        {
+          "Name": "ToggleHighlightExploreUi",
+          "Params": {
+            "Type": "Show",
+            "SkillType": 6002,
+            "Duration": 8,
+            "IsSwitchBack": false,
+            "HighlightType": "角色.Common.技能通用标识.探索技能高亮黄色"
+          },
+          "ActionGuid": "26ee7e18576a46d19771ebc1c7a62cef",
+          "ActionId": 3000003
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              151700754,
+              151700932
+            ],
+            "DelayDestroy": true
+          },
+          "ActionGuid": "43fd5bf391c94dd39e5a95fd94ef1491",
+          "ActionId": 3000006
+        }
+      ],
+      "ParentNodeId": 12
+    }
+  },
+  {
+    "Key": "226700002_9",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 9,
+      "Desc": "",
+      "ParentNodeId": 1
+    }
+  },
+  {
+    "Key": "226700002_13",
+    "Data": {
+      "Type": "QuestSucceed",
+      "Id": 13,
+      "Desc": "",
+      "FinishActions": [],
+      "ParentNodeId": 9
+    }
+  },
+  {
+    "Key": "226700002_10",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 10,
+      "Desc": "",
+      "ParentNodeId": 1
+    }
+  },
+  {
+    "Key": "226700002_11",
+    "Data": {
+      "Type": "AlwaysFalse",
+      "Id": 11,
+      "Desc": "",
+      "ParentNodeId": 10
+    }
+  },
+  {
+    "Key": "226700002_12",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 12,
+      "Desc": "",
+      "Condition": {
+        "Type": "CheckConditionGroup",
+        "Condition": {
+          "Type": 0,
+          "Conditions": [
+            {
+              "Type": "CompareEntityState",
+              "EntityId": 151700463,
+              "Compare": "Eq",
+              "State": "关卡.Common.状态.激活"
+            }
+          ]
+        }
+      },
+      "TidTip": "Quest_226700002_ChildQuestTip_226_6",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": []
+        }
+      },
+      "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "UnlockTeleportTrigger",
+          "Params": {
+            "TeleportId": 3041001
+          },
+          "ActionGuid": "3ce6996f07cc4ead95a0b1d5152a14b7",
+          "ActionId": 3000004
+        }
+      ],
+      "ParentNodeId": 11
+    }
+  },
+  {
+    "Key": "153700000_99",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 99,
+      "Desc": "",
+      "Condition": {
+        "Type": "Kill",
+        "ExistTargets": [
+          153700029,
+          153700028,
+          153700027
+        ],
+        "TargetsToAwake": []
+      },
+      "TidTip": "Quest_153700000_ChildQuestTip_153_16",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": [
+            {
+              "X": 755.9,
+              "Y": -515703.8,
+              "Z": 34688.6,
+              "A": 0
+            }
+          ]
+        },
+        "Range": 3000
+      },
+      "EnterActions": [
+        {
+          "Name": "HideGroup",
+          "Params": {
+            "GroupKey": "q_153700000_三号营地",
+            "HideConfig": {
+              "Type": "WorldEntityAndLevelPlay",
+              "HideRangeEntities": [
+                153700026
+              ],
+              "ExcludeEntities": [
+                153700268,
+                153700269,
+                153700349,
+                153700348
+              ]
+            }
+          },
+          "ActionGuid": "f43127b1396e4892ac026d606ac54b0f",
+          "ActionId": 3000029
+        },
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "063b24e787414a5babb734ca2d3609f3",
+          "ActionId": 3000036
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              153700029,
+              153700028,
+              153700027
+            ]
+          },
+          "ActionGuid": "0d56629d264148839dac5664b0269451",
+          "ActionId": 3000037
+        },
+        {
+          "Name": "SetPlayerPos",
+          "Params": {
+            "TelePortConfig": {
+              "Type": 0,
+              "TargetPos": {
+                "X": 755.85,
+                "Y": -515703.84,
+                "Z": 34688.55,
+                "A": 100
+              }
+            },
+            "DisableAutoFadeInScreen": true
+          },
+          "ActionGuid": "f7dd1abfa63a4deab3e39a71eb02800e",
+          "ActionId": 3000039
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3.0_日灵贴纸收集彩蛋",
+            "FlowId": 1,
+            "StateId": 5
+          },
+          "ActionGuid": "56e4b57448fe42db83714613ae0065ac",
+          "ActionId": 3000040
+        }
+      ],
+      "FinishActions": [
+        {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_153700000_三号营地",
+            "DelayShow": true
+          },
+          "ActionGuid": "d4e008f356d74cc7bbbac2c8af7f1792",
+          "ActionId": 3000041
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3.0_日灵贴纸收集彩蛋",
+            "FlowId": 3,
+            "StateId": 1
+          },
+          "ActionGuid": "4d8b3a30644b4eddb34394bb1ea778f0",
+          "ActionId": 3000052
+        },
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "c7e0e3c8f71d45e7a1c6d897adf226e8",
+          "ActionId": 3000054
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              153700270
+            ]
+          },
+          "ActionGuid": "3cfaac68401e4fbbaf8136835c20ed67",
+          "ActionId": 3000055
+        },
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": true,
+            "EntityIds": [
+              153700268
+            ]
+          },
+          "ActionGuid": "eb86c668d1b6474fa0afff74b64c1ab0",
+          "ActionId": 3000058
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
+          },
+          "ActionGuid": "d711c2766e4244f799a121adb720d8c9",
+          "ActionId": 3000061
+        }
+      ],
+      "ParentNodeId": 70
     }
   }
 ]

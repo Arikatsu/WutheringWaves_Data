@@ -693967,7 +693967,7 @@
     ],
     "RelatedProperty": 7,
     "RateLv": [
-      0
+      3000
     ],
     "HardnessLv": [
       0
@@ -694063,7 +694063,7 @@
     ],
     "RelatedProperty": 7,
     "RateLv": [
-      7500
+      1000
     ],
     "HardnessLv": [
       0
@@ -694159,7 +694159,7 @@
     ],
     "RelatedProperty": 7,
     "RateLv": [
-      0
+      3000
     ],
     "HardnessLv": [
       0
@@ -694255,7 +694255,7 @@
     ],
     "RelatedProperty": 7,
     "RateLv": [
-      7500
+      1000
     ],
     "HardnessLv": [
       0
@@ -738087,7 +738087,7 @@
     "ConstVariables": [],
     "CalculateType": 0,
     "Element": 2,
-    "DamageTextType": 0,
+    "DamageTextType": 1002,
     "DamageTextAreaId": 1,
     "PayloadId": 0,
     "Type": 12,
@@ -738202,7 +738202,7 @@
     "ConstVariables": [],
     "CalculateType": 0,
     "Element": 2,
-    "DamageTextType": 0,
+    "DamageTextType": 1002,
     "DamageTextAreaId": 1,
     "PayloadId": 0,
     "Type": 12,
@@ -746713,7 +746713,7 @@
     "ConstVariables": [],
     "CalculateType": 0,
     "Element": 5,
-    "DamageTextType": 0,
+    "DamageTextType": 1005,
     "DamageTextAreaId": 1,
     "PayloadId": 0,
     "Type": 0,
@@ -746828,7 +746828,7 @@
     "ConstVariables": [],
     "CalculateType": 0,
     "Element": 5,
-    "DamageTextType": 0,
+    "DamageTextType": 1005,
     "DamageTextAreaId": 1,
     "PayloadId": 0,
     "Type": 0,
@@ -754912,7 +754912,7 @@
     "ConstVariables": [],
     "CalculateType": 0,
     "Element": 5,
-    "DamageTextType": 0,
+    "DamageTextType": 1005,
     "DamageTextAreaId": 1,
     "PayloadId": 0,
     "Type": 12,
@@ -756715,10 +756715,15 @@
   },
   {
     "Id": 1509055001,
-    "Condition": "",
-    "ConstVariables": [],
+    "Condition": "(OR\n(AND (Attacker.EntityTagContainer HasAllTag tag1), (ExecDamage 15090550011)),\n(AND (Attacker.EntityTagContainer NotHasAnyTag tag1), (ExecDamage 15090550010)),\n)",
+    "ConstVariables": [
+      {
+        "Key": "tag1",
+        "Value": "TagContainer#角色.5785a146.008e4614.b68deb23"
+      }
+    ],
     "CalculateType": 0,
-    "Element": 5,
+    "Element": 0,
     "DamageTextType": 0,
     "DamageTextAreaId": 1,
     "PayloadId": 0,
@@ -756726,39 +756731,20 @@
     "SubType": [],
     "SmashType": 1,
     "CureBaseValue": [
-      100
+      0
     ],
     "RelatedProperty": 7,
     "RateLv": [
-      15300,
-      16555,
-      17810,
-      19566,
-      20821,
-      22264,
-      24271,
-      26278,
-      28286,
-      30418,
-      32928,
-      35437,
-      37946,
-      40455,
-      42964,
-      45474,
-      47983,
-      50492,
-      53001,
-      55510
+      0
     ],
     "HardnessLv": [
-      10000
+      0
     ],
     "ToughLv": [
-      20000
+      0
     ],
     "Energy": [
-      813
+      0
     ],
     "SpecialEnergy1": [
       0
@@ -756775,9 +756761,9 @@
     "SpecialEnergy5": [
       0
     ],
-    "ElementPowerType": 5,
+    "ElementPowerType": 0,
     "ElementPower": [
-      765
+      0
     ],
     "FormulaType": 0,
     "FormulaParam1": [
@@ -756824,7 +756810,7 @@
       10000
     ],
     "WeaknessLvl": [
-      6800
+      0
     ],
     "WeaknessRatio": []
   },
@@ -759262,6 +759248,236 @@
     ],
     "WeaknessLvl": [
       1300
+    ],
+    "WeaknessRatio": []
+  },
+  {
+    "Id": 15090550010,
+    "Condition": "",
+    "ConstVariables": [],
+    "CalculateType": 0,
+    "Element": 5,
+    "DamageTextType": 0,
+    "DamageTextAreaId": 1,
+    "PayloadId": 0,
+    "Type": 0,
+    "SubType": [],
+    "SmashType": 1,
+    "CureBaseValue": [
+      100
+    ],
+    "RelatedProperty": 7,
+    "RateLv": [
+      15300,
+      16555,
+      17810,
+      19566,
+      20821,
+      22264,
+      24271,
+      26278,
+      28286,
+      30418,
+      32928,
+      35437,
+      37946,
+      40455,
+      42964,
+      45474,
+      47983,
+      50492,
+      53001,
+      55510
+    ],
+    "HardnessLv": [
+      10000
+    ],
+    "ToughLv": [
+      20000
+    ],
+    "Energy": [
+      813
+    ],
+    "SpecialEnergy1": [
+      0
+    ],
+    "SpecialEnergy2": [
+      0
+    ],
+    "SpecialEnergy3": [
+      0
+    ],
+    "SpecialEnergy4": [
+      0
+    ],
+    "SpecialEnergy5": [
+      0
+    ],
+    "ElementPowerType": 5,
+    "ElementPower": [
+      765
+    ],
+    "FormulaType": 0,
+    "FormulaParam1": [
+      0
+    ],
+    "FormulaParam2": [
+      0
+    ],
+    "FormulaParam3": [
+      0
+    ],
+    "FormulaParam4": [
+      0
+    ],
+    "FormulaParam5": [
+      0
+    ],
+    "FormulaParam6": [
+      0
+    ],
+    "FormulaParam7": [
+      0
+    ],
+    "FormulaParam8": [
+      0
+    ],
+    "FormulaParam9": [
+      0
+    ],
+    "FormulaParam10": [
+      0
+    ],
+    "ImmuneType": 0,
+    "Percent0": [
+      0
+    ],
+    "Percent1": [
+      0
+    ],
+    "FluctuationLower": [
+      10000
+    ],
+    "FluctuationUpper": [
+      10000
+    ],
+    "WeaknessLvl": [
+      6800
+    ],
+    "WeaknessRatio": []
+  },
+  {
+    "Id": 15090550011,
+    "Condition": "",
+    "ConstVariables": [],
+    "CalculateType": 0,
+    "Element": 5,
+    "DamageTextType": 0,
+    "DamageTextAreaId": 1,
+    "PayloadId": 0,
+    "Type": 0,
+    "SubType": [],
+    "SmashType": 1,
+    "CureBaseValue": [
+      100
+    ],
+    "RelatedProperty": 7,
+    "RateLv": [
+      29070,
+      31454,
+      33838,
+      37175,
+      39559,
+      42300,
+      46114,
+      49928,
+      53742,
+      57795,
+      62562,
+      67330,
+      72097,
+      76864,
+      81632,
+      86399,
+      91167,
+      95934,
+      100702,
+      105469
+    ],
+    "HardnessLv": [
+      10000
+    ],
+    "ToughLv": [
+      20000
+    ],
+    "Energy": [
+      813
+    ],
+    "SpecialEnergy1": [
+      0
+    ],
+    "SpecialEnergy2": [
+      0
+    ],
+    "SpecialEnergy3": [
+      0
+    ],
+    "SpecialEnergy4": [
+      0
+    ],
+    "SpecialEnergy5": [
+      0
+    ],
+    "ElementPowerType": 5,
+    "ElementPower": [
+      765
+    ],
+    "FormulaType": 0,
+    "FormulaParam1": [
+      0
+    ],
+    "FormulaParam2": [
+      0
+    ],
+    "FormulaParam3": [
+      0
+    ],
+    "FormulaParam4": [
+      0
+    ],
+    "FormulaParam5": [
+      0
+    ],
+    "FormulaParam6": [
+      0
+    ],
+    "FormulaParam7": [
+      0
+    ],
+    "FormulaParam8": [
+      0
+    ],
+    "FormulaParam9": [
+      0
+    ],
+    "FormulaParam10": [
+      0
+    ],
+    "ImmuneType": 0,
+    "Percent0": [
+      0
+    ],
+    "Percent1": [
+      0
+    ],
+    "FluctuationLower": [
+      10000
+    ],
+    "FluctuationUpper": [
+      10000
+    ],
+    "WeaknessLvl": [
+      6800
     ],
     "WeaknessRatio": []
   }

@@ -116184,10 +116184,10 @@
     "Resources": [],
     "Parameters": [
       "1",
-      "F0744E7F"
+      "F8E56C7F"
     ],
     "Group": 0,
-    "Priority": 90
+    "Priority": 0
   },
   {
     "Id": 7000300001,
@@ -117063,7 +117063,7 @@
     "LocRule": 0,
     "RotaRule": 0,
     "SclRule": 0,
-    "EndRule": 0,
+    "EndRule": 1,
     "Magni": 0,
     "AttrId": 0,
     "Tag": "",
@@ -118509,7 +118509,7 @@
   {
     "Id": 1509001022,
     "Path": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LinNaiM3_UI.T_IconDevice_LinNaiM3_UI",
-    "CueType": 2,
+    "CueType": 24,
     "Comp": 0,
     "CompName": "Mesh",
     "Socket": "None",
@@ -118560,10 +118560,10 @@
     "Resources": [],
     "Parameters": [
       "1",
-      "F0744E7F"
+      "F8E56C7F"
     ],
     "Group": 0,
-    "Priority": 90
+    "Priority": 0
   },
   {
     "Id": 1209003001,
@@ -119861,7 +119861,7 @@
   {
     "Id": 1509001026,
     "Path": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LinNaiM6_UI.T_IconDevice_LinNaiM6_UI",
-    "CueType": 2,
+    "CueType": 24,
     "Comp": 0,
     "CompName": "Mesh",
     "Socket": "None",
@@ -119912,10 +119912,10 @@
     "Resources": [],
     "Parameters": [
       "1",
-      "F0744E7F"
+      "F8E56C7F"
     ],
     "Group": 0,
-    "Priority": 90
+    "Priority": 0
   },
   {
     "Id": 1209300004,
@@ -120565,7 +120565,7 @@
   },
   {
     "Id": 1509001027,
-    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiT.SP_IconLinNaiT",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Image/Buff/T_IconLinNaiBuff03.T_IconLinNaiBuff03",
     "CueType": 2,
     "Comp": 0,
     "CompName": "Mesh",
@@ -120617,7 +120617,9 @@
     "Resources": [],
     "Parameters": [
       "1",
-      "F0744E7F"
+      "F8E56C7F",
+      "",
+      "2"
     ],
     "Group": 0,
     "Priority": 90
@@ -120680,6 +120682,230 @@
     ],
     "Parameters": [],
     "Group": 0,
+    "Priority": 0
+  },
+  {
+    "Id": 1509002306,
+    "Path": "/Game/Aki/Effect/DataAsset/Niagara/R2T1LinnaiMd10011/Execute/DA_Fx_ExplodeShouji_Purple_02.DA_Fx_ExplodeShouji_Purple_02",
+    "CueType": 0,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "HitCase",
+    "Location": {
+      "X": 0,
+      "Y": 80,
+      "Z": -30
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 1,
+    "SclRule": 1,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 1509002307,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1LinnaiMd10011/Execute/DA_Fx_Group_s02_End_02.DA_Fx_Group_s02_End_02",
+    "CueType": 0,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 200
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 1,
+    "SclRule": 1,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 1209800007,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1MoneMd10011/Execute/DA_Fx_Group_R1a_Shouji_03.DA_Fx_Group_R1a_Shouji_03",
+    "CueType": 0,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "HitCase",
+    "Location": {
+      "X": 0,
+      "Y": -80,
+      "Z": 30
+    },
+    "Rotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "LocRule": 2,
+    "RotaRule": 1,
+    "SclRule": 1,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 1209800008,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1MoneMd10011/Execute/DA_Fx_Group_R1s_Air_Laser_05.DA_Fx_Group_R1s_Air_Laser_05",
+    "CueType": 0,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0,
+      "Y": 0,
+      "Z": 500
+    },
+    "Rotation": {
+      "X": 180,
+      "Y": 180,
+      "Z": 0
+    },
+    "Scale": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "LocRule": 2,
+    "RotaRule": 1,
+    "SclRule": 1,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "bListenAttr": false,
+    "bSoftFollow": false,
+    "bLockRevolution": false,
+    "LockRotation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "LockCamera": false,
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "TargetScaleUp": [
+      1,
+      1
+    ],
+    "Resources": [],
+    "Parameters": [],
+    "Group": 1,
     "Priority": 0
   }
 ]

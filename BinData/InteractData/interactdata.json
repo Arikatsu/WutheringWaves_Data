@@ -97320,82 +97320,6 @@
     "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
-    "Guid": "1135af68df424db5852254662aafa4df",
-    "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_0_支线_星星闪烁的夜晚",
-        "FlowId": 20,
-        "StateId": 1
-      }
-    },
-    "Icon": "",
-    "TidContent": "LevelPlay_181700016_InteractContent_181_1",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": "[\"OnMotor\"]"
-  },
-  {
-    "Guid": "381539e24348435098e04dae77b06c3f",
-    "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_0_支线_星星闪烁的夜晚",
-        "FlowId": 9,
-        "StateId": 1
-      }
-    },
-    "Icon": "",
-    "TidContent": "",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": "[\"OnMotor\"]"
-  },
-  {
-    "Guid": "be01229775cf48c0a77702bfe5017f36",
-    "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_0_支线_星星闪烁的夜晚",
-        "FlowId": 20,
-        "StateId": 1
-      }
-    },
-    "Icon": "",
-    "TidContent": "",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": "[\"OnMotor\"]"
-  },
-  {
-    "Guid": "f6211917010d4630ad5e2688b91e03f6",
-    "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_0_支线_星星闪烁的夜晚",
-        "FlowId": 9,
-        "StateId": 1
-      }
-    },
-    "Icon": "",
-    "TidContent": "",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": "[\"OnMotor\"]"
-  },
-  {
     "Guid": "680897b0e6884cc68a725582e4284084",
     "Type": {
       "Type": "Flow",
@@ -97962,13 +97886,18 @@
   {
     "Guid": "2268372e22aa4248bd7606e3d4bb3fc3",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
-        "FlowId": 4,
-        "StateId": 1,
-        "FlowGuid": "7874344548b544f4aede5c24bf0a22c4"
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "MingSuTi",
+            "BoardId": 7
+          },
+          "ActionGuid": "497b9429e92246d083574554a8b59307",
+          "ActionId": 3000003
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "Quest_939700000_InteractContent_939_1",
@@ -98001,12 +97930,18 @@
   {
     "Guid": "585c998ec4fe42b5bbf7261ec3d011a5",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_0_支线_日灵收集引导任务",
-        "FlowId": 3,
-        "StateId": 1
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "MingSuTi",
+            "BoardId": 7
+          },
+          "ActionGuid": "0c23564fe7714a0bbd49dbf617689acf",
+          "ActionId": 3000004
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "Quest_939700000_InteractContent_939_3",

@@ -20700,5 +20700,35 @@
     ],
     "Team": true,
     "MonsterType": 4
+  },
+  {
+    "Id": 8003302,
+    "StateMachine": "SM_ML1LuXinJiHaiMd00101",
+    "AiController": "/Game/Aki/AI/AIMonster/Lord/AIML1LuXinJiHaiMd00101/AIC_ML1LuXinJiHaiMd00101.AIC_ML1LuXinJiHaiMd00101",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Lord/AIML1LuXinJiHaiMd00101/BT_ML1LuXinJiHaiMd00101.BT_ML1LuXinJiHaiMd00101",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "80033"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "8003301"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "80033"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "80033"
+      }
+    ],
+    "Team": false,
+    "MonsterType": 4
   }
 ]
