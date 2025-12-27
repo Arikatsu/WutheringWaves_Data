@@ -593924,6 +593924,58 @@
       "Type": "Sequence",
       "Id": 20,
       "Desc": "琳奈独行调查",
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -252000,
+                      "Y": -831500,
+                      "Z": 9800
+                    },
+                    "Size": {
+                      "X": 50100,
+                      "Y": 25000,
+                      "Z": 10500
+                    },
+                    "Rotator": {}
+                  },
+                  "IsOnRange": false
+                },
+                {
+                  "Type": "CheckChildQuestFinished",
+                  "QuestId": 915000003,
+                  "ChildQuestId": 301,
+                  "Compare": "Eq"
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -221204.9,
+                    "Y": -831627.2,
+                    "Z": 9.4,
+                    "A": 180
+                  }
+                },
+                "ActionGuid": "46af3b8cae1847d99f8f86006ca30a43",
+                "ActionId": 3000313
+              }
+            ],
+            "CheckPeriod": 10
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -626063,6 +626115,27 @@
           "ActionId": 3000004
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "SetPlayerOperationRestriction",
+                "Params": {
+                  "Type": "EnableAll"
+                },
+                "ActionGuid": "cf095dc9a3324c2f9b333bfebc95ca42",
+                "ActionId": 3000017
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -642625,6 +642698,9 @@
               ],
               "ExcludeEntities": [
                 181700104
+              ],
+              "AppendLevelPlays": [
+                320700002
               ]
             }
           },
@@ -683379,7 +683455,7 @@
               "Pattern": {
                 "Type": "MotorcycleTrack",
                 "IsOneWay": true,
-                "MaxOffsetDistance": 1400,
+                "MaxOffsetDistance": 1000,
                 "ForwardAngleLimit": 60,
                 "InputCorrectionCurve": "/Game/Aki/Data/Fight/Curves/CV_MotorcycleInputCorrectionCurve.CV_MotorcycleInputCorrectionCurve",
                 "AccelerationCorrectionCurve": "",
@@ -712663,7 +712739,7 @@
             "UiOption": {
               "Type": "EnableSectionalUi",
               "ShowMiniMap": false,
-              "ShowQuestTrack": false,
+              "ShowQuestTrack": true,
               "ShowEsc": false,
               "ShowSystem": false,
               "ShowScreenEffect": true,
@@ -722254,11 +722330,11 @@
       "Condition": {
         "Type": "ReachArea",
         "Pos": {
-          "X": -31046.8,
-          "Y": -553944.7,
+          "X": -31276.8,
+          "Y": -553374.69,
           "Z": 44676.2
         },
-        "Range": 3200
+        "Range": 5000
       },
       "TidTip": "Quest_915000003_ChildQuestTip_164_201",
       "TrackTarget": {
@@ -732250,6 +732326,35 @@
           "Async": true
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckChildQuestFinished",
+                  "QuestId": 915000003,
+                  "ChildQuestId": 305,
+                  "Compare": "Eq"
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "SetPlayerOperationRestriction",
+                "Params": {
+                  "Type": "EnableAll"
+                },
+                "ActionGuid": "e3b2811ac7dc4d2bafece76244c32a19",
+                "ActionId": 3000049
+              }
+            ],
+            "CheckPeriod": 30
+          }
+        ]
+      },
       "ParentNodeId": 300
     }
   },
