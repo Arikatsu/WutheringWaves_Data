@@ -519661,6 +519661,54 @@
           "ActionId": 3000205
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -5675.54,
+                      "Y": -79454.83,
+                      "Z": 30233.14
+                    },
+                    "Size": {
+                      "X": 2750,
+                      "Y": 5710,
+                      "Z": 600
+                    },
+                    "Rotator": {
+                      "Z": 10
+                    }
+                  },
+                  "IsOnRange": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -13069.1,
+                    "Y": -72926.9,
+                    "Z": 29668.6,
+                    "A": 0
+                  }
+                },
+                "ActionGuid": "995a98d5646848738463b7c2768a32a0",
+                "ActionId": 3000223
+              }
+            ],
+            "CheckPeriod": 5
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -559137,6 +559185,54 @@
           "ActionId": 3000009
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -21889.47,
+                      "Y": -24640.53,
+                      "Z": 26478.41
+                    },
+                    "Size": {
+                      "X": 2700,
+                      "Y": 2500,
+                      "Z": 400
+                    },
+                    "Rotator": {
+                      "Z": 40
+                    }
+                  },
+                  "IsOnRange": false
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -20699,
+                    "Y": -23503,
+                    "Z": 26091,
+                    "A": 0
+                  }
+                },
+                "ActionGuid": "765a49037c40443a957af096f3a24826",
+                "ActionId": 3000224
+              }
+            ],
+            "CheckPeriod": 5
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -565075,6 +565171,16 @@
           },
           "ActionGuid": "8b3f33e3c0014a619c5796ceb4220601",
           "ActionId": 3000113
+        },
+        {
+          "Name": "LockEntity",
+          "Params": {
+            "EntityIds": [
+              320702557
+            ]
+          },
+          "ActionGuid": "5fc3d06ee0584294894c7ef4b661c69f",
+          "ActionId": 3000278
         }
       ],
       "FinishActions": [
@@ -565205,6 +565311,16 @@
           },
           "ActionGuid": "44a1bfe16c3241c082830d4b35e98181",
           "ActionId": 3000177
+        },
+        {
+          "Name": "UnlockEntity",
+          "Params": {
+            "EntityIds": [
+              320702557
+            ]
+          },
+          "ActionGuid": "bcb0120dcc1341e9b4c35f35e31f682f",
+          "ActionId": 3000279
         }
       ],
       "HideTip": true,
@@ -578450,7 +578566,20 @@
       "Type": "QuestSucceed",
       "Id": 3,
       "Desc": "",
-      "FinishActions": [],
+      "FinishActions": [
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": true,
+            "EntityIds": [
+              162700744,
+              162700745
+            ]
+          },
+          "ActionGuid": "b2c958a5d57f4eb88a5312c46aacc72a",
+          "ActionId": 3000277
+        }
+      ],
       "ParentNodeId": 1
     }
   },
@@ -619206,7 +619335,18 @@
                   }
                 ]
               },
-              "DoIntactType": "Direct"
+              "DoIntactType": "Direct",
+              "Condition": {
+                "Type": 0,
+                "Conditions": [
+                  {
+                    "Type": "CompareEntityState",
+                    "EntityId": 693700122,
+                    "Compare": "Eq",
+                    "State": "关卡.电梯.停靠"
+                  }
+                ]
+              }
             }
           }
         ]
@@ -628241,6 +628381,27 @@
           "ActionId": 3000277
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "SetPlayerOperationRestriction",
+                "Params": {
+                  "Type": "EnableAll"
+                },
+                "ActionGuid": "b178917701354c5da748029b3bba8d4c",
+                "ActionId": 3000314
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 58
     }
   },
@@ -628274,6 +628435,27 @@
       },
       "EnterActions": [],
       "FinishActions": [],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "SetPlayerOperationRestriction",
+                "Params": {
+                  "Type": "EnableAll"
+                },
+                "ActionGuid": "272a256aa99740d7ad7a3882b41ffb26",
+                "ActionId": 3000317
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 58
     }
   },
@@ -633380,6 +633562,37 @@
                   "ItemId": 80700001
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700001,
+                          "Count": 500
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700013,
+                      "ChildQuestId": 8,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700013_QuestScheduleSubTitle_42_1",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633396,6 +633609,37 @@
                 "BindingProgressType": {
                   "Type": "PlayerHavingItemCount",
                   "ItemId": 80700002
+                }
+              }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700002,
+                          "Count": 480
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700013,
+                      "ChildQuestId": 9,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700013_QuestScheduleSubTitle_42_2",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
                 }
               }
             ]
@@ -633446,6 +633690,37 @@
                   "ItemId": 80700002
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700002,
+                          "Count": 720
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700014,
+                      "ChildQuestId": 7,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700014_QuestScheduleSubTitle_42_2",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 11,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633462,6 +633737,37 @@
                 "BindingProgressType": {
                   "Type": "PlayerHavingItemCount",
                   "ItemId": 80700003
+                }
+              }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700003,
+                          "Count": 180
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700014,
+                      "ChildQuestId": 9,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700014_QuestScheduleSubTitle_42_3",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 11,
+                  "ShowComplete": true
                 }
               }
             ]
@@ -633512,6 +633818,37 @@
                   "ItemId": 80700001
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700001,
+                          "Count": 1500
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700015,
+                      "ChildQuestId": 7,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700015_QuestScheduleSubTitle_42_1",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633528,6 +633865,37 @@
                 "BindingProgressType": {
                   "Type": "PlayerHavingItemCount",
                   "ItemId": 80700003
+                }
+              }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700003,
+                          "Count": 288
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700015,
+                      "ChildQuestId": 8,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700015_QuestScheduleSubTitle_42_2",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
                 }
               }
             ]
@@ -633578,6 +633946,37 @@
                   "ItemId": 80700001
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700001,
+                          "Count": 3000
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700017,
+                      "ChildQuestId": 8,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700017_QuestScheduleSubTitle_42_1",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633596,6 +633995,37 @@
                   "ItemId": 80700002
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700002,
+                          "Count": 1440
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700017,
+                      "ChildQuestId": 9,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700017_QuestScheduleSubTitle_42_2",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633612,6 +634042,37 @@
                 "BindingProgressType": {
                   "Type": "PlayerHavingItemCount",
                   "ItemId": 80700003
+                }
+              }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700003,
+                          "Count": 360
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700017,
+                      "ChildQuestId": 11,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700017_QuestScheduleSubTitle_42_3",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
                 }
               }
             ]
@@ -633662,6 +634123,37 @@
                   "ItemId": 80700001
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700001,
+                          "Count": 5000
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700018,
+                      "ChildQuestId": 8,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700018_QuestScheduleSubTitle_42_1",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633680,6 +634172,37 @@
                   "ItemId": 80700002
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700002,
+                          "Count": 2640
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700018,
+                      "ChildQuestId": 9,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700018_QuestScheduleSubTitle_42_2",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633696,6 +634219,37 @@
                 "BindingProgressType": {
                   "Type": "PlayerHavingItemCount",
                   "ItemId": 80700003
+                }
+              }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700003,
+                          "Count": 648
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700018,
+                      "ChildQuestId": 11,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700018_QuestScheduleSubTitle_42_3",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
                 }
               }
             ]
@@ -633746,6 +634300,37 @@
                   "ItemId": 80700002
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700002,
+                          "Count": 1440
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700020,
+                      "ChildQuestId": 7,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700020_QuestScheduleSubTitle_42_1",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633762,6 +634347,37 @@
                 "BindingProgressType": {
                   "Type": "PlayerHavingItemCount",
                   "ItemId": 80700003
+                }
+              }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700003,
+                          "Count": 432
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700020,
+                      "ChildQuestId": 9,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700020_QuestScheduleSubTitle_42_2",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
                 }
               }
             ]
@@ -633812,6 +634428,37 @@
                   "ItemId": 80700001
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700001,
+                          "Count": 5000
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700021,
+                      "ChildQuestId": 8,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700021_QuestScheduleSubTitle_42_1",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633830,6 +634477,37 @@
                   "ItemId": 80700002
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700002,
+                          "Count": 2400
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700021,
+                      "ChildQuestId": 9,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700021_QuestScheduleSubTitle_42_2",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633846,6 +634524,37 @@
                 "BindingProgressType": {
                   "Type": "PlayerHavingItemCount",
                   "ItemId": 80700003
+                }
+              }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700003,
+                          "Count": 540
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700021,
+                      "ChildQuestId": 11,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700021_QuestScheduleSubTitle_42_3",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
                 }
               }
             ]
@@ -633896,6 +634605,37 @@
                   "ItemId": 80700001
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700001,
+                          "Count": 3750
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700022,
+                      "ChildQuestId": 8,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700022_QuestScheduleSubTitle_42_1",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633912,6 +634652,37 @@
                 "BindingProgressType": {
                   "Type": "PlayerHavingItemCount",
                   "ItemId": 80700003
+                }
+              }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700003,
+                          "Count": 432
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700022,
+                      "ChildQuestId": 9,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700022_QuestScheduleSubTitle_42_2",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
                 }
               }
             ]
@@ -633962,6 +634733,37 @@
                   "ItemId": 80700001
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700001,
+                          "Count": 6250
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700023,
+                      "ChildQuestId": 7,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700023_QuestScheduleSubTitle_42_1",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633980,6 +634782,37 @@
                   "ItemId": 80700002
                 }
               }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700002,
+                          "Count": 2880
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700023,
+                      "ChildQuestId": 8,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700023_QuestScheduleSubTitle_42_2",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
+                }
+              }
             ]
           },
           {
@@ -633996,6 +634829,37 @@
                 "BindingProgressType": {
                   "Type": "PlayerHavingItemCount",
                   "ItemId": 80700003
+                }
+              }
+            ],
+            "ConditionText": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": [
+                    {
+                      "Type": "CheckItems",
+                      "Compare": "Lt",
+                      "Items": [
+                        {
+                          "ItemId": 80700003,
+                          "Count": 720
+                        }
+                      ]
+                    },
+                    {
+                      "Type": "CheckChildQuestFinished",
+                      "QuestId": 313700023,
+                      "ChildQuestId": 9,
+                      "Compare": "Eq"
+                    }
+                  ]
+                },
+                "TidTitle": "Quest_313700023_QuestScheduleSubTitle_42_3",
+                "QuestScheduleType": {
+                  "Type": "ChildQuestCompleted",
+                  "ChildQuestId": 10,
+                  "ShowComplete": true
                 }
               }
             ]
@@ -646045,7 +646909,7 @@
                   "StateId": 1
                 }
               },
-              "DoIntactType": "Direct",
+              "DoIntactType": "Option",
               "TidContent": "Quest_189700011_InteractContent_189_2",
               "OptionLockTypeList": [
                 "OnMotor"
@@ -646524,7 +647388,7 @@
                   "StateId": 1
                 }
               },
-              "DoIntactType": "Direct",
+              "DoIntactType": "Option",
               "TidContent": "Quest_189700013_InteractContent_189_2",
               "OptionLockTypeList": [
                 "OnMotor"
@@ -654437,7 +655301,7 @@
         "TrackType": {
           "Type": "Entities",
           "EntityIds": [
-            181700005
+            181700652
           ]
         }
       },
@@ -658362,6 +659226,66 @@
           "ActionId": 3000006
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareQuestState",
+                  "QuestId": 155000003,
+                  "Compare": "Ne",
+                  "State": 3
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "SetEntityVisible",
+                "Params": {
+                  "Visible": false,
+                  "EntityIds": [
+                    162700744,
+                    162700745
+                  ]
+                },
+                "ActionGuid": "bf77ef4ef8d04323b91fe4f36dded098",
+                "ActionId": 3000008
+              }
+            ]
+          },
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareQuestState",
+                  "QuestId": 155000003,
+                  "Compare": "Eq",
+                  "State": 3
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "SetEntityVisible",
+                "Params": {
+                  "Visible": true,
+                  "EntityIds": [
+                    162700744,
+                    162700745
+                  ]
+                },
+                "ActionGuid": "799db3c4cc73406f8bcad7011549e9ea",
+                "ActionId": 3000009
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -659893,7 +660817,8 @@
             "ScreenType": "Black"
           },
           "ActionGuid": "f0479f55cbe94f5380283ffa328ac18a",
-          "ActionId": 3000015
+          "ActionId": 3000015,
+          "Disabled": true
         },
         {
           "Name": "SetPlayerPos",
@@ -673054,7 +673979,7 @@
       "Desc": "",
       "Condition": {
         "Type": "WaitTime",
-        "Days": 1,
+        "Days": 2,
         "Hours": 0,
         "Minutes": 0,
         "Seconds": 0
@@ -673076,10 +674001,23 @@
             ]
           },
           "ActionGuid": "32e0af1121e84d05a401ad20b5236bd3",
-          "ActionId": 3000001
+          "ActionId": 3000001,
+          "Disabled": true
         }
       ],
-      "FinishActions": [],
+      "FinishActions": [
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": false,
+            "EntityIds": [
+              189700022
+            ]
+          },
+          "ActionGuid": "e28a5fa1ccfa4f97b97de32648a9dd55",
+          "ActionId": 3000013
+        }
+      ],
       "ParentNodeId": 1
     }
   },
@@ -683326,6 +684264,16 @@
           },
           "ActionGuid": "df95a4f2303d4bc7b62f63de28eb10d3",
           "ActionId": 3000195
+        },
+        {
+          "Name": "RemoveBuffFromPlayer",
+          "Params": {
+            "BuffIds": [
+              611640005
+            ]
+          },
+          "ActionGuid": "e6b54bfdfe814ccc9146e096fc65558a",
+          "ActionId": 3000318
         }
       ],
       "ParentNodeId": 211
@@ -700421,6 +701369,25 @@
           "ActionId": 3000140
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "FinishCondition",
+                "Params": {},
+                "ActionGuid": "5ab6ad5775654d36aa2ce62e8ad7d6f3",
+                "ActionId": 3000192
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -702023,6 +702990,39 @@
         ]
       },
       "DisableOnline": true,
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnActivated",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckLevelPlayState",
+                  "LevelId": 146700014,
+                  "Compare": "Eq",
+                  "State": 0
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "EnableLevelPlay",
+                "Params": {
+                  "Configs": [
+                    {
+                      "LevelPlayId": 146700014,
+                      "Enable": true
+                    }
+                  ]
+                },
+                "ActionGuid": "e559bb23180246709d6482db0d4ed028",
+                "ActionId": 3000204
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -713662,6 +714662,27 @@
           "ActionId": 3000200
         }
       ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": []
+            },
+            "ThenActions": [
+              {
+                "Name": "SetPlayerOperationRestriction",
+                "Params": {
+                  "Type": "EnableAll"
+                },
+                "ActionGuid": "8c920b1f9251404292230e002c80c750",
+                "ActionId": 3000316
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 58
     }
   },
@@ -736865,6 +737886,42 @@
       ],
       "HideUi": true,
       "HideTip": true,
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "OnProgress",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckVehicleCondition",
+                  "Condition": {
+                    "Type": "PlayerInVehicle",
+                    "CheckType": false
+                  }
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "VehicleEnter",
+                "Params": {
+                  "EnteringTarget": {
+                    "Type": "Player"
+                  },
+                  "Seat": 0,
+                  "VehicleTarget": {
+                    "Type": "Appointed",
+                    "VehicleId": 164700143
+                  }
+                },
+                "ActionGuid": "67ee4f6c0cd44cd7af63f5406fa9e74f",
+                "ActionId": 3000315
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 304
     }
   },

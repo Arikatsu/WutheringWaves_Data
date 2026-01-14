@@ -238369,15 +238369,15 @@
   {
     "Id": "SM_ML1ShiXiangGuiMd00201_NewTower",
     "StateMachineJson": {
-      "Version": 651667371,
+      "Version": 1492763210,
       "StateMachines": [
         8,
         12,
         18,
         24,
         32,
-        63,
-        67
+        64,
+        68
       ],
       "Nodes": [
         {
@@ -238716,9 +238716,12 @@
               "Conditions": [
                 {
                   "Index": 0,
-                  "Name": "CondHate",
-                  "Type": 20,
-                  "Reverse": true
+                  "Name": "CondCheckState",
+                  "Type": 19,
+                  "Reverse": false,
+                  "CondCheckState": {
+                    "TargetState": 63
+                  }
                 }
               ]
             },
@@ -239599,7 +239602,8 @@
           "Children": [
             33,
             34,
-            62
+            62,
+            63
           ],
           "Transitions": [
             {
@@ -239629,6 +239633,36 @@
                   "Name": "CondHate",
                   "Type": 20,
                   "Reverse": false
+                }
+              ]
+            },
+            {
+              "From": 34,
+              "To": 63,
+              "TransitionPredictionType": 0,
+              "Weight": 0,
+              "Conditions": [
+                {
+                  "Index": 0,
+                  "Name": "CondHate",
+                  "Type": 20,
+                  "Reverse": true
+                }
+              ]
+            },
+            {
+              "From": 63,
+              "To": 33,
+              "TransitionPredictionType": 0,
+              "Weight": 0,
+              "Conditions": [
+                {
+                  "Index": 0,
+                  "Name": "CondTaskFinish",
+                  "Type": 101,
+                  "Reverse": false,
+                  "IsClient": true,
+                  "CondTaskFinish": {}
                 }
               ]
             }
@@ -241123,18 +241157,62 @@
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
+          "Name": "脱战",
+          "TakeControlType": 0,
+          "TransitionRule": 0,
+          "Task": {
+            "Name": "TaskLeaveFight",
+            "Type": 101,
+            "CanBeInterrupt": false,
+            "TaskLeaveFight": {
+              "MaxStopTime": 0,
+              "BlinkTime": 0,
+              "UsePatrolPointPriority": false
+            }
+          },
+          "OnExitActions": [
+            {
+              "Name": "ActionResetStatus",
+              "Type": 7,
+              "ActionResetStatus": {}
+            },
+            {
+              "Name": "ActionDispatchEvent",
+              "Type": 15,
+              "ActionDispatchEvent": {
+                "Event": "C脱战退出"
+              }
+            }
+          ],
+          "BindStates": [
+            {
+              "Name": "BindTag",
+              "Type": 3,
+              "BindTag": {
+                "TagId": -13489149
+              }
+            }
+          ],
+          "Children": [],
+          "Transitions": []
+        },
+        {
+          "Uuid": 64,
+          "IsAnimStateMachine": false,
+          "IsConduitNode": false,
+          "IsAnyState": false,
           "Name": "外观状态机",
           "TakeControlType": 0,
           "TransitionRule": 0,
           "Children": [
-            64,
             65,
-            66
+            66,
+            67
           ],
           "Transitions": [
             {
-              "From": 64,
-              "To": 66,
+              "From": 65,
+              "To": 67,
               "TransitionPredictionType": 1,
               "Weight": 0,
               "Conditions": [
@@ -241152,8 +241230,8 @@
               ]
             },
             {
-              "From": 64,
-              "To": 65,
+              "From": 65,
+              "To": 66,
               "TransitionPredictionType": 1,
               "Weight": 0,
               "Conditions": [
@@ -241173,7 +241251,7 @@
           ]
         },
         {
-          "Uuid": 64,
+          "Uuid": 65,
           "IsAnimStateMachine": false,
           "IsConduitNode": true,
           "IsAnyState": false,
@@ -241182,7 +241260,7 @@
           "TransitionRule": 0
         },
         {
-          "Uuid": 65,
+          "Uuid": 66,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -241213,7 +241291,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 66,
+          "Uuid": 67,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -241244,7 +241322,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 67,
+          "Uuid": 68,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -241252,13 +241330,13 @@
           "TakeControlType": 0,
           "TransitionRule": 0,
           "Children": [
-            68,
-            69
+            69,
+            70
           ],
           "Transitions": [
             {
-              "From": 68,
-              "To": 69,
+              "From": 69,
+              "To": 70,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -241295,8 +241373,8 @@
               ]
             },
             {
-              "From": 69,
-              "To": 68,
+              "From": 70,
+              "To": 69,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -241335,7 +241413,7 @@
           ]
         },
         {
-          "Uuid": 68,
+          "Uuid": 69,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -241346,7 +241424,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 69,
+          "Uuid": 70,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -241354,14 +241432,14 @@
           "TakeControlType": 0,
           "TransitionRule": 0,
           "Children": [
-            70,
             71,
-            73
+            72,
+            74
           ],
           "Transitions": [
             {
-              "From": 71,
-              "To": 73,
+              "From": 72,
+              "To": 74,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -241398,8 +241476,8 @@
               ]
             },
             {
-              "From": 73,
-              "To": 71,
+              "From": 74,
+              "To": 72,
               "TransitionPredictionType": 0,
               "Weight": 0,
               "Conditions": [
@@ -241436,8 +241514,8 @@
               ]
             },
             {
-              "From": 70,
-              "To": 73,
+              "From": 71,
+              "To": 74,
               "TransitionPredictionType": 1,
               "Weight": 0,
               "Conditions": [
@@ -241474,8 +241552,8 @@
               ]
             },
             {
-              "From": 70,
-              "To": 71,
+              "From": 71,
+              "To": 72,
               "TransitionPredictionType": 1,
               "Weight": 0,
               "Conditions": [
@@ -241514,7 +241592,7 @@
           ]
         },
         {
-          "Uuid": 70,
+          "Uuid": 71,
           "IsAnimStateMachine": false,
           "IsConduitNode": true,
           "IsAnyState": false,
@@ -241523,7 +241601,7 @@
           "TransitionRule": 0
         },
         {
-          "Uuid": 71,
+          "Uuid": 72,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -241540,12 +241618,12 @@
             }
           ],
           "Children": [
-            72
+            73
           ],
           "Transitions": []
         },
         {
-          "Uuid": 72,
+          "Uuid": 73,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -241556,7 +241634,7 @@
           "Transitions": []
         },
         {
-          "Uuid": 73,
+          "Uuid": 74,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,
@@ -241573,12 +241651,12 @@
             }
           ],
           "Children": [
-            74
+            75
           ],
           "Transitions": []
         },
         {
-          "Uuid": 74,
+          "Uuid": 75,
           "IsAnimStateMachine": false,
           "IsConduitNode": false,
           "IsAnyState": false,

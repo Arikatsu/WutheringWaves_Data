@@ -87642,7 +87642,17 @@
     },
     "Icon": "",
     "TidContent": "",
-    "Condition": "",
+    "Condition": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "CompareEntityState",
+          "EntityId": 693700122,
+          "Compare": "Eq",
+          "State": "关卡.电梯.停靠"
+        }
+      ]
+    },
     "UniquenessTest": "",
     "DoIntactType": "Direct",
     "Range": 0,
@@ -92474,7 +92484,7 @@
     "TidContent": "Quest_189700011_InteractContent_189_2",
     "Condition": "",
     "UniquenessTest": "",
-    "DoIntactType": "Direct",
+    "DoIntactType": "Option",
     "Range": 0,
     "Duration": "",
     "OptionLockTypeList": "[\"OnMotor\"]"
@@ -92493,7 +92503,7 @@
     "TidContent": "Quest_189700013_InteractContent_189_2",
     "Condition": "",
     "UniquenessTest": "",
-    "DoIntactType": "Direct",
+    "DoIntactType": "Option",
     "Range": 0,
     "Duration": "",
     "OptionLockTypeList": "[\"OnMotor\"]"
@@ -98284,11 +98294,90 @@
     "Guid": "42fc41cc0ec849879479dd349219aad6",
     "Type": {
       "Type": "Actions",
-      "Actions": []
+      "Actions": [
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "b9dea93166304232949394e3a055717b",
+          "ActionId": 4000066
+        },
+        {
+          "Name": "SetPlayerPos",
+          "Params": {
+            "TelePortConfig": {
+              "Type": 0,
+              "TargetPos": {
+                "X": 125802.51,
+                "Y": -392548.56,
+                "Z": 18946.88,
+                "A": 155.59
+              }
+            },
+            "TransitionOption": {
+              "Type": "CustomScreen",
+              "ScreenType": {
+                "Type": "Spine",
+                "SpineId": 700002
+              },
+              "FadeInEffect": {
+                "FadeInEffect": {
+                  "Type": "Black",
+                  "FadeColor": "Black",
+                  "FadeInTime": 0,
+                  "FadeOutTime": 0.5
+                }
+              },
+              "KeepTime": 1
+            }
+          },
+          "ActionGuid": "b3742fd28c8a4ee59082a75d37114481",
+          "ActionId": 4000067
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "",
-    "Condition": "",
+    "Condition": {
+      "Type": 1,
+      "Conditions": [
+        {
+          "Type": "CompareVar",
+          "Var1": {
+            "Type": "Int",
+            "Source": "Other",
+            "RefType": "LevelPlay",
+            "RefId": 146700006,
+            "Name": "失败次数"
+          },
+          "Compare": "Lt",
+          "Var2": {
+            "Type": "Int",
+            "Source": "Constant",
+            "Value": 5
+          }
+        },
+        {
+          "Type": "CompareVar",
+          "Var1": {
+            "Type": "Boolean",
+            "Source": "Global",
+            "Keyword": "Test1"
+          },
+          "Compare": "Eq",
+          "Var2": {
+            "Type": "Boolean",
+            "Source": "Constant",
+            "Value": false
+          }
+        }
+      ]
+    },
     "UniquenessTest": "",
     "DoIntactType": "Direct",
     "Range": 0,
@@ -98299,11 +98388,90 @@
     "Guid": "f873f25bd36d43099d19687f7eefecfe",
     "Type": {
       "Type": "Actions",
-      "Actions": []
+      "Actions": [
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "aa80ab6035aa4604832974bac5895473",
+          "ActionId": 4000063
+        },
+        {
+          "Name": "SetPlayerPos",
+          "Params": {
+            "TelePortConfig": {
+              "Type": 0,
+              "TargetPos": {
+                "X": -52589.36,
+                "Y": -643786.25,
+                "Z": 29922.91,
+                "A": 35.59
+              }
+            },
+            "TransitionOption": {
+              "Type": "CustomScreen",
+              "ScreenType": {
+                "Type": "Spine",
+                "SpineId": 700002
+              },
+              "FadeInEffect": {
+                "FadeInEffect": {
+                  "Type": "Black",
+                  "FadeColor": "Black",
+                  "FadeInTime": 0,
+                  "FadeOutTime": 0.5
+                }
+              },
+              "KeepTime": 1
+            }
+          },
+          "ActionGuid": "c37cbd87b7dc49a6afcd17318d7e81b2",
+          "ActionId": 4000064
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "",
-    "Condition": "",
+    "Condition": {
+      "Type": 1,
+      "Conditions": [
+        {
+          "Type": "CompareVar",
+          "Var1": {
+            "Type": "Int",
+            "Source": "Other",
+            "RefType": "LevelPlay",
+            "RefId": 146700010,
+            "Name": "失败次数"
+          },
+          "Compare": "Lt",
+          "Var2": {
+            "Type": "Int",
+            "Source": "Constant",
+            "Value": 5
+          }
+        },
+        {
+          "Type": "CompareVar",
+          "Var1": {
+            "Type": "Int",
+            "Source": "Global",
+            "Keyword": "Test2"
+          },
+          "Compare": "Eq",
+          "Var2": {
+            "Type": "Int",
+            "Source": "Constant",
+            "Value": 0
+          }
+        }
+      ]
+    },
     "UniquenessTest": "",
     "DoIntactType": "Direct",
     "Range": 0,
@@ -99012,11 +99180,90 @@
     "Guid": "f47112e81f444c6fad9ef06444e58fc2",
     "Type": {
       "Type": "Actions",
-      "Actions": []
+      "Actions": [
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "2a1eadcc06a9450eb717f13fe9506d14",
+          "ActionId": 4000030
+        },
+        {
+          "Name": "SetPlayerPos",
+          "Params": {
+            "TelePortConfig": {
+              "Type": 0,
+              "TargetPos": {
+                "X": 128217.76,
+                "Y": -807487.25,
+                "Z": 1342.91,
+                "A": 25.59
+              }
+            },
+            "TransitionOption": {
+              "Type": "CustomScreen",
+              "ScreenType": {
+                "Type": "Spine",
+                "SpineId": 700002
+              },
+              "FadeInEffect": {
+                "FadeInEffect": {
+                  "Type": "Black",
+                  "FadeColor": "Black",
+                  "FadeInTime": 0,
+                  "FadeOutTime": 0.5
+                }
+              },
+              "KeepTime": 1
+            }
+          },
+          "ActionGuid": "d10a093a764b4818ab789a8c1750c31c",
+          "ActionId": 4000031
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "",
-    "Condition": "",
+    "Condition": {
+      "Type": 1,
+      "Conditions": [
+        {
+          "Type": "CompareVar",
+          "Var1": {
+            "Type": "Int",
+            "Source": "Other",
+            "RefType": "LevelPlay",
+            "RefId": 938700039,
+            "Name": "失败次数"
+          },
+          "Compare": "Lt",
+          "Var2": {
+            "Type": "Int",
+            "Source": "Constant",
+            "Value": 5
+          }
+        },
+        {
+          "Type": "CompareVar",
+          "Var1": {
+            "Type": "Int",
+            "Source": "Global",
+            "Keyword": "已找回的呜獭獭数量"
+          },
+          "Compare": "Ne",
+          "Var2": {
+            "Type": "Int",
+            "Source": "Constant",
+            "Value": 0
+          }
+        }
+      ]
+    },
     "UniquenessTest": "",
     "DoIntactType": "Direct",
     "Range": 0,
