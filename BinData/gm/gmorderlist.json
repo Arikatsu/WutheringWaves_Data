@@ -1729,7 +1729,11 @@
       "add_new_role_config 14011",
       "add_new_role_config 14005",
       "add_new_role_config 14001",
-      "add_new_role_config 14002"
+      "add_new_role_config 14002",
+      "add_new_role_config 14047",
+      "add_new_role_config 14048",
+      "add_new_role_config 14053",
+      "add_new_role_config 14050"
     ]
   },
   {
@@ -2178,7 +2182,7 @@
   },
   {
     "Id": 171,
-    "Name": "一键解锁3.0 bvb-所有前置",
+    "Name": "一键解锁3.0&3.1 bvb-所有前置",
     "OrderList": [
       "AddItem#72010042",
       "10000",
@@ -2200,7 +2204,18 @@
       "gmsetplayerallconditiongroupcomplete 12903152",
       "gmsetplayerallconditiongroupcomplete 12903153",
       "gmsetplayerallconditiongroupcomplete 12903154",
-      "gmsetplayerallconditiongroupcomplete 12903156"
+      "gmsetplayerallconditiongroupcomplete 12903156",
+      "gmsetplayerallconditiongroupcomplete 1000020",
+      "gmsetplayerallconditiongroupcomplete 12903173",
+      "gmsetplayerallconditiongroupcomplete 12903174",
+      "gmsetplayerallconditiongroupcomplete 12903175"
+    ]
+  },
+  {
+    "Id": 172,
+    "Name": "陆赫斯90",
+    "OrderList": [
+      "add_new_role_config 14053"
     ]
   },
   {
@@ -2244,6 +2259,59 @@
       "AddItem#80700002",
       "10000",
       "AddItem#80700003"
+    ]
+  },
+  {
+    "Id": 177,
+    "Name": "3.1抽鬼牌-解锁所有关卡，打开选人界面",
+    "OrderList": [
+      "gmopenactivity 107900001 1",
+      "gmswitchbigworld 9903",
+      "0",
+      "0",
+      "100",
+      "GmJokerSetJoin 1010 1",
+      "GmJokerSetJoin 1020 1",
+      "GmJokerSetJoin 1030 1",
+      "StartGuessJokerSelectRole#1010"
+    ]
+  },
+  {
+    "Id": 178,
+    "Name": "3.1抽鬼牌-不传送，打开选人界面",
+    "OrderList": [
+      "gmopenactivity 107900001 1",
+      "GmJokerSetJoin 1010 1",
+      "GmJokerSetJoin 1020 1",
+      "GmJokerSetJoin 1030 1",
+      "StartGuessJokerSelectRole#1010"
+    ]
+  },
+  {
+    "Id": 179,
+    "Name": "3.1抽鬼牌-不传送，不复刷",
+    "OrderList": [
+      "gmopenactivity 107900001 1",
+      "StartGuessJokerSelectRole#1010"
+    ]
+  },
+  {
+    "Id": 180,
+    "Name": "3.1抽鬼牌-传送，不复刷",
+    "OrderList": [
+      "gmopenactivity 107900001 1",
+      "gmswitchbigworld 9903",
+      "0",
+      "0",
+      "100",
+      "StartGuessJokerSelectRole#1010"
+    ]
+  },
+  {
+    "Id": 167,
+    "Name": "爱弥斯90",
+    "OrderList": [
+      "add_new_role_config 14050"
     ]
   }
 ]

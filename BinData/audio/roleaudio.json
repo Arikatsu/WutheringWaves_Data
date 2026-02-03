@@ -1185,8 +1185,8 @@
       "play_vo_shouanren_sys_rankup04",
       "play_vo_shouanren_sys_rankup05"
     ],
-    "ExtremeDodgeEvent": "",
-    "ParryEvent": "",
+    "ExtremeDodgeEvent": "play_vo_shouanren_com_limitdodge",
+    "ParryEvent": "play_vo_shouanren_com_parry",
     "EnterBattleEvent": "play_vo_shouanren_com_engage",
     "UnderAttackEvent": "play_vo_shouanren_com_behit",
     "KnockUpEvent": "play_vo_shouanren_com_behitfly",
@@ -2436,5 +2436,373 @@
     "UseExploreHookEvent": "play_vo_moning_com_hook",
     "ClimbLeapEvent": "play_vo_moning_com_jump",
     "AccelerateEvent": "play_vo_moning_com_accelerate"
+  },
+  {
+    "Id": 81001210,
+    "Name": "aimisi",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_chixia",
+    "FastClimbEvent": "play_vo_aimisi_com_fastclimb",
+    "VisionMorphEvent": "play_vo_aimisi_com_hxchange",
+    "VisionSummonEvent": "play_vo_aimisi_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_aimisi_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_aimisi_com_scan",
+    "JoinTeamEvent": "play_vo_aimisi_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_aimisi_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_aimisi_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_aimisi_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_aimisi_com_die",
+    "LowStrengthEvent": "play_vo_aimisi_com_tired",
+    "BreakUpEventList": [
+      "play_vo_aimisi_sys_rankup01",
+      "play_vo_aimisi_sys_rankup01",
+      "play_vo_aimisi_sys_rankup02",
+      "play_vo_aimisi_sys_rankup03",
+      "play_vo_aimisi_sys_rankup04",
+      "play_vo_aimisi_sys_rankup05",
+      "play_vo_aimisi_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_aimisi_com_limitdodge",
+    "ParryEvent": "play_vo_aimisi_com_parry",
+    "EnterBattleEvent": "play_vo_aimisi_com_engage",
+    "UnderAttackEvent": "play_vo_aimisi_com_behit",
+    "KnockUpEvent": "play_vo_aimisi_com_behitfly",
+    "EnterGlideEvent": "play_vo_aimisi_com_fly",
+    "UseExploreHookEvent": "play_vo_aimisi_com_hook",
+    "ClimbLeapEvent": "play_vo_aimisi_com_jump",
+    "AccelerateEvent": "play_vo_aimisi_com_accelerate"
+  },
+  {
+    "Id": 81001510,
+    "Name": "luhesi",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_kakaluo",
+    "FastClimbEvent": "play_vo_luhesi_com_fastclimb",
+    "VisionMorphEvent": "play_vo_luhesi_com_hxchange",
+    "VisionSummonEvent": "play_vo_luhesi_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_luhesi_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_luhesi_com_scan",
+    "JoinTeamEvent": "play_vo_luhesi_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_luhesi_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_luhesi_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_luhesi_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_luhesi_com_die",
+    "LowStrengthEvent": "play_vo_luhesi_com_tired",
+    "BreakUpEventList": [
+      "play_vo_luhesi_sys_rankup01",
+      "play_vo_luhesi_sys_rankup01",
+      "play_vo_luhesi_sys_rankup02",
+      "play_vo_luhesi_sys_rankup03",
+      "play_vo_luhesi_sys_rankup04",
+      "play_vo_luhesi_sys_rankup05",
+      "play_vo_luhesi_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_luhesi_com_limitdodge",
+    "ParryEvent": "play_vo_luhesi_com_parry",
+    "EnterBattleEvent": "play_vo_luhesi_com_engage",
+    "UnderAttackEvent": "play_vo_luhesi_com_behit",
+    "KnockUpEvent": "play_vo_luhesi_com_behitfly",
+    "EnterGlideEvent": "play_vo_luhesi_com_fly",
+    "UseExploreHookEvent": "play_vo_luhesi_com_hook",
+    "ClimbLeapEvent": "play_vo_luhesi_com_jump",
+    "AccelerateEvent": "play_vo_luhesi_com_accelerate"
+  },
+  {
+    "Id": 81011501,
+    "Name": "nanzhu",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_nanzhu",
+    "FastClimbEvent": "play_vo_nanzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nanzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nanzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nanzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nanzhu_scan",
+    "JoinTeamEvent": "play_vo_nanzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nanzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nanzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nanzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nanzhu_die",
+    "LowStrengthEvent": "play_vo_nanzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup03",
+      "play_vo_nanzhu_rankup04",
+      "play_vo_nanzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nanzhu_evasion_success",
+    "ParryEvent": "play_vo_nanzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nanzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nanzhu_behit",
+    "KnockUpEvent": "play_vo_nanzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nanzhu_fly",
+    "UseExploreHookEvent": "play_vo_nanzhu_hook",
+    "ClimbLeapEvent": "play_vo_nanzhu_jump",
+    "AccelerateEvent": "play_vo_nanzhu_com_accelerate"
+  },
+  {
+    "Id": 81011502,
+    "Name": "nvzhu",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_nvzhu",
+    "FastClimbEvent": "play_vo_nvzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nvzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nvzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nvzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nvzhu_scan",
+    "JoinTeamEvent": "play_vo_nvzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nvzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nvzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nvzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nvzhu_die",
+    "LowStrengthEvent": "play_vo_nvzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup03",
+      "play_vo_nvzhu_rankup04",
+      "play_vo_nvzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nvzhu_evasion_success",
+    "ParryEvent": "play_vo_nvzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nvzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nvzhu_behit",
+    "KnockUpEvent": "play_vo_nvzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nvzhu_fly",
+    "UseExploreHookEvent": "play_vo_nvzhu_hook",
+    "ClimbLeapEvent": "play_vo_nvzhu_jump",
+    "AccelerateEvent": "play_vo_nvzhu_com_accelerate"
+  },
+  {
+    "Id": 81011605,
+    "Name": "nanzhu",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_nanzhu",
+    "FastClimbEvent": "play_vo_nanzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nanzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nanzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nanzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nanzhu_scan",
+    "JoinTeamEvent": "play_vo_nanzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nanzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nanzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nanzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nanzhu_die",
+    "LowStrengthEvent": "play_vo_nanzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup03",
+      "play_vo_nanzhu_rankup04",
+      "play_vo_nanzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nanzhu_evasion_success",
+    "ParryEvent": "play_vo_nanzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nanzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nanzhu_behit",
+    "KnockUpEvent": "play_vo_nanzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nanzhu_fly",
+    "UseExploreHookEvent": "play_vo_nanzhu_hook",
+    "ClimbLeapEvent": "play_vo_nanzhu_jump",
+    "AccelerateEvent": "play_vo_nanzhu_com_accelerate"
+  },
+  {
+    "Id": 81011604,
+    "Name": "nvzhu",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_nvzhu",
+    "FastClimbEvent": "play_vo_nvzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nvzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nvzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nvzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nvzhu_scan",
+    "JoinTeamEvent": "play_vo_nvzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nvzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nvzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nvzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nvzhu_die",
+    "LowStrengthEvent": "play_vo_nvzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup03",
+      "play_vo_nvzhu_rankup04",
+      "play_vo_nvzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nvzhu_evasion_success",
+    "ParryEvent": "play_vo_nvzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nvzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nvzhu_behit",
+    "KnockUpEvent": "play_vo_nvzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nvzhu_fly",
+    "UseExploreHookEvent": "play_vo_nvzhu_hook",
+    "ClimbLeapEvent": "play_vo_nvzhu_jump",
+    "AccelerateEvent": "play_vo_nvzhu_com_accelerate"
+  },
+  {
+    "Id": 81011406,
+    "Name": "nanzhu",
+    "FootstepEvent": "role_footstep_boots",
+    "FoleyEvent": "role_foley_nanzhu",
+    "FastClimbEvent": "play_vo_nanzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nanzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nanzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nanzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nanzhu_scan",
+    "JoinTeamEvent": "play_vo_nanzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nanzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nanzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nanzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nanzhu_die",
+    "LowStrengthEvent": "play_vo_nanzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup01",
+      "play_vo_nanzhu_rankup02",
+      "play_vo_nanzhu_rankup03",
+      "play_vo_nanzhu_rankup04",
+      "play_vo_nanzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nanzhu_evasion_success",
+    "ParryEvent": "play_vo_nanzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nanzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nanzhu_behit",
+    "KnockUpEvent": "play_vo_nanzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nanzhu_fly",
+    "UseExploreHookEvent": "play_vo_nanzhu_hook",
+    "ClimbLeapEvent": "play_vo_nanzhu_jump",
+    "AccelerateEvent": "play_vo_nanzhu_com_accelerate"
+  },
+  {
+    "Id": 81011408,
+    "Name": "nvzhu",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_nvzhu",
+    "FastClimbEvent": "play_vo_nvzhu_fast_run",
+    "VisionMorphEvent": "play_vo_nvzhu_hx_change",
+    "VisionSummonEvent": "play_vo_nvzhu_hx_summon",
+    "OpenTreasureBoxEvent": "play_vo_nvzhu_chest",
+    "ScanTreasureBoxEvent": "play_vo_nvzhu_scan",
+    "JoinTeamEvent": "play_vo_nvzhu_join_team",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_nvzhu_hp70"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_nvzhu_hp50"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_nvzhu_hp30"
+      }
+    ],
+    "DeathEvent": "play_vo_nvzhu_die",
+    "LowStrengthEvent": "play_vo_nvzhu_tired",
+    "BreakUpEventList": [
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup01",
+      "play_vo_nvzhu_rankup02",
+      "play_vo_nvzhu_rankup03",
+      "play_vo_nvzhu_rankup04",
+      "play_vo_nvzhu_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_nvzhu_evasion_success",
+    "ParryEvent": "play_vo_nvzhu_parry_success",
+    "EnterBattleEvent": "play_vo_nvzhu_enter_battle",
+    "UnderAttackEvent": "play_vo_nvzhu_behit",
+    "KnockUpEvent": "play_vo_nvzhu_behit_fly",
+    "EnterGlideEvent": "play_vo_nvzhu_fly",
+    "UseExploreHookEvent": "play_vo_nvzhu_hook",
+    "ClimbLeapEvent": "play_vo_nvzhu_jump",
+    "AccelerateEvent": "play_vo_nvzhu_com_accelerate"
   }
 ]
