@@ -46484,7 +46484,7 @@
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 0,
+    "ActionExecuteFlag": 1,
     "CDType": "Owner"
   },
   {
@@ -46792,7 +46792,7 @@
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 1,
+    "ActionExecuteFlag": 0,
     "CDType": "Owner"
   },
   {
@@ -46819,7 +46819,7 @@
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 1,
+    "ActionExecuteFlag": 0,
     "CDType": "Owner"
   },
   {
@@ -46847,7 +46847,7 @@
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 1,
+    "ActionExecuteFlag": 0,
     "CDType": "Owner"
   },
   {
@@ -46875,7 +46875,7 @@
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 1,
+    "ActionExecuteFlag": 0,
     "CDType": "Owner"
   },
   {
@@ -46903,7 +46903,7 @@
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 1,
+    "ActionExecuteFlag": 0,
     "CDType": "Owner"
   },
   {
@@ -46931,7 +46931,7 @@
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 1,
+    "ActionExecuteFlag": 0,
     "CDType": "Owner"
   },
   {
@@ -46962,7 +46962,7 @@
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 1,
+    "ActionExecuteFlag": 0,
     "CDType": "Owner"
   },
   {
@@ -48280,7 +48280,7 @@
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 1,
+    "ActionExecuteFlag": 0,
     "CDType": "Owner"
   },
   {
@@ -49313,7 +49313,7 @@
     "SkillActionParams": [],
     "ActionScriptParams": {},
     "SkillActionScript": "AddBuff2(Victim,1510010121, 1, Owner)",
-    "ActionExecuteFlag": 0,
+    "ActionExecuteFlag": 1,
     "CDType": "Owner"
   },
   {
@@ -49693,6 +49693,100 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "80035002"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 1210071310,
+    "SkillDesc": "监听-前台机甲移除禁空闪BUFF",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.前台",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags1": [
+        "角色.2f8a917e.状态.b8d1898e",
+        "角色.Common.技能通用标识.闪避禁止"
+      ]
+    },
+    "TriggerFormula": "MatchAllTags(Owner,CheckOwnerTags1)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "1101004005"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 1210071311,
+    "SkillDesc": "监听-切换移除禁空闪BUFF",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.2f8a917e.状态.b8d1898e",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": {
+      "CheckOwnerTags1": [
+        "角色.Common.技能通用标识.闪避禁止"
+      ]
+    },
+    "TriggerFormula": "MatchAllTags(Owner,CheckOwnerTags1)",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "1101004005"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 1210999998,
+    "SkillDesc": "待机tag刷新监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.Common.c8a7b6be.2991c335",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1210999999"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",

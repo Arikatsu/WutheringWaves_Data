@@ -103654,12 +103654,18 @@
   {
     "Guid": "430abeaf3a9e478781f02c90461a7290",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_1_冰封王座玩法",
-        "FlowId": 7,
-        "StateId": 5
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "InformationView",
+            "BoardId": 31011011
+          },
+          "ActionId": 4000056,
+          "Async": false
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "",
