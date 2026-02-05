@@ -790213,7 +790213,22 @@
       "Id": 378,
       "Desc": "",
       "SaveConfig": {
-        "DisableRollbackWhileReconnect": true
+        "DisableRollbackWhileReconnect": true,
+        "EnterActions": [
+          {
+            "Name": "EnableLevelPlay",
+            "Params": {
+              "Configs": [
+                {
+                  "LevelPlayId": 131750000,
+                  "Enable": false
+                }
+              ]
+            },
+            "ActionGuid": "86570608c80345bab01b4549314e6b4e",
+            "ActionId": 3000117
+          }
+        ]
       },
       "ParentNodeId": 337
     }
