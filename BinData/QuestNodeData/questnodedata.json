@@ -474265,6 +474265,14 @@
       "Type": "Sequence",
       "Id": 1,
       "Desc": "",
+      "OccupationConfig": {
+        "TidDesc": "Quest_311000002_OccupyDesc_42_3",
+        "Occupations": [
+          "yixin"
+        ],
+        "ReclaimOccupationWhenEnter": true
+      },
+      "DisableSwitchOccupation": true,
       "ParentNodeId": 0
     }
   },
@@ -641455,6 +641463,96 @@
       "Type": "Sequence",
       "Id": 57,
       "Desc": "阿漂在小屋",
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -11076,
+                      "Y": -783752,
+                      "Z": -2290
+                    },
+                    "Size": {
+                      "X": 500,
+                      "Y": 500,
+                      "Z": 300
+                    },
+                    "Rotator": {
+                      "Z": -42
+                    }
+                  },
+                  "IsOnRange": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -12950,
+                    "Y": -782790,
+                    "Z": -2610,
+                    "A": -40
+                  }
+                },
+                "ActionGuid": "8b2875d908a6455bb806c48056521f51",
+                "ActionId": 3000285
+              }
+            ]
+          },
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -11260,
+                      "Y": -782560,
+                      "Z": -1630
+                    },
+                    "Size": {
+                      "X": 180,
+                      "Y": 240,
+                      "Z": 360
+                    },
+                    "Rotator": {
+                      "Z": -48
+                    }
+                  },
+                  "IsOnRange": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -12950,
+                    "Y": -782790,
+                    "Z": -2610,
+                    "A": -40
+                  }
+                },
+                "ActionGuid": "e45301bbbf6a4d0585e211bd7d6747ed",
+                "ActionId": 3000286
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
@@ -729148,6 +729246,12 @@
         ]
       },
       "DisableFocusMode": true,
+      "OccupationConfig": {
+        "TidDesc": "Quest_690000001_OccupyDesc_42_3",
+        "Occupations": [
+          "yixin"
+        ]
+      },
       "ParentNodeId": 39
     }
   },
@@ -750612,11 +750716,11 @@
       "Condition": {
         "Type": "ReachArea",
         "Pos": {
-          "X": -40,
-          "Y": 5870,
+          "X": -3.2,
+          "Y": 5469.86,
           "Z": 160
         },
-        "Range": 400
+        "Range": 650
       },
       "TidTip": "Quest_162750010_ChildQuestTip_162_1",
       "TrackTarget": {
@@ -773735,6 +773839,96 @@
           "CheckLeaveRange": 2000
         }
       },
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -11076,
+                      "Y": -783752,
+                      "Z": -2290
+                    },
+                    "Size": {
+                      "X": 500,
+                      "Y": 500,
+                      "Z": 300
+                    },
+                    "Rotator": {
+                      "Z": -42
+                    }
+                  },
+                  "IsOnRange": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -12950,
+                    "Y": -782790,
+                    "Z": -2610,
+                    "A": -40
+                  }
+                },
+                "ActionGuid": "b6c916977d904677adc42881e072e91f",
+                "ActionId": 3000282
+              }
+            ]
+          },
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -11260,
+                      "Y": -782560,
+                      "Z": -1630
+                    },
+                    "Size": {
+                      "X": 180,
+                      "Y": 240,
+                      "Z": 360
+                    },
+                    "Rotator": {
+                      "Z": -48
+                    }
+                  },
+                  "IsOnRange": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -12950,
+                    "Y": -782790,
+                    "Z": -2610,
+                    "A": -40
+                  }
+                },
+                "ActionGuid": "aabe95093ccb49ce9503d5343f2f7d1e",
+                "ActionId": 3000283
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 196
     }
   },
@@ -778560,6 +778754,96 @@
       "Desc": "",
       "SaveConfig": {},
       "DisableFocusMode": true,
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -11076,
+                      "Y": -783752,
+                      "Z": -2290
+                    },
+                    "Size": {
+                      "X": 500,
+                      "Y": 500,
+                      "Z": 300
+                    },
+                    "Rotator": {
+                      "Z": -42
+                    }
+                  },
+                  "IsOnRange": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -12950,
+                    "Y": -782790,
+                    "Z": -2610,
+                    "A": -40
+                  }
+                },
+                "ActionGuid": "ba65b4d1fc984d02be583de160644e90",
+                "ActionId": 3000280
+              }
+            ]
+          },
+          {
+            "Timing": "Default",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckPlayerPosition",
+                  "Range": {
+                    "Type": "BoxRange",
+                    "Pos": {
+                      "X": -11260,
+                      "Y": -782560,
+                      "Z": -1630
+                    },
+                    "Size": {
+                      "X": 180,
+                      "Y": 240,
+                      "Z": 360
+                    },
+                    "Rotator": {
+                      "Z": -48
+                    }
+                  },
+                  "IsOnRange": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "ServerSetPlayerPos",
+                "Params": {
+                  "Pos": {
+                    "X": -12950,
+                    "Y": -782790,
+                    "Z": -2610,
+                    "A": -40
+                  }
+                },
+                "ActionGuid": "da44c8d558fa40dab871578f8bc502ce",
+                "ActionId": 3000281
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 55
     }
   },
