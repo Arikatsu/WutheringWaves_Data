@@ -26656,26 +26656,31 @@
     ],
     "Param1": [
       {
-        "Key": "SeasonId",
+        "Key": "Id",
         "Value": "Int"
       }
     ],
-    "DefaultParam1": "",
+    "DefaultParam1": "-1",
     "Param2": [
       {
-        "Key": "Level",
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "0",
+    "Param3": [
+      {
+        "Key": "Difficulty",
         "Value": "Int"
       }
     ],
-    "DefaultParam2": "",
-    "Param3": [
+    "DefaultParam3": "-1",
+    "Param4": [
       {
         "Key": "Num",
         "Value": "Int"
       }
     ],
-    "DefaultParam3": "",
-    "Param4": [],
     "DefaultParam4": "",
     "Param5": [],
     "DefaultParam5": "",
@@ -27116,27 +27121,32 @@
     ],
     "Param1": [
       {
-        "Key": "SeasonId",
+        "Key": "Id",
         "Value": "Int"
       }
     ],
-    "DefaultParam1": "",
+    "DefaultParam1": "-1",
     "Param2": [
       {
-        "Key": "Level",
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "0",
+    "Param3": [
+      {
+        "Key": "Difficulty",
         "Value": "Int"
       }
     ],
-    "DefaultParam2": "",
-    "Param3": [
+    "DefaultParam3": "-1",
+    "Param4": [
       {
         "Key": "RoleId",
         "Value": "Int"
       }
     ],
-    "DefaultParam3": "-1",
-    "Param4": [],
-    "DefaultParam4": "",
+    "DefaultParam4": "-1",
     "Param5": [],
     "DefaultParam5": "",
     "Param6": [],
@@ -27171,27 +27181,32 @@
     ],
     "Param1": [
       {
-        "Key": "SeasonId",
+        "Key": "Id",
         "Value": "Int"
       }
     ],
-    "DefaultParam1": "",
+    "DefaultParam1": "-1",
     "Param2": [
       {
-        "Key": "Level",
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "0",
+    "Param3": [
+      {
+        "Key": "Difficulty",
         "Value": "Int"
       }
     ],
-    "DefaultParam2": "",
-    "Param3": [
+    "DefaultParam3": "-1",
+    "Param4": [
       {
         "Key": "Num",
         "Value": "Int"
       }
     ],
-    "DefaultParam3": "-1",
-    "Param4": [],
-    "DefaultParam4": "",
+    "DefaultParam4": "-1",
     "Param5": [],
     "DefaultParam5": "",
     "Param6": [],
@@ -27226,26 +27241,31 @@
     ],
     "Param1": [
       {
-        "Key": "SeasonId",
+        "Key": "Id",
         "Value": "Int"
       }
     ],
-    "DefaultParam1": "",
+    "DefaultParam1": "-1",
     "Param2": [
       {
-        "Key": "Level",
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "0",
+    "Param3": [
+      {
+        "Key": "Difficulty",
         "Value": "Int"
       }
     ],
-    "DefaultParam2": "",
-    "Param3": [
+    "DefaultParam3": "-1",
+    "Param4": [
       {
         "Key": "Num",
         "Value": "Int"
       }
     ],
-    "DefaultParam3": "",
-    "Param4": [],
     "DefaultParam4": "",
     "Param5": [],
     "DefaultParam5": "",
@@ -28953,6 +28973,1221 @@
     "Param1": [
       {
         "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "DropCatchActivityScore",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Count",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckTetrisFinish",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "EndlessTetrisScore",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "EntityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Count",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "FlagChallengePassLevel",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "FlagBossStrongholdPassNum",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "FlagChallengePerLevel",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "RhythmRankReach",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "RhythmDifficultyRankCount",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Difficulty",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Rank",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "RhythmRoleComplete",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "RoleId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerGetScoreInTime",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "Second",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerGetScoreWithRole",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "RoleId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerDamageInSeason",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "SkillType",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
+        "Key": "DamageMainType",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam5": "-1",
+    "Param6": [
+      {
+        "Key": "DamageSubType",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam6": "-1",
+    "Param7": [
+      {
+        "Key": "MonsterType",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam7": "2147483647",
+    "Param8": [
+      {
+        "Key": "MonsterId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam8": "2147483647",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerKillBoss",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "MonsterType",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam4": "2147483647",
+    "Param5": [
+      {
+        "Key": "MonsterId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam5": "2147483647",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerGetScoreNoFiveStarRole",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerDamage",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "SkillType",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
+        "Key": "DamageMainType",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam5": "-1",
+    "Param6": [
+      {
+        "Key": "DamageSubType",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam6": "-1",
+    "Param7": [
+      {
+        "Key": "MonsterType",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam7": "2147483647",
+    "Param8": [
+      {
+        "Key": "MonsterId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam8": "2147483647",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerKillBossInSeason",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "MonsterType",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam4": "2147483647",
+    "Param5": [
+      {
+        "Key": "MonsterId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam5": "2147483647",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerLimitCondPass",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "MonsterType",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam4": "2147483647",
+    "Param5": [
+      {
+        "Key": "MonsterId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam5": "2147483647",
+    "Param6": [
+      {
+        "Key": "Round",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam6": "",
+    "Param7": [
+      {
+        "Key": "Num",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerGetScoreNoInjury",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "OnFlagChallengeCalculatedLevelOver",
+    "IsClientTrigger": true,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Level",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckTetrisLevelId",
+    "IsClientTrigger": true,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckRhythmShipSubLevelHasRank",
+    "IsClientTrigger": true,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckDropCatchGameplayId",
+    "IsClientTrigger": true,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
         "Value": "Int"
       }
     ],

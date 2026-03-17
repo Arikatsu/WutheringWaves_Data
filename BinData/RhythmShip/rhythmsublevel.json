@@ -1,0 +1,934 @@
+[
+  {
+    "Id": 100111,
+    "LevelId": 10011,
+    "InstId": 8940,
+    "PreLevel": [],
+    "Difficulty": 1,
+    "StarLevel": 1,
+    "JsonId": 25,
+    "RatingJud1": "[5000,3000,1500,0]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmRole_01_Desc",
+    "Guide": [
+      36067
+    ]
+  },
+  {
+    "Id": 100211,
+    "LevelId": 10021,
+    "InstId": 8941,
+    "PreLevel": [],
+    "Difficulty": 1,
+    "StarLevel": 1,
+    "JsonId": 23,
+    "RatingJud1": "[37905,27930,19950,7980]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmRole_01_Desc",
+    "Guide": [
+      36068,
+      20428,
+      20429,
+      20430,
+      20431,
+      20432,
+      20433,
+      20434,
+      20444,
+      20436,
+      20437
+    ]
+  },
+  {
+    "Id": 100212,
+    "LevelId": 10021,
+    "InstId": 8941,
+    "PreLevel": [
+      {
+        "Key": 100211,
+        "Value": 5
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 2,
+    "JsonId": 24,
+    "RatingJud1": "[43130,31780,22700,9080]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_01_Desc",
+    "Guide": [
+      36069,
+      20440,
+      20441,
+      20442,
+      20439
+    ]
+  },
+  {
+    "Id": 100221,
+    "LevelId": 10022,
+    "InstId": 8942,
+    "PreLevel": [
+      {
+        "Key": 100212,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 1,
+    "JsonId": 13,
+    "RatingJud1": "[106210,78260,55900,22360]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_02_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100222,
+    "LevelId": 10022,
+    "InstId": 8942,
+    "PreLevel": [
+      {
+        "Key": 100212,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 3,
+    "JsonId": 15,
+    "RatingJud1": "[134900,99400,71000,28400]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100223,
+    "LevelId": 10022,
+    "InstId": 8942,
+    "PreLevel": [
+      {
+        "Key": 100222,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 5,
+    "JsonId": 14,
+    "RatingJud1": "[160740,118440,84600,33840]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100231,
+    "LevelId": 10023,
+    "InstId": 8943,
+    "PreLevel": [
+      {
+        "Key": 100221,
+        "Value": 4
+      },
+      {
+        "Key": 100222,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 1,
+    "JsonId": 17,
+    "RatingJud1": "[83885,61810,44150,17660]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_03_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100232,
+    "LevelId": 10023,
+    "InstId": 8943,
+    "PreLevel": [
+      {
+        "Key": 100221,
+        "Value": 4
+      },
+      {
+        "Key": 100222,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 3,
+    "JsonId": 19,
+    "RatingJud1": "[118465,87290,62350,24940]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100233,
+    "LevelId": 10023,
+    "InstId": 8943,
+    "PreLevel": [
+      {
+        "Key": 100232,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 5,
+    "JsonId": 18,
+    "RatingJud1": "[146015,107590,76850,30740]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100241,
+    "LevelId": 10024,
+    "InstId": 8944,
+    "PreLevel": [
+      {
+        "Key": 100231,
+        "Value": 4
+      },
+      {
+        "Key": 100232,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 2,
+    "JsonId": 1,
+    "RatingJud1": "[115520,85120,60800,24320]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_04_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100242,
+    "LevelId": 10024,
+    "InstId": 8944,
+    "PreLevel": [
+      {
+        "Key": 100231,
+        "Value": 4
+      },
+      {
+        "Key": 100232,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 3,
+    "JsonId": 3,
+    "RatingJud1": "[143450,105700,75500,30200]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100243,
+    "LevelId": 10024,
+    "InstId": 8944,
+    "PreLevel": [
+      {
+        "Key": 100242,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 6,
+    "JsonId": 2,
+    "RatingJud1": "[194750,143500,102500,41000]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100251,
+    "LevelId": 10025,
+    "InstId": 8945,
+    "PreLevel": [
+      {
+        "Key": 100241,
+        "Value": 4
+      },
+      {
+        "Key": 100242,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 1,
+    "JsonId": 20,
+    "RatingJud1": "[105260,77560,55400,22160]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_05_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100252,
+    "LevelId": 10025,
+    "InstId": 8945,
+    "PreLevel": [
+      {
+        "Key": 100241,
+        "Value": 4
+      },
+      {
+        "Key": 100242,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 4,
+    "JsonId": 22,
+    "RatingJud1": "[148295,109270,78050,31220]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100253,
+    "LevelId": 10025,
+    "InstId": 8945,
+    "PreLevel": [
+      {
+        "Key": 100252,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 8,
+    "JsonId": 21,
+    "RatingJud1": "[207860,153160,109400,43760]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100311,
+    "LevelId": 10031,
+    "InstId": 8946,
+    "PreLevel": [
+      {
+        "Key": 100251,
+        "Value": 4
+      },
+      {
+        "Key": 100252,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 2,
+    "JsonId": 38,
+    "RatingJud1": "[118750,87500,62500,25000]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_06_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100312,
+    "LevelId": 10031,
+    "InstId": 8946,
+    "PreLevel": [
+      {
+        "Key": 100251,
+        "Value": 4
+      },
+      {
+        "Key": 100252,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 3,
+    "JsonId": 40,
+    "RatingJud1": "[151240,111440,79600,31840]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100313,
+    "LevelId": 10031,
+    "InstId": 8946,
+    "PreLevel": [
+      {
+        "Key": 100312,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 5,
+    "JsonId": 39,
+    "RatingJud1": "[189905,139930,99950,39980]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100321,
+    "LevelId": 10032,
+    "InstId": 8947,
+    "PreLevel": [
+      {
+        "Key": 100311,
+        "Value": 4
+      },
+      {
+        "Key": 100312,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 2,
+    "JsonId": 26,
+    "RatingJud1": "[99560,73360,52400,20960]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_07_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100322,
+    "LevelId": 10032,
+    "InstId": 8947,
+    "PreLevel": [
+      {
+        "Key": 100311,
+        "Value": 4
+      },
+      {
+        "Key": 100312,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 3,
+    "JsonId": 28,
+    "RatingJud1": "[156560,115360,82400,32960]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100323,
+    "LevelId": 10032,
+    "InstId": 8947,
+    "PreLevel": [
+      {
+        "Key": 100322,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 6,
+    "JsonId": 27,
+    "RatingJud1": "[241015,177590,126850,50740]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100331,
+    "LevelId": 10033,
+    "InstId": 8948,
+    "PreLevel": [
+      {
+        "Key": 100321,
+        "Value": 4
+      },
+      {
+        "Key": 100322,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 2,
+    "JsonId": 7,
+    "RatingJud1": "[88920,65520,46800,18720]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_08_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100332,
+    "LevelId": 10033,
+    "InstId": 8948,
+    "PreLevel": [
+      {
+        "Key": 100321,
+        "Value": 4
+      },
+      {
+        "Key": 100322,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 3,
+    "JsonId": 9,
+    "RatingJud1": "[123690,91140,65100,26040]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100333,
+    "LevelId": 10033,
+    "InstId": 8948,
+    "PreLevel": [
+      {
+        "Key": 100332,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 7,
+    "JsonId": 8,
+    "RatingJud1": "[186200,137200,98000,39200]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100341,
+    "LevelId": 10034,
+    "InstId": 8949,
+    "PreLevel": [
+      {
+        "Key": 100331,
+        "Value": 4
+      },
+      {
+        "Key": 100332,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 3,
+    "JsonId": 47,
+    "RatingJud1": "[128820,94920,67800,27120]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_09_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100342,
+    "LevelId": 10034,
+    "InstId": 8949,
+    "PreLevel": [
+      {
+        "Key": 100331,
+        "Value": 4
+      },
+      {
+        "Key": 100332,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 5,
+    "JsonId": 49,
+    "RatingJud1": "[169480,124880,89200,35680]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100343,
+    "LevelId": 10034,
+    "InstId": 8949,
+    "PreLevel": [
+      {
+        "Key": 100342,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 8,
+    "JsonId": 48,
+    "RatingJud1": "[219355,161630,115450,46180]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100411,
+    "LevelId": 10041,
+    "InstId": 8950,
+    "PreLevel": [
+      {
+        "Key": 100341,
+        "Value": 4
+      },
+      {
+        "Key": 100342,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 2,
+    "JsonId": 35,
+    "RatingJud1": "[75335,55510,39650,15860]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_10_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100412,
+    "LevelId": 10041,
+    "InstId": 8950,
+    "PreLevel": [
+      {
+        "Key": 100341,
+        "Value": 4
+      },
+      {
+        "Key": 100342,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 3,
+    "JsonId": 37,
+    "RatingJud1": "[105355,77630,55450,22180]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100413,
+    "LevelId": 10041,
+    "InstId": 8950,
+    "PreLevel": [
+      {
+        "Key": 100412,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 6,
+    "JsonId": 36,
+    "RatingJud1": "[141645,104370,74550,29820]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100421,
+    "LevelId": 10042,
+    "InstId": 8951,
+    "PreLevel": [
+      {
+        "Key": 100411,
+        "Value": 4
+      },
+      {
+        "Key": 100412,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 1,
+    "JsonId": 32,
+    "RatingJud1": "[79800,58800,42000,16800]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_11_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100422,
+    "LevelId": 10042,
+    "InstId": 8951,
+    "PreLevel": [
+      {
+        "Key": 100411,
+        "Value": 4
+      },
+      {
+        "Key": 100412,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 4,
+    "JsonId": 34,
+    "RatingJud1": "[159980,117880,84200,33680]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100423,
+    "LevelId": 10042,
+    "InstId": 8951,
+    "PreLevel": [
+      {
+        "Key": 100422,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 6,
+    "JsonId": 33,
+    "RatingJud1": "[182115,134190,95850,38340]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100431,
+    "LevelId": 10043,
+    "InstId": 8952,
+    "PreLevel": [
+      {
+        "Key": 100421,
+        "Value": 4
+      },
+      {
+        "Key": 100422,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 2,
+    "JsonId": 44,
+    "RatingJud1": "[103360,76160,54400,21760]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_12_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100432,
+    "LevelId": 10043,
+    "InstId": 8952,
+    "PreLevel": [
+      {
+        "Key": 100421,
+        "Value": 4
+      },
+      {
+        "Key": 100422,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 4,
+    "JsonId": 46,
+    "RatingJud1": "[153710,113260,80900,32360]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100433,
+    "LevelId": 10043,
+    "InstId": 8952,
+    "PreLevel": [
+      {
+        "Key": 100432,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 7,
+    "JsonId": 45,
+    "RatingJud1": "[209760,154560,110400,44160]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100441,
+    "LevelId": 10044,
+    "InstId": 8953,
+    "PreLevel": [
+      {
+        "Key": 100431,
+        "Value": 4
+      },
+      {
+        "Key": 100432,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 1,
+    "StarLevel": 3,
+    "JsonId": 41,
+    "RatingJud1": "[100700,74200,53000,21200]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmLock_13_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100442,
+    "LevelId": 10044,
+    "InstId": 8953,
+    "PreLevel": [
+      {
+        "Key": 100431,
+        "Value": 4
+      },
+      {
+        "Key": 100432,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 2,
+    "StarLevel": 6,
+    "JsonId": 43,
+    "RatingJud1": "[153995,113470,81050,32420]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100443,
+    "LevelId": 10044,
+    "InstId": 8953,
+    "PreLevel": [
+      {
+        "Key": 100442,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 9,
+    "JsonId": 42,
+    "RatingJud1": "[158840,117040,83600,33440]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100511,
+    "LevelId": 10051,
+    "InstId": 8954,
+    "PreLevel": [],
+    "Difficulty": 1,
+    "StarLevel": 3,
+    "JsonId": 29,
+    "RatingJud1": "[61560,45360,32400,12960]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmRole_01_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100512,
+    "LevelId": 10051,
+    "InstId": 8954,
+    "PreLevel": [],
+    "Difficulty": 2,
+    "StarLevel": 4,
+    "JsonId": 31,
+    "RatingJud1": "[74860,55160,39400,15760]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmRole_01_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100513,
+    "LevelId": 10051,
+    "InstId": 8954,
+    "PreLevel": [
+      {
+        "Key": 100512,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 7,
+    "JsonId": 30,
+    "RatingJud1": "[101840,75040,53600,21440]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100521,
+    "LevelId": 10052,
+    "InstId": 8955,
+    "PreLevel": [],
+    "Difficulty": 1,
+    "StarLevel": 4,
+    "JsonId": 10,
+    "RatingJud1": "[103360,76160,54400,21760]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmRole_01_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100522,
+    "LevelId": 10052,
+    "InstId": 8955,
+    "PreLevel": [],
+    "Difficulty": 2,
+    "StarLevel": 7,
+    "JsonId": 12,
+    "RatingJud1": "[146300,107800,77000,30800]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmRole_01_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100523,
+    "LevelId": 10052,
+    "InstId": 8955,
+    "PreLevel": [
+      {
+        "Key": 100522,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 9,
+    "JsonId": 11,
+    "RatingJud1": "[151240,111440,79600,31840]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  },
+  {
+    "Id": 100531,
+    "LevelId": 10053,
+    "InstId": 8956,
+    "PreLevel": [],
+    "Difficulty": 1,
+    "StarLevel": 4,
+    "JsonId": 4,
+    "RatingJud1": "[128060,94360,67400,26960]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmRole_01_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100532,
+    "LevelId": 10053,
+    "InstId": 8956,
+    "PreLevel": [],
+    "Difficulty": 2,
+    "StarLevel": 6,
+    "JsonId": 6,
+    "RatingJud1": "[141170,104020,74300,29720]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmRole_01_Desc",
+    "Guide": []
+  },
+  {
+    "Id": 100533,
+    "LevelId": 10053,
+    "InstId": 8956,
+    "PreLevel": [
+      {
+        "Key": 100532,
+        "Value": 4
+      }
+    ],
+    "Difficulty": 3,
+    "StarLevel": 9,
+    "JsonId": 5,
+    "RatingJud1": "[167770,123620,88300,35320]",
+    "RatingJud2": "[50000,40000,30000,10000]",
+    "LockTips": "RhythmShipLevelLockTips",
+    "Guide": []
+  }
+]

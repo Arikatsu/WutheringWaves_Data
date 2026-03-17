@@ -1,0 +1,272 @@
+[
+  {
+    "Id": 1,
+    "MoveSpeed": 0.800000011920929,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Score\":10}}]",
+    "Score": 10,
+    "Energy": 5,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_1",
+    "Desc": "CoinCatch_Desc_1",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem02.SP_GoldCatchItem02",
+    "Priority": 4,
+    "NiagaraType": 0,
+    "ItemTemplate": 1
+  },
+  {
+    "Id": 2,
+    "MoveSpeed": 0.800000011920929,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Score\":30}}]",
+    "Score": 30,
+    "Energy": 10,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_2",
+    "Desc": "CoinCatch_Desc_2",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem04.SP_GoldCatchItem04",
+    "Priority": 3,
+    "NiagaraType": 1,
+    "ItemTemplate": 2
+  },
+  {
+    "Id": 3,
+    "MoveSpeed": 0.8999999761581421,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ModifyRoleSpeed\",\"Params\":{\"Type\":\"Override\",\"Value\":0.2,\"Duration\":1}},{\"CommandName\":\"ChangeRoleColor\",\"Params\":{\"UseChangeColor\":true,\"HexColor\":\"FD5862FF\",\"Duration\":1}}]",
+    "Score": 0,
+    "Energy": -30,
+    "EffectType": 1,
+    "Name": "CoinCatch_ItemName_3",
+    "Desc": "CoinCatch_Desc_3",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem06.SP_GoldCatchItem06",
+    "Priority": 0,
+    "NiagaraType": 3,
+    "ItemTemplate": 3
+  },
+  {
+    "Id": 4,
+    "MoveSpeed": 1.100000023841858,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"DropItem\",\"TextId\":\"CoinCatch_SpecialEffect_EnergyUp\",\"Duration\":1,\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem03.SP_GoldCatchItem03\"}},{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/SP_GoldCatchBuff_01.SP_GoldCatchBuff_01\",\"Score\":50}}]",
+    "Score": 50,
+    "Energy": 30,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_4",
+    "Desc": "CoinCatch_Desc_4",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem03.SP_GoldCatchItem03",
+    "Priority": 2,
+    "NiagaraType": 2,
+    "ItemTemplate": 4
+  },
+  {
+    "Id": 5,
+    "MoveSpeed": 1.100000023841858,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"AddShield\",\"Params\":{\"Time\":5}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"DropItem\",\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem01.SP_GoldCatchItem01\",\"TextId\":\"CoinCatch_SpecialEffect_Shield\",\"Duration\":1}},{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/SP_GoldCatchBuff_02.SP_GoldCatchBuff_02\",\"Score\":50}}]",
+    "Score": 50,
+    "Energy": 10,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_5",
+    "Desc": "CoinCatch_Desc_5",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem01.SP_GoldCatchItem01",
+    "Priority": 2,
+    "NiagaraType": 2,
+    "ItemTemplate": 5
+  },
+  {
+    "Id": 6,
+    "MoveSpeed": 0.5,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"AddTime\",\"Params\":{\"Time\":5}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"DropItem\",\"TextId\":\"CoinCatch_SpecialEffect_TimeHack\",\"Duration\":1,\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem05.SP_GoldCatchItem05\"}},{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Icon\":\"\",\"Score\":50}}]",
+    "Score": 50,
+    "Energy": 10,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_6",
+    "Desc": "CoinCatch_Desc_6",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem05.SP_GoldCatchItem05",
+    "Priority": 1,
+    "NiagaraType": 2,
+    "ItemTemplate": 6
+  },
+  {
+    "Id": 7,
+    "MoveSpeed": 1.5,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Score\":10}}]",
+    "Score": 10,
+    "Energy": 5,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_1",
+    "Desc": "CoinCatch_Desc_1",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem02.SP_GoldCatchItem02",
+    "Priority": 4,
+    "NiagaraType": 0,
+    "ItemTemplate": 1
+  },
+  {
+    "Id": 8,
+    "MoveSpeed": 1.5,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Score\":30}}]",
+    "Score": 30,
+    "Energy": 10,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_2",
+    "Desc": "CoinCatch_Desc_2",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem04.SP_GoldCatchItem04",
+    "Priority": 3,
+    "NiagaraType": 1,
+    "ItemTemplate": 2
+  },
+  {
+    "Id": 9,
+    "MoveSpeed": 2,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ModifyRoleSpeed\",\"Params\":{\"Type\":\"Override\",\"Value\":0.2,\"Duration\":1}},{\"CommandName\":\"ChangeRoleColor\",\"Params\":{\"UseChangeColor\":true,\"HexColor\":\"FD5862FF\",\"Duration\":1}}]",
+    "Score": 0,
+    "Energy": -30,
+    "EffectType": 1,
+    "Name": "CoinCatch_ItemName_3",
+    "Desc": "CoinCatch_Desc_3",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem06.SP_GoldCatchItem06",
+    "Priority": 0,
+    "NiagaraType": 3,
+    "ItemTemplate": 3
+  },
+  {
+    "Id": 10,
+    "MoveSpeed": 1.5,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"DropItem\",\"TextId\":\"CoinCatch_SpecialEffect_EnergyUp\",\"Duration\":1,\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem03.SP_GoldCatchItem03\"}},{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/SP_GoldCatchBuff_01.SP_GoldCatchBuff_01\",\"Score\":50}}]",
+    "Score": 50,
+    "Energy": 30,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_4",
+    "Desc": "CoinCatch_Desc_4",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem03.SP_GoldCatchItem03",
+    "Priority": 2,
+    "NiagaraType": 2,
+    "ItemTemplate": 4
+  },
+  {
+    "Id": 11,
+    "MoveSpeed": 1.5,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"AddShield\",\"Params\":{\"Time\":5}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"DropItem\",\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem01.SP_GoldCatchItem01\",\"TextId\":\"CoinCatch_SpecialEffect_Shield\",\"Duration\":1}},{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/SP_GoldCatchBuff_02.SP_GoldCatchBuff_02\",\"Score\":50}}]",
+    "Score": 50,
+    "Energy": 10,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_5",
+    "Desc": "CoinCatch_Desc_5",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem01.SP_GoldCatchItem01",
+    "Priority": 2,
+    "NiagaraType": 2,
+    "ItemTemplate": 5
+  },
+  {
+    "Id": 12,
+    "MoveSpeed": 0.75,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"AddTime\",\"Params\":{\"Time\":5}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"DropItem\",\"TextId\":\"CoinCatch_SpecialEffect_TimeHack\",\"Duration\":1,\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem05.SP_GoldCatchItem05\"}},{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Icon\":\"\",\"Score\":50}}]",
+    "Score": 50,
+    "Energy": 10,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_6",
+    "Desc": "CoinCatch_Desc_6",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem05.SP_GoldCatchItem05",
+    "Priority": 1,
+    "NiagaraType": 2,
+    "ItemTemplate": 6
+  },
+  {
+    "Id": 15,
+    "MoveSpeed": 0.6000000238418579,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Score\":30}}]",
+    "Score": 30,
+    "Energy": 10,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_2",
+    "Desc": "CoinCatch_Desc_2",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem04.SP_GoldCatchItem04",
+    "Priority": 1,
+    "NiagaraType": 1,
+    "ItemTemplate": 2
+  },
+  {
+    "Id": 16,
+    "MoveSpeed": 0.6000000238418579,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"DropItem\",\"TextId\":\"CoinCatch_SpecialEffect_EnergyUp\",\"Duration\":1,\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem03.SP_GoldCatchItem03\"}},{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/SP_GoldCatchBuff_01.SP_GoldCatchBuff_01\",\"Score\":50}}]",
+    "Score": 50,
+    "Energy": 30,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_4",
+    "Desc": "CoinCatch_Desc_4",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem03.SP_GoldCatchItem03",
+    "Priority": 1,
+    "NiagaraType": 2,
+    "ItemTemplate": 4
+  },
+  {
+    "Id": 17,
+    "MoveSpeed": 0.6000000238418579,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"AddShield\",\"Params\":{\"Time\":5}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"DropItem\",\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem01.SP_GoldCatchItem01\",\"TextId\":\"CoinCatch_SpecialEffect_Shield\",\"Duration\":1}},{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Icon\":\"/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/SP_GoldCatchBuff_02.SP_GoldCatchBuff_02\",\"Score\":50}}]",
+    "Score": 50,
+    "Energy": 10,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_5",
+    "Desc": "CoinCatch_Desc_5",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem01.SP_GoldCatchItem01",
+    "Priority": 0,
+    "NiagaraType": 2,
+    "ItemTemplate": 5
+  }
+]
