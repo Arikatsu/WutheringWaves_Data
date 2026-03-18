@@ -777587,6 +777587,17 @@
       },
       "EnterActions": [
         {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": false,
+            "EntityIds": [
+              690000042
+            ]
+          },
+          "ActionGuid": "a42f164c109640f9886a5883162c4531",
+          "ActionId": 3000251
+        },
+        {
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
@@ -777677,7 +777688,19 @@
           ]
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": true,
+            "EntityIds": [
+              690000042
+            ]
+          },
+          "ActionGuid": "09f192b609d04b56a8d2894f2eed01c4",
+          "ActionId": 3000252
+        }
+      ],
       "FinishActions": [],
       "ParentNodeId": 197
     }
@@ -788412,7 +788435,19 @@
           "Locations": []
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
+          },
+          "ActionGuid": "b724e8287b9f4387ac16d3f2a69e5792",
+          "ActionId": 3000022
+        }
+      ],
       "FinishActions": [],
       "HideTip": true,
       "HideUiExceptTaskList": true,
