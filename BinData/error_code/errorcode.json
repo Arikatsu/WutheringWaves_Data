@@ -11847,7 +11847,7 @@
     "Id": 1100224,
     "DebugText": "没有有效的肉鸽赛季",
     "Text": "ErrorCode_1100224_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 1900061,
@@ -26030,7 +26030,7 @@
   {
     "Id": 3000090,
     "DebugText": "副本配置不存在",
-    "Text": "\u0000",
+    "Text": "",
     "IsTip": false
   },
   {
@@ -27066,6 +27066,36 @@
     "IsTip": false
   },
   {
+    "Id": 2500345,
+    "DebugText": "没有饰品配置",
+    "Text": "ErrorCode_ErrOrnamentConfig",
+    "IsTip": true
+  },
+  {
+    "Id": 2500346,
+    "DebugText": "饰品未解锁",
+    "Text": "ErrorCode_ErrOrnamentLocked",
+    "IsTip": true
+  },
+  {
+    "Id": 2500347,
+    "DebugText": "饰品已穿戴",
+    "Text": "ErrorCode_ErrOrnamentDressed",
+    "IsTip": true
+  },
+  {
+    "Id": 2500348,
+    "DebugText": "选择皮肤不可穿戴本饰品",
+    "Text": "ErrorCode_ErrOrnamentCanNoDress",
+    "IsTip": true
+  },
+  {
+    "Id": 2500349,
+    "DebugText": "饰品未穿戴",
+    "Text": "ErrorCode_ErrOrnamentNoDress",
+    "IsTip": true
+  },
+  {
     "Id": 2200254,
     "DebugText": "当前场景不是大世界",
     "Text": "ErrorCode_2200229_Text",
@@ -27099,6 +27129,36 @@
     "Id": 1100577,
     "DebugText": "赛季奖励超时",
     "Text": "ErrorCode_ErrorNewTowerSeasonAwardTimeout",
+    "IsTip": true
+  },
+  {
+    "Id": 2500350,
+    "DebugText": "任务未完成",
+    "Text": "BossPilingErrorCode1",
+    "IsTip": true
+  },
+  {
+    "Id": 2500351,
+    "DebugText": "找不到配置",
+    "Text": "BossPilingErrorCode2",
+    "IsTip": true
+  },
+  {
+    "Id": 2500352,
+    "DebugText": "已领取奖励",
+    "Text": "BossPilingErrorCode3",
+    "IsTip": true
+  },
+  {
+    "Id": 2500353,
+    "DebugText": "奖励数据重复",
+    "Text": "BossPilingErrorCode4",
+    "IsTip": true
+  },
+  {
+    "Id": 2500354,
+    "DebugText": "关卡未解锁",
+    "Text": "BossPilingErrorCode5",
     "IsTip": true
   },
   {
@@ -27162,6 +27222,24 @@
     "IsTip": false
   },
   {
+    "Id": 3400001,
+    "DebugText": "光线接收实体没有配置",
+    "Text": "ErrorCode_3400002_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3400002,
+    "DebugText": "光线接收条件不满足",
+    "Text": "ErrorCode_3400003_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3400003,
+    "DebugText": "光线接收实体没有配置",
+    "Text": "ErrorCode_3400004_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2700267,
     "DebugText": "Cost重复",
     "Text": "PhantomProject_ErrorCode_6",
@@ -27210,10 +27288,322 @@
     "IsTip": false
   },
   {
+    "Id": 2900036,
+    "DebugText": "躲避方块小游戏获取副本组件错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3100207,
+    "DebugText": "关卡配置未找到",
+    "Text": "ErrorCode_PinballLevelCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100208,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_PinballActivityNotOpen_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100209,
+    "DebugText": "试用关卡不允许使用该角色",
+    "Text": "ErrorCode_PinballTrialLevelNotUseRole_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100210,
+    "DebugText": "上阵角色数量非法",
+    "Text": "ErrorCode_PinballRoleCountInvalid_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100211,
+    "DebugText": "未拥有该角色",
+    "Text": "ErrorCode_PinballRoleNotOwn_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100212,
+    "DebugText": "场景不存在",
+    "Text": "ErrorCode_PinballSceneNotExists_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100213,
+    "DebugText": "组件不存在",
+    "Text": "ErrorCode_PinballComponentNotExists_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100214,
+    "DebugText": "进入上下文非法",
+    "Text": "ErrorCode_PinballEnterCtxInvalid_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100215,
+    "DebugText": "组件状态非法",
+    "Text": "ErrorCode_PinballCompStateInvalid_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100216,
+    "DebugText": "组件状态非法",
+    "Text": "ErrorCode_PinballGameAlreadySettled_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100217,
+    "DebugText": "加成分数未满",
+    "Text": "ErrorCode_PinballBonusScoreNotFull_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100218,
+    "DebugText": "关卡类型非法",
+    "Text": "ErrorCode_PinballLevelTypeInvalid_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100219,
+    "DebugText": "已结算",
+    "Text": "ErrorCode_PinballAlreadySettled_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100220,
+    "DebugText": "复活次数不足",
+    "Text": "ErrorCode_PinballNoReviveTimesLeft_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100221,
+    "DebugText": "组件状态变更原因非法",
+    "Text": "ErrorCode_PinballCompStateChangeReasonInvalid_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100222,
+    "DebugText": "结算数据非法",
+    "Text": "ErrorCode_PinballSettlePayloadInvalid_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900325,
+    "DebugText": "请求参数数量异常",
+    "Text": "ErrorCode_1900321_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900326,
+    "DebugText": "缺少任务配置",
+    "Text": "ErrorCode_1900322_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900327,
+    "DebugText": "活动配置不一致",
+    "Text": "ErrorCode_1900323_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900328,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_1900324_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900329,
+    "DebugText": "任务未完成",
+    "Text": "ErrorCode_1900325_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900330,
+    "DebugText": "掉落配置异常",
+    "Text": "ErrorCode_1900326_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900331,
+    "DebugText": "重复领取奖励",
+    "Text": "ErrorCode_1900327_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900332,
+    "DebugText": "没有奖励可以领取",
+    "Text": "ErrorCode_1900328_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900333,
+    "DebugText": "等级非法",
+    "Text": "ErrorCode_1900329_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900334,
+    "DebugText": "找不到角色配置",
+    "Text": "ErrorCode_1900330_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900335,
+    "DebugText": "角色未获取",
+    "Text": "ErrorCode_1900331_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900336,
+    "DebugText": "获取最大等级失败",
+    "Text": "ErrorCode_1900332_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900337,
+    "DebugText": "超过最大角色等级",
+    "Text": "ErrorCode_1900333_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900338,
+    "DebugText": "找不到活动配置",
+    "Text": "ErrorCode_1900334_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900339,
+    "DebugText": "道具数量不足",
+    "Text": "ErrorCode_1900335_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900340,
+    "DebugText": "试用角色禁止获取",
+    "Text": "ErrorCode_1900336_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900341,
+    "DebugText": "找不到武器数据",
+    "Text": "ErrorCode_1900337_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900342,
+    "DebugText": "找不到武器配置",
+    "Text": "ErrorCode_1900338_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900343,
+    "DebugText": "找不到角色数据",
+    "Text": "ErrorCode_1900339_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900344,
+    "DebugText": "找不到角色配置",
+    "Text": "ErrorCode_1900340_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900345,
+    "DebugText": "武器类型无法装备",
+    "Text": "ErrorCode_1900341_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900346,
+    "DebugText": "专武无法切换",
+    "Text": "ErrorCode_1900342_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900347,
+    "DebugText": "重复装备",
+    "Text": "ErrorCode_1900343_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900348,
+    "DebugText": "分解武器数量非法",
+    "Text": "ErrorCode_1900344_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900349,
+    "DebugText": "分解武器重复",
+    "Text": "ErrorCode_1900345_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900350,
+    "DebugText": "分解武器被锁定",
+    "Text": "ErrorCode_1900346_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900351,
+    "DebugText": "分解武器被绑定",
+    "Text": "ErrorCode_1900347_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900352,
+    "DebugText": "无武器可分解",
+    "Text": "ErrorCode_1900348_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100223,
+    "DebugText": "角色配置未找到",
+    "Text": "ErrorCode_PinballRoleCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100224,
+    "DebugText": "弹射物语实体配置未找到",
+    "Text": "ErrorCode_PinballTemplateEntityConfigNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100225,
+    "DebugText": "不是奶牛关",
+    "Text": "ErrorCode_PinballLevelNotBonus_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100226,
+    "DebugText": "关卡结算目标未定义",
+    "Text": "ErrorCode_PinballLevelTargetCondTypeNotSupport_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100227,
+    "DebugText": "效果配置未找到",
+    "Text": "ErrorCode_PinballEffectCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100228,
+    "DebugText": "效果处理器未定义",
+    "Text": "ErrorCode_PinballEffectHandlerNotFound_Text",
+    "IsTip": false
+  },
+  {
     "Id": 200688,
     "DebugText": "红点存储系统类型不支持改数据类型",
     "Text": "ErrorCode_ErrClientStorageSystemTypeErr",
     "IsTip": true
+  },
+  {
+    "Id": 3100229,
+    "DebugText": "不可携带角色进战",
+    "Text": "ErrorCode_PinballTrialLevelEnterWithRoles_Text",
+    "IsTip": false
   },
   {
     "Id": 2500355,
@@ -27222,9 +27612,255 @@
     "IsTip": true
   },
   {
+    "Id": 1900353,
+    "DebugText": "活动奖励参数数量非法",
+    "Text": "ErrorCode_1900349_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900354,
+    "DebugText": "活动id配置不一致",
+    "Text": "ErrorCode_1900350_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900355,
+    "DebugText": "任务奖励找不到掉落配置",
+    "Text": "ErrorCode_1900351_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900356,
+    "DebugText": "没有符合条件的奖励可以领取",
+    "Text": "ErrorCode_1900352_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900357,
+    "DebugText": "任务不在有效时间范围内",
+    "Text": "ErrorCode_1900353_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900358,
+    "DebugText": "任务奖励重复领取",
+    "Text": "ErrorCode_1900354_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700269,
+    "DebugText": "未找到指定顺序团子",
+    "Text": "ErrorCode_RacingBetsNotFindOrderListDango",
+    "IsTip": false
+  },
+  {
+    "Id": 1100578,
+    "DebugText": "深坠异想奇境副本配置找不到",
+    "Text": "ErrorCode_RogueInstConfNoFind",
+    "IsTip": true
+  },
+  {
+    "Id": 1100579,
+    "DebugText": "深坠异想奇境声骸未解锁",
+    "Text": "ErrorCode_RoguePhantomLock",
+    "IsTip": true
+  },
+  {
+    "Id": 1100580,
+    "DebugText": "深坠异想奇境角色未解锁",
+    "Text": "ErrorCode_RogueRoleLock",
+    "IsTip": true
+  },
+  {
+    "Id": 1100581,
+    "DebugText": "深坠异想奇境词条未解锁",
+    "Text": "ErrorCode_RogueHotEntryLock",
+    "IsTip": true
+  },
+  {
+    "Id": 3100230,
+    "DebugText": "BtObj不存在",
+    "Text": "ErrorCode_PinballBtObjNotExists_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000138,
+    "DebugText": "没有找到InfrV2Level配置",
+    "Text": "ErrorCode_InfrV2LevelCfgNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 3000139,
+    "DebugText": "没有找到InfrV2ShopPhase配置",
+    "Text": "ErrorCode_InfrV2ShopPhaseCfgNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 3000140,
+    "DebugText": "没有找到InfrV2ShopGoods配置",
+    "Text": "ErrorCode_InfrV2ShopGoodsCfgNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 3000141,
+    "DebugText": "不能增加负数经验",
+    "Text": "ErrorCode_InfrV2FireAddExpNegative",
+    "IsTip": false
+  },
+  {
+    "Id": 3000142,
+    "DebugText": "天文台已经达到最大等级",
+    "Text": "ErrorCode_InfrV2FireAlreadyMaxLevel",
+    "IsTip": false
+  },
+  {
+    "Id": 3000143,
+    "DebugText": "天文台升级条件未满足",
+    "Text": "ErrorCode_InfrV2FireConditionNotMet",
+    "IsTip": false
+  },
+  {
+    "Id": 3000144,
+    "DebugText": "天文台升级经验不足",
+    "Text": "ErrorCode_InfrV2FireExpNotEnough",
+    "IsTip": false
+  },
+  {
+    "Id": 3000145,
+    "DebugText": "树不是可修建状态",
+    "Text": "ErrorCode_InfrV2TreeNotInProgress",
+    "IsTip": false
+  },
+  {
+    "Id": 3000146,
+    "DebugText": "天文台不是可修建状态",
+    "Text": "ErrorCode_InfrV2FireLevelNotInProgress",
+    "IsTip": false
+  },
+  {
+    "Id": 3000147,
+    "DebugText": "道路修建前置条件未满足",
+    "Text": "ErrorCode_InfrV2TreeConditionNotMet",
+    "IsTip": false
+  },
+  {
+    "Id": 3000148,
+    "DebugText": "基建功能未开启",
+    "Text": "ErrorCode_InfrV2NotOpen",
+    "IsTip": false
+  },
+  {
+    "Id": 3000149,
+    "DebugText": "树建配置未找到",
+    "Text": "ErrorCode_InfrV2TreeBuildCfgNotFound",
+    "IsTip": false
+  },
+  {
+    "Id": 3000150,
+    "DebugText": "当前树不可跟踪",
+    "Text": "ErrorCode_InfrV2TreeCannotTrace",
+    "IsTip": false
+  },
+  {
+    "Id": 3000151,
+    "DebugText": "联机模式不能切换树网标记",
+    "Text": "ErrorCode_InfrV2TreeSwitchTraceInMulti",
+    "IsTip": false
+  },
+  {
+    "Id": 3000152,
+    "DebugText": "任务配置不存在",
+    "Text": "ErrorCode_InfrV2TaskFindErr",
+    "IsTip": false
+  },
+  {
+    "Id": 3000153,
+    "DebugText": "已领取过奖励",
+    "Text": "ErrorCode_InfrV2HadReward",
+    "IsTip": false
+  },
+  {
+    "Id": 3000154,
+    "DebugText": "任务仍在进行中",
+    "Text": "ErrorCode_InfrV2TaskRunning",
+    "IsTip": false
+  },
+  {
+    "Id": 3000155,
+    "DebugText": "无法获得掉落道具",
+    "Text": "ErrorCode_InfrV2DropNoFind",
+    "IsTip": false
+  },
+  {
+    "Id": 3000156,
+    "DebugText": "重复请求",
+    "Text": "ErrorCode_InfrV2ParamAgainErr",
+    "IsTip": false
+  },
+  {
+    "Id": 3000157,
+    "DebugText": "未进行领奖",
+    "Text": "ErrorCode_InfrV2NoReward",
+    "IsTip": false
+  },
+  {
+    "Id": 3000158,
+    "DebugText": "参数数量错误",
+    "Text": "ErrorCode_InfrV2ParamCountErr",
+    "IsTip": false
+  },
+  {
+    "Id": 3000159,
+    "DebugText": "参数错误",
+    "Text": "ErrorCode_SlashAndTowerParamErr",
+    "IsTip": false
+  },
+  {
+    "Id": 3000160,
+    "DebugText": "参数错误",
+    "Text": "ErrorCode_RogueWeeklyParamErr",
+    "IsTip": false
+  },
+  {
     "Id": 2700270,
     "DebugText": "操作类型错误",
     "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500356,
+    "DebugText": "上半未完成",
+    "Text": "BossPilingErrorCode6",
+    "IsTip": true
+  },
+  {
+    "Id": 2500357,
+    "DebugText": "角色不匹配",
+    "Text": "BossPilingErrorCode7",
+    "IsTip": true
+  },
+  {
+    "Id": 3100231,
+    "DebugText": "需要携带角色进战",
+    "Text": "ErrorCode_PinballLevelEnterWithNoRole_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3400004,
+    "DebugText": "污染管理器实体没有配置",
+    "Text": "ErrorCode_3400005_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900359,
+    "DebugText": "没找到活动数据",
+    "Text": "ErrorCode_1900355_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3400005,
+    "DebugText": "修改的实体状态不在目标状态内",
+    "Text": "ErrorCode_3400006_Text",
     "IsTip": false
   },
   {
@@ -27234,9 +27870,117 @@
     "IsTip": true
   },
   {
+    "Id": 1900360,
+    "DebugText": "武器初始化失败",
+    "Text": "ErrorCode_1900356_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900361,
+    "DebugText": "玩家没有添加好友",
+    "Text": "ErrorCode_1900357_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900362,
+    "DebugText": "弹射物语排行榜冷却中",
+    "Text": "ErrorCode_1900358_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900363,
+    "DebugText": "弹射物语排行榜没有数据",
+    "Text": "ErrorCode_1900359_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100238,
+    "DebugText": "角色等级配置未找到",
+    "Text": "ErrorCode_PinballRoleLevelCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900364,
+    "DebugText": "关卡未解锁",
+    "Text": "ErrorCode_1900360_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900365,
+    "DebugText": "每日关卡没进入正确副本",
+    "Text": "ErrorCode_1900361_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000161,
+    "DebugText": "角色与tag列表长度不一致",
+    "Text": "ErrorCode_ErrMatchRoleChangeSkillBranchCountNotEqualRoleCount",
+    "IsTip": false
+  },
+  {
+    "Id": 2700272,
+    "DebugText": "找不到玩家活动数据",
+    "Text": "ErrorCode_H5ViewActivityNotFindDb",
+    "IsTip": false
+  },
+  {
     "Id": 3000162,
     "DebugText": "活动引导任务未完成",
     "Text": "",
     "IsTip": false
+  },
+  {
+    "Id": 3100239,
+    "DebugText": "无效的每日关卡配置",
+    "Text": "ErrorCode_PinballDailyConfigInvalid_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700274,
+    "DebugText": "方案码生成失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900366,
+    "DebugText": "角色功能未开启",
+    "Text": "ErrorCode_1900362_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900367,
+    "DebugText": "每日关卡功能未开启",
+    "Text": "ErrorCode_1900363_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900368,
+    "DebugText": "专武未匹配",
+    "Text": "ErrorCode_1900364_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500364,
+    "DebugText": "活动未开启",
+    "Text": "BossPilingErrorCode8",
+    "IsTip": true
+  },
+  {
+    "Id": 2500365,
+    "DebugText": "联机下不可进入",
+    "Text": "BossPilingErrorCode9",
+    "IsTip": true
+  },
+  {
+    "Id": 2700275,
+    "DebugText": "下注团子非法",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100600,
+    "DebugText": "当前玩法[深坠异想奇境]的存档已使用漂泊者,无法切换",
+    "Text": "ErrorCode_HasRoguelikeProgressCanNotChangeSex",
+    "IsTip": true
   }
 ]

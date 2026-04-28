@@ -106,7 +106,8 @@
     "Name": "CoinCatch_Character_1",
     "Desc": "CoinCatch_DailyEventInstruction_1",
     "IsSpecial": false,
-    "IsNeedSettle": true
+    "IsNeedSettle": true,
+    "BgRoleId": 0
   },
   {
     "Id": 2,
@@ -190,7 +191,8 @@
     "Name": "CoinCatch_Character_3",
     "Desc": "CoinCatch_DailyEventInstruction_3",
     "IsSpecial": false,
-    "IsNeedSettle": true
+    "IsNeedSettle": true,
+    "BgRoleId": 0
   },
   {
     "Id": 3,
@@ -283,7 +285,8 @@
     "Name": "CoinCatch_Character_5",
     "Desc": "CoinCatch_DailyEventInstruction_5",
     "IsSpecial": false,
-    "IsNeedSettle": true
+    "IsNeedSettle": true,
+    "BgRoleId": 0
   },
   {
     "Id": 4,
@@ -377,14 +380,15 @@
       0,
       -500
     ],
-    "GameplayTimeCommands": "[{\"Time\":0,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_2\",\"Duration\":999}}]},{\"Time\":9.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":19.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":29.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":39.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]}]",
+    "GameplayTimeCommands": "[{\"Time\":0,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_2\"}}]},{\"Time\":9.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":19.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":29.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":39.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]}]",
     "RemainingTimeCommands": "[{\"Time\":60,\"Commands\":[{\"CommandName\":\"CrazyMode\"},{\"CommandName\":\"ModifyDropPoolTimeInterval\",\"Params\":{\"Modifiers\":[{\"Type\":\"Rate\",\"Value\":0.5}]}}]}]",
     "SkillCommands": "[{\"CommandName\":\"ModifyRoleSpeed\",\"Params\":{\"Type\":\"Override\",\"Value\":2.5,\"Source\":\"Skill\"}},{\"CommandName\":\"ModifyAddScoreRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Source\":\"Skill\"}}]",
     "NextGameplayId": 5,
     "Name": "CoinCatch_Character_4",
     "Desc": "CoinCatch_DailyEventInstruction_4",
     "IsSpecial": false,
-    "IsNeedSettle": true
+    "IsNeedSettle": true,
+    "BgRoleId": 0
   },
   {
     "Id": 5,
@@ -454,14 +458,15 @@
       0,
       -500
     ],
-    "GameplayTimeCommands": "[{\"Time\":10,\"Commands\":[{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":10}}]},{\"Time\":19.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":25,\"Commands\":[[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}}],{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}}]},{\"Time\":39.5,\"Commands\":[[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]]},{\"Time\":50,\"Commands\":[[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":999}}],{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Duration\":999}}]}]",
+    "GameplayTimeCommands": "[{\"Time\":10,\"Commands\":[{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":10}}]},{\"Time\":19.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":25,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}},{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}}]},{\"Time\":39.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":50,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\"}},{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3}}]}]",
     "RemainingTimeCommands": "[{\"Time\":10,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"TextId\":\"CoinCatch_StageSwitch_2\",\"Duration\":2}}]},{\"Time\":10,\"Commands\":[{\"CommandName\":\"CrazyMode\"},{\"CommandName\":\"ModifyDropPoolTimeInterval\",\"Params\":{\"Modifiers\":[{\"Type\":\"Rate\",\"Value\":0.5}]}}]}]",
     "SkillCommands": "[{\"CommandName\":\"ModifyRoleSpeed\",\"Params\":{\"Type\":\"Override\",\"Value\":1.3,\"Source\":\"Skill\"}},{\"CommandName\":\"ModifyAddScoreRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":4,\"Source\":\"Skill\"}}]",
     "NextGameplayId": 6,
     "Name": "CoinCatch_Character_6",
     "Desc": "CoinCatch_DailyEventInstruction_6",
     "IsSpecial": false,
-    "IsNeedSettle": true
+    "IsNeedSettle": true,
+    "BgRoleId": 0
   },
   {
     "Id": 6,
@@ -533,14 +538,15 @@
       0,
       -500
     ],
-    "GameplayTimeCommands": "[{\"Time\":10,\"Commands\":[{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":10}}]},{\"Time\":19.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":25,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}},{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}}]},{\"Time\":39.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":51,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":999}},{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Duration\":999}}]}]",
+    "GameplayTimeCommands": "[{\"Time\":10,\"Commands\":[{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":10}}]},{\"Time\":19.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":25,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}},{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}}]},{\"Time\":39.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":51,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\"}},{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3}}]}]",
     "RemainingTimeCommands": "[{\"Time\":10,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"TextId\":\"CoinCatch_StageSwitch_2\",\"Duration\":2}}]},{\"Time\":10,\"Commands\":[{\"CommandName\":\"CrazyMode\"},{\"CommandName\":\"ModifyDropPoolTimeInterval\",\"Params\":{\"Modifiers\":[{\"Type\":\"Rate\",\"Value\":0.5}]}}]}]",
     "SkillCommands": "[{\"CommandName\":\"ModifyRoleSpeed\",\"Params\":{\"Type\":\"Override\",\"Value\":0.7,\"Source\":\"Skill\"}},{\"CommandName\":\"ModifyAddScoreRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":10,\"Source\":\"Skill\"}}]",
     "NextGameplayId": 7,
     "Name": "CoinCatch_Character_2",
     "Desc": "CoinCatch_DailyEventInstruction_2",
     "IsSpecial": false,
-    "IsNeedSettle": true
+    "IsNeedSettle": true,
+    "BgRoleId": 0
   },
   {
     "Id": 7,
@@ -640,14 +646,15 @@
       0,
       -500
     ],
-    "GameplayTimeCommands": "[{\"Time\":0,\"Commands\":[{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":10}}]},{\"Time\":10,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}},{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}}]},{\"Time\":19.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":20,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":10}},{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":2,\"Duration\":10}}]},{\"Time\":30,\"Commands\":[{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}}]},{\"Time\":39.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":2}}]},{\"Time\":40,\"Commands\":[{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}}]},{\"Time\":51,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":999}},{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Duration\":9999}}]}]",
+    "GameplayTimeCommands": "[{\"Time\":0,\"Commands\":[{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":10}}]},{\"Time\":10,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}},{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}}]},{\"Time\":19.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_StageSwitch_1\",\"Duration\":2}}]},{\"Time\":20,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\",\"Duration\":10}},{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":2,\"Duration\":10}}]},{\"Time\":30,\"Commands\":[{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}}]},{\"Time\":39.5,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":2}}]},{\"Time\":40,\"Commands\":[{\"CommandName\":\"ConvertDropItem\",\"Params\":{\"SourceItemId\":[1,3],\"TargetItemId\":2,\"Duration\":10}},{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_2\",\"Duration\":10}}]},{\"Time\":51,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"Type\":\"Gameplay\",\"TextId\":\"CoinCatch_LevelAbility_1\"}},{\"CommandName\":\"ModifyEnergyGetRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":3}}]}]",
     "RemainingTimeCommands": "[{\"Time\":10,\"Commands\":[{\"CommandName\":\"ShowLeftMsg\",\"Params\":{\"TextId\":\"CoinCatch_StageSwitch_2\",\"Duration\":2}}]},{\"Time\":10,\"Commands\":[{\"CommandName\":\"CrazyMode\"},{\"CommandName\":\"ModifyDropPoolTimeInterval\",\"Params\":{\"Modifiers\":[{\"Type\":\"Rate\",\"Value\":0.5}]}}]}]",
     "SkillCommands": "[{\"CommandName\":\"ModifyRoleSpeed\",\"Params\":{\"Type\":\"Override\",\"Value\":1.8,\"Source\":\"Skill\"}},{\"CommandName\":\"ModifyAddScoreRate\",\"Params\":{\"Type\":\"Rate\",\"Value\":5,\"Source\":\"Skill\"}}]",
     "NextGameplayId": 0,
     "Name": "CoinCatch_Character_7",
     "Desc": "CoinCatch_DailyEventInstruction_7",
     "IsSpecial": false,
-    "IsNeedSettle": true
+    "IsNeedSettle": true,
+    "BgRoleId": 0
   },
   {
     "Id": 8,
@@ -686,6 +693,73 @@
     "Name": "CoinCatch_Character_6",
     "Desc": "",
     "IsSpecial": true,
-    "IsNeedSettle": true
+    "IsNeedSettle": true,
+    "BgRoleId": 0
+  },
+  {
+    "Id": 9,
+    "ActivityId": 0,
+    "OpenDay": 0,
+    "RewardIds": [],
+    "RoleId": 5,
+    "GameplayTime": 60,
+    "DropPoolList": [
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      434,
+      435
+    ],
+    "DropItemList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Area": [
+      -748,
+      -720,
+      748,
+      720
+    ],
+    "RoleBornPos": [
+      0,
+      -500
+    ],
+    "GameplayTimeCommands": "[{\"Time\":0,\"Commands\":[{\"CommandName\":\"PlayFlow\",\"Params\":{\"FlowId\":\"剧情_3_3_拉海洛主线_下半,5,10\"}}]},{\"Time\":29,\"Commands\":[{\"CommandName\":\"PlayFlow\",\"Params\":{\"FlowId\":\"剧情_3_3_拉海洛主线_下半,5,13\"}}]},{\"Time\":38,\"Commands\":[{\"CommandName\":\"SetInputEnabled\",\"Params\":{\"Enabled\":false}},{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":2}}]},{\"Time\":41,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":-1,\"Duration\":0.5}}]},{\"Time\":42,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":-1,\"Duration\":0.8}}]},{\"Time\":43,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":0.3}}]},{\"Time\":44,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":-1,\"Duration\":1}}]},{\"Time\":45,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":1}}]},{\"Time\":46,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":-1,\"Duration\":0.3}}]},{\"Time\":47,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":0.6}}]},{\"Time\":48,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":-1,\"Duration\":1.5}}]},{\"Time\":50,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":0.3}}]},{\"Time\":51,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":0.8}}]},{\"Time\":52,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":-1,\"Duration\":0.5}}]},{\"Time\":53,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":0.7}}]},{\"Time\":54,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":-1,\"Duration\":0.5}}]},{\"Time\":54.5,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":1.5}}]},{\"Time\":55,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":-1,\"Duration\":0.3}}]},{\"Time\":55.3,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":0.3}}]},{\"Time\":56,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":0.5}}]},{\"Time\":57,\"Commands\":[{\"CommandName\":\"PlayFlow\",\"Params\":{\"FlowId\":\"剧情_3_3_拉海洛主线_下半,5,14\"}},{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":-1,\"Duration\":1.5}}]},{\"Time\":58.5,\"Commands\":[{\"CommandName\":\"MoveRole\",\"Params\":{\"Direction\":1,\"Duration\":2}}]}]",
+    "RemainingTimeCommands": "",
+    "SkillCommands": "",
+    "NextGameplayId": 0,
+    "Name": "",
+    "Desc": "",
+    "IsSpecial": true,
+    "IsNeedSettle": true,
+    "BgRoleId": 6
   }
 ]

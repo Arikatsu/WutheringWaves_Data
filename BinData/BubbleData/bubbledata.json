@@ -3416,6 +3416,42 @@
     "ActionId": 3000055
   },
   {
+    "ActionGuid": "948b24b7dfda41c3a8b7bd460158713f",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119000000
+      ],
+      "EnterRadius": 800,
+      "LeaveRadius": 1000,
+      "Flow": {
+        "FlowListName": "剧情_3_3_拉海洛主线_下半",
+        "FlowId": 2,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000034
+  },
+  {
+    "ActionGuid": "3e9d4e8914ca40b7bf9d58472c590300",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119000029
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_3_拉海洛主线_下半",
+        "FlowId": 2,
+        "StateId": 2
+      }
+    },
+    "ActionId": 3000061
+  },
+  {
     "ActionGuid": "2d7bf819a00b484b9d0c0a4760c891a3",
     "Name": "AddPlayBubble",
     "Async": false,
@@ -3448,6 +3484,24 @@
       }
     },
     "ActionId": 4000050
+  },
+  {
+    "ActionGuid": "89bc16274448475d8ddf894c833efa48",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119000038
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_3_拉海洛主线_下半",
+        "FlowId": 2,
+        "StateId": 3
+      }
+    },
+    "ActionId": 3000027
   },
   {
     "ActionGuid": "0b74b120b9f34a95a4b61ba54e935f45",
@@ -5048,6 +5102,75 @@
     "ActionId": 3000012
   },
   {
+    "ActionGuid": "f52d4eaea8614a9a87677d3af8439158",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        693850002
+      ]
+    },
+    "ActionId": 4000002
+  },
+  {
+    "ActionGuid": "a6c9b19250c74916ad58a1d615f51015",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        693850002
+      ],
+      "EnterRadius": 2000,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_3_3_日灵终末旅行",
+        "FlowId": 3,
+        "StateId": 1
+      },
+      "WaitTime": 5
+    },
+    "ActionId": 4000004
+  },
+  {
+    "ActionGuid": "e158d580a1c84af49b6c6abbedc4741c",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        693850013,
+        693850015,
+        693850014
+      ],
+      "EnterRadius": 2500,
+      "LeaveRadius": 3000,
+      "Flow": {
+        "FlowListName": "剧情_3_3_日灵终末旅行",
+        "FlowId": 9,
+        "StateId": 1
+      }
+    },
+    "ActionId": 4000024
+  },
+  {
+    "ActionGuid": "302c0c5a071c4687a047a7f1e5cd01fd",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        693850027,
+        693850026
+      ],
+      "EnterRadius": 700,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_3_小小探寻者",
+        "FlowId": 2,
+        "StateId": 1
+      }
+    },
+    "ActionId": 4000002
+  },
+  {
     "ActionGuid": "346cf5840fec4ccaba3d30ab51e141e1",
     "Name": "AddPlayBubble",
     "Async": false,
@@ -5312,5 +5435,365 @@
       "WaitTime": 30
     },
     "ActionId": 4000144
+  },
+  {
+    "ActionGuid": "11d2c56b109b4b18a7214a7ac58b92cf",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        119850013,
+        119000034
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_3_拉海洛主线_下半",
+        "FlowId": 2,
+        "StateId": 5
+      }
+    },
+    "ActionId": 3000095
+  },
+  {
+    "ActionGuid": "2d9f9245d050469d93bbd42dad9525fe",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        211850046
+      ],
+      "Flow": {
+        "FlowListName": "剧情_3_3_支线_深空孵化计划",
+        "FlowId": 18,
+        "StateId": 1
+      },
+      "EnterRadius": 500,
+      "LeaveRadius": 1500
+    },
+    "ActionId": 3000007
+  },
+  {
+    "ActionGuid": "4e3d738d648f4d219bbd1afd3a2c2b38",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        211850048
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_3_支线_深空孵化计划",
+        "FlowId": 10,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000022
+  },
+  {
+    "ActionGuid": "69bb6fde160145709d7a6fa130b5f57d",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        211850048
+      ]
+    },
+    "ActionId": 3000023
+  },
+  {
+    "ActionGuid": "bf74c5465334416b8ecea32eadfdab11",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        211850046
+      ]
+    },
+    "ActionId": 3000020
+  },
+  {
+    "ActionGuid": "26cdfff1e6f64206adece8a86ec215bc",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        693850005
+      ]
+    },
+    "ActionId": 4000009
+  },
+  {
+    "ActionGuid": "89387e371dca408e8d89c1e7b6a3935e",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        693850013
+      ]
+    },
+    "ActionId": 4000023
+  },
+  {
+    "ActionGuid": "625d4541a2d8496fb1666ba29644ec20",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        211850018
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_3_支线_树与灵",
+        "FlowId": 2,
+        "StateId": 1
+      }
+    },
+    "ActionId": 3000016
+  },
+  {
+    "ActionGuid": "2ce05638d6c04cd293fb7c930a5f0f99",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        219850375
+      ]
+    },
+    "ActionId": 4000147
+  },
+  {
+    "ActionGuid": "2b73ec709ed54790b13db03528cacb20",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        693850005,
+        693851020
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_3_3_日灵终末旅行",
+        "FlowId": 5,
+        "StateId": 1
+      }
+    },
+    "ActionId": 4000043
+  },
+  {
+    "ActionGuid": "254f4bce2c1f4d098ccb771ca54068f9",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        146850145,
+        146850651
+      ],
+      "Flow": {
+        "FlowListName": "剧情_3_3_投影仪9",
+        "FlowId": 3,
+        "StateId": 1
+      },
+      "TriggerCylinderConfig": {
+        "InnerConfig": {
+          "Radius": 2700,
+          "Height": 700
+        },
+        "OuterConfig": {
+          "Radius": 3500,
+          "Height": 900
+        }
+      }
+    },
+    "ActionId": 4000026
+  },
+  {
+    "ActionGuid": "2c23f99d3494445894f57ba302b56316",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        146850145,
+        146850651
+      ],
+      "Flow": {
+        "FlowListName": "剧情_3_3_投影仪9",
+        "FlowId": 3,
+        "StateId": 1
+      },
+      "TriggerCylinderConfig": {
+        "InnerConfig": {
+          "Radius": 2700,
+          "Height": 700
+        },
+        "OuterConfig": {
+          "Radius": 3500,
+          "Height": 900
+        }
+      }
+    },
+    "ActionId": 4000044
+  },
+  {
+    "ActionGuid": "3159bde7646c402a9928d26e0877a923",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        146850145,
+        146850651
+      ],
+      "Flow": {
+        "FlowListName": "剧情_3_3_投影仪9",
+        "FlowId": 3,
+        "StateId": 1
+      },
+      "TriggerCylinderConfig": {
+        "InnerConfig": {
+          "Radius": 2700,
+          "Height": 700
+        },
+        "OuterConfig": {
+          "Radius": 3500,
+          "Height": 900
+        }
+      }
+    },
+    "ActionId": 4000051
+  },
+  {
+    "ActionGuid": "42b25c71854546e09cd0dba676a73543",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        146850145,
+        146850651
+      ],
+      "Flow": {
+        "FlowListName": "剧情_3_3_投影仪9",
+        "FlowId": 5,
+        "StateId": 1
+      },
+      "TriggerCylinderConfig": {
+        "InnerConfig": {
+          "Radius": 2700,
+          "Height": 700
+        },
+        "OuterConfig": {
+          "Radius": 3500,
+          "Height": 900
+        }
+      }
+    },
+    "ActionId": 4000075
+  },
+  {
+    "ActionGuid": "d5308a2b31d14fe2892217754fe5633c",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        146850145,
+        146850651
+      ],
+      "Flow": {
+        "FlowListName": "剧情_3_3_投影仪9",
+        "FlowId": 5,
+        "StateId": 1
+      },
+      "TriggerCylinderConfig": {
+        "InnerConfig": {
+          "Radius": 2700,
+          "Height": 700
+        },
+        "OuterConfig": {
+          "Radius": 3500,
+          "Height": 900
+        }
+      }
+    },
+    "ActionId": 4000070
+  },
+  {
+    "ActionGuid": "e12a42bb22b6480d878a74aaa8915c5e",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        146850145,
+        146850651
+      ],
+      "Flow": {
+        "FlowListName": "剧情_3_3_投影仪9",
+        "FlowId": 5,
+        "StateId": 1
+      },
+      "TriggerCylinderConfig": {
+        "InnerConfig": {
+          "Radius": 2700,
+          "Height": 700
+        },
+        "OuterConfig": {
+          "Radius": 3500,
+          "Height": 900
+        }
+      }
+    },
+    "ActionId": 4000065
+  },
+  {
+    "ActionGuid": "29062744df614cb0a95bddc4abc1a8be",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        693850009,
+        693850008,
+        693850011
+      ],
+      "EnterRadius": 1500,
+      "LeaveRadius": 2000,
+      "Flow": {
+        "FlowListName": "剧情_3_3_日灵终末旅行",
+        "FlowId": 7,
+        "StateId": 1
+      }
+    },
+    "ActionId": 4000019
+  },
+  {
+    "ActionGuid": "6e5e0e7dfefd443b813d8762a8dbffff",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        155850038,
+        155850013
+      ],
+      "EnterRadius": 500,
+      "LeaveRadius": 1500,
+      "Flow": {
+        "FlowListName": "剧情_3_3_拉海洛主线_上半序章生态",
+        "FlowId": 6,
+        "StateId": 1
+      }
+    },
+    "ActionId": 4000069
+  },
+  {
+    "ActionGuid": "b5ba78ee96dc40b5a5a5c3e43b5e5dac",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        155850038,
+        155850013
+      ]
+    },
+    "ActionId": 4000070
   }
 ]

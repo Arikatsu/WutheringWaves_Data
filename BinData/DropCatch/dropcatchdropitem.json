@@ -216,6 +216,42 @@
     "ItemTemplate": 6
   },
   {
+    "Id": 13,
+    "MoveSpeed": 1,
+    "Size": [
+      1500,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ModifyRoleSpeed\",\"Params\":{\"Type\":\"Override\",\"Value\":0.2,\"Duration\":1}},{\"CommandName\":\"ChangeRoleColor\",\"Params\":{\"UseChangeColor\":true,\"HexColor\":\"FD5862FF\",\"Duration\":1}}]",
+    "Score": 0,
+    "Energy": -30,
+    "EffectType": 1,
+    "Name": "CoinCatch_ItemName_3",
+    "Desc": "CoinCatch_Desc_3",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem06.SP_GoldCatchItem06",
+    "Priority": 0,
+    "NiagaraType": 3,
+    "ItemTemplate": 3
+  },
+  {
+    "Id": 14,
+    "MoveSpeed": 1,
+    "Size": [
+      164,
+      164
+    ],
+    "EffectCommands": "[{\"CommandName\":\"ShowFloatEff\",\"Params\":{\"Score\":30}}]",
+    "Score": 30,
+    "Energy": 10,
+    "EffectType": 0,
+    "Name": "CoinCatch_ItemName_1",
+    "Desc": "CoinCatch_Desc_1",
+    "Icon": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity32/GoldCatch/DropItem/SP_GoldCatchItem07.SP_GoldCatchItem07",
+    "Priority": 4,
+    "NiagaraType": 0,
+    "ItemTemplate": 1
+  },
+  {
     "Id": 15,
     "MoveSpeed": 0.6000000238418579,
     "Size": [
