@@ -56182,7 +56182,7 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBullet",
     "SkillActionParams": [
-      "900312000121"
+      "933312200101"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -56209,7 +56209,7 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBullet",
     "SkillActionParams": [
-      "900312000121"
+      "933312200101"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -58229,6 +58229,34 @@
     "SkillActionParams": [
       "933312402521",
       "933312402522"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 933312200201,
+    "SkillDesc": "【护盾】【Key】护盾存在时每受到伤害时，在自身范围召唤冰爆，造成最大生命值X%的伤害。（10秒）（触发器）（900312000121）",
+    "CDTime": 10,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "ExecuteType": 0,
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "GetShieldValue(Owner)>0",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "933312200101"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",

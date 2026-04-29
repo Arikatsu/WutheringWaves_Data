@@ -40921,7 +40921,11 @@
         "e_2502_140000015",
         "e_2502_140000024",
         "e_2502_139800015"
-      ]
+      ],
+      "FocusModeSetting": {
+        "CanAcceptInFocusMode": true,
+        "IsFocusModeWhiteList": true
+      }
     }
   },
   {
@@ -81068,7 +81072,7 @@
       "RewardId": 42289,
       "OnlineType": "SingleHangUpOnline",
       "IsAutoTrack": true,
-      "IsAutoCoverCurTrack": true,
+      "IsAutoCoverCurTrack": false,
       "ProvideType": {
         "Conditions": [
           {
@@ -81142,7 +81146,8 @@
         "e_909_249850143",
         "e_909_249850108",
         "e_909_183850103",
-        "e_909_183850104"
+        "e_909_183850104",
+        "e_909_249850212"
       ],
       "Reference": [
         "e_909_249850127",
@@ -81247,6 +81252,7 @@
         "e_909_183850104",
         "e_909_183850105",
         "e_909_249850160",
+        "e_909_249850212",
         "e_909_249850156",
         "e_909_249850179",
         "l_909_249850000",
@@ -84966,7 +84972,7 @@
       "RewardId": 42287,
       "OnlineType": "SingleHangUpOnline",
       "IsAutoTrack": true,
-      "IsAutoCoverCurTrack": true,
+      "IsAutoCoverCurTrack": false,
       "ProvideType": {
         "Conditions": [
           {
@@ -88593,13 +88599,6 @@
           {
             "Type": "PreQuest",
             "PreQuest": 121000040
-          },
-          {
-            "Type": "PreChildQuest",
-            "PreChildQuest": {
-              "QuestId": 168800014,
-              "ChildQuestId": 4
-            }
           }
         ]
       },
@@ -88611,14 +88610,12 @@
         "e_906_320702367",
         "e_906_320702373",
         "q_121000040",
-        "q_168800014",
         "f_121000009_25"
       ],
       "WeakReference": [
         "e_906_320702367",
         "e_906_320702373",
-        "q_121000040",
-        "q_168800014"
+        "q_121000040"
       ],
       "Children": [
         "e_906_121850128"
@@ -88988,10 +88985,6 @@
           {
             "Type": "PreQuest",
             "PreQuest": 211850019
-          },
-          {
-            "Type": "PreQuest",
-            "PreQuest": 183000000
           }
         ]
       },
@@ -89032,7 +89025,6 @@
         "e_909_211850033",
         "e_909_211850063",
         "q_211850019",
-        "q_183000000",
         "f_181850006_2",
         "f_181850006_3",
         "f_181850006_9",
@@ -89047,8 +89039,7 @@
         "f_181850006_15"
       ],
       "WeakReference": [
-        "q_211850019",
-        "q_183000000"
+        "q_211850019"
       ],
       "ChapterId": 3007,
       "FinishActions": [
@@ -89329,8 +89320,9 @@
         "f_194850004_8",
         "f_194850002_33",
         "f_194850002_34",
-        "f_194850002_37",
+        "f_194850002_36",
         "f_194850002_35",
+        "f_194850002_37",
         "f_194850002_38"
       ],
       "Children": [
@@ -90788,16 +90780,22 @@
               "QuestId": 184850008,
               "ChildQuestId": 6
             }
+          },
+          {
+            "Type": "PreQuest",
+            "PreQuest": 183000000
           }
         ]
       },
       "DistributeType": "System",
       "ActiveActions": [],
       "Reference": [
-        "q_184850008"
+        "q_184850008",
+        "q_183000000"
       ],
       "WeakReference": [
-        "q_184850008"
+        "q_184850008",
+        "q_183000000"
       ]
     }
   },

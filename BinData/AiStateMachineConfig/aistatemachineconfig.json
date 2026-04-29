@@ -230571,7 +230571,7 @@
   {
     "Id": "SM_MB1XinjiLemuMd10011",
     "StateMachineJson": {
-      "Version": 1161477988,
+      "Version": 210702136,
       "StateMachines": [
         24,
         42,
@@ -232087,6 +232087,15 @@
               "Type": 1,
               "ActionAddBuff": {
                 "BuffId": 80034049
+              }
+            }
+          ],
+          "OnExitActions": [
+            {
+              "Name": "ActionRemoveBuff",
+              "Type": 2,
+              "ActionRemoveBuff": {
+                "BuffId": 1108101007
               }
             }
           ],
@@ -265971,7 +265980,7 @@
   {
     "Id": "SM_MB1DaniyaMd00101",
     "StateMachineJson": {
-      "Version": 1351609603,
+      "Version": 1680292276,
       "StateMachines": [
         4,
         9,
@@ -267255,6 +267264,13 @@
               "Type": 3,
               "BindTag": {
                 "TagId": 928583663
+              }
+            },
+            {
+              "Name": "BindTag",
+              "Type": 3,
+              "BindTag": {
+                "TagId": 1800381166
               }
             }
           ],
