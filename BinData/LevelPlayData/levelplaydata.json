@@ -331703,11 +331703,11 @@
         "e_909_692850075",
         "e_909_692850068",
         "e_909_692850069",
+        "e_909_692850403",
         "e_909_692850401",
         "e_909_692850810",
         "e_909_692850844",
         "e_909_692850843",
-        "e_909_692850403",
         "e_909_692850618",
         "e_909_692850849",
         "e_909_692850850",
@@ -334129,6 +334129,9 @@
         "TrackPriority": -5
       },
       "Reference": [
+        "e_909_146850573",
+        "e_909_146850574",
+        "e_909_146850572",
         "e_909_146850013",
         "e_909_146850156",
         "e_909_146850163",
@@ -334163,11 +334166,8 @@
         "e_909_146850157",
         "e_909_146850161",
         "e_909_146850569",
-        "e_909_146850572",
         "e_909_146850570",
-        "e_909_146850573",
         "e_909_146850571",
-        "e_909_146850574",
         "e_909_146850164",
         "e_909_146850619",
         "e_909_146850620",
@@ -334230,7 +334230,92 @@
         "e_909_146850630",
         "e_909_146850629",
         "e_909_146850631"
-      ]
+      ],
+      "FixProcessor": {
+        "FixActions": [
+          {
+            "Timing": "LevelPlayCompleted",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckEntitesExist",
+                  "EntityIds": [
+                    146850573
+                  ],
+                  "IsExist": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "DestroyEntity",
+                "Params": {
+                  "EntityIds": [
+                    146850573
+                  ]
+                },
+                "ActionGuid": "2e961cc7a11f4cb685b7a54ddb2f1fb6",
+                "ActionId": 4000063
+              }
+            ]
+          },
+          {
+            "Timing": "LevelPlayCompleted",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckEntitesExist",
+                  "EntityIds": [
+                    146850574
+                  ],
+                  "IsExist": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "DestroyEntity",
+                "Params": {
+                  "EntityIds": [
+                    146850574
+                  ]
+                },
+                "ActionGuid": "25aeed8fbcf64733b01561cf2b55140a",
+                "ActionId": 4000064
+              }
+            ]
+          },
+          {
+            "Timing": "LevelPlayCompleted",
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CheckEntitesExist",
+                  "EntityIds": [
+                    146850572
+                  ],
+                  "IsExist": true
+                }
+              ]
+            },
+            "ThenActions": [
+              {
+                "Name": "DestroyEntity",
+                "Params": {
+                  "EntityIds": [
+                    146850572
+                  ]
+                },
+                "ActionGuid": "dd424451ede94ed581e4c00c99ee2e60",
+                "ActionId": 4000065
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   {
