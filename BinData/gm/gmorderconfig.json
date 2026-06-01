@@ -533,9 +533,9 @@
   {
     "Id": 11061,
     "Name": "功能开启",
-    "NameOverride": "功能开启（0开启所有）",
+    "NameOverride": "功能开启（输入功能id 0开启所有）",
     "Code": "funcopengm 功能Id",
-    "CodeOverride": "funcopengm 功能Id",
+    "CodeOverride": "funcopengm 0",
     "Sort": 11061,
     "Visible": true
   },
@@ -1149,6 +1149,15 @@
     "Code": "SetPrefabTextTranslateId#",
     "CodeOverride": "SetPrefabTextTranslateId#1",
     "Sort": 19511,
+    "Visible": true
+  },
+  {
+    "Id": 11063,
+    "Name": "无视限制开启3C能力 (仅当前区域)",
+    "NameOverride": "无视限制开启3C能力 (仅当前区域)",
+    "Code": "RunOrderList#192",
+    "CodeOverride": "RunOrderList#192",
+    "Sort": 11063,
     "Visible": true
   }
 ]
