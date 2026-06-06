@@ -955880,5 +955880,1087 @@
         }
       }
     }
+  },
+  {
+    "Id": 39700016,
+    "BlueprintType": "branch3.4_39_Gameplay_3_1/Destructible3",
+    "Name": "TsEntity_洛瑟菈_可破坏物_空间站罐子",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "SceneObj",
+          "DestructibleType": "Case"
+        },
+        "Camp": 1,
+        "TidName": "Entity_bfaf7913fb49013a2c290f3620d44e6c3ceec7c8cb6097e92dbfc98b5be1b408",
+        "OnlineInteractType": 1,
+        "EntityPropertyId": 2,
+        "AoiLayer": 7,
+        "AoiZRadius": 0,
+        "ScanFunction": {
+          "ScanId": 106,
+          "IsConcealed": false
+        },
+        "IsOnlineStandalone": true,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 300,
+        "Options": [
+          {
+            "Guid": "48308a09ef674e8891518e9eb4396f5e",
+            "Type": {
+              "Type": "Actions",
+              "Actions": []
+            },
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareEntitySelfState",
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.常态"
+                }
+              ]
+            }
+          }
+        ],
+        "DoIntactType": "Direct",
+        "Disabled": true
+      },
+      "ModelComponent": {
+        "Disabled": false,
+        "ModelType": {
+          "Type": "LevelPrefab",
+          "BlueprintPath": "Item",
+          "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_4/Luosela/TPrefab_Luosela_VehicleDes_SS_Jar.TPrefab_Luosela_VehicleDes_SS_Jar",
+          "PrefabStateList": [
+            {
+              "SceneInteractionState": 0,
+              "LevelTag": 573535163
+            },
+            {
+              "SceneInteractionState": 1,
+              "LevelTag": 1897095482
+            },
+            {
+              "SceneInteractionState": 2,
+              "LevelTag": -1278190765
+            }
+          ],
+          "EffectStateList": []
+        }
+      },
+      "CollectComponent": {},
+      "RangeComponent": {
+        "Shape": {
+          "Type": "Sphere",
+          "Center": {
+            "Z": 60
+          },
+          "Radius": 80
+        }
+      },
+      "TriggerComponent": {
+        "Match": {
+          "Categories": [
+            {
+              "MainType": "Vehicle"
+            }
+          ]
+        },
+        "Actions": [
+          {
+            "Name": "ChangeSelfEntityState",
+            "Params": {
+              "EntityState": "物体.物体阶段.完全破坏"
+            },
+            "ActionGuid": "ebd01b14d35f4c88a605d3233d0527c0",
+            "ActionId": 1000003
+          },
+          {
+            "Name": "Collect",
+            "Params": {},
+            "ActionGuid": "28cc13624cb24b4c99eaec689460ec99",
+            "ActionId": 1000002
+          }
+        ],
+        "Disabled": false
+      },
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "FixedDateTime",
+          "Hours": 4,
+          "Minutes": 0,
+          "Seconds": 0
+        }
+      },
+      "RewardComponent": {
+        "RewardId": 1408,
+        "RewardType": 0
+      },
+      "SceneItemLifeCycleComponent": {
+        "CreateStageConfig": {},
+        "DestroyStageConfig": {
+          "PerformDuration": 5
+        }
+      },
+      "InteractAudioComponent": {
+        "Disabled": true
+      },
+      "EntityStateComponent": {
+        "Type": "物体阶段",
+        "State": "物体.物体阶段.完整",
+        "LockConfig": {
+          "LockType": "Default",
+          "IsInitLock": false
+        }
+      },
+      "NearbyTrackingComponent": {
+        "IsEnable": false,
+        "TrackingType": {
+          "Type": "Compass",
+          "ShowRange": 60,
+          "HideRange": 60
+        },
+        "Disabled": true
+      },
+      "DestructibleItem": {
+        "DurabilityId": 0,
+        "Durability": 1,
+        "DurabilityStateConfig": {
+          "NonDestructable": false,
+          "DurabilityStates": [
+            {
+              "State": "物体.物体阶段.完全破坏",
+              "Durability": 0
+            }
+          ]
+        },
+        "HitPoint": {}
+      },
+      "FightInteractComponent": {
+        "LockRange": 350,
+        "LockOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 100
+        }
+      },
+      "HookLockPoint": {
+        "Range": {
+          "Center": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Radius": 400
+        },
+        "CameraGaze": {
+          "FadeInTime": 0,
+          "StayTime": 0,
+          "LockCamera": false,
+          "LockPriority": 1
+        },
+        "GazeNextPointAfterInteract": {
+          "GazePerformance": {
+            "FadeInTime": 0,
+            "StayTime": 0,
+            "LockCamera": false
+          }
+        },
+        "InheritSpeed": true,
+        "NormalEffect": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Maodian.DA_Fx_Group_Hook_Maodian",
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": []
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        }
+      },
+      "SceneItemMovementComponent": {
+        "Disabled": true
+      }
+    }
+  },
+  {
+    "Id": 39700015,
+    "BlueprintType": "branch3.4_39_Gameplay_3_1/Destructible2",
+    "Name": "TsEntity_洛瑟菈_可破坏物_空间站箱子",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "SceneObj",
+          "DestructibleType": "Case"
+        },
+        "Camp": 1,
+        "TidName": "Entity_b77bc45fa3557cfcce37eff6c4780614dd86372a7c8dd2dbd745a39274ed3a61",
+        "OnlineInteractType": 1,
+        "EntityPropertyId": 2,
+        "AoiLayer": 7,
+        "AoiZRadius": 0,
+        "ScanFunction": {
+          "ScanId": 106,
+          "IsConcealed": false
+        },
+        "IsOnlineStandalone": true,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 300,
+        "Options": [
+          {
+            "Guid": "48308a09ef674e8891518e9eb4396f5e",
+            "Type": {
+              "Type": "Actions",
+              "Actions": []
+            },
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareEntitySelfState",
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.常态"
+                }
+              ]
+            }
+          }
+        ],
+        "DoIntactType": "Direct",
+        "Disabled": true
+      },
+      "ModelComponent": {
+        "Disabled": false,
+        "ModelType": {
+          "Type": "LevelPrefab",
+          "BlueprintPath": "Item",
+          "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_4/Luosela/TPrefab_Luosela_VehicleDes_SS_Box.TPrefab_Luosela_VehicleDes_SS_Box",
+          "PrefabStateList": [
+            {
+              "SceneInteractionState": 0,
+              "LevelTag": 573535163
+            },
+            {
+              "SceneInteractionState": 1,
+              "LevelTag": 1897095482
+            },
+            {
+              "SceneInteractionState": 2,
+              "LevelTag": -1278190765
+            }
+          ],
+          "EffectStateList": []
+        }
+      },
+      "CollectComponent": {},
+      "RangeComponent": {
+        "Shape": {
+          "Type": "Box",
+          "Center": {
+            "Z": 50
+          },
+          "Size": {
+            "X": 85,
+            "Y": 70,
+            "Z": 50
+          }
+        }
+      },
+      "TriggerComponent": {
+        "Match": {
+          "Categories": [
+            {
+              "MainType": "Vehicle"
+            }
+          ]
+        },
+        "Actions": [
+          {
+            "Name": "ChangeSelfEntityState",
+            "Params": {
+              "EntityState": "物体.物体阶段.完全破坏"
+            },
+            "ActionGuid": "b4a6dc3754d1481d9bc55758cf5b3cac",
+            "ActionId": 1000002
+          },
+          {
+            "Name": "Collect",
+            "Params": {},
+            "ActionGuid": "f60ecd82d77e43fb8645ab85c3220daf",
+            "ActionId": 1000003
+          }
+        ],
+        "Disabled": false
+      },
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "FixedDateTime",
+          "Hours": 4,
+          "Minutes": 0,
+          "Seconds": 0
+        }
+      },
+      "RewardComponent": {
+        "RewardId": 1409,
+        "RewardType": 0
+      },
+      "SceneItemLifeCycleComponent": {
+        "CreateStageConfig": {},
+        "DestroyStageConfig": {
+          "PerformDuration": 5
+        }
+      },
+      "InteractAudioComponent": {
+        "Disabled": true
+      },
+      "EntityStateComponent": {
+        "Type": "物体阶段",
+        "State": "物体.物体阶段.完整",
+        "LockConfig": {
+          "LockType": "Default",
+          "IsInitLock": false
+        }
+      },
+      "NearbyTrackingComponent": {
+        "IsEnable": false,
+        "TrackingType": {
+          "Type": "Compass",
+          "ShowRange": 60,
+          "HideRange": 60
+        },
+        "Disabled": true
+      },
+      "DestructibleItem": {
+        "DurabilityId": 0,
+        "Durability": 1,
+        "DurabilityStateConfig": {
+          "NonDestructable": false,
+          "DurabilityStates": [
+            {
+              "State": "物体.物体阶段.完全破坏",
+              "Durability": 0
+            }
+          ]
+        },
+        "HitPoint": {}
+      },
+      "FightInteractComponent": {
+        "LockRange": 350,
+        "LockOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 100
+        }
+      },
+      "HookLockPoint": {
+        "Range": {
+          "Center": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Radius": 400
+        },
+        "CameraGaze": {
+          "FadeInTime": 0,
+          "StayTime": 0,
+          "LockCamera": false,
+          "LockPriority": 1
+        },
+        "GazeNextPointAfterInteract": {
+          "GazePerformance": {
+            "FadeInTime": 0,
+            "StayTime": 0,
+            "LockCamera": false
+          }
+        },
+        "InheritSpeed": true,
+        "NormalEffect": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Maodian.DA_Fx_Group_Hook_Maodian",
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": []
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        }
+      },
+      "SceneItemMovementComponent": {
+        "Disabled": true
+      }
+    }
+  },
+  {
+    "Id": 39700011,
+    "BlueprintType": "branch3.4_39_Gameplay_3_0/Common9",
+    "Name": "TsEntity_洛瑟菈_可破坏物_学院箱子",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "SceneObj",
+          "DestructibleType": "Case"
+        },
+        "Camp": 1,
+        "TidName": "Entity_0b7954e59b7e72265987958f6a061c14472d2290808cb545c69dac79a7813479",
+        "OnlineInteractType": 1,
+        "EntityPropertyId": 2,
+        "AoiLayer": 7,
+        "AoiZRadius": 0,
+        "ScanFunction": {
+          "ScanId": 106,
+          "IsConcealed": false
+        },
+        "IsOnlineStandalone": true,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 300,
+        "Options": [
+          {
+            "Guid": "48308a09ef674e8891518e9eb4396f5e",
+            "Type": {
+              "Type": "Actions",
+              "Actions": []
+            },
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareEntitySelfState",
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.常态"
+                }
+              ]
+            }
+          }
+        ],
+        "DoIntactType": "Direct",
+        "Disabled": true
+      },
+      "ModelComponent": {
+        "Disabled": false,
+        "ModelType": {
+          "Type": "LevelPrefab",
+          "BlueprintPath": "Item",
+          "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_4/Luosela/TPrefab_Luosela_VehicleDes_Xueyuan_01.TPrefab_Luosela_VehicleDes_Xueyuan_01",
+          "PrefabStateList": [
+            {
+              "SceneInteractionState": 0,
+              "LevelTag": 573535163
+            },
+            {
+              "SceneInteractionState": 1,
+              "LevelTag": 1897095482
+            },
+            {
+              "SceneInteractionState": 2,
+              "LevelTag": -1278190765
+            }
+          ],
+          "EffectStateList": []
+        }
+      },
+      "CollectComponent": {},
+      "RangeComponent": {
+        "Shape": {
+          "Type": "Sphere",
+          "Center": {
+            "Z": 40
+          },
+          "Radius": 150
+        }
+      },
+      "TriggerComponent": {
+        "Match": {
+          "Categories": [
+            {
+              "MainType": "Vehicle"
+            }
+          ]
+        },
+        "Actions": [
+          {
+            "Name": "ChangeSelfEntityState",
+            "Params": {
+              "EntityState": "物体.物体阶段.完全破坏"
+            },
+            "ActionGuid": "a6b5660686054b95a3312145151d918e",
+            "ActionId": 1000002
+          },
+          {
+            "Name": "Collect",
+            "Params": {},
+            "ActionGuid": "aa6073ff1d664c4296637567fdf55da7",
+            "ActionId": 1000003
+          }
+        ],
+        "Disabled": false
+      },
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "FixedDateTime",
+          "Hours": 4,
+          "Minutes": 0,
+          "Seconds": 0
+        }
+      },
+      "RewardComponent": {
+        "RewardId": 1409,
+        "RewardType": 0
+      },
+      "SceneItemLifeCycleComponent": {
+        "CreateStageConfig": {},
+        "DestroyStageConfig": {
+          "PerformDuration": 5
+        }
+      },
+      "InteractAudioComponent": {
+        "Disabled": true
+      },
+      "EntityStateComponent": {
+        "Type": "物体阶段",
+        "State": "物体.物体阶段.完整",
+        "LockConfig": {
+          "LockType": "Default",
+          "IsInitLock": false
+        }
+      },
+      "NearbyTrackingComponent": {
+        "IsEnable": false,
+        "TrackingType": {
+          "Type": "Compass",
+          "ShowRange": 60,
+          "HideRange": 60
+        },
+        "Disabled": true
+      },
+      "DestructibleItem": {
+        "DurabilityId": 0,
+        "Durability": 1,
+        "DurabilityStateConfig": {
+          "NonDestructable": false,
+          "DurabilityStates": [
+            {
+              "State": "物体.物体阶段.完全破坏",
+              "Durability": 0
+            }
+          ]
+        },
+        "HitPoint": {}
+      },
+      "FightInteractComponent": {
+        "LockRange": 350,
+        "LockOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 100
+        }
+      },
+      "HookLockPoint": {
+        "Range": {
+          "Center": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Radius": 3000
+        },
+        "InheritSpeed": true,
+        "NormalEffect": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Maodian.DA_Fx_Group_Hook_Maodian",
+        "HookInteractConfig": {
+          "Type": "FollowerShoot",
+          "HookActions": [
+            {
+              "Name": "DestroySelf",
+              "Params": {},
+              "ActionGuid": "b567ae890faa43c58edd3c0eebc5d42d",
+              "ActionId": 1000004
+            }
+          ]
+        },
+        "HookEnableCondition": {
+          "Type": 0,
+          "Conditions": [
+            {
+              "Type": "CheckVehicleCondition",
+              "Condition": {
+                "Type": "PlayerInVehicle",
+                "CheckType": true,
+                "VehicleType": "Motorcycle"
+              }
+            }
+          ]
+        },
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": []
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        }
+      },
+      "SceneItemMovementComponent": {
+        "Disabled": true
+      }
+    }
+  },
+  {
+    "Id": 39700014,
+    "BlueprintType": "branch3.4_39_Gameplay_3_0/Common16",
+    "Name": "TsEntity_洛瑟菈_可破坏物_碎石",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "SceneObj",
+          "DestructibleType": "Case"
+        },
+        "Camp": 1,
+        "TidName": "Entity_0b7954e59b7e72265987958f6a061c14472d2290808cb545c69dac79a7813479",
+        "OnlineInteractType": 1,
+        "EntityPropertyId": 2,
+        "AoiLayer": 7,
+        "AoiZRadius": 0,
+        "ScanFunction": {
+          "ScanId": 106,
+          "IsConcealed": false
+        },
+        "IsOnlineStandalone": true,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 300,
+        "Options": [
+          {
+            "Guid": "48308a09ef674e8891518e9eb4396f5e",
+            "Type": {
+              "Type": "Actions",
+              "Actions": []
+            },
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareEntitySelfState",
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.常态"
+                }
+              ]
+            }
+          }
+        ],
+        "DoIntactType": "Direct",
+        "Disabled": true
+      },
+      "ModelComponent": {
+        "Disabled": false,
+        "ModelType": {
+          "Type": "LevelPrefab",
+          "BlueprintPath": "Item",
+          "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_4/Luosela/TPrefab_Luosela_VehicleDes_Rock.TPrefab_Luosela_VehicleDes_Rock",
+          "PrefabStateList": [
+            {
+              "SceneInteractionState": 0,
+              "LevelTag": 573535163
+            },
+            {
+              "SceneInteractionState": 1,
+              "LevelTag": 1897095482
+            },
+            {
+              "SceneInteractionState": 2,
+              "LevelTag": -1278190765
+            }
+          ],
+          "EffectStateList": []
+        }
+      },
+      "CollectComponent": {},
+      "RangeComponent": {
+        "Shape": {
+          "Type": "Sphere",
+          "Center": {
+            "Z": 40
+          },
+          "Radius": 150
+        }
+      },
+      "TriggerComponent": {
+        "Match": {
+          "Categories": [
+            {
+              "MainType": "Vehicle"
+            }
+          ]
+        },
+        "Actions": [
+          {
+            "Name": "ChangeSelfEntityState",
+            "Params": {
+              "EntityState": "物体.物体阶段.完全破坏"
+            },
+            "ActionGuid": "a6b5660686054b95a3312145151d918e",
+            "ActionId": 1000002
+          },
+          {
+            "Name": "Collect",
+            "Params": {},
+            "ActionGuid": "aa6073ff1d664c4296637567fdf55da7",
+            "ActionId": 1000003
+          }
+        ],
+        "Disabled": false
+      },
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "FixedDateTime",
+          "Hours": 4,
+          "Minutes": 0,
+          "Seconds": 0
+        }
+      },
+      "RewardComponent": {
+        "RewardId": 1409,
+        "RewardType": 0,
+        "Disabled": true
+      },
+      "SceneItemLifeCycleComponent": {
+        "CreateStageConfig": {},
+        "DestroyStageConfig": {
+          "PerformDuration": 5
+        }
+      },
+      "InteractAudioComponent": {
+        "Disabled": true
+      },
+      "EntityStateComponent": {
+        "Type": "物体阶段",
+        "State": "物体.物体阶段.完整",
+        "LockConfig": {
+          "LockType": "Default",
+          "IsInitLock": false
+        }
+      },
+      "NearbyTrackingComponent": {
+        "IsEnable": false,
+        "TrackingType": {
+          "Type": "Compass",
+          "ShowRange": 60,
+          "HideRange": 60
+        },
+        "Disabled": true
+      },
+      "DestructibleItem": {
+        "DurabilityId": 0,
+        "Durability": 1,
+        "DurabilityStateConfig": {
+          "NonDestructable": false,
+          "DurabilityStates": [
+            {
+              "State": "物体.物体阶段.完全破坏",
+              "Durability": 0
+            }
+          ]
+        },
+        "HitPoint": {}
+      },
+      "FightInteractComponent": {
+        "LockRange": 350,
+        "LockOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 100
+        }
+      },
+      "HookLockPoint": {
+        "Range": {
+          "Center": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Radius": 3000
+        },
+        "InheritSpeed": true,
+        "NormalEffect": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Maodian.DA_Fx_Group_Hook_Maodian",
+        "HookInteractConfig": {
+          "Type": "FollowerShoot",
+          "HookActions": [
+            {
+              "Name": "DestroySelf",
+              "Params": {},
+              "ActionGuid": "b567ae890faa43c58edd3c0eebc5d42d",
+              "ActionId": 1000004
+            }
+          ]
+        },
+        "HookEnableCondition": {
+          "Type": 0,
+          "Conditions": [
+            {
+              "Type": "CheckVehicleCondition",
+              "Condition": {
+                "Type": "PlayerInVehicle",
+                "CheckType": true,
+                "VehicleType": "Motorcycle"
+              }
+            }
+          ]
+        },
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": []
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        }
+      },
+      "SceneItemMovementComponent": {
+        "Disabled": true
+      }
+    }
+  },
+  {
+    "Id": 39700012,
+    "BlueprintType": "branch3.4_39_Gameplay_3_0/Common10",
+    "Name": "TsEntity_洛瑟菈_可破坏物_学院罐子",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "SceneObj",
+          "DestructibleType": "Case"
+        },
+        "Camp": 1,
+        "TidName": "Entity_0b7954e59b7e72265987958f6a061c14472d2290808cb545c69dac79a7813479",
+        "OnlineInteractType": 1,
+        "EntityPropertyId": 2,
+        "AoiLayer": 7,
+        "AoiZRadius": 0,
+        "ScanFunction": {
+          "ScanId": 106,
+          "IsConcealed": false
+        },
+        "IsOnlineStandalone": true,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 300,
+        "Options": [
+          {
+            "Guid": "48308a09ef674e8891518e9eb4396f5e",
+            "Type": {
+              "Type": "Actions",
+              "Actions": []
+            },
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareEntitySelfState",
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.常态"
+                }
+              ]
+            }
+          }
+        ],
+        "DoIntactType": "Direct",
+        "Disabled": true
+      },
+      "ModelComponent": {
+        "Disabled": false,
+        "ModelType": {
+          "Type": "LevelPrefab",
+          "BlueprintPath": "Item",
+          "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_4/Luosela/TPrefab_Luosela_VehicleDes_Xueyuan_02.TPrefab_Luosela_VehicleDes_Xueyuan_02",
+          "PrefabStateList": [
+            {
+              "SceneInteractionState": 0,
+              "LevelTag": 573535163
+            },
+            {
+              "SceneInteractionState": 1,
+              "LevelTag": 1897095482
+            },
+            {
+              "SceneInteractionState": 2,
+              "LevelTag": -1278190765
+            }
+          ],
+          "EffectStateList": []
+        }
+      },
+      "CollectComponent": {},
+      "RangeComponent": {
+        "Shape": {
+          "Type": "Sphere",
+          "Center": {
+            "Z": 60
+          },
+          "Radius": 120
+        }
+      },
+      "TriggerComponent": {
+        "Match": {
+          "Categories": [
+            {
+              "MainType": "Vehicle"
+            }
+          ]
+        },
+        "Actions": [
+          {
+            "Name": "ChangeSelfEntityState",
+            "Params": {
+              "EntityState": "物体.物体阶段.完全破坏"
+            },
+            "ActionGuid": "76174b972d02410c93f411247ec4863e",
+            "ActionId": 1000002
+          },
+          {
+            "Name": "Collect",
+            "Params": {},
+            "ActionGuid": "178457b491d04357b71e3e5a98e3c34a",
+            "ActionId": 1000003
+          }
+        ],
+        "Disabled": false
+      },
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "FixedDateTime",
+          "Hours": 4,
+          "Minutes": 0,
+          "Seconds": 0
+        }
+      },
+      "RewardComponent": {
+        "RewardId": 1408,
+        "RewardType": 0
+      },
+      "SceneItemLifeCycleComponent": {
+        "CreateStageConfig": {},
+        "DestroyStageConfig": {
+          "PerformDuration": 5
+        }
+      },
+      "InteractAudioComponent": {
+        "Disabled": true
+      },
+      "EntityStateComponent": {
+        "Type": "物体阶段",
+        "State": "物体.物体阶段.完整",
+        "LockConfig": {
+          "LockType": "Default",
+          "IsInitLock": false
+        }
+      },
+      "NearbyTrackingComponent": {
+        "IsEnable": false,
+        "TrackingType": {
+          "Type": "Compass",
+          "ShowRange": 60,
+          "HideRange": 60
+        },
+        "Disabled": true
+      },
+      "DestructibleItem": {
+        "DurabilityId": 0,
+        "Durability": 1,
+        "DurabilityStateConfig": {
+          "NonDestructable": false,
+          "DurabilityStates": [
+            {
+              "State": "物体.物体阶段.完全破坏",
+              "Durability": 0
+            }
+          ]
+        },
+        "HitPoint": {}
+      },
+      "FightInteractComponent": {
+        "LockRange": 350,
+        "LockOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 100
+        }
+      },
+      "HookLockPoint": {
+        "Range": {
+          "Center": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Radius": 400
+        },
+        "CameraGaze": {
+          "FadeInTime": 0,
+          "StayTime": 0,
+          "LockCamera": false,
+          "LockPriority": 1
+        },
+        "GazeNextPointAfterInteract": {
+          "GazePerformance": {
+            "FadeInTime": 0,
+            "StayTime": 0,
+            "LockCamera": false
+          }
+        },
+        "InheritSpeed": true,
+        "NormalEffect": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Maodian.DA_Fx_Group_Hook_Maodian",
+        "Disabled": true
+      },
+      "ClientTriggerComponent": {
+        "TriggerMatch": {
+          "EntityMatch": {
+            "Type": "Player",
+            "MatchRoleOption": []
+          }
+        },
+        "OnTriggerEnter": {
+          "Actions": []
+        },
+        "OnTriggerExit": {
+          "Actions": []
+        }
+      },
+      "SceneItemMovementComponent": {
+        "Disabled": true
+      }
+    }
   }
 ]

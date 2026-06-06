@@ -58748,7 +58748,7 @@
     "TriggerType": "BuffInstigatorTrigger",
     "ExecuteType": 0,
     "TriggerPreset": [
-      "1",
+      "0",
       "3181",
       "0"
     ],
@@ -59134,11 +59134,11 @@
     "ExecuteType": 0,
     "TriggerPreset": [
       "0",
-      "1511100#1511101#1511200",
+      "-1",
       "0"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TRUE",
+    "TriggerFormula": "SkillType==2",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -59163,11 +59163,11 @@
     "ExecuteType": 0,
     "TriggerPreset": [
       "0",
-      "1511100#1511101#1511200",
+      "-1",
       "0"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TRUE",
+    "TriggerFormula": "SkillType==2",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -59192,11 +59192,11 @@
     "ExecuteType": 0,
     "TriggerPreset": [
       "0",
-      "1511100#1511101#1511200",
+      "-1",
       "0"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TRUE",
+    "TriggerFormula": "SkillType==2",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -59221,11 +59221,11 @@
     "ExecuteType": 0,
     "TriggerPreset": [
       "0",
-      "1511100#1511101#1511200",
+      "-1",
       "0"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TRUE",
+    "TriggerFormula": "SkillType==2",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -59250,11 +59250,11 @@
     "ExecuteType": 0,
     "TriggerPreset": [
       "0",
-      "1511100#1511101#1511200",
+      "-1",
       "0"
     ],
     "TriggerParams": {},
-    "TriggerFormula": "TRUE",
+    "TriggerFormula": "SkillType==2",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -60805,7 +60805,7 @@
   {
     "Id": 1511500016,
     "SkillDesc": "固有1-受到伤害监听",
-    "CDTime": 0,
+    "CDTime": 0.5,
     "CdThreshold": -1,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -60824,6 +60824,36 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "1511500017"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 1511950004,
+    "SkillDesc": "5链-低生命时获得层数",
+    "CDTime": 180,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "ExecuteType": 0,
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "DamageValue>=0\nAND\nGetAttributeByID(Owner,3) / GetAttributeByID(Owner,2)<0.5",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1511500013",
+      "1511500016",
+      "1511500011"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",

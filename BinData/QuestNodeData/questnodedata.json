@@ -635988,12 +635988,33 @@
           "ActionId": 3000038
         },
         {
-          "Name": "StopUiScreenEffect",
+          "Name": "PlayEffect2",
           "Params": {
-            "EffectDaPath": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Scene/3_4/DA_Fx_3_4_Screen_GlitchTranssition_02.DA_Fx_3_4_Screen_GlitchTranssition_02"
+            "Type": "ScreenEffect",
+            "Path": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Scene/3_4/DA_Fx_3_4_Screen_GlitchTranssition_02.DA_Fx_3_4_Screen_GlitchTranssition_02",
+            "DestroyTime": 4.5
           },
-          "ActionGuid": "a3db77db7ff5478abca7909787737160",
+          "ActionGuid": "0a09b0798d69488eb32f547ed80bffa1",
           "ActionId": 3000047
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 0.5
+          },
+          "ActionGuid": "48d109e626414aafb78e3ca0f539a461",
+          "ActionId": 3000052
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 0
+            }
+          },
+          "ActionGuid": "b7a75b9e2c1a47e9afd0acd63cd3086c",
+          "ActionId": 3000053
         }
       ],
       "FinishActions": [
@@ -883392,7 +883413,46 @@
       "Type": "Sequence",
       "Id": 74,
       "Desc": "",
-      "SaveConfig": {},
+      "SaveConfig": {
+        "InitConditionActions": [
+          {
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "SaveConfigEnterMethod",
+                  "Compare": "Ne",
+                  "EnterMethod": "FirstTime"
+                }
+              ]
+            },
+            "Action": [
+              {
+                "Name": "PostAkEvent",
+                "Params": {
+                  "EventConfig": {
+                    "Type": "Global",
+                    "AkEvent": "/Game/Aki/WwiseAudio/Events/play_story_music_m3_8_08_a.play_story_music_m3_8_08_a"
+                  }
+                },
+                "ActionGuid": "cf385a00155746be9b03830494df2ecd",
+                "ActionId": 3000098
+              },
+              {
+                "Name": "PostAkEvent",
+                "Params": {
+                  "EventConfig": {
+                    "Type": "Global",
+                    "AkEvent": "/Game/Aki/WwiseAudio/Events/play_story_music_m3_8_08_b.play_story_music_m3_8_08_b"
+                  }
+                },
+                "ActionGuid": "617467cb71d2405dbe2e8fb6a065b518",
+                "ActionId": 3000099
+              }
+            ]
+          }
+        ]
+      },
       "ParentNodeId": 1
     }
   },
