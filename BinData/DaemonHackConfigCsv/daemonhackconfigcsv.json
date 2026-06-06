@@ -295,7 +295,7 @@
     "CodeBufferSize": 5,
     "TargetCodes": [
       "1C BD E9",
-      "E9 1C BD"
+      "BD E9 1C BD"
     ],
     "CountDown": 0,
     "FailThreshold": 1
@@ -1620,6 +1620,1617 @@
       "MY M O"
     ],
     "CountDown": 0,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700019,
+    "CodeMap": "1C E9 FF BD",
+    "CodeMatrix": {
+      "MatrixSize": 3,
+      "PresetCodes": [
+        {
+          "Code": "1C"
+        },
+        {
+          "Code": "1C",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "BD"
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "BD"
+        },
+        {
+          "Code": "E9"
+        },
+        {
+          "Code": "FF",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "E9",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "1C"
+        }
+      ]
+    },
+    "CodeBufferSize": 3,
+    "TargetCodes": [
+      "1C E9 FF"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 0
+  },
+  {
+    "Id": 700020,
+    "CodeMap": "1C E9 FF BD",
+    "CodeMatrix": {
+      "MatrixSize": 3,
+      "PresetCodes": [
+        {
+          "Code": "E9"
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "1C",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "1C",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "BD"
+        },
+        {
+          "Code": "1C",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "1C",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "E9"
+        },
+        {
+          "Code": "BD"
+        }
+      ]
+    },
+    "CodeBufferSize": 4,
+    "TargetCodes": [
+      "1C 1C 1C 1C"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 0
+  },
+  {
+    "Id": 700021,
+    "CodeMap": "55 7A 1C E9 FF BD",
+    "CodeMatrix": {
+      "MatrixSize": 4,
+      "PresetCodes": [
+        {
+          "Code": "FF",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "55",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "E9",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "1C"
+        },
+        {
+          "Code": "E9"
+        },
+        {
+          "Code": "BD"
+        },
+        {
+          "Code": "7A"
+        },
+        {
+          "Code": "BD",
+          "IsCorrect": true,
+          "Order": 6
+        },
+        {
+          "Code": "55"
+        },
+        {
+          "Code": "1C",
+          "IsCorrect": true,
+          "Order": 7
+        },
+        {
+          "Code": "C5"
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "7A",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "1C"
+        },
+        {
+          "Code": "1C",
+          "IsCorrect": true,
+          "Order": 3
+        }
+      ]
+    },
+    "CodeBufferSize": 7,
+    "TargetCodes": [
+      "55 7A 1C E9",
+      "1C E9 FF",
+      "FF BD 1C"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 0
+  },
+  {
+    "Id": 700022,
+    "CodeMap": "55 7A 1C E9 FF BD 01 11",
+    "CodeMatrix": {
+      "MatrixSize": 5,
+      "PresetCodes": [
+        {
+          "Code": "01"
+        },
+        {
+          "Code": "55"
+        },
+        {
+          "Code": "11",
+          "IsCorrect": true,
+          "Order": 8
+        },
+        {
+          "Code": "55",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "FF",
+          "IsCorrect": true,
+          "Order": 9
+        },
+        {
+          "Code": "7A"
+        },
+        {
+          "Code": "01"
+        },
+        {
+          "Code": "E9"
+        },
+        {
+          "Code": "11"
+        },
+        {
+          "Code": "1C"
+        },
+        {
+          "Code": "11",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "E9"
+        },
+        {
+          "Code": "11"
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "E9",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "1C",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "01"
+        },
+        {
+          "Code": "55",
+          "IsCorrect": true,
+          "Order": 7
+        },
+        {
+          "Code": "7A",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "01",
+          "IsCorrect": true,
+          "Order": 6
+        },
+        {
+          "Code": "55"
+        },
+        {
+          "Code": "7A"
+        },
+        {
+          "Code": "1C"
+        },
+        {
+          "Code": "55"
+        },
+        {
+          "Code": "E9"
+        }
+      ]
+    },
+    "CodeBufferSize": 9,
+    "TargetCodes": [
+      "55 7A 1C 11 E9",
+      "E9 01 55 11",
+      "11 FF"
+    ],
+    "CountDown": 45,
+    "FailThreshold": 0
+  },
+  {
+    "Id": 700023,
+    "CodeMap": "3A CD FF BD",
+    "CodeMatrix": {
+      "MatrixSize": 3,
+      "PresetCodes": [
+        {
+          "Code": "3A",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "3A"
+        },
+        {
+          "Code": "FF",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "CD"
+        },
+        {
+          "Code": "3A"
+        },
+        {
+          "Code": "BD",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "3A"
+        },
+        {
+          "Code": "CD",
+          "IsCorrect": true,
+          "Order": 3
+        }
+      ]
+    },
+    "CodeBufferSize": 4,
+    "TargetCodes": [
+      "3A BD CD FF"
+    ],
+    "CountDown": 0,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700024,
+    "CodeMap": "3A FF 22 5C",
+    "CodeMatrix": {
+      "MatrixSize": 4,
+      "PresetCodes": [
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "22"
+        },
+        {
+          "Code": "3A",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "5C"
+        },
+        {
+          "Code": "5C"
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "3A"
+        },
+        {
+          "Code": "3A"
+        },
+        {
+          "Code": "FF",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "3A"
+        },
+        {
+          "Code": "5C",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "3A",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "5C",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "22"
+        }
+      ]
+    },
+    "CodeBufferSize": 5,
+    "TargetCodes": [
+      "3A 5C FF",
+      "5C FF 3A 5C"
+    ],
+    "CountDown": 0,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700025,
+    "CodeMap": "K1 L1 O1 O2 Q3",
+    "CodeMatrix": {
+      "MatrixSize": 3,
+      "PresetCodes": [
+        {
+          "Code": "K1",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "L1",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "L1"
+        },
+        {
+          "Code": "Q3"
+        },
+        {
+          "Code": "O1"
+        },
+        {
+          "Code": "Q3"
+        },
+        {
+          "Code": "O2",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "O1",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "Q3"
+        }
+      ]
+    },
+    "CodeBufferSize": 5,
+    "TargetCodes": [
+      "L1 O1 O2 K1",
+      "L1 O1",
+      "O2 K1"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700026,
+    "CodeMap": "O1 P1 T1 FF EW",
+    "CodeMatrix": {
+      "MatrixSize": 3,
+      "PresetCodes": [
+        {
+          "Code": "T1",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "EW"
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "O1"
+        },
+        {
+          "Code": "EW"
+        },
+        {
+          "Code": "O1",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "P1",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "FF"
+        }
+      ]
+    },
+    "CodeBufferSize": 5,
+    "TargetCodes": [
+      "T1 O1 P1",
+      "T1 O1"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700027,
+    "CodeMap": "1A 2B 7H E9 YF",
+    "CodeMatrix": {
+      "MatrixSize": 3,
+      "PresetCodes": [
+        {
+          "Code": "YF"
+        },
+        {
+          "Code": "FF"
+        },
+        {
+          "Code": "1A",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "YF"
+        },
+        {
+          "Code": "E9"
+        },
+        {
+          "Code": "1C"
+        },
+        {
+          "Code": "E9"
+        },
+        {
+          "Code": "7H",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "2B",
+          "IsCorrect": true,
+          "Order": 2
+        }
+      ]
+    },
+    "CodeBufferSize": 5,
+    "TargetCodes": [
+      "1A 2B 7H",
+      "2B 7H"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700028,
+    "CodeMap": "C1 O1 O2 L1 JK T3",
+    "CodeMatrix": {
+      "MatrixSize": 4,
+      "PresetCodes": [
+        {
+          "Code": "JK"
+        },
+        {
+          "Code": "L1",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "C1",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "L1"
+        },
+        {
+          "Code": "O1"
+        },
+        {
+          "Code": "T3"
+        },
+        {
+          "Code": "T3"
+        },
+        {
+          "Code": "JK"
+        },
+        {
+          "Code": "T3"
+        },
+        {
+          "Code": "O2",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "O1",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "T3"
+        },
+        {
+          "Code": "O2"
+        },
+        {
+          "Code": "T3"
+        },
+        {
+          "Code": "JK"
+        },
+        {
+          "Code": "O1"
+        }
+      ]
+    },
+    "CodeBufferSize": 4,
+    "TargetCodes": [
+      "C1 O1 O2 L1",
+      "C1 O1",
+      "O2 L1"
+    ],
+    "CountDown": 45,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700029,
+    "CodeMap": "G1 O1 O2 D1 A1 Y1 L1",
+    "CodeMatrix": {
+      "MatrixSize": 4,
+      "PresetCodes": [
+        {
+          "Code": "L1",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "D1",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "G1",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "L1"
+        },
+        {
+          "Code": "Y1"
+        },
+        {
+          "Code": "O1"
+        },
+        {
+          "Code": "D1"
+        },
+        {
+          "Code": "Y1"
+        },
+        {
+          "Code": "K3"
+        },
+        {
+          "Code": "O2",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "O1",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "Y1"
+        },
+        {
+          "Code": "A1",
+          "IsCorrect": true,
+          "Order": 6
+        },
+        {
+          "Code": "Y1",
+          "IsCorrect": true,
+          "Order": 7
+        },
+        {
+          "Code": "D1"
+        },
+        {
+          "Code": "D1"
+        }
+      ]
+    },
+    "CodeBufferSize": 8,
+    "TargetCodes": [
+      "G1 O1",
+      "D1 L1 A1 Y1",
+      "G1 O1 O2 D1"
+    ],
+    "CountDown": 60,
+    "FailThreshold": 2
+  },
+  {
+    "Id": 700030,
+    "CodeMap": "L1 U1 C1 K1 G4 BV",
+    "CodeMatrix": {
+      "MatrixSize": 4,
+      "PresetCodes": [
+        {
+          "Code": "BV"
+        },
+        {
+          "Code": "K1",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "L1",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "K1",
+          "IsCorrect": false
+        },
+        {
+          "Code": "K1"
+        },
+        {
+          "Code": "G4"
+        },
+        {
+          "Code": "K1"
+        },
+        {
+          "Code": "BV",
+          "IsCorrect": false
+        },
+        {
+          "Code": "BV"
+        },
+        {
+          "Code": "C1",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "U1",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "K1"
+        },
+        {
+          "Code": "BV"
+        },
+        {
+          "Code": "C1"
+        },
+        {
+          "Code": "BV"
+        },
+        {
+          "Code": "U1"
+        }
+      ]
+    },
+    "CodeBufferSize": 6,
+    "TargetCodes": [
+      "L1 U1 C1 K1",
+      "L1 U1",
+      "C1 K1"
+    ],
+    "CountDown": 60,
+    "FailThreshold": 2
+  },
+  {
+    "Id": 700031,
+    "CodeMap": "B1 E1 A1 S1 T1",
+    "CodeMatrix": {
+      "MatrixSize": 3,
+      "PresetCodes": [
+        {
+          "Code": "B1",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "S1",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "T1",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "A1"
+        },
+        {
+          "Code": "E1"
+        },
+        {
+          "Code": "S1"
+        },
+        {
+          "Code": "E1",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "A1",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "T1"
+        }
+      ]
+    },
+    "CodeBufferSize": 5,
+    "TargetCodes": [
+      "B1 E1 A1",
+      "A1 S1 T1",
+      "B1 E1"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700032,
+    "CodeMap": "E7 SS 8H K1 0W OP",
+    "CodeMatrix": {
+      "MatrixSize": 4,
+      "PresetCodes": [
+        {
+          "Code": "OP"
+        },
+        {
+          "Code": "E7",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "8H",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "K1",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "OP"
+        },
+        {
+          "Code": "0W"
+        },
+        {
+          "Code": "8H"
+        },
+        {
+          "Code": "SS"
+        },
+        {
+          "Code": "8H"
+        },
+        {
+          "Code": "SS",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "OP"
+        },
+        {
+          "Code": "8H",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "SS"
+        },
+        {
+          "Code": "E7"
+        },
+        {
+          "Code": "E7",
+          "IsCorrect": true,
+          "Order": 6
+        },
+        {
+          "Code": "0W"
+        }
+      ]
+    },
+    "CodeBufferSize": 6,
+    "TargetCodes": [
+      "E7 SS 8H K1",
+      "K1 8H E7"
+    ],
+    "CountDown": 45,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700033,
+    "CodeMap": "KS B5 ZD J3 QB H9",
+    "CodeMatrix": {
+      "MatrixSize": 6,
+      "PresetCodes": [
+        {
+          "Code": "ZD"
+        },
+        {
+          "Code": "KS",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "ZD"
+        },
+        {
+          "Code": "B5"
+        },
+        {
+          "Code": "ZD"
+        },
+        {
+          "Code": "J3"
+        },
+        {
+          "Code": "B5",
+          "IsCorrect": true,
+          "Order": 7
+        },
+        {
+          "Code": "QB"
+        },
+        {
+          "Code": "J3"
+        },
+        {
+          "Code": "ZD"
+        },
+        {
+          "Code": "J3"
+        },
+        {
+          "Code": "H9",
+          "IsCorrect": true,
+          "Order": 6
+        },
+        {
+          "Code": "ZD"
+        },
+        {
+          "Code": "F9"
+        },
+        {
+          "Code": "KS"
+        },
+        {
+          "Code": "F9"
+        },
+        {
+          "Code": "B5"
+        },
+        {
+          "Code": "QB"
+        },
+        {
+          "Code": "KS"
+        },
+        {
+          "Code": "B5",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "QB"
+        },
+        {
+          "Code": "ZD",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "J3"
+        },
+        {
+          "Code": "KS"
+        },
+        {
+          "Code": "B5"
+        },
+        {
+          "Code": "B5"
+        },
+        {
+          "Code": "KS"
+        },
+        {
+          "Code": "J3",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "ZD"
+        },
+        {
+          "Code": "QB",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "J3",
+          "IsCorrect": true,
+          "Order": 8
+        },
+        {
+          "Code": "H9"
+        },
+        {
+          "Code": "F9"
+        },
+        {
+          "Code": "B5"
+        },
+        {
+          "Code": "KS",
+          "IsCorrect": true,
+          "Order": 9
+        },
+        {
+          "Code": "ZD"
+        }
+      ]
+    },
+    "CodeBufferSize": 9,
+    "TargetCodes": [
+      "KS B5 ZD J3 QB H9",
+      "H9 B5 J3",
+      "J3 KS"
+    ],
+    "CountDown": 0,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700034,
+    "CodeMap": "JT 01 33 MJ K9 JO JS",
+    "CodeMatrix": {
+      "MatrixSize": 6,
+      "PresetCodes": [
+        {
+          "Code": "01",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "JT"
+        },
+        {
+          "Code": "33"
+        },
+        {
+          "Code": "JT",
+          "IsCorrect": true,
+          "Order": 9
+        },
+        {
+          "Code": "JO",
+          "IsCorrect": true,
+          "Order": 8
+        },
+        {
+          "Code": "01"
+        },
+        {
+          "Code": "33"
+        },
+        {
+          "Code": "33"
+        },
+        {
+          "Code": "K9",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "MJ"
+        },
+        {
+          "Code": "JO"
+        },
+        {
+          "Code": "MJ",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "JT"
+        },
+        {
+          "Code": "K9"
+        },
+        {
+          "Code": "JO"
+        },
+        {
+          "Code": "JS"
+        },
+        {
+          "Code": "JT"
+        },
+        {
+          "Code": "K9"
+        },
+        {
+          "Code": "33",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "JS"
+        },
+        {
+          "Code": "33"
+        },
+        {
+          "Code": "JT"
+        },
+        {
+          "Code": "01"
+        },
+        {
+          "Code": "JT",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "JS"
+        },
+        {
+          "Code": "JO"
+        },
+        {
+          "Code": "JO",
+          "IsCorrect": true,
+          "Order": 6
+        },
+        {
+          "Code": "JO"
+        },
+        {
+          "Code": "JS",
+          "IsCorrect": true,
+          "Order": 7
+        },
+        {
+          "Code": "K9"
+        },
+        {
+          "Code": "33"
+        },
+        {
+          "Code": "MJ"
+        },
+        {
+          "Code": "MJ"
+        },
+        {
+          "Code": "01"
+        },
+        {
+          "Code": "K9"
+        },
+        {
+          "Code": "01"
+        }
+      ]
+    },
+    "CodeBufferSize": 9,
+    "TargetCodes": [
+      "01 33 JT",
+      "JT MJ K9 JO JS",
+      "JS JO JT"
+    ],
+    "CountDown": 0,
+    "FailThreshold": 3
+  },
+  {
+    "Id": 700035,
+    "CodeMap": "SO LD OU T0",
+    "CodeMatrix": {
+      "MatrixSize": 3,
+      "PresetCodes": [
+        {
+          "Code": "SO",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "LD"
+        },
+        {
+          "Code": "T0",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "OU"
+        },
+        {
+          "Code": "T0"
+        },
+        {
+          "Code": "LD"
+        },
+        {
+          "Code": "LD",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "T0"
+        },
+        {
+          "Code": "OU",
+          "IsCorrect": true,
+          "Order": 3
+        }
+      ]
+    },
+    "CodeBufferSize": 5,
+    "TargetCodes": [
+      "SO LD OU T0"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700036,
+    "CodeMap": "RE CY CL E1 LD",
+    "CodeMatrix": {
+      "MatrixSize": 4,
+      "PresetCodes": [
+        {
+          "Code": "RE",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "LD"
+        },
+        {
+          "Code": "CY"
+        },
+        {
+          "Code": "LD"
+        },
+        {
+          "Code": "LD"
+        },
+        {
+          "Code": "CY"
+        },
+        {
+          "Code": "RE"
+        },
+        {
+          "Code": "CL"
+        },
+        {
+          "Code": "CY",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "LD"
+        },
+        {
+          "Code": "CL",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "E1"
+        },
+        {
+          "Code": "CY"
+        },
+        {
+          "Code": "LD",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "E1",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "RE"
+        }
+      ]
+    },
+    "CodeBufferSize": 6,
+    "TargetCodes": [
+      "RE CY CL E1",
+      "E1 LD"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700037,
+    "CodeMap": "SU SH IY UM MY",
+    "CodeMatrix": {
+      "MatrixSize": 4,
+      "PresetCodes": [
+        {
+          "Code": "MY",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "UM"
+        },
+        {
+          "Code": "UM",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "SU",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "IY"
+        },
+        {
+          "Code": "MY"
+        },
+        {
+          "Code": "IY"
+        },
+        {
+          "Code": "UM"
+        },
+        {
+          "Code": "MY"
+        },
+        {
+          "Code": "SH"
+        },
+        {
+          "Code": "IY",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "SH",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "SH"
+        },
+        {
+          "Code": "UM"
+        },
+        {
+          "Code": "SH"
+        },
+        {
+          "Code": "MY"
+        }
+      ]
+    },
+    "CodeBufferSize": 6,
+    "TargetCodes": [
+      "SU SH IY UM MY"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700038,
+    "CodeMap": "GO OO OD DA AY",
+    "CodeMatrix": {
+      "MatrixSize": 4,
+      "PresetCodes": [
+        {
+          "Code": "GO",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "OO"
+        },
+        {
+          "Code": "OD"
+        },
+        {
+          "Code": "DA"
+        },
+        {
+          "Code": "OO",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "OD",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "DA"
+        },
+        {
+          "Code": "AY"
+        },
+        {
+          "Code": "OD"
+        },
+        {
+          "Code": "DA",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "AY",
+          "IsCorrect": true,
+          "Order": 5
+        },
+        {
+          "Code": "GO"
+        },
+        {
+          "Code": "DA"
+        },
+        {
+          "Code": "AY"
+        },
+        {
+          "Code": "GO"
+        },
+        {
+          "Code": "OO"
+        }
+      ]
+    },
+    "CodeBufferSize": 6,
+    "TargetCodes": [
+      "GO OO",
+      "OO OD",
+      "OD DA AY"
+    ],
+    "CountDown": 30,
+    "FailThreshold": 1
+  },
+  {
+    "Id": 700039,
+    "CodeMap": "MI IS SS SY YO OU",
+    "CodeMatrix": {
+      "MatrixSize": 6,
+      "PresetCodes": [
+        {
+          "Code": "MI",
+          "IsCorrect": true,
+          "Order": 1
+        },
+        {
+          "Code": "IS"
+        },
+        {
+          "Code": "SS"
+        },
+        {
+          "Code": "YO"
+        },
+        {
+          "Code": "OU"
+        },
+        {
+          "Code": "MI"
+        },
+        {
+          "Code": "IS",
+          "IsCorrect": true,
+          "Order": 2
+        },
+        {
+          "Code": "SS"
+        },
+        {
+          "Code": "SS",
+          "IsCorrect": true,
+          "Order": 3
+        },
+        {
+          "Code": "SY"
+        },
+        {
+          "Code": "YO"
+        },
+        {
+          "Code": "IS"
+        },
+        {
+          "Code": "SS"
+        },
+        {
+          "Code": "MI"
+        },
+        {
+          "Code": "IS"
+        },
+        {
+          "Code": "SY"
+        },
+        {
+          "Code": "OU"
+        },
+        {
+          "Code": "SS"
+        },
+        {
+          "Code": "SY"
+        },
+        {
+          "Code": "YO"
+        },
+        {
+          "Code": "OU"
+        },
+        {
+          "Code": "MI"
+        },
+        {
+          "Code": "IS"
+        },
+        {
+          "Code": "OU",
+          "IsCorrect": true,
+          "Order": 6
+        },
+        {
+          "Code": "YO"
+        },
+        {
+          "Code": "OU"
+        },
+        {
+          "Code": "MI"
+        },
+        {
+          "Code": "IS"
+        },
+        {
+          "Code": "SS"
+        },
+        {
+          "Code": "YO"
+        },
+        {
+          "Code": "OU"
+        },
+        {
+          "Code": "MI"
+        },
+        {
+          "Code": "SY",
+          "IsCorrect": true,
+          "Order": 4
+        },
+        {
+          "Code": "SS"
+        },
+        {
+          "Code": "SY"
+        },
+        {
+          "Code": "YO",
+          "IsCorrect": true,
+          "Order": 5
+        }
+      ]
+    },
+    "CodeBufferSize": 8,
+    "TargetCodes": [
+      "MI IS SS SY YO OU"
+    ],
+    "CountDown": 45,
     "FailThreshold": 1
   }
 ]
