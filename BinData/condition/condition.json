@@ -101577,7 +101577,7 @@
   },
   {
     "Id": 13031070,
-    "Type": "WeeklyFrameTotalScore",
+    "Type": "RougeWeeklyScore",
     "NeedNum": 2000,
     "LimitParams": [],
     "LimitParamsOpe": [],
@@ -154098,7 +154098,7 @@
     "LimitParams": [
       {
         "Key": "SeasonId",
-        "Value": "3"
+        "Value": "5"
       },
       {
         "Key": "Difficulty",
@@ -163730,7 +163730,7 @@
       },
       {
         "Key": "Num",
-        "Value": "3"
+        "Value": "1"
       },
       {
         "Key": "AnimalId",
@@ -164219,11 +164219,11 @@
     "LimitParams": [
       {
         "Key": "LevelPlayId",
-        "Value": "219000006"
+        "Value": "692850003"
       },
       {
         "Key": "InsId",
-        "Value": "8"
+        "Value": "909"
       }
     ],
     "LimitParamsOpe": [],
@@ -170681,7 +170681,7 @@
     "LimitParams": [
       {
         "Key": "NewQuestId",
-        "Value": "159000000"
+        "Value": "159000001"
       },
       {
         "Key": "State",
@@ -170689,7 +170689,7 @@
       },
       {
         "Key": "QuestNodeId",
-        "Value": "7"
+        "Value": "24"
       }
     ],
     "LimitParamsOpe": [],
@@ -170774,7 +170774,7 @@
   },
   {
     "Id": 131201419,
-    "Type": "CheckUIOpenDone",
+    "Type": "CheckUIShowDone",
     "NeedNum": 1,
     "LimitParams": [
       {
@@ -171526,7 +171526,7 @@
     "LimitParams": [
       {
         "Key": "Tag",
-        "Value": "角色.7d47aa54.0993f9a2.c88d8a8e"
+        "Value": "角色.3130d70d.84f17612.3203e150"
       }
     ],
     "LimitParamsOpe": [],
@@ -171541,7 +171541,7 @@
     "LimitParams": [
       {
         "Key": "Tag",
-        "Value": "角色.7d47aa54.0993f9a2.c88d8a8e"
+        "Value": "角色.3130d70d.84f17612.3203e150"
       }
     ],
     "LimitParamsOpe": [],
@@ -171877,12 +171877,12 @@
   },
   {
     "Id": 101210101,
-    "Type": "EntityStateByBpTypeOnline",
+    "Type": "EntityStateById",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "BpType",
-        "Value": "branch3.4_39_Gameplay25"
+        "Key": "EntityConfigId",
+        "Value": "193700480"
       },
       {
         "Key": "InstanceId",
@@ -171904,12 +171904,12 @@
   },
   {
     "Id": 1012101011,
-    "Type": "EntityStateByBpTypeOnline",
+    "Type": "EntityStateById",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "BpType",
-        "Value": "branch3.4_39_Gameplay25"
+        "Key": "EntityConfigId",
+        "Value": "193700480"
       },
       {
         "Key": "InstanceId",
@@ -171931,12 +171931,12 @@
   },
   {
     "Id": 101210102,
-    "Type": "CheckLevelPlayNodeState",
+    "Type": "CheckInstPlayNodeState",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "LevelPlayId",
-        "Value": "193000007"
+        "Key": "InstanceId",
+        "Value": "1600"
       },
       {
         "Key": "State",
@@ -172007,7 +172007,7 @@
     "LimitParams": [
       {
         "Key": "EntityConfigId",
-        "Value": "159700059"
+        "Value": "159700140"
       },
       {
         "Key": "InstanceId",
@@ -172096,7 +172096,7 @@
       },
       {
         "Key": "NodeId",
-        "Value": "5"
+        "Value": "117"
       }
     ],
     "LimitParamsOpe": [],
@@ -172120,6 +172120,46 @@
       {
         "Key": "NodeId",
         "Value": "102"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13031081,
+    "Type": "WeeklyFrameTotalScore",
+    "NeedNum": 2000,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201480,
+    "Type": "FloroRanchActivityID",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityID",
+        "Value": "105500001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201481,
+    "Type": "FloroRanchActivityID",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityID",
+        "Value": "105500002"
       }
     ],
     "LimitParamsOpe": [],
