@@ -89593,7 +89593,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "9b439fffade4409ab87d5260c02608f0",
@@ -90501,7 +90501,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "575aa0a4442a4bd49d240e67dc055976",
@@ -90520,7 +90520,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "7f25f9c456814f1397a0217bd6697618",
@@ -90539,7 +90539,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "b941fde447514610a508f337a8ecb4bf",
@@ -96425,7 +96425,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "a81b444de9864f4495e8132bf6266239",
@@ -96444,7 +96444,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "31c5c496d37c495da2d37feeba0a9daa",
@@ -97028,7 +97028,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "74952d152bb740c9b3dcdca484b68ed9",
@@ -112226,25 +112226,6 @@
     "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
-    "Guid": "f7eca0fbf23342328d79c8f607d96e0a",
-    "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_4_地下研究所",
-        "FlowId": 8,
-        "StateId": 1
-      }
-    },
-    "Icon": "",
-    "TidContent": "",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": ""
-  },
-  {
     "Guid": "49c5b6dbf1894174a0eb785edee16635",
     "Type": {
       "Type": "Actions",
@@ -114167,7 +114148,8 @@
           "Name": "PostAkEvent",
           "Params": {
             "EventConfig": {
-              "Type": "Global",
+              "Type": "Target",
+              "EntityId": 687700089,
               "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_lsl_photo_pickup.play_sfx_gp_lsl_photo_pickup"
             }
           },
@@ -114203,7 +114185,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "72a4e2096f4c48099dce8e7f71fb4b07",
@@ -115782,53 +115764,6 @@
     "OptionLockTypeList": ""
   },
   {
-    "Guid": "8d31087cd3824552b95810eb2c86a18d",
-    "Type": {
-      "Type": "Actions",
-      "Actions": [
-        {
-          "Name": "PostAkEvent",
-          "Params": {
-            "EventConfig": {
-              "Type": "Global",
-              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_lsl_photo_pickup.play_sfx_gp_lsl_photo_pickup"
-            }
-          },
-          "ActionGuid": "86f8f26bf7534c7c8f5d225a0be09538",
-          "ActionId": 4000256
-        },
-        {
-          "Name": "OpenSystemBoard",
-          "Params": {
-            "SystemType": "InformationView",
-            "BoardId": 33011022
-          },
-          "ActionGuid": "8aaffc65ff184326ba30073f6a20db34",
-          "ActionId": 4000039
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": false,
-            "EntityIds": [
-              687700090
-            ]
-          },
-          "ActionGuid": "b817869d7b0645c4a3130b774a46d1e9",
-          "ActionId": 4000322
-        }
-      ]
-    },
-    "Icon": "",
-    "TidContent": "",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": ""
-  },
-  {
     "Guid": "091d7a2c6a9b4d3aae02119039ce33c8",
     "Type": {
       "Type": "Flow",
@@ -116688,7 +116623,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "db1588e58d8f4616ab54ae4fcabee4f8",
@@ -116708,7 +116643,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "50184e969c87442b90c32e60bd83ba59",
@@ -116727,7 +116662,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "6a9e954b93f545f6bdbbae8d746cf175",
@@ -117432,7 +117367,8 @@
           "Name": "PostAkEvent",
           "Params": {
             "EventConfig": {
-              "Type": "Global",
+              "Type": "Target",
+              "EntityId": 687700088,
               "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_lsl_photo_pickup.play_sfx_gp_lsl_photo_pickup"
             }
           },
@@ -117472,7 +117408,8 @@
           "Name": "PostAkEvent",
           "Params": {
             "EventConfig": {
-              "Type": "Global",
+              "Type": "Target",
+              "EntityId": 687700087,
               "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_lsl_photo_pickup.play_sfx_gp_lsl_photo_pickup"
             }
           },
@@ -117999,7 +117936,8 @@
           "Name": "PostAkEvent",
           "Params": {
             "EventConfig": {
-              "Type": "Global",
+              "Type": "Target",
+              "EntityId": 687700102,
               "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_lsl_photo_pickup.play_sfx_gp_lsl_photo_pickup"
             }
           },
@@ -118068,7 +118006,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "38238c90d72b4b7d80644b335fce3ce6",
@@ -118987,12 +118925,100 @@
   {
     "Guid": "83c69294205f42838a26c6f191e1f148",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_4_拉海洛主线",
-        "FlowId": 12,
-        "StateId": 2
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 0
+            },
+            "ScreenType": "Black",
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "1beecd1c727b46baaa598dc81a483557",
+          "ActionId": 3000110
+        },
+        {
+          "Name": "AddTrialCharacter",
+          "Params": {
+            "UseUpdateTrialCharacterLogic": true,
+            "CharacterId": 5001001,
+            "CharacterGroup": [],
+            "CharacterGroupNew": [
+              {
+                "CharacterId": 100634,
+                "IsAiCharacter": false
+              }
+            ],
+            "AutoChange": true,
+            "CreateTempTeam": true,
+            "ActiveRange": {
+              "CheckPoint": {
+                "X": -74514.7,
+                "Y": -548629.2,
+                "Z": 44693
+              },
+              "CheckEnterRange": 5000,
+              "CheckLeaveRange": 5000
+            },
+            "EnableMapAndTeleport": false,
+            "IsRemoveTips": true,
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "10c13131899441bd93d2958d33bfd159",
+          "ActionId": 3000111
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_4_拉海洛主线",
+            "FlowId": 12,
+            "StateId": 2
+          },
+          "ActionGuid": "aada4fa06dcb4334923ce5c5e7b6ef89",
+          "ActionId": 3000112
+        },
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 0
+            },
+            "ScreenType": "Black",
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "12018826929e4166baad64a168ec4e1a",
+          "ActionId": 3000114
+        },
+        {
+          "Name": "RemoveTrialCharacter",
+          "Params": {
+            "CharacterId": 5001001,
+            "CharacterGroup": [
+              100634
+            ],
+            "IsRemoveTips": true,
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "7bf5ec98d3194042b9cdceff01b0e918",
+          "ActionId": 3000113
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "0d3d778bb3564141aae728a39ded634a",
+          "ActionId": 3000115
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "",
@@ -119001,7 +119027,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "87a4e3c12e434464923b07713ecd085c",
@@ -119228,7 +119254,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "2b6e238271ae4d9cb4559046a97f3a7f",
@@ -119304,7 +119330,8 @@
           "Name": "PostAkEvent",
           "Params": {
             "EventConfig": {
-              "Type": "Global",
+              "Type": "Target",
+              "EntityId": 687700147,
               "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_lsl_photo_pickup.play_sfx_gp_lsl_photo_pickup"
             }
           },
@@ -119374,8 +119401,9 @@
           "Name": "PostAkEvent",
           "Params": {
             "EventConfig": {
-              "Type": "Global",
-              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_vo_silence_placeholder.play_vo_silence_placeholder"
+              "Type": "Target",
+              "EntityId": 687700187,
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_lsl_photo_pickup.play_sfx_gp_lsl_photo_pickup"
             }
           },
           "ActionGuid": "2d34310ef8ae4ff2be00e08b1a366fda",
@@ -119390,7 +119418,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "673b657abb634b6799f4872ef53200fa",
@@ -119424,7 +119452,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "8ce52d5aac99487d83f94e42ce457e5a",
@@ -119443,7 +119471,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "e882a9d74bc24a8cb1055aa8c70eafe5",
@@ -119521,7 +119549,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "6456a7f7d2e34b88a33b2deadac26e3e",
@@ -119555,7 +119583,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "bd66b918edcd4a189e36309152f2118b",
@@ -119574,7 +119602,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "0236e98cc8fa42579f0d670e52122618",
@@ -119768,18 +119796,106 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "dbc1aedccadc4b74b8930668b5fce589",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_4_拉海洛主线",
-        "FlowId": 4,
-        "StateId": 1,
-        "FlowGuid": "9e1d3e474f1e42e7bce7e1bbf51d15fb"
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 0
+            },
+            "ScreenType": "Black",
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "f224d904e2e044cdb7bdd7fc27f9f05f",
+          "ActionId": 3000118
+        },
+        {
+          "Name": "AddTrialCharacter",
+          "Params": {
+            "UseUpdateTrialCharacterLogic": true,
+            "CharacterId": 5001001,
+            "CharacterGroup": [],
+            "CharacterGroupNew": [
+              {
+                "CharacterId": 100634,
+                "IsAiCharacter": false
+              }
+            ],
+            "AutoChange": true,
+            "CreateTempTeam": true,
+            "ActiveRange": {
+              "CheckPoint": {
+                "X": -44817,
+                "Y": -570318,
+                "Z": 36783
+              },
+              "CheckEnterRange": 5000,
+              "CheckLeaveRange": 5000
+            },
+            "EnableMapAndTeleport": false,
+            "IsRemoveTips": true,
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "764db366bcaa4082887e6c61daa09346",
+          "ActionId": 3000119
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_4_拉海洛主线",
+            "FlowId": 4,
+            "StateId": 1,
+            "FlowGuid": "9e1d3e474f1e42e7bce7e1bbf51d15fb"
+          },
+          "ActionGuid": "a1ea7a7e5dd441f3a640915624c070f4",
+          "ActionId": 3000120
+        },
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 0
+            },
+            "ScreenType": "Black",
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "0b57b3c087b54179ab39aa1a82d9ba15",
+          "ActionId": 3000121
+        },
+        {
+          "Name": "RemoveTrialCharacter",
+          "Params": {
+            "CharacterId": 5001001,
+            "CharacterGroup": [
+              100634
+            ],
+            "IsRemoveTips": true,
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "c0804ddc77d047d5ba94068d62eaeb95",
+          "ActionId": 3000122
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "OnlyLowMemoryDeviceExecute": true
+          },
+          "ActionGuid": "3f232bec051a4c26a5efaba039b975fd",
+          "ActionId": 3000123
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "",
@@ -119788,7 +119904,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "8df5dd7c29264e5d89aace9581a0b40b",
@@ -119846,7 +119962,8 @@
           "Name": "PostAkEvent",
           "Params": {
             "EventConfig": {
-              "Type": "Global",
+              "Type": "Target",
+              "EntityId": 687700186,
               "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_lsl_photo_pickup.play_sfx_gp_lsl_photo_pickup"
             }
           },
@@ -119903,6 +120020,16 @@
           },
           "ActionGuid": "9680875dfe1341128fe2061b9eec01ce",
           "ActionId": 4000087
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              687700145
+            ]
+          },
+          "ActionGuid": "c607fd14d64d4e9aa8371aecdabeac66",
+          "ActionId": 4000378
         }
       ]
     },
@@ -119934,28 +120061,6 @@
           },
           "ActionGuid": "1fa6043b4efe400ea983fef4161a078c",
           "ActionId": 4000075
-        },
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34283
-          },
-          "ActionGuid": "8c8e30062ded4023a9c288735f1b76c2",
-          "Async": false,
-          "ActionId": 4000098
-        },
-        {
-          "Name": "CompleteGuide",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34283
-          },
-          "ActionGuid": "14d9b14d6a4649c8bd7bb46f75201c8c",
-          "Async": true,
-          "ActionId": 4000099
         }
       ]
     },
@@ -120002,7 +120107,17 @@
     "Guid": "dd83421e0a4f4468b930dc6f32334eb8",
     "Type": {
       "Type": "Actions",
-      "Actions": []
+      "Actions": [
+        {
+          "Name": "TeleportDungeon",
+          "Params": {
+            "DungeonId": 906,
+            "IsRegroup": false,
+            "LocationEntityId": 195700038
+          },
+          "ActionId": 4000003
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "",
@@ -120056,7 +120171,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "7a4c7ecf2dc34a659df879dc53e106fa",
@@ -120066,21 +120181,6 @@
     },
     "Icon": "",
     "TidContent": "LevelPlay_193000011_InteractContent_159_6",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": ""
-  },
-  {
-    "Guid": "fbe78fd294dd4994a53294415f6cc056",
-    "Type": {
-      "Type": "Actions",
-      "Actions": []
-    },
-    "Icon": "",
-    "TidContent": "",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
@@ -120105,7 +120205,7 @@
     "DoIntactType": "Direct",
     "Range": 0,
     "Duration": "",
-    "OptionLockTypeList": ""
+    "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
     "Guid": "615ccfeda05f4554a63000f0304d3de9",
@@ -120138,10 +120238,92 @@
     "OptionLockTypeList": ""
   },
   {
-    "Guid": "2b484563e7994ba48017d06d03679c6c",
+    "Guid": "ae7de0109e594bc9ad33b5ce635a8038",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_687000000_InteractContent_687_4",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": "",
+    "OptionLockTypeList": "[\"OnMotor\"]"
+  },
+  {
+    "Guid": "214121627ab64191a48002cb5c070ffa",
+    "Type": {
+      "Type": "Actions",
+      "Actions": []
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": "",
+    "OptionLockTypeList": ""
+  },
+  {
+    "Guid": "ad57e06afe5d4e059bde09e639c9f3ca",
     "Type": {
       "Type": "Actions",
       "Actions": [
+        {
+          "Name": "PostAkEvent",
+          "Params": {
+            "EventConfig": {
+              "Type": "Target",
+              "EntityId": 687700099,
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_amb_npc_alien_riling_crowd_interact_loop_8.play_amb_npc_alien_riling_crowd_interact_loop_8"
+            }
+          },
+          "ActionGuid": "cbc1086c359d460e9e804eb1582a5f40",
+          "ActionId": 4000369
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_687000000_InteractContent_687_5",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": "",
+    "OptionLockTypeList": ""
+  },
+  {
+    "Guid": "21118d76a3914f22bbeab4811e81289c",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "PostAkEvent",
+          "Params": {
+            "EventConfig": {
+              "Type": "Target",
+              "EntityId": 687700239,
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_interact_seq_classroomdoor_opening.play_interact_seq_classroomdoor_opening"
+            }
+          },
+          "ActionGuid": "296f2b6db2d24cafa941cd20df5f82d4",
+          "ActionId": 4000015
+        },
+        {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "75f99ae49dd849c4b0fdd085a93a1fda",
+          "ActionId": 4000017
+        },
         {
           "Name": "SetPlayerPos",
           "Params": {
@@ -120155,8 +120337,19 @@
               }
             }
           },
-          "ActionGuid": "f3d0f613780041d5afbcb12bd8059935",
-          "ActionId": 4000017
+          "ActionGuid": "f22d477f36eb4ec9a15341d0386f695e",
+          "ActionId": 4000026
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
+          },
+          "ActionGuid": "dc7d8f0f10164b4c84d2766fd5c983fa",
+          "ActionId": 4000027
         }
       ]
     },
@@ -120170,7 +120363,7 @@
     "OptionLockTypeList": ""
   },
   {
-    "Guid": "33a596299b78438685072f99ba48d667",
+    "Guid": "39ddd8022a76451a9c49d019998acc8d",
     "Type": {
       "Type": "Actions",
       "Actions": [
@@ -120178,44 +120371,35 @@
           "Name": "PostAkEvent",
           "Params": {
             "EventConfig": {
-              "Type": "Global",
-              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_interact_seq_classroomdoor_opening.play_interact_seq_classroomdoor_opening"
+              "Type": "Target",
+              "EntityId": 687700090,
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_lsl_photo_pickup.play_sfx_gp_lsl_photo_pickup"
             }
           },
-          "ActionGuid": "fac8052eafbe4dd58e7de31bdad5fd3f",
-          "ActionId": 4000007
+          "ActionGuid": "83ad1f0d8349433da1788953fe43f79e",
+          "ActionId": 4000148
+        },
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "InformationView",
+            "BoardId": 33011022
+          },
+          "ActionGuid": "1b883a22d7f34d6dae3ae11e2dd314b8",
+          "ActionId": 4000238
+        },
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": false,
+            "EntityIds": [
+              687700090
+            ]
+          },
+          "ActionGuid": "6835e9aaa33442d4926b6be5638ae784",
+          "ActionId": 4000245
         }
       ]
-    },
-    "Icon": "",
-    "TidContent": "LevelPlay_687000000_InteractContent_687_19",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": ""
-  },
-  {
-    "Guid": "8787eed6272d4a1281b8b4fc95489837",
-    "Type": {
-      "Type": "Actions",
-      "Actions": []
-    },
-    "Icon": "",
-    "TidContent": "LevelPlay_687000000_InteractContent_687_5",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": ""
-  },
-  {
-    "Guid": "9ea18ecc06334ae9a80930cbbd2a913e",
-    "Type": {
-      "Type": "Actions",
-      "Actions": []
     },
     "Icon": "",
     "TidContent": "",
@@ -120227,13 +120411,73 @@
     "OptionLockTypeList": ""
   },
   {
-    "Guid": "ae7de0109e594bc9ad33b5ce635a8038",
+    "Guid": "44ab5c75e4b94284bcd7bcc1cce1fc8e",
     "Type": {
       "Type": "Actions",
-      "Actions": []
+      "Actions": [
+        {
+          "Name": "PostAkEvent",
+          "Params": {
+            "EventConfig": {
+              "Type": "Target",
+              "EntityId": 687700245,
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_interact_seq_classroomdoor_opening.play_interact_seq_classroomdoor_opening"
+            }
+          },
+          "ActionGuid": "dd75b71857324c9b805b29f9483fbd1f",
+          "ActionId": 4000009
+        }
+      ]
     },
     "Icon": "",
-    "TidContent": "LevelPlay_687000000_InteractContent_687_4",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": "",
+    "OptionLockTypeList": ""
+  },
+  {
+    "Guid": "5475b9367a604a45afe6a1fc2d120eff",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_3_4_地下研究所",
+        "FlowId": 8,
+        "StateId": 1
+      }
+    },
+    "Icon": "",
+    "TidContent": "",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": "",
+    "OptionLockTypeList": "[\"OnMotor\"]"
+  },
+  {
+    "Guid": "55cecf3b8e314bd7ba8193de8adf89d8",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "PostAkEvent",
+          "Params": {
+            "EventConfig": {
+              "Type": "Target",
+              "EntityId": 687700234,
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_interact_seq_classroomdoor_opening.play_interact_seq_classroomdoor_opening"
+            }
+          },
+          "ActionGuid": "f45b6bed1a6a42f59b058ea4f669c3ca",
+          "ActionId": 4000353
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_687000000_InteractContent_687_19",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",

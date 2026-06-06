@@ -53238,7 +53238,7 @@
     "TriggerPreset": [
       "3",
       "10000",
-      "1003#1007#1001"
+      "1003#1007#1002"
     ],
     "TriggerParams": {},
     "TriggerFormula": "TRUE",
@@ -56225,7 +56225,7 @@
   },
   {
     "Id": 1511910010,
-    "SkillDesc": "监听露西延奏受击停怪",
+    "SkillDesc": "监听露西延奏监听-停怪",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
@@ -56234,21 +56234,21 @@
     "IsDefaultActivated": true,
     "TriggerType": "BeDamageTrigger",
     "ExecuteType": 0,
-    "TriggerPreset": [],
+    "TriggerPreset": [
+      "1",
+      "0"
+    ],
     "TriggerParams": {
       "CheckOwnerTags": [
         "角色.7d47aa54.710c1a7b"
       ]
     },
     "TriggerFormula": "DamageValue>=1\nAND\n!MatchAnyTag(Owner,CheckOwnerTags)",
-    "SubSkillAction": [
-      1511910011,
-      1511910012
-    ],
+    "SubSkillAction": [],
     "InstigatorType": "Attacker",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "1511910011"
+      "1511910021"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -56257,48 +56257,32 @@
   },
   {
     "Id": 1511910011,
-    "SkillDesc": "移除一层减伤总数",
+    "SkillDesc": "监听露西延奏监听-队友减伤",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "",
+    "TriggerType": "BeDamageTrigger",
     "ExecuteType": 0,
-    "TriggerPreset": [],
-    "TriggerParams": {},
-    "TriggerFormula": "FALSE",
-    "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "RemoveBuff",
-    "SkillActionParams": [
-      "1511910000"
+    "TriggerPreset": [
+      "1",
+      "0"
     ],
-    "ActionScriptParams": {},
-    "SkillActionScript": "FALSE",
-    "ActionExecuteFlag": 0,
-    "CDType": "Owner"
-  },
-  {
-    "Id": 1511910012,
-    "SkillDesc": "激活一次额外减伤",
-    "CDTime": 0,
-    "CdThreshold": -1,
-    "ShareGroupId": 0,
-    "MaxCount": 1,
-    "IsShareAllCdSkill": false,
-    "IsDefaultActivated": true,
-    "TriggerType": "",
-    "ExecuteType": 0,
-    "TriggerPreset": [],
-    "TriggerParams": {},
-    "TriggerFormula": "FALSE",
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.7d47aa54.710c1a7b"
+      ]
+    },
+    "TriggerFormula": "DamageValue>=1\nAND\n!MatchAnyTag(Owner,CheckOwnerTags)",
     "SubSkillAction": [],
-    "InstigatorType": "Owner",
+    "InstigatorType": "Victim",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "1511910012"
+      "1511910022",
+      "1511910032",
+      "1511910031"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -58054,7 +58038,7 @@
   {
     "Id": 110050101,
     "SkillDesc": "监听施放冰异常-1阶",
-    "CDTime": 0.10000000149011612,
+    "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -58083,7 +58067,7 @@
   {
     "Id": 110050102,
     "SkillDesc": "监听施放冰异常-2阶",
-    "CDTime": 0.10000000149011612,
+    "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -58112,7 +58096,7 @@
   {
     "Id": 110050103,
     "SkillDesc": "监听施放冰异常-3阶",
-    "CDTime": 0.10000000149011612,
+    "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -58141,7 +58125,7 @@
   {
     "Id": 110050104,
     "SkillDesc": "监听施放冰异常-4阶",
-    "CDTime": 0.10000000149011612,
+    "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -58170,7 +58154,7 @@
   {
     "Id": 110050105,
     "SkillDesc": "监听施放冰异常-5阶",
-    "CDTime": 0.10000000149011612,
+    "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -58227,7 +58211,7 @@
   {
     "Id": 1109502018,
     "SkillDesc": "队友附加冰异常监听，然后挂两次1层冰异常",
-    "CDTime": 0.20000000298023224,
+    "CDTime": 0.5,
     "CdThreshold": -1,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -58246,11 +58230,11 @@
     },
     "TriggerFormula": "Owner!=Attacker \nAND\nMatchAnyTag(Attacker,CheckAttackerTags)",
     "SubSkillAction": [],
-    "InstigatorType": "Victim",
+    "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "10011000",
-      "10011000"
+      "1109502017",
+      "1109010051"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -58292,7 +58276,7 @@
   {
     "Id": 1109502028,
     "SkillDesc": "队友附加冰异常监听，然后挂两次1层冰异常",
-    "CDTime": 0.20000000298023224,
+    "CDTime": 0.5,
     "CdThreshold": -1,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -58311,11 +58295,11 @@
     },
     "TriggerFormula": "Owner!=Attacker \nAND\nMatchAnyTag(Attacker,CheckAttackerTags)",
     "SubSkillAction": [],
-    "InstigatorType": "Victim",
+    "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "10011000",
-      "10011000"
+      "1109502027",
+      "1109010051"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -58779,9 +58763,7 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "1511600102",
-      "1511600105",
-      "1511600103",
-      "1511600104"
+      "1511600105"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -59022,7 +59004,7 @@
   },
   {
     "Id": 1511950001,
-    "SkillDesc": "5链-触发自动闪避后加护盾",
+    "SkillDesc": "5链-触发自动闪避后加护盾-降1",
     "CDTime": 0,
     "CdThreshold": -1,
     "ShareGroupId": 0,
@@ -59033,7 +59015,7 @@
     "ExecuteType": 0,
     "TriggerPreset": [
       "0",
-      "3#1511500011#999"
+      "1#1511500011#1"
     ],
     "TriggerParams": {},
     "TriggerFormula": "TRUE",
@@ -60400,12 +60382,16 @@
     "TriggerType": "BuffInstigatorTrigger",
     "ExecuteType": 0,
     "TriggerPreset": [
-      "2",
+      "1",
       "3180",
       "0"
     ],
-    "TriggerParams": {},
-    "TriggerFormula": "TRUE",
+    "TriggerParams": {
+      "CheckOwnerTags": [
+        "角色.7d47aa54.710c1a7b"
+      ]
+    },
+    "TriggerFormula": "!MatchAnyTag(Owner,CheckOwnerTags)",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -60496,14 +60482,17 @@
     "TriggerParams": {
       "CheckVictimBuffs": [
         1511500102
+      ],
+      "CheckOwnerTags": [
+        "行为状态.逻辑状态.濒死"
       ]
     },
-    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)",
+    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)==FALSE",
     "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "AddBuff",
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBullet",
     "SkillActionParams": [
-      "1511910201"
+      "1511400101"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -60527,14 +60516,17 @@
     "TriggerParams": {
       "CheckVictimBuffs": [
         1511500103
+      ],
+      "CheckOwnerTags": [
+        "行为状态.逻辑状态.濒死"
       ]
     },
-    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)",
+    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)==FALSE",
     "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "AddBuff",
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBullet",
     "SkillActionParams": [
-      "1511910202"
+      "1511400100"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -60558,14 +60550,17 @@
     "TriggerParams": {
       "CheckVictimBuffs": [
         1511500113
+      ],
+      "CheckOwnerTags": [
+        "行为状态.逻辑状态.濒死"
       ]
     },
-    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)",
+    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)==FALSE",
     "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "AddBuff",
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBullet",
     "SkillActionParams": [
-      "1511910203"
+      "1511400200"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -60589,14 +60584,17 @@
     "TriggerParams": {
       "CheckVictimBuffs": [
         1511500105
+      ],
+      "CheckOwnerTags": [
+        "行为状态.逻辑状态.濒死"
       ]
     },
-    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)",
+    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)==FALSE",
     "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "AddBuff",
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBullet",
     "SkillActionParams": [
-      "1511910204"
+      "1511400300"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -60620,14 +60618,17 @@
     "TriggerParams": {
       "CheckVictimBuffs": [
         1511500110
+      ],
+      "CheckOwnerTags": [
+        "行为状态.逻辑状态.濒死"
       ]
     },
-    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)",
+    "TriggerFormula": "MatchAnyBuff(Victim,CheckVictimBuffs)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)==FALSE",
     "SubSkillAction": [],
-    "InstigatorType": "Owner",
-    "SkillAction": "AddBuff",
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBullet",
     "SkillActionParams": [
-      "1511910205"
+      "1511400400"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
@@ -60677,17 +60678,152 @@
     "TriggerParams": {
       "CheckOwnerTag1": [
         "行为状态.动作状态.受击"
-      ],
-      "CheckOwnerTag2": [
-        "角色.7d47aa54.407c9514.3a2d2486"
       ]
     },
-    "TriggerFormula": "DamageValue==0\nAND\n!MatchAnyTag(Owner,CheckOwnerTag1)\nAND\nMatchAnyTag(Owner,CheckOwnerTag2)",
+    "TriggerFormula": "DamageValue>=0\nAND\n!MatchAnyTag(Owner,CheckOwnerTag1)",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "SkillAction": "RemoveBuff",
     "SkillActionParams": [
       "1511500011"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 640008282,
+    "SkillDesc": "监听骇破伤害",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "ExecuteType": 0,
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "DamageType==14",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "",
+    "SkillActionParams": [],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 1511950002,
+    "SkillDesc": "5链-触发自动闪避后加护盾-降0",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffVictimTrigger",
+    "ExecuteType": 0,
+    "TriggerPreset": [
+      "0",
+      "1#1511500011#0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1511950002"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 1308999001,
+    "SkillDesc": "丽贝卡-待机3tag监听子弹生成",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "ExecuteType": 0,
+    "TriggerPreset": [
+      "角色.3130d70d.31f9a174",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1308999999"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 1308999002,
+    "SkillDesc": "丽贝卡-待机3tag监听子弹销毁",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "ExecuteType": 0,
+    "TriggerPreset": [
+      "角色.3130d70d.31f9a174",
+      "1"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "1308999999#0"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 1511500016,
+    "SkillDesc": "固有1-受到伤害监听",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "ExecuteType": 0,
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "DamageValue>=0",
+    "SubSkillAction": [],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1511500017"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
