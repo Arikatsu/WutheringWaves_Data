@@ -692855,7 +692855,7 @@
               195700040
             ]
           },
-          "ActionGuid": "47ed20ffe7cd416da853345caf951687",
+          "ActionGuid": "e1e66f989684498989a93d41ed6c078d",
           "ActionId": 3000028
         }
       ],
@@ -696995,7 +696995,7 @@
           {
             "EntityId": 195700040,
             "Option": {
-              "Guid": "0c935d2d33b145daad54ceca7e31c4bb",
+              "Guid": "de0d252be9bd482e84e9aee410c4b322",
               "Type": {
                 "Type": "Flow",
                 "Flow": {
@@ -697030,8 +697030,8 @@
               195700098
             ]
           },
-          "ActionGuid": "33f5a5b358a04cad91443a4b95969e43",
-          "ActionId": 3000097
+          "ActionGuid": "2579318149214253b406154f5bc55ee4",
+          "ActionId": 3000034
         }
       ],
       "FinishActions": [
@@ -697045,11 +697045,11 @@
             ],
             "DelayDestroy": true
           },
-          "ActionGuid": "2af05dec9125476abbe998875021c943",
-          "ActionId": 3000034
+          "ActionGuid": "e45e31e210f34558b78c7bb8343e8ead",
+          "ActionId": 3000063
         }
       ],
-      "ParentNodeId": 76
+      "ParentNodeId": 140
     }
   },
   {
@@ -845700,6 +845700,12 @@
       "Type": "Sequence",
       "Id": 1,
       "Desc": "",
+      "OccupationConfig": {
+        "TidDesc": "Quest_121850002_OccupyDesc_42_1",
+        "Occupations": [
+          "Feixue"
+        ]
+      },
       "ParentNodeId": 0
     }
   },
@@ -879190,7 +879196,7 @@
       "Count": 1,
       "Id": 126,
       "Desc": "",
-      "ParentNodeId": 76
+      "ParentNodeId": 140
     }
   },
   {
@@ -879239,7 +879245,7 @@
       "Count": 1,
       "Id": 130,
       "Desc": "",
-      "ParentNodeId": 76
+      "ParentNodeId": 140
     }
   },
   {
@@ -883598,6 +883604,22 @@
       "Desc": "",
       "FinishActions": [],
       "ParentNodeId": 1
+    }
+  },
+  {
+    "Key": "125000129_140",
+    "Data": {
+      "Type": "Sequence",
+      "Id": 140,
+      "Desc": "绯雪占用Part",
+      "OccupationConfig": {
+        "TidDesc": "Quest_125000129_OccupyDesc_42_2",
+        "Occupations": [
+          "Feixue"
+        ],
+        "ReclaimOccupationWhenEnter": true
+      },
+      "ParentNodeId": 76
     }
   }
 ]
