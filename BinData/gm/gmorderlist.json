@@ -1740,7 +1740,11 @@
       "add_new_role_config 14056",
       "add_new_role_config 14057",
       "add_new_role_config 14058",
-      "add_new_role_config 14059"
+      "add_new_role_config 14059",
+      "add_new_role_config 14062",
+      "add_new_role_config 14063",
+      "add_new_role_config 14064",
+      "add_new_role_config 14065"
     ]
   },
   {
@@ -2431,6 +2435,69 @@
       "ShowTipsView#0",
       "LockGuide#0",
       "AddBuffToSelf#66"
+    ]
+  },
+  {
+    "Id": 194,
+    "Name": "一键解锁土豆指令",
+    "OrderList": [
+      "RunOrderList#138",
+      "gmopenactivity 109500001 0",
+      "GmUnlockKurotatoCharacter 0",
+      "GmUnlockKurotatoLevel 0"
+    ]
+  },
+  {
+    "Id": 195,
+    "Name": "玄翎90",
+    "OrderList": [
+      "add_new_role_config 14062"
+    ]
+  },
+  {
+    "Id": 196,
+    "Name": "雷主90",
+    "OrderList": [
+      "add_new_role_config 14063",
+      "add_new_role_config 14064"
+    ]
+  },
+  {
+    "Id": 197,
+    "Name": "穗穗90",
+    "OrderList": [
+      "add_new_role_config 14065"
+    ]
+  },
+  {
+    "Id": 203,
+    "Name": "明慎台解锁+CE玩法解锁",
+    "OrderList": [
+      "activateteleport 0",
+      "gmsetplayerallconditiongroupcomplete 12907104",
+      "finish_quest 192750000",
+      "finish_quest 192000007"
+    ]
+  },
+  {
+    "Id": 204,
+    "Name": "明慎台-接取通缉poi任务",
+    "OrderList": [
+      "accept_quest 147000007"
+    ]
+  },
+  {
+    "Id": 205,
+    "Name": "巴别塔快捷小关完成",
+    "OrderList": [
+      "GmBabelTowerSatr 1121 4",
+      "GmBabelTowerSatr 1122 4",
+      "GmBabelTowerSatr 1123 4",
+      "GmBabelTowerSatr 1124 4",
+      "GmBabelTowerSatr 1125 4",
+      "GmBabelTowerSatr 1126 4",
+      "GmBabelTowerSatr 1127 4",
+      "GmBabelTowerSatr 1128 4"
     ]
   }
 ]

@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 750001,
+    "Remark": "测试",
+    "ClueIds": [
+      10101,
+      10102,
+      10103,
+      10104
+    ],
+    "QuestionConfigs": "[{\"QuestionId\":750004,\"ResultConfigs\":[{\"ClueCombination\":[10101,10102],\"ReasoningStateId\":[\"剧情_测试_GBL_3.5\",\"1\",\"3\"],\"ResultDesc\":[\"剧情_测试_GBL_3.5\",\"1\",\"4\"],\"NextQuestionId\":750002},{\"ClueCombination\":[10101,10103],\"ReasoningStateId\":[\"剧情_测试_GBL_3.5\",\"1\",\"7\"],\"ResultDesc\":[\"剧情_测试_GBL_3.5\",\"1\",\"4\"],\"NextQuestionId\":750003}]},{\"QuestionId\":750002,\"ResultConfigs\":[{\"ClueCombination\":[10101,10103],\"ReasoningStateId\":[\"剧情_测试_GBL_3.5\",\"1\",\"6\"],\"ResultDesc\":[\"剧情_测试_GBL_3.5\",\"1\",\"4\"],\"CaseProgressId\":1010004,\"EndingId\":101001}]},{\"QuestionId\":750003,\"ResultConfigs\":[{\"ClueCombination\":[10104,10102],\"ReasoningStateId\":[\"剧情_测试_GBL_3.5\",\"1\",\"8\"],\"ResultDesc\":[\"剧情_测试_GBL_3.5\",\"1\",\"4\"],\"CaseProgressId\":1010005,\"EndingId\":101002}]}]"
+  },
+  {
+    "Id": 750003,
+    "Remark": "石狮子推理玩法",
+    "ClueIds": [
+      10101,
+      10102,
+      10103,
+      10104
+    ],
+    "QuestionConfigs": "[{\"QuestionId\":750001,\"ResultConfigs\":[{\"ClueCombination\":[10102],\"ReasoningStateId\":[\"剧情_通缉石头狮子\",\"1\",\"19\"],\"ResultDesc\":[\"剧情_通缉石头狮子\",\"11\",\"1\"],\"NextQuestionId\":750039}]},{\"QuestionId\":750039,\"ResultConfigs\":[{\"ClueCombination\":[10103],\"ReasoningStateId\":[\"剧情_通缉石头狮子\",\"2\",\"1\"],\"ResultDesc\":[\"剧情_通缉石头狮子\",\"13\",\"1\"],\"NextQuestionId\":750038}]},{\"QuestionId\":750038,\"ResultConfigs\":[{\"ClueCombination\":[10104],\"ReasoningStateId\":[\"剧情_通缉石头狮子\",\"14\",\"1\"],\"ResultDesc\":[\"剧情_通缉石头狮子\",\"15\",\"1\"],\"EndingId\":101001}]}]"
+  },
+  {
+    "Id": 750004,
+    "Remark": "假漂泊者推理玩法",
+    "ClueIds": [
+      10401,
+      10402,
+      10403,
+      10404,
+      10405
+    ],
+    "QuestionConfigs": "[{\"QuestionId\":750037,\"ResultConfigs\":[{\"ClueCombination\":[10404],\"ReasoningStateId\":[\"剧情_真假漂泊者\",\"20\",\"1\"],\"ResultDesc\":[\"剧情_真假漂泊者\",\"38\",\"1\"],\"NextQuestionId\":750049}]},{\"QuestionId\":750049,\"ResultConfigs\":[{\"ClueCombination\":[10404],\"ReasoningStateId\":[\"剧情_真假漂泊者\",\"23\",\"1\"],\"ResultDesc\":[\"剧情_真假漂泊者\",\"39\",\"1\"],\"NextQuestionId\":750050}]},{\"QuestionId\":750050,\"ResultConfigs\":[{\"ClueCombination\":[10405],\"ReasoningStateId\":[\"剧情_真假漂泊者\",\"26\",\"1\"],\"ResultDesc\":[\"剧情_真假漂泊者\",\"40\",\"1\"],\"CaseProgressId\":1040004,\"EndingId\":104001}]}]"
+  },
+  {
+    "Id": 750005,
+    "Remark": "撒谎推理玩法",
+    "ClueIds": [
+      10301,
+      10302,
+      10303,
+      10304,
+      10305
+    ],
+    "QuestionConfigs": "[{\"QuestionId\":750041,\"ResultConfigs\":[{\"ClueCombination\":[10304],\"ReasoningStateId\":[\"剧情_通缉撒谎比赛\",\"36\",\"1\"],\"ResultDesc\":[\"剧情_通缉撒谎比赛\",\"37\",\"1\"],\"NextQuestionId\":750042}]},{\"QuestionId\":750042,\"ResultConfigs\":[{\"ClueCombination\":[10304],\"ReasoningStateId\":[\"剧情_通缉撒谎比赛\",\"38\",\"1\"],\"ResultDesc\":[\"剧情_通缉撒谎比赛\",\"39\",\"1\"],\"NextQuestionId\":750043}]},{\"QuestionId\":750043,\"ResultConfigs\":[{\"ClueCombination\":[10305],\"ReasoningStateId\":[\"剧情_通缉撒谎比赛\",\"40\",\"1\"],\"ResultDesc\":[\"剧情_通缉撒谎比赛\",\"41\",\"1\"],\"CaseProgressId\":1030003,\"EndingId\":103001}]}]"
+  },
+  {
+    "Id": 750006,
+    "Remark": "poi任务推理玩法",
+    "ClueIds": [
+      19901,
+      19902,
+      19903,
+      19905,
+      19906
+    ],
+    "QuestionConfigs": "[{\"QuestionId\":750040,\"ResultConfigs\":[{\"ClueCombination\":[19901],\"ReasoningStateId\":[\"剧情_通缉poi主线\",\"13\",\"1\"],\"ResultDesc\":[\"剧情_通缉poi主线\",\"46\",\"1\"],\"NextQuestionId\":750044},{\"ClueCombination\":[19906],\"ReasoningStateId\":[\"剧情_通缉poi主线\",\"14\",\"1\"],\"ResultDesc\":[\"剧情_通缉poi主线\",\"46\",\"1\"],\"NextQuestionId\":750044}]},{\"QuestionId\":750044,\"ResultConfigs\":[{\"ClueCombination\":[19905],\"ReasoningStateId\":[\"剧情_通缉poi主线\",\"17\",\"1\"],\"ResultDesc\":[\"剧情_通缉poi主线\",\"47\",\"1\"],\"NextQuestionId\":750045},{\"ClueCombination\":[19906],\"ReasoningStateId\":[\"剧情_通缉poi主线\",\"17\",\"1\"],\"ResultDesc\":[\"剧情_通缉poi主线\",\"47\",\"1\"],\"NextQuestionId\":750045}]},{\"QuestionId\":750045,\"ResultConfigs\":[{\"ClueCombination\":[19903],\"ReasoningStateId\":[\"剧情_通缉poi主线\",\"20\",\"1\"],\"ResultDesc\":[\"剧情_通缉poi主线\",\"48\",\"1\"],\"EndingId\":199001}]}]"
+  },
+  {
+    "Id": 750007,
+    "Remark": "假商人推理玩法",
+    "ClueIds": [
+      10501,
+      10502,
+      10503,
+      10504,
+      10505
+    ],
+    "QuestionConfigs": "[{\"QuestionId\":750046,\"ResultConfigs\":[{\"ClueCombination\":[10504],\"ReasoningStateId\":[\"剧情_通缉假商人\",\"22\",\"1\"],\"ResultDesc\":[\"剧情_通缉假商人\",\"49\",\"1\"],\"NextQuestionId\":750047}]},{\"QuestionId\":750047,\"ResultConfigs\":[{\"ClueCombination\":[10501],\"ReasoningStateId\":[\"剧情_通缉假商人\",\"25\",\"1\"],\"ResultDesc\":[\"剧情_通缉假商人\",\"50\",\"1\"],\"NextQuestionId\":750048}]},{\"QuestionId\":750048,\"ResultConfigs\":[{\"ClueCombination\":[10505],\"ReasoningStateId\":[\"剧情_通缉假商人\",\"28\",\"1\"],\"ResultDesc\":[\"剧情_通缉假商人\",\"51\",\"1\"],\"EndingId\":105001,\"CaseProgressId\":1050003},{\"ClueCombination\":[10504],\"ReasoningStateId\":[\"剧情_通缉假商人\",\"28\",\"1\"],\"ResultDesc\":[\"剧情_通缉假商人\",\"52\",\"1\"],\"EndingId\":105002,\"CaseProgressId\":1050004},{\"ClueCombination\":[10503],\"ReasoningStateId\":[\"剧情_通缉假商人\",\"28\",\"1\"],\"ResultDesc\":[\"剧情_通缉假商人\",\"52\",\"1\"],\"EndingId\":105002,\"CaseProgressId\":1050004},{\"ClueCombination\":[10502],\"ReasoningStateId\":[\"剧情_通缉假商人\",\"28\",\"1\"],\"ResultDesc\":[\"剧情_通缉假商人\",\"52\",\"1\"],\"EndingId\":105002,\"CaseProgressId\":1050004},{\"ClueCombination\":[10501],\"ReasoningStateId\":[\"剧情_通缉假商人\",\"28\",\"1\"],\"ResultDesc\":[\"剧情_通缉假商人\",\"52\",\"1\"],\"EndingId\":105002,\"CaseProgressId\":1050004}]}]"
+  }
+]
