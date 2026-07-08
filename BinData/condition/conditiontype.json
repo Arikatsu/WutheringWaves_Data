@@ -5580,10 +5580,20 @@
     "DefaultParam10": "0",
     "Param11": [],
     "DefaultParam11": "",
-    "Param12": [],
-    "DefaultParam12": "",
-    "Param13": [],
-    "DefaultParam13": "",
+    "Param12": [
+      {
+        "Key": "AttackerTag",
+        "Value": "String"
+      }
+    ],
+    "DefaultParam12": "0",
+    "Param13": [
+      {
+        "Key": "BeattackerTag",
+        "Value": "String"
+      }
+    ],
+    "DefaultParam13": "0",
     "Param14": [],
     "DefaultParam14": "",
     "Param15": [],
@@ -26675,19 +26685,24 @@
     "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
         "Key": "Num",
         "Value": "Int"
       }
     ],
-    "DefaultParam4": "",
-    "Param5": [],
     "DefaultParam5": "",
     "Param6": [],
     "DefaultParam6": "",
@@ -27140,20 +27155,25 @@
     "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
-        "Key": "RoleId",
+        "Key": "Difficulty",
         "Value": "Int"
       }
     ],
     "DefaultParam4": "-1",
-    "Param5": [],
-    "DefaultParam5": "",
+    "Param5": [
+      {
+        "Key": "RoleId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam5": "-1",
     "Param6": [],
     "DefaultParam6": "",
     "Param7": [],
@@ -27200,21 +27220,21 @@
     "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
-        "Key": "Num",
+        "Key": "Difficulty",
         "Value": "Int"
       }
     ],
     "DefaultParam4": "-1",
     "Param5": [
       {
-        "Key": "CycleId",
+        "Key": "Num",
         "Value": "Int"
       }
     ],
@@ -27265,19 +27285,24 @@
     "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
         "Key": "Num",
         "Value": "Int"
       }
     ],
-    "DefaultParam4": "",
-    "Param5": [],
     "DefaultParam5": "",
     "Param6": [],
     "DefaultParam6": "",
@@ -29478,22 +29503,27 @@
         "Value": "IntArray"
       }
     ],
-    "DefaultParam2": "",
+    "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
         "Key": "Second",
         "Value": "Int"
       }
     ],
-    "DefaultParam4": "",
-    "Param5": [],
     "DefaultParam5": "",
     "Param6": [],
     "DefaultParam6": "",
@@ -29538,23 +29568,28 @@
         "Value": "IntArray"
       }
     ],
-    "DefaultParam2": "",
+    "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
-        "Key": "RoleId",
+        "Key": "Difficulty",
         "Value": "Int"
       }
     ],
-    "DefaultParam4": "",
-    "Param5": [],
-    "DefaultParam5": "",
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
+        "Key": "RoleId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam5": "0",
     "Param6": [],
     "DefaultParam6": "",
     "Param7": [],
@@ -29598,55 +29633,70 @@
         "Value": "IntArray"
       }
     ],
-    "DefaultParam2": "",
+    "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
-        "Key": "SkillType",
+        "Key": "Difficulty",
         "Value": "Int"
       }
     ],
     "DefaultParam4": "-1",
     "Param5": [
       {
-        "Key": "DamageMainType",
-        "Value": "Int"
+        "Key": "SkillType",
+        "Value": "IntArray"
       }
     ],
-    "DefaultParam5": "-1",
+    "DefaultParam5": "2147483646",
     "Param6": [
       {
-        "Key": "DamageSubType",
-        "Value": "Int"
+        "Key": "DamageMainType",
+        "Value": "IntArray"
       }
     ],
-    "DefaultParam6": "-1",
+    "DefaultParam6": "2147483646",
     "Param7": [
+      {
+        "Key": "DamageSubType",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam7": "2147483646",
+    "Param8": [
       {
         "Key": "MonsterType",
         "Value": "IntArray"
       }
     ],
-    "DefaultParam7": "2147483647",
-    "Param8": [
+    "DefaultParam8": "2147483647",
+    "Param9": [
       {
         "Key": "MonsterId",
         "Value": "IntArray"
       }
     ],
-    "DefaultParam8": "2147483647",
-    "Param9": [],
-    "DefaultParam9": "",
-    "Param10": [],
-    "DefaultParam10": "",
-    "Param11": [],
-    "DefaultParam11": "",
+    "DefaultParam9": "2147483647",
+    "Param10": [
+      {
+        "Key": "Element",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam10": "2147483646",
+    "Param11": [
+      {
+        "Key": "RoleId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam11": "0",
     "Param12": [],
     "DefaultParam12": "",
     "Param13": [],
@@ -29678,30 +29728,35 @@
         "Value": "IntArray"
       }
     ],
-    "DefaultParam2": "",
+    "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
         "Key": "MonsterType",
         "Value": "IntArray"
       }
     ],
-    "DefaultParam4": "2147483647",
-    "Param5": [
+    "DefaultParam5": "2147483647",
+    "Param6": [
       {
         "Key": "MonsterId",
         "Value": "IntArray"
       }
     ],
-    "DefaultParam5": "2147483647",
-    "Param6": [],
-    "DefaultParam6": "",
+    "DefaultParam6": "2147483647",
     "Param7": [],
     "DefaultParam7": "",
     "Param8": [],
@@ -29743,16 +29798,21 @@
         "Value": "IntArray"
       }
     ],
-    "DefaultParam2": "",
+    "DefaultParam2": "0",
     "Param3": [
+      {
+        "Key": "CycleId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
       {
         "Key": "Difficulty",
         "Value": "Int"
       }
     ],
-    "DefaultParam3": "-1",
-    "Param4": [],
-    "DefaultParam4": "",
+    "DefaultParam4": "-1",
     "Param5": [],
     "DefaultParam5": "",
     "Param6": [],
@@ -29798,55 +29858,70 @@
         "Value": "IntArray"
       }
     ],
-    "DefaultParam2": "",
+    "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
-        "Key": "SkillType",
+        "Key": "Difficulty",
         "Value": "Int"
       }
     ],
     "DefaultParam4": "-1",
     "Param5": [
       {
-        "Key": "DamageMainType",
-        "Value": "Int"
+        "Key": "SkillType",
+        "Value": "IntArray"
       }
     ],
-    "DefaultParam5": "-1",
+    "DefaultParam5": "2147483646",
     "Param6": [
       {
-        "Key": "DamageSubType",
-        "Value": "Int"
+        "Key": "DamageMainType",
+        "Value": "IntArray"
       }
     ],
-    "DefaultParam6": "-1",
+    "DefaultParam6": "2147483646",
     "Param7": [
+      {
+        "Key": "DamageSubType",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam7": "2147483646",
+    "Param8": [
       {
         "Key": "MonsterType",
         "Value": "IntArray"
       }
     ],
-    "DefaultParam7": "2147483647",
-    "Param8": [
+    "DefaultParam8": "2147483647",
+    "Param9": [
       {
         "Key": "MonsterId",
         "Value": "IntArray"
       }
     ],
-    "DefaultParam8": "2147483647",
-    "Param9": [],
-    "DefaultParam9": "",
-    "Param10": [],
-    "DefaultParam10": "",
-    "Param11": [],
-    "DefaultParam11": "",
+    "DefaultParam9": "2147483647",
+    "Param10": [
+      {
+        "Key": "Element",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam10": "2147483646",
+    "Param11": [
+      {
+        "Key": "RoleId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam11": "0",
     "Param12": [],
     "DefaultParam12": "",
     "Param13": [],
@@ -29878,30 +29953,35 @@
         "Value": "IntArray"
       }
     ],
-    "DefaultParam2": "",
+    "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
         "Key": "MonsterType",
         "Value": "IntArray"
       }
     ],
-    "DefaultParam4": "2147483647",
-    "Param5": [
+    "DefaultParam5": "2147483647",
+    "Param6": [
       {
         "Key": "MonsterId",
         "Value": "IntArray"
       }
     ],
-    "DefaultParam5": "2147483647",
-    "Param6": [],
-    "DefaultParam6": "",
+    "DefaultParam6": "2147483647",
     "Param7": [],
     "DefaultParam7": "",
     "Param8": [],
@@ -29943,43 +30023,48 @@
         "Value": "IntArray"
       }
     ],
-    "DefaultParam2": "",
+    "DefaultParam2": "0",
     "Param3": [
       {
-        "Key": "Difficulty",
+        "Key": "CycleId",
         "Value": "Int"
       }
     ],
     "DefaultParam3": "-1",
     "Param4": [
       {
-        "Key": "MonsterType",
-        "Value": "IntArray"
+        "Key": "Difficulty",
+        "Value": "Int"
       }
     ],
-    "DefaultParam4": "2147483647",
+    "DefaultParam4": "-1",
     "Param5": [
       {
-        "Key": "MonsterId",
+        "Key": "MonsterType",
         "Value": "IntArray"
       }
     ],
     "DefaultParam5": "2147483647",
     "Param6": [
       {
+        "Key": "MonsterId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam6": "2147483647",
+    "Param7": [
+      {
         "Key": "Round",
         "Value": "Int"
       }
     ],
-    "DefaultParam6": "",
-    "Param7": [
+    "DefaultParam7": "",
+    "Param8": [
       {
         "Key": "Num",
         "Value": "Int"
       }
     ],
-    "DefaultParam7": "",
-    "Param8": [],
     "DefaultParam8": "",
     "Param9": [],
     "DefaultParam9": "",
@@ -30018,16 +30103,21 @@
         "Value": "IntArray"
       }
     ],
-    "DefaultParam2": "",
+    "DefaultParam2": "0",
     "Param3": [
+      {
+        "Key": "CycleId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
       {
         "Key": "Difficulty",
         "Value": "Int"
       }
     ],
-    "DefaultParam3": "-1",
-    "Param4": [],
-    "DefaultParam4": "",
+    "DefaultParam4": "-1",
     "Param5": [],
     "DefaultParam5": "",
     "Param6": [],
@@ -31544,6 +31634,51 @@
     "DefaultParam16": ""
   },
   {
+    "Type": "CdkGiftCdkReceived",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
     "Type": "EdgeRunnerFinishTaskType",
     "IsClientTrigger": false,
     "SubType": 0,
@@ -31758,6 +31893,206 @@
     ],
     "DefaultParam1": "1",
     "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "KurotatoPropValue",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Num",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "KurotatoFinishLevel",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Level",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Type",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "1",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "KurotatoUnlockInfo",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Type",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "KurotatoRoleFinishWave",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Level",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Wave",
+        "Value": "Int"
+      }
+    ],
     "DefaultParam2": "",
     "Param3": [],
     "DefaultParam3": "",
@@ -32149,6 +32484,46 @@
     "DefaultParam16": ""
   },
   {
+    "Type": "RealmBetweenLevel",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
     "Type": "WeeklyChallengeOpen",
     "IsClientTrigger": true,
     "SubType": 0,
@@ -32156,6 +32531,626 @@
       0
     ],
     "Param1": [],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "OnDamageCalculate2",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "TargetType",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "CalculateType",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "-1",
+    "Param3": [
+      {
+        "Key": "CountType",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "0",
+    "Param4": [
+      {
+        "Key": "ValueCount1",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
+        "Key": "ValueCount2",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam5": "-1",
+    "Param6": [
+      {
+        "Key": "CalculateID",
+        "Value": "LongArray"
+      }
+    ],
+    "DefaultParam6": "0",
+    "Param7": [
+      {
+        "Key": "AttackerTag",
+        "Value": "String"
+      }
+    ],
+    "DefaultParam7": "0",
+    "Param8": [
+      {
+        "Key": "BeattackerTag",
+        "Value": "String"
+      }
+    ],
+    "DefaultParam8": "0",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerKillWave",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "0",
+    "Param3": [
+      {
+        "Key": "CycleId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
+        "Key": "RoleId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam5": "0",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerKillWaveInSeason",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "0",
+    "Param3": [
+      {
+        "Key": "CycleId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
+        "Key": "RoleId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam5": "0",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerLimitCondPassWave",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "-1",
+    "Param2": [
+      {
+        "Key": "SeasonId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "0",
+    "Param3": [
+      {
+        "Key": "CycleId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "-1",
+    "Param4": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "-1",
+    "Param5": [
+      {
+        "Key": "Round",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam5": "",
+    "Param6": [
+      {
+        "Key": "Num",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerSeasonAwardFinish",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Type",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "0",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "LevelPlayOrInstFinishWithMulti",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Type",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "SubTypes",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckDailyLevelPlayAndInstCounter",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Type",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "SubTypes",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "KurotatoKillMonster",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Level",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "-1",
+    "Param3": [
+      {
+        "Key": "MonsterType",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam3": "2147483647",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "PlayerCanJoinNewbieV2",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckKurotatoLevelWave",
+    "IsClientTrigger": true,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "LevelId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Wave",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckKurotatoLevelFinished",
+    "IsClientTrigger": true,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "LevelId",
+        "Value": "Int"
+      }
+    ],
     "DefaultParam1": "",
     "Param2": [],
     "DefaultParam2": "",
@@ -32198,6 +33193,201 @@
     "Param1": [
       {
         "Key": "ActivityID",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewTowerCycleHistoryScore",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "CycleId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "NewbieMainTypeTaskFinishCount",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Type",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckDollGrabShowcaseItemComboAchieved",
+    "IsClientTrigger": true,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "EntityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Count",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [],
+    "DefaultParam3": "",
+    "Param4": [],
+    "DefaultParam4": "",
+    "Param5": [],
+    "DefaultParam5": "",
+    "Param6": [],
+    "DefaultParam6": "",
+    "Param7": [],
+    "DefaultParam7": "",
+    "Param8": [],
+    "DefaultParam8": "",
+    "Param9": [],
+    "DefaultParam9": "",
+    "Param10": [],
+    "DefaultParam10": "",
+    "Param11": [],
+    "DefaultParam11": "",
+    "Param12": [],
+    "DefaultParam12": "",
+    "Param13": [],
+    "DefaultParam13": "",
+    "Param14": [],
+    "DefaultParam14": "",
+    "Param15": [],
+    "DefaultParam15": "",
+    "Param16": [],
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckNewPlayerSupportV2",
+    "IsClientTrigger": true,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Has",
         "Value": "Int"
       }
     ],

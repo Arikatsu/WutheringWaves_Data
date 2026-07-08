@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 750001,
+    "Desc": "白雾传送",
+    "Data": {
+      "Type": "TeleportTimer",
+      "OutAreaBorderTime": 10,
+      "TeleportTransitionConfigId": 750001,
+      "OutAreaBorderTipOption": {
+        "Type": "DownTimeTextTip",
+        "TipText": "test/已进入异常区域，请速速返回"
+      },
+      "OutAreaBorderEffectOption": {
+        "Type": "BuffId",
+        "BuffIdList": [
+          640033030,
+          640033031
+        ]
+      }
+    }
+  }
+]
