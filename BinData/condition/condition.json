@@ -163637,7 +163637,7 @@
       },
       {
         "Key": "QuestNodeId",
-        "Value": "27"
+        "Value": "112"
       }
     ],
     "LimitParamsOpe": [],
@@ -163660,7 +163660,7 @@
       },
       {
         "Key": "QuestNodeId",
-        "Value": "117"
+        "Value": "31"
       }
     ],
     "LimitParamsOpe": [],
@@ -163706,7 +163706,7 @@
       },
       {
         "Key": "QuestNodeId",
-        "Value": "41"
+        "Value": "39"
       }
     ],
     "LimitParamsOpe": [],
@@ -163729,7 +163729,7 @@
       },
       {
         "Key": "QuestNodeId",
-        "Value": "121"
+        "Value": "41"
       }
     ],
     "LimitParamsOpe": [],
@@ -164005,7 +164005,7 @@
       },
       {
         "Key": "QuestNodeId",
-        "Value": "36"
+        "Value": "25"
       }
     ],
     "LimitParamsOpe": [],
@@ -171237,11 +171237,11 @@
       },
       {
         "Key": "State",
-        "Value": "3"
+        "Value": "2"
       },
       {
         "Key": "QuestNodeId",
-        "Value": "28"
+        "Value": "30"
       }
     ],
     "LimitParamsOpe": [],
@@ -175129,7 +175129,7 @@
   {
     "Id": 12907100,
     "Type": "LevelPlayComplete",
-    "NeedNum": 11,
+    "NeedNum": 8,
     "LimitParams": [
       {
         "Key": "LevelPlayId",
@@ -178429,7 +178429,7 @@
       },
       {
         "Key": "QuestNodeId",
-        "Value": "54"
+        "Value": "55"
       }
     ],
     "LimitParamsOpe": [],
@@ -178742,7 +178742,7 @@
       },
       {
         "Key": "CalculateID",
-        "Value": "1309113010-1309114010-1309115010-1309116010-1309117010-1309118010-1309119010-1309120010-1309121010-1309122010-1309123010-1309124010-1309125010-13091130100-13091140100-13091150100-13091160100-13091170100-13091180100-13091190100-13091200100-13091210100-13091220100-13091230100-13091240100-13091250100-13091130101-13091140101-13091150101-13091160101-13091170101-13091180101-13091190101-13091200101-13091210101-13091220101-13091230101-13091240101-13091250101"
+        "Value": "13091130100-\n13091140100-\n13091150100-\n13091160100-\n13091170100-\n13091170200-\n13091170300-\n13091180100-\n13091180200-\n13091190100-\n13091190200-\n13091200100-\n13091200200-\n13091210010-\n13091210020-\n13091210030-\n13091210040-\n13091210050-\n13091210060-\n13091220010-\n13091230010-\n13091240010-\n13091240020-\n13091240030-\n13091250010-\n13091260010-\n13091260020-\n13091130101-\n13091140101-\n13091150101-\n13091160101-\n13091170101-\n13091170201-\n13091170301-\n13091180101-\n13091180201-\n13091190101-\n13091190201-\n13091200101-\n13091200201-\n13091210011-\n13091210021-\n13091210031-\n13091210041-\n13091210051-\n13091210061-\n13091220011-\n13091230011-\n13091240011-\n13091240021-\n13091240031-\n13091250011-\n13091260011-\n13091260021"
       }
     ],
     "LimitParamsOpe": [],
@@ -178857,11 +178857,11 @@
       },
       {
         "Key": "State",
-        "Value": "3"
+        "Value": "2"
       },
       {
         "Key": "QuestNodeId",
-        "Value": "54"
+        "Value": "55"
       }
     ],
     "LimitParamsOpe": [],
@@ -178977,7 +178977,7 @@
     "LimitParams": [
       {
         "Key": "LevelPlayId",
-        "Value": "259750002"
+        "Value": "150750021-150750022-150750025-150750024-150750026-150750027-150750028-150750029-150750030-150750031-150750032-150750033-150750034-150750035-259750003"
       }
     ],
     "LimitParamsOpe": [],
@@ -178992,7 +178992,7 @@
     "LimitParams": [
       {
         "Key": "LevelPlayId",
-        "Value": "259750000"
+        "Value": "150750011-150750012-150750013-150750014-150750015-150750016-150750017-150750018-150750019"
       }
     ],
     "LimitParamsOpe": [],
@@ -179592,12 +179592,20 @@
   },
   {
     "Id": 101135117,
-    "Type": "LevelPlayComplete",
-    "NeedNum": 14,
+    "Type": "CheckLevelPlayNodeState",
+    "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "LevelPlayId",
-        "Value": "150750021-150750022-150750024-150750025-150750026-150750027-150750028-150750029-\n150750030-150750031-150750032-150750033-150750034-150750035"
+        "Value": "150750023"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "12"
       }
     ],
     "LimitParamsOpe": [],
@@ -179993,12 +180001,12 @@
   },
   {
     "Id": 131201460,
-    "Type": "CheckUIOpenDone",
+    "Type": "OnGuideTriggerEvent",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "UIName",
-        "Value": "SheriffMainView"
+        "Key": "Name",
+        "Value": "SheriffMainViewDialogClose"
       }
     ],
     "LimitParamsOpe": [],
@@ -180413,7 +180421,7 @@
     "LimitParams": [
       {
         "Key": "LevelPlayId",
-        "Value": "686750034"
+        "Value": "686750049"
       }
     ],
     "LimitParamsOpe": [],
@@ -181215,11 +181223,11 @@
     "LimitParams": [
       {
         "Key": "ViewName",
-        "Value": "SheriffMainView"
+        "Value": "KurotatoRoleSelectView"
       },
       {
         "Key": "MarkName",
-        "Value": "tianyan_3.5_01"
+        "Value": "tudou_3.5_16"
       }
     ],
     "LimitParamsOpe": [],
@@ -181253,7 +181261,7 @@
       },
       {
         "Key": "MarkName",
-        "Value": "xiazai_3.5_01"
+        "Value": "xiazai_3.5_01_mobile"
       }
     ],
     "LimitParamsOpe": [],
@@ -182099,7 +182107,7 @@
       },
       {
         "Key": "QuestNodeId",
-        "Value": "95"
+        "Value": "36"
       },
       {
         "Key": "State",
@@ -182457,11 +182465,11 @@
     "LimitParams": [
       {
         "Key": "VDName",
-        "Value": "3_2成功调查遗留物"
+        "Value": "3_5明雍"
       },
       {
         "Key": "VDValueInt",
-        "Value": "24"
+        "Value": "1"
       }
     ],
     "LimitParamsOpe": [],
@@ -183265,7 +183273,7 @@
       }
     ],
     "IsClient": true,
-    "Description": "",
+    "Description": "ConditionGroup_1002000_HintText",
     "AccessId": 0
   },
   {
@@ -184029,6 +184037,179 @@
         "Value": ">="
       }
     ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12907121,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "259750002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "Condition_12907117_HintText",
+    "AccessId": 919815
+  },
+  {
+    "Id": 12907122,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "259750000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "Condition_12907117_HintText",
+    "AccessId": 919816
+  },
+  {
+    "Id": 131201524,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "DollGrabShowcaseInspectView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201525,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "DollGrabEndlessStartView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201526,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "RogueBattleTeamRoleSelectView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201527,
+    "Type": "CheckItemWithOperator",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "89200001"
+      },
+      {
+        "Key": "Count",
+        "Value": "1"
+      },
+      {
+        "Key": "Op",
+        "Value": "Ge"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201528,
+    "Type": "CheckFightPhotoLevelFinished",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "100010"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201529,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "MotorDiyViewShow"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201530,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "KurotatoRoleSelectEndless"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917102,
+    "Type": "CheckCharacterTagByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.88be5576.bda18c56.23044bf5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 242917103,
+    "Type": "CheckCharacterTagNotByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "角色.88be5576.bda18c56.23044bf5"
+      }
+    ],
+    "LimitParamsOpe": [],
     "IsClient": true,
     "Description": "",
     "AccessId": 0

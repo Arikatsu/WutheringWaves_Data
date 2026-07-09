@@ -130601,12 +130601,42 @@
   {
     "Guid": "6ce8b6d8962b4e3595ceead88563c972",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_5_支线_危构悬天问丹心",
-        "FlowId": 6,
-        "StateId": 1
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableModule",
+            "MoveOption": {
+              "Type": "Enable"
+            },
+            "SkillOption": {
+              "Type": "Enable"
+            },
+            "CameraOption": {
+              "Type": "Enable"
+            },
+            "UiOption": {
+              "Type": "Disable"
+            },
+            "SceneInteractionOption": {
+              "Type": "Enable"
+            }
+          },
+          "ActionGuid": "e8b2266c6f254b0b9e528add667efde3",
+          "ActionId": 3000245
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_5_支线_危构悬天问丹心",
+            "FlowId": 6,
+            "StateId": 1
+          },
+          "ActionGuid": "36555b7637354eaa9a2d12d9ea3fa969",
+          "ActionId": 3000246
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "",
@@ -130657,12 +130687,42 @@
   {
     "Guid": "9f1df8e31c24434896cdf9ef1282def7",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_5_支线_危构悬天问丹心",
-        "FlowId": 5,
-        "StateId": 1
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableModule",
+            "MoveOption": {
+              "Type": "Enable"
+            },
+            "SkillOption": {
+              "Type": "Enable"
+            },
+            "CameraOption": {
+              "Type": "Enable"
+            },
+            "UiOption": {
+              "Type": "Disable"
+            },
+            "SceneInteractionOption": {
+              "Type": "Enable"
+            }
+          },
+          "ActionGuid": "e7ef565bfd2c443a9806fa76097fb168",
+          "ActionId": 3000241
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_5_支线_危构悬天问丹心",
+            "FlowId": 5,
+            "StateId": 1
+          },
+          "ActionGuid": "7ef8716c9a0a4c40bed429cc7963ce1c",
+          "ActionId": 3000243
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "",
@@ -137070,79 +137130,6 @@
     "OptionLockTypeList": "[\"OnMotor\"]"
   },
   {
-    "Guid": "154caba81176401b8b16ae790261ebf3",
-    "Type": {
-      "Type": "Actions",
-      "Actions": [
-        {
-          "Name": "AddTrialCharacter",
-          "Params": {
-            "UseUpdateTrialCharacterLogic": true,
-            "CharacterId": 5001001,
-            "CharacterGroup": [],
-            "CharacterGroupNew": [
-              {
-                "CharacterId": 2115010005,
-                "IsAiCharacter": false
-              }
-            ],
-            "AutoChange": true,
-            "CreateTempTeam": true,
-            "EnableMapAndTeleport": true,
-            "IsRemoveTips": true,
-            "EnterRangeEntities": [
-              180750520,
-              180750521
-            ]
-          },
-          "ActionGuid": "feda3fb9ac4d4d9e858581d001d51567",
-          "ActionId": 3000015
-        },
-        {
-          "Name": "VehicleEnter",
-          "Params": {
-            "EnteringTarget": {
-              "Type": "Player"
-            },
-            "Seat": 0,
-            "VehicleTarget": {
-              "Type": "Appointed",
-              "VehicleId": 191750043
-            }
-          },
-          "ActionGuid": "650a05f65e694ab5be4cae449bd9195d",
-          "Async": false,
-          "ActionId": 3000003
-        },
-        {
-          "Name": "VehicleEnter",
-          "Params": {
-            "EnteringTarget": {
-              "Type": "Npc",
-              "TargetNpc": 191750044
-            },
-            "Seat": 1,
-            "VehicleTarget": {
-              "Type": "Appointed",
-              "VehicleId": 191750043
-            }
-          },
-          "ActionGuid": "042703bd224842aa955e986b906285b8",
-          "Async": false,
-          "ActionId": 3000006
-        }
-      ]
-    },
-    "Icon": "",
-    "TidContent": "",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": "[\"OnMotor\"]"
-  },
-  {
     "Guid": "16a72e4a73374397bde9b08d038bcb1f",
     "Type": {
       "Type": "Flow",
@@ -137320,6 +137307,96 @@
     },
     "Icon": "",
     "TidContent": "Quest_688750006_InteractContent_688_16",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": "",
+    "OptionLockTypeList": "[\"OnMotor\"]"
+  },
+  {
+    "Guid": "b6c0f2c4279443b7b3c5d94189656751",
+    "Type": {
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "SetVar",
+          "Params": {
+            "VarLeft": {
+              "Type": "Boolean",
+              "Source": "Self",
+              "Name": "摩托试用角色覆盖"
+            },
+            "VarRight": {
+              "Type": "Boolean",
+              "Source": "Constant",
+              "Value": true
+            }
+          },
+          "ActionGuid": "7c8ccdfdbb39413a996a5d628bd5046e",
+          "ActionId": 3000006
+        },
+        {
+          "Name": "AddTrialCharacter",
+          "Params": {
+            "UseUpdateTrialCharacterLogic": true,
+            "CharacterId": 5001001,
+            "CharacterGroup": [],
+            "CharacterGroupNew": [
+              {
+                "CharacterId": 2115010005,
+                "IsAiCharacter": false
+              }
+            ],
+            "AutoChange": true,
+            "CreateTempTeam": true,
+            "EnableMapAndTeleport": true,
+            "IsRemoveTips": true,
+            "EnterRangeEntities": [
+              180750520,
+              180750521
+            ]
+          },
+          "ActionGuid": "3354eac6ed06456691ae77a01ff018e2",
+          "ActionId": 3000007
+        },
+        {
+          "Name": "VehicleEnter",
+          "Params": {
+            "EnteringTarget": {
+              "Type": "Player"
+            },
+            "Seat": 0,
+            "VehicleTarget": {
+              "Type": "Appointed",
+              "VehicleId": 191750043
+            }
+          },
+          "ActionGuid": "e6e1437fa45a4d28a7cf2a481a0be3d3",
+          "Async": false,
+          "ActionId": 3000008
+        },
+        {
+          "Name": "VehicleEnter",
+          "Params": {
+            "EnteringTarget": {
+              "Type": "Npc",
+              "TargetNpc": 191750044
+            },
+            "Seat": 1,
+            "VehicleTarget": {
+              "Type": "Appointed",
+              "VehicleId": 191750043
+            }
+          },
+          "ActionGuid": "69c2416a0d984bc6a7379f9fef050514",
+          "Async": false,
+          "ActionId": 3000009
+        }
+      ]
+    },
+    "Icon": "",
+    "TidContent": "",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",

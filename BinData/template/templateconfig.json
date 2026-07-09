@@ -935106,7 +935106,7 @@
       "BaseInfoComponent": {
         "TidName": "Entity_727e1b618c7cc3f7eb33c1a3275edd4f311d7c4385f1e324c24cb69aaca47795",
         "Category": {},
-        "Camp": 1,
+        "Camp": 0,
         "OnlineInteractType": 0,
         "EntityPropertyId": 2,
         "AoiLayer": 0,
@@ -940874,8 +940874,7 @@
           "Type": "SwitchByTag",
           "Element": [
             {
-              "FightMusic": "boss_wanelao_p1",
-              "ActivateTag": "怪物.c61dbe00.a11526bc.9037e4b7"
+              "FightMusic": "boss_wanelao_p1"
             },
             {
               "FightMusic": "boss_wanelao_p2",
@@ -950495,7 +950494,9 @@
       "AttachTargetComponent": {
         "Disabled": true
       },
-      "InteractAudioComponent": {},
+      "InteractAudioComponent": {
+        "Disabled": true
+      },
       "ModelComponent": {
         "Disabled": false,
         "ModelType": {
@@ -951022,8 +951023,8 @@
             },
             {
               "Type": "CompareEntitySelfState",
-              "Compare": "Eq",
-              "State": "关卡.Common.状态.激活"
+              "Compare": "Ne",
+              "State": "关卡.Common.状态.常态"
             },
             {
               "Type": "CheckTargetAttribute",
@@ -951799,7 +951800,7 @@
     "Name": "角色_suisui_领域",
     "ComponentsData": {
       "BaseInfoComponent": {
-        "TidName": "Entity_95b78208d8cf0b1875d0bf3afc19d697c80e2a213a264bd6681d9af4b9bafdbb",
+        "TidName": "Entity_0f4cf746018b3dc9d56a504728c11338cee3a16f67e06f6b306b36d5e864b79a",
         "Category": {},
         "Camp": 0,
         "OnlineInteractType": 1,
@@ -1047963,7 +1047964,7 @@
           "MainType": "Mechanism"
         },
         "Camp": 2,
-        "OnlineInteractType": 1,
+        "OnlineInteractType": 2,
         "EntityPropertyId": 2,
         "AoiLayer": 3,
         "AoiZRadius": 0,
@@ -1048452,7 +1048453,7 @@
             },
             {
               "UniqueId": 1776140032,
-              "ItemId": 750039
+              "ItemId": 750040
             },
             {
               "UniqueId": 1781008385,
@@ -1051574,10 +1051575,9 @@
         "Camp": 2,
         "TidName": "Entity_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "AoiLayer": 0,
-        "OnlineInteractType": 1,
+        "OnlineInteractType": 0,
         "EntityPropertyId": 2,
-        "AoiZRadius": 2,
-        "IsOnlineStandalone": true,
+        "AoiZRadius": 0,
         "IsForceDestroy": true
       },
       "EntityStateComponent": {
@@ -1062939,9 +1062939,9 @@
                 "ActionId": 1000001
               },
               {
-                "Name": "DestroySelf",
+                "Name": "Collect",
                 "Params": {},
-                "ActionGuid": "70d027c5a7a241eca3ad2860197fc733",
+                "ActionGuid": "13a6d6e7334d493186b45505572cfc62",
                 "ActionId": 1000002
               }
             ],
@@ -1063008,7 +1063008,8 @@
           "Type": "AllCharacterAttack"
         }
       },
-      "SceneItemMovementComponent": {}
+      "SceneItemMovementComponent": {},
+      "CollectComponent": {}
     }
   },
   {
@@ -1065150,11 +1065151,11 @@
         "IsForceDestroy": true
       },
       "RewardComponent": {
-        "RewardId": 6020,
+        "RewardId": 6102,
         "RewardType": 0
       },
       "VisionCaptureComponent": {
-        "VisionCaptureId": 6000170,
+        "VisionCaptureId": 6000215,
         "Disabled": false
       },
       "MonsterComponent": {
@@ -1065263,7 +1065264,7 @@
             "Y": 0,
             "Z": 0
           },
-          "Radius": 2500
+          "Radius": 12500
         },
         "InheritSpeed": true,
         "NormalEffect": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Maodian.DA_Fx_Group_Hook_Maodian",
@@ -1065512,19 +1065513,8 @@
         "Disabled": true
       },
       "RewardComponent": {
-        "RewardId": 2601,
-        "RewardType": 0,
-        "RefreshConfig": {
-          "RefreshType": {
-            "Type": "FixedDateTime",
-            "Hours": 4,
-            "Minutes": 0,
-            "Seconds": 0
-          },
-          "RefreshCondition": {
-            "Type": "Death"
-          }
-        }
+        "RewardId": 2708,
+        "RewardType": 0
       },
       "InteractAudioComponent": {
         "Disabled": true
@@ -1065592,13 +1065582,14 @@
         "LockConfig": {
           "LockType": "Default",
           "IsInitLock": false
-        }
+        },
+        "PrefabPerformanceType": "副本入口"
       },
       "ModelComponent": {
         "Disabled": false,
         "ModelType": {
           "Type": "ModelId",
-          "ModelId": 531011
+          "ModelId": 531046
         }
       },
       "SceneItemLifeCycleComponent": {
@@ -1066316,7 +1066307,7 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1609,
+        "RewardId": 2202,
         "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
@@ -1066540,7 +1066531,7 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1608,
+        "RewardId": 2202,
         "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
@@ -1067023,7 +1067014,7 @@
         "IsOnlineStandalone": true,
         "HeadStateViewConfig": {
           "HeadStateViewType": 6,
-          "ZOffset": 120,
+          "ZOffset": 200,
           "ForwardOffset": 0
         },
         "IsForceDestroy": true
@@ -1067721,7 +1067712,7 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1608,
+        "RewardId": 2202,
         "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
@@ -1067945,7 +1067936,7 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1609,
+        "RewardId": 2202,
         "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
@@ -1073778,7 +1073769,7 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
+        "RewardId": 2202,
         "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
@@ -1074026,9 +1074017,7 @@
         "RewardId": 0,
         "RewardType": 0,
         "RewardIdList": [
-          2778,
-          2778,
-          2779
+          2778
         ],
         "DropOnEvent": 1
       },
@@ -1074587,7 +1074576,7 @@
         "ModelType": {
           "Type": "LevelPrefab",
           "BlueprintPath": "InteractedBox",
-          "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_5/JBGC/TPrefab_3_5_JiBingXiang_Des.TPrefab_3_5_JiBingXiang_Des",
+          "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_5/JBGC/TPrefab_3_5_JiBingXiang_Des_2.TPrefab_3_5_JiBingXiang_Des_2",
           "PrefabStateList": [
             {
               "SceneInteractionState": 0,
@@ -1075224,7 +1075213,8 @@
         "EntityPropertyId": 1,
         "AoiLayer": 0,
         "AoiZRadius": 0,
-        "IsForceDestroy": true
+        "IsForceDestroy": true,
+        "KeepAnimationRateWithShadow": true
       },
       "AiComponent": {
         "AiId": 210071
@@ -1075299,20 +1075289,20 @@
               "Type": "Actions",
               "Actions": [
                 {
-                  "Name": "SetBattleState",
+                  "Name": "ExecBattleAction",
                   "Params": {
-                    "StateOption": {
-                      "Type": "SetBattleTag",
-                      "SetTags": [
+                    "BattleOption": {
+                      "Type": "SetBattleTags",
+                      "Configs": [
                         {
                           "EntityId": 0,
-                          "SetType": "Add",
-                          "GameplayTag": "动物.Common.状态标识.休闲.8701167a"
+                          "TagConfigId": 750027
                         }
                       ]
                     }
                   },
-                  "ActionGuid": "1cf01dde4e8b4cab89b11eb4d625b377",
+                  "ActionGuid": "9718466aee8246a7adf70e4658234f3b",
+                  "Async": true,
                   "ActionId": 1000001
                 }
               ]
@@ -1075327,7 +1075317,7 @@
                 }
               ]
             },
-            "TidContent": "Entity_7355282694cddce3402fefe962ff032ac28ee0023441fd3098f78252e86cfbe3"
+            "TidContent": "Entity_6f872f181cd67509be33adec19a218a4a2592306363e333d95a86badb92d3030"
           }
         ],
         "NotInterruptPlotModeLevelD": true
@@ -1075523,7 +1075513,16 @@
         "Option": {
           "Type": "PullGiant",
           "PullTime": 2,
-          "Actions": []
+          "Actions": [
+            {
+              "Name": "ChangeSelfEntityState",
+              "Params": {
+                "EntityState": "关卡.Common.状态.激活"
+              },
+              "ActionGuid": "e2e9f664c6e442d395b7473f15550fbf",
+              "ActionId": 1000001
+            }
+          ]
         }
       },
       "AttachTargetComponent": {
@@ -1075536,7 +1075535,16 @@
           "BlueprintPath": "Item",
           "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_5/JBGC/TPrefab_3_5_PullInteract.TPrefab_3_5_PullInteract",
           "NameOffsetZ": 0,
-          "PrefabStateList": [],
+          "PrefabStateList": [
+            {
+              "SceneInteractionState": 0,
+              "LevelTag": -1152559349
+            },
+            {
+              "SceneInteractionState": 1,
+              "LevelTag": -3775711
+            }
+          ],
           "EffectStateList": []
         }
       }
@@ -1077945,7 +1077953,7 @@
         "TidName": "Entity_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "Category": {
           "MainType": "Monster",
-          "MonsterMatchType": 1
+          "MonsterMatchType": 0
         },
         "Camp": 1,
         "EntityPropertyId": 70116,
@@ -1081089,8 +1081097,20 @@
           "EffectStateList": []
         }
       },
-      "ExtraRangeComponent": {
-        "ExtraRangeConfigs": [],
+      "SceneActorRefComponent": {
+        "ActorRefGroups": []
+      },
+      "LevelSequenceFrameEventComponent": {
+        "ForwardSections": [],
+        "BackWardSections": [],
+        "Disabled": true
+      },
+      "AttachTargetComponent": {
+        "Disabled": true
+      },
+      "SceneItemMovementComponent": {},
+      "VarComponent": {
+        "Vars": [],
         "Disabled": true
       }
     }
@@ -1083075,7 +1083095,7 @@
     "Name": "TsEntity_3_5_叶中匠",
     "ComponentsData": {
       "InteractComponent": {
-        "Range": 200,
+        "Range": 550,
         "Options": [
           {
             "Type": {
@@ -1083095,7 +1083115,7 @@
         "DoIntactType": "Direct",
         "InteractDefaultIcon": "Collect",
         "PointIconConfig": {
-          "MaxShowDistance": 400,
+          "MaxShowDistance": 700,
           "Offset": {
             "X": 0,
             "Y": 0,
@@ -1083189,7 +1083209,7 @@
           "Size": {
             "X": 400,
             "Y": 400,
-            "Z": 200
+            "Z": 650
           }
         }
       },
@@ -1084133,9 +1084153,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1084364,9 +1084383,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1089658,9 +1089676,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1089892,9 +1089909,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1090121,9 +1090137,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1090350,9 +1090365,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1090990,9 +1091004,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1091219,9 +1091232,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1091448,9 +1091460,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1091833,7 +1091844,7 @@
         },
         "Camp": 0,
         "OnlineInteractType": 1,
-        "EntityPropertyId": 77090,
+        "EntityPropertyId": 700,
         "AoiLayer": 0,
         "AoiZRadius": 0,
         "IsForceDestroy": true
@@ -1091856,7 +1091867,7 @@
       },
       "CombatComponent": {},
       "VisionComponent": {
-        "VisionId": 280042
+        "VisionId": 280043
       },
       "ModelComponent": {
         "Disabled": false,
@@ -1094821,59 +1094832,59 @@
       "DollGrabMachineComponent": {
         "Items": [
           {
-            "Id": 1780871747,
+            "Id": 1782735655,
             "ItemId": 750017
           },
           {
-            "Id": 1780871748,
+            "Id": 1782735656,
             "ItemId": 750017
           },
           {
-            "Id": 1780871749,
+            "Id": 1782735657,
             "ItemId": 750015
           },
           {
-            "Id": 1780871750,
+            "Id": 1782735658,
             "ItemId": 750015
           },
           {
-            "Id": 1780871751,
+            "Id": 1782735659,
             "ItemId": 750001
           },
           {
-            "Id": 1780871752,
+            "Id": 1782735660,
             "ItemId": 750014
           },
           {
-            "Id": 1780871753,
+            "Id": 1782735661,
             "ItemId": 350001
           },
           {
-            "Id": 1780871754,
+            "Id": 1782735662,
             "ItemId": 350002
           },
           {
-            "Id": 1780871755,
+            "Id": 1782735663,
             "ItemId": 350003
           },
           {
-            "Id": 1780871756,
+            "Id": 1782735664,
             "ItemId": 350003
           },
           {
-            "Id": 1780871757,
+            "Id": 1782735665,
             "ItemId": 350003
           },
           {
-            "Id": 1780871758,
+            "Id": 1782735666,
             "ItemId": 350003
           },
           {
-            "Id": 1780871759,
+            "Id": 1782735667,
             "ItemId": 750034
           },
           {
-            "Id": 1780871760,
+            "Id": 1782735668,
             "ItemId": 350009
           }
         ],
@@ -1098020,7 +1098031,7 @@
   {
     "Id": 252750003,
     "BlueprintType": "branch3.5_252_TsEntity_声骸_NPC_心傀忧黄",
-    "Name": "TsEntity_声骸_NPC_心傀忧黄",
+    "Name": "TsEntity_声骸_NPC_心傀敌方_黄",
     "ComponentsData": {
       "BaseInfoComponent": {
         "Category": {
@@ -1098047,6 +1098058,18 @@
         "Disabled": true
       },
       "NpcPerformComponent": {
+        "NpcPerformState": {
+          "InitState": {
+            "Type": "幽灵态",
+            "State": "常态"
+          },
+          "Configs": [
+            {
+              "State": "常态",
+              "MaterialDa": "/Game/Aki/Effect/MaterialController/Common/MO1JiBinMd00001/DA_Fx_MOa_JinBin_Zhandou_501.DA_Fx_MOa_JinBin_Zhandou_501"
+            }
+          ]
+        },
         "IsStare": false,
         "IsShowStrike": false
       },
@@ -1098089,7 +1098112,7 @@
   {
     "Id": 252750001,
     "BlueprintType": "branch3.5_252_TsEntity_声骸_NPC_心傀忧红",
-    "Name": "TsEntity_声骸_NPC_心傀忧红",
+    "Name": "TsEntity_声骸_NPC_心傀敌方_红",
     "ComponentsData": {
       "BaseInfoComponent": {
         "Category": {
@@ -1098116,6 +1098139,18 @@
         "Disabled": true
       },
       "NpcPerformComponent": {
+        "NpcPerformState": {
+          "InitState": {
+            "Type": "幽灵态",
+            "State": "常态"
+          },
+          "Configs": [
+            {
+              "State": "常态",
+              "MaterialDa": "/Game/Aki/Effect/MaterialController/Common/MO1JiBinMd00001/DA_Fx_MOa_JinBin_Zhandou_101.DA_Fx_MOa_JinBin_Zhandou_101"
+            }
+          ]
+        },
         "IsStare": false,
         "IsShowStrike": false
       },
@@ -1098158,7 +1098193,7 @@
   {
     "Id": 252750002,
     "BlueprintType": "branch3.5_252_TsEntity_声骸_NPC_心傀忧紫",
-    "Name": "TsEntity_声骸_NPC_心傀忧紫",
+    "Name": "TsEntity_声骸_NPC_心傀敌方_紫",
     "ComponentsData": {
       "BaseInfoComponent": {
         "Category": {
@@ -1098185,6 +1098220,18 @@
         "Disabled": true
       },
       "NpcPerformComponent": {
+        "NpcPerformState": {
+          "InitState": {
+            "Type": "幽灵态",
+            "State": "常态"
+          },
+          "Configs": [
+            {
+              "State": "常态",
+              "MaterialDa": "/Game/Aki/Effect/MaterialController/Common/MO1JiBinMd00001/DA_Fx_MOa_JinBin_Zhandou_301.DA_Fx_MOa_JinBin_Zhandou_301"
+            }
+          ]
+        },
         "IsStare": false,
         "IsShowStrike": false
       },
@@ -1098227,7 +1098274,7 @@
   {
     "Id": 252750004,
     "BlueprintType": "branch3.5_252_TsEntity_声骸_NPC_心傀忧粉",
-    "Name": "TsEntity_声骸_NPC_心傀忧粉",
+    "Name": "TsEntity_声骸_NPC_心傀敌方_粉",
     "ComponentsData": {
       "BaseInfoComponent": {
         "Category": {
@@ -1098254,6 +1098301,18 @@
         "Disabled": true
       },
       "NpcPerformComponent": {
+        "NpcPerformState": {
+          "InitState": {
+            "Type": "幽灵态",
+            "State": "常态"
+          },
+          "Configs": [
+            {
+              "State": "常态",
+              "MaterialDa": "/Game/Aki/Effect/MaterialController/Common/MO1JiBinMd00001/DA_Fx_MOa_JinBin_Zhandou_601.DA_Fx_MOa_JinBin_Zhandou_601"
+            }
+          ]
+        },
         "IsStare": false,
         "IsShowStrike": false
       },
@@ -1098308,7 +1098367,8 @@
         "EntityPropertyId": 1,
         "AoiLayer": 0,
         "AoiZRadius": 0,
-        "IsForceDestroy": true
+        "IsForceDestroy": true,
+        "KeepAnimationRateWithShadow": true
       },
       "AiComponent": {
         "AiId": 21007101
@@ -1098383,20 +1098443,20 @@
               "Type": "Actions",
               "Actions": [
                 {
-                  "Name": "SetBattleState",
+                  "Name": "ExecBattleAction",
                   "Params": {
-                    "StateOption": {
-                      "Type": "SetBattleTag",
-                      "SetTags": [
+                    "BattleOption": {
+                      "Type": "SetBattleTags",
+                      "Configs": [
                         {
                           "EntityId": 0,
-                          "SetType": "Add",
-                          "GameplayTag": "动物.Common.状态标识.休闲.8701167a"
+                          "TagConfigId": 750027
                         }
                       ]
                     }
                   },
-                  "ActionGuid": "1cf01dde4e8b4cab89b11eb4d625b377",
+                  "ActionGuid": "e4375148907e4f6e95e0a969bdc02032",
+                  "Async": true,
                   "ActionId": 1000001
                 }
               ]
@@ -1098411,7 +1098471,7 @@
                 }
               ]
             },
-            "TidContent": "Entity_7355282694cddce3402fefe962ff032ac28ee0023441fd3098f78252e86cfbe3"
+            "TidContent": "Entity_6f872f181cd67509be33adec19a218a4a2592306363e333d95a86badb92d3030"
           }
         ],
         "NotInterruptPlotModeLevelD": true
@@ -1102605,7 +1102665,7 @@
         "Disabled": false,
         "ModelType": {
           "Type": "ModelId",
-          "ModelId": 531011
+          "ModelId": 531046
         }
       },
       "SceneItemLifeCycleComponent": {
@@ -1102643,11 +1102703,11 @@
         "AiId": 88011
       },
       "AttributeComponent": {
-        "PropertyId": 1110,
+        "PropertyId": 500400029,
         "Level": 90,
         "WorldLevelBonusId": 10011,
-        "HardnessModeId": 107,
-        "RageModeId": 7,
+        "HardnessModeId": 102,
+        "RageModeId": 2,
         "WorldLevelBonusType": {
           "Type": 0
         },
@@ -1103155,9 +1103215,8 @@
         }
       },
       "RewardComponent": {
-        "RewardId": 1408,
-        "RewardType": 0,
-        "Disabled": true
+        "RewardId": 2202,
+        "RewardType": 0
       },
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
@@ -1108741,7 +1108800,7 @@
             "Y": 0,
             "Z": 0
           },
-          "Radius": 2500
+          "Radius": 12500
         },
         "InheritSpeed": true,
         "NormalEffect": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Maodian.DA_Fx_Group_Hook_Maodian",
@@ -1108962,19 +1109021,8 @@
         "Disabled": true
       },
       "RewardComponent": {
-        "RewardId": 2602,
-        "RewardType": 0,
-        "RefreshConfig": {
-          "RefreshType": {
-            "Type": "FixedDateTime",
-            "Hours": 4,
-            "Minutes": 0,
-            "Seconds": 0
-          },
-          "RefreshCondition": {
-            "Type": "Death"
-          }
-        }
+        "RewardId": 2708,
+        "RewardType": 0
       },
       "InteractAudioComponent": {
         "Disabled": true
@@ -1112051,6 +1112099,10 @@
             {
               "SceneInteractionState": 1,
               "LevelTag": -3775711
+            },
+            {
+              "SceneInteractionState": 2,
+              "LevelTag": 1298716444
             }
           ],
           "EffectStateList": []
@@ -1112093,7 +1112145,7 @@
         "Disabled": true
       },
       "EntityStateComponent": {
-        "Type": "激活态",
+        "Type": "完成态",
         "State": "关卡.Common.状态.常态",
         "LockConfig": {
           "LockType": "Default",
@@ -1113042,7 +1113094,7 @@
         "Disabled": false,
         "ModelType": {
           "Type": "ModelId",
-          "ModelId": 531011
+          "ModelId": 531046
         }
       },
       "SceneItemLifeCycleComponent": {
@@ -1113110,11 +1113162,11 @@
         "States": []
       },
       "ModelComponent": {
-        "HalfHeight": 25,
+        "HalfHeight": 10,
         "Disabled": false,
         "ModelType": {
           "Type": "Npc",
-          "BlueprintPath": "/Game/Aki/Character/Prop/RoleProp/SuisuiProp/ESuisuiLiangyuanMd10011/BP_ESuisuiLiangyuanMd10011.BP_ESuisuiLiangyuanMd10011_C",
+          "BlueprintPath": "/Game/Aki/Character/Prop/RoleProp/SuisuiProp/ESuisuiLiangyuanMd10011/BP_ESuisuiLiangyuanMd10011_MultiState.BP_ESuisuiLiangyuanMd10011_MultiState_C",
           "Abp": "/Game/Aki/Character/NPC/AlienNPC/Level_B/SB1LiangYuan/ABP_ESuisuiLiangyuanMd10011_MultiState.ABP_ESuisuiLiangyuanMd10011_MultiState_C"
         }
       }
@@ -1113295,6 +1113347,468 @@
             "SendSelfEvent": "EventKeyA"
           }
         ]
+      }
+    }
+  },
+  {
+    "Id": 254750001,
+    "BlueprintType": "branch3.5_254_Gameplay_3_5/Dashushouwei2",
+    "Name": "TsEntity_梦州大树守卫氛围",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "TidName": "Entity_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "Category": {
+          "MainType": "MatchGear"
+        },
+        "Camp": 2,
+        "AoiLayer": 9,
+        "ScanFunction": {
+          "ScanId": 103,
+          "IsConcealed": false
+        },
+        "OnlineInteractType": 1,
+        "EntityPropertyId": 2,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "ModelComponent": {
+        "Disabled": false,
+        "ModelType": {
+          "Type": "LevelPrefab",
+          "BlueprintPath": "Item",
+          "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_5/Dashushouwei/TPrefab_Mengzhou_Dashushouwei_PPV.TPrefab_Mengzhou_Dashushouwei_PPV",
+          "PrefabStateList": [
+            {
+              "SceneInteractionState": 0,
+              "LevelTag": -1152559349
+            },
+            {
+              "SceneInteractionState": 1,
+              "LevelTag": -3775711
+            }
+          ],
+          "EffectStateList": []
+        }
+      },
+      "TriggerComponent": {
+        "Match": {
+          "OnlyPlayer": true
+        },
+        "Actions": [
+          {
+            "Name": "ChangeSelfEntityState",
+            "Params": {
+              "EntityState": "关卡.Common.状态.激活"
+            },
+            "ActionGuid": "afa1102b46664ef49589eaf38d5c5b0a",
+            "ActionId": 1000003
+          }
+        ],
+        "ExitConfig": {
+          "Actions": [
+            {
+              "Name": "ChangeSelfEntityState",
+              "Params": {
+                "EntityState": "关卡.Common.状态.常态"
+              },
+              "ActionGuid": "cc2f719a2c21464fabb9789365704573",
+              "ActionId": 1000001
+            }
+          ]
+        }
+      },
+      "RangeComponent": {
+        "Shape": {
+          "Type": "Sphere",
+          "Center": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Radius": 7000
+        }
+      },
+      "VarComponent": {
+        "Vars": [],
+        "Disabled": true
+      },
+      "EntityStateComponent": {
+        "Type": "激活态",
+        "State": "关卡.Common.状态.常态",
+        "LockConfig": {
+          "LockType": "Default",
+          "IsInitLock": false
+        }
+      },
+      "AttachTargetComponent": {
+        "Disabled": true
+      }
+    }
+  },
+  {
+    "Id": 609750021,
+    "BlueprintType": "branch3.5_609_Monster_branch3.5_024",
+    "Name": "TsEntity_小怪_心傀思_主线",
+    "ComponentsData": {
+      "AiComponent": {
+        "AiId": 70189,
+        "InitState": {
+          "Type": 0,
+          "BirthTag": "怪物.common.状态标识.播放出生"
+        }
+      },
+      "AttributeComponent": {
+        "PropertyId": 390070186,
+        "Level": 89,
+        "WorldLevelBonusId": 10011,
+        "RageModeId": 0,
+        "HardnessModeId": 0,
+        "WorldLevelBonusType": {
+          "Type": 0
+        },
+        "MonsterPropExtraRateId": 0,
+        "MonsterPropGrowthId": 3001
+      },
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "Monster",
+          "MonsterMatchType": 0
+        },
+        "Camp": 1,
+        "TidName": "Entity_9e0b2ee7a0e0d8aecda2c364629d4a69ad43ffb235838ab056848f575232011a",
+        "AoiLayer": 7,
+        "ScanFunction": {
+          "ScanId": 101,
+          "IsConcealed": false
+        },
+        "EntityPropertyId": 300,
+        "OnlineInteractType": 1,
+        "HeadStateViewConfig": {
+          "HeadStateViewType": 1,
+          "ZOffset": 25,
+          "ForwardOffset": 0
+        },
+        "FocusPriority": 7,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "RewardComponent": {
+        "RewardId": 6101,
+        "RewardType": 0,
+        "Disabled": true
+      },
+      "VisionCaptureComponent": {
+        "VisionCaptureId": 6000209,
+        "Disabled": true
+      },
+      "MonsterComponent": {
+        "FightConfigId": 70001
+      },
+      "CombatComponent": {},
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "CD",
+          "Cd": 86400
+        },
+        "Disabled": true
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "UseFadeEffect": true,
+        "UseCutEffect": true,
+        "UseHolographicEffect": true,
+        "VisibleConditions": [],
+        "Disabled": true
+      },
+      "BubbleComponent": {
+        "Disabled": true,
+        "NpcIds": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500,
+        "Flows": []
+      },
+      "ModelComponent": {
+        "HalfHeight": 100,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "ModelId",
+          "ModelId": 391613
+        }
+      }
+    }
+  },
+  {
+    "Id": 609750019,
+    "BlueprintType": "branch3.5_609_Monster_branch3.5_023",
+    "Name": "TsEntity_小怪_心傀忧_主线",
+    "ComponentsData": {
+      "AiComponent": {
+        "AiId": 70188,
+        "InitState": {
+          "Type": 0,
+          "BirthTag": "怪物.common.状态标识.播放出生"
+        }
+      },
+      "AttributeComponent": {
+        "PropertyId": 390070184,
+        "Level": 89,
+        "WorldLevelBonusId": 10011,
+        "RageModeId": 0,
+        "HardnessModeId": 0,
+        "WorldLevelBonusType": {
+          "Type": 0
+        },
+        "MonsterPropExtraRateId": 0,
+        "MonsterPropGrowthId": 3001
+      },
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "Monster",
+          "MonsterMatchType": 0
+        },
+        "Camp": 1,
+        "TidName": "Entity_ca24cfba74f90cf2dbd9967b1f1c4f2cbe63e1f3a86398ffead95ac31c98c411",
+        "AoiLayer": 7,
+        "ScanFunction": {
+          "ScanId": 101,
+          "IsConcealed": false
+        },
+        "EntityPropertyId": 300,
+        "OnlineInteractType": 1,
+        "HeadStateViewConfig": {
+          "HeadStateViewType": 1,
+          "ZOffset": 25,
+          "ForwardOffset": 0
+        },
+        "FocusPriority": 7,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "RewardComponent": {
+        "RewardId": 6101,
+        "RewardType": 0,
+        "Disabled": true
+      },
+      "VisionCaptureComponent": {
+        "VisionCaptureId": 6000208,
+        "Disabled": true
+      },
+      "MonsterComponent": {
+        "FightConfigId": 70001
+      },
+      "CombatComponent": {},
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "CD",
+          "Cd": 86400
+        },
+        "Disabled": true
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "UseFadeEffect": true,
+        "UseCutEffect": true,
+        "UseHolographicEffect": true,
+        "VisibleConditions": [],
+        "Disabled": true
+      },
+      "BubbleComponent": {
+        "Disabled": true,
+        "NpcIds": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500,
+        "Flows": []
+      },
+      "ModelComponent": {
+        "HalfHeight": 100,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "ModelId",
+          "ModelId": 391612
+        }
+      }
+    }
+  },
+  {
+    "Id": 609750020,
+    "BlueprintType": "branch3.5_609_Monster_branch3.5_022",
+    "Name": "TsEntity_小怪_心傀怒_主线",
+    "ComponentsData": {
+      "AiComponent": {
+        "AiId": 70187,
+        "InitState": {
+          "Type": 0,
+          "BirthTag": "怪物.common.状态标识.播放出生"
+        }
+      },
+      "AttributeComponent": {
+        "PropertyId": 390070185,
+        "Level": 89,
+        "WorldLevelBonusId": 10011,
+        "RageModeId": 0,
+        "HardnessModeId": 0,
+        "WorldLevelBonusType": {
+          "Type": 0
+        },
+        "MonsterPropExtraRateId": 0,
+        "MonsterPropGrowthId": 3001
+      },
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "Monster",
+          "MonsterMatchType": 0
+        },
+        "Camp": 1,
+        "TidName": "Entity_bbb83d04c054591b94a7125453aece3e7901b8540cd53571cca08cf918210471",
+        "AoiLayer": 7,
+        "ScanFunction": {
+          "ScanId": 101,
+          "IsConcealed": false
+        },
+        "EntityPropertyId": 300,
+        "OnlineInteractType": 1,
+        "HeadStateViewConfig": {
+          "HeadStateViewType": 1,
+          "ZOffset": 25,
+          "ForwardOffset": 0
+        },
+        "FocusPriority": 7,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "RewardComponent": {
+        "RewardId": 6101,
+        "RewardType": 0,
+        "Disabled": true
+      },
+      "VisionCaptureComponent": {
+        "VisionCaptureId": 6000207,
+        "Disabled": true
+      },
+      "MonsterComponent": {
+        "FightConfigId": 70001
+      },
+      "CombatComponent": {},
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "CD",
+          "Cd": 86400
+        },
+        "Disabled": true
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "UseFadeEffect": true,
+        "UseCutEffect": true,
+        "UseHolographicEffect": true,
+        "VisibleConditions": [],
+        "Disabled": true
+      },
+      "BubbleComponent": {
+        "Disabled": true,
+        "NpcIds": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500,
+        "Flows": []
+      },
+      "ModelComponent": {
+        "HalfHeight": 100,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "ModelId",
+          "ModelId": 391611
+        }
+      }
+    }
+  },
+  {
+    "Id": 602750007,
+    "BlueprintType": "branch3.5_602_Monster_008",
+    "Name": "TsEntity_精英_完整狮子咕咕河豚",
+    "ComponentsData": {
+      "AiComponent": {
+        "AiId": 7708802,
+        "InitState": {
+          "Type": 0,
+          "BirthTag": "怪物.common.状态标识.播放出生"
+        }
+      },
+      "AttributeComponent": {
+        "PropertyId": 390077093,
+        "Level": 4,
+        "WorldLevelBonusId": 90020001,
+        "RageModeId": 3,
+        "HardnessModeId": 103,
+        "WorldLevelBonusType": {
+          "Type": 1
+        },
+        "MonsterPropExtraRateId": 0,
+        "MonsterPropGrowthId": 3001
+      },
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "Monster",
+          "MonsterMatchType": 1
+        },
+        "Camp": 1,
+        "TidName": "Entity_01f7bac677d642d4d327457454dcea4da35def21725e4e47ce2e524384a22663",
+        "AoiLayer": 7,
+        "ScanFunction": {
+          "ScanId": 101,
+          "IsConcealed": false
+        },
+        "EntityPropertyId": 400,
+        "OnlineInteractType": 1,
+        "HeadStateViewConfig": {
+          "HeadStateViewType": 2,
+          "ZOffset": 25,
+          "ForwardOffset": 0
+        },
+        "FocusPriority": 7,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "RewardComponent": {
+        "RewardId": 6020,
+        "RewardType": 0
+      },
+      "VisionCaptureComponent": {
+        "VisionCaptureId": 6000170,
+        "Disabled": false
+      },
+      "MonsterComponent": {
+        "FightConfigId": 7708801
+      },
+      "CombatComponent": {},
+      "RefreshComponent": {
+        "RefreshRule": {
+          "Type": "CD",
+          "Cd": 86400
+        },
+        "Disabled": true
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "UseFadeEffect": true,
+        "UseCutEffect": true,
+        "UseHolographicEffect": true,
+        "VisibleConditions": [],
+        "Disabled": true
+      },
+      "BubbleComponent": {
+        "Disabled": true,
+        "NpcIds": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500,
+        "Flows": []
+      },
+      "ModelComponent": {
+        "HalfHeight": 60,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "ModelId",
+          "ModelId": 391584
+        }
       }
     }
   }
