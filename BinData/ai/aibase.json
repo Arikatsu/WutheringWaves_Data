@@ -22658,10 +22658,6 @@
     "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA069/BT_NA069.BT_NA069",
     "SubBehaviorConfigs": [
       {
-        "Key": "AiFlee",
-        "Value": "21071"
-      },
-      {
         "Key": "AiPatrol",
         "Value": "1001"
       }
@@ -22951,7 +22947,7 @@
     "SubBehaviorConfigs": [
       {
         "Key": "AiSense",
-        "Value": "70185"
+        "Value": "70199"
       },
       {
         "Key": "AiHate",
@@ -23120,10 +23116,6 @@
     "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA070/BT_NA070.BT_NA070",
     "SubBehaviorConfigs": [
       {
-        "Key": "AiFlee",
-        "Value": "21071"
-      },
-      {
         "Key": "AiPatrol",
         "Value": "1001"
       }
@@ -23137,10 +23129,6 @@
     "AiController": "/Game/Aki/AI/AINPC/Animal/NA071/AIC_NA071.AIC_NA071",
     "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA071/BT_NA071.BT_NA071",
     "SubBehaviorConfigs": [
-      {
-        "Key": "AiFlee",
-        "Value": "21071"
-      },
       {
         "Key": "AiBaseSkill",
         "Value": "21071"
@@ -23160,10 +23148,6 @@
     "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA070/BT_NA070_01.BT_NA070_01",
     "SubBehaviorConfigs": [
       {
-        "Key": "AiFlee",
-        "Value": "21071"
-      },
-      {
         "Key": "AiPatrol",
         "Value": "1001"
       }
@@ -23177,10 +23161,6 @@
     "AiController": "/Game/Aki/AI/AINPC/Animal/NA071/AIC_NA071.AIC_NA071",
     "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA071/BT_NA071_01.BT_NA071_01",
     "SubBehaviorConfigs": [
-      {
-        "Key": "AiFlee",
-        "Value": "21071"
-      },
       {
         "Key": "AiBaseSkill",
         "Value": "21071"
@@ -23233,10 +23213,6 @@
     "AiController": "/Game/Aki/AI/AINPC/Animal/NA073/AIC_NA073.AIC_NA073",
     "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA073/BT_NA073.BT_NA073",
     "SubBehaviorConfigs": [
-      {
-        "Key": "AiFlee",
-        "Value": "21071"
-      },
       {
         "Key": "AiPatrol",
         "Value": "1001"
@@ -23440,10 +23416,6 @@
     "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA069/BT_NA069_2.BT_NA069_2",
     "SubBehaviorConfigs": [
       {
-        "Key": "AiFlee",
-        "Value": "21071"
-      },
-      {
         "Key": "AiPatrol",
         "Value": "1001"
       }
@@ -23457,10 +23429,6 @@
     "AiController": "/Game/Aki/AI/AINPC/Animal/NA071/AIC_NA071_2.AIC_NA071_2",
     "BehaviorTree": "/Game/Aki/AI/AINPC/Animal/NA071/BT_NA071_2.BT_NA071_2",
     "SubBehaviorConfigs": [
-      {
-        "Key": "AiFlee",
-        "Value": "21071"
-      },
       {
         "Key": "AiBaseSkill",
         "Value": "21071"
@@ -23750,6 +23718,36 @@
       {
         "Key": "AiBaseSkill",
         "Value": "77082"
+      }
+    ],
+    "Team": true,
+    "MonsterType": 3
+  },
+  {
+    "Id": 7708802,
+    "StateMachine": "SM_ME1WanZhengShiZiMd00102",
+    "AiController": "/Game/Aki/AI/AIMonster/Elite/AIME1WanZhengShiZiMd00101/AIC_ME1WanZhengShiZiMd00102.AIC_ME1WanZhengShiZiMd00102",
+    "BehaviorTree": "/Game/Aki/AI/AIMonster/Elite/AIME1WanZhengShiZiMd00101/bt_ME1WanZhengShiZiMd00105.bt_ME1WanZhengShiZiMd00105",
+    "SubBehaviorConfigs": [
+      {
+        "Key": "AiSense",
+        "Value": "7708801"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "7708801"
+      },
+      {
+        "Key": "AiWander",
+        "Value": "3"
+      },
+      {
+        "Key": "AiBattleWander",
+        "Value": "77088"
+      },
+      {
+        "Key": "AiBaseSkill",
+        "Value": "77088"
       }
     ],
     "Team": true,

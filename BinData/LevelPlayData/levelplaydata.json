@@ -327009,7 +327009,7 @@
       "Reference": [
         "e_1592_180750003",
         "e_1592_180750000",
-        "e_1592_180750014",
+        "e_1592_180750149",
         "e_1592_180750029",
         "e_1592_180750051",
         "e_1592_180750052",
@@ -327019,7 +327019,6 @@
         "e_1592_180750125",
         "e_1592_180750127",
         "e_1592_180750128",
-        "e_1592_180750134",
         "e_1592_180750115",
         "e_1592_180750116",
         "e_1592_180750145",
@@ -327137,7 +327136,7 @@
       ],
       "Children": [
         "e_1592_180750000",
-        "e_1592_180750014",
+        "e_1592_180750149",
         "e_1592_180750029",
         "e_1592_180750051",
         "e_1592_180750052",
@@ -327147,7 +327146,6 @@
         "e_1592_180750125",
         "e_1592_180750127",
         "e_1592_180750128",
-        "e_1592_180750134",
         "e_1592_180750115",
         "e_1592_180750116",
         "e_1592_180750145",
@@ -350034,6 +350032,7 @@
         "e_8_169750205",
         "e_8_190000009",
         "e_8_169750238",
+        "e_8_688751749",
         "e_8_169750228",
         "e_8_169750229",
         "e_8_169750230",
@@ -350069,6 +350068,7 @@
       "Children": [
         "e_8_190000004",
         "e_8_190000005",
+        "e_8_688751749",
         "e_8_169750228",
         "e_8_169750229",
         "e_8_169750230",
@@ -372406,7 +372406,7 @@
     "Data": {
       "ObjType": "LevelPlay",
       "Id": 150750023,
-      "Key": "无限关娃娃机",
+      "Key": "甲大王流程",
       "InternalDest": "",
       "LevelId": 8,
       "TidName": "LevelPlay_150750023_LevelPlayName_150_1",
@@ -376325,7 +376325,8 @@
       },
       "LevelPlayTrack": {
         "TrackRadius": 14000,
-        "TrackPriority": -5
+        "TrackPriority": -5,
+        "RangeEntity": 686750997
       },
       "Children": [
         "e_8_180000271",
@@ -376431,6 +376432,7 @@
       ],
       "Reference": [
         "e_8_686750824",
+        "e_8_686750997",
         "e_8_686750700",
         "e_8_686750710",
         "e_8_686750733",
@@ -376633,7 +376635,8 @@
       },
       "LevelPlayTrack": {
         "TrackRadius": 15000,
-        "TrackPriority": -5
+        "TrackPriority": -5,
+        "RangeEntity": 180750579
       },
       "Children": [
         "e_8_686750740",
@@ -376697,6 +376700,7 @@
       ],
       "Reference": [
         "e_8_686750829",
+        "e_8_180750579",
         "e_8_686750931",
         "e_8_686750932",
         "e_8_686750739",
@@ -376831,7 +376835,8 @@
       "LevelPlayZaxis": {
         "Up": 10000,
         "Down": 10000
-      }
+      },
+      "NotAllowHidedByGroup": true
     }
   },
   {
@@ -376859,7 +376864,7 @@
             "Type": "PreChildQuest",
             "PreChildQuest": {
               "QuestId": 688750006,
-              "ChildQuestId": 148
+              "ChildQuestId": 149
             }
           }
         ]
@@ -376892,7 +376897,8 @@
       "LevelPlayZaxis": {
         "Up": 10000,
         "Down": 10000
-      }
+      },
+      "NotAllowHidedByGroup": true
     }
   },
   {
@@ -376952,7 +376958,8 @@
       "LevelPlayZaxis": {
         "Up": 10000,
         "Down": 10000
-      }
+      },
+      "NotAllowHidedByGroup": true
     }
   },
   {
@@ -377001,7 +377008,8 @@
         "AddType": 91,
         "When": 0,
         "AreaId": 44004
-      }
+      },
+      "NotAllowHidedByGroup": true
     }
   },
   {
@@ -377050,7 +377058,8 @@
         "AddType": 91,
         "When": 0,
         "AreaId": 44004
-      }
+      },
+      "NotAllowHidedByGroup": true
     }
   },
   {
@@ -377099,7 +377108,8 @@
         "AddType": 91,
         "When": 0,
         "AreaId": 44004
-      }
+      },
+      "NotAllowHidedByGroup": true
     }
   },
   {
@@ -377148,7 +377158,8 @@
         "AddType": 91,
         "When": 0,
         "AreaId": 44004
-      }
+      },
+      "NotAllowHidedByGroup": true
     }
   },
   {
@@ -377197,7 +377208,8 @@
         "AddType": 91,
         "When": 0,
         "AreaId": 44004
-      }
+      },
+      "NotAllowHidedByGroup": true
     }
   },
   {
@@ -380084,8 +380096,8 @@
       },
       "LevelPlayRefreshConfig": {
         "Type": "Completed",
-        "MinRefreshCd": 40,
-        "MaxRefreshCd": 50
+        "MinRefreshCd": 1,
+        "MaxRefreshCd": 1
       },
       "LevelPlayRewardConfig": {
         "Type": "None"
@@ -380096,16 +380108,12 @@
       },
       "Reference": [
         "e_8_176751064",
-        "e_8_176751072",
-        "e_8_176751067",
         "e_8_176751080",
-        "e_8_176751081",
-        "e_8_176751082",
+        "e_8_176751072",
         "q_189000006"
       ],
       "Children": [
-        "e_8_176751080",
-        "e_8_176751081"
+        "e_8_176751080"
       ],
       "WeakReference": [
         "q_189000006"
@@ -380745,8 +380753,8 @@
       },
       "LevelPlayRefreshConfig": {
         "Type": "Completed",
-        "MinRefreshCd": 40,
-        "MaxRefreshCd": 50
+        "MinRefreshCd": 1,
+        "MaxRefreshCd": 1
       },
       "LevelPlayRewardConfig": {
         "Type": "None"
@@ -380757,17 +380765,12 @@
       },
       "Reference": [
         "e_8_176751144",
-        "e_8_176751156",
-        "e_8_176751157",
-        "e_8_176751160",
-        "e_8_176751140",
-        "e_8_176751153",
         "e_8_176751154",
-        "e_8_176751159",
+        "e_8_176751157",
+        "e_8_176751156",
         "q_189000006"
       ],
       "Children": [
-        "e_8_176751153",
         "e_8_176751154"
       ],
       "WeakReference": [
@@ -381807,6 +381810,53 @@
       "Reference": [
         "e_8_150750900",
         "e_8_150750899"
+      ]
+    }
+  },
+  {
+    "LevelPlayId": 42750013,
+    "Data": {
+      "ObjType": "LevelPlay",
+      "Id": 42750013,
+      "Key": "测测测机械臂电梯",
+      "InternalDest": "",
+      "LevelId": 100,
+      "TidName": "LevelPlay_42750013_LevelPlayName_42_1",
+      "Type": "MonsterTreasure",
+      "OnlineType": "Multiplayer",
+      "PackId": 0,
+      "LevelPlayEntityId": 42750115,
+      "LevelAdditiveId": 0,
+      "EnterRadius": 12000,
+      "LeaveRadius": 15000,
+      "DelayRefresh": true,
+      "DelayDestroy": true,
+      "AutoRestoreTreeAddedPlayerBuff": true,
+      "LevelPlayOpenCondition": {
+        "Conditions": []
+      },
+      "LevelPlayActive": {
+        "ActiveType": 0
+      },
+      "LevelPlayRefreshConfig": {
+        "Type": "None"
+      },
+      "LevelPlayRewardConfig": {
+        "Type": "None"
+      },
+      "LevelPlayTrack": {
+        "TrackRadius": 2000,
+        "TrackPriority": -5
+      },
+      "Reference": [
+        "e_100_42750115",
+        "e_100_42750116",
+        "e_100_42750117",
+        "e_100_42750114"
+      ],
+      "WeakReference": [
+        "e_100_42750116",
+        "e_100_42750117"
       ]
     }
   }

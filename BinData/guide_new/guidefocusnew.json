@@ -67571,7 +67571,7 @@
   },
   {
     "GuideId": 20815,
-    "ViewName": "TeamRoleSelectView",
+    "ViewName": "RogueBattleTeamRoleSelectView",
     "DynamicTabName": "",
     "Platform": "桌面端",
     "MultiGuideBox": [],
@@ -67590,7 +67590,7 @@
     "InputEnums": [],
     "LimitInputEnums": [],
     "ShowMouse": true,
-    "UseMask": true,
+    "UseMask": false,
     "UseClick": true,
     "ClickAnywhere": false,
     "ClickAnywhereShowTime": 0,
@@ -67611,7 +67611,7 @@
   },
   {
     "GuideId": 20816,
-    "ViewName": "TeamRoleSelectView",
+    "ViewName": "RogueBattleTeamRoleSelectView",
     "DynamicTabName": "",
     "Platform": "手柄",
     "MultiGuideBox": [],
@@ -67627,14 +67627,10 @@
     "ShowArrow": true,
     "Content": "GuideFocusNew_20816_Content",
     "Button": [],
-    "InputEnums": [
-      "手柄引导下一步"
-    ],
-    "LimitInputEnums": [
-      "手柄引导下一步"
-    ],
+    "InputEnums": [],
+    "LimitInputEnums": [],
     "ShowMouse": true,
-    "UseMask": true,
+    "UseMask": false,
     "UseClick": true,
     "ClickAnywhere": false,
     "ClickAnywhereShowTime": 0,
@@ -67655,7 +67651,7 @@
   },
   {
     "GuideId": 20817,
-    "ViewName": "TeamRoleSelectView",
+    "ViewName": "RogueBattleTeamRoleSelectView",
     "DynamicTabName": "",
     "Platform": "移动端",
     "MultiGuideBox": [],
@@ -67674,7 +67670,7 @@
     "InputEnums": [],
     "LimitInputEnums": [],
     "ShowMouse": true,
-    "UseMask": true,
+    "UseMask": false,
     "UseClick": true,
     "ClickAnywhere": false,
     "ClickAnywhereShowTime": 0,
@@ -67695,13 +67691,13 @@
   },
   {
     "GuideId": 20818,
-    "ViewName": "TeamRoleSelectView",
+    "ViewName": "RogueBattleTeamRoleSelectView",
     "DynamicTabName": "",
     "Platform": "桌面端",
     "MultiGuideBox": [],
-    "GuideMarkName": "",
+    "GuideMarkName": "rogue_3.5_01",
     "GuideMarkNameForShow": "",
-    "HookName": "0",
+    "HookName": "",
     "HookNameForShow": "",
     "ExtraParam": [],
     "ExtraParamDesc": "",
@@ -67733,13 +67729,13 @@
   },
   {
     "GuideId": 20819,
-    "ViewName": "TeamRoleSelectView",
+    "ViewName": "RogueBattleTeamRoleSelectView",
     "DynamicTabName": "",
     "Platform": "手柄",
     "MultiGuideBox": [],
-    "GuideMarkName": "",
+    "GuideMarkName": "rogue_3.5_01",
     "GuideMarkNameForShow": "",
-    "HookName": "0",
+    "HookName": "",
     "HookNameForShow": "",
     "ExtraParam": [],
     "ExtraParamDesc": "",
@@ -67771,13 +67767,13 @@
   },
   {
     "GuideId": 20820,
-    "ViewName": "TeamRoleSelectView",
+    "ViewName": "RogueBattleTeamRoleSelectView",
     "DynamicTabName": "",
     "Platform": "移动端",
     "MultiGuideBox": [],
-    "GuideMarkName": "",
+    "GuideMarkName": "rogue_3.5_01",
     "GuideMarkNameForShow": "",
-    "HookName": "0",
+    "HookName": "",
     "HookNameForShow": "",
     "ExtraParam": [],
     "ExtraParamDesc": "",
@@ -168999,7 +168995,7 @@
     "InputEnums": [],
     "LimitInputEnums": [],
     "ShowMouse": true,
-    "UseMask": true,
+    "UseMask": false,
     "UseClick": true,
     "ClickAnywhere": false,
     "ClickAnywhereShowTime": 0,
@@ -169110,7 +169106,7 @@
     "HookName": "",
     "HookNameForShow": "",
     "ExtraParam": [
-      "New:TrialRoleBtn"
+      "TrialRoleBtn"
     ],
     "ExtraParamDesc": "助战按钮",
     "ContentDirection": "D",
@@ -169223,7 +169219,7 @@
     "DynamicTabName": "",
     "Platform": "主机端",
     "MultiGuideBox": [],
-    "GuideMarkName": "xiazai_3.5_01",
+    "GuideMarkName": "xiazai_3.5_01_mobile",
     "GuideMarkNameForShow": "",
     "HookName": "",
     "HookNameForShow": "",
@@ -169261,7 +169257,7 @@
     "DynamicTabName": "",
     "Platform": "移动端",
     "MultiGuideBox": [],
-    "GuideMarkName": "xiazai_3.5_01",
+    "GuideMarkName": "xiazai_3.5_01_mobile",
     "GuideMarkNameForShow": "",
     "HookName": "",
     "HookNameForShow": "",
@@ -169537,12 +169533,8 @@
     "ShowArrow": true,
     "Content": "GuideFocusNew_22840_Content",
     "Button": [],
-    "InputEnums": [
-      "手柄引导下一步"
-    ],
-    "LimitInputEnums": [
-      "手柄引导下一步"
-    ],
+    "InputEnums": [],
+    "LimitInputEnums": [],
     "ShowMouse": true,
     "UseMask": true,
     "UseClick": true,
@@ -169579,8 +169571,12 @@
     "ShowArrow": true,
     "Content": "GuideFocusNew_22841_Content",
     "Button": [],
-    "InputEnums": [],
-    "LimitInputEnums": [],
+    "InputEnums": [
+      "手柄引导下一步"
+    ],
+    "LimitInputEnums": [
+      "手柄引导下一步"
+    ],
     "ShowMouse": true,
     "UseMask": true,
     "UseClick": true,
@@ -172359,8 +172355,7 @@
     "HookName": "",
     "HookNameForShow": "",
     "ExtraParam": [
-      "SheriffAnomaly",
-      "102"
+      "3541002"
     ],
     "ExtraParamDesc": "框某id的图标",
     "ContentDirection": "D",
@@ -172400,8 +172395,7 @@
     "HookName": "",
     "HookNameForShow": "",
     "ExtraParam": [
-      "SheriffAnomaly",
-      "102"
+      "3541002"
     ],
     "ExtraParamDesc": "框某id的图标",
     "ContentDirection": "D",
@@ -172441,8 +172435,7 @@
     "HookName": "",
     "HookNameForShow": "",
     "ExtraParam": [
-      "SheriffAnomaly",
-      "102"
+      "3541002"
     ],
     "ExtraParamDesc": "框某id的图标",
     "ContentDirection": "D",
@@ -173234,8 +173227,12 @@
     "ShowArrow": true,
     "Content": "GuideFocusNew_22937_Content",
     "Button": [],
-    "InputEnums": [],
-    "LimitInputEnums": [],
+    "InputEnums": [
+      "手柄引导下一步"
+    ],
+    "LimitInputEnums": [
+      "手柄引导下一步"
+    ],
     "ShowMouse": true,
     "UseMask": true,
     "UseClick": true,
@@ -173306,7 +173303,7 @@
     "HookNameForShow": "",
     "ExtraParam": [
       "FightPhotoTab",
-      "1"
+      "3"
     ],
     "ExtraParamDesc": "框第n个页签",
     "ContentDirection": "R",
@@ -173347,15 +173344,19 @@
     "HookNameForShow": "",
     "ExtraParam": [
       "FightPhotoTab",
-      "1"
+      "3"
     ],
     "ExtraParamDesc": "框第n个页签",
     "ContentDirection": "R",
     "ShowArrow": true,
     "Content": "GuideFocusNew_22940_Content",
     "Button": [],
-    "InputEnums": [],
-    "LimitInputEnums": [],
+    "InputEnums": [
+      "手柄引导下一步"
+    ],
+    "LimitInputEnums": [
+      "手柄引导下一步"
+    ],
     "ShowMouse": true,
     "UseMask": true,
     "UseClick": true,
@@ -173388,7 +173389,7 @@
     "HookNameForShow": "",
     "ExtraParam": [
       "FightPhotoTab",
-      "1"
+      "3"
     ],
     "ExtraParamDesc": "框第n个页签",
     "ContentDirection": "R",
@@ -173471,8 +173472,12 @@
     "ShowArrow": true,
     "Content": "GuideFocusNew_22943_Content",
     "Button": [],
-    "InputEnums": [],
-    "LimitInputEnums": [],
+    "InputEnums": [
+      "手柄引导下一步"
+    ],
+    "LimitInputEnums": [
+      "手柄引导下一步"
+    ],
     "ShowMouse": true,
     "UseMask": true,
     "UseClick": true,
@@ -173655,8 +173660,11 @@
     "GuideMarkNameForShow": "",
     "HookName": "",
     "HookNameForShow": "",
-    "ExtraParam": [],
-    "ExtraParamDesc": "",
+    "ExtraParam": [
+      "FightPhotoTab",
+      "4"
+    ],
+    "ExtraParamDesc": "框第n个页签",
     "ContentDirection": "R",
     "ShowArrow": true,
     "Content": "GuideFocusNew_22948_Content",
@@ -173693,14 +173701,21 @@
     "GuideMarkNameForShow": "",
     "HookName": "",
     "HookNameForShow": "",
-    "ExtraParam": [],
-    "ExtraParamDesc": "",
+    "ExtraParam": [
+      "FightPhotoTab",
+      "4"
+    ],
+    "ExtraParamDesc": "框第n个页签",
     "ContentDirection": "R",
     "ShowArrow": true,
     "Content": "GuideFocusNew_22949_Content",
     "Button": [],
-    "InputEnums": [],
-    "LimitInputEnums": [],
+    "InputEnums": [
+      "手柄引导下一步"
+    ],
+    "LimitInputEnums": [
+      "手柄引导下一步"
+    ],
     "ShowMouse": true,
     "UseMask": false,
     "UseClick": true,
@@ -173731,8 +173746,11 @@
     "GuideMarkNameForShow": "",
     "HookName": "",
     "HookNameForShow": "",
-    "ExtraParam": [],
-    "ExtraParamDesc": "",
+    "ExtraParam": [
+      "FightPhotoTab",
+      "4"
+    ],
+    "ExtraParamDesc": "框第n个页签",
     "ContentDirection": "R",
     "ShowArrow": true,
     "Content": "GuideFocusNew_22950_Content",
@@ -174585,7 +174603,9 @@
     "ContentDirection": "U",
     "ShowArrow": true,
     "Content": "GuideFocusNew_22972_Content",
-    "Button": [],
+    "Button": [
+      "幻象1"
+    ],
     "InputEnums": [
       "幻象1"
     ],
@@ -177309,7 +177329,7 @@
     "HookNameForShow": "",
     "ExtraParam": [
       "UpgradeRecommend",
-      "2"
+      "1"
     ],
     "ExtraParamDesc": "推荐属性",
     "ContentDirection": "D",
@@ -177350,7 +177370,7 @@
     "HookNameForShow": "",
     "ExtraParam": [
       "UpgradeRecommend",
-      "2"
+      "1"
     ],
     "ExtraParamDesc": "推荐属性",
     "ContentDirection": "D",
@@ -177391,7 +177411,7 @@
     "HookNameForShow": "",
     "ExtraParam": [
       "UpgradeRecommend",
-      "2"
+      "1"
     ],
     "ExtraParamDesc": "推荐属性",
     "ContentDirection": "D",

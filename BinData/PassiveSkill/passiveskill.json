@@ -62734,7 +62734,7 @@
     "SkillAction": "Customize",
     "SkillActionParams": [],
     "ActionScriptParams": {},
-    "SkillActionScript": "AddBuff2(GoBattleEntity,1110100744,1)\nOR\nAddBuff2(GoBattleEntity,1110100742,1)\nOR\nAddBuff2(GoBattleEntity,1110100800,1)\nOR\nAddBuff2(GoBattleEntity,1110100801,1)\nOR\nRemoveBuffStack(GoDownEntity,1110100741,1)",
+    "SkillActionScript": "AddBuff2(GoBattleEntity,1110100744,1)\nOR\nAddBuff2(GoBattleEntity,1110100742,1)\nOR\nAddBuff2(GoBattleEntity,1110100800,1)\nOR\nAddBuff2(GoBattleEntity,1110100801,1)\nOR\nAddBuff2(GoBattleEntity,1110100802,1)\nOR\nRemoveBuffStack(GoDownEntity,1110100741,1)",
     "ActionExecuteFlag": 0,
     "CDType": "Owner"
   },
@@ -65187,6 +65187,34 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "10020000"
+    ],
+    "ActionScriptParams": {},
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "CDType": "Owner"
+  },
+  {
+    "Id": 1110100802,
+    "SkillDesc": "3级飞仙-附加光异常失败触发器-1共",
+    "CDTime": 0,
+    "CdThreshold": -1,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffAddFailureTrigger",
+    "ExecuteType": 0,
+    "TriggerPreset": [
+      "0",
+      "10051000"
+    ],
+    "TriggerParams": {},
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [],
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1110100743"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",
