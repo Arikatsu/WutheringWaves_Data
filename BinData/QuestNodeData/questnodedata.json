@@ -777582,6 +777582,9 @@
               "Type": "WorldEntityAndLevelPlay",
               "HideRangeEntities": [
                 880750197
+              ],
+              "ExcludeEntities": [
+                172750461
               ]
             },
             "IsHidePasserByNpc": false
@@ -783290,7 +783293,6 @@
           "Params": {
             "Visible": false,
             "EntityIds": [
-              147750034,
               147750045
             ]
           },
@@ -785161,7 +785163,14 @@
               317750215,
               317750160,
               317750281,
-              317750283
+              317750283,
+              317750277,
+              317750218,
+              317750219,
+              317750220,
+              317750156,
+              317750157,
+              317750264
             ]
           },
           "ActionGuid": "3210387be2214945821ba76a8eac6339",
@@ -818410,6 +818419,11 @@
               "Type": "WorldEntityAndLevelPlay",
               "HideRangeEntities": [
                 880750090
+              ],
+              "ExcludeEntities": [
+                172750501,
+                172750502,
+                172750503
               ]
             },
             "IsHidePasserByNpc": false
@@ -864912,6 +864926,16 @@
             "ActionId": 3000060
           },
           {
+            "Name": "AwakeEntity",
+            "Params": {
+              "EntityIds": [
+                686750998
+              ]
+            },
+            "ActionGuid": "7f10bb3cf08a4d388287104e1996a2a8",
+            "ActionId": 3000063
+          },
+          {
             "Name": "FadeOutScreen",
             "Params": {
               "Ease": {
@@ -865259,7 +865283,8 @@
           "Name": "DestroyEntity",
           "Params": {
             "EntityIds": [
-              180750190
+              180750190,
+              686750998
             ]
           },
           "ActionGuid": "5a3cb4e8cb51427f9ff1b5f9bb1129f7",
@@ -871646,6 +871671,10 @@
               "Type": "WorldEntityAndLevelPlay",
               "HideRangeEntities": [
                 199751650
+              ],
+              "ExcludeEntities": [
+                610750152,
+                880750176
               ]
             },
             "IsHidePasserByNpc": true
@@ -872368,6 +872397,21 @@
           },
           "ActionGuid": "9099fbfbe8564725abf25457f758ddff",
           "ActionId": 3000128
+        },
+        {
+          "Name": "HideGroup",
+          "Params": {
+            "GroupKey": "q_192000006_告别清场",
+            "HideConfig": {
+              "Type": "WorldEntityAndLevelPlay",
+              "HideRangeEntities": [
+                192750072
+              ]
+            },
+            "IsHidePasserByNpc": true
+          },
+          "ActionGuid": "e5ff2d678bbc4c87a83fe2f8a3f4f543",
+          "ActionId": 3000230
         }
       ],
       "ParentNodeId": 16
@@ -872398,6 +872442,15 @@
       "HideTip": true,
       "HideUiExceptTaskList": true,
       "FinishActions": [
+        {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_192000006_告别清场",
+            "DelayShow": true
+          },
+          "ActionGuid": "e568112efd8a4acab6d4a8753d5a0b90",
+          "ActionId": 3000231
+        },
         {
           "Name": "PhoneSystemInteract",
           "Params": {
@@ -875319,6 +875372,16 @@
       ],
       "FinishActions": [
         {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 199752035,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "6ca59e796d3a49f4b65974c84b98f7b3",
+          "ActionId": 3000249
+        },
+        {
           "Name": "DestroyEntity",
           "Params": {
             "EntityIds": []
@@ -876627,7 +876690,7 @@
           "Params": {
             "Type": "Directly",
             "EntityId": 192750126,
-            "State": "关卡.Common.状态.常态"
+            "State": "关卡.Common.状态.激活"
           },
           "ActionGuid": "c2defeb50bde445f97315c4256f55e12",
           "ActionId": 3000053
@@ -895601,6 +895664,21 @@
                     },
                     "ActionGuid": "9099fbfbe8564725abf25457f758ddff",
                     "ActionId": 3000128
+                  },
+                  {
+                    "Name": "HideGroup",
+                    "Params": {
+                      "GroupKey": "q_192000006_告别清场",
+                      "HideConfig": {
+                        "Type": "WorldEntityAndLevelPlay",
+                        "HideRangeEntities": [
+                          192750072
+                        ]
+                      },
+                      "IsHidePasserByNpc": true
+                    },
+                    "ActionGuid": "e5ff2d678bbc4c87a83fe2f8a3f4f543",
+                    "ActionId": 3000230
                   }
                 ]
               },
@@ -895655,6 +895733,15 @@
                 "HideTip": true,
                 "HideUiExceptTaskList": true,
                 "FinishActions": [
+                  {
+                    "Name": "ShowHidedGroup",
+                    "Params": {
+                      "GroupKey": "q_192000006_告别清场",
+                      "DelayShow": true
+                    },
+                    "ActionGuid": "e568112efd8a4acab6d4a8753d5a0b90",
+                    "ActionId": 3000231
+                  },
                   {
                     "Name": "PhoneSystemInteract",
                     "Params": {
@@ -896127,6 +896214,13 @@
                 165750120,
                 165750121,
                 165750266
+              ],
+              "ExcludeLevelPlays": [
+                686750039
+              ],
+              "ExcludeEntities": [
+                686750931,
+                686750932
               ]
             },
             "IsHidePasserByNpc": false
@@ -903474,7 +903568,11 @@
               "Type": "WorldEntityAndLevelPlay",
               "HideRangeEntities": [
                 164750330
-              ]
+              ],
+              "AppendLevelPlays": [
+                176750008
+              ],
+              "AppendEntities": []
             },
             "IsHidePasserByNpc": false
           },
@@ -949508,7 +949606,7 @@
       },
       "EnterActions": [],
       "FinishActions": [],
-      "ParentNodeId": 41
+      "ParentNodeId": 88
     }
   },
   {
@@ -957106,7 +957204,8 @@
               "ForceWalk": true
             },
             "SkillOption": {
-              "Type": "Enable"
+              "Type": "Disable",
+              "DisplayMode": "Hide"
             },
             "CameraOption": {
               "Type": "Enable"
@@ -957373,6 +957472,15 @@
           },
           "ActionGuid": "5f2a29f7aeab4d189377274be01873f5",
           "ActionId": 3000111
+        },
+        {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_188750000_传送门",
+            "DelayShow": false
+          },
+          "ActionGuid": "af3a5b14289247e9b0a110a175f80b4f",
+          "ActionId": 3000125
         }
       ],
       "ParentNodeId": 3
@@ -959220,8 +959328,7 @@
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
-              164750257,
-              164750261
+              164750257
             ]
           },
           "ActionGuid": "d4d05a9305ba4a9bae05461724eb232f",
@@ -966873,6 +966980,13 @@
               "Type": "WorldEntityAndLevelPlay",
               "HideRangeEntities": [
                 192750060
+              ],
+              "ExcludeEntities": [
+                109005410,
+                109005411,
+                109005412,
+                109005413,
+                109005427
               ]
             },
             "IsHidePasserByNpc": true
@@ -970370,6 +970484,23 @@
           "ActionGuid": "67bdba6cb62c48b981cfc1e627680c81",
           "ActionId": 3000028,
           "Async": true
+        },
+        {
+          "Name": "HideGroup",
+          "Params": {
+            "GroupKey": "q_188750000_传送门",
+            "HideConfig": {
+              "Type": "SpecifyEntity",
+              "EntityIds": [
+                688751185,
+                688751220
+              ],
+              "ForceClean": true
+            },
+            "IsHidePasserByNpc": false
+          },
+          "ActionGuid": "60b7bd5b03d448e18a62dd6e3f61f73f",
+          "ActionId": 3000124
         }
       ],
       "FinishActions": [
@@ -970628,19 +970759,7 @@
           ]
         }
       },
-      "EnterActions": [],
-      "FinishActions": [
-        {
-          "Name": "PlayFlow",
-          "Params": {
-            "FlowListName": "剧情_机关宅邸_大小房间05",
-            "FlowId": 3,
-            "StateId": 1
-          },
-          "ActionGuid": "e1d0ea15d421437480520b7b66011f53",
-          "Async": true,
-          "ActionId": 3000001
-        },
+      "EnterActions": [
         {
           "Name": "EnableLevelPlay",
           "Params": {
@@ -970651,8 +970770,54 @@
               }
             ]
           },
-          "ActionGuid": "beb2e03d15a54f3791350f5ee2339bc1",
+          "ActionGuid": "5a6b0b66645d432e94ec8592d6c72502",
+          "ActionId": 3000003
+        }
+      ],
+      "FinishActions": [
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_机关宅邸_大小房间05",
+            "FlowId": 3,
+            "StateId": 1
+          },
+          "ActionGuid": "8339f9e6774e4b7eaab7b34976386153",
+          "Async": false,
+          "ActionId": 3000001
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_机关宅邸_大小房间05",
+            "FlowId": 4,
+            "StateId": 1
+          },
+          "ActionGuid": "8a57b9ad2c8644898db0e1b526c4b764",
+          "ActionId": 3000043,
+          "Async": false
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_机关宅邸_大小房间05",
+            "FlowId": 5,
+            "StateId": 1
+          },
+          "ActionGuid": "02a2853fbd0e440aaf41070b84e4a8da",
+          "Async": false,
           "ActionId": 3000026
+        },
+        {
+          "Name": "GuideTrigger",
+          "Params": {
+            "Type": "BeginnerGuide",
+            "Conditions": [],
+            "GuideId": 34299
+          },
+          "ActionGuid": "992f758161374ef3a520c6144762001f",
+          "Async": true,
+          "ActionId": 3000044
         }
       ],
       "ParentNodeId": 6
@@ -970684,40 +970849,7 @@
           ]
         }
       },
-      "EnterActions": [
-        {
-          "Name": "PlayFlow",
-          "Params": {
-            "FlowListName": "剧情_机关宅邸_大小房间05",
-            "FlowId": 4,
-            "StateId": 1
-          },
-          "ActionGuid": "aaa92be649544e4db1620fdddee4bcda",
-          "ActionId": 3000003
-        },
-        {
-          "Name": "PlayFlow",
-          "Params": {
-            "FlowListName": "剧情_机关宅邸_大小房间05",
-            "FlowId": 5,
-            "StateId": 1
-          },
-          "ActionGuid": "a638344d9af24beb979e4abffdfc99e7",
-          "Async": true,
-          "ActionId": 3000004
-        },
-        {
-          "Name": "GuideTrigger",
-          "Params": {
-            "Type": "BeginnerGuide",
-            "Conditions": [],
-            "GuideId": 34299
-          },
-          "ActionGuid": "093140a099434b478d239ee86fe07946",
-          "Async": true,
-          "ActionId": 3000034
-        }
-      ],
+      "EnterActions": [],
       "ParentNodeId": 6
     }
   },
@@ -975346,6 +975478,14 @@
               ],
               "AppendLevelPlays": [
                 254750002
+              ],
+              "ExcludeEntities": [
+                610750154,
+                686750930
+              ],
+              "AppendEntities": [
+                254750091,
+                254750014
               ]
             },
             "IsHidePasserByNpc": false
@@ -976004,13 +976144,9 @@
       "TidTip": "Quest_688750006_ChildQuestTip_688_51",
       "TrackTarget": {
         "TrackType": {
-          "Type": "Locations",
-          "Locations": [
-            {
-              "X": -758639.5,
-              "Y": -60438.46,
-              "Z": -25685.66
-            }
+          "Type": "Entities",
+          "EntityIds": [
+            688751224
           ]
         }
       },
@@ -976042,13 +976178,9 @@
       "TidTip": "Quest_688750006_ChildQuestTip_688_53",
       "TrackTarget": {
         "TrackType": {
-          "Type": "Locations",
-          "Locations": [
-            {
-              "X": -747197.37,
-              "Y": 8095.09,
-              "Z": -34316.87
-            }
+          "Type": "Entities",
+          "EntityIds": [
+            688751226
           ]
         }
       },
@@ -976080,13 +976212,9 @@
       "TidTip": "Quest_688750006_ChildQuestTip_688_54",
       "TrackTarget": {
         "TrackType": {
-          "Type": "Locations",
-          "Locations": [
-            {
-              "X": -610133.56,
-              "Y": -5321.32,
-              "Z": -27696.31
-            }
+          "Type": "Entities",
+          "EntityIds": [
+            688751185
           ]
         }
       },
@@ -976118,13 +976246,9 @@
       "TidTip": "Quest_688750006_ChildQuestTip_688_55",
       "TrackTarget": {
         "TrackType": {
-          "Type": "Locations",
-          "Locations": [
-            {
-              "X": -636385.12,
-              "Y": -48453.3,
-              "Z": -27788.64
-            }
+          "Type": "Entities",
+          "EntityIds": [
+            688751186
           ]
         }
       },
@@ -980520,15 +980644,6 @@
           "ActionId": 3000021
         },
         {
-          "Name": "SheriffChangeCriminalIdentity",
-          "Params": {
-            "CriminalId": 1005,
-            "IdentityId": 100501
-          },
-          "ActionGuid": "8d1d51d320ac4192af232e65c82d00af",
-          "ActionId": 3000002
-        },
-        {
           "Name": "OpenSystemBoard",
           "Params": {
             "SystemType": "SheriffAnomaly",
@@ -982201,6 +982316,9 @@
               "Type": "WorldEntityAndLevelPlay",
               "HideRangeEntities": [
                 147750043
+              ],
+              "ExcludeLevelPlays": [
+                610750005
               ]
             },
             "IsHidePasserByNpc": true
@@ -987763,6 +987881,16 @@
             },
             "ActionGuid": "d3777dd34719408e937d64433040c7fe",
             "ActionId": 3000049
+          },
+          {
+            "Name": "ChangeEntityState",
+            "Params": {
+              "Type": "Directly",
+              "EntityId": 686750946,
+              "State": "关卡.Common.状态.常态"
+            },
+            "ActionGuid": "78dbf96e3df24fb38fed36388da2a216",
+            "ActionId": 3000150
           }
         ]
       },
@@ -999274,6 +999402,15 @@
           "ActionId": 3000028
         },
         {
+          "Name": "ShowHidedGroup",
+          "Params": {
+            "GroupKey": "q_880000045_机兵工厂前生态清场",
+            "DelayShow": true
+          },
+          "ActionGuid": "db4c7b05e762469baceeeaf2ec4a3ea6",
+          "ActionId": 3000258
+        },
+        {
           "Name": "OpenSystemBoard",
           "Params": {
             "SystemType": "QuestBranchTips",
@@ -1000792,6 +1000929,10 @@
                 199751742,
                 199751925,
                 199751977
+              ],
+              "ExcludeEntities": [
+                610750154,
+                686750930
               ]
             },
             "IsHidePasserByNpc": true
@@ -1001662,7 +1001803,7 @@
     "Data": {
       "Type": "ChildQuest",
       "Id": 37,
-      "Desc": "检测林睿",
+      "Desc": "检测撒谎比赛",
       "Condition": {
         "Type": "CheckLevelPlay",
         "LevelPlayIds": [
@@ -1001711,7 +1001852,7 @@
     "Data": {
       "Type": "ChildQuest",
       "Id": 38,
-      "Desc": "检测敏民",
+      "Desc": "检测林睿",
       "Condition": {
         "Type": "CheckLevelPlay",
         "LevelPlayIds": [
@@ -1003151,7 +1003292,18 @@
           ]
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              686750998
+            ]
+          },
+          "ActionGuid": "3b5539f945a24b90bb55305d2e20c17b",
+          "ActionId": 3000064
+        }
+      ],
       "FinishActions": [
         {
           "Name": "DestroyEntity",
@@ -1006708,7 +1006860,13 @@
                 686750715
               ],
               "ExcludeEntities": [
-                686750928
+                686750928,
+                686750946
+              ],
+              "AppendEntities": [
+                180750460,
+                180750458,
+                180750462
               ]
             },
             "IsHidePasserByNpc": true
@@ -1006942,7 +1007100,13 @@
                 686750715
               ],
               "ExcludeEntities": [
-                686750928
+                686750928,
+                686750946
+              ],
+              "AppendEntities": [
+                180750460,
+                180750458,
+                180750462
               ]
             },
             "IsHidePasserByNpc": true
@@ -1007713,13 +1007877,9 @@
       "TidTip": "Quest_688750006_ChildQuestTip_688_86",
       "TrackTarget": {
         "TrackType": {
-          "Type": "Locations",
-          "Locations": [
-            {
-              "X": -666811.19,
-              "Y": 17815.36,
-              "Z": -28978.19
-            }
+          "Type": "Entities",
+          "EntityIds": [
+            688751222
           ]
         }
       },
@@ -1016453,7 +1016613,7 @@
                     "Name": "OpenSystemBoard",
                     "Params": {
                       "SystemType": "InformationView",
-                      "BoardId": 350000035
+                      "BoardId": 35000005
                     },
                     "ActionGuid": "711575ca60eb4862a45378ffa02011d3",
                     "ActionId": 3000318
@@ -1017968,15 +1018128,6 @@
           },
           "ActionGuid": "60ca5d45b79c4a4eb8b67f8387155cbb",
           "ActionId": 3000319
-        },
-        {
-          "Name": "ShowHidedGroup",
-          "Params": {
-            "GroupKey": "q_880000045_机兵工厂前生态清场",
-            "DelayShow": true
-          },
-          "ActionGuid": "1b079031fcac43778e6a309ea53a2b60",
-          "ActionId": 3000258
         }
       ],
       "TrackTarget": {
@@ -1018324,6 +1018475,23 @@
               "Type": "WorldEntityAndLevelPlay",
               "HideRangeEntities": [
                 165750270
+              ],
+              "ExcludeLevelPlays": [
+                686750036,
+                686750044
+              ],
+              "ExcludeEntities": [
+                686750734,
+                686750735,
+                686750736,
+                686750733,
+                686750939,
+                686750942,
+                686750728,
+                686750938,
+                686750945,
+                686750712,
+                686750876
               ]
             },
             "IsHidePasserByNpc": false
@@ -1024302,7 +1024470,18 @@
           ]
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 199752035,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "8aa4db5445a5429e92145ffdbd36e936",
+          "ActionId": 3000244
+        }
+      ],
       "FinishActions": [
         {
           "Name": "ToggleHighlightExploreUi",
@@ -1026042,15 +1026221,14 @@
           "ActionId": 3000008
         },
         {
-          "Name": "SetEntityVisible",
+          "Name": "DestroyEntity",
           "Params": {
-            "Visible": false,
             "EntityIds": [
               686750494
             ]
           },
-          "ActionGuid": "bc7b91d20949483b9ee001ddabcbca93",
-          "ActionId": 3000007
+          "ActionGuid": "7aeceadd5664488daf7f3d86d5bf0a99",
+          "ActionId": 3000006
         },
         {
           "Name": "FadeOutScreen",
@@ -1028467,7 +1028645,7 @@
           "Params": {
             "Type": "Directly",
             "EntityId": 192750126,
-            "State": "关卡.Common.状态.激活"
+            "State": "关卡.Common.状态.常态"
           },
           "ActionGuid": "ea05a7b389394fcbb82e49fdc85f265a",
           "ActionId": 3000054
@@ -1030699,7 +1030877,13 @@
                 686750715
               ],
               "ExcludeEntities": [
-                686750928
+                686750928,
+                686750946
+              ],
+              "AppendEntities": [
+                180750460,
+                180750458,
+                180750462
               ]
             },
             "IsHidePasserByNpc": true
@@ -1032688,7 +1032872,8 @@
               317750218,
               317750219,
               317750277,
-              317750158
+              317750158,
+              317750220
             ]
           },
           "ActionGuid": "5f5f507334b44afba70fb50bc782e490",
@@ -1034290,23 +1034475,6 @@
       ],
       "FinishActions": [
         {
-          "Name": "AddPlayBubble",
-          "Params": {
-            "EntityIds": [
-              164750261
-            ],
-            "EnterRadius": 500,
-            "LeaveRadius": 1500,
-            "Flow": {
-              "FlowListName": "剧情_3_5_支线_悠然一日",
-              "FlowId": 12,
-              "StateId": 1
-            }
-          },
-          "ActionGuid": "0460515810114977991390a42edfdccd",
-          "ActionId": 3000111
-        },
-        {
           "Name": "ShowHidedGroup",
           "Params": {
             "GroupKey": "q_164750000_掌味天下语音生态清场",
@@ -1034636,6 +1034804,87 @@
       ],
       "HideUi": true,
       "ParentNodeId": 103
+    }
+  },
+  {
+    "Key": "938750000_88",
+    "Data": {
+      "Type": "ParallelSelect",
+      "Count": 1,
+      "Id": 88,
+      "Desc": "",
+      "ParentNodeId": 41
+    }
+  },
+  {
+    "Key": "938750000_89",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 89,
+      "Desc": "检测已完成跳过",
+      "Condition": {
+        "Type": "CheckEntityState",
+        "Conditions": [
+          {
+            "EntityId": 259750069,
+            "State": "关卡.Common.状态.完成"
+          }
+        ]
+      },
+      "TidTip": "Quest_938750000_ChildQuestTip_150_1",
+      "EnterActions": [],
+      "FinishActions": [],
+      "HideUi": true,
+      "ParentNodeId": 88
+    }
+  },
+  {
+    "Key": "147000007_49",
+    "Data": {
+      "Type": "ChildQuest",
+      "Id": 49,
+      "Desc": "检测敏明",
+      "Condition": {
+        "Type": "CheckLevelPlay",
+        "LevelPlayIds": [
+          188750006
+        ],
+        "CompleteNumber": 1
+      },
+      "TidTip": "Quest_147000007_ChildQuestTip_147_39",
+      "TrackTarget": {
+        "TrackType": {
+          "Type": "Locations",
+          "Locations": []
+        }
+      },
+      "EnterActions": [],
+      "FinishActions": [
+        {
+          "Name": "CalculateVar",
+          "Params": {
+            "Var1": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "完成异常事件数量"
+            },
+            "Var2": {
+              "Type": "Int",
+              "Source": "Constant",
+              "Value": 1
+            },
+            "Op": "Add",
+            "Result": {
+              "Type": "Int",
+              "Source": "Self",
+              "Name": "完成异常事件数量"
+            }
+          },
+          "ActionGuid": "671d9f82ce2b4dc1833edb263f27a9dc",
+          "ActionId": 3000054
+        }
+      ],
+      "ParentNodeId": 31
     }
   }
 ]
