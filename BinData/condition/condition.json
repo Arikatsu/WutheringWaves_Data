@@ -181443,12 +181443,20 @@
   },
   {
     "Id": 12907604,
-    "Type": "LevelPlayComplete",
+    "Type": "LevelPlayNodeStatus",
     "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "LevelPlayId",
         "Value": "150750023"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "2"
       }
     ],
     "LimitParamsOpe": [],
@@ -184207,6 +184215,36 @@
       {
         "Key": "Tag",
         "Value": "角色.88be5576.bda18c56.23044bf5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201531,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "AirCurrent"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201532,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "PhotoBattleStartFocus"
       }
     ],
     "LimitParamsOpe": [],

@@ -128033,7 +128033,8 @@
               "TidSubText": "LevelPlay_688750034_DragActorPlaySubText_688_1",
               "EdTidHintText": "拖动小房间的场景组件，会映射影响大房间中的组件。",
               "TidHintText": "LevelPlay_688750034_DragActorPlayHintText_688_1",
-              "DisableExit": true
+              "DisableExit": true,
+              "KeepDialog": true
             }
           },
           "ActionGuid": "17a01387ff1247d598512a9dcf81d5b6",
@@ -128060,7 +128061,17 @@
     },
     "Icon": "",
     "TidContent": "LevelPlay_688750034_InteractContent_688_1",
-    "Condition": "",
+    "Condition": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "CheckChildQuestFinished",
+          "QuestId": 188750004,
+          "ChildQuestId": 17,
+          "Compare": "Eq"
+        }
+      ]
+    },
     "UniquenessTest": "",
     "DoIntactType": "Direct",
     "Range": 0,
@@ -135479,7 +135490,7 @@
           "Name": "OpenSystemBoard",
           "Params": {
             "SystemType": "InformationView",
-            "BoardId": 350000035
+            "BoardId": 35000005
           },
           "ActionGuid": "711575ca60eb4862a45378ffa02011d3",
           "ActionId": 3000318

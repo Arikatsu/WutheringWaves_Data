@@ -88542,8 +88542,8 @@
       "PackId": 0,
       "LevelPlayEntityId": 136905753,
       "LevelAdditiveId": 0,
-      "EnterRadius": 35000,
-      "LeaveRadius": 50000,
+      "EnterRadius": 25000,
+      "LeaveRadius": 28000,
       "DelayRefresh": false,
       "DelayDestroy": false,
       "LevelPlayOpenCondition": {},
@@ -365930,7 +365930,7 @@
       "EnterRadius": 14000,
       "LeaveRadius": 15000,
       "DelayRefresh": true,
-      "DelayDestroy": true,
+      "DelayDestroy": false,
       "AutoRestoreTreeAddedPlayerBuff": true,
       "LevelPlayOpenCondition": {
         "Conditions": []
@@ -365954,11 +365954,15 @@
         "e_8_688751289",
         "e_8_688751357",
         "e_8_688751290",
-        "e_8_688751292"
+        "e_8_688751292",
+        "q_188750004"
       ],
       "Children": [
         "e_8_688751290",
         "e_8_688751292"
+      ],
+      "WeakReference": [
+        "q_188750004"
       ]
     }
   },
@@ -365979,7 +365983,7 @@
       "EnterRadius": 14000,
       "LeaveRadius": 15000,
       "DelayRefresh": true,
-      "DelayDestroy": true,
+      "DelayDestroy": false,
       "AutoRestoreTreeAddedPlayerBuff": true,
       "LevelPlayOpenCondition": {
         "Conditions": []
@@ -366031,7 +366035,7 @@
       "EnterRadius": 14000,
       "LeaveRadius": 15000,
       "DelayRefresh": true,
-      "DelayDestroy": true,
+      "DelayDestroy": false,
       "AutoRestoreTreeAddedPlayerBuff": true,
       "LevelPlayOpenCondition": {
         "Conditions": []
@@ -366081,7 +366085,7 @@
       "EnterRadius": 14000,
       "LeaveRadius": 15000,
       "DelayRefresh": true,
-      "DelayDestroy": true,
+      "DelayDestroy": false,
       "AutoRestoreTreeAddedPlayerBuff": true,
       "LevelPlayOpenCondition": {
         "Conditions": []
@@ -366130,7 +366134,7 @@
       "EnterRadius": 14000,
       "LeaveRadius": 15000,
       "DelayRefresh": true,
-      "DelayDestroy": true,
+      "DelayDestroy": false,
       "AutoRestoreTreeAddedPlayerBuff": true,
       "LevelPlayOpenCondition": {
         "Conditions": []
@@ -372739,7 +372743,8 @@
         "e_8_150750253",
         "e_8_150750862",
         "e_8_150750787",
-        "e_8_259750069"
+        "e_8_259750069",
+        "q_938750000"
       ],
       "ExploratoryConfig": {
         "AddType": 88,
@@ -372753,7 +372758,10 @@
         "CompleteRewardIds": [
           5236036
         ]
-      }
+      },
+      "WeakReference": [
+        "q_938750000"
+      ]
     }
   },
   {
@@ -373916,7 +373924,7 @@
       "LevelAdditiveId": 0,
       "EnterRadius": 24000,
       "LeaveRadius": 25000,
-      "DelayRefresh": true,
+      "DelayRefresh": false,
       "DelayDestroy": true,
       "AutoRestoreTreeAddedPlayerBuff": true,
       "LevelPlayOpenCondition": {
@@ -378328,13 +378336,10 @@
       "Reference": [
         "e_8_188750192",
         "e_8_188750229",
-        "e_8_688751155",
-        "q_188750001",
-        "q_688750006"
+        "q_188750001"
       ],
       "WeakReference": [
-        "q_188750001",
-        "q_688750006"
+        "q_188750001"
       ]
     }
   },
@@ -378395,12 +378400,18 @@
         "e_8_686750984",
         "e_8_686750985",
         "e_8_686750715",
+        "e_8_180750460",
+        "e_8_180750458",
+        "e_8_180750462",
         "q_686750001",
         "f_686750005_13",
         "f_686750005_15",
         "f_686750005_12"
       ],
       "WeakReference": [
+        "e_8_180750460",
+        "e_8_180750458",
+        "e_8_180750462",
         "q_686750001"
       ]
     }
