@@ -15,7 +15,8 @@
       0
     ],
     "BehaviorTree": 800001,
-    "SplineEntityUid": "e_100_38800018"
+    "SplineEntityUid": "e_100_38800018",
+    "CommonBtOverride": ""
   },
   {
     "Id": 800002,
@@ -33,7 +34,8 @@
       0
     ],
     "BehaviorTree": 800002,
-    "SplineEntityUid": "e_100_38800010"
+    "SplineEntityUid": "e_100_38800010",
+    "CommonBtOverride": ""
   },
   {
     "Id": 800003,
@@ -51,7 +53,8 @@
       180
     ],
     "BehaviorTree": 800003,
-    "SplineEntityUid": "e_100_38800016"
+    "SplineEntityUid": "e_100_38800016",
+    "CommonBtOverride": ""
   },
   {
     "Id": 800004,
@@ -69,6 +72,106 @@
       0
     ],
     "BehaviorTree": 800004,
-    "SplineEntityUid": "e_100_38800017"
+    "SplineEntityUid": "e_100_38800017",
+    "CommonBtOverride": ""
+  },
+  {
+    "Id": 800005,
+    "TimeScheduleTag": "3_6测试",
+    "StartTime": "9:00",
+    "EndTime": "13:00",
+    "Position": [
+      -25307.70703125,
+      -126904.40625,
+      0
+    ],
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "BehaviorTree": 800040,
+    "SplineEntityUid": "e_100_176800005",
+    "CommonBtOverride": {
+      "CommonBtId": 176800000,
+      "OverridePlaceholders": [],
+      "ClientOverrideData": []
+    }
+  },
+  {
+    "Id": 800006,
+    "TimeScheduleTag": "3_6测试",
+    "StartTime": "13:00",
+    "EndTime": "16:00",
+    "Position": [
+      -24714.310546875,
+      -127050,
+      0
+    ],
+    "Rotation": [
+      0,
+      0,
+      60
+    ],
+    "BehaviorTree": 800039,
+    "SplineEntityUid": "e_100_176800004",
+    "CommonBtOverride": ""
+  },
+  {
+    "Id": 800007,
+    "TimeScheduleTag": "3_6测试",
+    "StartTime": "16:00",
+    "EndTime": "19:00",
+    "Position": [
+      -24067.3203125,
+      -127119,
+      0
+    ],
+    "Rotation": [
+      0,
+      0,
+      180
+    ],
+    "BehaviorTree": 800041,
+    "SplineEntityUid": "e_100_176800007",
+    "CommonBtOverride": ""
+  },
+  {
+    "Id": 800008,
+    "TimeScheduleTag": "3_6骑乘测试",
+    "StartTime": "8:00",
+    "EndTime": "12:00",
+    "Position": [
+      -23920,
+      -127619.9921875,
+      15.000100135803223
+    ],
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "BehaviorTree": 800045,
+    "SplineEntityUid": "e_100_176800007",
+    "CommonBtOverride": ""
+  },
+  {
+    "Id": 800009,
+    "TimeScheduleTag": "3_6骑乘测试",
+    "StartTime": "12:00",
+    "EndTime": "23:00",
+    "Position": [
+      -18900,
+      -127900.0078125,
+      10
+    ],
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "BehaviorTree": 800046,
+    "SplineEntityUid": "e_100_176800007",
+    "CommonBtOverride": ""
   }
 ]

@@ -25,5 +25,255 @@
       "Placeholders": [],
       "AssetPath": ""
     }
+  },
+  {
+    "Id": 176800000,
+    "LevelId": 100,
+    "RawData": {
+      "ObjType": "CommonBt",
+      "Id": 176800000,
+      "Name": "宿舍外做动作",
+      "LevelId": 100,
+      "Tree": {
+        "Root": {
+          "Id": 0,
+          "Desc": "",
+          "Decorators": [],
+          "Type": "Start",
+          "Child": {
+            "Type": "Selector",
+            "Id": 1,
+            "Desc": "",
+            "Decorators": [],
+            "Children": [
+              {
+                "Type": "Sequence",
+                "Id": 3,
+                "Desc": "",
+                "Decorators": [
+                  {
+                    "Type": "Condition",
+                    "Condition": {
+                      "Type": 0,
+                      "Conditions": [
+                        {
+                          "TaskId": 5,
+                          "Condition": {
+                            "Type": "CheckEntityDistance",
+                            "TargetA": {
+                              "Type": "Self"
+                            },
+                            "TargetB": {
+                              "Type": "Player"
+                            },
+                            "Compare": "Gt",
+                            "Distance": 300
+                          }
+                        }
+                      ]
+                    },
+                    "Reverse": false
+                  }
+                ],
+                "Children": [
+                  {
+                    "Type": "Task",
+                    "Id": 2,
+                    "Desc": "",
+                    "Decorators": [],
+                    "ActionInfo": {
+                      "TaskId": 1,
+                      "Action": {
+                        "Name": "PlayRegisteredMontage",
+                        "Params": {
+                          "EntityId": 176800001,
+                          "MontageId": 800410,
+                          "IsAbpMontage": true
+                        },
+                        "ActionGuid": "79da46edd31a409dbea1716a62b48020"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "Sequence",
+                "Id": 5,
+                "Desc": "",
+                "Decorators": [
+                  {
+                    "Type": "Condition",
+                    "Condition": {
+                      "Type": 0,
+                      "Conditions": [
+                        {
+                          "TaskId": 9,
+                          "Condition": {
+                            "Type": "CheckEntityDistance",
+                            "TargetA": {
+                              "Type": "Self"
+                            },
+                            "TargetB": {
+                              "Type": "Player"
+                            },
+                            "Compare": "Lt",
+                            "Distance": 300
+                          }
+                        }
+                      ]
+                    },
+                    "Reverse": false
+                  }
+                ],
+                "Children": [
+                  {
+                    "Type": "Task",
+                    "Id": 6,
+                    "Desc": "",
+                    "Decorators": [],
+                    "ActionInfo": {
+                      "TaskId": 8,
+                      "Action": {
+                        "Name": "EntityTurnTo",
+                        "Params": {
+                          "EntityId": 176800001,
+                          "Target": {
+                            "Type": 4
+                          }
+                        },
+                        "ActionGuid": "f51726f6b19244f993d9f53058da3a19",
+                        "Timeout": 5
+                      }
+                    }
+                  },
+                  {
+                    "Type": "Task",
+                    "Id": 4,
+                    "Desc": "",
+                    "Decorators": [],
+                    "ActionInfo": {
+                      "TaskId": 7,
+                      "Action": {
+                        "Name": "PlayRegisteredMontage",
+                        "Params": {
+                          "EntityId": 176800001,
+                          "MontageId": 800401,
+                          "IsAbpMontage": true
+                        },
+                        "ActionGuid": "060cbdb93b8f4187b81e3231961a271a"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Placeholders": [],
+      "AssetPath": "/Game/Aki/AI/AINPC/LevelAiBT/Custom/100/BT_176800000"
+    }
+  },
+  {
+    "Id": 176800001,
+    "LevelId": 100,
+    "RawData": {
+      "ObjType": "CommonBt",
+      "Id": 176800001,
+      "Name": "宿舍内巡逻",
+      "LevelId": 100,
+      "Tree": {
+        "Root": {
+          "Id": 0,
+          "Desc": "",
+          "Decorators": [],
+          "Type": "Start",
+          "Child": {
+            "Type": "Selector",
+            "Id": 1,
+            "Desc": "",
+            "Decorators": [],
+            "Children": [
+              {
+                "Type": "Sequence",
+                "Id": 3,
+                "Desc": "",
+                "Decorators": [],
+                "Children": [
+                  {
+                    "Type": "Task",
+                    "Id": 2,
+                    "Desc": "",
+                    "Decorators": [],
+                    "ActionInfo": {
+                      "TaskId": 1,
+                      "Action": {
+                        "Name": "PerformerAiSplineMove",
+                        "Params": {
+                          "SplineEntityId": 176800003
+                        },
+                        "ActionGuid": "ad551fa8bf5b44a49cdc88c58451e5b6"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Placeholders": [],
+      "AssetPath": "/Game/Aki/AI/AINPC/LevelAiBT/Custom/100/BT_176800001"
+    }
+  },
+  {
+    "Id": 176800003,
+    "LevelId": 100,
+    "RawData": {
+      "ObjType": "CommonBt",
+      "Id": 176800003,
+      "Name": "通用AI配置",
+      "LevelId": 100,
+      "Tree": {
+        "Root": {
+          "Id": 0,
+          "Desc": "",
+          "Decorators": [],
+          "Type": "Start",
+          "Child": {
+            "Type": "Selector",
+            "Id": 1,
+            "Desc": "",
+            "Decorators": [],
+            "Children": [
+              {
+                "Type": "Task",
+                "Id": 2,
+                "Desc": "",
+                "Decorators": [],
+                "ActionInfo": {
+                  "TaskId": 1,
+                  "Action": {
+                    "Name": "EntityLookAt",
+                    "Params": {
+                      "EntityId": 176800006,
+                      "Pos": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      }
+                    },
+                    "ActionGuid": "f96cb698ecba4849a85f57a45893fb3e",
+                    "Timeout": 5
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Placeholders": [],
+      "AssetPath": "/Game/Aki/AI/AINPC/LevelAiBT/Custom/100/BT_176800003"
+    }
   }
 ]
