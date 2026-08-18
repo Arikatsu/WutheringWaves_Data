@@ -154,7 +154,7 @@
   },
   {
     "ViewName": "GameplayEnterView",
-    "Area": "Center",
+    "Area": "Top",
     "Priority": 10,
     "OnlyShowInMain": true,
     "RootItemIndex": 0,
@@ -163,7 +163,7 @@
   },
   {
     "ViewName": "GameplayFirstPassView",
-    "Area": "Center",
+    "Area": "Top",
     "Priority": 20,
     "OnlyShowInMain": true,
     "RootItemIndex": 0,
@@ -1332,6 +1332,33 @@
     "HideInPureMode": false
   },
   {
+    "ViewName": "SwordControlGroundView",
+    "Area": "Control",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "RoverlikeLevelTipsView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "RoverlikeInfoTipsView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
     "ViewName": "FirstPersonTurretView",
     "Area": "Bottom",
     "Priority": 0,
@@ -1341,11 +1368,47 @@
     "HideInPureMode": false
   },
   {
+    "ViewName": "RoverlikeLootTipsView",
+    "Area": "Bottom",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "SwordControlFlightView",
+    "Area": "Control",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
     "ViewName": "QuestMultiLineTipsView",
     "Area": "Bottom",
     "Priority": 99,
     "OnlyShowInMain": true,
     "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "RoverlikeRoleBlessingTips",
+    "Area": "NewItemTips",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "RoverlikeUnlockTipView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
     "IsWaitNormal": true,
     "HideInPureMode": false
   }
