@@ -1,0 +1,246 @@
+[
+  {
+    "Id": 850005,
+    "Desc": "角色死亡",
+    "TriggerConditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "RoleState",
+          "RoleState": "Death"
+        },
+        {
+          "Type": "StableValue",
+          "StableValueOption": {
+            "Type": "Total",
+            "Range": {
+              "MinValue": {
+                "Boundary": "Closed",
+                "Value": 0
+              },
+              "MaxValue": {
+                "Boundary": "Open",
+                "Value": 5000
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ResponseFunctions": "[{\"Type\":\"PlayFlow\",\"FlowConfig\":{\"FlowListName\":\"剧情_3.7_巨人响应\",\"FlowId\":4,\"StateId\":1}}]"
+  },
+  {
+    "Id": 850006,
+    "Desc": "进入火属性区域",
+    "TriggerConditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "EnterArea",
+          "AreaId": 46001
+        },
+        {
+          "Type": "StableValue",
+          "StableValueOption": {
+            "Type": "Region",
+            "EcoType": "Fire",
+            "Range": {
+              "MinValue": {
+                "Boundary": "Closed",
+                "Value": 0
+              },
+              "MaxValue": {
+                "Boundary": "Open",
+                "Value": 8000
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ResponseFunctions": "[{\"Type\":\"PlayFlow\",\"FlowConfig\":{\"FlowListName\":\"剧情_3.7_巨人响应\",\"FlowId\":6,\"StateId\":1}}]"
+  },
+  {
+    "Id": 850014,
+    "Desc": "进入水POI区域",
+    "TriggerConditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "EnterArea",
+          "AreaId": 46003
+        },
+        {
+          "Type": "StableValue",
+          "StableValueOption": {
+            "Type": "Region",
+            "EcoType": "Water",
+            "Range": {
+              "MinValue": {
+                "Boundary": "Closed",
+                "Value": 0
+              },
+              "MaxValue": {
+                "Boundary": "Open",
+                "Value": 8800
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ResponseFunctions": "[{\"Type\":\"PlayFlow\",\"FlowConfig\":{\"FlowListName\":\"剧情_3.7_巨人响应\",\"FlowId\":7,\"StateId\":1}}]"
+  },
+  {
+    "Id": 850030,
+    "Desc": "神卡-角色死亡1",
+    "TriggerConditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "RoleState",
+          "RoleState": "Death"
+        },
+        {
+          "Type": "StableValue",
+          "StableValueOption": {
+            "Type": "Total",
+            "Range": {
+              "MinValue": {
+                "Boundary": "Closed",
+                "Value": 5000
+              },
+              "MaxValue": {
+                "Boundary": "Open",
+                "Value": 12200
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ResponseFunctions": "[{\"Type\":\"PlayFlow\",\"FlowConfig\":{\"FlowListName\":\"剧情_3.7_巨人响应\",\"FlowId\":23,\"StateId\":1}}]"
+  },
+  {
+    "Id": 850031,
+    "Desc": "神卡-角色死亡2",
+    "TriggerConditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "RoleState",
+          "RoleState": "Death"
+        },
+        {
+          "Type": "StableValue",
+          "StableValueOption": {
+            "Type": "Total",
+            "Range": {
+              "MinValue": {
+                "Boundary": "Closed",
+                "Value": 12200
+              },
+              "MaxValue": {
+                "Boundary": "Open",
+                "Value": 22000
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ResponseFunctions": "[{\"Type\":\"PlayFlow\",\"FlowConfig\":{\"FlowListName\":\"剧情_3.7_巨人响应\",\"FlowId\":24,\"StateId\":1}}]"
+  },
+  {
+    "Id": 850032,
+    "Desc": "神卡-角色死亡3",
+    "TriggerConditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "RoleState",
+          "RoleState": "Death"
+        },
+        {
+          "Type": "StableValue",
+          "StableValueOption": {
+            "Type": "Total",
+            "Range": {
+              "MinValue": {
+                "Boundary": "Closed",
+                "Value": 22000
+              },
+              "MaxValue": {
+                "Boundary": "Open",
+                "Value": 100000
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ResponseFunctions": "[{\"Type\":\"PlayFlow\",\"FlowConfig\":{\"FlowListName\":\"剧情_3.7_巨人响应\",\"FlowId\":25,\"StateId\":1}}]"
+  },
+  {
+    "Id": 850034,
+    "Desc": "进入火POI区域2",
+    "TriggerConditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "EnterArea",
+          "AreaId": 46001
+        },
+        {
+          "Type": "StableValue",
+          "StableValueOption": {
+            "Type": "Region",
+            "EcoType": "Fire",
+            "Range": {
+              "MinValue": {
+                "Boundary": "Closed",
+                "Value": 8000
+              },
+              "MaxValue": {
+                "Boundary": "Open",
+                "Value": 100000
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ResponseFunctions": "[{\"Type\":\"PlayFlow\",\"FlowConfig\":{\"FlowListName\":\"剧情_3.7_巨人响应\",\"FlowId\":27,\"StateId\":1}}]"
+  },
+  {
+    "Id": 850035,
+    "Desc": "进入水POI区域2",
+    "TriggerConditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "EnterArea",
+          "AreaId": 46003
+        },
+        {
+          "Type": "StableValue",
+          "StableValueOption": {
+            "Type": "Region",
+            "EcoType": "Water",
+            "Range": {
+              "MinValue": {
+                "Boundary": "Closed",
+                "Value": 8800
+              },
+              "MaxValue": {
+                "Boundary": "Open",
+                "Value": 100000
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ResponseFunctions": "[{\"Type\":\"PlayFlow\",\"FlowConfig\":{\"FlowListName\":\"剧情_3.7_巨人响应\",\"FlowId\":28,\"StateId\":1}}]"
+  }
+]

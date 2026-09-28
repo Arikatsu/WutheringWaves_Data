@@ -172689,17 +172689,55 @@
     "AccessId": 0
   },
   {
-    "Id": 131201413,
-    "Type": "CheckUIOpenDone",
+    "Id": 12906999,
+    "Type": "NewQuestStepState",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "UIName",
-        "Value": "MultiMotorChoseLevelView"
+        "Key": "NewQuestId",
+        "Value": "915000001"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "120"
       }
     ],
     "LimitParamsOpe": [],
-    "IsClient": true,
+    "IsClient": false,
+    "Description": "Condition_12906028_Description",
+    "AccessId": 870001
+  },
+  {
+    "Id": 12906998,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "14"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12906029_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 12906997,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
     "Description": "",
     "AccessId": 0
   },
@@ -173077,55 +173115,17 @@
     "AccessId": 0
   },
   {
-    "Id": 12906999,
-    "Type": "NewQuestStepState",
+    "Id": 131201413,
+    "Type": "CheckUIOpenDone",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "NewQuestId",
-        "Value": "915000001"
-      },
-      {
-        "Key": "State",
-        "Value": "3"
-      },
-      {
-        "Key": "QuestNodeId",
-        "Value": "120"
+        "Key": "UIName",
+        "Value": "MultiMotorChoseLevelView"
       }
     ],
     "LimitParamsOpe": [],
-    "IsClient": false,
-    "Description": "Condition_12906028_Description",
-    "AccessId": 870001
-  },
-  {
-    "Id": 12906998,
-    "Type": "CheckLevel",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "Level",
-        "Value": "14"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": false,
-    "Description": "Condition_12906029_Description",
-    "AccessId": 0
-  },
-  {
-    "Id": 12906997,
-    "Type": "CheckLevel",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "Level",
-        "Value": "8"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": false,
+    "IsClient": true,
     "Description": "",
     "AccessId": 0
   },
@@ -174793,11 +174793,11 @@
       },
       {
         "Key": "RoleId",
-        "Value": "1404-1302-1304-1205-1305-1105-1603-1606-1107-1206-1506-1607-1211"
+        "Value": "1404-1302-1304-1205-1305-1105-1603-1606-1107-1206-1506-1607-1509"
       }
     ],
     "LimitParamsOpe": [],
-    "IsClient": true,
+    "IsClient": false,
     "Description": "",
     "AccessId": 0
   },
@@ -178661,44 +178661,6 @@
     "AccessId": 919806
   },
   {
-    "Id": 12907601,
-    "Type": "NewQuestStepState",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "NewQuestId",
-        "Value": "192000006"
-      },
-      {
-        "Key": "State",
-        "Value": "2"
-      },
-      {
-        "Key": "QuestNodeId",
-        "Value": "55"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": false,
-    "Description": "Condition_12907601_Description",
-    "AccessId": 919301
-  },
-  {
-    "Id": 12907602,
-    "Type": "CheckLevel",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "Level",
-        "Value": "8"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": false,
-    "Description": "Condition_12907602_Description",
-    "AccessId": 0
-  },
-  {
     "Id": 100045192,
     "Type": "OnSkillEnable",
     "NeedNum": 100,
@@ -178926,6 +178888,44 @@
     "LimitParamsOpe": [],
     "IsClient": true,
     "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12907601,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "192000006"
+      },
+      {
+        "Key": "State",
+        "Value": "2"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "55"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12907601_Description",
+    "AccessId": 919301
+  },
+  {
+    "Id": 12907602,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12907602_Description",
     "AccessId": 0
   },
   {
@@ -180671,6 +180671,25 @@
     "AccessId": 0
   },
   {
+    "Id": 12904726,
+    "Type": "NewTowerKillWave",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 2101610001,
     "Type": "RoleFavorLevel",
     "NeedNum": 1,
@@ -181051,25 +181070,6 @@
     "AccessId": 0
   },
   {
-    "Id": 12904726,
-    "Type": "NewTowerKillWave",
-    "NeedNum": 5,
-    "LimitParams": [
-      {
-        "Key": "Id",
-        "Value": "2"
-      },
-      {
-        "Key": "Difficulty",
-        "Value": "1"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": false,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
     "Id": 12005137,
     "Type": "NewQuestState",
     "NeedNum": 1,
@@ -181314,25 +181314,6 @@
     "AccessId": 0
   },
   {
-    "Id": 12031823,
-    "Type": "LevelPlayOrInstFinishWithMulti",
-    "NeedNum": 5,
-    "LimitParams": [
-      {
-        "Key": "Type",
-        "Value": "0"
-      },
-      {
-        "Key": "SubTypes",
-        "Value": "65"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": true,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
     "Id": 101135146,
     "Type": "NewQuestStepState",
     "NeedNum": 1,
@@ -181417,6 +181398,25 @@
       {
         "Key": "State",
         "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031823,
+    "Type": "LevelPlayOrInstFinishWithMulti",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "Type",
+        "Value": "0"
+      },
+      {
+        "Key": "SubTypes",
+        "Value": "65"
       }
     ],
     "LimitParamsOpe": [],
@@ -186897,7 +186897,7 @@
     ],
     "LimitParamsOpe": [
       {
-        "Key": "Cycle",
+        "Key": "CycleId",
         "Value": ">="
       }
     ],
@@ -186929,7 +186929,7 @@
     ],
     "LimitParamsOpe": [
       {
-        "Key": "Cycle",
+        "Key": "CycleId",
         "Value": ">="
       }
     ],
@@ -188629,6 +188629,21 @@
     "AccessId": 0
   },
   {
+    "Id": 12908051,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12907103_HintText",
+    "AccessId": 0
+  },
+  {
     "Id": 901003,
     "Type": "ItemCheck",
     "NeedNum": 1,
@@ -188666,6 +188681,21 @@
     ],
     "IsClient": false,
     "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12907404,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "14"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12907404_Description",
     "AccessId": 0
   },
   {
@@ -188831,6 +188861,21 @@
     "AccessId": 0
   },
   {
+    "Id": 13000272,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 12401026,
     "Type": "CheckTeleportStatus",
     "NeedNum": 1,
@@ -188842,6 +188887,59 @@
       {
         "Key": "State",
         "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13000273,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "139000025"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "35"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002200,
+    "Type": "TotalLoginDays",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NeedNum",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002201,
+    "Type": "TotalLoginDays",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "NeedNum",
+        "Value": "3"
       }
     ],
     "LimitParamsOpe": [],
@@ -188910,6 +189008,329 @@
     ],
     "LimitParamsOpe": [],
     "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2128,
+    "Type": "CheckTeleportStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "TeleportId",
+        "Value": "3720001"
+      },
+      {
+        "Key": "State",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908601,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750003"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908602,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750004"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908603,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750005"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908604,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750006"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908605,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750027"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908606,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750021"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908607,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750022"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908608,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750023"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908609,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750024"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908610,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750015"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908611,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750016"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908612,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750017"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908613,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750030"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908614,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750018"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908615,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750019"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908616,
+    "Type": "RecallQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750020"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
     "Description": "",
     "AccessId": 0
   },
@@ -189352,6 +189773,139 @@
     "AccessId": 0
   },
   {
+    "Id": 12031887,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "32"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031888,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031889,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2002"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031890,
+    "Type": "MatchThreePass",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111600001"
+      },
+      {
+        "Key": "Id",
+        "Value": "100071"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031891,
+    "Type": "LongShanRwdCount",
+    "NeedNum": 10,
+    "LimitParams": [
+      {
+        "Key": "Count",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031892,
+    "Type": "FarmGoldLevelScore",
+    "NeedNum": 25000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "13"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031893,
+    "Type": "ScratchCardAllReward",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "102700007"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 131201536,
     "Type": "CheckUIOpenDone",
     "NeedNum": 1,
@@ -189504,30 +190058,6 @@
     "AccessId": 0
   },
   {
-    "Id": 131201546,
-    "Type": "CheckGuideStatus",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "GuideGroupId",
-        "Value": "20581"
-      },
-      {
-        "Key": "Status",
-        "Value": "2"
-      }
-    ],
-    "LimitParamsOpe": [
-      {
-        "Key": "Status",
-        "Value": ">="
-      }
-    ],
-    "IsClient": true,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
     "Id": 313610101,
     "Type": "NewQuestState",
     "NeedNum": 1,
@@ -189562,6 +190092,89 @@
     ],
     "LimitParamsOpe": [],
     "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201546,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20581"
+      },
+      {
+        "Key": "Status",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908617,
+    "Type": "RecallGetItem",
+    "NeedNum": 20000,
+    "LimitParams": [
+      {
+        "Key": "ItemId",
+        "Value": "17"
+      },
+      {
+        "Key": "Id",
+        "Value": "112000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 901005,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80870013"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Count",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 901006,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80870014"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Count",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
     "Description": "",
     "AccessId": 0
   },
@@ -189656,6 +190269,570 @@
     "AccessId": 0
   },
   {
+    "Id": 12908801,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1001"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908802,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1002"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908803,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1003"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908804,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1004"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908805,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1005"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908806,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2001"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908807,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2002"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908808,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2003"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908809,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2004"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908810,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2005"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908811,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2006"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908812,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "0"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "80700016"
+      },
+      {
+        "Key": "Count",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908813,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "0"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "80700017"
+      },
+      {
+        "Key": "Count",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908814,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "0"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "80700018"
+      },
+      {
+        "Key": "Count",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908815,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "0"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "80700020"
+      },
+      {
+        "Key": "Count",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908816,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "0"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "80700019"
+      },
+      {
+        "Key": "Count",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908817,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "0"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "80700021"
+      },
+      {
+        "Key": "Count",
+        "Value": "5"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908818,
+    "Type": "DangoBrawlRegularWinCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Count",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908819,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "0"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908820,
+    "Type": "DangoBrawlPassAllBaseFilled",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908821,
+    "Type": "DangoBrawlComposeQuality",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Quality",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908822,
+    "Type": "DangoBrawlPassWithQualityItems",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Quality",
+        "Value": "6"
+      },
+      {
+        "Key": "Count",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908824,
+    "Type": "DangoBrawlPassItemCountLimit",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Count",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 12800120,
     "Type": "ItemCheck",
     "NeedNum": 1,
@@ -189741,6 +190918,44 @@
     "AccessId": 0
   },
   {
+    "Id": 100045205,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-391606"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045206,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-391626"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 12908503,
     "Type": "NewQuestState",
     "NeedNum": 1,
@@ -189781,6 +190996,141 @@
       {
         "Key": "IsOpen",
         "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011101341,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "254850001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011101351,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "254850002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011101361,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "254850003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011101371,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "254850000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 120318921,
+    "Type": "FarmGoldLevelScore",
+    "NeedNum": 25000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "14"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 120318922,
+    "Type": "FarmGoldLevelScore",
+    "NeedNum": 25000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "15"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 120318923,
+    "Type": "FarmGoldLevelScore",
+    "NeedNum": 25000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "16"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 120318924,
+    "Type": "FarmGoldLevelScore",
+    "NeedNum": 25000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "17"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 120318925,
+    "Type": "FarmGoldLevelScore",
+    "NeedNum": 25000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "18"
       }
     ],
     "LimitParamsOpe": [],
@@ -189842,6 +191192,1164 @@
     "Type": "CheckInteracting",
     "NeedNum": 1,
     "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031894,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20016"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031895,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20024"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031896,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031897,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031898,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031899,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031900,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20016"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031901,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20024"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031902,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031903,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031904,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031905,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031906,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031907,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031908,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031909,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031910,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031911,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031912,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031913,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031914,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031915,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031916,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031917,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031918,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031919,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031920,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031921,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031922,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031923,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031924,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031925,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031926,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031927,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031928,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031929,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031930,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031931,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031932,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031933,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1510"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031934,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031935,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031936,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031937,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031938,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031939,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40286-40274-40275"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1511"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031940,
+    "Type": "NewTowerTeamChallengingFinish",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031941,
+    "Type": "NewTowerTeamChallengingFinish",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031942,
+    "Type": "NewTowerTeamChallengingFinish",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031943,
+    "Type": "NewTowerTeamChallengingFinish",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031944,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Num",
+        "Value": "6"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031945,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Num",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031946,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 76450,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031947,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 180536,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031948,
+    "Type": "EntityDie",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "316800044"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "81701"
+      },
+      {
+        "Key": "Online",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031949,
+    "Type": "EntityDie",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "316800041"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "81701"
+      },
+      {
+        "Key": "Online",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031950,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1005"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031951,
+    "Type": "DangoBrawlPassChallenge",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2006"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "0"
+      },
+      {
+        "Key": "Count",
+        "Value": "0"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
     "LimitParamsOpe": [],
     "IsClient": true,
     "Description": "",
@@ -189963,6 +192471,526 @@
     "AccessId": 0
   },
   {
+    "Id": 13030092,
+    "Type": "RoleResonance",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GroupIndex",
+        "Value": "6"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13030093,
+    "Type": "RoleResonance",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GroupIndex",
+        "Value": "6"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908701,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "2"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "25"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908701_HintText",
+    "AccessId": 914030
+  },
+  {
+    "Id": 12908702,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "2"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "25"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908702_HintText",
+    "AccessId": 914031
+  },
+  {
+    "Id": 12908703,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "923850009"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908703_HintText",
+    "AccessId": 914032
+  },
+  {
+    "Id": 12908704,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "239850000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908704_HintText",
+    "AccessId": 914033
+  },
+  {
+    "Id": 12908705,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "239850010"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908705_HintText",
+    "AccessId": 914034
+  },
+  {
+    "Id": 12908706,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "143"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908706_HintText",
+    "AccessId": 914035
+  },
+  {
+    "Id": 12908707,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "143"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908707_HintText",
+    "AccessId": 914036
+  },
+  {
+    "Id": 12908708,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850012"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908708_HintText",
+    "AccessId": 914037
+  },
+  {
+    "Id": 12908709,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "232850000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908709_HintText",
+    "AccessId": 914038
+  },
+  {
+    "Id": 12908710,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "261000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908710_HintText",
+    "AccessId": 914039
+  },
+  {
+    "Id": 12908711,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908711_HintText",
+    "AccessId": 914040
+  },
+  {
+    "Id": 12908712,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908712_HintText",
+    "AccessId": 914041
+  },
+  {
+    "Id": 12908713,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850016"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908713_HintText",
+    "AccessId": 914042
+  },
+  {
+    "Id": 12908714,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "239850009"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908714_HintText",
+    "AccessId": 914043
+  },
+  {
+    "Id": 12908715,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "250000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908715_HintText",
+    "AccessId": 914044
+  },
+  {
+    "Id": 12908716,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908716_HintText",
+    "AccessId": 914045
+  },
+  {
+    "Id": 12908717,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908717_HintText",
+    "AccessId": 914046
+  },
+  {
+    "Id": 12908718,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "CrossEdge"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908718_HintText",
+    "AccessId": 914047
+  },
+  {
+    "Id": 12908719,
+    "Type": "GiantTotalStableStage",
+    "NeedNum": 2,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908719_HintText",
+    "AccessId": 914048
+  },
+  {
+    "Id": 12908720,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "923000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "103"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12908720_HintText",
+    "AccessId": 914049
+  },
+  {
+    "Id": 12908901,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "23"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12908901_HintText",
+    "AccessId": 923500
+  },
+  {
+    "Id": 12908902,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "143"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12908902_HintText",
+    "AccessId": 923501
+  },
+  {
+    "Id": 12908903,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12908903_HintText",
+    "AccessId": 923502
+  },
+  {
+    "Id": 12908904,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12908904_HintText",
+    "AccessId": 923504
+  },
+  {
+    "Id": 12908906,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_12908906_HintText",
+    "AccessId": 923506
+  },
+  {
     "Id": 131201582,
     "Type": "OnGuideTriggerEvent",
     "NeedNum": 1,
@@ -189970,6 +192998,339 @@
       {
         "Key": "Name",
         "Value": "RoverlikeUnlockShowEnd"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200130,
+    "Type": "RecallQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750003"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "25"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200131,
+    "Type": "RecallQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750004"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "6"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200132,
+    "Type": "RecallQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750005"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "30"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200133,
+    "Type": "RecallQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750006"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "19"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200134,
+    "Type": "RecallQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750027"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "46"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200135,
+    "Type": "RecallQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750007"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "2"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200136,
+    "Type": "RecallQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RecallQuestId",
+        "Value": "32750008"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "2"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045207,
+    "Type": "OnSkillEnable",
+    "NeedNum": 100,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "AttackerID",
+        "Value": "0-1312"
+      },
+      {
+        "Key": "SkillType",
+        "Value": "12"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045208,
+    "Type": "OnSkillEnable",
+    "NeedNum": 100,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "AttackerID",
+        "Value": "0-1311"
+      },
+      {
+        "Key": "SkillType",
+        "Value": "12"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045209,
+    "Type": "OnDeathCalculateV2",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-391621"
+      },
+      {
+        "Key": "BeattackerTag",
+        "Value": "怪物.a68fc865.09cf0289"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045210,
+    "Type": "OnDeathCalculateV2",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-391621"
+      },
+      {
+        "Key": "BeattackerTag",
+        "Value": "怪物.a68fc865.eefef845"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045211,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-391627"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045212,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-391632"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045213,
+    "Type": "OnSkillEnable",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "AttackerID",
+        "Value": "0-1312"
+      },
+      {
+        "Key": "SkillIds",
+        "Value": "1312999"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045214,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 50,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-391620"
       }
     ],
     "LimitParamsOpe": [],
@@ -189988,7 +193349,7 @@
       },
       {
         "Key": "QuestNodeId",
-        "Value": "85"
+        "Value": "88"
       },
       {
         "Key": "State",
@@ -190152,6 +193513,634 @@
     "AccessId": 0
   },
   {
+    "Id": 12905161,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 4800,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905162,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 7200,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905163,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 10000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905164,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 12000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905165,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 16000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905166,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 21000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905167,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 37000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905168,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 58000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905169,
+    "Type": "NewTowerAllTeamScore",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "5000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905170,
+    "Type": "NewTowerAllTeamScore",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "5000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905171,
+    "Type": "NewTowerAllTeamScore",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "5000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905172,
+    "Type": "NewTowerKillWaveInSeason",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12905112_HintText",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905173,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 58000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905179,
+    "Type": "NewTowerCycleHistoryScore",
+    "NeedNum": 2147483647,
+    "LimitParams": [
+      {
+        "Key": "CycleId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905180,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 58000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905181,
+    "Type": "NewTowerKillWaveInSeason",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12905112_HintText",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904741,
+    "Type": "NewTowerKillBossInSeason",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "401800000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904742,
+    "Type": "NewTowerKillWaveInSeason",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904743,
+    "Type": "NewTowerLimitCondPassWave",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Round",
+        "Value": "2"
+      },
+      {
+        "Key": "Num",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Round",
+        "Value": ">="
+      },
+      {
+        "Key": "Num",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904744,
+    "Type": "NewTowerGetScoreWithRole",
+    "NeedNum": 15000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1311-1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904745,
+    "Type": "NewTowerDamageInSeason",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "DamageSubType",
+        "Value": "1003"
+      },
+      {
+        "Key": "MonsterType",
+        "Value": "2147483646"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "CycleId",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904746,
+    "Type": "NewTowerDamageInSeason",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "DamageSubType",
+        "Value": "1004"
+      },
+      {
+        "Key": "MonsterType",
+        "Value": "2147483646"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "CycleId",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904747,
+    "Type": "NewTowerDamageInSeason",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "DamageSubType",
+        "Value": "1002"
+      },
+      {
+        "Key": "MonsterType",
+        "Value": "2147483646"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "CycleId",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904748,
+    "Type": "NewTowerLimitCondPassWave",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "CycleId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Round",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "CycleId",
+        "Value": ">="
+      },
+      {
+        "Key": "Num",
+        "Value": ">="
+      },
+      {
+        "Key": "Round",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908951,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "192000006"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "54"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "Condition_12907104_HintText",
+    "AccessId": 919801
+  },
+  {
     "Id": 12005138,
     "Type": "NewQuestStepState",
     "NeedNum": 1,
@@ -190182,6 +194171,4320 @@
       {
         "Key": "CheckValue",
         "Value": "TRUE"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200683,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1594"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "3000141"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200684,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1594"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "4000010"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200685,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1594"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "1000026"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200686,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1594"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "54"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200687,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1597"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "59"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200688,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1597"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "50"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200689,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168000003"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "7"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200690,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200691,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168000003"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "11"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200692,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1594"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200693,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1594"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "3000005"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200376,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850011"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200377,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850010"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200378,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "158850010"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200379,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "158850012"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200764,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "320850000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13009001,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "139000030"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13009002,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "40"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Level",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031952,
+    "Type": "CheckUIState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "PhotoMainView"
+      },
+      {
+        "Key": "UIState",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13000275,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13009101,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "14"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_13009101_HintText",
+    "AccessId": 0
+  },
+  {
+    "Id": 13009102,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_13009102_HintText",
+    "AccessId": 924000
+  },
+  {
+    "Id": 12908907,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168000003"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12008064,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "1311"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12008065,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "1312"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908908,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "239850000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "42"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908909,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "239850000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "44"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908910,
+    "Type": "GiantTotalStableStage",
+    "NeedNum": 2,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201584,
+    "Type": "CheckInMatchThreeLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "100011"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201585,
+    "Type": "CheckInMatchThreeLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "100021"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201586,
+    "Type": "CheckInMatchThreeLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "100031"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201587,
+    "Type": "CheckInMatchThreeLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "100051"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201588,
+    "Type": "CheckMatchThreeLevelUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "100041"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201589,
+    "Type": "CheckMatchThreeSmallSkillCharged",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201590,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "MatchThreeEnvTipFinished"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201591,
+    "Type": "CheckMatchThreeBoardHasComponent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ComponentType",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201592,
+    "Type": "CheckMatchThreeBoardHasComponent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ComponentType",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201593,
+    "Type": "CheckMatchThreeBoardHasComponent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ComponentType",
+        "Value": "9"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12005139,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137001,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "GetWaWa1"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137002,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "GetWaWa8"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201594,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "MatchThreeTargetPopView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201595,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "MatchThreeRoleUnlockViewClosed"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13009200,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "244850000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "16"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_244850000_HintText",
+    "AccessId": 0
+  },
+  {
+    "Id": 13040010,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_13040010_Description",
+    "AccessId": 859010
+  },
+  {
+    "Id": 2101311001,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402001_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101311002,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Level",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402002_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101311003,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Level",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402003_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101311004,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Level",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402004_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101311005,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Level",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402005_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101311011,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Breach",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402011_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101311012,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Breach",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402012_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101311013,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Breach",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402013_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101311014,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Breach",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402014_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101311015,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1311"
+      },
+      {
+        "Key": "Breach",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402015_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312001,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402001_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312002,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Level",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402002_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312003,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Level",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402003_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312004,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Level",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402004_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312005,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Level",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402005_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312011,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Breach",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402011_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312012,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Breach",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402012_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312013,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Breach",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402013_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312014,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Breach",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402014_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101312015,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1312"
+      },
+      {
+        "Key": "Breach",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402015_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201596,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "5000004"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "引导5000004已触发",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201597,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "10056"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "引导10056已触发",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201598,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "10301"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "引导10301已触发",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201599,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "10298"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "引导10298已触发",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201600,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20610"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": "<"
+      }
+    ],
+    "IsClient": true,
+    "Description": "引导20610未触发",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201601,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20586"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": "<"
+      }
+    ],
+    "IsClient": true,
+    "Description": "引导20586未触发",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201602,
+    "Type": "CheckDangoBrawlLevelRound",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1001"
+      },
+      {
+        "Key": "RoundNum",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第一关第一回合",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201603,
+    "Type": "CheckDangoBrawlLevelRound",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1001"
+      },
+      {
+        "Key": "RoundNum",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第一关第二回合",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201604,
+    "Type": "CheckDangoBrawlLevelRound",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1001"
+      },
+      {
+        "Key": "RoundNum",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第一关第三回合",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201605,
+    "Type": "CheckDangoBrawlLevelRound",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1001"
+      },
+      {
+        "Key": "RoundNum",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第一关第四回合",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201606,
+    "Type": "CheckDangoBrawlLevelRound",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1002"
+      },
+      {
+        "Key": "RoundNum",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第二关第一回合",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201607,
+    "Type": "CheckDangoBrawlLevelRound",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1002"
+      },
+      {
+        "Key": "RoundNum",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第二关第二回合",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201608,
+    "Type": "CheckDangoBrawlLevelRound",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1002"
+      },
+      {
+        "Key": "RoundNum",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第二关第三回合",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201609,
+    "Type": "CheckDangoBrawlLevelRound",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1002"
+      },
+      {
+        "Key": "RoundNum",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第二关第四回合",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201610,
+    "Type": "CheckDangoBrawlLevelRound",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1003"
+      },
+      {
+        "Key": "RoundNum",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第三关第一回合",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201611,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20599"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": "<"
+      }
+    ],
+    "IsClient": true,
+    "Description": "引导20599未触发",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201612,
+    "Type": "CheckDangoBrawlLevelPassed",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      },
+      {
+        "Key": "LevelId",
+        "Value": "1005"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子已通关第五关",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201613,
+    "Type": "CheckGiantCanChangeMood",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人心情可以转变",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201614,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlChooseCardView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子进入事件选择界面",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201615,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlChooseCardView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子关闭事件选择界面",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137101,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "250000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137102,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "250850000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137103,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "250000000"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "133"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137104,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "273850012"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137105,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "273850014"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137106,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "232000001-232000002-232850000-232850002-232850003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137108,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "232000001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137109,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "232000002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371101,
+    "Type": "EntityStateByBpTypeOnline",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "branch3.7_239_Gameplay047"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      },
+      {
+        "Key": "Tag",
+        "Value": "-3775711"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371102,
+    "Type": "EntityStateByBpTypeOnline",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "branch3.7_239_Gameplay048"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      },
+      {
+        "Key": "Tag",
+        "Value": "-1152559349"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371103,
+    "Type": "EntityStateByBpTypeOnline",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "branch3.7_239_Gameplay048"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      },
+      {
+        "Key": "Tag",
+        "Value": "-3775711"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371104,
+    "Type": "EntityStateByBpTypeOnline",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "branch3.7_239_Gameplay048"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      },
+      {
+        "Key": "Tag",
+        "Value": "-374576888"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371111,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "239850010"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371112,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "239850011"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137112,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "239850010-239850011"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137113,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "EnterTreeBox"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137114,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "272850000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137115,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "239850014"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137116,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "GiantUpgrade"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137117,
+    "Type": "EntityStateByBpTypeOnline",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BpType",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan1"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      },
+      {
+        "Key": "Tag",
+        "Value": "-374576888"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371181,
+    "Type": "EntityStateById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "270850498"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      },
+      {
+        "Key": "Tag",
+        "Value": "-374576888"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371185,
+    "Type": "EntityStateById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "270850430"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      },
+      {
+        "Key": "Tag",
+        "Value": "-374576888"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137120,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "239850427"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137121,
+    "Type": "EntityDie",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "239850427"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371221,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850012"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371222,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850015"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371223,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850014"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371224,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850013"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371231,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850016"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371232,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850017"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371233,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850018"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371234,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850019"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371235,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850020"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137124,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850016-260850017-260850018-260850019-260850020"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137125,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850012-260850013-260850014-260850015"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371261,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850008"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371262,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850006"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371271,
+    "Type": "CheckLevelPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371272,
+    "Type": "CheckLevelPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850003"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371273,
+    "Type": "CheckLevelPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "294850000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371281,
+    "Type": "CheckLevelPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371282,
+    "Type": "CheckLevelPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850003"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "9"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137129,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "923000000"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "69"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137130,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "923000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137131,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "265850694"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "912"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137132,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "923000000"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "102"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137133,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "CrossEdge"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137134,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "BoxOut"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137135,
+    "Type": "CheckLevelPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "232000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137136,
+    "Type": "LevelPlayComplete",
+    "NeedNum": 15,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "273850011-273850012-273850013-273850014-273850015-923850009-923850010-923850011-923850012-923850013-923850002-923850003-923850004-923850005-270850041"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137137,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "923850000"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "16"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137138,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "261000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137139,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "261000000"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "91"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101137141,
+    "Type": "CheckLevelPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "683000003"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201616,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "Formation3DView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开Formation3DView后触发10298",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201617,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "Formation2DView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开EditFormationView后触发10301",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201618,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlMainView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlMainView后触发20582",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201619,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlBackpackView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlBackpackView后触发20583",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201620,
+    "Type": "OnDangoBrawlBackpackAddItem",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第一关第一回合放入新物品",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201621,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "DangoBrawlFightStart"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开BattleView后触发20585",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201622,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlRoundFailureSettleView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlFailureSettleView后触发20586",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201623,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlRoundSuccessSettleView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlSuccessSettleView后触发20610",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201624,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlBackpackView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlBackpackView后触发20587",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201625,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "DangoBrawlShopBought"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子第一关第二回合购买物品",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201626,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlBackpackView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlBackpackView后触发20589",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201627,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlBackpackView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlBackpackView后触发20590",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201628,
+    "Type": "OnDangoBrawlHasCombinableItem",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111300001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子出现可合成道具",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201629,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlBackpackView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlBackpackView后触发20592",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201630,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlBackpackView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlBackpackView后触发20593",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201631,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "DangoBrawlFightStart"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开BattleView后触发20596",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201632,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlBackpackView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlBackpackView后触发20597",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201633,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlBackpackView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlBackpackView后触发20598",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201634,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlHandBookView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlHandBookView后触发20599",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201635,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlLevelView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开DangoBrawlLevelView后触发20600",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201636,
+    "Type": "CheckUIShowDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "DangoBrawlSuccessSettleView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子附加赛胜利界面显示完成",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201637,
+    "Type": "CheckUiItemShow",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ViewName",
+        "Value": "DangoBrawlSuccessSettleView"
+      },
+      {
+        "Key": "MarkName",
+        "Value": "3.7_tuanzi_21"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "团子附加赛按钮组件显示",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201638,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "GiantSystemMainView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开GiantSystemMainView后触发20611",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201639,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "GiantSystemMainView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "打开GiantSystemMainView后触发20612",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201640,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_9"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "火匣底座：首次靠近branch3.7_239_Gameplay_9",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201641,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_13_Gameplay_8"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "木匣底座：首次靠近branch3.7_13_Gameplay_8",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201642,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_13_Gameplay_9"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "水匣底座：首次靠近branch3.7_13_Gameplay_9",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201643,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_13_Gameplay_3_7_1"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "心钥井：首次靠近branch3.7_13_Gameplay_3_7_1",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201644,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_232_Gameplay_3_7/Gameplay1"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "小狐狸门：首次靠近branch3.7_232_Gameplay_3_7/Gameplay1",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201645,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_40_Gameplay_3_7/WaterBox4"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "水匣运输箱：首次靠近branch3.7_40_Gameplay_3_7/WaterBox4",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201646,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_40_Gameplay_3_7/WaterBox5"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "水匣逆转机关一：首次靠近branch3.7_40_Gameplay_3_7/WaterBox5",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201647,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_40_Gameplay_3_7/WaterBox5"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "水匣逆转机关二：首次靠近branch3.7_40_Gameplay_3_7/WaterBox5",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201648,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_40_Gameplay_3_7/WaterBox1"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "水匣小狐狸虚影：首次靠近branch3.7_40_Gameplay_3_7/WaterBox1",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201649,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_672_Monster_NpcMonster1"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "水匣望回环友态：首次靠近branch3.7_672_Monster_NpcMonster1",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201650,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_17_Gameplay_3_7/WoodenBox3"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "木匣玉石树机关：首次靠近branch3.7_17_Gameplay_3_7/WoodenBox3",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201651,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_17_Gameplay_3_7/WoodenBox1"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "木匣花瓶机关：首次靠近branch3.7_17_Gameplay_3_7/WoodenBox1",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201652,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_17_Gameplay_3_7/WoodenBox4"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "木匣增生玉石块：首次靠近branch3.7_17_Gameplay_3_7/WoodenBox4",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201653,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_17_Gameplay_3_7/WoodenBox5"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "木匣增生玉石块：首次靠近branch3.7_17_Gameplay_3_7/WoodenBox5",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201654,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_17_Gameplay_3_7/WoodenBox7"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "木匣增生玉石块：首次靠近branch3.7_17_Gameplay_3_7/WoodenBox7",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201655,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan1"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人钟机关：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan1",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201656,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan2"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人信物：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan2",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201657,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan3"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人信物：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan3",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201658,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan4"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人信物：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan4",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201659,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan5"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人信物：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan5",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201660,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan6"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人信物：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan6",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201661,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan7"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人信物：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan7",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201662,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan8"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人信物：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan8",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201663,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan9"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人信物：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan9",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201664,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_239_Gameplay_3_7/GhostTitan10"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "巨人信物：首次靠近branch3.7_239_Gameplay_3_7/GhostTitan10",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201665,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_41_Gameplay_3_7/FireBox1"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "火匣灯笼：首次靠近branch3.7_41_Gameplay_3_7/FireBox1",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201666,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_41_Gameplay_3_7/FireBox3"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "火匣录像带：首次靠近branch3.7_41_Gameplay_3_7/FireBox3",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201667,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_41_Gameplay_3_7/FireBox2"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "火匣探照灯：首次靠近branch3.7_41_Gameplay_3_7/FireBox2",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201668,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20583"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371191,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "GetWoodBuff"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371192,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "GetWaterBuff"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371193,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "GetFireBuff"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201669,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "DangoBrawlRoundStartAnimDone"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904749,
+    "Type": "NewTowerRecord",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "8"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "401800000"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "CycleId",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201670,
+    "Type": "CheckFormationViewDimension",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Dimension",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201671,
+    "Type": "CheckFormationViewDimension",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Dimension",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2129,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "7"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2130,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2131,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "143"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2132,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "23"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201672,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "260850072"
+      },
+      {
+        "Key": "Distance",
+        "Value": "1000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201673,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "260850125"
+      },
+      {
+        "Key": "Distance",
+        "Value": "1001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201674,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "260850493"
+      },
+      {
+        "Key": "Distance",
+        "Value": "1002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201675,
+    "Type": "CheckRangeByPbDataId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PbDataId",
+        "Value": "260850531"
+      },
+      {
+        "Key": "Distance",
+        "Value": "1003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201676,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_17_Gameplay_3_7/WoodenBox5"
+      },
+      {
+        "Key": "Distance",
+        "Value": "650"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201677,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_17_Gameplay_3_7/WoodenBox7"
+      },
+      {
+        "Key": "Distance",
+        "Value": "651"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201678,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_17_Gameplay_3_7/WoodenBox8"
+      },
+      {
+        "Key": "Distance",
+        "Value": "651"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 313710101,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850009"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 313710102,
+    "Type": "DailyQuestGroupCompleteTimes",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "DQGroupId",
+        "Value": "35303"
+      },
+      {
+        "Key": "DQTimes",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 313710103,
+    "Type": "DailyQuestGroupCompleteTimes",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "DQGroupId",
+        "Value": "37101"
+      },
+      {
+        "Key": "DQTimes",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 2133,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "923000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "83"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201679,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "MatchThreeGuideFocusPieceCleared"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200682,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "886000002"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011002411,
+    "Type": "EntityInteractById",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "123700073"
+      },
+      {
+        "Key": "InstanceId",
+        "Value": "20020008"
+      },
+      {
+        "Key": "AreaIds",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201680,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "TeamSceneRoleSelectView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201681,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "TeamRoleSelectView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201682,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "QuestView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201683,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "QuestTreeMainView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201684,
+    "Type": "CheckClientQuestNodeStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "125000124"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "84"
+      },
+      {
+        "Key": "状态",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201685,
+    "Type": "CheckClientQuestNodeStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "任务Id",
+        "Value": "125000124"
+      },
+      {
+        "Key": "步骤Id",
+        "Value": "94"
+      },
+      {
+        "Key": "状态",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1012003760,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "168850012"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201686,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "Formation3DView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201687,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "Formation2DView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371401,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "261000000"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "32"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371402,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "261000000"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "129"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
       }
     ],
     "LimitParamsOpe": [],

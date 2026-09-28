@@ -19,5 +19,26 @@
       }
     },
     "TidTipText": "OutAreaBorderConfig_750001_TipText"
+  },
+  {
+    "Id": 850001,
+    "Desc": "一级POI白雾拉回",
+    "Data": {
+      "Type": "TeleportTimer",
+      "OutAreaBorderTime": 5,
+      "TeleportTransitionConfigId": 750001,
+      "OutAreaBorderEffectOption": {
+        "Type": "BuffId",
+        "BuffIdList": [
+          640037033,
+          640037034
+        ]
+      },
+      "OutAreaBorderTipOption": {
+        "Type": "DownTimeTextTip",
+        "EdTidTipText": "狐影阻止你继续深入该区域"
+      }
+    },
+    "TidTipText": "OutAreaBorderConfig_850001_TipText"
   }
 ]

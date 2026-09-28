@@ -5844,38 +5844,6 @@
     "ActionId": 4000070
   },
   {
-    "ActionGuid": "137a972ef3d5449ea087b57df96ee6a8",
-    "Name": "ClearPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [
-        915700098,
-        915700096
-      ]
-    },
-    "ActionId": 3000157
-  },
-  {
-    "ActionGuid": "3e28115016dc4f50a80ded46779e87e4",
-    "Name": "AddPlayBubble",
-    "Async": false,
-    "Params": {
-      "EntityIds": [
-        915700096,
-        915700098
-      ],
-      "EnterRadius": 800,
-      "LeaveRadius": 1500,
-      "Flow": {
-        "FlowListName": "剧情_3_0_主线_拉海洛主线_上半_1",
-        "FlowId": 12,
-        "StateId": 2
-      },
-      "WaitTime": 10
-    },
-    "ActionId": 3000156
-  },
-  {
     "ActionGuid": "79e8e037e3974fa0893fd1547f845597",
     "Name": "AddPlayBubble",
     "Async": false,
@@ -7376,6 +7344,17 @@
     "ActionId": 3000017
   },
   {
+    "ActionGuid": "f5a13c76c23c496487e7b58fa8ef025c",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        168850016
+      ]
+    },
+    "ActionId": 3000002
+  },
+  {
     "ActionGuid": "50ab80cf1e234982b8ab0c6e6f9359f5",
     "Name": "AddPlayBubble",
     "Async": false,
@@ -7461,5 +7440,33 @@
       ]
     },
     "ActionId": 3000218
+  },
+  {
+    "ActionGuid": "4f9dfeed40f54b6eba7e7d12bcc8017c",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": {
+      "EntityIds": [
+        237850049,
+        237850047,
+        237850012
+      ],
+      "Flow": {
+        "FlowListName": "剧情_3_7_每日_归期未有期_续",
+        "FlowId": 11,
+        "StateId": 1
+      },
+      "TriggerCylinderConfig": {
+        "InnerConfig": {
+          "Radius": 700,
+          "Height": 300
+        },
+        "OuterConfig": {
+          "Radius": 1500,
+          "Height": 900
+        }
+      }
+    },
+    "ActionId": 3000024
   }
 ]

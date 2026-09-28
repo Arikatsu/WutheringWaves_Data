@@ -8349,7 +8349,7 @@
     "Id": 200224,
     "DebugText": "活跃度领奖请求参数错误",
     "Text": "ErrorCode_200224_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 200225,
@@ -29562,6 +29562,18 @@
     "IsTip": false
   },
   {
+    "Id": 1500167,
+    "DebugText": "非召唤物",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500168,
+    "DebugText": "修改召唤物实体状态不存在该tag Path:{0},TagId:{1}",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2700286,
     "DebugText": "副本配置不存在",
     "Text": "",
@@ -29678,8 +29690,8 @@
   {
     "Id": 2700304,
     "DebugText": "增益选项不存在",
-    "Text": "",
-    "IsTip": false
+    "Text": "ErrorCode_SurvivorsOptionEmpty_Text",
+    "IsTip": true
   },
   {
     "Id": 2700305,
@@ -29798,8 +29810,8 @@
   {
     "Id": 2700315,
     "DebugText": "房间任务参数错误",
-    "Text": "",
-    "IsTip": false
+    "Text": "ErrorCode_SurvivorsLevelNoConf_Text",
+    "IsTip": true
   },
   {
     "Id": 2700316,
@@ -29916,9 +29928,105 @@
     "IsTip": false
   },
   {
+    "Id": 2500372,
+    "DebugText": "找不到配置",
+    "Text": "DangoBrawl_ErrorCode_1",
+    "IsTip": true
+  },
+  {
+    "Id": 2500373,
+    "DebugText": "联机下不可进入",
+    "Text": "DangoBrawl_ErrorCode_2",
+    "IsTip": true
+  },
+  {
+    "Id": 2500374,
+    "DebugText": "角色不合法",
+    "Text": "DangoBrawl_ErrorCode_3",
+    "IsTip": true
+  },
+  {
+    "Id": 2500375,
+    "DebugText": "找不到副本组件",
+    "Text": "DangoBrawl_ErrorCode_4",
+    "IsTip": true
+  },
+  {
+    "Id": 2500376,
+    "DebugText": "副本状态错误",
+    "Text": "DangoBrawl_ErrorCode_5",
+    "IsTip": true
+  },
+  {
+    "Id": 2500377,
+    "DebugText": "金币不足",
+    "Text": "DangoBrawl_ErrorCode_6",
+    "IsTip": true
+  },
+  {
+    "Id": 2500378,
+    "DebugText": "商店槽位错误",
+    "Text": "DangoBrawl_ErrorCode_7",
+    "IsTip": true
+  },
+  {
+    "Id": 2500379,
+    "DebugText": "背包操作类型错误",
+    "Text": "DangoBrawl_ErrorCode_8",
+    "IsTip": true
+  },
+  {
+    "Id": 2500380,
+    "DebugText": "背包物品未找到",
+    "Text": "DangoBrawl_ErrorCode_9",
+    "IsTip": true
+  },
+  {
+    "Id": 2500381,
+    "DebugText": "背包槽位参数错误",
+    "Text": "DangoBrawl_ErrorCode_10",
+    "IsTip": true
+  },
+  {
+    "Id": 2500382,
+    "DebugText": "背包目标格子被占用或越界",
+    "Text": "DangoBrawl_ErrorCode_11",
+    "IsTip": true
+  },
+  {
+    "Id": 2500383,
+    "DebugText": "背包同物品重复操作",
+    "Text": "DangoBrawl_ErrorCode_12",
+    "IsTip": true
+  },
+  {
+    "Id": 2500384,
+    "DebugText": "找不到对应的合成配方",
+    "Text": "DangoBrawl_ErrorCode_13",
+    "IsTip": true
+  },
+  {
+    "Id": 2500385,
+    "DebugText": "特殊物品已达上限（背包和备战席只能有一个）",
+    "Text": "DangoBrawl_ErrorCode_14",
+    "IsTip": true
+  },
+  {
+    "Id": 2500386,
+    "DebugText": "物品Cost总和超过Cost属性上限",
+    "Text": "DangoBrawl_ErrorCode_15",
+    "IsTip": true
+  },
+  {
     "Id": 1100629,
     "DebugText": "全部商品已锁定",
     "Text": "ErrorCode_KurotatoShopReflashFail_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000200,
+    "DebugText": "团子活动配置不存在",
+    "Text": "DangoBrawl_ErrorCode_17",
     "IsTip": false
   },
   {
@@ -30003,6 +30111,18 @@
     "Id": 3000202,
     "DebugText": "XSTS XUID 不匹配",
     "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2600125,
+    "DebugText": "匣子元素类型不匹配",
+    "Text": "匣子元素类型不匹配",
+    "IsTip": false
+  },
+  {
+    "Id": 2600126,
+    "DebugText": "匹配类型为空",
+    "Text": "匹配类型为空",
     "IsTip": false
   },
   {
@@ -30102,6 +30222,42 @@
     "IsTip": true
   },
   {
+    "Id": 900086,
+    "DebugText": "巨人系统未开启",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 900087,
+    "DebugText": "巨人交付区域未激活",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 900088,
+    "DebugText": "巨人交付道具非法",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 900089,
+    "DebugText": "巨人交付道具消耗不足",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 900090,
+    "DebugText": "巨人交付道具不匹配",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 900091,
+    "DebugText": "巨人交付已满级",
+    "Text": "",
+    "IsTip": true
+  },
+  {
     "Id": 2700329,
     "DebugText": "路线配置不存在",
     "Text": "",
@@ -30144,9 +30300,219 @@
     "IsTip": false
   },
   {
+    "Id": 3000211,
+    "DebugText": "活动未开启",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000212,
+    "DebugText": "活动数据不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000213,
+    "DebugText": "奖励配置不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000214,
+    "DebugText": "奖励已领取",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000215,
+    "DebugText": "登录天数不足",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000216,
+    "DebugText": "请求参数错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 900092,
+    "DebugText": "巨人满级交付已达最大次数",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 900093,
+    "DebugText": "巨人未达到最大等级",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 1900402,
+    "DebugText": "角色为解锁",
+    "Text": "ErrorCode_MatchThreeRoleLock_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900403,
+    "DebugText": "关卡积分超上限",
+    "Text": "ErrorCode_ErrMatchThreeScoreInvalid_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900404,
+    "DebugText": "消除沙漏数量超过上限",
+    "Text": "ErrorCode_ErrMatchThreeHourGlassInvalid_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900405,
+    "DebugText": "消除瓶子数量超上限",
+    "Text": "ErrorCode_ErrMatchThreeBottleInvalid_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900406,
+    "DebugText": "数据类型不匹配",
+    "Text": "ErrorCode_ErrMatchThreeRecordTypeMismatch_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3000217,
+    "DebugText": "条件未达成",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500387,
+    "DebugText": "备战席已满",
+    "Text": "DangoBrawl_ErrorCode_16",
+    "IsTip": true
+  },
+  {
     "Id": 3100320,
     "DebugText": "摩托车外观不可见",
     "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2600127,
+    "DebugText": "组件配置不存在",
+    "Text": "组件配置不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2600128,
+    "DebugText": "已经手持匣子核心",
+    "Text": "已经手持匣子核心",
+    "IsTip": false
+  },
+  {
+    "Id": 2600129,
+    "DebugText": "没有手持匣子核心",
+    "Text": "没有手持匣子核心",
+    "IsTip": false
+  },
+  {
+    "Id": 2600130,
+    "DebugText": "匣子底座已经有核心",
+    "Text": "匣子底座已经有核心",
+    "IsTip": false
+  },
+  {
+    "Id": 2600131,
+    "DebugText": "匣子底座没有核心",
+    "Text": "匣子底座没有核心",
+    "IsTip": false
+  },
+  {
+    "Id": 2600132,
+    "DebugText": "匣子底座交互条件未满足",
+    "Text": "匣子底座交互条件未满足",
+    "IsTip": false
+  },
+  {
+    "Id": 3000218,
+    "DebugText": "参数数量错误",
+    "Text": "DangoBrawl_ErrorCode_18",
+    "IsTip": false
+  },
+  {
+    "Id": 3000219,
+    "DebugText": "任务配置不存在",
+    "Text": "DangoBrawl_ErrorCode_19",
+    "IsTip": false
+  },
+  {
+    "Id": 3000220,
+    "DebugText": "活动ID不匹配",
+    "Text": "DangoBrawl_ErrorCode_20",
+    "IsTip": false
+  },
+  {
+    "Id": 3000221,
+    "DebugText": "任务已领奖",
+    "Text": "DangoBrawl_ErrorCode_21",
+    "IsTip": false
+  },
+  {
+    "Id": 3000222,
+    "DebugText": "任务未完成",
+    "Text": "DangoBrawl_ErrorCode_22",
+    "IsTip": false
+  },
+  {
+    "Id": 3000223,
+    "DebugText": "掉落配置未找到",
+    "Text": "DangoBrawl_ErrorCode_23",
+    "IsTip": false
+  },
+  {
+    "Id": 3000224,
+    "DebugText": "任务重复",
+    "Text": "DangoBrawl_ErrorCode_24",
+    "IsTip": false
+  },
+  {
+    "Id": 3000225,
+    "DebugText": "不存在领奖条目",
+    "Text": "DangoBrawl_ErrorCode_25",
+    "IsTip": false
+  },
+  {
+    "Id": 3000226,
+    "DebugText": "前置关卡未通关",
+    "Text": "DangoBrawl_ErrorCode_26",
+    "IsTip": false
+  },
+  {
+    "Id": 3000227,
+    "DebugText": "通关出现错误",
+    "Text": "DangoBrawl_ErrorCode_27",
+    "IsTip": false
+  },
+  {
+    "Id": 1100630,
+    "DebugText": "短信主题数据不存在",
+    "Text": "ErrorCode_ErrorShortMessageChatThemeNoData_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100631,
+    "DebugText": "短信主题配置不存在",
+    "Text": "ErrorCode_ErrorShortMessageChatThemeNoConf_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100632,
+    "DebugText": "短信挂饰数据不存在",
+    "Text": "ErrorCode_ErrorShortMessageChatCharmNoData_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100633,
+    "DebugText": "短信挂饰配置不存在",
+    "Text": "ErrorCode_ErrorShortMessageChatCharmNoConf_Text",
     "IsTip": false
   },
   {
@@ -30156,9 +30522,69 @@
     "IsTip": false
   },
   {
+    "Id": 3000228,
+    "DebugText": "定向兑换目标不匹配",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000229,
+    "DebugText": "找不到置换参数配置",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900407,
+    "DebugText": "相机模式未解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2600133,
+    "DebugText": "元素类型不匹配",
+    "Text": "元素类型不匹配",
+    "IsTip": false
+  },
+  {
+    "Id": 2600134,
+    "DebugText": "匣子持有未开启",
+    "Text": "匣子持有未开启",
+    "IsTip": false
+  },
+  {
+    "Id": 2600135,
+    "DebugText": "核心不在底座中",
+    "Text": "核心不在底座中",
+    "IsTip": false
+  },
+  {
+    "Id": 900094,
+    "DebugText": "当前没有对应的奖励可领取",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 2600136,
+    "DebugText": "核心配置不存在",
+    "Text": "核心配置不存在",
+    "IsTip": false
+  },
+  {
     "Id": 3100323,
     "DebugText": "编队中有同名角色，请先处理",
     "Text": "ErrorCode_NewPlayerSupportSameParent",
+    "IsTip": true
+  },
+  {
+    "Id": 900095,
+    "DebugText": "当前没有对应的奖励节点未激活",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 1900408,
+    "DebugText": "您被禁止使用该道具",
+    "Text": "ErrorCode_ErrItemUseBanned_Text",
     "IsTip": true
   },
   {
@@ -30174,9 +30600,111 @@
     "IsTip": true
   },
   {
+    "Id": 200705,
+    "DebugText": "非可堆叠声骸",
+    "Text": "ErrorCode_ErrPolishPhantomStackKey_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200706,
+    "DebugText": "非可堆叠声骸",
+    "Text": "ErrorCode_ErrSplitPhantomStackKey_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200707,
+    "DebugText": "非可堆叠声骸",
+    "Text": "ErrorCode_ErrConsumePhantomStackKey_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200708,
+    "DebugText": "非可堆叠声骸",
+    "Text": "ErrorCode_ErrBatchPolishPhantomStackKey_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200709,
+    "DebugText": "已经达到最大可堆叠数量",
+    "Text": "PhantomStack_DiscardedTips",
+    "IsTip": true
+  },
+  {
+    "Id": 200710,
+    "DebugText": "非可堆叠声骸",
+    "Text": "ErrorCode_ErrReturnPhantomStackKey_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200711,
+    "DebugText": "非可堆叠声骸",
+    "Text": "ErrorCode_ErrRefiningPhantomStackKey_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900411,
+    "DebugText": "声骸编队无法自拍",
+    "Text": "ErrorCode_ErrPhantomSelfPortrait_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900412,
+    "DebugText": "试用角色编队无法自拍",
+    "Text": "ErrorCode_ErrRoleTrailSelfPortrait_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900413,
+    "DebugText": "角色状态无法自拍",
+    "Text": "ErrorCode_ErrPlayerStateSelfPortrait_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900414,
+    "DebugText": "主角死亡无法自拍",
+    "Text": "ErrorCode_ErrMainRoleDeadSelfPortrait_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900415,
+    "DebugText": "剧情中无法自拍",
+    "Text": "ErrorCode_ErrInFlowSelfPortrait_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900416,
+    "DebugText": "载具状态下无法自拍",
+    "Text": "ErrorCode_ErrInVehicleSelfPortrait_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900417,
+    "DebugText": "找不到激活的主角",
+    "Text": "ErrorCode_ErrMainRoleActiveSelfPortrait_Text",
+    "IsTip": true
+  },
+  {
     "Id": 1900418,
     "DebugText": "弹奏道具不在可以使用状态",
     "Text": "ErrorCode_ErrZitherItemUse_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2600137,
+    "DebugText": "联机模式下不可用",
+    "Text": "联机模式下不可用",
+    "IsTip": false
+  },
+  {
+    "Id": 900096,
+    "DebugText": "循环传送配置不存在",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 900097,
+    "DebugText": "循环传送条件不满足",
+    "Text": "",
     "IsTip": true
   },
   {
@@ -30196,5 +30724,77 @@
     "DebugText": "匹配中无法使用",
     "Text": "ErrorCode_IsMatchingItemUse_Text",
     "IsTip": true
+  },
+  {
+    "Id": 3000230,
+    "DebugText": "摩托跑酷配置不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900421,
+    "DebugText": "传送中无法自拍",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900422,
+    "DebugText": "匹配中无法自拍",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 200712,
+    "DebugText": "声骸背包已满",
+    "Text": "PhantomStack_FullPackTips",
+    "IsTip": true
+  },
+  {
+    "Id": 1900460,
+    "DebugText": "回顾道具使用失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900461,
+    "DebugText": "该回顾道具使用类型不支持",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900462,
+    "DebugText": "该类型道具不支持在回顾中使用",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900463,
+    "DebugText": "回顾道具使用数量非法",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900464,
+    "DebugText": "回顾道具当前不可用",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500388,
+    "DebugText": "服务器内部错误",
+    "Text": "ErrorCode_1100214_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500389,
+    "DebugText": "服务器内部错误",
+    "Text": "ErrorCode_1100214_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500390,
+    "DebugText": "服务器内部错误",
+    "Text": "ErrorCode_1100214_Text",
+    "IsTip": false
   }
 ]
