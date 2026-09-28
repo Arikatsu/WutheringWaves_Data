@@ -1,0 +1,93 @@
+[
+  {
+    "Id": 1,
+    "Type": 0,
+    "Name": "Camera_Mode_Tripod",
+    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/UiCameraSystem37/TabMenu/SP_ItemTabMenuIcon_StandMode.SP_ItemTabMenuIcon_StandMode",
+    "DAPath": "/Game/Aki/Data/Camera/PhotoCamera/DA/DA_Normal_PhotoCameraConfig.DA_Normal_PhotoCameraConfig",
+    "PhotoSetupList": [
+      1,
+      3,
+      13,
+      15,
+      11,
+      12,
+      14,
+      9
+    ],
+    "MotionSelectMode": 1,
+    "PhotoTemplateGroupId": 1,
+    "BanTabList": [],
+    "BanSubTabList": [
+      502
+    ]
+  },
+  {
+    "Id": 2,
+    "Type": 1,
+    "Name": "Camera_Mode_Selfie",
+    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/UiCameraSystem37/TabMenu/SP_ItemTabMenuIcon_SelfieMode.SP_ItemTabMenuIcon_SelfieMode",
+    "DAPath": "/Game/Aki/Data/Camera/PhotoCamera/DA/DA_Selfie_PhotoCameraConfig.DA_Selfie_PhotoCameraConfig",
+    "PhotoSetupList": [
+      13,
+      16,
+      18,
+      19,
+      9
+    ],
+    "MotionSelectMode": 2,
+    "PhotoTemplateGroupId": 0,
+    "BanTabList": [],
+    "BanSubTabList": [
+      102
+    ]
+  },
+  {
+    "Id": 3,
+    "Type": 2,
+    "Name": "Camera_Mode_Handheld",
+    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/UiCameraSystem37/TabMenu/SP_ItemTabMenuIcon_HandheldMode.SP_ItemTabMenuIcon_HandheldMode",
+    "DAPath": "/Game/Aki/Data/Camera/PhotoCamera/DA/DA_FirstPerson_PhotoCameraConfig.DA_FirstPerson_PhotoCameraConfig",
+    "PhotoSetupList": [
+      13,
+      15,
+      11,
+      12,
+      9
+    ],
+    "MotionSelectMode": 0,
+    "PhotoTemplateGroupId": 0,
+    "BanTabList": [
+      3,
+      5
+    ],
+    "BanSubTabList": [
+      102
+    ]
+  },
+  {
+    "Id": 4,
+    "Type": 3,
+    "Name": "Camera_Mode_Drone",
+    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/UiCameraSystem37/TabMenu/SP_ItemTabMenuIcon_StandModeFar.SP_ItemTabMenuIcon_StandModeFar",
+    "DAPath": "/Game/Aki/Data/Camera/PhotoCamera/DA/DA_Drone_PhotoCameraConfig.DA_Drone_PhotoCameraConfig",
+    "PhotoSetupList": [
+      1,
+      3,
+      13,
+      21,
+      23,
+      24,
+      25,
+      9
+    ],
+    "MotionSelectMode": 1,
+    "PhotoTemplateGroupId": 2,
+    "BanTabList": [
+      3
+    ],
+    "BanSubTabList": [
+      502
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "Id": 850001,
+    "VolumeId": 10001,
+    "Desc": "",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "CompareVar",
+          "Var1": {
+            "Type": "Boolean",
+            "Source": "Other",
+            "RefType": "Entity",
+            "RefId": 13850208,
+            "Name": "触发标记"
+          },
+          "Compare": "Eq",
+          "Var2": {
+            "Type": "Boolean",
+            "Source": "Constant",
+            "Value": false
+          }
+        },
+        {
+          "Type": "CompareEntityState",
+          "EntityId": 13850210,
+          "Compare": "Eq",
+          "State": "关卡.Common.状态.常态"
+        }
+      ]
+    },
+    "Actions": "[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":13850210,\"State\":\"关卡.Common.状态.激活\"},\"ActionGuid\":\"34db494e3ac94b9bb46b78a8f6a31e1f\"},{\"Name\":\"SetVar\",\"Params\":{\"VarLeft\":{\"Type\":\"Boolean\",\"Source\":\"Other\",\"RefType\":\"Entity\",\"RefId\":13850208,\"Name\":\"触发标记\"},\"VarRight\":{\"Type\":\"Boolean\",\"Source\":\"Constant\",\"Value\":true}},\"ActionGuid\":\"f3114c663730452290514ee373c65e07\"}]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_Warning.DA_Fx_Screen_Warning\"}}]"
+  },
+  {
+    "Id": 850002,
+    "VolumeId": 10001,
+    "Desc": "",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "CompareVar",
+          "Var1": {
+            "Type": "Boolean",
+            "Source": "Other",
+            "RefType": "Entity",
+            "RefId": 13850208,
+            "Name": "触发标记"
+          },
+          "Compare": "Eq",
+          "Var2": {
+            "Type": "Boolean",
+            "Source": "Constant",
+            "Value": true
+          }
+        },
+        {
+          "Type": "CompareEntityState",
+          "EntityId": 13850210,
+          "Compare": "Eq",
+          "State": "关卡.Common.状态.激活"
+        }
+      ]
+    },
+    "Actions": "[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":13850210,\"State\":\"关卡.Common.状态.常态\"},\"ActionGuid\":\"34db494e3ac94b9bb46b78a8f6a31e1f\"},{\"Name\":\"SetVar\",\"Params\":{\"VarLeft\":{\"Type\":\"Boolean\",\"Source\":\"Other\",\"RefType\":\"Entity\",\"RefId\":13850208,\"Name\":\"触发标记\"},\"VarRight\":{\"Type\":\"Boolean\",\"Source\":\"Constant\",\"Value\":false}},\"ActionGuid\":\"cf8879c00c39437ba4434d629f386544\"}]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"MpcEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/PostProcess/BigWorld/DA_Fx_Post_HeiChao.DA_Fx_Post_HeiChao\"}}]"
+  },
+  {
+    "Id": 850003,
+    "VolumeId": 100001,
+    "Desc": "巨人切换动作",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[{\"Name\":\"GiantTriggerResponse\",\"Params\":{\"ResponseFunctions\":[{\"Type\":\"PlayAnimation\",\"GiantAnimationId\":850008},{\"Type\":\"PlayFlow\",\"FlowConfig\":{\"FlowListName\":\"剧情_3.7_巨人响应\",\"FlowId\":37,\"StateId\":1}}]},\"ActionGuid\":\"bdf49477da084c028fe54a2b2e978bbf\"}]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  },
+  {
+    "Id": 850004,
+    "VolumeId": 100001,
+    "Desc": "穿越边界成就检测",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": [
+        {
+          "Type": "CompareVar",
+          "Var1": {
+            "Type": "Int",
+            "Source": "Global",
+            "Keyword": "CrossEdge"
+          },
+          "Compare": "Ne",
+          "Var2": {
+            "Type": "Int",
+            "Source": "Constant",
+            "Value": 1
+          }
+        }
+      ]
+    },
+    "Actions": "[{\"Name\":\"SetVar\",\"Params\":{\"VarLeft\":{\"Type\":\"Int\",\"Source\":\"Global\",\"Keyword\":\"CrossEdge\"},\"VarRight\":{\"Type\":\"Int\",\"Source\":\"Constant\",\"Value\":1}},\"ActionGuid\":\"992678fc071248068b831394cba0ffb7\"}]",
+    "ClientLogic": "[]"
+  },
+  {
+    "Id": 850005,
+    "VolumeId": 100002,
+    "Desc": "无边界屏幕特效",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  },
+  {
+    "Id": 850006,
+    "VolumeId": 100003,
+    "Desc": "无边界屏幕特效",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  },
+  {
+    "Id": 850007,
+    "VolumeId": 100004,
+    "Desc": "无边界屏幕特效",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  },
+  {
+    "Id": 850008,
+    "VolumeId": 100005,
+    "Desc": "无边界屏幕特效",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  },
+  {
+    "Id": 850009,
+    "VolumeId": 100006,
+    "Desc": "无边界屏幕特效",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  },
+  {
+    "Id": 850010,
+    "VolumeId": 100007,
+    "Desc": "无边界屏幕特效",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  },
+  {
+    "Id": 850011,
+    "VolumeId": 100008,
+    "Desc": "无边界屏幕特效",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  },
+  {
+    "Id": 850012,
+    "VolumeId": 100009,
+    "Desc": "无边界屏幕特效",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  },
+  {
+    "Id": 850013,
+    "VolumeId": 100010,
+    "Desc": "无边界屏幕特效",
+    "Conditions": {
+      "Type": 0,
+      "Conditions": []
+    },
+    "Actions": "[]",
+    "ClientLogic": "[{\"Type\":\"PlayEffect\",\"EffectConfig\":{\"Type\":\"ScreenEffect\",\"Path\":\"/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_ChuanYueView_Water_01.DA_Fx_Screen_ChuanYueView_Water_01\"}}]"
+  }
+]
