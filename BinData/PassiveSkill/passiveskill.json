@@ -72200,19 +72200,22 @@
     "TriggerParams": {
       "CheckOwnerTags": [
         "角色.41f5baca.2da595df.538b6325"
+      ],
+      "CheckOwnerBuff": [
+        1312010022
       ]
     },
-    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags)",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags) \nAND\n!MatchAnyBuff(Owner,CheckOwnerBuff)",
     "SubSkillAction": [],
     "InstigatorType": "Owner",
     "ActionBaseProbability": -1,
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "1312010032",
-      "1312010093",
-      "1312010033",
       "1312010034",
-      "1312010035"
+      "1312010035",
+      "1312010093",
+      "1312010033"
     ],
     "ActionScriptParams": {},
     "SkillActionScript": "FALSE",

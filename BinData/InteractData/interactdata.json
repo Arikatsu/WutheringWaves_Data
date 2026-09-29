@@ -148789,8 +148789,12 @@
         {
           "Name": "ChangeEntityState",
           "Params": {
-            "Type": "Directly",
-            "EntityId": 690850427,
+            "Type": "BatchDirectly",
+            "EntityId": 0,
+            "EntityIds": [
+              690850427,
+              690850790
+            ],
             "State": "关卡.Common.状态.激活"
           },
           "ActionGuid": "86ad497b94474b66a5d5ae8b121c34d6",
@@ -153555,12 +153559,37 @@
   {
     "Guid": "3f9f975058b946b3b3aa9005aa78c95f",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_7_主线水匣",
-        "FlowId": 2,
-        "StateId": 3
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "SetVar",
+          "Params": {
+            "VarLeft": {
+              "Type": "Boolean",
+              "Source": "Self",
+              "Name": "剧情2"
+            },
+            "VarRight": {
+              "Type": "Boolean",
+              "Source": "Constant",
+              "Value": true
+            }
+          },
+          "ActionGuid": "12b59f94f03549d091d6d7c9b723addb",
+          "ActionId": 4000299
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_7_主线水匣",
+            "FlowId": 2,
+            "StateId": 3
+          },
+          "ActionGuid": "d6393eba821a41d2a230a7a5153f9681",
+          "Async": false,
+          "ActionId": 4000300
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "LevelPlay_683000003_InteractContent_185_1",
