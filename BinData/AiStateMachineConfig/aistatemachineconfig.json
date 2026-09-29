@@ -21639,7 +21639,7 @@
   {
     "Id": "SM_MB1Wuguanzhe00601_Layer3",
     "StateMachineJson": {
-      "Version": 1485282930,
+      "Version": 1246079515,
       "StateMachines": [
         3,
         36
@@ -24195,90 +24195,6 @@
             },
             {
               "From": 37,
-              "To": 51,
-              "TransitionPredictionType": 0,
-              "Weight": 0,
-              "Conditions": [
-                {
-                  "Index": 0,
-                  "Name": "CondAnd",
-                  "Type": 1,
-                  "Reverse": false,
-                  "CondAnd": {
-                    "Conditions": [
-                      1,
-                      2,
-                      6
-                    ]
-                  }
-                },
-                {
-                  "Index": 1,
-                  "Name": "CondHate",
-                  "Type": 20,
-                  "Reverse": false
-                },
-                {
-                  "Index": 2,
-                  "Name": "CondOr",
-                  "Type": 2,
-                  "Reverse": false,
-                  "CondOr": {
-                    "Conditions": [
-                      3,
-                      4,
-                      5
-                    ]
-                  }
-                },
-                {
-                  "Index": 3,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": false,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 1639442014,
-                    "TagName": "怪物.common.关卡.难度AI分类.领主复刷"
-                  }
-                },
-                {
-                  "Index": 4,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": false,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": -1282486559,
-                    "TagName": "怪物.common.关卡.难度AI分类.爬塔"
-                  }
-                },
-                {
-                  "Index": 5,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": false,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": -1965842095,
-                    "TagName": "怪物.common.关卡.难度AI分类.Rouge"
-                  }
-                },
-                {
-                  "Index": 6,
-                  "Name": "CondTag",
-                  "Type": 14,
-                  "Reverse": true,
-                  "IsClient": true,
-                  "CondTag": {
-                    "TagId": 864328243,
-                    "TagName": "系统.67b632fb.24ec047b"
-                  }
-                }
-              ]
-            },
-            {
-              "From": 37,
               "To": 53,
               "TransitionPredictionType": 0,
               "Weight": 0,
@@ -24483,6 +24399,66 @@
             },
             {
               "From": 37,
+              "To": 51,
+              "TransitionPredictionType": 0,
+              "Weight": 0,
+              "Conditions": [
+                {
+                  "Index": 0,
+                  "Name": "CondAnd",
+                  "Type": 1,
+                  "Reverse": false,
+                  "CondAnd": {
+                    "Conditions": [
+                      1,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "Index": 1,
+                  "Name": "CondHate",
+                  "Type": 20,
+                  "Reverse": false
+                },
+                {
+                  "Index": 2,
+                  "Name": "CondOr",
+                  "Type": 2,
+                  "Reverse": false,
+                  "CondOr": {
+                    "Conditions": [
+                      3,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "Index": 3,
+                  "Name": "CondTag",
+                  "Type": 14,
+                  "Reverse": false,
+                  "IsClient": true,
+                  "CondTag": {
+                    "TagId": 1639442014,
+                    "TagName": "怪物.common.关卡.难度AI分类.领主复刷"
+                  }
+                },
+                {
+                  "Index": 4,
+                  "Name": "CondTag",
+                  "Type": 14,
+                  "Reverse": false,
+                  "IsClient": true,
+                  "CondTag": {
+                    "TagId": -1965842095,
+                    "TagName": "怪物.common.关卡.难度AI分类.Rouge"
+                  }
+                }
+              ]
+            },
+            {
+              "From": 37,
               "To": 39,
               "TransitionPredictionType": 0,
               "Weight": 0,
@@ -24512,8 +24488,8 @@
                   "Reverse": false,
                   "IsClient": true,
                   "CondTag": {
-                    "TagId": 864328243,
-                    "TagName": "系统.67b632fb.24ec047b"
+                    "TagId": -1282486559,
+                    "TagName": "怪物.common.关卡.难度AI分类.爬塔"
                   }
                 }
               ]
@@ -85213,7 +85189,7 @@
   {
     "Id": "SM_MB1HecateMd00611",
     "StateMachineJson": {
-      "Version": 1610948191,
+      "Version": 1521392822,
       "StateMachines": [
         4,
         7,
@@ -85308,6 +85284,13 @@
           "Name": "非受击",
           "TakeControlType": 0,
           "TransitionRule": 0,
+          "OnEnterActions": [
+            {
+              "Name": "ActionExitHit",
+              "Type": 103,
+              "ActionExitHit": {}
+            }
+          ],
           "Children": [],
           "Transitions": []
         },
@@ -154618,7 +154601,7 @@
   {
     "Id": "SM_MB1HecateMd00611_DaoGuan",
     "StateMachineJson": {
-      "Version": 1610948191,
+      "Version": 1521392822,
       "StateMachines": [
         4,
         7,
@@ -154713,6 +154696,13 @@
           "Name": "非受击",
           "TakeControlType": 0,
           "TransitionRule": 0,
+          "OnEnterActions": [
+            {
+              "Name": "ActionExitHit",
+              "Type": 103,
+              "ActionExitHit": {}
+            }
+          ],
           "Children": [],
           "Transitions": []
         },
@@ -354175,7 +354165,7 @@
   {
     "Id": "SM_Paotai109AS",
     "StateMachineJson": {
-      "Version": 271226982,
+      "Version": 1063472125,
       "StateMachines": [
         2
       ],
@@ -354190,11 +354180,50 @@
           "TransitionRule": 0,
           "Children": [
             3,
-            4
+            4,
+            5
           ],
           "Transitions": [
             {
+              "From": 4,
+              "To": 3,
+              "TransitionPredictionType": 0,
+              "Weight": 0,
+              "Conditions": [
+                {
+                  "Index": 0,
+                  "Name": "CondTag",
+                  "Type": 14,
+                  "Reverse": false,
+                  "IsClient": true,
+                  "CondTag": {
+                    "TagId": 291829241,
+                    "TagName": "关卡.Common.a79721bf.4bc5b1a1"
+                  }
+                }
+              ]
+            },
+            {
               "From": 3,
+              "To": 5,
+              "TransitionPredictionType": 0,
+              "Weight": 0,
+              "Conditions": [
+                {
+                  "Index": 0,
+                  "Name": "CondTag",
+                  "Type": 14,
+                  "Reverse": false,
+                  "IsClient": true,
+                  "CondTag": {
+                    "TagId": 664167479,
+                    "TagName": "关卡.Common.a79721bf.常态"
+                  }
+                }
+              ]
+            },
+            {
+              "From": 5,
               "To": 4,
               "TransitionPredictionType": 0,
               "Weight": 0,
@@ -354214,6 +354243,25 @@
             },
             {
               "From": 4,
+              "To": 5,
+              "TransitionPredictionType": 0,
+              "Weight": 0,
+              "Conditions": [
+                {
+                  "Index": 0,
+                  "Name": "CondTag",
+                  "Type": 14,
+                  "Reverse": false,
+                  "IsClient": true,
+                  "CondTag": {
+                    "TagId": 664167479,
+                    "TagName": "关卡.Common.a79721bf.常态"
+                  }
+                }
+              ]
+            },
+            {
+              "From": 5,
               "To": 3,
               "TransitionPredictionType": 0,
               "Weight": 0,
@@ -354222,7 +354270,26 @@
                   "Index": 0,
                   "Name": "CondTag",
                   "Type": 14,
-                  "Reverse": true,
+                  "Reverse": false,
+                  "IsClient": true,
+                  "CondTag": {
+                    "TagId": 291829241,
+                    "TagName": "关卡.Common.a79721bf.4bc5b1a1"
+                  }
+                }
+              ]
+            },
+            {
+              "From": 3,
+              "To": 4,
+              "TransitionPredictionType": 0,
+              "Weight": 0,
+              "Conditions": [
+                {
+                  "Index": 0,
+                  "Name": "CondTag",
+                  "Type": 14,
+                  "Reverse": false,
                   "IsClient": true,
                   "CondTag": {
                     "TagId": 1524765725,
@@ -354241,6 +354308,24 @@
           "Name": "Lock",
           "TakeControlType": 0,
           "TransitionRule": 0,
+          "OnEnterActions": [
+            {
+              "Name": "ActionRemoveTagCount",
+              "Type": 21,
+              "ActionRemoveTagCount": {
+                "TagId": 664167479,
+                "Count": -1
+              }
+            },
+            {
+              "Name": "ActionRemoveTagCount",
+              "Type": 21,
+              "ActionRemoveTagCount": {
+                "TagId": 1524765725,
+                "Count": -1
+              }
+            }
+          ],
           "Children": [],
           "Transitions": []
         },
@@ -354252,6 +354337,53 @@
           "Name": "激活",
           "TakeControlType": 0,
           "TransitionRule": 0,
+          "OnEnterActions": [
+            {
+              "Name": "ActionRemoveTagCount",
+              "Type": 21,
+              "ActionRemoveTagCount": {
+                "TagId": 664167479,
+                "Count": -1
+              }
+            },
+            {
+              "Name": "ActionRemoveTagCount",
+              "Type": 21,
+              "ActionRemoveTagCount": {
+                "TagId": 291829241,
+                "Count": -1
+              }
+            }
+          ],
+          "Children": [],
+          "Transitions": []
+        },
+        {
+          "Uuid": 5,
+          "IsAnimStateMachine": false,
+          "IsConduitNode": false,
+          "IsAnyState": false,
+          "Name": "常态",
+          "TakeControlType": 0,
+          "TransitionRule": 0,
+          "OnEnterActions": [
+            {
+              "Name": "ActionRemoveTagCount",
+              "Type": 21,
+              "ActionRemoveTagCount": {
+                "TagId": 1524765725,
+                "Count": -1
+              }
+            },
+            {
+              "Name": "ActionRemoveTagCount",
+              "Type": 21,
+              "ActionRemoveTagCount": {
+                "TagId": 291829241,
+                "Count": -1
+              }
+            }
+          ],
           "Children": [],
           "Transitions": []
         }

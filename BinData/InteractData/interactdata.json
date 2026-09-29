@@ -141775,7 +141775,7 @@
           "Params": {
             "Option": {
               "Type": "CustomSkill",
-              "SkillId": 800051
+              "SkillId": 800063
             }
           },
           "ActionGuid": "763e583fc48f43569b3700d471f77f6a",
@@ -143924,6 +143924,15 @@
           },
           "ActionGuid": "ae13d6a8e41d43f7819277deb37312b5",
           "ActionId": 4001008
+        },
+        {
+          "Name": "AddBuffToPlayer",
+          "Params": {
+            "BuffIds": [
+              640037021
+            ]
+          },
+          "ActionId": 4001177
         }
       ]
     },
@@ -146049,7 +146058,8 @@
         },
         "PlayEffects": [
           "/Game/Aki/Effect/EffectGroup/Common/Screen/DA_Fx_Group_Post_3_7_Heiping_Enter.DA_Fx_Group_Post_3_7_Heiping_Enter"
-        ]
+        ],
+        "LongPressSound": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_xyj_cs_one.play_sfx_gp_xyj_cs_one"
       }
     }
   },
@@ -146454,26 +146464,6 @@
     "UniquenessTest": "",
     "DoIntactType": "Direct",
     "Range": 200,
-    "Duration": "",
-    "OptionLockTypeList": "[\"OnMotor\"]",
-    "LongPressInteractConfig": ""
-  },
-  {
-    "Guid": "109f2e820ecd452fb93da555ef3235d5",
-    "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_7_主线水匣",
-        "FlowId": 2,
-        "StateId": 3
-      }
-    },
-    "Icon": "",
-    "TidContent": "LevelPlay_683000003_InteractContent_185_1",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
     "Duration": "",
     "OptionLockTypeList": "[\"OnMotor\"]",
     "LongPressInteractConfig": ""
@@ -148589,12 +148579,18 @@
   {
     "Guid": "f23e6a8af0204536a33deaaf4fd7a785",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_7_一级POI_愧心域",
-        "FlowId": 14,
-        "StateId": 1
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "OpenSystemBoard",
+          "Params": {
+            "SystemType": "InformationView",
+            "BoardId": 37000008
+          },
+          "ActionGuid": "099413856e7e46a3aa1d2e7e4654c6d7",
+          "ActionId": 3000503
+        }
+      ]
     },
     "Icon": "",
     "TidContent": "Quest_923000000_InteractContent_265_2",
@@ -150473,7 +150469,7 @@
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
-    "Range": 400,
+    "Range": 600,
     "Duration": "",
     "OptionLockTypeList": "[\"OnMotor\"]",
     "LongPressInteractConfig": ""
@@ -151966,129 +151962,6 @@
     "LongPressInteractConfig": ""
   },
   {
-    "Guid": "db49c227a8144ed08d02b80a57f953bd",
-    "Type": {
-      "Type": "Actions",
-      "Actions": [
-        {
-          "Name": "AdjustPlayerCamera",
-          "Params": {
-            "Option": {
-              "Type": "关卡.Common.镜头调整",
-              "Priority": 100,
-              "FadeInTime": 1.5,
-              "FadeOutTime": 0.5,
-              "ArmLength": 1000,
-              "MinumArmLength": 700,
-              "MaxiumArmLength": 800,
-              "Offset": {
-                "Z": 100
-              },
-              "Fov": 80,
-              "OverlayArmLength": 0
-            }
-          },
-          "Timeout": 1.5,
-          "ActionId": 4000216
-        },
-        {
-          "Name": "Wait",
-          "Params": {
-            "Time": 1.5
-          },
-          "ActionGuid": "683a8cbb72de42ff8e2d94e040340a9e",
-          "ActionId": 4000218
-        },
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "DisableAll",
-            "DisplayMode": "ShowUi"
-          },
-          "ActionGuid": "14a93586273746bb9786fbb679c94a6e",
-          "ActionId": 4000049
-        },
-        {
-          "Name": "GiantTriggerResponse",
-          "Params": {
-            "ResponseFunctions": [
-              {
-                "Type": "PlayFlow",
-                "FlowConfig": {
-                  "FlowListName": "剧情_3.7_巨人响应",
-                  "FlowId": 36,
-                  "StateId": 1
-                }
-              }
-            ]
-          },
-          "ActionGuid": "9502e07f5321478eb0337c9d29fcbef0",
-          "ActionId": 4000052
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 239851430,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "b2d38f27e54f45b68067466c9a0beb11",
-          "ActionId": 4000044
-        },
-        {
-          "Name": "Wait",
-          "Params": {
-            "Time": 3
-          },
-          "ActionGuid": "d709423195544e72a00e14c9707b2e5d",
-          "ActionId": 4000045
-        },
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "EnableAll"
-          },
-          "ActionGuid": "ed6f40bcfaa648d5a403dd34a32bb1ca",
-          "ActionId": 4000050
-        },
-        {
-          "Name": "RestorePlayerCameraAdjustment",
-          "Params": {},
-          "ActionGuid": "48365168da0242559073efb1a3dcfbff",
-          "ActionId": 4000217
-        },
-        {
-          "Name": "SetVar",
-          "Params": {
-            "VarLeft": {
-              "Type": "Int",
-              "Source": "Other",
-              "RefType": "Entity",
-              "RefId": 239851518,
-              "Name": "已播放升级交互阶段"
-            },
-            "VarRight": {
-              "Type": "Int",
-              "Source": "Constant",
-              "Value": 3
-            }
-          },
-          "ActionGuid": "98cd9753c9044a1bb6cff8973c286ee6",
-          "ActionId": 4000004
-        }
-      ]
-    },
-    "Icon": "",
-    "TidContent": "LevelPlay_239851419_InteractContent_239_1",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": "[\"OnMotor\"]",
-    "LongPressInteractConfig": ""
-  },
-  {
     "Guid": "100ae5e238a5447c9ac35c6c553df904",
     "Type": {
       "Type": "Actions",
@@ -152546,12 +152419,49 @@
   {
     "Guid": "8221835e47f44334b8ebd5a1704598e6",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_7_纪闻_烬心域",
-        "FlowId": 16,
-        "StateId": 1
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_7_纪闻_烬心域",
+            "FlowId": 16,
+            "StateId": 1
+          },
+          "ActionGuid": "d575c9a969bb45e8831fbd88c8fe00d1",
+          "ActionId": 3000120
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              923850006,
+              923850007
+            ]
+          },
+          "ActionGuid": "c3036a0b59ef49ae93b834f217588c95",
+          "ActionId": 3000122
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1.5
+          },
+          "ActionGuid": "a1ad4d6cf68f4bc5883f89a0bf64de4e",
+          "ActionId": 3000130
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
+          },
+          "ActionGuid": "45d18f47cbc447f1844804c6ad384f43",
+          "ActionId": 3000131
+        }
+      ]
     },
     "Icon": "Dialog",
     "TidContent": "Quest_923850000_InteractContent_297_7",
@@ -152566,12 +152476,49 @@
   {
     "Guid": "103cb153f11748339fd101c4b32c56d1",
     "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_7_纪闻_烬心域",
-        "FlowId": 16,
-        "StateId": 1
-      }
+      "Type": "Actions",
+      "Actions": [
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_7_纪闻_烬心域",
+            "FlowId": 16,
+            "StateId": 1
+          },
+          "ActionGuid": "8ac0668396374d4fa1ac63cfcb36c615",
+          "ActionId": 3000123
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              923850006,
+              923850007
+            ]
+          },
+          "ActionGuid": "5ee1fcb66ab743fb8d6bfc33c30aa5b9",
+          "ActionId": 3000128
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1.5
+          },
+          "ActionGuid": "2c31b7c345eb474ea9afc84a8fdec4df",
+          "ActionId": 3000132
+        },
+        {
+          "Name": "FadeOutScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            }
+          },
+          "ActionGuid": "4d3ec1fe5f684f69b5f83d8269b5456b",
+          "ActionId": 3000137
+        }
+      ]
     },
     "Icon": "Dialog",
     "TidContent": "Quest_923850000_InteractContent_297_8",
@@ -152824,32 +152771,12 @@
       "Type": "Flow",
       "Flow": {
         "FlowListName": "剧情_3_7_一级POI_愧心域",
-        "FlowId": 38,
-        "StateId": 1
-      }
-    },
-    "Icon": "",
-    "TidContent": "Quest_923000000_InteractContent_265_20",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": "[\"OnMotor\"]",
-    "LongPressInteractConfig": ""
-  },
-  {
-    "Guid": "b8127103af784c8094fddc64087ea607",
-    "Type": {
-      "Type": "Flow",
-      "Flow": {
-        "FlowListName": "剧情_3_7_一级POI_愧心域",
         "FlowId": 39,
         "StateId": 1
       }
     },
     "Icon": "",
-    "TidContent": "Quest_923000000_InteractContent_265_22",
+    "TidContent": "Quest_923000000_InteractContent_265_20",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
@@ -153002,7 +152929,7 @@
           "Params": {
             "EntityIds": [
               261850443,
-              261850444,
+              261850602,
               261850445,
               261850446
             ]
@@ -153020,85 +152947,11 @@
           "ActionGuid": "7f958bede80a4d369953ff168459a305",
           "Async": true,
           "ActionId": 3000160
-        },
-        {
-          "Name": "AdjustPlayerCamera",
-          "Params": {
-            "Option": {
-              "Type": "关卡.Common.镜头调整",
-              "Priority": 100,
-              "FadeInTime": 0.5,
-              "FadeOutTime": 0.5,
-              "ArmLength": 800,
-              "MinumArmLength": 800,
-              "MaxiumArmLength": 800,
-              "Offset": {
-                "Z": 100
-              },
-              "Fov": 85,
-              "OverlayArmLength": 0
-            }
-          },
-          "ActionGuid": "ce9c27af1d044ba1905b4c994cc889bc",
-          "Timeout": 0.5,
-          "ActionId": 3000171
         }
       ]
     },
     "Icon": "",
     "TidContent": "Quest_261000000_InteractContent_261_5",
-    "Condition": "",
-    "UniquenessTest": "",
-    "DoIntactType": "Direct",
-    "Range": 0,
-    "Duration": "",
-    "OptionLockTypeList": "[\"OnMotor\"]",
-    "LongPressInteractConfig": ""
-  },
-  {
-    "Guid": "4533b7285de945b0bc22f78f0ba52095",
-    "Type": {
-      "Type": "Actions",
-      "Actions": [
-        {
-          "Name": "SetPlayerPos",
-          "Params": {
-            "TelePortConfig": {
-              "Type": 0,
-              "TargetPos": {
-                "X": -115487.45,
-                "Y": -479987.59,
-                "Z": 115938.98,
-                "A": -180
-              }
-            },
-            "DisableAutoFadeInScreen": true
-          },
-          "ActionId": 3000050
-        },
-        {
-          "Name": "PlayEffect2",
-          "Params": {
-            "Type": "Effect",
-            "Path": "/Game/Aki/Effect/EffectGroup/BigWorld/3_7MSTL/DA_Fx_Group_Sl2_MSTL_Sphere_Fire_Post.DA_Fx_Group_Sl2_MSTL_Sphere_Fire_Post",
-            "Pos2": {
-              "Type": 0,
-              "Offset": {
-                "X": 0,
-                "Y": 0,
-                "Z": 0
-              }
-            },
-            "PlayEffectEnd": true,
-            "DestroyTime": 3
-          },
-          "ActionGuid": "0863c7a78a024722b0d0a812f81f9868",
-          "ActionId": 3000072
-        }
-      ]
-    },
-    "Icon": "",
-    "TidContent": "",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
@@ -153174,7 +153027,8 @@
               "YawLimitMin": -40,
               "YawLimitMax": 40,
               "PitchLimitMin": -60,
-              "PitchLimitMax": 60
+              "PitchLimitMax": 60,
+              "HidePlayer": true
             }
           },
           "ActionGuid": "1511f0e995274e2c8bfbaa391f652c88",
@@ -153279,12 +153133,18 @@
           "ActionId": 3000088
         },
         {
+          "Name": "RestorePlayerCameraAdjustment",
+          "Params": {},
+          "ActionGuid": "af5e7d7550ee4caa9924cd383c2f1ac9",
+          "ActionId": 3000089
+        },
+        {
           "Name": "AdjustPlayerCamera",
           "Params": {
             "Option": {
               "Type": "关卡.Common.镜头调整",
               "Priority": 100,
-              "FadeInTime": 0.5,
+              "FadeInTime": 0,
               "FadeOutTime": 0.5,
               "ArmLength": 200,
               "MinumArmLength": 200,
@@ -153297,9 +153157,9 @@
               "OverlayArmLength": 0
             }
           },
-          "ActionGuid": "8b383f31076c4bdbb015e963b2d8a402",
-          "Timeout": 0.5,
-          "ActionId": 3000089
+          "ActionGuid": "1c793cac33974a3c9a795015f9d87849",
+          "Timeout": 0,
+          "ActionId": 3000258
         }
       ]
     },
@@ -153449,12 +153309,18 @@
           "ActionId": 3000136
         },
         {
+          "Name": "RestorePlayerCameraAdjustment",
+          "Params": {},
+          "ActionGuid": "4763d9b0ee9043dfa6e6a6a1dea3b00d",
+          "ActionId": 3000268
+        },
+        {
           "Name": "AdjustPlayerCamera",
           "Params": {
             "Option": {
               "Type": "关卡.Common.镜头调整",
               "Priority": 100,
-              "FadeInTime": 0.5,
+              "FadeInTime": 0,
               "FadeOutTime": 0.5,
               "ArmLength": 200,
               "MinumArmLength": 200,
@@ -153468,7 +153334,7 @@
             }
           },
           "ActionGuid": "ae232db189604c12813004d5b14e6702",
-          "Timeout": 0.5,
+          "Timeout": 0,
           "ActionId": 3000137
         }
       ]
@@ -153495,8 +153361,8 @@
             "FlowId": 62,
             "StateId": 1
           },
-          "ActionGuid": "5a45e50f66694afebf7b62603086e53f",
-          "ActionId": 3000143
+          "ActionGuid": "ba24168162c5460f9a60044235fd7f1c",
+          "ActionId": 3000270
         }
       ]
     },
@@ -153646,12 +153512,18 @@
           "ActionId": 3000110
         },
         {
+          "Name": "RestorePlayerCameraAdjustment",
+          "Params": {},
+          "ActionGuid": "1bc7a2b7c5aa4f8b8dd01f18f0d4743e",
+          "ActionId": 3000267
+        },
+        {
           "Name": "AdjustPlayerCamera",
           "Params": {
             "Option": {
               "Type": "关卡.Common.镜头调整",
               "Priority": 100,
-              "FadeInTime": 0.5,
+              "FadeInTime": 0,
               "FadeOutTime": 0.5,
               "ArmLength": 200,
               "MinumArmLength": 200,
@@ -153665,13 +153537,33 @@
             }
           },
           "ActionGuid": "9535e2a13eb646ceac4b2b66de638ca5",
-          "Timeout": 0.5,
+          "Timeout": 0,
           "ActionId": 3000111
         }
       ]
     },
     "Icon": "",
     "TidContent": "Quest_261000000_InteractContent_261_2",
+    "Condition": "",
+    "UniquenessTest": "",
+    "DoIntactType": "Direct",
+    "Range": 0,
+    "Duration": "",
+    "OptionLockTypeList": "[\"OnMotor\"]",
+    "LongPressInteractConfig": ""
+  },
+  {
+    "Guid": "3f9f975058b946b3b3aa9005aa78c95f",
+    "Type": {
+      "Type": "Flow",
+      "Flow": {
+        "FlowListName": "剧情_3_7_主线水匣",
+        "FlowId": 2,
+        "StateId": 3
+      }
+    },
+    "Icon": "",
+    "TidContent": "LevelPlay_683000003_InteractContent_185_1",
     "Condition": "",
     "UniquenessTest": "",
     "DoIntactType": "Direct",
