@@ -902419,6 +902419,9 @@
                 260850012,
                 260850015,
                 232850002
+              ],
+              "ExcludeEntities": [
+                270850492
               ]
             },
             "IsHidePasserByNpc": false
@@ -905606,6 +905609,31 @@
       },
       "EnterActions": [
         {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableModule",
+            "MoveOption": {
+              "Type": "Enable"
+            },
+            "SkillOption": {
+              "Type": "Disable",
+              "DisplayMode": "Hide",
+              "DisableSkillWheel": true
+            },
+            "CameraOption": {
+              "Type": "Enable"
+            },
+            "UiOption": {
+              "Type": "Disable"
+            },
+            "SceneInteractionOption": {
+              "Type": "Disable"
+            }
+          },
+          "ActionGuid": "0de542345f8e4615a1d65028bd8754ab",
+          "ActionId": 3000208
+        },
+        {
           "Name": "EnterMovieMode",
           "Params": {
             "DurationType": {
@@ -905650,6 +905678,22 @@
           },
           "ActionGuid": "ba9df31c95754f55942efa65e89802c9",
           "ActionId": 3000079
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 2
+          },
+          "ActionGuid": "0e8b8b767560429d9c32df95b4697fb1",
+          "ActionId": 3000209
+        },
+        {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "EnableAll"
+          },
+          "ActionGuid": "fe6ef2c80ff74780863fc913099e50da",
+          "ActionId": 3000210
         },
         {
           "Name": "ChangeEntityState",
@@ -934461,8 +934505,7 @@
             "EntityIds": [
               265850283,
               265850554,
-              923850271,
-              239851590
+              923850271
             ]
           },
           "ActionGuid": "e0adf5521a2c4186a4be00f6d29f01e5",
@@ -934566,6 +934609,16 @@
       "EnterActions": [],
       "FinishActions": [
         {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              265850283
+            ]
+          },
+          "ActionGuid": "335e4e249b174ba6afbe0c0b3601fe4a",
+          "ActionId": 3000510
+        },
+        {
           "Name": "PlayFlow",
           "Params": {
             "FlowListName": "剧情_3_7_一级POI_愧心域",
@@ -934581,7 +934634,6 @@
             "EntityIds": [
               265850282,
               265850530,
-              265850283,
               265850554
             ]
           },
@@ -934840,6 +934892,48 @@
           "ActionId": 3000113
         },
         {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableModule",
+            "MoveOption": {
+              "Type": "Enable"
+            },
+            "SkillOption": {
+              "Type": "DisableSection",
+              "DisplayMode": "Disable",
+              "DisableExploreSkill": {
+                "ExploreSkillList": [
+                  800001
+                ]
+              }
+            },
+            "CameraOption": {
+              "Type": "Enable"
+            },
+            "UiOption": {
+              "Type": "EnableSectionalUi",
+              "ShowMiniMap": false,
+              "ShowQuestTrack": true,
+              "ShowEsc": true,
+              "ShowSystem": true,
+              "ShowScreenEffect": true,
+              "ShowPositionOfficial": true,
+              "ShowRoleFormation": false,
+              "ShowRoleStatus": true,
+              "ShowBossStatus": true,
+              "ShowGuideLayer": true,
+              "ShowMonsterHpBar": true,
+              "ShowDamageText": true,
+              "ShowPing": true
+            },
+            "SceneInteractionOption": {
+              "Type": "Enable"
+            }
+          },
+          "ActionGuid": "398b1d63ad63407589e01ef4717374db",
+          "ActionId": 3000383
+        },
+        {
           "Name": "AddTrialCharacter",
           "Params": {
             "UseUpdateTrialCharacterLogic": true,
@@ -934901,48 +934995,6 @@
           },
           "ActionGuid": "c4da3e97d2e84365a00cc3073a536bfa",
           "ActionId": 3000404
-        },
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "DisableModule",
-            "MoveOption": {
-              "Type": "Enable"
-            },
-            "SkillOption": {
-              "Type": "DisableSection",
-              "DisplayMode": "Disable",
-              "DisableExploreSkill": {
-                "ExploreSkillList": [
-                  800001
-                ]
-              }
-            },
-            "CameraOption": {
-              "Type": "Enable"
-            },
-            "UiOption": {
-              "Type": "EnableSectionalUi",
-              "ShowMiniMap": false,
-              "ShowQuestTrack": true,
-              "ShowEsc": true,
-              "ShowSystem": true,
-              "ShowScreenEffect": true,
-              "ShowPositionOfficial": true,
-              "ShowRoleFormation": true,
-              "ShowRoleStatus": true,
-              "ShowBossStatus": true,
-              "ShowGuideLayer": true,
-              "ShowMonsterHpBar": true,
-              "ShowDamageText": true,
-              "ShowPing": true
-            },
-            "SceneInteractionOption": {
-              "Type": "Enable"
-            }
-          },
-          "ActionGuid": "9c4f1f6670a4479083c9be3b01bcc995",
-          "ActionId": 3000383
         },
         {
           "Name": "PlayFlow",
@@ -935457,29 +935509,6 @@
           "ActionId": 3000497
         },
         {
-          "Name": "AddTrialCharacter",
-          "Params": {
-            "UseUpdateTrialCharacterLogic": true,
-            "CharacterId": 5001001,
-            "CharacterGroup": [],
-            "CharacterGroupNew": [
-              {
-                "CharacterId": 13110005,
-                "IsAiCharacter": false
-              }
-            ],
-            "AutoChange": true,
-            "CreateTempTeam": true,
-            "EnableMapAndTeleport": false,
-            "IsRemoveTips": true,
-            "EnterRangeEntities": [
-              265850492
-            ]
-          },
-          "ActionGuid": "be0a56342b3c42dfb9b01de461459bd5",
-          "ActionId": 3000007
-        },
-        {
           "Name": "SetPlayerOperationRestriction",
           "Params": {
             "Type": "DisableModule",
@@ -935506,7 +935535,7 @@
               "ShowSystem": true,
               "ShowScreenEffect": true,
               "ShowPositionOfficial": true,
-              "ShowRoleFormation": true,
+              "ShowRoleFormation": false,
               "ShowRoleStatus": true,
               "ShowBossStatus": true,
               "ShowGuideLayer": true,
@@ -935520,6 +935549,29 @@
           },
           "ActionGuid": "cc9d2e13e7344e689f219ec68b50cf5b",
           "ActionId": 3000227
+        },
+        {
+          "Name": "AddTrialCharacter",
+          "Params": {
+            "UseUpdateTrialCharacterLogic": true,
+            "CharacterId": 5001001,
+            "CharacterGroup": [],
+            "CharacterGroupNew": [
+              {
+                "CharacterId": 13110005,
+                "IsAiCharacter": false
+              }
+            ],
+            "AutoChange": true,
+            "CreateTempTeam": true,
+            "EnableMapAndTeleport": false,
+            "IsRemoveTips": true,
+            "EnterRangeEntities": [
+              265850492
+            ]
+          },
+          "ActionGuid": "be0a56342b3c42dfb9b01de461459bd5",
+          "ActionId": 3000007
         },
         {
           "Name": "AddBuffToPlayer",
@@ -936520,6 +936572,18 @@
       "Desc": "匣内初始化",
       "Actions": [
         {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "bdf3bda8513d4ebca5cb7a2408e07424",
+          "ActionId": 3000506
+        },
+        {
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
@@ -936554,6 +936618,48 @@
           "ActionId": 3000046
         },
         {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableModule",
+            "MoveOption": {
+              "Type": "Enable"
+            },
+            "SkillOption": {
+              "Type": "DisableSection",
+              "DisplayMode": "Disable",
+              "DisableExploreSkill": {
+                "ExploreSkillList": [
+                  800001
+                ]
+              }
+            },
+            "CameraOption": {
+              "Type": "Enable"
+            },
+            "UiOption": {
+              "Type": "EnableSectionalUi",
+              "ShowMiniMap": false,
+              "ShowQuestTrack": true,
+              "ShowEsc": true,
+              "ShowSystem": true,
+              "ShowScreenEffect": true,
+              "ShowPositionOfficial": true,
+              "ShowRoleFormation": false,
+              "ShowRoleStatus": true,
+              "ShowBossStatus": true,
+              "ShowGuideLayer": true,
+              "ShowMonsterHpBar": true,
+              "ShowDamageText": true,
+              "ShowPing": true
+            },
+            "SceneInteractionOption": {
+              "Type": "Enable"
+            }
+          },
+          "ActionGuid": "0d049aa3b1494d079494f259e82ad16e",
+          "ActionId": 3000388
+        },
+        {
           "Name": "AddTrialCharacter",
           "Params": {
             "UseUpdateTrialCharacterLogic": true,
@@ -936577,46 +936683,15 @@
           "ActionId": 3000176
         },
         {
-          "Name": "SetPlayerOperationRestriction",
+          "Name": "FadeOutScreen",
           "Params": {
-            "Type": "DisableModule",
-            "MoveOption": {
-              "Type": "Enable"
-            },
-            "SkillOption": {
-              "Type": "DisableSection",
-              "DisplayMode": "Disable",
-              "DisableExploreSkill": {
-                "ExploreSkillList": [
-                  800001
-                ]
-              }
-            },
-            "CameraOption": {
-              "Type": "Disable"
-            },
-            "UiOption": {
-              "Type": "EnableSectionalUi",
-              "ShowMiniMap": true,
-              "ShowQuestTrack": true,
-              "ShowEsc": true,
-              "ShowSystem": true,
-              "ShowScreenEffect": true,
-              "ShowPositionOfficial": true,
-              "ShowRoleFormation": true,
-              "ShowRoleStatus": true,
-              "ShowBossStatus": true,
-              "ShowGuideLayer": true,
-              "ShowMonsterHpBar": true,
-              "ShowDamageText": true,
-              "ShowPing": true
-            },
-            "SceneInteractionOption": {
-              "Type": "Disable"
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
             }
           },
-          "ActionGuid": "0d049aa3b1494d079494f259e82ad16e",
-          "ActionId": 3000388
+          "ActionGuid": "797c36cae774484793f1e09fce9fa5d1",
+          "ActionId": 3000528
         }
       ],
       "ParentNodeId": 638
@@ -936631,9 +936706,9 @@
       "Condition": {
         "Type": "ReachArea",
         "Pos": {
-          "X": 130126.203125,
-          "Y": -92438.601562,
-          "Z": -105456.921875
+          "X": 130126.2,
+          "Y": -92438.6,
+          "Z": -105456.92
         },
         "Range": 1000
       },
@@ -936789,24 +936864,6 @@
           },
           "ActionGuid": "7d00bb2b53134febbbfb724b843e596a",
           "ActionId": 3000405
-        },
-        {
-          "Name": "CameraLookAt",
-          "Params": {
-            "Pos": {
-              "X": 44913.55,
-              "Y": -45743.81,
-              "Z": -4883.78
-            },
-            "FadeInTime": 0,
-            "StayTime": 1.5,
-            "FadeOutTime": 1,
-            "LockCamera": true,
-            "IsLockCameraPos": false
-          },
-          "ActionGuid": "aaea7d6dca9f47f781ba86539e9b331a",
-          "Timeout": 2.5,
-          "ActionId": 3000510
         },
         {
           "Name": "SwitchDataLayers",
@@ -937048,6 +937105,18 @@
       ],
       "FinishActions": [
         {
+          "Name": "FadeInScreen",
+          "Params": {
+            "Ease": {
+              "Type": 2,
+              "Duration": 1
+            },
+            "ScreenType": "Black"
+          },
+          "ActionGuid": "533c8ed7a4bd4125885b8b56bee2e724",
+          "ActionId": 3000505
+        },
+        {
           "Name": "SetEntityVisible",
           "Params": {
             "Visible": false,
@@ -937085,6 +937154,18 @@
           "ActionId": 3000445
         },
         {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": true,
+            "EntityIds": [
+              923850089,
+              265850599
+            ]
+          },
+          "ActionGuid": "2faa54baa353434093a26cf9d3c1e0ca",
+          "ActionId": 3000120
+        },
+        {
           "Name": "FadeOutScreen",
           "Params": {
             "Ease": {
@@ -937104,18 +937185,6 @@
           },
           "ActionGuid": "e4fae306a9904746adffa8e684e96eb4",
           "ActionId": 3000443
-        },
-        {
-          "Name": "SetEntityVisible",
-          "Params": {
-            "Visible": true,
-            "EntityIds": [
-              923850089,
-              265850599
-            ]
-          },
-          "ActionGuid": "2faa54baa353434093a26cf9d3c1e0ca",
-          "ActionId": 3000120
         },
         {
           "Name": "SetEntityVisible",
@@ -1008439,7 +1008508,6 @@
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
-              261850435,
               261850105
             ]
           },
@@ -1029348,7 +1029416,8 @@
             }
           },
           "ActionGuid": "154f40e236ea419e8c9ec6b3dc74acd0",
-          "ActionId": 3000254
+          "ActionId": 3000254,
+          "Async": true
         },
         {
           "Name": "AwakeEntity",
@@ -1031635,9 +1031704,9 @@
           "Type": "Locations",
           "Locations": [
             {
-              "X": 349891.6,
-              "Y": -251.8,
-              "Z": 1060.1,
+              "X": 348434.1,
+              "Y": -627.2,
+              "Z": -5.5,
               "A": 0
             }
           ]
@@ -1034920,6 +1034989,16 @@
       },
       "EnterActions": [],
       "FinishActions": [
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              945850017
+            ]
+          },
+          "ActionGuid": "9871b42301f14a549f363e8589cf4503",
+          "ActionId": 3000504
+        },
         {
           "Name": "RestorePlayerCameraAdjustment",
           "Params": {},
@@ -1064942,7 +1065021,7 @@
           "RangeEntityId": 250850387,
           "PositionEntityId": 250850395
         },
-        "DisableRollbackWhileReconnect": false
+        "DisableRollbackWhileReconnect": true
       },
       "TrackCustomBoard": {
         "FastReturnMapPos": {
@@ -1072929,16 +1073008,6 @@
           },
           "ActionGuid": "5a06d3858e8d489f9bb61dccec086ec9",
           "ActionId": 3000174
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850209
-            ]
-          },
-          "ActionGuid": "5b989fd7ac1f41d7b38f24d61314a09f",
-          "ActionId": 3000029
         }
       ],
       "ParentNodeId": 174
@@ -1085316,7 +1085385,7 @@
           "Y": -87380.09,
           "Z": -105422.1
         },
-        "Range": 300
+        "Range": 500
       },
       "TidTip": "Quest_923000000_ChildQuestTip_265_70",
       "EnterActions": [],
@@ -1085334,9 +1085403,7 @@
         {
           "Name": "SwitchDataLayers",
           "Params": {
-            "LoadDataLayers": [
-              850078
-            ],
+            "LoadDataLayers": [],
             "UnloadDataLayers": [
               850097,
               850082,
@@ -1085363,7 +1085430,7 @@
             "Option": {
               "Type": "关卡.Common.镜头.固定镜头",
               "Priority": 100,
-              "FadeInTime": 1.5,
+              "FadeInTime": 1,
               "FadeOutTime": 1,
               "ArmLength": 0,
               "MinumArmLength": 0,
@@ -1085394,7 +1085461,7 @@
             }
           },
           "ActionGuid": "9005dce372bf4f8281faf331b0a2c607",
-          "Timeout": 1.5,
+          "Timeout": 1,
           "ActionId": 3000142
         },
         {
@@ -1085409,7 +1085476,7 @@
         {
           "Name": "Wait",
           "Params": {
-            "Time": 1
+            "Time": 2
           },
           "ActionGuid": "ec11cd71f66d4a4f980370f1b02dd8db",
           "ActionId": 3000173
@@ -1085465,38 +1085532,6 @@
           },
           "ActionGuid": "589e273d4cb74fccad605ad6930ba87b",
           "ActionId": 3000467
-        },
-        {
-          "Name": "AdjustPlayerCamera",
-          "Params": {
-            "Option": {
-              "Type": "关卡.Common.镜头调整",
-              "Priority": 100,
-              "FadeInTime": 5,
-              "FadeOutTime": 5,
-              "ArmLength": 100,
-              "MinumArmLength": 200,
-              "MaxiumArmLength": 300,
-              "Offset": {
-                "X": 100,
-                "Y": -20,
-                "Z": 20
-              },
-              "Fov": 50,
-              "OverlayArmLength": 0,
-              "FadeInCurve": {
-                "Type": 5,
-                "N": 2
-              },
-              "FadeOutCurve": {
-                "Type": 5,
-                "N": 2
-              }
-            }
-          },
-          "ActionGuid": "9bcdd0c5f2f54cf786631dedf9f458bf",
-          "Timeout": 5,
-          "ActionId": 3000192
         },
         {
           "Name": "AwakeEntity",
@@ -1087286,11 +1087321,11 @@
       "Condition": {
         "Type": "ReachArea",
         "Pos": {
-          "X": 343011.22,
-          "Y": 937.13,
-          "Z": 10.81
+          "X": 343080.22,
+          "Y": 1262.13,
+          "Z": -358.19
         },
-        "Range": 250,
+        "Range": 600,
         "MatchRoleOption": [
           {
             "Type": "Phantom",
@@ -1087637,18 +1087672,7 @@
           "ActionId": 3000059
         }
       ],
-      "EnterActions": [
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850180
-            ]
-          },
-          "ActionGuid": "5a6845f849e04639a6ebcb0668a4de0e",
-          "ActionId": 3000157
-        }
-      ],
+      "EnterActions": [],
       "ParentNodeId": 166
     }
   },
@@ -1087729,22 +1087753,7 @@
           ]
         }
       },
-      "EnterActions": [
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850309,
-              250850310,
-              250850311,
-              250850312,
-              250850340
-            ]
-          },
-          "ActionGuid": "3a1c0bf6ee8344ae97eea711553a6bcc",
-          "ActionId": 3000216
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [
         {
           "Name": "PlayFlow",
@@ -1087919,17 +1087928,57 @@
       "EnterActions": [],
       "FinishActions": [
         {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 250850090,
+            "State": "关卡.Common.状态.解锁"
+          },
+          "ActionGuid": "86ecaf0efc8142e08f81a8a52e68be5f",
+          "ActionId": 3000029
+        },
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": false,
+            "EntityIds": [
+              250850323
+            ]
+          },
+          "ActionGuid": "23d597a4e9cc47ee812b8a17edcfcd3b",
+          "ActionId": 3000051
+        },
+        {
           "Name": "SetPlayerOperationRestriction",
           "Params": {
             "Type": "DisableModule",
             "MoveOption": {
               "Type": "Disable",
               "Forward": true,
-              "Back": false,
+              "Back": true,
               "Left": true,
               "Right": true,
               "ForceWalk": true,
               "ForbidSprint": true
+            },
+            "SkillOption": {
+              "Type": "DisableSection",
+              "DisplayMode": "Disable",
+              "DisableSkillWheel": true,
+              "DisableBattleSkill": {
+                "IsDisableCharacterSectionalSkill": {
+                  "DisableJump": true,
+                  "DisableShowClimb": true,
+                  "DisableDodge": true,
+                  "DisableSkill1": true,
+                  "DisableUltimateSkill": true,
+                  "DisableLock": true,
+                  "DisableAim": true
+                }
+              }
+            },
+            "SceneInteractionOption": {
+              "Type": "Disable"
             }
           },
           "ActionGuid": "b7359ac6811b420fa0c58215fd3abca4",
@@ -1093904,18 +1093953,15 @@
           "ActionId": 3000173
         },
         {
-          "Name": "AwakeEntity",
+          "Name": "SetEntityVisible",
           "Params": {
+            "Visible": true,
             "EntityIds": [
-              250850206,
-              250850207,
-              250850208,
-              250850245,
-              250850355
+              250850206
             ]
           },
-          "ActionGuid": "fda4ecee580d49e4b07b5471c7379a15",
-          "ActionId": 3000051
+          "ActionGuid": "b99999c40a9e44f289f0fca45a3312c2",
+          "ActionId": 3000109
         },
         {
           "Name": "AddBuffToPlayer",
@@ -1098287,7 +1098333,8 @@
           "Params": {
             "EntityIds": [
               261850596,
-              261850621
+              261850621,
+              261850622
             ]
           },
           "ActionGuid": "2d8519d3d7a84b04b0c03f5889fd654b",
@@ -1099740,6 +1099787,16 @@
             "DisableAutoFadeInScreen": true
           },
           "ActionId": 3000050
+        },
+        {
+          "Name": "DestroyEntity",
+          "Params": {
+            "EntityIds": [
+              261850501
+            ]
+          },
+          "ActionGuid": "d359e226d2094ccfacba0bcacfffa2b2",
+          "ActionId": 3000284
         }
       ],
       "ParentNodeId": 153
@@ -1101119,7 +1101176,18 @@
           ]
         }
       },
-      "EnterActions": [],
+      "EnterActions": [
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              272850696
+            ]
+          },
+          "ActionGuid": "62cf93e49e924a80917fccb196596c37",
+          "ActionId": 3000073
+        }
+      ],
       "FinishActions": [
         {
           "Name": "SetEntityVisible",
@@ -1101132,6 +1101200,16 @@
           },
           "ActionGuid": "099ad398bed345bf810980f87ee8ca8f",
           "ActionId": 3000059
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 272850696,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "0df2130be31f4fe288a906f07bab44f1",
+          "ActionId": 3000091
         },
         {
           "Name": "DestroyEntity",
@@ -1103623,99 +1103701,7 @@
         }
       },
       "EnterActions": [],
-      "FinishActions": [
-        {
-          "Name": "AdjustPlayerCamera",
-          "Params": {
-            "Option": {
-              "Type": "关卡.Common.镜头.固定镜头",
-              "Priority": 100,
-              "FadeInTime": 1,
-              "FadeOutTime": 1,
-              "ArmLength": 0,
-              "MinumArmLength": 0,
-              "MaxiumArmLength": 0,
-              "Offset": {
-                "X": 0,
-                "Y": 0,
-                "Z": 0
-              },
-              "Fov": 85,
-              "CenterPos": {
-                "X": 333238.66,
-                "Y": 1157.18,
-                "Z": 560.7
-              },
-              "CenterRot": {
-                "Y": -19.2,
-                "Z": -22.16
-              }
-            }
-          },
-          "ActionGuid": "3f80a908a4c444e18f21f3968dae1345",
-          "Timeout": 1,
-          "ActionId": 3000108
-        }
-      ],
-      "ParentNodeId": 166
-    }
-  },
-  {
-    "Key": "250000000_105",
-    "Data": {
-      "Type": "ChildQuest",
-      "Id": 105,
-      "Desc": "",
-      "Condition": {
-        "Type": "ReachArea",
-        "Pos": {
-          "X": 334257.06,
-          "Y": 795.77,
-          "Z": 513.29
-        },
-        "Range": 200,
-        "MatchRoleOption": [
-          {
-            "Type": "Phantom",
-            "Id": 5037001
-          }
-        ]
-      },
-      "TidTip": "Quest_250000000_ChildQuestTip_250_152",
-      "TrackTarget": {
-        "TrackType": {
-          "Type": "Locations",
-          "Locations": [
-            {
-              "X": 334539.56,
-              "Y": 794.2,
-              "Z": 523.61
-            }
-          ]
-        }
-      },
-      "EnterActions": [
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850175,
-              250850178,
-              250850354
-            ]
-          },
-          "ActionGuid": "aefaeab8ac7d47bc95787f46da7ffb19",
-          "ActionId": 3000109
-        }
-      ],
-      "FinishActions": [
-        {
-          "Name": "RestorePlayerCameraAdjustment",
-          "Params": {},
-          "ActionGuid": "12248f2d3b214782908a891c74553d6d",
-          "ActionId": 3000110
-        }
-      ],
+      "FinishActions": [],
       "ParentNodeId": 166
     }
   },
@@ -1103946,20 +1103932,6 @@
           "Params": {},
           "ActionGuid": "79ae60f831b44f89991808ecaf55e51d",
           "ActionId": 3000118
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850267,
-              250850181,
-              250850183,
-              250850201,
-              250850412
-            ]
-          },
-          "ActionGuid": "18c8ecaab79b46989f68c9db3326df73",
-          "ActionId": 3000121
         },
         {
           "Name": "ChangeEntityState",
@@ -1104904,19 +1104876,7 @@
           ]
         }
       },
-      "EnterActions": [
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850335,
-              250850336
-            ]
-          },
-          "ActionGuid": "ad063e25a6464362bc9f18ee4ae8d4b1",
-          "ActionId": 3000111
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [],
       "ParentNodeId": 170
     }
@@ -1105131,21 +1105091,6 @@
       },
       "EnterActions": [
         {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850103,
-              250850107,
-              250850109,
-              250850111,
-              250850113,
-              250850202
-            ]
-          },
-          "ActionGuid": "aeaa199b1bdc48b1b962fb8758bc3dd6",
-          "ActionId": 3000081
-        },
-        {
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "BatchDirectly",
@@ -1105163,36 +1105108,7 @@
           "ActionId": 3000088
         }
       ],
-      "FinishActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 250850196,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "bd181245e9214658ba799f0f2d9d68b2",
-          "ActionId": 3000134
-        },
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850094,
-              250850095,
-              250850097,
-              250850098,
-              250850099,
-              250850100,
-              250850101,
-              250850102,
-              250850203
-            ]
-          },
-          "ActionGuid": "07184684809f415ca9ac59cea8ac245a",
-          "ActionId": 3000131
-        }
-      ],
+      "FinishActions": [],
       "ParentNodeId": 170
     }
   },
@@ -1106616,16 +1106532,6 @@
       "EnterActions": [],
       "FinishActions": [
         {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850249
-            ]
-          },
-          "ActionGuid": "1bb465f1d1ce4e0da14f7b713d771051",
-          "ActionId": 3000171
-        },
-        {
           "Name": "PlayFlow",
           "Params": {
             "FlowListName": "剧情_3_7_二级POI_凄心域",
@@ -1106635,6 +1106541,17 @@
           "ActionGuid": "6382e4ae477b47fc81599d3502a9b26d",
           "ActionId": 3000143,
           "Async": true
+        },
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": false,
+            "EntityIds": [
+              250850206
+            ]
+          },
+          "ActionGuid": "5a11c1ef9eb743aebcd3fa6275a9ee64",
+          "ActionId": 3000106
         }
       ],
       "ParentNodeId": 172
@@ -1106836,21 +1106753,25 @@
       },
       "EnterActions": [
         {
-          "Name": "DestroyEntity",
+          "Name": "SetEntityVisible",
           "Params": {
+            "Visible": false,
             "EntityIds": [
+              250850075,
+              250850077,
+              250850078,
               250850103,
               250850107,
               250850109,
               250850111,
               250850113,
-              250850075,
-              250850077,
-              250850078
+              250850185,
+              250850187,
+              250850072
             ]
           },
-          "ActionGuid": "3fab0ed09cc14db195e7ed6534f74939",
-          "ActionId": 3000055
+          "ActionGuid": "39d48080bf54454aa659466540176308",
+          "ActionId": 3000007
         },
         {
           "Name": "AwakeEntity",
@@ -1107064,31 +1106985,7 @@
           "ActionId": 3000170
         }
       ],
-      "FinishActions": [
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850252
-            ]
-          },
-          "ActionGuid": "5771e93e4c8c4fd5a34e7e224789a122",
-          "ActionId": 3000159
-        },
-        {
-          "Name": "DestroyEntity",
-          "Params": {
-            "EntityIds": [
-              250850187,
-              250850185,
-              250850194,
-              250850195
-            ]
-          },
-          "ActionGuid": "226c8e4541d94e8885764dbef129248d",
-          "ActionId": 3000150
-        }
-      ],
+      "FinishActions": [],
       "ParentNodeId": 177
     }
   },
@@ -1107261,18 +1107158,7 @@
           "ActionId": 3000225
         }
       ],
-      "FinishActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 250850267,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "480f9540504b429a8334626d5a8290ce",
-          "ActionId": 3000185
-        }
-      ],
+      "FinishActions": [],
       "ParentNodeId": 177
     }
   },
@@ -1107329,18 +1107215,7 @@
           "ActionId": 3000161
         }
       ],
-      "FinishActions": [
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 250850266,
-            "State": "关卡.Common.状态.常态"
-          },
-          "ActionGuid": "9f533122b80b4d0c95b058a1ce32f710",
-          "ActionId": 3000182
-        }
-      ],
+      "FinishActions": [],
       "ParentNodeId": 177
     }
   },
@@ -1107564,13 +1107439,13 @@
           "ActionId": 3000036
         },
         {
-          "Name": "ChangeEntityState",
+          "Name": "DestroyEntity",
           "Params": {
-            "Type": "Directly",
-            "EntityId": 261850442,
-            "State": "关卡.LevelSeq标记.标记A"
+            "EntityIds": [
+              261850622
+            ]
           },
-          "ActionGuid": "8bcbfeef86944873a9de17522f46f157",
+          "ActionGuid": "1b4b3e6205844322b24a7ac0b0fb14f2",
           "ActionId": 3000271
         }
       ],
@@ -1109898,7 +1109773,11 @@
               "Type": "WorldEntityAndLevelPlay",
               "HideRangeEntities": [
                 279850065
-              ]
+              ],
+              "AppendEntities": [
+                270850373
+              ],
+              "AppendLevelPlays": []
             },
             "IsHidePasserByNpc": false
           },
@@ -1111968,20 +1111847,20 @@
           },
           "ActionGuid": "623f9566d3854518bc3ab074f5218cc4",
           "ActionId": 3000178
-        }
-      ],
-      "FinishActions": [
+        },
         {
-          "Name": "ChangeEntityState",
+          "Name": "SetEntityVisible",
           "Params": {
-            "Type": "Directly",
-            "EntityId": 250850196,
-            "State": "关卡.Common.状态.常态"
+            "Visible": false,
+            "EntityIds": [
+              250850194
+            ]
           },
-          "ActionGuid": "32935417c1e84f14a846c0b883f83e9e",
-          "ActionId": 3000179
+          "ActionGuid": "01de14b54f6c40cfbca8b53576c3f089",
+          "ActionId": 3000102
         }
       ],
+      "FinishActions": [],
       "ParentNodeId": 177
     }
   },
@@ -1112015,6 +1111894,17 @@
       },
       "EnterActions": [
         {
+          "Name": "PostAkEvent",
+          "Params": {
+            "EventConfig": {
+              "Type": "Global",
+              "AkEvent": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_seq_ls_move_boat.play_sfx_gp_seq_ls_move_boat"
+            }
+          },
+          "ActionGuid": "c7db1f395f9345ef94ad9ff2f939cc22",
+          "ActionId": 3000251
+        },
+        {
           "Name": "ChangeEntityState",
           "Params": {
             "Type": "Directly",
@@ -1112023,6 +1111913,16 @@
           },
           "ActionGuid": "5756baa87e4f4cd6aa8bd3148379c98e",
           "ActionId": 3000143
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 261850622,
+            "State": "关卡.LevelSeq标记.标记B"
+          },
+          "ActionGuid": "9212b16b7f694124adf46d4bae2c0087",
+          "ActionId": 3000282
         },
         {
           "Name": "PlayFlow",
@@ -1113718,6 +1113618,16 @@
           },
           "ActionGuid": "4af3edcb07fe404c979244a74fe90796",
           "ActionId": 3000441
+        },
+        {
+          "Name": "AwakeEntity",
+          "Params": {
+            "EntityIds": [
+              945850017
+            ]
+          },
+          "ActionGuid": "c4f2908874304935ab5b4b204eed4b4c",
+          "ActionId": 3000192
         }
       ],
       "ParentNodeId": 198
@@ -1115221,7 +1115131,18 @@
                 279850058,
                 279850059,
                 279850070
-              ]
+              ],
+              "AppendEntities": [
+                232850134,
+                232850136,
+                232850669,
+                232850668
+              ],
+              "AppendLevelPlays": [],
+              "ExcludeEntities": [
+                270850439
+              ],
+              "ExcludeLevelPlays": []
             },
             "IsHidePasserByNpc": false
           },
@@ -1117726,7 +1117647,11 @@
             "Z": 618
           },
           "Range": 4500,
-          "OnlyFailOnceOutsideDungeon": true
+          "OnlyFailOnceOutsideDungeon": true,
+          "RangeEntities": [
+            272850672
+          ],
+          "OverRangeCountdown": 5
         }
       },
       "FinishActions": [],
@@ -1117922,7 +1117847,11 @@
             "Z": 300.28
           },
           "Range": 5000,
-          "OnlyFailOnceOutsideDungeon": true
+          "OnlyFailOnceOutsideDungeon": true,
+          "RangeEntities": [
+            272850673
+          ],
+          "OverRangeCountdown": 5
         }
       },
       "FinishActions": [],
@@ -1117965,7 +1117894,11 @@
             "Z": 618
           },
           "Range": 4500,
-          "OnlyFailOnceOutsideDungeon": true
+          "OnlyFailOnceOutsideDungeon": true,
+          "RangeEntities": [
+            272850672
+          ],
+          "OverRangeCountdown": 5
         }
       },
       "FinishActions": [],
@@ -1118224,6 +1118157,16 @@
           },
           "ActionGuid": "1b78cb14e4534aa1a673488b4b91eef1",
           "ActionId": 3000023
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 272850696,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "f453552de87d4466a16680cd7311ae7e",
+          "ActionId": 3000227
         }
       ],
       "FinishActions": [
@@ -1118238,6 +1118181,16 @@
           },
           "ActionGuid": "024dd00e06d245ab8cdd4a74201ab628",
           "ActionId": 3000078
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 272850696,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "0d773f0a8c1d4e9d9a1095fdcb8d9fe1",
+          "ActionId": 3000228
         },
         {
           "Name": "DestroyEntity",
@@ -1118293,10 +1118246,18 @@
         "IsTransferFailure": true,
         "IsTeamDeathFailure": true,
         "CanGiveUp": false,
-        "EntityDistanceLimiting": {
-          "EntityId": 272850619,
-          "MaxDistance": 9000,
-          "OverMaxCountdown": 0
+        "RangeLimiting": {
+          "Point": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Range": 10000,
+          "OnlyFailOnceOutsideDungeon": true,
+          "RangeEntities": [
+            272850689
+          ],
+          "OverRangeCountdown": 5
         }
       },
       "FinishActions": [],
@@ -1118643,16 +1118604,6 @@
           },
           "ActionGuid": "b950118acf714b65a7ca32e9269aed5c",
           "ActionId": 3000102
-        },
-        {
-          "Name": "ChangeEntityState",
-          "Params": {
-            "Type": "Directly",
-            "EntityId": 272850561,
-            "State": "关卡.Common.状态.激活"
-          },
-          "ActionGuid": "7dab216bbc894cdbbd9624ea0f3ad8c7",
-          "ActionId": 3000003
         },
         {
           "Name": "ChangeEntityState",
@@ -1119404,6 +1119355,16 @@
           },
           "ActionGuid": "8e6c9658b4bc430ebbd4630157f5aed1",
           "ActionId": 3000218
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 272850696,
+            "State": "关卡.Common.状态.激活"
+          },
+          "ActionGuid": "c9305e1b2acd41969846dbd354ee6d9d",
+          "ActionId": 3000230
         }
       ],
       "FinishActions": [
@@ -1119418,6 +1119379,16 @@
           },
           "ActionGuid": "b09050d2c8de428f82141674e8d4ccad",
           "ActionId": 3000086
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 272850696,
+            "State": "关卡.Common.状态.常态"
+          },
+          "ActionGuid": "4d2cf8878ede4d269e841f2204852045",
+          "ActionId": 3000231
         },
         {
           "Name": "ChangeEntityState",
@@ -1119916,6 +1119887,15 @@
           "ActionId": 3000071
         },
         {
+          "Name": "SetPlayerOperationRestriction",
+          "Params": {
+            "Type": "DisableAll",
+            "DisplayMode": "ShowUi"
+          },
+          "ActionGuid": "e7d06fbcb3594af9844a8debdac701fb",
+          "ActionId": 3000064
+        },
+        {
           "Name": "SetPlayerPos",
           "Params": {
             "TelePortConfig": {
@@ -1119933,11 +1119913,56 @@
               "LeastTime": 1,
               "EffectExpandTime": 1,
               "EffectCollapseTime": 1,
-              "IsNormalStreamingLoad": true
+              "IsNormalStreamingLoad": true,
+              "IsTeleportInPlace": true,
+              "SeamlessTeleportFinishConfig": {
+                "IsNotStopScreenEffect": true
+              }
             }
           },
           "ActionGuid": "2cd4bbe3c4254b17bb38eeb140ef72fa",
           "ActionId": 3000028
+        },
+        {
+          "Name": "AdjustPlayerCamera",
+          "Params": {
+            "Option": {
+              "Type": "关卡.Common.镜头.固定镜头",
+              "Priority": 100,
+              "FadeInTime": 0,
+              "FadeOutTime": 1,
+              "ArmLength": 0,
+              "MinumArmLength": 0,
+              "MaxiumArmLength": 0,
+              "Offset": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "Fov": 85,
+              "CenterPos": {
+                "X": -52320.97,
+                "Y": 49772.85,
+                "Z": -10872.31
+              },
+              "CenterRot": {
+                "Y": -44.4,
+                "Z": 135.3
+              },
+              "IsDisableCollision": false
+            }
+          },
+          "ActionGuid": "e652606ff3ec4dd48d8902a7f2d69140",
+          "Timeout": 0,
+          "ActionId": 3000053
+        },
+        {
+          "Name": "StopUiScreenEffect",
+          "Params": {
+            "EffectDaPath": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_WanELao_Screen_02.DA_Fx_WanELao_Screen_02"
+          },
+          "ActionGuid": "1d134c17b4564b85856fe5f8e4006b07",
+          "ActionId": 3000512
         },
         {
           "Name": "RemoveBuffFromEntity",
@@ -1119951,6 +1119976,25 @@
           },
           "ActionGuid": "80be35f10cda4698b6085d8a4450aad2",
           "ActionId": 3000133
+        },
+        {
+          "Name": "PlayFlow",
+          "Params": {
+            "FlowListName": "剧情_3_7_一级POI_愧心域",
+            "FlowId": 60,
+            "StateId": 1
+          },
+          "ActionGuid": "f184a0819576458495b102e6d8a0193c",
+          "Async": true,
+          "ActionId": 3000033
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 5
+          },
+          "ActionGuid": "1aff9cc96eeb450b915e291b59bb9f9c",
+          "ActionId": 3000068
         },
         {
           "Name": "SetPlayerOperationRestriction",
@@ -1119978,7 +1120022,13 @@
               "Type": "Enable"
             }
           },
-          "ActionGuid": "360d4a9bb4dd4e35a4a7d2506e60dee1",
+          "ActionGuid": "c84074abb9c64f099574bda7abb5fd58",
+          "ActionId": 3000240
+        },
+        {
+          "Name": "RestorePlayerCameraAdjustment",
+          "Params": {},
+          "ActionGuid": "45726d5eaa634459b003397a23492a66",
           "ActionId": 3000313
         }
       ],
@@ -1120079,104 +1120129,7 @@
         "TidMonsterGroupName": "Quest_923000000_MonsterGroupName_265_1"
       },
       "TidTip": "Quest_923000000_ChildQuestTip_265_130",
-      "EnterActions": [
-        {
-          "Name": "AdjustPlayerCamera",
-          "Params": {
-            "Option": {
-              "Type": "关卡.Common.镜头.固定镜头",
-              "Priority": 100,
-              "FadeInTime": 0,
-              "FadeOutTime": 1,
-              "ArmLength": 0,
-              "MinumArmLength": 0,
-              "MaxiumArmLength": 0,
-              "Offset": {
-                "X": 0,
-                "Y": 0,
-                "Z": 0
-              },
-              "Fov": 85,
-              "CenterPos": {
-                "X": -52320.97,
-                "Y": 49772.85,
-                "Z": -10872.31
-              },
-              "CenterRot": {
-                "Y": -44.4,
-                "Z": 135.3
-              },
-              "IsDisableCollision": false
-            }
-          },
-          "ActionGuid": "8468434390f5454093124182f08fd591",
-          "Timeout": 0,
-          "ActionId": 3000053
-        },
-        {
-          "Name": "PlayFlow",
-          "Params": {
-            "FlowListName": "剧情_3_7_一级POI_愧心域",
-            "FlowId": 60,
-            "StateId": 1
-          },
-          "ActionGuid": "5db95f763c164c9ab87899658f9a679b",
-          "Async": true,
-          "ActionId": 3000033
-        },
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "DisableAll",
-            "DisplayMode": "ShowUi"
-          },
-          "ActionGuid": "7bf3d6dbf3304a18af614fb1f830122f",
-          "ActionId": 3000064
-        },
-        {
-          "Name": "Wait",
-          "Params": {
-            "Time": 5
-          },
-          "ActionGuid": "257cee124afc456c902af5dd8a4bb429",
-          "ActionId": 3000068
-        },
-        {
-          "Name": "SetPlayerOperationRestriction",
-          "Params": {
-            "Type": "DisableModule",
-            "MoveOption": {
-              "Type": "Enable"
-            },
-            "SkillOption": {
-              "Type": "DisableSection",
-              "DisplayMode": "Disable",
-              "DisableExploreSkill": {
-                "ExploreSkillList": [
-                  800001
-                ]
-              }
-            },
-            "CameraOption": {
-              "Type": "Enable"
-            },
-            "UiOption": {
-              "Type": "Enable"
-            },
-            "SceneInteractionOption": {
-              "Type": "Enable"
-            }
-          },
-          "ActionGuid": "7e3e0398d4f646dab621d35cb9720c91",
-          "ActionId": 3000240
-        },
-        {
-          "Name": "RestorePlayerCameraAdjustment",
-          "Params": {},
-          "ActionGuid": "a3e6d0db50dd43b58de702557a38c458",
-          "ActionId": 3000360
-        }
-      ],
+      "EnterActions": [],
       "FinishActions": [
         {
           "Name": "TriggerCameraShake",
@@ -1121129,7 +1121082,7 @@
           "RangeEntityId": 261850544,
           "PositionEntityId": 261850545
         },
-        "DisableRollbackWhileReconnect": false
+        "DisableRollbackWhileReconnect": true
       },
       "TrackCustomBoard": {
         "FastReturnMapPos": {
@@ -1121209,7 +1121162,7 @@
           "RangeEntityId": 261850544,
           "PositionEntityId": 261850548
         },
-        "DisableRollbackWhileReconnect": false
+        "DisableRollbackWhileReconnect": true
       },
       "TrackCustomBoard": {
         "FastReturnMapPos": {
@@ -1121279,12 +1121232,23 @@
       "Id": 96,
       "Desc": "",
       "SaveConfig": {
-        "EnterActions": [],
+        "EnterActions": [
+          {
+            "Name": "ChangeEntityState",
+            "Params": {
+              "Type": "Directly",
+              "EntityId": 261850435,
+              "State": "关卡.LevelSeq标记.标记A"
+            },
+            "ActionGuid": "fa70fad47a5d45419883af47ed14e72d",
+            "ActionId": 3000283
+          }
+        ],
         "PosRollbackCfg": {
           "RangeEntityId": 261850544,
           "PositionEntityId": 261850549
         },
-        "DisableRollbackWhileReconnect": false
+        "DisableRollbackWhileReconnect": true
       },
       "TrackCustomBoard": {
         "FastReturnMapPos": {
@@ -1121360,7 +1121324,7 @@
               "Type": "Boolean",
               "Source": "Other",
               "RefType": "Entity",
-              "RefId": 261850536,
+              "RefId": 261850531,
               "Name": "是否受影响"
             },
             "Compare": "Eq",
@@ -1121444,7 +1121408,7 @@
           "RangeEntityId": 261850544,
           "PositionEntityId": 261850550
         },
-        "DisableRollbackWhileReconnect": false
+        "DisableRollbackWhileReconnect": true
       },
       "TrackCustomBoard": {
         "FastReturnMapPos": {
@@ -1121625,7 +1121589,7 @@
           "RangeEntityId": 261850553,
           "PositionEntityId": 261850552
         },
-        "DisableRollbackWhileReconnect": false,
+        "DisableRollbackWhileReconnect": true,
         "EnterActions": [
           {
             "Name": "RestorePlayerCameraAdjustment",
@@ -1121750,7 +1121714,7 @@
           "RangeEntityId": 261850556,
           "PositionEntityId": 261850555
         },
-        "DisableRollbackWhileReconnect": false
+        "DisableRollbackWhileReconnect": true
       },
       "TrackCustomBoard": {
         "FastReturnMapPos": {
@@ -1123108,32 +1123072,19 @@
       "TidTip": "Quest_250000000_ChildQuestTip_250_202",
       "TrackTarget": {
         "TrackType": {
-          "Type": "Entities",
-          "EntityIds": [
-            250850201
+          "Type": "Locations",
+          "Locations": [
+            {
+              "X": 331346.9,
+              "Y": 1560.5,
+              "Z": 387.6,
+              "A": 0
+            }
           ]
         }
       },
       "EnterActions": [],
       "FinishActions": [
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850184,
-              250850185,
-              250850187,
-              250850189,
-              250850190,
-              250850194,
-              250850195,
-              250850205,
-              250850360
-            ]
-          },
-          "ActionGuid": "dd425ee0bc7045e483ca593e3f32992e",
-          "ActionId": 3000135
-        },
         {
           "Name": "ChangeEntityState",
           "Params": {
@@ -1124465,6 +1124416,14 @@
           },
           "ActionGuid": "cdfe470a62564e0fba10c3cc5f1871d8",
           "ActionId": 3000284
+        },
+        {
+          "Name": "Wait",
+          "Params": {
+            "Time": 1.5
+          },
+          "ActionGuid": "94d02940635f4850885da5995984f51b",
+          "ActionId": 3000527
         },
         {
           "Name": "StopCameraLookAt",
@@ -1126625,20 +1126584,19 @@
           "ActionId": 3000024
         },
         {
-          "Name": "SetEntityVisible",
+          "Name": "DestroyEntity",
           "Params": {
-            "Visible": false,
             "EntityIds": [
               272850694
             ]
           },
-          "ActionGuid": "efc4ab25635c4c5db624676427853101",
+          "ActionGuid": "48faf11e0ffc4e92a881b520c7722b80",
           "ActionId": 3000015
         },
         {
           "Name": "RestorePlayerCameraAdjustment",
           "Params": {},
-          "ActionGuid": "f6bb770d93c346f986d0587980f6db5d",
+          "ActionGuid": "39c2afc53e374252b7562eed7210ebba",
           "ActionId": 3000029
         },
         {
@@ -1128114,11 +1128072,73 @@
           "Params": {
             "Visible": true,
             "EntityIds": [
-              250850334
+              250850334,
+              250850323,
+              250850194
             ]
           },
           "ActionGuid": "9333cf06f0da42f3a2ccc3a06811974f",
           "ActionId": 3000226
+        },
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": true,
+            "EntityIds": [
+              250850075,
+              250850077,
+              250850078,
+              250850103,
+              250850107,
+              250850109,
+              250850111,
+              250850113,
+              250850185,
+              250850187,
+              250850072
+            ]
+          },
+          "ActionGuid": "cd4eca19f20945d4a3ef6a1edcf13e53",
+          "ActionId": 3000055
+        },
+        {
+          "Name": "SetEntityVisible",
+          "Params": {
+            "Visible": true,
+            "EntityIds": [
+              250850328,
+              250850333,
+              250850349,
+              250850350,
+              250850352,
+              250850353
+            ]
+          },
+          "ActionGuid": "9dc4afcdc762464183945cdd5bbfc1a0",
+          "ActionId": 3000081
+        },
+        {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 250850249,
+            "State": "关卡.Common.状态.完成"
+          },
+          "ActionGuid": "0b0bac3916e14ff5bcc43fa4415a339d",
+          "ActionId": 3000111
+        },
+        {
+          "Name": "SwitchDataLayers",
+          "Params": {
+            "LoadDataLayers": [
+              850089
+            ],
+            "UnloadDataLayers": [
+              850090
+            ]
+          },
+          "ActionGuid": "95f6744a16e2433680532abcab2bf44d",
+          "ActionId": 3000096
         }
       ],
       "ParentNodeId": 1000001
@@ -1129209,7 +1129229,20 @@
         "PosRollbackCfg": {
           "RangeEntityId": 265850596,
           "PositionEntityId": 923850289
-        }
+        },
+        "EnterActions": [
+          {
+            "Name": "SwitchDataLayers",
+            "Params": {
+              "LoadDataLayers": [
+                850078
+              ],
+              "UnloadDataLayers": []
+            },
+            "ActionGuid": "8984ba8f7020472dae18d2f3a6289ec1",
+            "ActionId": 3000507
+          }
+        ]
       },
       "UIConfig": {
         "UiType": "Task",
@@ -1129967,6 +1130000,16 @@
           "ActionId": 3000045
         },
         {
+          "Name": "ChangeEntityState",
+          "Params": {
+            "Type": "Directly",
+            "EntityId": 272850561,
+            "State": "关卡.Common.状态.封锁"
+          },
+          "ActionGuid": "1509e183476541228ed6f4c9f54ae043",
+          "ActionId": 3000003
+        },
+        {
           "Name": "AdjustPlayerCamera",
           "Params": {
             "Option": {
@@ -1130167,8 +1130210,6 @@
           "ActionId": 3000029
         }
       ],
-      "HideTip": true,
-      "HideUiExceptTaskList": true,
       "ParentNodeId": 1
     }
   },
@@ -1130619,7 +1130660,7 @@
         "EntityDistanceLimiting": {
           "EntityId": 272850619,
           "MaxDistance": 9000,
-          "OverMaxCountdown": 0
+          "OverMaxCountdown": 5
         }
       },
       "FinishActions": [],
@@ -1130713,7 +1130754,8 @@
             "EntityIds": [
               945850010,
               945850009,
-              945850011
+              945850011,
+              945850016
             ]
           },
           "ActionGuid": "c75cfe1df9b04471b2d65c9e8e7106f1",
@@ -1130980,23 +1131022,6 @@
         }
       },
       "EnterActions": [
-        {
-          "Name": "AwakeEntity",
-          "Params": {
-            "EntityIds": [
-              250850075,
-              250850077,
-              250850078,
-              250850169,
-              250850170,
-              250850171,
-              250850172,
-              250850301
-            ]
-          },
-          "ActionGuid": "64b7b4e6bec341b4a7248e75cb7885eb",
-          "ActionId": 3000007
-        },
         {
           "Name": "ChangeEntityState",
           "Params": {
@@ -1136288,49 +1136313,22 @@
           "ActionId": 3000043
         },
         {
-          "Name": "SetPlayerOperationRestriction",
+          "Name": "CameraLookAt",
           "Params": {
-            "Type": "DisableModule",
-            "MoveOption": {
-              "Type": "Enable"
+            "Pos": {
+              "X": 105774.48,
+              "Y": -78259.26,
+              "Z": -104632.13
             },
-            "SkillOption": {
-              "Type": "DisableSection",
-              "DisplayMode": "Disable",
-              "DisableSkillWheel": true,
-              "DisableBattleSkill": {
-                "IsDisablePhantomSkill": true
-              },
-              "DisableExploreSkill": {
-                "ExploreSkillList": [
-                  800001
-                ]
-              }
-            },
-            "CameraOption": {
-              "Type": "Enable"
-            },
-            "UiOption": {
-              "Type": "EnableSectionalUi",
-              "ShowMiniMap": false,
-              "ShowQuestTrack": true,
-              "ShowEsc": true,
-              "ShowSystem": true,
-              "ShowScreenEffect": true,
-              "ShowPositionOfficial": true,
-              "ShowRoleFormation": true,
-              "ShowRoleStatus": true,
-              "ShowBossStatus": true,
-              "ShowGuideLayer": true,
-              "ShowMonsterHpBar": true,
-              "ShowDamageText": true,
-              "ShowPing": true
-            },
-            "SceneInteractionOption": {
-              "Type": "Enable"
-            }
+            "FadeInTime": 1.5,
+            "StayTime": 2,
+            "FadeOutTime": 0.5,
+            "LockCamera": false,
+            "IsLockCameraPos": false
           },
-          "ActionGuid": "3e8a37a1173442069683dddd541d934d",
+          "ActionGuid": "a5f2bb9e36f848b8bcffe757573a3d86",
+          "Async": true,
+          "Timeout": 4,
           "ActionId": 3000115
         },
         {
@@ -1136373,6 +1136371,12 @@
           },
           "ActionGuid": "162a8ddedd3549c99de607bb8b6d24ea",
           "ActionId": 3000181
+        },
+        {
+          "Name": "StopCameraLookAt",
+          "Params": {},
+          "ActionGuid": "ad04c27ef2d2436d9152005ccd5ff547",
+          "ActionId": 3000529
         }
       ],
       "ParentNodeId": 10000002
@@ -1137436,25 +1137440,6 @@
           "ActionGuid": "5a085d79330c456d975570cb7cdfa674",
           "ActionId": 3000475,
           "Async": true
-        },
-        {
-          "Name": "CameraLookAt",
-          "Params": {
-            "Pos": {
-              "X": 125426.98,
-              "Y": -88259.76,
-              "Z": -105362.24
-            },
-            "FadeInTime": 1.5,
-            "StayTime": 1,
-            "FadeOutTime": 1,
-            "LockCamera": true,
-            "IsLockCameraPos": false
-          },
-          "ActionGuid": "9afa6dcdcbed4d24a8a1e5ae6c97888e",
-          "Timeout": 3.5,
-          "ActionId": 3000512,
-          "Async": true
         }
       ],
       "ParentNodeId": 11000005
@@ -1137546,25 +1137531,6 @@
           "ActionGuid": "14af35b80b194d2ca1a406b34ceebb35",
           "ActionId": 3000508,
           "Async": true
-        },
-        {
-          "Name": "CameraLookAt",
-          "Params": {
-            "Pos": {
-              "X": 125821.63,
-              "Y": -90185.05,
-              "Z": -105341.12
-            },
-            "FadeInTime": 1.5,
-            "StayTime": 1,
-            "FadeOutTime": 1,
-            "LockCamera": true,
-            "IsLockCameraPos": false
-          },
-          "ActionGuid": "2849333153ee4708834daa7381b137ff",
-          "Timeout": 3.5,
-          "ActionId": 3000504,
-          "Async": true
         }
       ],
       "ParentNodeId": 11000005
@@ -1137619,25 +1137585,6 @@
           },
           "ActionGuid": "8fca6e61ced5467fb9b5a64761374810",
           "ActionId": 3000482
-        },
-        {
-          "Name": "CameraLookAt",
-          "Params": {
-            "Pos": {
-              "X": 128018.72,
-              "Y": -89975.48,
-              "Z": -105323.71
-            },
-            "FadeInTime": 1.5,
-            "StayTime": 1,
-            "FadeOutTime": 1,
-            "LockCamera": true,
-            "IsLockCameraPos": false
-          },
-          "ActionGuid": "d0d9f6147ed24b549a6ca872ec72c04e",
-          "Timeout": 3.5,
-          "ActionId": 3000505,
-          "Async": true
         }
       ],
       "ParentNodeId": 11000005
@@ -1137676,7 +1137623,9 @@
           "Name": "AwakeEntity",
           "Params": {
             "EntityIds": [
-              265850732
+              265850732,
+              265850750,
+              265850751
             ]
           },
           "ActionGuid": "ade4dfa2c2b3452b8b50860e4df90af2",
@@ -1137709,30 +1137658,13 @@
           "Name": "DestroyEntity",
           "Params": {
             "EntityIds": [
-              265850732
+              265850732,
+              265850750,
+              265850751
             ]
           },
           "ActionGuid": "8f01aa26ecb8448a96bfe2b5a4882590",
           "ActionId": 3000487
-        },
-        {
-          "Name": "CameraLookAt",
-          "Params": {
-            "Pos": {
-              "X": 128178.93,
-              "Y": -91652.87,
-              "Z": -105307.84
-            },
-            "FadeInTime": 1.5,
-            "StayTime": 1,
-            "FadeOutTime": 1,
-            "LockCamera": true,
-            "IsLockCameraPos": false
-          },
-          "ActionGuid": "80092173b6744fba95d0d5965813ff32",
-          "Timeout": 3.5,
-          "ActionId": 3000506,
-          "Async": true
         }
       ],
       "ParentNodeId": 11000005
@@ -1137747,8 +1137679,8 @@
       "Condition": {
         "Type": "ReachArea",
         "Pos": {
-          "X": 127925.09,
-          "Y": -91545.38,
+          "X": 128237.07,
+          "Y": -91665.68,
           "Z": -105443.19
         },
         "Range": 500
@@ -1137759,9 +1137691,9 @@
           "Type": "Locations",
           "Locations": [
             {
-              "X": 127925.09,
-              "Y": -91545.38,
-              "Z": -105443.19
+              "X": 128238.13,
+              "Y": -91680.73,
+              "Z": -105457.39
             }
           ]
         }
@@ -1137787,7 +1137719,8 @@
             "SplineEntityId": 265850735
           },
           "ActionGuid": "5329772c20084d32bfeeaa390386aaad",
-          "ActionId": 3000489
+          "ActionId": 3000489,
+          "Async": true
         }
       ],
       "FinishActions": [
@@ -1137815,7 +1137748,7 @@
         {
           "Name": "Wait",
           "Params": {
-            "Time": 2
+            "Time": 1
           },
           "ActionGuid": "63fc4b406ab34b8283f886b90cf56934",
           "ActionId": 3000491
@@ -1137829,25 +1137762,6 @@
           },
           "ActionGuid": "414debf5902946f7ab50f703d8c0d1ef",
           "ActionId": 3000492
-        },
-        {
-          "Name": "CameraLookAt",
-          "Params": {
-            "Pos": {
-              "X": 130666.96,
-              "Y": -92587.66,
-              "Z": -105330.3
-            },
-            "FadeInTime": 1.5,
-            "StayTime": 1,
-            "FadeOutTime": 1,
-            "LockCamera": true,
-            "IsLockCameraPos": false
-          },
-          "ActionGuid": "00aaa9be68c543d3a0e5adadc99234fd",
-          "Timeout": 3.5,
-          "ActionId": 3000507,
-          "Async": true
         }
       ],
       "ParentNodeId": 11000005

@@ -1161589,6 +1161589,14 @@
             },
             "Actions": [
               {
+                "Name": "Wait",
+                "Params": {
+                  "Time": 2
+                },
+                "ActionGuid": "012e686460f342fe8325ee4b25ae1853",
+                "ActionId": 1000001
+              },
+              {
                 "Name": "GiantTriggerResponse",
                 "Params": {
                   "ResponseFunctions": [
@@ -1161619,7 +1161627,7 @@
               ]
             },
             "Actions": [],
-            "OnlyTriggerWhenConditionBecomesTrue": true,
+            "OnlyTriggerWhenConditionBecomesTrue": false,
             "SendSelfEvent": "EventKeyA"
           },
           {
@@ -1161633,7 +1161641,7 @@
               ]
             },
             "Actions": [],
-            "OnlyTriggerWhenConditionBecomesTrue": true,
+            "OnlyTriggerWhenConditionBecomesTrue": false,
             "SendSelfEvent": "EventKeyB"
           }
         ]
@@ -1161895,7 +1161903,7 @@
       "SceneItemLifeCycleComponent": {
         "CreateStageConfig": {},
         "DestroyStageConfig": {
-          "PerformDuration": 2
+          "PerformDuration": 0.1
         }
       },
       "SceneItemMovementComponent": {
@@ -1163720,7 +1163728,7 @@
         "Category": {},
         "Camp": 2,
         "EntityPropertyId": 2,
-        "OnlineInteractType": 1,
+        "OnlineInteractType": 2,
         "AoiLayer": 3,
         "AoiZRadius": 0,
         "IsForceDestroy": true
@@ -1163835,6 +1163843,28 @@
           "X": 0,
           "Y": 0,
           "Z": 100
+        },
+        "LockControl": {
+          "EnableCondition": {
+            "Type": 0,
+            "Conditions": [
+              {
+                "Type": "CompareEntitySelfState",
+                "Compare": "Ne",
+                "State": "关卡.Common.状态.完成"
+              }
+            ]
+          },
+          "DisableCondition": {
+            "Type": 0,
+            "Conditions": [
+              {
+                "Type": "CompareEntitySelfState",
+                "Compare": "Eq",
+                "State": "关卡.Common.状态.完成"
+              }
+            ]
+          }
         }
       },
       "LevelPrefabPerformComponent": {},
@@ -1213346,6 +1213376,28 @@
           "X": 0,
           "Y": 0,
           "Z": 100
+        },
+        "LockControl": {
+          "EnableCondition": {
+            "Type": 0,
+            "Conditions": [
+              {
+                "Type": "CompareEntitySelfState",
+                "Compare": "Ne",
+                "State": "关卡.Common.状态.完成"
+              }
+            ]
+          },
+          "DisableCondition": {
+            "Type": 0,
+            "Conditions": [
+              {
+                "Type": "CompareEntitySelfState",
+                "Compare": "Eq",
+                "State": "关卡.Common.状态.完成"
+              }
+            ]
+          }
         }
       },
       "LevelPrefabPerformComponent": {},
@@ -1216706,7 +1216758,7 @@
         "Camp": 2,
         "OnlineInteractType": 2,
         "EntityPropertyId": 2,
-        "AoiLayer": 0,
+        "AoiLayer": 1,
         "AoiZRadius": 0,
         "IsForceDestroy": true
       },
@@ -1219908,7 +1219960,7 @@
         "Camp": 2,
         "OnlineInteractType": 2,
         "EntityPropertyId": 2,
-        "AoiLayer": 0,
+        "AoiLayer": 1,
         "AoiZRadius": 0,
         "IsForceDestroy": true
       },
