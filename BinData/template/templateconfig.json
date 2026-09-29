@@ -1161508,7 +1161508,7 @@
           "关卡.Common.状态.常态",
           "关卡.Common.状态.解锁"
         ],
-        "HitCd": 1
+        "HitCd": 3
       },
       "FightInteractComponent": {
         "LockRange": 350,
@@ -1161876,8 +1161876,6 @@
         },
         "CycleStates": [
           "关卡.Common.状态.解锁",
-          "关卡.Common.状态.常态",
-          "关卡.Common.状态.激活",
           "关卡.Common.状态.完成"
         ],
         "HitBullet": {
@@ -1161921,14 +1161919,6 @@
             {
               "SceneInteractionState": 1,
               "LevelTag": -374576888
-            },
-            {
-              "SceneInteractionState": 2,
-              "LevelTag": -1152559349
-            },
-            {
-              "SceneInteractionState": 3,
-              "LevelTag": -3775711
             },
             {
               "SceneInteractionState": 4,
@@ -1164164,7 +1164154,7 @@
             "Id": 5037001
           }
         ],
-        "InteractDefaultIcon": "TreasureBox"
+        "InteractIcon": "GiantGift"
       },
       "RewardComponent": {
         "RewardId": 1612,
@@ -1181651,7 +1181641,7 @@
             "Id": 5037001
           }
         ],
-        "InteractDefaultIcon": "TreasureBox"
+        "InteractIcon": "GiantGift"
       },
       "RewardComponent": {
         "RewardId": 1610,
@@ -1181799,7 +1181789,7 @@
             "Id": 5037001
           }
         ],
-        "InteractDefaultIcon": "TreasureBox"
+        "InteractIcon": "GiantGift"
       },
       "RewardComponent": {
         "RewardId": 1611,
@@ -1204600,7 +1204590,8 @@
         "EntityPropertyId": 1,
         "AoiLayer": 0,
         "AoiZRadius": 0,
-        "IsForceDestroy": true
+        "IsForceDestroy": true,
+        "EntityUpdateStrategy": 2
       },
       "AiComponent": {
         "AiId": 9000801
@@ -1205596,7 +1205587,7 @@
             "Id": 5037001
           }
         ],
-        "InteractDefaultIcon": "TreasureBox"
+        "InteractIcon": "GiantGift"
       },
       "RewardComponent": {
         "RewardId": 1615,
@@ -1205748,7 +1205739,7 @@
             "Id": 5037001
           }
         ],
-        "InteractDefaultIcon": "TreasureBox"
+        "InteractIcon": "GiantGift"
       },
       "RewardComponent": {
         "RewardId": 1617,
@@ -1205900,7 +1205891,7 @@
             "Id": 5037001
           }
         ],
-        "InteractDefaultIcon": "TreasureBox"
+        "InteractIcon": "GiantGift"
       },
       "RewardComponent": {
         "RewardId": 1614,
@@ -1206052,7 +1206043,7 @@
             "Id": 5037001
           }
         ],
-        "InteractDefaultIcon": "TreasureBox"
+        "InteractIcon": "GiantGift"
       },
       "RewardComponent": {
         "RewardId": 1616,
@@ -1206204,7 +1206195,7 @@
             "Id": 5037001
           }
         ],
-        "InteractDefaultIcon": "TreasureBox"
+        "InteractIcon": "GiantGift"
       },
       "RewardComponent": {
         "RewardId": 1613,
@@ -1206356,7 +1206347,7 @@
             "Id": 5037001
           }
         ],
-        "InteractDefaultIcon": "TreasureBox"
+        "InteractIcon": "GiantGift"
       },
       "RewardComponent": {
         "RewardId": 1618,
@@ -1208870,7 +1208861,7 @@
         "WellType": "Entry",
         "StreamingRenderConfig": {
           "SelfConfig": {
-            "RtActorRefKey": "EffectRT",
+            "RtActorRefKey": "",
             "FallbackCubeMapKey": "EffectCubeMap"
           },
           "AsStreamPointConfig": {
@@ -1209024,7 +1209015,7 @@
                       "StreamingTimeoutEffect": {
                         "Type": "Seamless",
                         "EffectDaPath": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_3_7_Screen_Black.DA_Fx_3_7_Screen_Black",
-                        "LeastTime": 0,
+                        "LeastTime": 0.1,
                         "EffectExpandTime": 0.5,
                         "EffectCollapseTime": 2,
                         "IsNormalStreamingLoad": true,
@@ -1209587,7 +1209578,7 @@
     "Name": "玩法_巨人交付台_火",
     "ComponentsData": {
       "BaseInfoComponent": {
-        "TidName": "Entity_8247625c6af32464372b14a047b3b55995b82d90b678f5eee8bdf3a4c5b76d45",
+        "TidName": "Entity_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "Category": {
           "MainType": "Mechanism"
         },
@@ -1210007,7 +1209998,7 @@
     "Name": "玩法_巨人交付台_水",
     "ComponentsData": {
       "BaseInfoComponent": {
-        "TidName": "Entity_f3c8e84bf33946d6a5b9f3b84ed8e12f03527a44abed0cee15237a482806c9e5",
+        "TidName": "Entity_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "Category": {
           "MainType": "Mechanism"
         },
@@ -1210427,7 +1210418,7 @@
     "Name": "玩法_巨人交付台_木",
     "ComponentsData": {
       "BaseInfoComponent": {
-        "TidName": "Entity_dca7ab13bf9e933e6544ebb9782aaec85f2d89baac12a89853d1ebd54a44046f",
+        "TidName": "Entity_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "Category": {
           "MainType": "Mechanism"
         },
@@ -1212739,36 +1212730,8 @@
         }
       },
       "ElementalBoxFoundationComponent": {
-        "OnObtainNucleusActions": [
-          {
-            "Name": "SetTargetElementalAbility",
-            "Params": {
-              "Target": {
-                "Type": "Player"
-              },
-              "ElementalType": "关卡.Common.匣子元素.水",
-              "OpType": "Grant",
-              "Priority": 0
-            },
-            "ActionGuid": "8f61dc1ecb3e434bb9ca82627b4b30bb",
-            "ActionId": 1000001
-          }
-        ],
-        "OnReturnNucleusActions": [
-          {
-            "Name": "SetTargetElementalAbility",
-            "Params": {
-              "Target": {
-                "Type": "Player"
-              },
-              "ElementalType": "关卡.Common.匣子元素.水",
-              "OpType": "Remove",
-              "Priority": 0
-            },
-            "ActionGuid": "2a0bca3bb54942b69b5b3cca12070524",
-            "ActionId": 1000002
-          }
-        ],
+        "OnObtainNucleusActions": [],
+        "OnReturnNucleusActions": [],
         "ElementalType": "关卡.Common.匣子元素.水",
         "MaxCarryRange": 5000
       },
@@ -1213542,7 +1213505,7 @@
       },
       "LevelAiComponent": {},
       "ModelComponent": {
-        "HalfHeight": 85,
+        "HalfHeight": 230,
         "Disabled": false,
         "ModelType": {
           "Type": "Npc",
@@ -1215711,7 +1215674,8 @@
           "功能.逻辑状态标识.不接受命中特效",
           "关卡.Common.a79721bf.e96b1277",
           "行为状态.逻辑状态.不被敌方子弹命中",
-          "行为状态.逻辑状态.不可锁定"
+          "行为状态.逻辑状态.不可锁定.软锁定",
+          "行为状态.逻辑状态.不可锁定.强锁定"
         ]
       },
       "CombatComponent": {},
@@ -1215915,12 +1215879,12 @@
           "Type": "Box",
           "Center": {
             "X": 0,
-            "Y": 50,
+            "Y": 150,
             "Z": 400
           },
           "Size": {
             "X": 200,
-            "Y": 100,
+            "Y": 200,
             "Z": 400
           }
         }
@@ -1220301,7 +1220265,7 @@
           }
         },
         "StreamWaitConfig": {
-          "MinWaitStreamDuration": 1,
+          "MinWaitStreamDuration": 0,
           "MaxWaitStreamDuration": 5
         }
       },
@@ -1220452,7 +1220416,7 @@
                       "StreamingTimeoutEffect": {
                         "Type": "Seamless",
                         "EffectDaPath": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_3_7_Screen_Black.DA_Fx_3_7_Screen_Black",
-                        "LeastTime": 0,
+                        "LeastTime": 0.1,
                         "EffectExpandTime": 0.5,
                         "EffectCollapseTime": 2,
                         "IsNormalStreamingLoad": true,
@@ -1220594,7 +1220558,7 @@
           }
         },
         "StreamWaitConfig": {
-          "MinWaitStreamDuration": 1,
+          "MinWaitStreamDuration": 0,
           "MaxWaitStreamDuration": 5
         }
       },
@@ -1220745,7 +1220709,7 @@
                       "StreamingTimeoutEffect": {
                         "Type": "Seamless",
                         "EffectDaPath": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_3_7_Screen_Black.DA_Fx_3_7_Screen_Black",
-                        "LeastTime": 0,
+                        "LeastTime": 0.1,
                         "EffectExpandTime": 0.5,
                         "EffectCollapseTime": 2,
                         "IsNormalStreamingLoad": true,
@@ -1221050,7 +1221014,7 @@
                       "StreamingTimeoutEffect": {
                         "Type": "Seamless",
                         "EffectDaPath": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_3_7_Screen_Black.DA_Fx_3_7_Screen_Black",
-                        "LeastTime": 0,
+                        "LeastTime": 0.1,
                         "EffectExpandTime": 0.5,
                         "EffectCollapseTime": 2,
                         "IsNormalStreamingLoad": true,
@@ -1223440,7 +1223404,8 @@
         "EntityPropertyId": 1,
         "AoiLayer": 0,
         "AoiZRadius": 0,
-        "IsForceDestroy": true
+        "IsForceDestroy": true,
+        "EntityUpdateStrategy": 2
       },
       "AiComponent": {
         "AiId": 9000802
@@ -1228157,7 +1228122,7 @@
         "NormalEffect": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Maodian.DA_Fx_Group_Hook_Maodian",
         "IsClimb": true,
         "HookInteractConfig": {
-          "Type": "FixedPointHook"
+          "Type": "WaterBoxBigWeapon"
         },
         "IsHideSelf": true,
         "HookEnableCondition": {
@@ -1228384,7 +1228349,8 @@
         "EntityPropertyId": 1,
         "AoiLayer": 0,
         "AoiZRadius": 0,
-        "IsForceDestroy": true
+        "IsForceDestroy": true,
+        "EntityUpdateStrategy": 2
       },
       "AiComponent": {
         "AiId": 9000803
@@ -1228592,6 +1228558,800 @@
       },
       "SceneItemAttributeComponent": {
         "AttributeType": "槲生半岛充能石碑",
+        "Disabled": true
+      }
+    }
+  },
+  {
+    "Id": 266850005,
+    "BlueprintType": "branch3.7_266_Gameplay_3_7/Gameplay/匣子属性玩法1",
+    "Name": "TsEntity_玩法_心玥井底座_锁暝木匣",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "TidName": "Entity_2c6622a561d3c61ce8e41737f300cd6b7eb973654ad1bd5a9e2110834081f549",
+        "Category": {
+          "MainType": "MatchGear"
+        },
+        "Camp": 2,
+        "OnlineInteractType": 2,
+        "EntityPropertyId": 2,
+        "AoiLayer": 3,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "EntityStateComponent": {
+        "Type": "完成态",
+        "State": "关卡.Common.状态.常态",
+        "LockConfig": {
+          "LockType": "Default",
+          "IsInitLock": false
+        },
+        "StateChangeBehaviors": []
+      },
+      "ModelComponent": {
+        "Disabled": false,
+        "ModelType": {
+          "Type": "ModelId",
+          "ModelId": 562036
+        }
+      },
+      "RangeComponent": {
+        "Shape": {
+          "Type": "Box",
+          "Center": {
+            "Z": 200
+          },
+          "Size": {
+            "X": 362.5,
+            "Y": 362.5,
+            "Z": 200
+          }
+        }
+      },
+      "SceneItemLifeCycleComponent": {
+        "CreateStageConfig": {},
+        "DestroyStageConfig": {}
+      },
+      "ElementalWellComponent": {
+        "PrefabBindPointKey": "ElementalBoxTargetPos",
+        "StreamingFinishedToState": "关卡.Common.状态.激活",
+        "LeaveRangeToState": "关卡.Common.状态.常态",
+        "WellType": "Entry",
+        "StreamingRenderConfig": {
+          "SelfConfig": {
+            "RtActorRefKey": "EffectRT",
+            "FallbackCubeMapKey": "EffectCubeMap"
+          },
+          "AsStreamPointConfig": {
+            "TargetConfig": {
+              "ViewDistance": {
+                "Type": "Low"
+              },
+              "SetRenderFlags": [
+                {
+                  "Type": "VolumetricFog",
+                  "Enable": false
+                },
+                {
+                  "Type": "PostProcessing",
+                  "Enable": false
+                }
+              ]
+            },
+            "RtSize": {
+              "Length": 512,
+              "Width": 512
+            },
+            "FallbackCubeMapTexturePath": "/Game/Aki/Sequence/TestSequence/ouzhuohong/TestTextureRenderTargetCube_Tex.TestTextureRenderTargetCube_Tex",
+            "RtRenderRefPosActorKey": "RtCapturePos",
+            "IsRenderStreamingPointEntity": true
+          }
+        },
+        "StreamWaitConfig": {
+          "MinWaitStreamDuration": 3,
+          "MaxWaitStreamDuration": 5
+        }
+      },
+      "InteractComponent": {
+        "Range": 200,
+        "DoIntactType": "Direct",
+        "Options": [
+          {
+            "Type": {
+              "Type": "Actions",
+              "Actions": []
+            },
+            "TidContent": "Entity_aed92de913dc55546dbdeb5942cc459b21d9b6c58263eb5e4efe29e0da9c1f87",
+            "LongPressInteractConfig": {
+              "PressDuration": 1.5,
+              "PressEffect": {
+                "CameraShakeBpPath": "/Game/Aki/Data/Camera/Level/CS_Collapse_Lv3.CS_Collapse_Lv3",
+                "GamePadVibration": {
+                  "LongPressingEffect": "/Game/Aki/Data/GamepadShake/Common/FF_Level_Common_Lv1.FF_Level_Common_Lv1"
+                },
+                "PlayEffects": [
+                  "/Game/Aki/Effect/EffectGroup/Common/Screen/DA_Fx_Group_Post_3_7_Heiping_Enter.DA_Fx_Group_Post_3_7_Heiping_Enter"
+                ],
+                "LongPressSound": "/Game/Aki/WwiseAudio/Events/play_sfx_gp_xyj_cs_one.play_sfx_gp_xyj_cs_one"
+              },
+              "LongPressStartActions": [
+                {
+                  "Name": "AdjustPlayerCamera",
+                  "Params": {
+                    "Option": {
+                      "Type": "关卡.Common.镜头调整",
+                      "Priority": 100,
+                      "FadeInTime": 1,
+                      "FadeOutTime": 0.5,
+                      "ArmLength": 600,
+                      "MinumArmLength": 600,
+                      "MaxiumArmLength": 600,
+                      "Offset": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      },
+                      "Fov": 90,
+                      "OverlayArmLength": 0
+                    }
+                  },
+                  "Timeout": 1,
+                  "ActionId": 1000001
+                }
+              ],
+              "LongPressInterruptedActions": [
+                {
+                  "Name": "PlayEffect2",
+                  "Params": {
+                    "Type": "Effect",
+                    "Path": "/Game/Aki/Effect/EffectGroup/Common/Screen/DA_Fx_Group_Post_3_7_Heiping_Enter1.DA_Fx_Group_Post_3_7_Heiping_Enter1",
+                    "Pos2": {
+                      "Type": 0,
+                      "Offset": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      }
+                    },
+                    "PlayEffectEnd": true
+                  },
+                  "ActionId": 1000006
+                },
+                {
+                  "Name": "RestorePlayerCameraAdjustment",
+                  "Params": {
+                    "ResetFocus": {
+                      "FadeInTime": 0.5,
+                      "FadeInCurve": {
+                        "Type": 1,
+                        "N": 2
+                      }
+                    }
+                  },
+                  "ActionId": 1000002
+                }
+              ],
+              "LongPressSuccessActions": [
+                {
+                  "Name": "PlayEffect2",
+                  "Params": {
+                    "Type": "Effect",
+                    "Path": "/Game/Aki/Effect/EffectGroup/Common/Screen/DA_Fx_Group_Post_3_7_Heiping_Enter2.DA_Fx_Group_Post_3_7_Heiping_Enter2",
+                    "Pos2": {
+                      "Type": 0,
+                      "Offset": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      }
+                    },
+                    "PlayEffectEnd": true
+                  },
+                  "ActionId": 1000007
+                },
+                {
+                  "Name": "RestorePlayerCameraAdjustment",
+                  "Params": {
+                    "ResetFocus": {
+                      "FadeInTime": 1,
+                      "FadeInCurve": {
+                        "Type": 1,
+                        "N": 2
+                      }
+                    }
+                  },
+                  "ActionId": 1000004
+                },
+                {
+                  "Name": "ClientSetPlayerPos",
+                  "Params": {
+                    "TelePortConfig": {
+                      "Type": 1,
+                      "StreamingSuccessEffect": {
+                        "SceneEffectDaPath": "/Game/Aki/Effect/EffectGroup/Common/Screen/DA_Fx_Group_Post_3_7_Heiping_01.DA_Fx_Group_Post_3_7_Heiping_01"
+                      },
+                      "StreamingTimeoutEffect": {
+                        "Type": "Seamless",
+                        "EffectDaPath": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_3_7_Screen_Black.DA_Fx_3_7_Screen_Black",
+                        "LeastTime": 0.1,
+                        "EffectExpandTime": 0.5,
+                        "EffectCollapseTime": 2,
+                        "IsNormalStreamingLoad": true,
+                        "SceneEffectDaPath": "/Game/Aki/Effect/EffectGroup/Common/Screen/DA_Fx_Group_Post_3_7_Heiping.DA_Fx_Group_Post_3_7_Heiping"
+                      },
+                      "LocationOffset": {
+                        "Z": 600
+                      },
+                      "RotationOffset": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      }
+                    }
+                  },
+                  "ActionId": 1000005
+                }
+              ]
+            },
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareEntitySelfState",
+                  "Compare": "Eq",
+                  "State": "关卡.Common.状态.激活"
+                },
+                {
+                  "Type": "CheckVehicleCondition",
+                  "Condition": {
+                    "Type": "PlayerInVehicle",
+                    "OnlinePlayerConditionTargetOption": {
+                      "Type": "Participator",
+                      "AnyPlayer": false
+                    },
+                    "CheckType": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "PointIconConfig": {
+          "MaxShowDistance": 700
+        },
+        "NotInterruptPlotModeLevelD": true,
+        "InteractIcon": "ElementalWell"
+      },
+      "StreamingSourceTriggerPointComponent": {
+        "StreamingSource": {
+          "Type": "Conditional",
+          "StreamingSourceConfigs": []
+        }
+      }
+    }
+  },
+  {
+    "Id": 261850009,
+    "BlueprintType": "branch3.7_261_TsEntity_TN_B3_7_梦州_MaleM_ZYH1_18",
+    "Name": "TsEntity_TN_B3_7_梦州_MaleM_ZYH1_17mask",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "TidName": "Entity_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "Category": {
+          "MainType": "Npc"
+        },
+        "Camp": 2,
+        "IsShowNameOnHead": true,
+        "OnlineInteractType": 1,
+        "EntityPropertyId": 2,
+        "AoiLayer": 0,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 200,
+        "DoIntactType": "Direct",
+        "Options": [],
+        "TurnAroundType": "FaceEachOther",
+        "NotInterruptPlotModeLevelD": true
+      },
+      "AiComponent": {
+        "AiId": 0,
+        "Disabled": true
+      },
+      "NpcPerformComponent": {
+        "IsStare": true,
+        "IsShowStrike": true
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "VisibleConditions": [],
+        "UseFadeEffect": true
+      },
+      "BubbleComponent": {
+        "NpcIds": [],
+        "Flows": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500,
+        "TriggerCylinderConfig": {
+          "InnerConfig": {
+            "Radius": 500,
+            "Height": 300
+          },
+          "OuterConfig": {
+            "Radius": 1500,
+            "Height": 900
+          }
+        }
+      },
+      "VarComponent": {
+        "Vars": [],
+        "Disabled": true
+      },
+      "LevelAiComponent": {},
+      "ModelComponent": {
+        "HalfHeight": 80,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "Npc",
+          "BlueprintPath": "/Game/Aki/Character/NPC/MaleM/BPData/BP_NH_MaleM_Base.BP_NH_MaleM_Base_C",
+          "NpcModel": {
+            "Type": "Da",
+            "Da": "/Game/Aki/Character/NPC/MaleM/Data/3_X/MengZhou/ZhaoYueHui/DA_MaleM_ZYH1_17mask.DA_MaleM_ZYH1_17mask"
+          },
+          "Abp": "/Game/Aki/Character/NPC/MaleM/BPData/ABP_NH_MaleM_Base.ABP_NH_MaleM_Base_C"
+        }
+      }
+    }
+  },
+  {
+    "Id": 261850012,
+    "BlueprintType": "branch3.7_261_TsEntity_TN_B3_7_梦州_FemaleM_ZYH1_20",
+    "Name": "TsEntity_TN_B3_7_梦州_FemaleM_ZYH1_19mask",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "Npc"
+        },
+        "Camp": 2,
+        "OnlineInteractType": 1,
+        "IsShowNameOnHead": true,
+        "TidName": "Entity_13f31e6905f09097de3d961105a26c9f1a922e71bee3932bec0f66d6c1a4582f",
+        "EntityPropertyId": 2,
+        "AoiLayer": 0,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 200,
+        "DoIntactType": "Direct",
+        "Options": [],
+        "TurnAroundType": "FaceEachOther",
+        "NotInterruptPlotModeLevelD": true
+      },
+      "AiComponent": {
+        "AiId": 0,
+        "Disabled": true
+      },
+      "NpcPerformComponent": {
+        "IsStare": true,
+        "IsShowStrike": true
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "UseFadeEffect": true,
+        "VisibleConditions": [],
+        "Disabled": false
+      },
+      "BubbleComponent": {
+        "NpcIds": [],
+        "Flows": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500,
+        "TriggerCylinderConfig": {
+          "InnerConfig": {
+            "Radius": 500,
+            "Height": 300
+          },
+          "OuterConfig": {
+            "Radius": 1500,
+            "Height": 900
+          }
+        }
+      },
+      "VarComponent": {
+        "Vars": [],
+        "Disabled": true
+      },
+      "LevelAiComponent": {},
+      "ModelComponent": {
+        "HalfHeight": 80,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "Npc",
+          "BlueprintPath": "/Game/Aki/Character/NPC/FemaleM/BPData/BP_NH_FemaleM_Base.BP_NH_FemaleM_Base_C",
+          "NpcModel": {
+            "Type": "Da",
+            "Da": "/Game/Aki/Character/NPC/FemaleM/Data/3_X/MengZhou/ZhaoYueHui/DA_FemaleM_ZYH1_19mask.DA_FemaleM_ZYH1_19mask"
+          },
+          "Abp": "/Game/Aki/Character/NPC/FemaleM/BPData/ABP_NH_FemaleM_Base.ABP_NH_FemaleM_Base_C"
+        }
+      }
+    }
+  },
+  {
+    "Id": 261850011,
+    "BlueprintType": "branch3.7_261_TsEntity_TN_B3_7_梦州_FemaleM_ZYH1_14",
+    "Name": "TsEntity_TN_B3_7_梦州_FemaleM_ZYH1_14mask",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "Npc"
+        },
+        "Camp": 2,
+        "OnlineInteractType": 1,
+        "IsShowNameOnHead": true,
+        "TidName": "Entity_6411f8a26e817c51f696971fe1e43154ebaebaa018788fab143b8cad6deb6852",
+        "EntityPropertyId": 2,
+        "AoiLayer": 0,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 200,
+        "DoIntactType": "Direct",
+        "Options": [],
+        "TurnAroundType": "FaceEachOther",
+        "NotInterruptPlotModeLevelD": true
+      },
+      "AiComponent": {
+        "AiId": 0,
+        "Disabled": true
+      },
+      "NpcPerformComponent": {
+        "IsStare": true,
+        "IsShowStrike": true
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "UseFadeEffect": true,
+        "VisibleConditions": [],
+        "Disabled": false
+      },
+      "BubbleComponent": {
+        "NpcIds": [],
+        "Flows": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500,
+        "TriggerCylinderConfig": {
+          "InnerConfig": {
+            "Radius": 500,
+            "Height": 300
+          },
+          "OuterConfig": {
+            "Radius": 1500,
+            "Height": 900
+          }
+        }
+      },
+      "VarComponent": {
+        "Vars": [],
+        "Disabled": true
+      },
+      "LevelAiComponent": {},
+      "ModelComponent": {
+        "HalfHeight": 80,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "Npc",
+          "BlueprintPath": "/Game/Aki/Character/NPC/FemaleM/BPData/BP_NH_FemaleM_Base.BP_NH_FemaleM_Base_C",
+          "NpcModel": {
+            "Type": "Da",
+            "Da": "/Game/Aki/Character/NPC/FemaleM/Data/3_X/MengZhou/ZhaoYueHui/DA_FemaleM_ZYH1_14mask.DA_FemaleM_ZYH1_14mask"
+          },
+          "Abp": "/Game/Aki/Character/NPC/FemaleM/BPData/ABP_NH_FemaleM_Base.ABP_NH_FemaleM_Base_C"
+        }
+      }
+    }
+  },
+  {
+    "Id": 261850010,
+    "BlueprintType": "branch3.7_261_TsEntity_TN_B3_7_梦州_FemaleM_ZYH1_13",
+    "Name": "TsEntity_TN_B3_7_梦州_FemaleM_ZYH1_12mask",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "Category": {
+          "MainType": "Npc"
+        },
+        "Camp": 2,
+        "OnlineInteractType": 1,
+        "IsShowNameOnHead": true,
+        "TidName": "Entity_63eafd9e7d05c2e5c6f62c37397d30faa89a707597c217d8cf7f1e609483cfc3",
+        "EntityPropertyId": 2,
+        "AoiLayer": 0,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 200,
+        "DoIntactType": "Direct",
+        "Options": [],
+        "TurnAroundType": "FaceEachOther",
+        "NotInterruptPlotModeLevelD": true
+      },
+      "AiComponent": {
+        "AiId": 0,
+        "Disabled": true
+      },
+      "NpcPerformComponent": {
+        "IsStare": true,
+        "IsShowStrike": true
+      },
+      "EntityVisibleComponent": {
+        "DelayChange": false,
+        "UseFadeEffect": true,
+        "VisibleConditions": [],
+        "Disabled": false
+      },
+      "BubbleComponent": {
+        "NpcIds": [],
+        "Flows": [],
+        "EnterRange": 500,
+        "LeaveRange": 1500,
+        "TriggerCylinderConfig": {
+          "InnerConfig": {
+            "Radius": 500,
+            "Height": 300
+          },
+          "OuterConfig": {
+            "Radius": 1500,
+            "Height": 900
+          }
+        }
+      },
+      "VarComponent": {
+        "Vars": [],
+        "Disabled": true
+      },
+      "LevelAiComponent": {},
+      "ModelComponent": {
+        "HalfHeight": 80,
+        "Disabled": false,
+        "ModelType": {
+          "Type": "Npc",
+          "BlueprintPath": "/Game/Aki/Character/NPC/FemaleM/BPData/BP_NH_FemaleM_Base.BP_NH_FemaleM_Base_C",
+          "NpcModel": {
+            "Type": "Da",
+            "Da": "/Game/Aki/Character/NPC/FemaleM/Data/3_X/MengZhou/ZhaoYueHui/DA_FemaleM_ZYH1_12mask.DA_FemaleM_ZYH1_12mask"
+          },
+          "Abp": "/Game/Aki/Character/NPC/FemaleM/BPData/ABP_NH_FemaleM_Base.ABP_NH_FemaleM_Base_C"
+        }
+      }
+    }
+  },
+  {
+    "Id": 17850017,
+    "BlueprintType": "branch3.7_17_Gameplay_3_7/WoodenBox11",
+    "Name": "TsEntity_3_7_木匣_增生区异常点",
+    "ComponentsData": {
+      "BaseInfoComponent": {
+        "TidName": "Entity_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "Category": {},
+        "Camp": 2,
+        "OnlineInteractType": 2,
+        "EntityPropertyId": 2,
+        "AoiLayer": 3,
+        "AoiZRadius": 0,
+        "IsForceDestroy": true
+      },
+      "InteractComponent": {
+        "Range": 150,
+        "DoIntactType": "Direct",
+        "Options": [
+          {
+            "Type": {
+              "Type": "Actions",
+              "Actions": [
+                {
+                  "Name": "LeisureInteract",
+                  "Params": {
+                    "Option": {
+                      "Type": "StandControl2"
+                    }
+                  },
+                  "ActionGuid": "77b666de1c454ae29116886abdd534e3",
+                  "ActionId": 1000002
+                },
+                {
+                  "Name": "Wait",
+                  "Params": {
+                    "Time": 2
+                  },
+                  "ActionGuid": "ddaad3fccdb34df18a0e35eb1ea6f772",
+                  "ActionId": 1000004
+                },
+                {
+                  "Name": "SetPlayerOperationRestriction",
+                  "Params": {
+                    "Type": "EnableAll"
+                  },
+                  "ActionGuid": "a34fade25a504b7283480bf8726af025",
+                  "ActionId": 1000005
+                },
+                {
+                  "Name": "ChangeSelfEntityState",
+                  "Params": {
+                    "EntityState": "关卡.Common.状态.激活"
+                  },
+                  "ActionGuid": "a5f48b82256b4b4381a2d8b4c6e220d5",
+                  "ActionId": 1000006
+                }
+              ]
+            },
+            "Condition": {
+              "Type": 0,
+              "Conditions": [
+                {
+                  "Type": "CompareEntitySelfState",
+                  "State": "关卡.Common.状态.常态",
+                  "Compare": "Eq"
+                }
+              ]
+            }
+          }
+        ],
+        "TurnAroundType": "PlayerTurnToInteractor",
+        "TidContent": "Entity_99f1b08f6464952cc4e3e8c054df925fe0a6f5d19a2db901059b7f31bcae0b65",
+        "RangesByTags": [
+          {
+            "Tag": 1325052483,
+            "Range": 500
+          }
+        ],
+        "Disabled": true
+      },
+      "EntityStateComponent": {
+        "StateChangeBehaviors": [
+          {
+            "State": "关卡.Common.状态.解锁",
+            "PendingConditionAvailable": true,
+            "DelayChangeState": {
+              "Time": 1,
+              "NewState": "关卡.Common.状态.常态"
+            }
+          },
+          {
+            "State": "关卡.Common.状态.常态",
+            "PendingConditionAvailable": true,
+            "ConditionAction": [
+              {
+                "Condition": {
+                  "Type": 0,
+                  "Conditions": []
+                },
+                "Action": [
+                  {
+                    "Name": "ChangeSelfEntityState",
+                    "Params": {
+                      "EntityState": "关卡.Common.状态.激活"
+                    },
+                    "ActionId": 1000003
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "State": "关卡.Common.状态.激活",
+            "PendingConditionAvailable": true,
+            "DelayChangeState": {
+              "Time": 1,
+              "NewState": "关卡.Common.状态.解锁"
+            }
+          }
+        ],
+        "Type": "封锁态",
+        "State": "关卡.Common.状态.封锁",
+        "LockConfig": {
+          "LockType": "Default",
+          "IsInitLock": false
+        },
+        "Disabled": false
+      },
+      "SceneItemLifeCycleComponent": {
+        "CreateStageConfig": {},
+        "DestroyStageConfig": {},
+        "Disabled": true
+      },
+      "ModelComponent": {
+        "Disabled": false,
+        "ModelType": {
+          "Type": "LevelPrefab",
+          "BlueprintPath": "Item",
+          "PrefabPath": "/Game/Aki/Scene/InteractionLevel/Prefab/3_7/WoodBoxPrefab/TPrefab_WoodenBox_AnomalyPoint.TPrefab_WoodenBox_AnomalyPoint",
+          "NameOffsetZ": 0,
+          "PrefabStateList": [
+            {
+              "SceneInteractionState": 0,
+              "LevelTag": -1152559349
+            },
+            {
+              "SceneInteractionState": 1,
+              "LevelTag": -3775711
+            },
+            {
+              "SceneInteractionState": 2,
+              "LevelTag": 1298716444
+            },
+            {
+              "SceneInteractionState": 3,
+              "LevelTag": -374576888
+            },
+            {
+              "SceneInteractionState": 4,
+              "LevelTag": -1984184746
+            }
+          ],
+          "EffectStateList": []
+        }
+      },
+      "RangeComponent": {
+        "Shape": {
+          "Type": "Sphere",
+          "Center": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Radius": 100
+        }
+      },
+      "TriggerComponent": {
+        "ExitConfig": {
+          "Actions": [
+            {
+              "Name": "ChangeSelfEntityState",
+              "Params": {
+                "EntityState": "关卡.Common.状态.封锁"
+              },
+              "ActionId": 1000007
+            }
+          ]
+        },
+        "Match": {
+          "OnlyPlayer": true
+        },
+        "Actions": [
+          {
+            "Name": "ChangeSelfEntityState",
+            "Params": {
+              "EntityState": "关卡.Common.状态.解锁"
+            },
+            "ActionId": 1000001
+          }
+        ]
+      },
+      "SceneItemAttributeComponent": {
+        "AttributeType": "终端表现",
+        "Disabled": true
+      },
+      "InteractGearComponent": {
+        "NormalPrepareTime": 0,
+        "ActivePrepareTime": 0,
+        "Disabled": true
+      },
+      "SceneItemMovementComponent": {
+        "Disabled": true
+      },
+      "AttachTargetComponent": {
+        "Disabled": true
+      },
+      "VarComponent": {
+        "Vars": [],
+        "Disabled": true
+      },
+      "SceneItemEventListenerComponent": {
+        "Events": [],
         "Disabled": true
       }
     }

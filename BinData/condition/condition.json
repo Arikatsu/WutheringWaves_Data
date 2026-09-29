@@ -91812,7 +91812,7 @@
     "LimitParams": [
       {
         "Key": "UIName",
-        "Value": "EditBattleTeamView"
+        "Value": "BattleTeam2DView"
       }
     ],
     "LimitParamsOpe": [],
@@ -190580,7 +190580,7 @@
       },
       {
         "Key": "Count",
-        "Value": "5"
+        "Value": "4"
       },
       {
         "Key": "Type",
@@ -190607,7 +190607,7 @@
       },
       {
         "Key": "Count",
-        "Value": "5"
+        "Value": "4"
       },
       {
         "Key": "Type",
@@ -190634,7 +190634,7 @@
       },
       {
         "Key": "Count",
-        "Value": "5"
+        "Value": "4"
       },
       {
         "Key": "Type",
@@ -190661,7 +190661,7 @@
       },
       {
         "Key": "Count",
-        "Value": "5"
+        "Value": "4"
       },
       {
         "Key": "Type",
@@ -190688,7 +190688,7 @@
       },
       {
         "Key": "Count",
-        "Value": "5"
+        "Value": "4"
       },
       {
         "Key": "Type",
@@ -190715,7 +190715,7 @@
       },
       {
         "Key": "Count",
-        "Value": "5"
+        "Value": "4"
       },
       {
         "Key": "Type",
@@ -192556,12 +192556,16 @@
   },
   {
     "Id": 12908703,
-    "Type": "LevelPlayComplete",
+    "Type": "LevelPlayCompleteNew",
     "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "LevelPlayId",
         "Value": "923850009"
+      },
+      {
+        "Key": "InsId",
+        "Value": "912"
       }
     ],
     "LimitParamsOpe": [],
@@ -192590,12 +192594,16 @@
   },
   {
     "Id": 12908705,
-    "Type": "LevelPlayComplete",
+    "Type": "LevelPlayCompleteNew",
     "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "LevelPlayId",
         "Value": "239850010"
+      },
+      {
+        "Key": "InsId",
+        "Value": "912"
       }
     ],
     "LimitParamsOpe": [],
@@ -193227,7 +193235,7 @@
       },
       {
         "Key": "BeattackerTag",
-        "Value": "怪物.a68fc865.09cf0289"
+        "Value": "怪物.a68fc865.9110b7d5"
       }
     ],
     "LimitParamsOpe": [],
@@ -193250,7 +193258,7 @@
       },
       {
         "Key": "BeattackerTag",
-        "Value": "怪物.a68fc865.eefef845"
+        "Value": "怪物.a68fc865.84753453"
       }
     ],
     "LimitParamsOpe": [],
@@ -193288,7 +193296,7 @@
       },
       {
         "Key": "VictimID",
-        "Value": "1-391632"
+        "Value": "1-39163201"
       }
     ],
     "LimitParamsOpe": [],
@@ -195455,7 +195463,7 @@
       },
       {
         "Key": "Status",
-        "Value": "3"
+        "Value": "2"
       }
     ],
     "LimitParamsOpe": [
@@ -195479,7 +195487,7 @@
       },
       {
         "Key": "Status",
-        "Value": "3"
+        "Value": "2"
       }
     ],
     "LimitParamsOpe": [
@@ -195924,7 +195932,7 @@
   {
     "Id": 101137106,
     "Type": "LevelPlayComplete",
-    "NeedNum": 6,
+    "NeedNum": 5,
     "LimitParams": [
       {
         "Key": "LevelPlayId",
@@ -196092,7 +196100,7 @@
   {
     "Id": 1011371112,
     "Type": "LevelPlayComplete",
-    "NeedNum": 2,
+    "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "LevelPlayId",
@@ -196107,7 +196115,7 @@
   {
     "Id": 101137112,
     "Type": "LevelPlayComplete",
-    "NeedNum": 3,
+    "NeedNum": 2,
     "LimitParams": [
       {
         "Key": "LevelPlayId",
@@ -196164,7 +196172,7 @@
     "LimitParams": [
       {
         "Key": "LevelPlayId",
-        "Value": "239850014"
+        "Value": "239850014-239851434-239851433"
       }
     ],
     "LimitParamsOpe": [],
@@ -196297,16 +196305,12 @@
   },
   {
     "Id": 101137121,
-    "Type": "EntityDie",
+    "Type": "EntityDieByType",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "EntityConfigId",
-        "Value": "239850427"
-      },
-      {
-        "Key": "InstanceId",
-        "Value": "912"
+        "Key": "BpType",
+        "Value": "Monster_Branch3.7_007"
       },
       {
         "Key": "Online",
@@ -196490,7 +196494,7 @@
     "LimitParams": [
       {
         "Key": "LevelPlayId",
-        "Value": "260850008"
+        "Value": "260850012"
       }
     ],
     "LimitParamsOpe": [],
@@ -196505,7 +196509,7 @@
     "LimitParams": [
       {
         "Key": "LevelPlayId",
-        "Value": "260850006"
+        "Value": "260850014"
       }
     ],
     "LimitParamsOpe": [],
@@ -198251,16 +198255,20 @@
   },
   {
     "Id": 101200682,
-    "Type": "NewQuestState",
+    "Type": "CheckLevelPlayNodeState",
     "NeedNum": 1,
     "LimitParams": [
       {
-        "Key": "NewQuestId",
-        "Value": "886000002"
+        "Key": "LevelPlayId",
+        "Value": "266850000"
       },
       {
         "Key": "State",
         "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "34"
       }
     ],
     "LimitParamsOpe": [],
@@ -198485,6 +198493,78 @@
       {
         "Key": "State",
         "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201689,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "TeamSceneRoleSelectView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201690,
+    "Type": "PawnInRange",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "PawnId",
+        "Value": "branch3.7_TsEntity_生态_NPC_花车"
+      },
+      {
+        "Key": "Distance",
+        "Value": "1000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200141,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1596"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002110,
+    "Type": "CheckCharacterTagsRestrict",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "BanTags",
+        "Value": "[角色.BaseRole.状态通用标识.电梯禁用能力中,行为状态.逻辑状态.进入战斗]"
       }
     ],
     "LimitParamsOpe": [],
