@@ -1,7 +1,7 @@
 # WW_Data
 
-> Client region: Global</br>
-> Status: Release</br>
-> Game Version: 3.7.0</br>
-> Resource Version: 3.7.8</br>
-> Changelist: 8975829
+> Client region: CN</br>
+> Status: Tech Test</br>
+> Game Version: 0.1.0</br>
+> Resource Version: 0.1.0</br>
+> Changelist: 0000001

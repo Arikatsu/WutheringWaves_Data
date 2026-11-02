@@ -1,494 +1,2289 @@
 [
   {
     "Type": "DestroySelf",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAACwAAAERlc3Ryb3lTZWxmAA=="
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "DestroyTargetWithTag",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABYAAAAAEAAAAEAAAA2P///wgAAAAQAAAABgAAAFN0cmluZwAAAwAAAFRhZwABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAALAAAAQ3JlYXR1cmVHZW4AFAAAAERlc3Ryb3lUYXJnZXRXaXRoVGFnAAAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "CreateEntity",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADgAAAAAAAABZAAAAAEAAAAEAAAA1P///wgAAAAMAAAAAwAAAEludAALAAAAQ3JlYXRlUmFuZ2UAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABJbnQACAAAAEVudGl0eUlEAAAAAAwAAABDcmVhdGVFbnRpdHkAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "EntityID",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "CreateRange",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveTag",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABYAAAAAEAAAAEAAAA2P///wgAAAAQAAAABgAAAFN0cmluZwAAAwAAAFRhZwABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAABgAAAFRhcmdldAAACQAAAFJlbW92ZVRhZwAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Target",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AddTag",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABYAAAAAEAAAAEAAAA2P///wgAAAAQAAAABgAAAFN0cmluZwAAAwAAAFRhZwABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAABgAAAFRhcmdldAAABgAAAEFkZFRhZwAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Target",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "GetItem",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADAAAABcAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAASW50AAUAAABDb3VudAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAYAAABJdGVtSUQAAAcAAABHZXRJdGVtAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "ItemID",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Count",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveItem",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADAAAABcAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAASW50AAUAAABDb3VudAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAYAAABJdGVtSUQAAAoAAABSZW1vdmVJdGVtAAA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "ItemID",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Count",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ManageQuestStep",
-    "BinData": "FAAAABAAGAAUABMAAAAMAAgABAAQAAAAFAAAAEAAAABkAAAAAAAAAZAAAAABAAAABAAAAKj///8IAAAAEAAAAAYAAABTdHJpbmcAAAkAAABNYW5hZ2VXYXkAAAABAAAABAAAANj///8IAAAADAAAAAMAAABJbnQABgAAAFN0ZXBJRAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAAEAAAAAYAAABTdHJpbmcAAAcAAABRdWVzdElEAA8AAABNYW5hZ2VRdWVzdFN0ZXAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "QuestID",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "StepID",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "ManageWay",
+        "Value": "String"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ResetQuestStep",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADAAAABgAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAASW50AAYAAABTdGVwSUQAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAABAAAAAGAAAAU3RyaW5nAAAHAAAAUXVlc3RJRAAOAAAAUmVzZXRRdWVzdFN0ZXAAAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "QuestID",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "StepID",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ActivateCreatureGen",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAOAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAsAAABDcmVhdHVyZUdlbgATAAAAQWN0aXZhdGVDcmVhdHVyZUdlbgA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ActivateDynamicCreatureGen",
-    "BinData": "GAAAAAAAEgAYABQAEwAAAAwACAAAAAQAEgAAABQAAAA4AAAAZAAAAAAAAAGUAAAAAQAAAAQAAACo////CAAAAAwAAAADAAAASW50AAQAAABQb3NYAAAAAAEAAAAEAAAA0P///wgAAAAQAAAABgAAAFN0cmluZwAACwAAAFBvc1N0cmF0ZWd5AAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AA0AAABDcmVhdHVyZUdlbklEAAAAGgAAAEFjdGl2YXRlRHluYW1pY0NyZWF0dXJlR2VuAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGenID",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "PosStrategy",
+        "Value": "String"
+      }
+    ],
+    "Param3": [],
+    "Param4": [
+      {
+        "Key": "PosX",
+        "Value": "Int"
+      }
+    ],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveDynamicCreatureGen",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAANAAAAQ3JlYXR1cmVHZW5JRAAAABgAAABSZW1vdmVEeW5hbWljQ3JlYXR1cmVHZW4AAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGenID",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AddCreatureTag",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABYAAAAAEAAAAEAAAA2P///wgAAAAQAAAABgAAAFN0cmluZwAAAwAAAFRhZwABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAALAAAAQ3JlYXR1cmVHZW4ADgAAAEFkZENyZWF0dXJlVGFnAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveCreatureTag",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABYAAAAAEAAAAEAAAA2P///wgAAAAQAAAABgAAAFN0cmluZwAAAwAAAFRhZwABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAALAAAAQ3JlYXR1cmVHZW4AEQAAAFJlbW92ZUNyZWF0dXJlVGFnAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "MonitorTargetDeathCount",
-    "BinData": "GAAAAAAAEgAcABgAFwAAABAADAAIAAQAEgAAABgAAABAAAAAbAAAAJAAAAAAAAABvAAAAAEAAAAEAAAAfP///wgAAAAMAAAAAwAAAEludAAJAAAAQ2FsbEV2ZW50AAAAAQAAAAQAAACo////CAAAAAwAAAADAAAASW50AA0AAABDYWxsQ29uZGl0aW9uAAAAAQAAAAQAAADY////CAAAABAAAAAGAAAAU3RyaW5nAAADAAAAVGFnAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAsAAABDcmVhdHVyZUdlbgAXAAAATW9uaXRvclRhcmdldERlYXRoQ291bnQA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "CallCondition",
+        "Value": "Int"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "CallEvent",
+        "Value": "Int"
+      }
+    ],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ActivateInteraction",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAEwAAAEFjdGl2YXRlSW50ZXJhY3Rpb24A"
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "UpdateInterState",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABYAAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAEludAAGAAAAU3RlcElEAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAABwAAAFF1ZXN0SUQAEAAAAFVwZGF0ZUludGVyU3RhdGUAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "QuestID",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "StepID",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "CloseWidget",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAACwAAAENsb3NlV2lkZ2V0AA=="
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "UpdateQuestIcon",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAADwAAAFVwZGF0ZVF1ZXN0SWNvbgA="
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SetPos",
-    "BinData": "GAAAAAAAEgAcABgAFwAAABAADAAIAAQAEgAAABgAAABAAAAAZAAAAIgAAAAAAAABsAAAAAEAAAAEAAAAhP///wgAAAAQAAAABgAAAFN0cmluZwAABgAAAFRhcmdldAAAAQAAAAQAAACw////CAAAAAwAAAADAAAASW50AAQAAAB6UG9zAAAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAEludAAEAAAAeVBvcwAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAEAAAAeFBvcwAAAAAGAAAAU2V0UG9zAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "xPos",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "yPos",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "zPos",
+        "Value": "Int"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "Target",
+        "Value": "String"
+      }
+    ],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SetOffset",
-    "BinData": "FAAAABAAGAAUABMAAAAMAAgABAAQAAAAFAAAADgAAABcAAAAAAAAAYgAAAABAAAABAAAALD///8IAAAADAAAAAMAAABJbnQABwAAAHpPZmZzZXQAAQAAAAQAAADY////CAAAABAAAAAGAAAAU3RyaW5nAAADAAAAVGFnAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAsAAABDcmVhdHVyZUdlbgAJAAAAU2V0T2Zmc2V0AAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "zOffset",
+        "Value": "Int"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SetRotation",
-    "BinData": "FAAAABAAGAAUABMAAAAMAAgABAAQAAAAFAAAADwAAABgAAAAAAAAAYwAAAABAAAABAAAAKz///8IAAAADAAAAAMAAABJbnQACQAAAHhSb3RhdGlvbgAAAAEAAAAEAAAA2P///wgAAAAQAAAABgAAAFN0cmluZwAAAwAAAFRhZwABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAALAAAAQ3JlYXR1cmVHZW4ACwAAAFNldFJvdGF0aW9uAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "xRotation",
+        "Value": "Int"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ChangeFightIntensity",
-    "BinData": "FAAAABAAGAAUABMAAAAMAAgABAAQAAAAFAAAAEAAAABkAAAAAAAAAZAAAAABAAAABAAAAKj///8IAAAADAAAAAMAAABJbnQADgAAAEZpZ2h0SW50ZW5zaXR5AAABAAAABAAAANj///8IAAAAEAAAAAYAAABTdHJpbmcAAAMAAABUYWcAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABJbnQACwAAAENyZWF0dXJlR2VuABQAAABDaGFuZ2VGaWdodEludGVuc2l0eQAAAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "FightIntensity",
+        "Value": "Int"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "UpdatePlayerInfoTag",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABXAAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAEludAAEAAAARmxhZwAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAAAwAAAFRhZwATAAAAVXBkYXRlUGxheWVySW5mb1RhZwA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Flag",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "OpenShop",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAGAAAAU2hvcElkAAAIAAAAT3BlblNob3AAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "ShopId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ChangeAI",
-    "BinData": "FAAAABAAGAAUABMAAAAMAAgABAAQAAAAFAAAAEAAAABkAAAAAAAAAZAAAAABAAAABAAAAKj///8IAAAAEAAAAAYAAABTdHJpbmcAAAgAAABBSUNvbmZpZwAAAAABAAAABAAAANj///8IAAAAEAAAAAYAAABTdHJpbmcAAAMAAABUYWcAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABJbnQACwAAAENyZWF0dXJlR2VuAAgAAABDaGFuZ2VBSQAAAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "AIConfig",
+        "Value": "String"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "GuideTrigger",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAMAAAAR3VpZGVHcm91cElkAAAAAAwAAABHdWlkZVRyaWdnZXIAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "BeginStatueAdoreGP",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAEgAAAEJlZ2luU3RhdHVlQWRvcmVHUAAA"
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "BeginCipher",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAOAAAAQ2lwaGVyQ29uZmlnSUQAAAsAAABCZWdpbkNpcGhlcgA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CipherConfigID",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "FocusOnInformationBoard",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAFwAAAEZvY3VzT25JbmZvcm1hdGlvbkJvYXJkAA=="
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "InstSettle",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAANAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAYAAABSZXN1bHQAAAoAAABJbnN0U2V0dGxlAAA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "Result",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "OpenInstance",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAKAAAASW5zdGFuY2VJZAAADAAAAE9wZW5JbnN0YW5jZQAAAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "InstanceId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "TeleportTrigger",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAKAAAAVGVsZXBvcnRJZAAADwAAAFRlbGVwb3J0VHJpZ2dlcgA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "TeleportId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AudioEvent",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAACQAAAEV2ZW50UGF0aAAAAAoAAABBdWRpb0V2ZW50AAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "EventPath",
+        "Value": "String"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SendGameplayEventToPlayer",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABZAAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAEludAAEAAAAQm90aAAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAACwAAAEdhbWVwbGF5VGFnABkAAABTZW5kR2FtZXBsYXlFdmVudFRvUGxheWVyAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "GameplayTag",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Both",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "GuideFinish",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAANAAAAR3VpZGVQYXNzd29yZAAAAAsAAABHdWlkZUZpbmlzaAA="
-  },
-  {
-    "Type": "SceneStepFail",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAQAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50ABAAAABTY2VuZVN0ZXBHcm91cElkAAAAAA0AAABTY2VuZVN0ZXBGYWlsAAAA"
-  },
-  {
-    "Type": "JumpToSceneStep",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADQAAABsAAAAAQAAAAQAAADU////CAAAAAwAAAADAAAASW50AAsAAABTY2VuZVN0ZXBJZAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAQAAAAU2NlbmVTdGVwR3JvdXBJZAAAAAAPAAAASnVtcFRvU2NlbmVTdGVwAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "GuidePassword",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SetRevivePoint",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAOAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAsAAABDcmVhdHVyZUdlbgAOAAAAU2V0UmV2aXZlUG9pbnQAAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AdjustTodTime",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAGAAAATWludXRlAAANAAAAQWRqdXN0VG9kVGltZQAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Minute",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SetReviveId",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAOAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAgAAABSZXZpdmVJZAAAAAALAAAAU2V0UmV2aXZlSWQA"
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "ReviveId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AddReviveRegion",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAOAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAgAAABSZXZpdmVJZAAAAAAPAAAAQWRkUmV2aXZlUmVnaW9uAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "ReviveId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveReviveRegion",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAOAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAgAAABSZXZpdmVJZAAAAAASAAAAUmVtb3ZlUmV2aXZlUmVnaW9uAAA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "ReviveId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AddEntityCommonTag",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADwAAABsAAAAAQAAAAQAAADM////CAAAABAAAAAGAAAAU3RyaW5nAAAPAAAARW50aXR5Q29tbW9uVGFnAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAsAAABDcmVhdHVyZUdlbgASAAAAQWRkRW50aXR5Q29tbW9uVGFnAAA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "EntityCommonTag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveEntityCommonTag",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADwAAABsAAAAAQAAAAQAAADM////CAAAABAAAAAGAAAAU3RyaW5nAAAPAAAARW50aXR5Q29tbW9uVGFnAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAsAAABDcmVhdHVyZUdlbgAVAAAAUmVtb3ZlRW50aXR5Q29tbW9uVGFnAAAA"
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "EntityCommonTag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "OpenUI",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAABgAAAFVJTmFtZQAABgAAAE9wZW5VSQAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "UIName",
+        "Value": "String"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "Prompt",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAFAAAAVGlwSWQAAAAGAAAAUHJvbXB0AAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "TipId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AddBuffToPlayer",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABAAAAExvbmcAAAAAAgAAAElkAAAPAAAAQWRkQnVmZlRvUGxheWVyAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Long"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveBuffFromPlayer",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABAAAAExvbmcAAAAAAgAAAElkAAAUAAAAUmVtb3ZlQnVmZkZyb21QbGF5ZXIAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Long"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AddBuffToCreature",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADgAAAAAAAABZAAAAAEAAAAEAAAA1P///wgAAAAQAAAABAAAAExvbmcAAAAABgAAAEJ1ZmZJZAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABJbnQACwAAAENyZWF0dXJlR2VuABEAAABBZGRCdWZmVG9DcmVhdHVyZQAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "BuffId",
+        "Value": "Long"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveBuffFromCreature",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADgAAAAAAAABZAAAAAEAAAAEAAAA1P///wgAAAAQAAAABAAAAExvbmcAAAAABgAAAEJ1ZmZJZAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABJbnQACwAAAENyZWF0dXJlR2VuABYAAABSZW1vdmVCdWZmRnJvbUNyZWF0dXJlAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "BuffId",
+        "Value": "Long"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "OpenInstanceEntrance",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAKAAAARW50cmFuY2VJZAAAFAAAAE9wZW5JbnN0YW5jZUVudHJhbmNlAAAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "EntranceId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "UnlockInstanceEntrance",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAKAAAARW50cmFuY2VJZAAAFgAAAFVubG9ja0luc3RhbmNlRW50cmFuY2UAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "EntranceId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "UpdateInstanceEntranceUnlockStatus",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAKAAAARW50cmFuY2VJZAAAIgAAAFVwZGF0ZUluc3RhbmNlRW50cmFuY2VVbmxvY2tTdGF0dXMAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "EntranceId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RefreshCreatureGen",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAABgAAAEFyZWFJZAAAEgAAAFJlZnJlc2hDcmVhdHVyZUdlbgAA"
-  },
-  {
-    "Type": "InstTrialRoleActivate",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAANAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAYAAABSb2xlSWQAABUAAABJbnN0VHJpYWxSb2xlQWN0aXZhdGUAAAA="
-  },
-  {
-    "Type": "InstTrialRoletInactivate",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAANAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAYAAABSb2xlSWQAABgAAABJbnN0VHJpYWxSb2xldEluYWN0aXZhdGUAAAAA"
-  },
-  {
-    "Type": "WorldTrialRoleActivate",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADQAAABgAAAAAQAAAAQAAADU////CAAAAAwAAAADAAAASW50AAgAAABSZWdpb25JZAAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAGAAAAUm9sZUlkAAAWAAAAV29ybGRUcmlhbFJvbGVBY3RpdmF0ZQAA"
-  },
-  {
-    "Type": "WorldTrialRoleInactivate",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAANAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAYAAABSb2xlSWQAABgAAABXb3JsZFRyaWFsUm9sZUluYWN0aXZhdGUAAAAA"
-  },
-  {
-    "Type": "UnlockExploreTool",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAPAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AA4AAABFeHBsb3JlU2tpbGxJZAAAEQAAAFVubG9ja0V4cGxvcmVUb29sAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "AreaId",
+        "Value": "String"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SetTargetPos",
-    "BinData": "GAAAAAAAEgAcABgAFwAAABAADAAIAAQAEgAAABgAAABAAAAAaAAAAJAAAAAAAAABvAAAAAEAAAAEAAAAfP///wgAAAAQAAAABQAAAEZsb2F0AAAABAAAAHpQb3MAAAAAAQAAAAQAAACo////CAAAABAAAAAFAAAARmxvYXQAAAAEAAAAeVBvcwAAAAABAAAABAAAANT///8IAAAAEAAAAAUAAABGbG9hdAAAAAQAAAB4UG9zAAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAsAAABDcmVhdHVyZUdlbgAMAAAAU2V0VGFyZ2V0UG9zAAAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "xPos",
+        "Value": "Float"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "yPos",
+        "Value": "Float"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "zPos",
+        "Value": "Float"
+      }
+    ],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "OpenDragonPool",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAMAAAARHJhZ29uUG9vbElkAAAAAA4AAABPcGVuRHJhZ29uUG9vbAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "DragonPoolId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "CameraLookAtPosition",
-    "BinData": "HAAAABgAKAAkACMAAAAcABgAFAAQAAwACAAEABgAAAAkAAAAVAAAAIAAAACsAAAA2AAAAPwAAAAgAQAAAAAAAUgBAAABAAAABAAAAOz+//8IAAAAEAAAAAUAAABGbG9hdAAAAA8AAABMb2NrQ2FtZXJhSW5wdXQAAQAAAAQAAAAg////CAAAABAAAAAFAAAARmxvYXQAAAALAAAARmFkZU91dFRpbWUAAQAAAAQAAABQ////CAAAABAAAAAFAAAARmxvYXQAAAAIAAAAU3RheVRpbWUAAAAAAQAAAAQAAACA////CAAAABAAAAAFAAAARmxvYXQAAAAKAAAARmFkZUluVGltZQAAAQAAAAQAAACw////CAAAABAAAAAFAAAARmxvYXQAAAABAAAAWgAAAAEAAAAEAAAA2P///wgAAAAQAAAABQAAAEZsb2F0AAAAAQAAAFkAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABQAAAEZsb2F0AAAAAQAAAFgAAAAUAAAAQ2FtZXJhTG9va0F0UG9zaXRpb24AAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "X",
+        "Value": "Float"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Y",
+        "Value": "Float"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "Z",
+        "Value": "Float"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "FadeInTime",
+        "Value": "Float"
+      }
+    ],
+    "Param5": [
+      {
+        "Key": "StayTime",
+        "Value": "Float"
+      }
+    ],
+    "Param6": [
+      {
+        "Key": "FadeOutTime",
+        "Value": "Float"
+      }
+    ],
+    "Param7": [
+      {
+        "Key": "LockCameraInput",
+        "Value": "Float"
+      }
+    ],
+    "Param8": []
   },
   {
     "Type": "ExitCameraLookAtPosition",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAGAAAAEV4aXRDYW1lcmFMb29rQXRQb3NpdGlvbgAAAAA="
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SetPlayerMoveControl",
-    "BinData": "GAAAAAAAEgAcABgAFwAAABAADAAIAAQAEgAAABgAAAA8AAAAYAAAAIQAAAAAAAABrAAAAAEAAAAEAAAAiP///wgAAAAMAAAAAwAAAEludAAEAAAAQmFjawAAAAABAAAABAAAALD///8IAAAADAAAAAMAAABJbnQABwAAAEZvcndhcmQAAQAAAAQAAADY////CAAAAAwAAAADAAAASW50AAUAAABSaWdodAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAQAAABMZWZ0AAAAABQAAABTZXRQbGF5ZXJNb3ZlQ29udHJvbAAAAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Left",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Right",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "Forward",
+        "Value": "Int"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "Back",
+        "Value": "Int"
+      }
+    ],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SetPlayerCameraLockState",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAGAAAASXNMb2NrAAAYAAAAU2V0UGxheWVyQ2FtZXJhTG9ja1N0YXRlAAAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "IsLock",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "PlayPlot",
-    "BinData": "GAAAABQAIAAcABsAAAAUABAADAAIAAQAFAAAABwAAABMAAAAdAAAAJgAAADEAAAAAAAAAfQAAAABAAAABAAAAEj///8IAAAAEAAAAAYAAABTdHJpbmcAAA0AAABQbG90Q29uZmlnUmVzAAAAAQAAAAQAAAB8////CAAAAAwAAAADAAAASW50AAgAAABXYWl0VGljawAAAAABAAAABAAAAKj///8IAAAADAAAAAMAAABJbnQABwAAAElzQ2FjaGUAAQAAAAQAAADQ////CAAAABAAAAAGAAAAU3RyaW5nAAAKAAAATmV0d29ya1JlcwAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAAEAAAAAYAAABTdHJpbmcAAAkAAABOZXR3b3JrSWQAAAAIAAAAUGxheVBsb3QAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "NetworkId",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "NetworkRes",
+        "Value": "String"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "IsCache",
+        "Value": "Int"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "WaitTick",
+        "Value": "Int"
+      }
+    ],
+    "Param5": [
+      {
+        "Key": "PlotConfigRes",
+        "Value": "String"
+      }
+    ],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "SetTimeSlowDown",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAPAAAARGlsYXRpb25QZXJjZW50AA8AAABTZXRUaW1lU2xvd0Rvd24A"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "DilationPercent",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "WaitFlyControl",
-    "BinData": "FAAAABAAGAAUABMAEgAMAAgABAAQAAAAFAAAADgAAABcAAAAAAABAYgAAAABAAAABAAAALD///8IAAAADAAAAAMAAABJbnQABwAAAEZhaWx1cmUAAQAAAAQAAADY////CAAAAAwAAAADAAAASW50AAcAAABTdWNjZXNzAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAgAAABXYWl0VGltZQAAAAAOAAAAV2FpdEZseUNvbnRyb2wAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "WaitTime",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Success",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "Failure",
+        "Value": "Int"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "WaitTime",
-    "BinData": "EAAAAAwAEAAMAAsACgAEAAwAAAAMAAAAAAABATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAEAAAAVGltZQAAAAAIAAAAV2FpdFRpbWUAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Time",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "TriggerExit",
-    "BinData": "EAAAAAAACgAMAAgABwAGAAoAAAAAAAEBBAAAAAsAAABUcmlnZ2VyRXhpdAA="
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "CheckFlyState",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABXAAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAEludAAHAAAARmFpbHVyZQABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAAU3VjY2VzcwANAAAAQ2hlY2tGbHlTdGF0ZQAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Success",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Failure",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "TimerController",
-    "BinData": "FAAAABAAGAAUABMAAAAMAAgABAAQAAAAFAAAADgAAABgAAAAAAAAAYgAAAABAAAABAAAAKz///8IAAAADAAAAAMAAABJbnQABQAAAFRpcElkAAAAAQAAAAQAAADU////CAAAAAwAAAADAAAASW50AAgAAABBY3RpdmF0ZQAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAAVGltZXJJRAAPAAAAVGltZXJDb250cm9sbGVyAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "TimerID",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Activate",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "TipId",
+        "Value": "Int"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "InstStepProgressFail",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAFAAAAEluc3RTdGVwUHJvZ3Jlc3NGYWlsAAAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "DoDrop",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAANAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAYAAABEcm9wSWQAAAYAAABEb0Ryb3AAAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "DropId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "DisableQuestStep",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADAAAABgAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAASW50AAYAAABTdGVwSUQAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAABAAAAAGAAAAU3RyaW5nAAAHAAAAUXVlc3RJRAAQAAAARGlzYWJsZVF1ZXN0U3RlcAAAAAA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "QuestID",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "StepID",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "OpenJoinTeamView",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATwAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAANAAAARGVzY3JpcHRpb25JZAAAABAAAABPcGVuSm9pblRlYW1WaWV3AAAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "DescriptionId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "CaptureRequest",
-    "BinData": "EAAAAAwAEAAMAAsACgAEAAwAAAAMAAAAAAABATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAAU3VjY2VzcwAOAAAAQ2FwdHVyZVJlcXVlc3QAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Success",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ShowDialog",
-    "BinData": "GAAAAAAAEgAcABgAFwAAABAADAAIAAQAEgAAABgAAABAAAAAcAAAAJQAAAAAAAABvAAAAAEAAAAEAAAAeP///wgAAAAMAAAAAwAAAEludAAKAAAAUmVtb3ZlVGltZQAAAQAAAAQAAACk////CAAAABAAAAAGAAAAU3RyaW5nAAANAAAARGF0YVRhYmxlTmFtZQAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAEludAAHAAAAUm93TmFtZQABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAASXNDYWNoZQAKAAAAU2hvd0RpYWxvZwAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "IsCache",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "RowName",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "DataTableName",
+        "Value": "String"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "RemoveTime",
+        "Value": "Int"
+      }
+    ],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ChangePatrol",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAALAAAAUGF0cm9sSW5kZXgADAAAAENoYW5nZVBhdHJvbAAAAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "PatrolIndex",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "PlayWuYinSequence",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAAEAAAAAAAAABaAAAAAEAAAAEAAAAzP///wgAAAAQAAAABgAAAFN0cmluZwAADAAAAFNlcXVlbmNlTmFtZQAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAAAwAAAFRhZwARAAAAUGxheVd1WWluU2VxdWVuY2UAAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "SequenceName",
+        "Value": "String"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "StartShootTarget",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAEAAAAFN0YXJ0U2hvb3RUYXJnZXQAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ExchangeReward",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAQAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50ABAAAABFeGNoYW5nZVJld2FyZElkAAAAAA4AAABFeGNoYW5nZVJld2FyZAAA"
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "ExchangeRewardId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "TreasurBoxIdleFlow",
-    "BinData": "FAAAABAAGAAUABMAAAAMAAgABAAQAAAAFAAAADwAAABgAAAAAAAAAYgAAAABAAAABAAAAKz///8IAAAADAAAAAMAAABpbnQACAAAAEVudGl0eUlkAAAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAEludAAFAAAAR2VuSWQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAAU3RhdGVJZAASAAAAVHJlYXN1ckJveElkbGVGbG93AAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "StateId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "GenId",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "EntityId",
+        "Value": "int"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "TreasurBoxToDeath",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADgAAAAAAAABYAAAAAEAAAAEAAAA1P///wgAAAAMAAAAAwAAAGludAAIAAAARW50aXR5SWQAAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABJbnQABQAAAEdlbklkAAAAEQAAAFRyZWFzdXJCb3hUb0RlYXRoAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "GenId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "EntityId",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "CameraShake",
-    "BinData": "HAAAABgAKAAkACMAAAAcABgAFAAQAAwACAAEABgAAAAkAAAAYAAAAIgAAAC0AAAA4AAAAAwBAAA4AQAAAAAAAXABAAABAAAABAAAANT+//8IAAAAEAAAAAYAAABTdHJpbmcAABsAAABPcmllbnRTaGFrZVRvd2FyZHNFcGljZW50ZXIAAQAAAAQAAAAU////CAAAABAAAAAFAAAARmxvYXQAAAAHAAAARmFsbG9mZgABAAAABAAAAED///8IAAAAEAAAAAUAAABGbG9hdAAAAAsAAABPdXRlclJhZGl1cwABAAAABAAAAHD///8IAAAAEAAAAAUAAABGbG9hdAAAAAsAAABJbm5lclJhZGl1cwABAAAABAAAAKD///8IAAAAEAAAAAUAAABGbG9hdAAAAAsAAABNYXhJbnRlcnZhbAABAAAABAAAAND///8IAAAAEAAAAAUAAABGbG9hdAAAAAsAAABNaW5JbnRlcnZhbAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAAEgAAAE1hdGluZWVDYW1lcmFTaGFrZQAACwAAAENhbWVyYVNoYWtlAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "MatineeCameraShake",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "MinInterval",
+        "Value": "Float"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "MaxInterval",
+        "Value": "Float"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "InnerRadius",
+        "Value": "Float"
+      }
+    ],
+    "Param5": [
+      {
+        "Key": "OuterRadius",
+        "Value": "Float"
+      }
+    ],
+    "Param6": [
+      {
+        "Key": "Falloff",
+        "Value": "Float"
+      }
+    ],
+    "Param7": [
+      {
+        "Key": "OrientShakeTowardsEpicenter",
+        "Value": "String"
+      }
+    ],
+    "Param8": []
   },
   {
     "Type": "OpenWorldMap",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAADAAAAE9wZW5Xb3JsZE1hcAAAAAA="
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "GamePlaySwitch",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADAAAABgAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAASW50AAYAAABTd2l0Y2gAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAAaW50AAoAAABHYW1lUGxheUlkAAAOAAAAR2FtZVBsYXlTd2l0Y2gAAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "GamePlayId",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Switch",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "GamePlayComplete",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAOAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAAaW50AAoAAABHYW1lUGxheUlkAAAQAAAAR2FtZVBsYXlDb21wbGV0ZQAAAAA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "GamePlayId",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "GamePlayReward",
-    "BinData": "DAAAAAAABgAIAAQABgAAAAQAAAAOAAAAR2FtZVBsYXlSZXdhcmQAAA=="
+    "IsClientTrigger": false,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LoadSceneStepGroup",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAOAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAsAAABTdGVwR3JvdXBJZAASAAAATG9hZFNjZW5lU3RlcEdyb3VwAAA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "StepGroupId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AddTagTreasureBox",
-    "BinData": "FAAAABAAFAAQAAAAAAAMAAgABAAQAAAAEAAAAEAAAABsAAAAoAAAAAEAAAAEAAAAnP///wgAAAAQAAAABgAAAFN0cmluZwAADwAAAEVudGl0eUNvbW1vblRhZwABAAAABAAAAND///8IAAAADAAAAAMAAABpbnQADgAAAEVudGl0eUNvbmZpZ0lkAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABAAAAGxvbmcAAAAACwAAAENyZWF0dXJlR2VuABEAAABBZGRUYWdUcmVhc3VyZUJveAAAAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "long"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "EntityCommonTag",
+        "Value": "String"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveTagTreasureBox",
-    "BinData": "FAAAABAAFAAQAAAAAAAMAAgABAAQAAAAEAAAAEAAAABsAAAAoAAAAAEAAAAEAAAAnP///wgAAAAQAAAABgAAAFN0cmluZwAADwAAAEVudGl0eUNvbW1vblRhZwABAAAABAAAAND///8IAAAADAAAAAMAAABpbnQADgAAAEVudGl0eUNvbmZpZ0lkAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABAAAAGxvbmcAAAAACwAAAENyZWF0dXJlR2VuABQAAABSZW1vdmVUYWdUcmVhc3VyZUJveAAAAAA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "long"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "EntityCommonTag",
+        "Value": "String"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveAllNotTagTreasureBox",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADgAAABsAAAAAQAAAAQAAADQ////CAAAAAwAAAADAAAAaW50AA4AAABFbnRpdHlDb25maWdJZAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAAEAAAAAQAAABsb25nAAAAAAsAAABDcmVhdHVyZUdlbgAaAAAAUmVtb3ZlQWxsTm90VGFnVHJlYXN1cmVCb3gAAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "long"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "RemoveOneNotTagTreasureBox",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADgAAABsAAAAAQAAAAQAAADQ////CAAAAAwAAAADAAAAaW50AA4AAABFbnRpdHlDb25maWdJZAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAAEAAAAAQAAABsb25nAAAAAAsAAABDcmVhdHVyZUdlbgAaAAAAUmVtb3ZlT25lTm90VGFnVHJlYXN1cmVCb3gAAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "long"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "EntityConfigId",
+        "Value": "int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "OpenRegionQuest",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAHAAAAQm9hcmRJZAAPAAAAT3BlblJlZ2lvblF1ZXN0AA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "BoardId",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "OpenHelp",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAALAAAASGVscEdyb3VwSWQACAAAAE9wZW5IZWxwAAAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "HelpGroupId",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "OpenContributionLevelView",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAHAAAAQm9hcmRJZAAZAAAAT3BlbkNvbnRyaWJ1dGlvbkxldmVsVmlldwAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "BoardId",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LevelEventStartSneak",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAHAAAAR3JvdXBJZAAUAAAATGV2ZWxFdmVudFN0YXJ0U25lYWsAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "GroupId",
+        "Value": "int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LevelEventFailSneak",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAEwAAAExldmVsRXZlbnRGYWlsU25lYWsA"
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "InstReward",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAAQAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAABAAAAAGAAAAc3RyaW5nAAAPAAAARW50aXR5Q29tbW9uVGFnAAoAAABJbnN0UmV3YXJkAAA="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "EntityCommonTag",
+        "Value": "string"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ToggleAreaState",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADQAAAAAAAABXAAAAAEAAAAEAAAA2P///wgAAAAMAAAAAwAAAEludAAFAAAAU3RhdGUAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAGludAAGAAAAQXJlYUlEAAAPAAAAVG9nZ2xlQXJlYVN0YXRlAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "AreaID",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "State",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "FloorFlowerInit",
-    "BinData": "DAAAAAAABgAIAAQABgAAAAQAAAAPAAAARmxvb3JGbG93ZXJJbml0AA=="
+    "IsClientTrigger": false,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "FloorFlowerUse",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADAAAABcAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAASW50AAUAAABTdGF0ZQAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAcAAABQb2ludElkAA4AAABGbG9vckZsb3dlclVzZQAA"
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "PointId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "State",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LevelEventPlayerLoockAt",
-    "BinData": "GAAAAAAAEgAcABgAFwAAABAADAAIAAQAEgAAABgAAABEAAAAbAAAAJQAAAAAAAABwAAAAAEAAAAEAAAAeP///wgAAAAQAAAABgAAAFN0cmluZwAACgAAAENhbWVyYU1vdmUAAAEAAAAEAAAAqP///wgAAAAQAAAABQAAAEZsb2F0AAAABAAAAFBvc1kAAAAAAQAAAAQAAADU////CAAAABAAAAAFAAAARmxvYXQAAAAEAAAAUG9zWQAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABQAAAEZsb2F0AAAABAAAAFBvc1kAAAAAFwAAAExldmVsRXZlbnRQbGF5ZXJMb29ja0F0AA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "PosY",
+        "Value": "Float"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "PosY",
+        "Value": "Float"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "PosY",
+        "Value": "Float"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "CameraMove",
+        "Value": "String"
+      }
+    ],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LevelEventToLocation",
-    "BinData": "GAAAABQAIAAcABsAAAAUABAADAAIAAQAFAAAABwAAABAAAAAaAAAAJAAAAC4AAAAAAAAAeQAAAABAAAABAAAAFT///8IAAAAEAAAAAYAAABTdHJpbmcAAAMAAABUYWcAAQAAAAQAAAB8////CAAAABAAAAAEAAAATG9uZwAAAAAFAAAAR2VuSWQAAAABAAAABAAAAKj///8IAAAAEAAAAAUAAABGbG9hdAAAAAQAAABSb3RaAAAAAAEAAAAEAAAA1P///wgAAAAQAAAABQAAAEZsb2F0AAAABAAAAFJvdFkAAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAAEAAAAAUAAABGbG9hdAAAAAQAAABSb3RYAAAAABQAAABMZXZlbEV2ZW50VG9Mb2NhdGlvbgAAAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "RotX",
+        "Value": "Float"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "RotY",
+        "Value": "Float"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "RotZ",
+        "Value": "Float"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "GenId",
+        "Value": "Long"
+      }
+    ],
+    "Param5": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "AddInstTimer",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAANAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAcAAABUaW1lcklkAAwAAABBZGRJbnN0VGltZXIAAAAA"
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "TimerId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "DelInstTimer",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAANAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAcAAABUaW1lcklkAAwAAABEZWxJbnN0VGltZXIAAAAA"
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "TimerId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "ResetInstTimer",
-    "BinData": "EAAAAAwADAAIAAAAAAAEAAwAAAAIAAAANAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAcAAABUaW1lcklkAA4AAABSZXNldEluc3RUaW1lcgAA"
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "TimerId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LevelEventLaunchBullet",
-    "BinData": "FAAAABAAGAAUABMAAAAMAAgABAAQAAAAFAAAADwAAABkAAAAAAAAAZgAAAABAAAABAAAAKj///8IAAAAEAAAAAUAAABGbG9hdAAAAAYAAABIZWlnaHQAAAEAAAAEAAAA1P///wgAAAAQAAAABQAAAEZsb2F0AAAABgAAAFJhZGl1cwAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAAEAAAAAYAAABTdHJpbmcAAA0AAABCdWxsZXRSb3dOYW1lAAAAFgAAAExldmVsRXZlbnRMYXVuY2hCdWxsZXQAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "BulletRowName",
+        "Value": "String"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Radius",
+        "Value": "Float"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "Height",
+        "Value": "Float"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LevelEventSetBlackBoardValue",
-    "BinData": "GAAAABQAIAAcABsAAAAUABAADAAIAAQAFAAAABwAAABEAAAAaAAAAJAAAAC0AAAAAAAAAeAAAAABAAAABAAAAFj///8IAAAAEAAAAAYAAABTdHJpbmcAAAUAAABWYWx1ZQAAAAEAAAAEAAAAhP///wgAAAAQAAAABgAAAFN0cmluZwAAAwAAAEtleQABAAAABAAAAKz///8IAAAAEAAAAAYAAABTdHJpbmcAAAQAAABUeXBlAAAAAAEAAAAEAAAA2P///wgAAAAQAAAABgAAAFN0cmluZwAAAwAAAFRhZwABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABAAAAExvbmcAAAAABQAAAEdlbklkAAAAHAAAAExldmVsRXZlbnRTZXRCbGFja0JvYXJkVmFsdWUAAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "GenId",
+        "Value": "Long"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "Type",
+        "Value": "String"
+      }
+    ],
+    "Param4": [
+      {
+        "Key": "Key",
+        "Value": "String"
+      }
+    ],
+    "Param5": [
+      {
+        "Key": "Value",
+        "Value": "String"
+      }
+    ],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LevelEventSuccessSneak",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAFgAAAExldmVsRXZlbnRTdWNjZXNzU25lYWsAAA=="
+    "IsClientTrigger": true,
+    "Param1": [],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "TimerControllerServer",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADQAAABgAAAAAQAAAAQAAADU////CAAAAAwAAAADAAAASW50AAgAAABBY3RpdmF0ZQAAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAHAAAAVGltZXJJZAAVAAAAVGltZXJDb250cm9sbGVyU2VydmVyAAAA"
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "TimerId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Activate",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "TimerControllerServerAddSecond",
-    "BinData": "FAAAAAAADgAQAAwAAAAAAAgABAAOAAAADAAAADAAAABcAAAAAQAAAAQAAADY////CAAAAAwAAAADAAAASW50AAYAAABTZWNvbmQAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAcAAABUaW1lcklkAB4AAABUaW1lckNvbnRyb2xsZXJTZXJ2ZXJBZGRTZWNvbmQAAA=="
+    "IsClientTrigger": false,
+    "Param1": [
+      {
+        "Key": "TimerId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Second",
+        "Value": "Int"
+      }
+    ],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LevelEventControlTodTime",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABAAAAEJvb2wAAAAABQAAAFN0YXRlAAAAGAAAAExldmVsRXZlbnRDb250cm9sVG9kVGltZQAAAAA="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "State",
+        "Value": "Bool"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "PlayMovie",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATgAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAQAAAABgAAAFN0cmluZwAABgAAAENnTmFtZQAACQAAAFBsYXlNb3ZpZQAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CgName",
+        "Value": "String"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "LevelEventForceLockOnSpecialTagTarget",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADwAAAAAAAABaAAAAAEAAAAEAAAA0P///wgAAAAQAAAABAAAAEJvb2wAAAAACAAAAElzTG9ja09uAAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAgAAABFbnRpdHlJZAAAAAAlAAAATGV2ZWxFdmVudEZvcmNlTG9ja09uU3BlY2lhbFRhZ1RhcmdldAAAAA=="
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "CreatureGen",
+        "Value": "long"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Tag",
+        "Value": "String"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "IsForceLockOn",
+        "Value": "Bool"
+      }
+    ],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   },
   {
     "Type": "DisableMapView",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAEAAAASXNPbgAAAAAOAAAARGlzYWJsZU1hcFZpZXcAAA=="
-  },
-  {
-    "Type": "LevelEventUnlockElevator",
-    "BinData": "FAAAAAAADgAUABAADwAAAAgABAAOAAAAEAAAADgAAAAAAAABYAAAAAEAAAAEAAAA1P///wgAAAAMAAAAAwAAAEludAAIAAAARW50aXR5SWQAAAAAAQAAAAwAAAAIAAwACAAEAAgAAAAIAAAADAAAAAMAAABJbnQABQAAAEdlbklkAAAAGAAAAExldmVsRXZlbnRVbmxvY2tFbGV2YXRvcgAAAAA="
-  },
-  {
-    "Type": "ToggleSceneItemLockState",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAGAAAAFRvZ2dsZVNjZW5lSXRlbUxvY2tTdGF0ZQAAAAA="
-  },
-  {
-    "Type": "ToggleSceneItemActiveState",
-    "BinData": "DAAAAAgADAAIAAcACAAAAAAAAAEEAAAAGgAAAFRvZ2dsZVNjZW5lSXRlbUFjdGl2ZVN0YXRlAAA="
-  },
-  {
-    "Type": "RemoteActiveElevator",
-    "BinData": "FAAAABAAGAAUABMAAAAMAAgABAAQAAAAFAAAADQAAABcAAAAAAAAAYQAAAABAAAABAAAALD///8IAAAADAAAAAMAAABJbnQAAwAAAFdheQABAAAABAAAANT///8IAAAADAAAAAMAAABJbnQACAAAAEVudGl0eUlkAAAAAAEAAAAMAAAACAAMAAgABAAIAAAACAAAAAwAAAADAAAASW50AAUAAABHZW5JZAAAABQAAABSZW1vdGVBY3RpdmVFbGV2YXRvcgAAAAA="
-  },
-  {
-    "Type": "ToggleVoiceCheckState",
-    "BinData": "EAAAAAwAEAAMAAsAAAAEAAwAAAAMAAAAAAAAATQAAAABAAAADAAAAAgADAAIAAQACAAAAAgAAAAMAAAAAwAAAEludAAGAAAASXNPcGVuAAAVAAAAVG9nZ2xlVm9pY2VDaGVja1N0YXRlAAAA"
+    "IsClientTrigger": true,
+    "Param1": [
+      {
+        "Key": "IsOn",
+        "Value": "Int"
+      }
+    ],
+    "Param2": [],
+    "Param3": [],
+    "Param4": [],
+    "Param5": [],
+    "Param6": [],
+    "Param7": [],
+    "Param8": []
   }
 ]
