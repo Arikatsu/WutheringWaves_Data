@@ -57702,7 +57702,7 @@
   {
     "Id": 12009010,
     "Type": "FinishRogueInst",
-    "NeedNum": -1,
+    "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "FinishInst",
@@ -99574,7 +99574,7 @@
   {
     "Id": 12802501,
     "Type": "AdventureTaskFinishCheck",
-    "NeedNum": 0,
+    "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "ChapterId",
@@ -159635,7 +159635,7 @@
   {
     "Id": 12906231,
     "Type": "PinballLevelPass",
-    "NeedNum": 0,
+    "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "SubInsId",
@@ -159650,7 +159650,7 @@
   {
     "Id": 12906232,
     "Type": "PinballLevelPass",
-    "NeedNum": 0,
+    "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "SubInsId",
@@ -159665,7 +159665,7 @@
   {
     "Id": 12906233,
     "Type": "PinballLevelPass",
-    "NeedNum": 0,
+    "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "SubInsId",
@@ -159680,7 +159680,7 @@
   {
     "Id": 12906234,
     "Type": "PinballLevelPass",
-    "NeedNum": 0,
+    "NeedNum": 1,
     "LimitParams": [
       {
         "Key": "SubInsId",
@@ -174793,7 +174793,7 @@
       },
       {
         "Key": "RoleId",
-        "Value": "1404-1302-1304-1205-1305-1105-1603-1606-1107-1206-1506-1607-1509"
+        "Value": "1404-1302-1304-1205-1305-1105-1603-1606-1107-1206-1506-1607-1109"
       }
     ],
     "LimitParamsOpe": [],
@@ -186277,6 +186277,26 @@
     "AccessId": 0
   },
   {
+    "Id": 900013,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "81011108"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Count",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 131201524,
     "Type": "OnGuideTriggerEvent",
     "NeedNum": 1,
@@ -189012,6 +189032,36 @@
     "AccessId": 0
   },
   {
+    "Id": 13000281,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_13000281_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 13000282,
+    "Type": "CheckLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Level",
+        "Value": "14"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_13000282_Description",
+    "AccessId": 0
+  },
+  {
     "Id": 2128,
     "Type": "CheckTeleportStatus",
     "NeedNum": 1,
@@ -189906,6 +189956,44 @@
     "AccessId": 0
   },
   {
+    "Id": 313610101,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "936800000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 313610102,
+    "Type": "DailyQuestGroupCompleteTimes",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "DQGroupId",
+        "Value": "36101"
+      },
+      {
+        "Key": "DQTimes",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 131201536,
     "Type": "CheckUIOpenDone",
     "NeedNum": 1,
@@ -190049,44 +190137,6 @@
       },
       {
         "Key": "Passed",
-        "Value": "1"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": true,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
-    "Id": 313610101,
-    "Type": "NewQuestState",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "NewQuestId",
-        "Value": "936800000"
-      },
-      {
-        "Key": "State",
-        "Value": "3"
-      }
-    ],
-    "LimitParamsOpe": [],
-    "IsClient": true,
-    "Description": "",
-    "AccessId": 0
-  },
-  {
-    "Id": 313610102,
-    "Type": "DailyQuestGroupCompleteTimes",
-    "NeedNum": 1,
-    "LimitParams": [
-      {
-        "Key": "DQGroupId",
-        "Value": "36101"
-      },
-      {
-        "Key": "DQTimes",
         "Value": "1"
       }
     ],
@@ -191192,6 +191242,40 @@
     "Type": "CheckInteracting",
     "NeedNum": 1,
     "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 40026,
+    "Type": "FloroRanchTerrainChangeByToyLy",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "TirggerType",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 40027,
+    "Type": "FloroRanchAnimalMixTimesByConfig",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "TirggerType",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "3"
+      }
+    ],
     "LimitParamsOpe": [],
     "IsClient": true,
     "Description": "",
@@ -194589,6 +194673,196 @@
     "AccessId": 0
   },
   {
+    "Id": 12908961,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908962,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908963,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908964,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908965,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908966,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908967,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908968,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908969,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908970,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 13000275,
     "Type": "NewQuestState",
     "NeedNum": 1,
@@ -195836,6 +196110,171 @@
     "LimitParamsOpe": [],
     "IsClient": true,
     "Description": "团子关闭事件选择界面",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002400,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "12"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002401,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002402,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002403,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002404,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "7"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002405,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002406,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "10"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002407,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "9"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002408,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "11"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002409,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002410,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
     "AccessId": 0
   },
   {
@@ -197872,6 +198311,46 @@
     "AccessId": 0
   },
   {
+    "Id": 901007,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80870015"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Count",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 901008,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80870017"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Count",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 12904749,
     "Type": "NewTowerRecord",
     "NeedNum": 3,
@@ -197926,6 +198405,21 @@
       {
         "Key": "Dimension",
         "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1002411,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "4"
       }
     ],
     "LimitParamsOpe": [],
@@ -198239,6 +198733,132 @@
     "AccessId": 0
   },
   {
+    "Id": 12031953,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "119000001"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031954,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "181000000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031955,
+    "Type": "PassLordGymDifficultyV2",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3304"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031956,
+    "Type": "SolarSchoolEndingUnlockCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031957,
+    "Type": "RoleTowerUseDiffRole",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Stage",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Stage",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031958,
+    "Type": "CheckTetrisFinish",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "109100002"
+      },
+      {
+        "Key": "Id",
+        "Value": "30"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031959,
+    "Type": "TurnTableBigRewardCount",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "Count",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 131201679,
     "Type": "OnGuideTriggerEvent",
     "NeedNum": 1,
@@ -198250,6 +198870,646 @@
     ],
     "LimitParamsOpe": [],
     "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13030094,
+    "Type": "RoleResonance",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GroupIndex",
+        "Value": "6"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000001,
+    "Type": "SolarSchoolEndingUnlockCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000002,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000003,
+    "Type": "SolarSchoolSpecialBehaviorCompleteCount",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Id",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000004,
+    "Type": "SolarSchoolRoleFavorLevelCount",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Level",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000005,
+    "Type": "SolarSchoolAttrHistoryMax",
+    "NeedNum": 150,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1-2-3-4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000006,
+    "Type": "SolarSchoolSpecialItemCount",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000007,
+    "Type": "SolarSchoolRoleFavorLevelCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Level",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000008,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3012"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000009,
+    "Type": "SolarSchoolEndingUnlockCount",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000010,
+    "Type": "SolarSchoolExamTypeBestScore",
+    "NeedNum": 81,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Type",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000011,
+    "Type": "SolarSchoolExamTypeBestScore",
+    "NeedNum": 81,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Type",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000012,
+    "Type": "SolarSchoolAttrHistoryMax",
+    "NeedNum": 850,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1-2-3-4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000013,
+    "Type": "SolarSchoolHistoryMoneyAdd",
+    "NeedNum": 20000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000014,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000015,
+    "Type": "SolarSchoolEndingUnlocked",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000016,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1015"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000017,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "8015"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000018,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "7029"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000019,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "7038"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000020,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "7048"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000021,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "7042"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000022,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "7041"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000023,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "7031"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000024,
+    "Type": "SolarSchoolBehaviorTypeCount",
+    "NeedNum": 60,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000025,
+    "Type": "SolarSchoolRoleFavorLevelCount",
+    "NeedNum": 10,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000026,
+    "Type": "SolarSchoolShopBuyItemCount",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Id",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000027,
+    "Type": "SolarSchoolEndingUnlockCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1013011171,
+    "Type": "PassLordGymDifficultyV2",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3301"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1013011181,
+    "Type": "PassLordGymDifficulty",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3306"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003151,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3012"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003161,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "8006"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003171,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3021"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003181,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3019"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003191,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3029"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003201,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "12008"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003211,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3030"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003221,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "456700000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003231,
+    "Type": "SolarSchoolEndingUnlockCount",
+    "NeedNum": 12,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003241,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "11008"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
     "Description": "",
     "AccessId": 0
   },
@@ -198269,6 +199529,255 @@
       {
         "Key": "NodeId",
         "Value": "34"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200694,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1617"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "83"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200695,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1620"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "37"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200696,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1621"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200697,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1621"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "35"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200698,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1623"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200699,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1623"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "101"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200137,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1623"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "61"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200138,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1629"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "17"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200139,
+    "Type": "CheckInstPlayNodeState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "1630"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      },
+      {
+        "Key": "NodeId",
+        "Value": "6"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200140,
+    "Type": "NewQuestStepState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "181000000"
+      },
+      {
+        "Key": "QuestNodeId",
+        "Value": "5"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 101200380,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "158700005"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
       }
     ],
     "LimitParamsOpe": [],
@@ -198322,6 +199831,70 @@
       {
         "Key": "UIName",
         "Value": "TeamRoleSelectView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000028,
+    "Type": "SolarSchoolBehaviorIdCount",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Id",
+        "Value": "5015"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000029,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1051"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000040,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000041,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3010"
       }
     ],
     "LimitParamsOpe": [],
@@ -198425,6 +199998,1727 @@
     "AccessId": 0
   },
   {
+    "Id": 100045215,
+    "Type": "OnSkillEnable",
+    "NeedNum": 100,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "AttackerID",
+        "Value": "0-1512"
+      },
+      {
+        "Key": "SkillType",
+        "Value": "12"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045216,
+    "Type": "OnDeathCalculateV2",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "AttackerID",
+        "Value": "0-1512"
+      },
+      {
+        "Key": "AttackerTag",
+        "Value": "角色.8a3953f9.8d022602.d0bbfda8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045217,
+    "Type": "OnSkillEnable",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "AttackerID",
+        "Value": "0-1512"
+      },
+      {
+        "Key": "SkillId",
+        "Value": "15128004"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045218,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-391644"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 100045219,
+    "Type": "OnDeathCalculate",
+    "NeedNum": 20,
+    "LimitParams": [
+      {
+        "Key": "TargetType",
+        "Value": "2"
+      },
+      {
+        "Key": "VictimID",
+        "Value": "1-391640"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908971,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908972,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908973,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908974,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908975,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908976,
+    "Type": "RoleTowerUseDiffToken",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908977,
+    "Type": "RoleTowerUseDiffToken",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908978,
+    "Type": "RoleTowerUseDiffToken",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908979,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 9,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908980,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 10,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908981,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 11,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908982,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 12,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000044,
+    "Type": "SolarSchoolBehaviorTypeCount",
+    "NeedNum": 120,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Type",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000045,
+    "Type": "SolarSchoolRoleFavorLevelCount",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905191,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 4800,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905192,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 7200,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905193,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 10000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905194,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 12000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905195,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 16000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905196,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 21000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905197,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 37000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905198,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 58000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905199,
+    "Type": "NewTowerAllTeamScore",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "5000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905200,
+    "Type": "NewTowerAllTeamScore",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "5000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905201,
+    "Type": "NewTowerAllTeamScore",
+    "NeedNum": 6,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "5000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905202,
+    "Type": "NewTowerKillWaveInSeason",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12905112_HintText",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905203,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 58000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905204,
+    "Type": "NewTowerCycleHistoryScore",
+    "NeedNum": 2147483647,
+    "LimitParams": [
+      {
+        "Key": "CycleId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905205,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 58000,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12905206,
+    "Type": "NewTowerKillWaveInSeason",
+    "NeedNum": 4,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "ConditionGroup_12905112_HintText",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031960,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20016"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031961,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20024"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031962,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031963,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031964,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031965,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031966,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031967,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031968,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031969,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031970,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031971,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031972,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031973,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031974,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031975,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031976,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031977,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031978,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031979,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031980,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031981,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031982,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031983,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031984,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031985,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031986,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20017"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031987,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20018"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031988,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20019"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031989,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "20020"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031990,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40287-40298-40299-40310-40311"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031991,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40287-40298-40299-40310-40311"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1210"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031992,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40287-40298-40299-40310-40311"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1510"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031993,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40287-40298-40299-40310-40311"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1108"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031994,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40287-40298-40299-40310-40311"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1412"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031995,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40287-40298-40299-40310-40311"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1610"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031996,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40287-40298-40299-40310-40311"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1413"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031997,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40287-40298-40299-40310-40311"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1212"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031998,
+    "Type": "PassInst",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "InstanceId",
+        "Value": "40286-40287-40298-40299-40310-40311"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1511"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12031999,
+    "Type": "NewTowerTeamChallengingFinish",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032000,
+    "Type": "NewTowerTeamChallengingFinish",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032001,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Num",
+        "Value": "6"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032002,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Num",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032003,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 76450,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032004,
+    "Type": "NewTowerTotalScore",
+    "NeedNum": 180536,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Num",
+        "Value": "-1"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032005,
+    "Type": "PassLordGymDifficulty",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3304"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032006,
+    "Type": "PassLordGymDifficulty",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3306"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032007,
+    "Type": "RoleTowerUseDiffRole",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Stage",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032008,
+    "Type": "RoleTowerUseDiffRole",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Stage",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032009,
+    "Type": "RoleTowerUseDiffRole",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Stage",
+        "Value": "8"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032010,
+    "Type": "RoleTowerUseDiffRole",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Stage",
+        "Value": "11"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032011,
+    "Type": "RoleTowerUseDiffRole",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Stage",
+        "Value": "12"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 131201686,
     "Type": "CheckUIOpenDone",
     "NeedNum": 1,
@@ -198501,6 +201795,394 @@
     "AccessId": 0
   },
   {
+    "Id": 901009,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80870003"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Count",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904750,
+    "Type": "NewTowerKillBossInSeason",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "401800000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904751,
+    "Type": "NewTowerKillWaveInSeason",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904752,
+    "Type": "NewTowerLimitCondPassWave",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Round",
+        "Value": "2"
+      },
+      {
+        "Key": "Num",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Round",
+        "Value": ">="
+      },
+      {
+        "Key": "Num",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904753,
+    "Type": "NewTowerGetScoreWithRole",
+    "NeedNum": 15000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904754,
+    "Type": "NewTowerGetScoreWithRole",
+    "NeedNum": 5000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "RoleId",
+        "Value": "2147483645"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904755,
+    "Type": "NewTowerDamage",
+    "NeedNum": 8000000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Element",
+        "Value": "1"
+      },
+      {
+        "Key": "MonsterType",
+        "Value": "2147483646"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904756,
+    "Type": "NewTowerDamage",
+    "NeedNum": 8000000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Element",
+        "Value": "2"
+      },
+      {
+        "Key": "MonsterType",
+        "Value": "2147483646"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904757,
+    "Type": "NewTowerDamage",
+    "NeedNum": 8000000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Element",
+        "Value": "3"
+      },
+      {
+        "Key": "MonsterType",
+        "Value": "2147483646"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904758,
+    "Type": "NewTowerDamage",
+    "NeedNum": 8000000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Element",
+        "Value": "4"
+      },
+      {
+        "Key": "MonsterType",
+        "Value": "2147483646"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904759,
+    "Type": "NewTowerDamage",
+    "NeedNum": 8000000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Element",
+        "Value": "5"
+      },
+      {
+        "Key": "MonsterType",
+        "Value": "2147483646"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904760,
+    "Type": "NewTowerDamage",
+    "NeedNum": 8000000,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "2"
+      },
+      {
+        "Key": "CycleId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "Element",
+        "Value": "6"
+      },
+      {
+        "Key": "MonsterType",
+        "Value": "2147483646"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "0"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908983,
+    "Type": "RoleTowerUseTokenTimes",
+    "NeedNum": 5,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908984,
+    "Type": "RoleTowerUseDiffRole",
+    "NeedNum": 2,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Stage",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 131201689,
     "Type": "CheckUIOpenDone",
     "NeedNum": 1,
@@ -198535,6 +202217,44 @@
     "AccessId": 0
   },
   {
+    "Id": 12908985,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "255700000"
+      },
+      {
+        "Key": "State",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908986,
+    "Type": "RoleTowerPassStage",
+    "NeedNum": 8,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "112000001"
+      },
+      {
+        "Key": "Id",
+        "Value": "-1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
     "Id": 101200141,
     "Type": "CheckInstPlayNodeState",
     "NeedNum": 1,
@@ -198558,6 +202278,196 @@
     "AccessId": 0
   },
   {
+    "Id": 2101512001,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Level",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402001_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101512002,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Level",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402002_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101512003,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Level",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402003_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101512004,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Level",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402004_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101512005,
+    "Type": "RoleFavorLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Level",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402005_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101512011,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Breach",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402011_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101512012,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Breach",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402012_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101512013,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Breach",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402013_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101512014,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Breach",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402014_Description",
+    "AccessId": 0
+  },
+  {
+    "Id": 2101512015,
+    "Type": "RoleBreach",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "RoleId",
+        "Value": "1512"
+      },
+      {
+        "Key": "Breach",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_2101402015_Description",
+    "AccessId": 0
+  },
+  {
     "Id": 1002110,
     "Type": "CheckCharacterTagsRestrict",
     "NeedNum": 1,
@@ -198565,6 +202475,1825 @@
       {
         "Key": "BanTags",
         "Value": "[角色.BaseRole.状态通用标识.电梯禁用能力中,行为状态.逻辑状态.进入战斗]"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003172,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3031"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003173,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3032"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003174,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3033"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003175,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3034"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003176,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3035"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003177,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3036"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1014003178,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "3037"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12800121,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "80131015"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Count",
+        "Value": ">="
+      }
+    ],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12904761,
+    "Type": "NewTowerKillBossInSeason",
+    "NeedNum": 3,
+    "LimitParams": [
+      {
+        "Key": "SeasonId",
+        "Value": "9"
+      },
+      {
+        "Key": "Difficulty",
+        "Value": "1"
+      },
+      {
+        "Key": "MonsterId",
+        "Value": "665700003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12008066,
+    "Type": "ItemCheck",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ItemID",
+        "Value": "1512"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12032012,
+    "Type": "PassTowerStarCountV2",
+    "NeedNum": 27,
+    "LimitParams": [
+      {
+        "Key": "Difficulty",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908911,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "HsinAfterStory"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12908912,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "HsinAfterStory"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 12907627,
+    "Type": "VarDefineInt",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "VDName",
+        "Value": "GetWaWa1"
+      },
+      {
+        "Key": "VDValueInt",
+        "Value": "1"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000046,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "14200"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000047,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "7034"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371274,
+    "Type": "LevelPlayCompleteNew",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850016"
+      },
+      {
+        "Key": "InsId",
+        "Value": "912"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371275,
+    "Type": "LevelPlayCompleteNew",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850017"
+      },
+      {
+        "Key": "InsId",
+        "Value": "912"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371276,
+    "Type": "LevelPlayCompleteNew",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850018"
+      },
+      {
+        "Key": "InsId",
+        "Value": "912"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371283,
+    "Type": "LevelPlayCompleteNew",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850016"
+      },
+      {
+        "Key": "InsId",
+        "Value": "912"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 1011371284,
+    "Type": "LevelPlayCompleteNew",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelPlayId",
+        "Value": "260850017"
+      },
+      {
+        "Key": "InsId",
+        "Value": "912"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201691,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100000"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201692,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolLetterView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201693,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201694,
+    "Type": "OnCommonChildViewShowDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ChildViewName",
+        "Value": "SolarSchoolMain"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201695,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201696,
+    "Type": "OnCommonChildViewShowDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ChildViewName",
+        "Value": "SolarSchoolMap"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201697,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100016"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201698,
+    "Type": "OnCommonChildViewShowDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ChildViewName",
+        "Value": "SolarSchoolLocation"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201699,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100004"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201700,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100005"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201701,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20617"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201702,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "SolarSchoolConfirmPopupSequenceFinished"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201703,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "18000001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201704,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20618"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201705,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolSaveView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201706,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100007"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201707,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolSpecialBehaviorAcceptView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201708,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20622"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201709,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolScheduleView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201710,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolEventCheckView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201711,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100008"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201712,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolGalleryView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201713,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100009"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201714,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100010"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201715,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100011"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201716,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100012"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201717,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100013"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201718,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100014"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201719,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolTipsPopupView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201720,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100015"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201721,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20643"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201722,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100017"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201723,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolRootView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201724,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100018"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201725,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolFavorLevelUpPopupView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201726,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100019"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201727,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "19100020"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201728,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "SolarSchoolConfirmPopupSequenceFinished"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201729,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolDayChangeLoadingView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201730,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "TetrisTipsTargetView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201731,
+    "Type": "CheckTetrisLevelId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "18"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201732,
+    "Type": "CheckTetrisLevelId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "19"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201733,
+    "Type": "CheckTetrisLevelId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "20"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201734,
+    "Type": "CheckTetrisLevelId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "22"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201735,
+    "Type": "CheckTetrisLevelId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "25"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201736,
+    "Type": "CheckTetrisLevelId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "28"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201737,
+    "Type": "CheckTetrisLevelId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "26"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201738,
+    "Type": "CheckTetrisLevelId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "30"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201739,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20647"
+      },
+      {
+        "Key": "Status",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [
+      {
+        "Key": "Status",
+        "Value": ">="
+      }
+    ],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201740,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "SolarSchoolBagView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201741,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "18000028"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201742,
+    "Type": "CheckActivityCondition",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "ActivityConditionId",
+        "Value": "18000030"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 13000283,
+    "Type": "NewQuestState",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "NewQuestId",
+        "Value": "237700000"
+      },
+      {
+        "Key": "State",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": false,
+    "Description": "Condition_13000283_Description",
+    "AccessId": 927001
+  },
+  {
+    "Id": 131201743,
+    "Type": "OnViewClose",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "TetrisTipsEndLessStartView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201744,
+    "Type": "CheckTetrisLevelId",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "32"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000048,
+    "Type": "SolarSchoolHistoryMoneyAdd",
+    "NeedNum": 30000,
+    "LimitParams": [
+      {
+        "Key": "ActivityId",
+        "Value": "111700001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000049,
+    "Type": "SolarSchoolAttrHistoryMax",
+    "NeedNum": 400,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "1-2-3-4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000050,
+    "Type": "SolarSchoolAttrHistoryMax",
+    "NeedNum": 250,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000051,
+    "Type": "SolarSchoolAttrHistoryMax",
+    "NeedNum": 120,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000052,
+    "Type": "SolarSchoolAttrHistoryMax",
+    "NeedNum": 600,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "5"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201745,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "RoleTowerPrepareView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201746,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "RoleTowerTokenViewConfirmBtn"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201747,
+    "Type": "CheckRoleTowerEquippedToken",
+    "NeedNum": 1,
+    "LimitParams": [],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201748,
+    "Type": "CheckRoleTowerCurrentStage",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "1"
+      },
+      {
+        "Key": "Stage",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201749,
+    "Type": "CheckRoleTowerCurrentStage",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "1"
+      },
+      {
+        "Key": "Stage",
+        "Value": "3"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201750,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "RoleTowerStarUpView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201751,
+    "Type": "CheckGuideStatus",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "GuideGroupId",
+        "Value": "20637"
+      },
+      {
+        "Key": "Status",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201752,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "RoleTowerRolePropertyView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201753,
+    "Type": "OnGuideTriggerEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Name",
+        "Value": "RoleTowerRolePropertyViewPhantomTab"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201754,
+    "Type": "CheckRoleTowerEchoLevel",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "1"
+      },
+      {
+        "Key": "EchoLevelIndex",
+        "Value": "2"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201755,
+    "Type": "CheckUIOpenDone",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "UIName",
+        "Value": "RoleTowerFloorSettleView"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 131201756,
+    "Type": "CheckRoleTowerCurrentStage",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "LevelId",
+        "Value": "1"
+      },
+      {
+        "Key": "Stage",
+        "Value": "4"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000060,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "8006"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000061,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "12003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000062,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "12006"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000063,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "11002"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000064,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "11007"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000065,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "7042"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000066,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "9015"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000067,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "9011"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000068,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "9004"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000069,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "9005"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000070,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "9001"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000071,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "12008"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000072,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "11008"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000073,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6024"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000074,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6003"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000075,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6021"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000076,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6012"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000077,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6015"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000078,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6009"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000079,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6018"
+      }
+    ],
+    "LimitParamsOpe": [],
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
+  },
+  {
+    "Id": 14000080,
+    "Type": "SolarSchoolFlowRead",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "6006"
       }
     ],
     "LimitParamsOpe": [],

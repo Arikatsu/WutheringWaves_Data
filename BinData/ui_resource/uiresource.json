@@ -528,7 +528,7 @@
   {
     "Id": "UiItem_InstanceDungeon_RightTitle",
     "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRTitle.UiItem_CheckpointsRTitle",
-    "PcPath": "",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsRTitle.PC_UiItem_CheckpointsRTitle",
     "ResourceType": "Common",
     "ActivityType": []
   },
@@ -2926,7 +2926,8 @@
     "PcPath": "/Game/Aki/UI/UIResources/UiRogue/Prefabs/PC/PC_UiItem_TipsRoguePlayer.PC_UiItem_TipsRoguePlayer",
     "ResourceType": "Activity",
     "ActivityType": [
-      "RougeActivity"
+      "RougeActivity",
+      "RoleTower"
     ]
   },
   {
@@ -34320,10 +34321,8 @@
     "Id": "UiView_SpringFestivalBrochure",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity31/SpringFestival/Brochure/UiView_SpringFestivalBrochure.UiView_SpringFestivalBrochure",
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity31/SpringFestival/Brochure/PC_UiView_SpringFestivalBrochure.PC_UiView_SpringFestivalBrochure",
-    "ResourceType": "Activity",
-    "ActivityType": [
-      "SpringFestivalActivity"
-    ]
+    "ResourceType": "Common",
+    "ActivityType": []
   },
   {
     "Id": "UiView_BrochureCompleted",
@@ -34338,10 +34337,8 @@
     "Id": "UiView_BrochureDetail",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity31/SpringFestival/Brochure/UiView_BrochureDetail.UiView_BrochureDetail",
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity31/SpringFestival/Brochure/PC_UiView_BrochureDetail.PC_UiView_BrochureDetail",
-    "ResourceType": "Activity",
-    "ActivityType": [
-      "SpringFestivalActivity"
-    ]
+    "ResourceType": "Common",
+    "ActivityType": []
   },
   {
     "Id": "UiView_AlbumProp",
@@ -38769,7 +38766,7 @@
   {
     "Id": "UiItem_CubeTipsNotSpaceB",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity32/Cube/Tips/UiItem_CubeTipsNotSpaceB.UiItem_CubeTipsNotSpaceB",
-    "PcPath": "",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity32/Cube/Tips/PC_UiItem_CubeTipsNotSpaceB.PC_UiItem_CubeTipsNotSpaceB",
     "ResourceType": "Activity",
     "ActivityType": [
       "TetrisActivity"
@@ -42313,10 +42310,8 @@
     "Id": "UiItem_CyberpunkSelectRole",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity34/CyberpunkLuckdraw/UiItem_CyberpunkSelectRole.UiItem_CyberpunkSelectRole",
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity34/CyberpunkLuckdraw/PC_UiItem_CyberpunkSelectRole.PC_UiItem_CyberpunkSelectRole",
-    "ResourceType": "Activity",
-    "ActivityType": [
-      "EdgerunnersActivity"
-    ]
+    "ResourceType": "Common",
+    "ActivityType": []
   },
   {
     "Id": "SP_BtnShopTabSle",
@@ -42666,10 +42661,8 @@
     "Id": "UiView_CyberpunkPopUp",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity34/Cyberpunk/UiView_CyberpunkPopUp.UiView_CyberpunkPopUp",
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity34/Cyberpunk/PC_UiView_CyberpunkPopUp.PC_UiView_CyberpunkPopUp",
-    "ResourceType": "Activity",
-    "ActivityType": [
-      "EdgerunnersActivity"
-    ]
+    "ResourceType": "Common",
+    "ActivityType": []
   },
   {
     "Id": "UiView_CyberpunkLoading",
@@ -44132,10 +44125,8 @@
     "Id": "SP_ComRomeText_05",
     "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ComRomeText_05.SP_ComRomeText_05",
     "PcPath": "",
-    "ResourceType": "Activity",
-    "ActivityType": [
-      "MotorParkour"
-    ]
+    "ResourceType": "Common",
+    "ActivityType": []
   },
   {
     "Id": "UiView_NewcomerSplashView",
@@ -45991,15 +45982,6 @@
     "ActivityType": []
   },
   {
-    "Id": "UiItem_RogueLife",
-    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity36/Activity36Rogue/Com/UiItem_RogueLife.UiItem_RogueLife",
-    "PcPath": "",
-    "ResourceType": "Activity",
-    "ActivityType": [
-      "Roverlike"
-    ]
-  },
-  {
     "Id": "UiView_RoverLikeRoleSelectView",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity36/Activity36Rogue/SelectElement/UiView_SelectElement.UiView_SelectElement",
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity36/Activity36Rogue/SelectElement/PC_UiView_SelectElement.PC_UiView_SelectElement",
@@ -46188,6 +46170,15 @@
   {
     "Id": "UiItem_RogueFightRoleShow",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity36/Activity36Rogue/Fight/UiItem_RogueFightRoleShow.UiItem_RogueFightRoleShow",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "Roverlike"
+    ]
+  },
+  {
+    "Id": "UiItem_RogueLife",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity36/Activity36Rogue/Com/UiItem_RogueLife.UiItem_RogueLife",
     "PcPath": "",
     "ResourceType": "Activity",
     "ActivityType": [
@@ -47246,6 +47237,15 @@
     ]
   },
   {
+    "Id": "UiView_SolarSchoolDialogueChoice",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/UiView_SolarSchoolDialogueChoice.UiView_SolarSchoolDialogueChoice",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Dialogue/PC_UiView_SolarSchoolDialogueChoice.PC_UiView_SolarSchoolDialogueChoice",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "UiView_Match3GameGamePlay",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity37/Match3Game/UiView_Match3GameGamePlay.UiView_Match3GameGamePlay",
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity37/Match3Game/PC_UiView_Match3GameGamePlay.PC_UiView_Match3GameGamePlay",
@@ -47359,6 +47359,15 @@
     "ActivityType": []
   },
   {
+    "Id": "UiView_SolarSchoolEvent",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Event/UiView_SolarSchoolEvent.UiView_SolarSchoolEvent",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Event/PC_UiView_SolarSchoolEvent.PC_UiView_SolarSchoolEvent",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "UiItem_GoldfishScoopingMainBg",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity37/GoldfishScooping/UiItem_GoldfishScoopingMainBg.UiItem_GoldfishScoopingMainBg",
     "PcPath": "",
@@ -47402,6 +47411,13 @@
     ]
   },
   {
+    "Id": "UiItem_CG3_6_M3_12_25_p1",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_6/UiItem_CG3_6_M3_12_25_p1.UiItem_CG3_6_M3_12_25_p1",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
     "Id": "T_BuffIcon_07_a",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity37/DangoBrawl/DangoBrawlBuff/T_BuffIcon_07_a.T_BuffIcon_07_a",
     "PcPath": "",
@@ -47420,11 +47436,13 @@
     ]
   },
   {
-    "Id": "UiItem_CG3_6_M3_12_25_p1",
-    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_6/UiItem_CG3_6_M3_12_25_p1.UiItem_CG3_6_M3_12_25_p1",
-    "PcPath": "",
-    "ResourceType": "Common",
-    "ActivityType": []
+    "Id": "UiView_SolarSchoolSchedule",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Schedule/UiView_SolarSchoolSchedule.UiView_SolarSchoolSchedule",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Schedule/PC_UiView_SolarSchoolSchedule.PC_UiView_SolarSchoolSchedule",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
   },
   {
     "Id": "MI_UIMapV2_1_CloudThrough",
@@ -47461,6 +47479,49 @@
     "ResourceType": "Activity",
     "ActivityType": [
       "Sign"
+    ]
+  },
+  {
+    "Id": "UiItem_QteBtnPiano",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PlotQTE/UiItem_QteBtnPiano.UiItem_QteBtnPiano",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiView_SolarSchoolInfoOverview",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/InfoOverview/UiView_SolarSchoolInfoOverview.UiView_SolarSchoolInfoOverview",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/InfoOverview/PC_UiView_SolarSchoolInfoOverview.PC_UiView_SolarSchoolInfoOverview",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolInfoFriend",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/InfoOverview/UiItem_SolarSchoolInfoFriend.UiItem_SolarSchoolInfoFriend",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/InfoOverview/PC_UiItem_SolarSchoolInfoFriend.PC_UiItem_SolarSchoolInfoFriend",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolCom",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Main/UiView_SolarSchoolCom.UiView_SolarSchoolCom",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Main/PC_UiView_SolarSchoolCom.PC_UiView_SolarSchoolCom",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Main/UiItem_SolarSchoolMain.UiItem_SolarSchoolMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Main/PC_UiItem_SolarSchoolMain.PC_UiItem_SolarSchoolMain",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
     ]
   },
   {
@@ -47516,8 +47577,24 @@
     "ActivityType": []
   },
   {
+    "Id": "PnlSpineParentItem",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/PnlSpineParentItem.PnlSpineParentItem",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "UiView_BlackScreenTextAMain_Prefab",
     "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/CGTexMS/BlackScreenText/UiView_BlackScreenTextAMain.UiView_BlackScreenTextAMain",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_PnlQuestBadgePOI",
+    "Path": "/Game/Aki/UI/UIResources/UiQuest/Prefabs/PnlQuestBadgePOI.PnlQuestBadgePOI",
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
@@ -47539,13 +47616,6 @@
   {
     "Id": "SP_IconEchoStack",
     "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_IconEchoStack.SP_IconEchoStack",
-    "PcPath": "",
-    "ResourceType": "Common",
-    "ActivityType": []
-  },
-  {
-    "Id": "UiItem_PnlQuestBadgePOI",
-    "Path": "/Game/Aki/UI/UIResources/UiQuest/Prefabs/PnlQuestBadgePOI.PnlQuestBadgePOI",
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
@@ -47594,12 +47664,156 @@
     ]
   },
   {
+    "Id": "UiItem_SolarSchoolMainB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Main/UiItem_SolarSchoolMainB.UiItem_SolarSchoolMainB",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Main/PC_UiItem_SolarSchoolMainB.PC_UiItem_SolarSchoolMainB",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolMainRole",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Main/UiItem_SolarSchoolMainRole.UiItem_SolarSchoolMainRole",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Main/PC_UiItem_SolarSchoolMainRole.PC_UiItem_SolarSchoolMainRole",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolMapMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Map/UiItem_SolarSchoolMapMain.UiItem_SolarSchoolMapMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Map/PC_UiItem_SolarSchoolMapMain.PC_UiItem_SolarSchoolMapMain",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolPopupA",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolPopupA.UiView_SolarSchoolPopupA",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolPopupB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolPopupB.UiView_SolarSchoolPopupB",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolPopupC",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolPopupC.UiView_SolarSchoolPopupC",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolPopupD",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolPopupD.UiView_SolarSchoolPopupD",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolUnLockItemPopup",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiItem_SolarSchoolUnLockItemPopup.UiItem_SolarSchoolUnLockItemPopup",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Popup/PC_UiItem_SolarSchoolUnLockItemPopup.PC_UiItem_SolarSchoolUnLockItemPopup",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "T_DangoBrawl_HandBook_All",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity37/DangoBrawl/TuJianIcon/T_BrawlIconAll.T_BrawlIconAll",
     "PcPath": "",
     "ResourceType": "Activity",
     "ActivityType": [
       "DangoBrawl"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolMap_A_Base",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchoolMapAColor.T_SolarSchoolMapAColor",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolMap_B_Base",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchoolMapBColor.T_SolarSchoolMapBColor",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolMap_A_MapTile1",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchoolMapAL.T_SolarSchoolMapAL",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolMap_A_MapTile2",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchoolMapAR.T_SolarSchoolMapAR",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolMap_B_MapTile1",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchoolMapBL.T_SolarSchoolMapBL",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolMap_B_MapTile2",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchoolMapBR.T_SolarSchoolMapBR",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolCalendar_A",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchooWeather01.T_SolarSchooWeather01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolCalendar_B",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchooWeather02.T_SolarSchooWeather02",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
     ]
   },
   {
@@ -47747,6 +47961,15 @@
     ]
   },
   {
+    "Id": "UiView_SolarSchoolBag",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Bag/UiView_SolarSchoolBag.UiView_SolarSchoolBag",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Bag/PC_UiView_SolarSchoolBag.PC_UiView_SolarSchoolBag",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "UiItem_RewardList",
     "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_RewardList.UiItem_RewardList",
     "PcPath": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PC/PC_UiItem_RewardList.PC_UiItem_RewardList",
@@ -47775,48 +47998,46 @@
     "ActivityType": []
   },
   {
-    "Id": "T_LevelDetailBg1",
-    "Path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity37/Match3Game/T_LevelDetailBg1.T_LevelDetailBg1",
-    "PcPath": "",
+    "Id": "UiItem_SolarSchoolInfoStudentID",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/InfoOverview/UiItem_SolarSchoolInfoStudentID.UiItem_SolarSchoolInfoStudentID",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/InfoOverview/PC_UiItem_SolarSchoolInfoStudentID.PC_UiItem_SolarSchoolInfoStudentID",
     "ResourceType": "Activity",
     "ActivityType": [
-      "MatchThree"
+      "SolarSchool"
     ]
   },
   {
-    "Id": "T_LevelDetailBg2",
-    "Path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity37/Match3Game/T_LevelDetailBg2.T_LevelDetailBg2",
-    "PcPath": "",
+    "Id": "UiView_PlotQtePiano",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PlotQTE/UiView_PlotQtePiano.UiView_PlotQtePiano",
+    "PcPath": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PC/PlotQTE/PC_UiView_PlotQtePiano.PC_UiView_PlotQtePiano",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiView_SolarSchoolItemTipsPopup",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolItemTipsPopup.UiView_SolarSchoolItemTipsPopup",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Popup/PC_UiView_SolarSchoolItemTipsPopup.PC_UiView_SolarSchoolItemTipsPopup",
     "ResourceType": "Activity",
     "ActivityType": [
-      "MatchThree"
+      "SolarSchool"
     ]
   },
   {
-    "Id": "SP_InfoTitleBg1",
-    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity37/Match3Game/LevelDetail/SP_InfoTitleBg1.SP_InfoTitleBg1",
-    "PcPath": "",
+    "Id": "UiView_SolarSchoolConfirmPopup",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolConfirmPopup.UiView_SolarSchoolConfirmPopup",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Popup/PC_UiView_SolarSchoolConfirmPopup.PC_UiView_SolarSchoolConfirmPopup",
     "ResourceType": "Activity",
     "ActivityType": [
-      "MatchThree"
+      "SolarSchool"
     ]
   },
   {
-    "Id": "SP_InfoTitleBg2",
-    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity37/Match3Game/LevelDetail/SP_InfoTitleBg2.SP_InfoTitleBg2",
-    "PcPath": "",
+    "Id": "UiView_SolarSchoolBuildPopup",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolBuildPopup.UiView_SolarSchoolBuildPopup",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Popup/PC_UiView_SolarSchoolBuildPopup.PC_UiView_SolarSchoolBuildPopup",
     "ResourceType": "Activity",
     "ActivityType": [
-      "MatchThree"
-    ]
-  },
-  {
-    "Id": "UiView_PopupInfo",
-    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity37/Match3Game/UiView_PopupInfo.UiView_PopupInfo",
-    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity37/Match3Game/PC_UiView_PopupInfo.PC_UiView_PopupInfo",
-    "ResourceType": "Activity",
-    "ActivityType": [
-      "MatchThree"
+      "SolarSchool"
     ]
   },
   {
@@ -47869,6 +48090,51 @@
     "ActivityType": []
   },
   {
+    "Id": "T_LevelDetailBg1",
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity37/Match3Game/T_LevelDetailBg1.T_LevelDetailBg1",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "MatchThree"
+    ]
+  },
+  {
+    "Id": "T_LevelDetailBg2",
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity37/Match3Game/T_LevelDetailBg2.T_LevelDetailBg2",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "MatchThree"
+    ]
+  },
+  {
+    "Id": "SP_InfoTitleBg1",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity37/Match3Game/LevelDetail/SP_InfoTitleBg1.SP_InfoTitleBg1",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "MatchThree"
+    ]
+  },
+  {
+    "Id": "SP_InfoTitleBg2",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity37/Match3Game/LevelDetail/SP_InfoTitleBg2.SP_InfoTitleBg2",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "MatchThree"
+    ]
+  },
+  {
+    "Id": "UiView_PopupInfo",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity37/Match3Game/UiView_PopupInfo.UiView_PopupInfo",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity37/Match3Game/PC_UiView_PopupInfo.PC_UiView_PopupInfo",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "MatchThree"
+    ]
+  },
+  {
     "Id": "SP_IconTileUltimate",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity37/Match3Game/IconTile/SP_IconTileUltimate.SP_IconTileUltimate",
     "PcPath": "",
@@ -47902,6 +48168,42 @@
     "ResourceType": "Activity",
     "ActivityType": [
       "MatchThree"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolExam",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Exam/UiView_SolarSchoolExam.UiView_SolarSchoolExam",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Exam/PC_UiView_SolarSchoolExam.PC_UiView_SolarSchoolExam",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolDonePopup",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolDonePopup.UiView_SolarSchoolDonePopup",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolEventPopup",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolEventPopup.UiView_SolarSchoolEventPopup",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolMailboxAffairs",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Affairs/UiView_SolarSchoolMailboxAffairs.UiView_SolarSchoolMailboxAffairs",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Affairs/PC_UiView_SolarSchoolMailboxAffairs.PC_UiView_SolarSchoolMailboxAffairs",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
     ]
   },
   {
@@ -48177,6 +48479,15 @@
     "ActivityType": []
   },
   {
+    "Id": "UiView_SolarSchoolBehavior",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Behavior/UiView_SolarSchoolBehavior.UiView_SolarSchoolBehavior",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "UiView_Match3GamePopupFail",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity37/Match3Game/UiView_Match3GamePopupFail.UiView_Match3GamePopupFail",
     "PcPath": "",
@@ -48192,6 +48503,22 @@
     "ResourceType": "Activity",
     "ActivityType": [
       "MatchThree"
+    ]
+  },
+  {
+    "Id": "UiView_PetalMechanic",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/PetalMechanic/UiView_PetalMechanic.UiView_PetalMechanic",
+    "PcPath": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/PC/PetalMechanic/PC_UiView_PetalMechanic.PC_UiView_PetalMechanic",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiView_SolarSchoolOverview",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Overview/UiView_SolarSchoolOverview.UiView_SolarSchoolOverview",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Overview/PC_UiView_SolarSchoolOverview.PC_UiView_SolarSchoolOverview",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
     ]
   },
   {
@@ -48267,6 +48594,15 @@
     ]
   },
   {
+    "Id": "UiItem_SolarSchoolDialogueSpine",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/UiItem_SolarSchoolDialogueSpine.UiItem_SolarSchoolDialogueSpine",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Dialogue/PC_UiItem_SolarSchoolDialogueSpine.PC_UiItem_SolarSchoolDialogueSpine",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "SP_IconGiantSystemMainXinTai01",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity37/GiantSystem/SP_IconGiantSystemMainXinTai01.SP_IconGiantSystemMainXinTai01",
     "PcPath": "",
@@ -48293,6 +48629,15 @@
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
+  },
+  {
+    "Id": "UiView_SolarSchoolActivityMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/ActivityMain/UiView_SolarSchoolActivityMain.UiView_SolarSchoolActivityMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/ActivityMain/PC_UiView_SolarSchoolActivityMain.PC_UiView_SolarSchoolActivityMain",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
   },
   {
     "Id": "UiView_MatchThreePopupCom",
@@ -48385,6 +48730,33 @@
     ]
   },
   {
+    "Id": "UiView_SolarSchoolChooseCardPopup",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolChooseCardPopup.UiView_SolarSchoolChooseCardPopup",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Popup/PC_UiView_SolarSchoolChooseCardPopup.PC_UiView_SolarSchoolChooseCardPopup",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolEntrance",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/ActivityMain/UiView_SolarSchoolEntrance.UiView_SolarSchoolEntrance",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/ActivityMain/PC_UiView_SolarSchoolEntrance.PC_UiView_SolarSchoolEntrance",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolNotice",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Notice/UiView_SolarSchoolNotice.UiView_SolarSchoolNotice",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Notice/PC_UiView_SolarSchoolNotice.PC_UiView_SolarSchoolNotice",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "PnlEchoStackB",
     "Path": "/Game/Aki/UI/UIResources/UiInventory/Prefabs/PnlEchoStackB.PnlEchoStackB",
     "PcPath": "",
@@ -48395,6 +48767,13 @@
     "Id": "UiItem_QteBtnSingleTap37",
     "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PlotQTE/UiItem_QteBtnSingleTap37.UiItem_QteBtnSingleTap37",
     "PcPath": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PC/PlotQTE/PC_UiItem_QteBtnSingleTap37.PC_UiItem_QteBtnSingleTap37",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiView_RoverElementChange",
+    "Path": "/Game/Aki/UI/UIResources/UiRole/Prefabs/RoverElementChange/UiView_RoverElementChange.UiView_RoverElementChange",
+    "PcPath": "/Game/Aki/UI/UIResources/UiRole/Prefabs/PC/RoverElementChange/PC_UiView_RoverElementChange.PC_UiView_RoverElementChange",
     "ResourceType": "Common",
     "ActivityType": []
   },
@@ -48418,6 +48797,24 @@
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
+  },
+  {
+    "Id": "UiView_SolarSchoolMissionDetail",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/MissionDetail/UiView_SolarSchoolMissionDetail.UiView_SolarSchoolMissionDetail",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/MissionDetail/PC_UiView_SolarSchoolMissionDetail.PC_UiView_SolarSchoolMissionDetail",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolLetter",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Letter/UiView_SolarSchoolLetter.UiView_SolarSchoolLetter",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Letter/PC_UiView_SolarSchoolLetter.PC_UiView_SolarSchoolLetter",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
   },
   {
     "Id": "SP_DangoBrawlSwordHardNor",
@@ -48450,6 +48847,87 @@
     "PcPath": "/Game/Aki/UI/UIResources/UiWorldMap/Prefabs/PC/PC_UiItem_TrackedMarkJump.PC_UiItem_TrackedMarkJump",
     "ResourceType": "Common",
     "ActivityType": []
+  },
+  {
+    "Id": "UiView_SolarSchoolPlotText",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/UiView_SolarSchoolPlotText.UiView_SolarSchoolPlotText",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/PC_UiView_SolarSchoolPlotText.PC_UiView_SolarSchoolPlotText",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolAcquireList",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/UiView_SolarSchoolAcquireList.UiView_SolarSchoolAcquireList",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolAcquireListA",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/UiItem_SolarSchoolAcquireListA.UiItem_SolarSchoolAcquireListA",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolAcquireListB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/UiItem_SolarSchoolAcquireListB.UiItem_SolarSchoolAcquireListB",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolAcquireListC",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/UiItem_SolarSchoolAcquireListC.UiItem_SolarSchoolAcquireListC",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolAcquireBg",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Acquire/T_SolarSchoolAcquireBg.T_SolarSchoolAcquireBg",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolAcquireDownBg",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Acquire/T_SolarSchoolAcquireDownBg.T_SolarSchoolAcquireDownBg",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SP_SolarSchoolAcquireUp",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolAcquireUp.SP_SolarSchoolAcquireUp",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SP_SolarSchoolAcquireDown",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolAcquireDown.SP_SolarSchoolAcquireDown",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
   },
   {
     "Id": "SP_IconMapFlower",
@@ -48485,6 +48963,33 @@
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
+  },
+  {
+    "Id": "UiView_SolarSchoolForum",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Letter/UiView_SolarSchoolForum.UiView_SolarSchoolForum",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Letter/PC_UiView_SolarSchoolForum.PC_UiView_SolarSchoolForum",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolRewardA",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Reward/UiView_SolarSchoolRewardA.UiView_SolarSchoolRewardA",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Reward/PC_UiView_SolarSchoolRewardA.PC_UiView_SolarSchoolRewardA",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolRewardB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Reward/UiView_SolarSchoolRewardB.UiView_SolarSchoolRewardB",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Reward/PC_UiView_SolarSchoolRewardB.PC_UiView_SolarSchoolRewardB",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
   },
   {
     "Id": "T_Welfare37A",
@@ -48594,6 +49099,69 @@
     "ActivityType": []
   },
   {
+    "Id": "UiView_SolarSchoolTujian",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Tujian/UiView_SolarSchoolTujian.UiView_SolarSchoolTujian",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Tujian/PC_UiView_SolarSchoolTujian.PC_UiView_SolarSchoolTujian",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolTujianA",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Tujian/UiItem_SolarSchoolTujianA.UiItem_SolarSchoolTujianA",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Tujian/PC_UiItem_SolarSchoolTujianA.PC_UiItem_SolarSchoolTujianA",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolTujianB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Tujian/UiItem_SolarSchoolTujianB.UiItem_SolarSchoolTujianB",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Tujian/PC_UiItem_SolarSchoolTujianB.PC_UiItem_SolarSchoolTujianB",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolTujianC",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Tujian/UiItem_SolarSchoolTujianC.UiItem_SolarSchoolTujianC",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Tujian/PC_UiItem_SolarSchoolTujianC.PC_UiItem_SolarSchoolTujianC",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolTujianADetail",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Tujian/UiView_SolarSchoolTujianADetail.UiView_SolarSchoolTujianADetail",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Tujian/PC_UiView_SolarSchoolTujianADetail.PC_UiView_SolarSchoolTujianADetail",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolTujianBDetail",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Tujian/UiView_SolarSchoolTujianBDetail.UiView_SolarSchoolTujianBDetail",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Tujian/PC_UiView_SolarSchoolTujianBDetail.PC_UiView_SolarSchoolTujianBDetail",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolTujianCDetail",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Tujian/UiView_SolarSchoolTujianCDetail.UiView_SolarSchoolTujianCDetail",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Tujian/PC_UiView_SolarSchoolTujianCDetail.PC_UiView_SolarSchoolTujianCDetail",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "UiItem_CG3_7_C_05_Seq_p1",
     "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_7/UiItem_CG3_7_C_05_Seq_p1.UiItem_CG3_7_C_05_Seq_p1",
     "PcPath": "",
@@ -48624,6 +49192,15 @@
     ]
   },
   {
+    "Id": "UiView_SolarSchoolScratchTicket",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ScratchoffTicket/UiItem_SolarSchoolScratchoff.UiItem_SolarSchoolScratchoff",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ScratchoffTicket/PC_UiItem_SolarSchoolScratchoff.PC_UiItem_SolarSchoolScratchoff",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "T_MSTLTiles_-5_-3_UI",
     "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/MSTLTiles/T_MSTLTiles_-5_-3_UI.T_MSTLTiles_-5_-3_UI",
     "PcPath": "",
@@ -48645,9 +49222,39 @@
     "ActivityType": []
   },
   {
+    "Id": "UiView_SolarSchoolShop",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Shop/UiView_SolarSchoolShop.UiView_SolarSchoolShop",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Shop/PC_UiView_SolarSchoolShop.PC_UiView_SolarSchoolShop",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "UiItem_TxtBtnLongPress",
     "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PlotQTE/UiItem_TxtBtnLongPress.UiItem_TxtBtnLongPress",
     "PcPath": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PC/PlotQTE/PC_UiItem_TxtBtnLongPress.PC_UiItem_TxtBtnLongPress",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "SP_ShopTimeIcon",
+    "Path": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopTimeIcon.SP_ShopTimeIcon",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "SP_ShopTimeIcon1",
+    "Path": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopTimeIcon1.SP_ShopTimeIcon1",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_ScreenTxt",
+    "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/CGTexMS/UiItem_ScreenTxt.UiItem_ScreenTxt",
+    "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
   },
@@ -48658,6 +49265,24 @@
     "ResourceType": "Activity",
     "ActivityType": [
       "MatchThree"
+    ]
+  },
+  {
+    "Id": "SP_SolarSchoolAcquireDownB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolAcquireDownB.SP_SolarSchoolAcquireDownB",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SP_SolarSchoolAcquireUpB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolAcquireUpB.SP_SolarSchoolAcquireUpB",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
     ]
   },
   {
@@ -48680,6 +49305,99 @@
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
+  },
+  {
+    "Id": "UiView_SolarSchoolFavorabilityPopup",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolFavorabilityPopup.UiView_SolarSchoolFavorabilityPopup",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Popup/PC_UiView_SolarSchoolFavorabilityPopup.PC_UiView_SolarSchoolFavorabilityPopup",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolInfoFriendSongBlue01",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/InfoOverview/T_SolarSchoolInfoFriendSongBlue01.T_SolarSchoolInfoFriendSongBlue01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolInfoFriendSongGray01",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/InfoOverview/T_SolarSchoolInfoFriendSongGray01.T_SolarSchoolInfoFriendSongGray01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolInfoFriendSongGreen01",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/InfoOverview/T_SolarSchoolInfoFriendSongGreen01.T_SolarSchoolInfoFriendSongGreen01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolInfoFriendSongPink01",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/InfoOverview/T_SolarSchoolInfoFriendSongPink01.T_SolarSchoolInfoFriendSongPink01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_PullLeft",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PlotQTE/UiItem_PlotQtePullLeft.UiItem_PlotQtePullLeft",
+    "PcPath": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PC/PlotQTE/PC_UiItem_PlotQtePullLeft.PC_UiItem_PlotQtePullLeft",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_ItemRoverElement",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemRoverElement.UiItem_ItemRoverElement",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_SolarSchoolMissionBig",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Mission/UiItem_SolarSchoolMissionBig.UiItem_SolarSchoolMissionBig",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Mission/PC_UiItem_SolarSchoolMissionBig.PC_UiItem_SolarSchoolMissionBig",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_SolarSchoolMissionSmall",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Mission/UiItem_SolarSchoolMissionSmall.UiItem_SolarSchoolMissionSmall",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Mission/PC_UiItem_SolarSchoolMissionSmall.PC_UiItem_SolarSchoolMissionSmall",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_PlanOverview",
+    "Path": "/Game/Aki/UI/UIResources/UiRole/Prefabs/RoleDevelopment/UiItem_PlanOverview.UiItem_PlanOverview",
+    "PcPath": "/Game/Aki/UI/UIResources/UiRole/Prefabs/PC/RoleDevelopment/PC_UiItem_PlanOverview.PC_UiItem_PlanOverview",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_SolarSchoolCaptionC",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/UiItem_SolarSchoolCaptionC.UiItem_SolarSchoolCaptionC",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/PC_UiItem_SolarSchoolCaptionC.PC_UiItem_SolarSchoolCaptionC",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
   },
   {
     "Id": "UiItem_ItemEffectAbsorb",
@@ -48707,8 +49425,90 @@
     "ActivityType": []
   },
   {
+    "Id": "UiView_SolarSchoolPrizeDrawing",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity27/PrizeDrawing/UiView_SolarSchoolPrizeDrawing.UiView_SolarSchoolPrizeDrawing",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity27/PrizeDrawing/PC_UiView_SolarSchoolPrizeDrawing.PC_UiView_SolarSchoolPrizeDrawing",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolPrizeDrawingTear",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity27/PrizeDrawing/UiView_PrizeDrawingTear.UiView_PrizeDrawingTear",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity27/PrizeDrawing/PC_UiView_PrizeDrawingTear.PC_UiView_PrizeDrawingTear",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "GachaSpineItem_LiLi",
+    "Path": "/Game/Aki/UI/UIResources/UiLuckdraw/Prefabs/LuckdrawRole/UiItem_LuckdrawRoleLiLi.UiItem_LuckdrawRoleLiLi",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_ItemRoleDevEquipped",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemRoleDevEquipped.UiItem_ItemRoleDevEquipped",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_ItemRoleDevRank",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemRoleDevRank.UiItem_ItemRoleDevRank",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
     "Id": "T_CommonNone_UI",
     "Path": "/Game/Aki/UI/UIResources/Common/Image/T_CommonNone_UI.T_CommonNone_UI",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "TexRoleShadow_Male",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Exam/T_SolarSchoolExamPicShadow01.T_SolarSchoolExamPicShadow01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "TexRoleShadow_Female",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Exam/T_SolarSchoolExamPicShadow01F.T_SolarSchoolExamPicShadow01F",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SP_SolarSchoolExamCheck",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Exam/SP_SolarSchoolExamCheck.SP_SolarSchoolExamCheck",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SP_SolarSchoolExamGoto",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Exam/SP_SolarSchoolExamGoto.SP_SolarSchoolExamGoto",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_RoleDevelopRecommendB",
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/Com/T_RoleDevelopRecommendB.T_RoleDevelopRecommendB",
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
@@ -48719,6 +49519,24 @@
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
+  },
+  {
+    "Id": "UiItem_SolarSchoolMission",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Mission/UiItem_SolarSchoolMission.UiItem_SolarSchoolMission",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Mission/PC_UiItem_SolarSchoolMission.PC_UiItem_SolarSchoolMission",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolSave",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Save/UiView_SolarSchoolSave.UiView_SolarSchoolSave",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Save/PC_UiView_SolarSchoolSave.PC_UiView_SolarSchoolSave",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
   },
   {
     "Id": "UiItem_SeqTextA",
@@ -48758,12 +49576,274 @@
     ]
   },
   {
+    "Id": "T_SolarSchoolInfoFriendSongBlue02",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/InfoOverview/T_SolarSchoolInfoFriendSongBlue02.T_SolarSchoolInfoFriendSongBlue02",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolInfoFriendSongGray02",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/InfoOverview/T_SolarSchoolInfoFriendSongGray02.T_SolarSchoolInfoFriendSongGray02",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolInfoFriendSongGreen02",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/InfoOverview/T_SolarSchoolInfoFriendSongGreen02.T_SolarSchoolInfoFriendSongGreen02",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolInfoFriendSongPink02",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/InfoOverview/T_SolarSchoolInfoFriendSongPink02.T_SolarSchoolInfoFriendSongPink02",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_PhoneSystemCardIcon",
+    "Path": "/Game/Aki/UI/UIResources/UiPhoneSystem/Image/Main/T_PhoneSystemCardIcon.T_PhoneSystemCardIcon",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "T_PhoneSystemCardIcon02",
+    "Path": "/Game/Aki/UI/UIResources/UiPhoneSystem/Image/Main/T_PhoneSystemCardIcon02.T_PhoneSystemCardIcon02",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
     "Id": "ActivitySignIn_3_7",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity37/SignIn37/UiItem_SignIn37.UiItem_SignIn37",
     "PcPath": "",
     "ResourceType": "Activity",
     "ActivityType": [
       "Sign"
+    ]
+  },
+  {
+    "Id": "UiItem_ShopSkinFeixue",
+    "Path": "/Game/Aki/UI/UIResources/UiShop/Prefabs/ShopSkin/UiItem_ShopSkinFeixue.UiItem_ShopSkinFeixue",
+    "PcPath": "/Game/Aki/UI/UIResources/UiShop/Prefabs/PC/ShopSkin/PC_UiItem_ShopSkinFeixue.PC_UiItem_ShopSkinFeixue",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "T_ShopTabRoleFeixue1",
+    "Path": "/Game/Aki/UI/UIResources/UiShop/Image/ShopTab/T_ShopTabRoleFeixue1.T_ShopTabRoleFeixue1",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiView_MowingTowerEnterMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Main/UiView_MowingTowerEnterMain.UiView_MowingTowerEnterMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Main/PC_UiView_MowingTowerEnterMain.PC_UiView_MowingTowerEnterMain",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTowerLevelMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/LevelMain/UiView_MowingTowerLevelMain.UiView_MowingTowerLevelMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/LevelMain/PC_UiView_MowingTowerLevelMain.PC_UiView_MowingTowerLevelMain",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiItem_MowingTowerGuide",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Guide/UiItem_MowingTowerGuide.UiItem_MowingTowerGuide",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Guide/PC_UiItem_MowingTowerGuide.PC_UiItem_MowingTowerGuide",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTowerRankView",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Rank/UiView_MowingTowerRankView.UiView_MowingTowerRankView",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Rank/PC_UiView_MowingTowerRankView.PC_UiView_MowingTowerRankView",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiItem_MowingTowerMonsterPopup38",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/MonsterInfo/UiItem_MowingTowerMonsterPopup38.UiItem_MowingTowerMonsterPopup38",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/MonsterInfo/PC_UiItem_MowingTowerMonsterPopup38.PC_UiItem_MowingTowerMonsterPopup38",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTowerReward38",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Reward/UiView_MowingTowerReward38.UiView_MowingTowerReward38",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Reward/PC_UiView_MowingTowerReward38.PC_UiView_MowingTowerReward38",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_RolePropertyPreview",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/PropertyPreview/UiView_RolePropertyPreview.UiView_RolePropertyPreview",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/PropertyPreview/PC_UiView_RolePropertyPreview.PC_UiView_RolePropertyPreview",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_VisionInfoDetail",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/PropertyPreview/UiView_VisionInfoDetail.UiView_VisionInfoDetail",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/PropertyPreview/PC_UiView_VisionInfoDetail.PC_UiView_VisionInfoDetail",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MonsterSelectView",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/MonsterSelect/UiView_MonsterSelectView.UiView_MonsterSelectView",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Fight/MonsterSelect/PC_UiView_MonsterSelectView.PC_UiView_MonsterSelectView",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTowerCountdown",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/UiView_MowingTowerCountdown.UiView_MowingTowerCountdown",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTowerFightHud",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/UiView_MowingTowerFightHud.UiView_MowingTowerFightHud",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTowerBossTips",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/UiView_MowingTowerBossTips.UiView_MowingTowerBossTips",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_BuffDetailPop",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/UiView_BuffDetailPop.UiView_BuffDetailPop",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Fight/PC_UiView_BuffDetailPop.PC_UiView_BuffDetailPop",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTowerPause38",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/UiView_MowingTowerPause38.UiView_MowingTowerPause38",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Fight/PC_UiView_MowingTowerPause38.PC_UiView_MowingTowerPause38",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_BattleResultView",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/BattleResult/UiView_BattleResultView.UiView_BattleResultView",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Fight/BattleResult/PC_UiView_BattleResultView.PC_UiView_BattleResultView",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTower38Settlement",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/BattleResult/UiView_MowingTower38Settlement.UiView_MowingTower38Settlement",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Fight/BattleResult/PC_UiView_MowingTower38Settlement.PC_UiView_MowingTower38Settlement",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiItem_ActivityRoleTower",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/ActivityMain/UiView_MowingTowerActivityMain38.UiView_MowingTowerActivityMain38",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/ActivityMain/PC_UiView_MowingTowerActivityMain38.PC_UiView_MowingTowerActivityMain38",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_RoleFightRecordView",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/RoleFightRecord/UiView_RoleFightRecordView.UiView_RoleFightRecordView",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/RoleFightRecord/PC_UiView_RoleFightRecordView.PC_UiView_RoleFightRecordView",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_RoleUpgradeView",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/UiView_RoleUpgradeView.UiView_RoleUpgradeView",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Fight/PC_UiView_RoleUpgradeView.PC_UiView_RoleUpgradeView",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "BtnToken",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/BtnToken.BtnToken",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Fight/PC_BtnToken.PC_BtnToken",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiItem_VisionITogItem",
+    "Path": "/Game/Aki/UI/UIResources/UiRole/Prefabs/RoleVision/UiItem_VisionITogItem.UiItem_VisionITogItem",
+    "PcPath": "/Game/Aki/UI/UIResources/UiRole/Prefabs/PC/RoleVision/PC_UiItem_VisionITogItem.PC_UiItem_VisionITogItem",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiItem_VisionITogItemS",
+    "Path": "/Game/Aki/UI/UIResources/UiRole/Prefabs/RoleVision/UiItem_VisionITogItemS.UiItem_VisionITogItemS",
+    "PcPath": "/Game/Aki/UI/UIResources/UiRole/Prefabs/PC/RoleVision/PC_UiItem_VisionITogItemS.PC_UiItem_VisionITogItemS",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
     ]
   },
   {
@@ -48839,6 +49919,15 @@
     "ActivityType": []
   },
   {
+    "Id": "UiView_SolarSchoolLoadingA",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Loading/UiView_SolarSchoolLoadingA.UiView_SolarSchoolLoadingA",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Loading/PC_UiView_SolarSchoolLoadingA.PC_UiView_SolarSchoolLoadingA",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "M_VideoTextureMat_TextureClip",
     "Path": "/Game/Aki/UI/UIResources/UiPlot/Materials/M_VideoTextureMat_TextureClip.M_VideoTextureMat_TextureClip",
     "PcPath": "",
@@ -48846,11 +49935,45 @@
     "ActivityType": []
   },
   {
+    "Id": "UiItem_SolarSchoolBehavior",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Behavior/UiItem_SolarSchoolBehavior.UiItem_SolarSchoolBehavior",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Behavior/PC_UiItem_SolarSchoolBehavior.PC_UiItem_SolarSchoolBehavior",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "RoleTowerScrollCurve",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Curve/Activity38/RoleTower/Curve_Scroll.Curve_Scroll",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
     "Id": "SummonPreviewTitle_Icon",
     "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconShopSkinMoto.SP_IconShopSkinMoto",
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
+  },
+  {
+    "Id": "SP_IconT101",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT101.SP_IconT101",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiView_SolarSchoolEndingPPT",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Ending/UiView_SolarSchoolEndingPPT.UiView_SolarSchoolEndingPPT",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Ending/PC_UiView_SolarSchoolEndingPPT.PC_UiView_SolarSchoolEndingPPT",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
   },
   {
     "Id": "UiItem_CG3_7_M3_13_35_p1_Female",
@@ -48867,6 +49990,51 @@
     "ActivityType": []
   },
   {
+    "Id": "UiView_SolarSchoolLoadingC",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Loading/UiView_SolarSchoolLoadingC.UiView_SolarSchoolLoadingC",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolSummary",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Event/UiView_SolarSchoolSummary.UiView_SolarSchoolSummary",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Event/PC_UiView_SolarSchoolSummary.PC_UiView_SolarSchoolSummary",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SP_SolarSchoolScheduleTog01IconD",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Schedule/SP_SolarSchoolScheduleTog01IconD.SP_SolarSchoolScheduleTog01IconD",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolUpgradePopup",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Popup/UiView_SolarSchoolUpgradePopup.UiView_SolarSchoolUpgradePopup",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/SolarSchool/Popup/PC_UiView_SolarSchoolUpgradePopup.PC_UiView_SolarSchoolUpgradePopup",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_SolarSchoolIconDone",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolIconDone.T_SolarSchoolIconDone",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
     "Id": "UiItem_TeamRoleSlotC",
     "Path": "/Game/Aki/UI/UIResources/UiTeam/Prefabs/UiItem_TeamRoleSlotC.UiItem_TeamRoleSlotC",
     "PcPath": "",
@@ -48879,6 +50047,70 @@
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []
+  },
+  {
+    "Id": "UiItem_CG3_8_M3_14_34_p1",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_8/UiItem_CG3_8_M3_14_34_p1.UiItem_CG3_8_M3_14_34_p1",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_CG3_8_M3_14_34_p2",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_8/UiItem_CG3_8_M3_14_34_p2.UiItem_CG3_8_M3_14_34_p2",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_CG3_8_M3_14_34_p3",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_8/UiItem_CG3_8_M3_14_34_p3.UiItem_CG3_8_M3_14_34_p3",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_CG3_8_M3_14_09_p1",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_8/UiItem_CG3_8_M3_14_09_p1.UiItem_CG3_8_M3_14_09_p1",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "TexRoleShadowLight_Male",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Exam/T_SolarSchoolExamPicShadowLight01.T_SolarSchoolExamPicShadowLight01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "TexRoleShadowLight_Female",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Exam/T_SolarSchoolExamPicShadowLight01F.T_SolarSchoolExamPicShadowLight01F",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "TexRoleShadowMask_Male",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Exam/T_SolarSchoolExamPicShadowMask01.T_SolarSchoolExamPicShadowMask01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "TexRoleShadowMask_Female",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/Exam/T_SolarSchoolExamPicShadowMask01F.T_SolarSchoolExamPicShadowMask01F",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
   },
   {
     "Id": "T_MSTLTiles_-2_-3_UI",
@@ -48923,8 +50155,488 @@
     "ActivityType": []
   },
   {
+    "Id": "UiView_SolarSchoolLoadingB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Loading/UiView_SolarSchoolLoadingB.UiView_SolarSchoolLoadingB",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "PnlRoleItemAddtion",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Com/PnlRoleItemAddtion.PnlRoleItemAddtion",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTower38Loading",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Com/UiView_MowingTower38Loading.UiView_MowingTower38Loading",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "SP_ItemRoverElementFrameBSel",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ItemRoverElementFrameBSel.SP_ItemRoverElementFrameBSel",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "SP_ItemRoverElementFrameBNor",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ItemRoverElementFrameBNor.SP_ItemRoverElementFrameBNor",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "Curve_MowingTowerAlpha",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Curve/Activity38/MowingTower/Curve_MowingTowerAlpha.Curve_MowingTowerAlpha",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "Curve_MowingTowerScale",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Curve/Activity38/MowingTower/Curve_MowingTowerScale.Curve_MowingTowerScale",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "Curve_MowingTowerXY",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Curve/Activity38/MowingTower/Curve_MowingTowerXY.Curve_MowingTowerXY",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
     "Id": "T_PlatformXboxW40",
     "Path": "/Game/Aki/UI/UIResources/Common/Image/IconPlatform/T_PlatformXboxW40.T_PlatformXboxW40",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_CG3_8_weilai",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_8/UiItem_CG3_8_weilai.UiItem_CG3_8_weilai",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "SP_PhoneSystemActivity4",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconPhoneTrack03.SP_IconPhoneTrack03",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "SP_PhoneSystemActivity5",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconPhoneTrack01.SP_IconPhoneTrack01",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "SP_PhoneSystemActivity8",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconPhoneTrack05.SP_IconPhoneTrack05",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "ActivitySignIn_3_8",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SignIn38/UiItem_SignIn38A.UiItem_SignIn38A",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "Sign"
+    ]
+  },
+  {
+    "Id": "SolarSchoolCurve_Map",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Curve/Activity38/SolarSchool/Curve_Map.Curve_Map",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SP_PhoneSystemActivity0",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconPhoneTrack04.SP_IconPhoneTrack04",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiView_TimeRecord",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/RoleFightRecord/UiView_TimeRecord.UiView_TimeRecord",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/RoleFightRecord/PC_UiView_TimeRecord.PC_UiView_TimeRecord",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "ActivitySignIn_3_8_1",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SignIn38/UiItem_SignIn38.UiItem_SignIn38",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "Sign"
+    ]
+  },
+  {
+    "Id": "UiItem_CG3_8_M3_14_33_p1_Female",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_8/UiItem_CG3_8_M3_14_33_p1_Female.UiItem_CG3_8_M3_14_33_p1_Female",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_CG3_8_M3_14_33_p1_Male",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_8/UiItem_CG3_8_M3_14_33_p1_Male.UiItem_CG3_8_M3_14_33_p1_Male",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "T_ScheduleCellBgFixed",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Schedule/SP_SolarSchoolScheduleItemBg01.SP_SolarSchoolScheduleItemBg01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_ScheduleCellBgLow",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Schedule/SP_SolarSchoolScheduleItemBg01.SP_SolarSchoolScheduleItemBg01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_ScheduleCellBgNormal",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Schedule/SP_SolarSchoolScheduleItemBg03.SP_SolarSchoolScheduleItemBg03",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_ScheduleCellBgSpecial",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Schedule/SP_SolarSchoolScheduleItemBg02.SP_SolarSchoolScheduleItemBg02",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_ScheduleCellBgOtherWeek",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Schedule/SP_SolarSchoolScheduleItemBg01B.SP_SolarSchoolScheduleItemBg01B",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_ScheduleCellBgEmpty",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Activity38/SolarSchool/Schedule/SP_SolarSchoolScheduleItemBg01.SP_SolarSchoolScheduleItemBg01",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolCurve_Card",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Curve/Activity38/SolarSchool/Curve_Card.Curve_Card",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_MowingTowerRankBgA",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/MowingTower/Rank/T_MowingTowerRankBgA.T_MowingTowerRankBgA",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "T_MowingTowerRankBgB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/MowingTower/Rank/T_MowingTowerRankBgB.T_MowingTowerRankBgB",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "T_MowingTowerRankBgC",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/MowingTower/Rank/T_MowingTowerRankBgC.T_MowingTowerRankBgC",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolSet",
+    "Path": "/Game/Aki/UI/UIResources/UiSet/Prefabs/UiView_SolarSchoolSet.UiView_SolarSchoolSet",
+    "PcPath": "/Game/Aki/UI/UIResources/UiSet/Prefabs/PC/PC_UiView_SolarSchoolSet.PC_UiView_SolarSchoolSet",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_EnemyLevel",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity26/TowerDefense/EnemyInfo/UiItem_EnemyCount.UiItem_EnemyCount",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiItem_ItemBElementB3",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemBElementB3.UiItem_ItemBElementB3",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "UiView_SolarSchoolOpeningTips",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/UiView_SolarSchoolOpeningTips.UiView_SolarSchoolOpeningTips",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiView_MowingTowerFightExit",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/MowingTower/Fight/UiView_MowingTowerFightExit.UiView_MowingTowerFightExit",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Activity38/MowingTower/Fight/PC_UiView_MowingTowerFightExit.PC_UiView_MowingTowerFightExit",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "RoleTower"
+    ]
+  },
+  {
+    "Id": "SolarSchoolHomeMorningSpineFemaleAtlas",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Female_Bedroom_AM/SolarSchool_Female_Bedroom_AM.SolarSchool_Female_Bedroom_AM-atlas",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolHomeMorningSpineFemaleData",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Female_Bedroom_AM/SolarSchool_Female_Bedroom_AM.SolarSchool_Female_Bedroom_AM-data",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolHomeMorningSpineMaleAtlas",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Male_Bedroom_AM/SolarSchool_Male_Bedroom_AM.SolarSchool_Male_Bedroom_AM-atlas",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolHomeMorningSpineMaleData",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Male_Bedroom_AM/SolarSchool_Male_Bedroom_AM.SolarSchool_Male_Bedroom_AM-data",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolHomeDuskSpineFemaleAtlas",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Female_Bedroom_PM/SolarSchool_Female_Bedroom_PM.SolarSchool_Female_Bedroom_PM-atlas",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolHomeDuskSpineFemaleData",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Female_Bedroom_PM/SolarSchool_Female_Bedroom_PM.SolarSchool_Female_Bedroom_PM-data",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolHomeDuskSpineMaleAtlas",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Male_Bedroom_PM/SolarSchool_Male_Bedroom_PM.SolarSchool_Male_Bedroom_PM-atlas",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolHomeDuskSpineMaleData",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Male_Bedroom_PM/SolarSchool_Male_Bedroom_PM.SolarSchool_Male_Bedroom_PM-data",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolClassroomMorningSpineFemaleAtlas",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Female_Classroom_AM/SolarSchool_Female_Classroom_AM.SolarSchool_Female_Classroom_AM-atlas",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolClassroomMorningSpineFemaleData",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Female_Classroom_AM/SolarSchool_Female_Classroom_AM.SolarSchool_Female_Classroom_AM-data",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolClassroomMorningSpineMaleAtlas",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Male_Classroom_AM/SolarSchool_Male_Classroom_AM.SolarSchool_Male_Classroom_AM-atlas",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolClassroomMorningSpineMaleData",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolHomepage/SolarSchool_Male_Classroom_AM/SolarSchool_Male_Classroom_AM.SolarSchool_Male_Classroom_AM-data",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolMainSpineMaleAtlas",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolMain_Male/SolarSchoolMain_Male.SolarSchoolMain_Male-atlas",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolMainSpineMaleData",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolMain_Male/SolarSchoolMain_Male.SolarSchoolMain_Male-data",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolMainSpineFemaleAtlas",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolMain_Female/SolarSchoolMain_Female.SolarSchoolMain_Female-atlas",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "SolarSchoolMainSpineFemaleData",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchoolMain_Female/SolarSchoolMain_Female.SolarSchoolMain_Female-data",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_CG3_8_M3_14_13_p1_Female",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_8/UiItem_CG3_8_M3_14_13_p1_Female.UiItem_CG3_8_M3_14_13_p1_Female",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiItem_CG3_8_M3_14_13_p1_Male",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG3_8/UiItem_CG3_8_M3_14_13_p1_Male.UiItem_CG3_8_M3_14_13_p1_Male",
+    "PcPath": "",
+    "ResourceType": "Common",
+    "ActivityType": []
+  },
+  {
+    "Id": "UiView_PlotTransitionSolorSchool",
+    "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/UiView_PlotTransitionSolorSchool.UiView_PlotTransitionSolorSchool",
+    "PcPath": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/PC/PC_UiView_PlotTransitionSolorSchool.PC_UiView_PlotTransitionSolorSchool",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_IconSolarSchoolSumTonggao",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolSumTonggao.T_IconSolarSchoolSumTonggao",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "T_IconSolarSchoolZS00Coin",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Coin.T_IconSolarSchoolZS00Coin",
+    "PcPath": "",
+    "ResourceType": "Activity",
+    "ActivityType": [
+      "SolarSchool"
+    ]
+  },
+  {
+    "Id": "UiItem_ScreenTxtCover",
+    "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/CGTexMS/UiItem_ScreenTxtCover.UiItem_ScreenTxtCover",
     "PcPath": "",
     "ResourceType": "Common",
     "ActivityType": []

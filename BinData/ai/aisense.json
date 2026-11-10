@@ -1182,7 +1182,7 @@
       "Max": 170
     },
     "CantBeBlock": true,
-    "BlockType": 0,
+    "BlockType": 8,
     "WalkSenseRate": 1,
     "AirSenseRate": 1,
     "SenseTarget": 0
@@ -4978,6 +4978,28 @@
     "SenseDistanceRange": {
       "Min": 20000,
       "Max": 30000
+    },
+    "HorizontalAngle": {
+      "Min": -180,
+      "Max": 180
+    },
+    "VerticalAngle": {
+      "Min": -90,
+      "Max": 90
+    },
+    "CantBeBlock": false,
+    "BlockType": 0,
+    "WalkSenseRate": 1,
+    "AirSenseRate": 1,
+    "SenseTarget": 0
+  },
+  {
+    "Id": 7018201,
+    "SenseType": 1,
+    "DefaultEnabled": true,
+    "SenseDistanceRange": {
+      "Min": 900,
+      "Max": 3000
     },
     "HorizontalAngle": {
       "Min": -180,

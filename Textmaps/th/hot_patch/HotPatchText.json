@@ -125,11 +125,11 @@
   },
   {
     "Id": "ResolveIndexFile",
-    "Content": "กำลังวิเคราะห์ทรัพยากรแพตซ์..."
+    "Content": "กำลังวิเคราะห์ทรัพยากรแพตช์..."
   },
   {
     "Id": "MountPak",
-    "Content": "กำลังดำเนินการแพตซ์ทรัพยากร..."
+    "Content": "กำลังดำเนินการแพตช์ทรัพยากร..."
   },
   {
     "Id": "CompleteHotFix",
@@ -137,23 +137,23 @@
   },
   {
     "Id": "DownloadIndexFileFailed",
-    "Content": "รับข้อมูลรายการแพตซ์ไม่สำเร็จ: {0}"
+    "Content": "รับข้อมูลรายการแพตช์ไม่สำเร็จ: {0}"
   },
   {
     "Id": "DownloadResourcePatchFailed",
-    "Content": "ดาวน์โหลดทรัพยากรแพตซ์ไม่สำเร็จ: {0}"
+    "Content": "ดาวน์โหลดทรัพยากรแพตช์ไม่สำเร็จ: {0}"
   },
   {
     "Id": "EvaluateDownloadResourcePatchFailed",
-    "Content": "ดาวน์โหลดทรัพยากรแพตซ์ไม่สำเร็จ: {0}"
+    "Content": "ดาวน์โหลดทรัพยากรแพตช์ไม่สำเร็จ: {0}"
   },
   {
     "Id": "GetResourceInfoFailed",
-    "Content": "โหลดประเภทของแพตซ์ไม่สำเร็จ"
+    "Content": "โหลดประเภทของแพตช์ไม่สำเร็จ"
   },
   {
     "Id": "ResolveIndexFileFailed",
-    "Content": "วิเคราะห์ข้อมูลรายการแพตซ์ไม่สำเร็จ โปรดเริ่มไคลเอนต์เกมและลองอีกครั้ง หรือติดต่อฝ่ายบริการลูกค้า"
+    "Content": "วิเคราะห์ข้อมูลรายการแพตช์ไม่สำเร็จ โปรดเริ่มไคลเอนต์เกมและลองอีกครั้ง หรือติดต่อฝ่ายบริการลูกค้า"
   },
   {
     "Id": "ValidateResourceFailed",
@@ -241,11 +241,11 @@
   },
   {
     "Id": "PatchClear",
-    "Content": "จะลบทรัพยากรแพตซ์ในเครื่องและดาวน์โหลดอีกครั้ง คุณต้องการดำเนินการต่อหรือไม่?"
+    "Content": "จะลบทรัพยากรแพตช์ในเครื่องและดาวน์โหลดอีกครั้ง คุณต้องการดำเนินการต่อหรือไม่?"
   },
   {
     "Id": "PatchClearTitle",
-    "Content": "ล้างแพตซ์"
+    "Content": "ล้างแพตช์"
   },
   {
     "Id": "PatchClearbutton",
@@ -365,7 +365,7 @@
   },
   {
     "Id": "NetworkDetection_Submiting",
-    "Content": "คัดลอกผลลัพธ์การทดสอบแล้ว กำลังส่งรายงานข้อผิดพลาด..."
+    "Content": "คัดลอกผลค่าวิกฤตเรโซแนนซ์แล้ว กำลังส่งรายงานข้อผิดพลาด..."
   },
   {
     "Id": "NetworkDetection_Select",
@@ -677,15 +677,15 @@
   },
   {
     "Id": "ResourceQualityTier_Smooth",
-    "Content": "ลื่นไหล"
+    "Content": "ลื่นไหล (SD)"
   },
   {
     "Id": "ResourceQualityTier_HD",
-    "Content": "HD"
+    "Content": "สูง (HD)"
   },
   {
     "Id": "ResourceQualityTier_Ultimate",
-    "Content": "สูงสุด"
+    "Content": "สูงสุด (UHD)"
   },
   {
     "Id": "ResourceQualityTier_Current",
@@ -750,5 +750,57 @@
   {
     "Id": "ResourceQualityTier",
     "Content": "เลือก"
+  },
+  {
+    "Id": "LogUpload_Compressing",
+    "Content": "กำลังบีบอัดบันทึก {0}"
+  },
+  {
+    "Id": "LogUpload_Uploading",
+    "Content": "กำลังอัปโหลดบันทึก {0}"
+  },
+  {
+    "Id": "CustomerDescText",
+    "Content": "ฉันได้ติดต่อฝ่ายบริการลูกค้าแล้ว จำเป็นต้องอัปโหลดไฟล์บันทึก"
+  },
+  {
+    "Id": "UploadDescText",
+    "Content": "การอัปโหลดบันทึกจะช่วยให้เราระบุปัญหาได้อย่างรวดเร็ว"
+  },
+  {
+    "Id": "LogUpload_Cancel",
+    "Content": "ยกเลิกการอัปโหลด"
+  },
+  {
+    "Id": "LogUpload_Confirm",
+    "Content": "ยืนยัน"
+  },
+  {
+    "Id": "LogUpload_Retry",
+    "Content": "ลองอีกครั้ง"
+  },
+  {
+    "Id": "LogUpload_ConfirmDesc",
+    "Content": "การอัปโหลดบันทึกจะช่วยให้เราระบุปัญหาได้ โปรดยืนยันก่อนอัปโหลด"
+  },
+  {
+    "Id": "LogUpload_Success",
+    "Content": "อัปโหลดสำเร็จ"
+  },
+  {
+    "Id": "LogUpload_Failed",
+    "Content": "อัปโหลดไม่สำเร็จ จากทั้งหมด {1} ไฟล์ มี {0} ไฟล์ที่อัปโหลดไม่สำเร็จ โปรดลองอีกครั้ง"
+  },
+  {
+    "Id": "LogUpload_Upload",
+    "Content": "อัปโหลด"
+  },
+  {
+    "Id": "ConsoleParallelPackageUpdateDefaultTitle",
+    "Content": "แจ้งเตือน"
+  },
+  {
+    "Id": "ConsoleParallelPackageUpdateDefaultDesc",
+    "Content": "มีการอัปเดตเกมพร้อมใช้งาน โปรดออกจากเกมเพื่อติดตั้งการอัปเดต"
   }
 ]

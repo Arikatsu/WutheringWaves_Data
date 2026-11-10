@@ -2,6 +2,6 @@
 
 > Client region: Global</br>
 > Status: Release</br>
-> Game Version: 3.7.0</br>
-> Resource Version: 3.7.8</br>
-> Changelist: 8975829
+> Game Version: 3.8.0</br>
+> Resource Version: 3.8.6</br>
+> Changelist: 9383927
